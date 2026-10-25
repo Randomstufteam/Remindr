@@ -625,6 +625,9 @@
   <data name="Settings_Version" xml:space="preserve">
     <value>Remindr {0}</value>
   </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
   <data name="Settings_License" xml:space="preserve">
     <value>Licenza {0}</value>
   </data>

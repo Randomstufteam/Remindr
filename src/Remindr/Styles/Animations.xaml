@@ -13,11 +13,23 @@
     <Duration x:Key="DurHeroOut">0:0:0.4</Duration>
     <Duration x:Key="DurHue">0:0:1</Duration>
 
-    <!-- Delay between staggered items, in milliseconds. -->
+    <!-- Remind UI 0.4: an element or view entering, and one leaving. -->
+    <Duration x:Key="DurEnter">0:0:0.32</Duration>
+    <Duration x:Key="DurExit">0:0:0.18</Duration>
+
+    <!-- Delay between staggered items, in milliseconds. Every Dur* and Stagger* key is zeroed under reduced motion (MotionPolicy). -->
     <sys:Double x:Key="StaggerMs">40</sys:Double>
+    <sys:Double x:Key="StaggerRevealMs">90</sys:Double>
 
     <!-- False under reduced motion: decorative loops (blob drift) should not start. -->
     <sys:Boolean x:Key="MotionEnabled">True</sys:Boolean>
 
+    <!-- Second half of the single effects gate: Anim.EffectsEnabled = MotionEnabled AND VisualEffectsEnabled.
+         False with the Debug-only no-effects launch argument; Phase 6.9 "Reduce visual effects" flips it at runtime. Never cached. -->
+    <sys:Boolean x:Key="VisualEffectsEnabled">True</sys:Boolean>
+
     <CubicEase x:Key="EaseOut" EasingMode="EaseOut" />
+    <CubicEase x:Key="EaseInOut" EasingMode="EaseInOut" />
+    <!-- Remind UI 0.4 "pop": a small overshoot. -->
+    <BackEase x:Key="EasePop" EasingMode="EaseOut" Amplitude="0.3" />
 </ResourceDictionary>

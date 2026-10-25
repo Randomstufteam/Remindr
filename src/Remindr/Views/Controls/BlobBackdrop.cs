@@ -126,7 +126,7 @@ public sealed class BlobBackdrop : UserControl
     public void TransitionTo(IReadOnlyList<Color> colors, TimeSpan duration)
     {
         if (colors.Count == 0) return;
-        if (!Anim.MotionEnabled || duration <= TimeSpan.Zero || !IsLoaded)
+        if (!Anim.EffectsEnabled || duration <= TimeSpan.Zero || !IsLoaded)
         {
             SetColors(colors);
             return;
@@ -182,7 +182,7 @@ public sealed class BlobBackdrop : UserControl
     /// <summary>Slow looping drift (20-30 s per loop, AutoReverse). Paused when hidden or minimised; never created under reduced motion.</summary>
     private void UpdateDrift()
     {
-        var run = IsVisible && IsLoaded && BlobsWanted && Anim.MotionEnabled && _window?.WindowState != WindowState.Minimized;
+        var run = IsVisible && IsLoaded && BlobsWanted && Anim.EffectsEnabled && _window?.WindowState != WindowState.Minimized;
         if (run && !_driftCreated) CreateDrift();
         foreach (var clock in _driftClocks)
         {

@@ -134,7 +134,7 @@ public partial class WelcomeView : UserControl
         // The hue tween runs over the same window as the incoming word, so colour and text move together.
         Blobs.TransitionTo(colors, InDuration);
 
-        if (!Anim.MotionEnabled)
+        if (!Anim.EffectsEnabled)
         {
             CrossFade(slot, previous);
             return;

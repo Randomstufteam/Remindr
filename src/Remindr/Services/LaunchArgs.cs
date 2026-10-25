@@ -6,8 +6,10 @@ namespace Remindr.Services;
 /// The command-line switches Remindr understands. Anything else is ignored (an older Run value, a future switch, the
 /// arguments Windows adds). Pure, so it is unit tested.
 /// </summary>
-public sealed record LaunchArgs(bool Minimized, bool Welcome, bool ToastActivated)
+public sealed record LaunchArgs(bool Minimized, bool Welcome, bool ToastActivated, bool NoEffects = false)
 {
+    /// <summary>Debug builds only (see MotionPolicy): turns the visual-effects gate off so every effect is instant.</summary>
+    public const string NoEffectsArg = "--no-effects";
     public const string MinimizedArg = "--minimized";
     public const string WelcomeArg = "--welcome";
     /// <summary>Added by the toast library when Windows starts the app for a toast click.</summary>
@@ -15,14 +17,15 @@ public sealed record LaunchArgs(bool Minimized, bool Welcome, bool ToastActivate
 
     public static LaunchArgs Parse(IEnumerable<string>? args)
     {
-        bool minimized = false, welcome = false, toast = false;
+        bool minimized = false, welcome = false, toast = false, noEffects = false;
         foreach (var a in args ?? Array.Empty<string>())
         {
             if (string.Equals(a, MinimizedArg, StringComparison.OrdinalIgnoreCase)) minimized = true;
             else if (string.Equals(a, WelcomeArg, StringComparison.OrdinalIgnoreCase)) welcome = true;
+            else if (string.Equals(a, NoEffectsArg, StringComparison.OrdinalIgnoreCase)) noEffects = true;
             else if (string.Equals(a, ToastActivatedArg, StringComparison.OrdinalIgnoreCase)) toast = true;
         }
-        return new LaunchArgs(minimized, welcome, toast);
+        return new LaunchArgs(minimized, welcome, toast, noEffects);
     }
 }
 

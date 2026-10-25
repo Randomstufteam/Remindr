@@ -14,18 +14,191 @@ public static class Anim
 {
     // ---- tokens ------------------------------------------------------------------------------------
 
-    public static bool MotionEnabled => Application.Current?.TryFindResource("MotionEnabled") is not false;
+    /// <summary>Where tokens come from (the application resources). Tests replace it; null result = token missing.</summary>
+    public static Func<string, object?> Lookup { get; set; } = key => Application.Current?.TryFindResource(key);
+
+    public static bool MotionEnabled => Lookup("MotionEnabled") is not false;
+
+    /// <summary>
+    /// The single effects gate for Remind UI 0.4: MotionEnabled (Windows animations) AND VisualEffectsEnabled (--no-effects now,
+    /// "Reduce visual effects" in Phase 6.9). Read it when an effect starts and never cache it. When false an effect writes its end state directly.
+    /// </summary>
+    public static bool EffectsEnabled => MotionEnabled && Lookup("VisualEffectsEnabled") is not false;
 
     public static Duration Dur(string key) =>
-        Application.Current?.TryFindResource(key) is Duration d ? d : new Duration(TimeSpan.FromMilliseconds(200));
+        Lookup(key) is Duration d ? d : new Duration(TimeSpan.FromMilliseconds(200));
 
     public static double StaggerMs =>
-        Application.Current?.TryFindResource("StaggerMs") is double d ? d : 40;
+        Lookup("StaggerMs") is double d ? d : 40;
 
     public static IEasingFunction EaseOut =>
-        Application.Current?.TryFindResource("EaseOut") as IEasingFunction ?? new CubicEase { EasingMode = EasingMode.EaseOut };
+        Lookup("EaseOut") as IEasingFunction ?? new CubicEase { EasingMode = EasingMode.EaseOut };
+
+    public static IEasingFunction EasePop =>
+        Lookup("EasePop") as IEasingFunction ?? new BackEase { EasingMode = EasingMode.EaseOut, Amplitude = 0.3 };
+
+    public static IEasingFunction EaseInOut =>
+        Lookup("EaseInOut") as IEasingFunction ?? new CubicEase { EasingMode = EasingMode.EaseInOut };
+
+    public static double StaggerRevealMs =>
+        Lookup("StaggerRevealMs") is double d ? d : 90;
 
     private static bool IsZero(Duration d) => d.HasTimeSpan && d.TimeSpan == TimeSpan.Zero;
+
+    // ---- Remind UI 0.4 helpers (all behind EffectsEnabled; transform and opacity only) ----------------------
+
+    /// <summary>Scale 0.85 to 1 from the centre with the EasePop overshoot over DurEnter. Gate off: nothing happens (the element is already at rest).</summary>
+    public static void Pop(UIElement el)
+    {
+        var dur = Dur("DurEnter");
+        if (!EffectsEnabled || IsZero(dur)) return;
+
+        var version = (int)el.GetValue(VersionProperty) + 1;
+        el.SetValue(VersionProperty, version);
+
+        var scale = new ScaleTransform(0.85, 0.85);
+        el.RenderTransformOrigin = new Point(0.5, 0.5);
+        el.RenderTransform = scale;
+        var a = new DoubleAnimation(0.85, 1, dur) { EasingFunction = EasePop };
+        a.Completed += (_, _) =>
+        {
+            if ((int)el.GetValue(VersionProperty) != version || !ReferenceEquals(el.RenderTransform, scale)) return;
+            el.RenderTransform = Transform.Identity;
+        };
+        scale.BeginAnimation(ScaleTransform.ScaleXProperty, a);
+        scale.BeginAnimation(ScaleTransform.ScaleYProperty, a.Clone());
+    }
+
+    private const double SwapDistance = 24;
+
+    /// <summary>
+    /// Swaps two stacked views. <paramref name="direction"/> +1 = forward (old content leaves toward the start edge, new content
+    /// arrives from the end edge), -1 = back. Right-to-left needs no sign flip: WPF already mirrors a RenderTransform there, so
+    /// +X points at the end edge either way. Old slides out 24 DIPs and fades (DurExit), new fades and slides in (DurEnter). At rest the outgoing element is Collapsed with identity transform and opacity 1, the incoming
+    /// one Visible. Gate off: that end state is set at once.
+    /// </summary>
+    public static void SlideSwap(UIElement outgoing, UIElement incoming, int direction)
+    {
+        var exit = Dur("DurExit");
+        var enter = Dur("DurEnter");
+        var sign = direction < 0 ? -1.0 : 1.0;
+
+        var version = (int)outgoing.GetValue(VersionProperty) + 1;
+        outgoing.SetValue(VersionProperty, version);
+        var inVersion = (int)incoming.GetValue(VersionProperty) + 1;
+        incoming.SetValue(VersionProperty, inVersion);
+
+        void Rest()
+        {
+            outgoing.BeginAnimation(UIElement.OpacityProperty, null);
+            outgoing.Opacity = 1;
+            outgoing.RenderTransform = Transform.Identity;
+            outgoing.Visibility = Visibility.Collapsed;
+        }
+        void RestIn()
+        {
+            incoming.BeginAnimation(UIElement.OpacityProperty, null);
+            incoming.Opacity = 1;
+            incoming.RenderTransform = Transform.Identity;
+        }
+
+        incoming.Visibility = Visibility.Visible;
+        if (!EffectsEnabled || (IsZero(exit) && IsZero(enter)))
+        {
+            Rest();
+            RestIn();
+            return;
+        }
+
+        var outMove = new TranslateTransform();
+        outgoing.RenderTransform = outMove;
+        outMove.BeginAnimation(TranslateTransform.XProperty,
+            new DoubleAnimation(0, -sign * SwapDistance, exit) { EasingFunction = EaseInOut });
+        var fadeOut = new DoubleAnimation(1, 0, exit) { EasingFunction = EaseInOut };
+        fadeOut.Completed += (_, _) =>
+        {
+            if ((int)outgoing.GetValue(VersionProperty) == version) Rest();
+        };
+        outgoing.BeginAnimation(UIElement.OpacityProperty, fadeOut);
+
+        var inMove = new TranslateTransform(sign * SwapDistance, 0);
+        incoming.RenderTransform = inMove;
+        incoming.Opacity = 0;
+        inMove.BeginAnimation(TranslateTransform.XProperty,
+            new DoubleAnimation(sign * SwapDistance, 0, enter) { EasingFunction = EaseOut });
+        var fadeIn = new DoubleAnimation(0, 1, enter) { EasingFunction = EaseOut };
+        fadeIn.Completed += (_, _) =>
+        {
+            if ((int)incoming.GetValue(VersionProperty) == inVersion) RestIn();
+        };
+        incoming.BeginAnimation(UIElement.OpacityProperty, fadeIn);
+    }
+
+    // ---- attached: PressScale (scale 0.96 while the left button is held) -------------------------------------
+
+    public static readonly DependencyProperty PressScaleProperty = DependencyProperty.RegisterAttached(
+        "PressScale", typeof(bool), typeof(Anim), new PropertyMetadata(false, OnPressScaleChanged));
+
+    public static bool GetPressScale(DependencyObject d) => (bool)d.GetValue(PressScaleProperty);
+    public static void SetPressScale(DependencyObject d, bool v) => d.SetValue(PressScaleProperty, v);
+
+    private const double PressedScale = 0.96;
+
+    private static void OnPressScaleChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    {
+        if (d is not UIElement el) return;
+        el.PreviewMouseLeftButtonDown -= OnPressDown;
+        el.PreviewMouseLeftButtonUp -= OnPressUp;
+        el.MouseLeave -= OnPressUp;
+        el.LostMouseCapture -= OnPressUp;
+        if (!(bool)e.NewValue) return;
+        el.PreviewMouseLeftButtonDown += OnPressDown;
+        el.PreviewMouseLeftButtonUp += OnPressUp;
+        el.MouseLeave += OnPressUp;
+        el.LostMouseCapture += OnPressUp;
+    }
+
+    private static void OnPressDown(object sender, RoutedEventArgs e) => SetPressed((UIElement)sender, true);
+    private static void OnPressUp(object sender, RoutedEventArgs e) => SetPressed((UIElement)sender, false);
+
+    /// <summary>Scales to 0.96 (pressed) or back to 1 over DurFast. Gate off: no-op, the element stays at rest.</summary>
+    public static void SetPressed(UIElement el, bool pressed)
+    {
+        var dur = Dur("DurFast");
+        if (!EffectsEnabled || IsZero(dur))
+        {
+            // A release must still leave an exact resting transform if the gate turned off while pressed.
+            if (!pressed && el.RenderTransform is ScaleTransform { IsFrozen: false } held)
+            {
+                held.BeginAnimation(ScaleTransform.ScaleXProperty, null);
+                held.BeginAnimation(ScaleTransform.ScaleYProperty, null);
+                el.RenderTransform = Transform.Identity;
+            }
+            return;
+        }
+        var scale = el.RenderTransform as ScaleTransform;
+        if (scale is null || scale.IsFrozen)
+        {
+            if (!pressed) return;
+            // Never replace someone else's transform (a FadeInOnLoad slide, TileMotion); PressScale only owns a bare element.
+            if (el.RenderTransform is { } other && !ReferenceEquals(other, Transform.Identity) && !other.Value.IsIdentity) return;
+            scale = new ScaleTransform(1, 1);
+            el.RenderTransformOrigin = new Point(0.5, 0.5);
+            el.RenderTransform = scale;
+        }
+        var to = pressed ? PressedScale : 1.0;
+        var a = new DoubleAnimation(to, dur) { EasingFunction = EaseOut };
+        if (!pressed)
+            a.Completed += (_, _) =>
+            {
+                if (!ReferenceEquals(el.RenderTransform, scale)) return;
+                scale.BeginAnimation(ScaleTransform.ScaleXProperty, null);
+                scale.BeginAnimation(ScaleTransform.ScaleYProperty, null);
+                el.RenderTransform = Transform.Identity;
+            };
+        scale.BeginAnimation(ScaleTransform.ScaleXProperty, a);
+        scale.BeginAnimation(ScaleTransform.ScaleYProperty, a.Clone());
+    }
 
     // ---- attached: fade (and slide up) when the element loads ------------------------------------------
 
@@ -154,8 +327,11 @@ public static class TileMotion
     public static bool GetPressed(DependencyObject d) => (bool)d.GetValue(PressedProperty);
     public static void SetPressed(DependencyObject d, bool v) => d.SetValue(PressedProperty, v);
 
-    private static readonly Thickness ShadowRest = new(-3, 2, -3, -8);
-    private static readonly Thickness ShadowHover = new(-7, 6, -7, -16);
+    // Shadow levels come from Styles/Tokens.xaml (Elevation1 = resting, Elevation2 = hover); the fallbacks are the same values.
+    private static Thickness ShadowRest => Anim.Lookup("Elevation1Margin") is Thickness t ? t : new(-3, 2, -3, -8);
+    private static double OpacityRest => Anim.Lookup("Elevation1Opacity") is double d ? d : 0.55;
+    private static Thickness ShadowHover => Anim.Lookup("Elevation2Margin") is Thickness t ? t : new(-7, 6, -7, -16);
+    private static double OpacityHover => Anim.Lookup("Elevation2Opacity") is double d ? d : 1.0;
 
     private static void Update(DependencyObject d)
     {
@@ -169,7 +345,7 @@ public static class TileMotion
         var dur = Anim.Dur(pressed ? "DurFast" : "DurNormal");
         var shadow = lift.Children.Count > 0 ? lift.Children[0] as Border : null;
 
-        if (!Anim.MotionEnabled || (dur.HasTimeSpan && dur.TimeSpan == TimeSpan.Zero))
+        if (!Anim.EffectsEnabled || (dur.HasTimeSpan && dur.TimeSpan == TimeSpan.Zero))
         {
             Set(scale, move, shadow, s, y, hover);
             return;
@@ -196,7 +372,7 @@ public static class TileMotion
         if (shadow is not null)
         {
             shadow.BeginAnimation(UIElement.OpacityProperty,
-                new DoubleAnimation(hover ? 1.0 : 0.55, dur) { EasingFunction = Anim.EaseOut });
+                new DoubleAnimation(hover ? OpacityHover : OpacityRest, dur) { EasingFunction = Anim.EaseOut });
             shadow.BeginAnimation(FrameworkElement.MarginProperty,
                 new ThicknessAnimation(hover ? ShadowHover : ShadowRest, dur) { EasingFunction = Anim.EaseOut });
         }
@@ -213,7 +389,7 @@ public static class TileMotion
         {
             shadow.BeginAnimation(UIElement.OpacityProperty, null);
             shadow.BeginAnimation(FrameworkElement.MarginProperty, null);
-            shadow.Opacity = hover ? 1.0 : 0.55;
+            shadow.Opacity = hover ? OpacityHover : OpacityRest;
             shadow.Margin = hover ? ShadowHover : ShadowRest;
         }
     }

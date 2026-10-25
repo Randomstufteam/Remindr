@@ -235,6 +235,7 @@
                         <ui:SymbolIcon Grid.Column="0" Symbol="Info24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
                         <StackPanel Grid.Column="1" VerticalAlignment="Center">
                             <TextBlock Text="{Binding VersionText}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{Binding RemindUiText}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
                             <TextBlock Text="{Binding LicenseText}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
                         </StackPanel>
                         <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">

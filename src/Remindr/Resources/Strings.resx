@@ -812,6 +812,10 @@
     <value>Remindr {0}</value>
     <comment>{0} is the version number such as 0.3.0. Remindr is the app name; do not translate it.</comment>
   </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+    <comment>{0} is the Remind UI design-language version such as 0.4. "Remind UI" is a name; do not translate it.</comment>
+  </data>
   <data name="Settings_License" xml:space="preserve">
     <value>{0} license</value>
     <comment>{0} is a licence name such as MIT.</comment>

@@ -98,6 +98,7 @@ public partial class SettingsViewModel : ObservableObject
             OnPropertyChanged(nameof(SignedInText));
             OnPropertyChanged(nameof(PinStatusText));
             OnPropertyChanged(nameof(VersionText));
+            OnPropertyChanged(nameof(RemindUiText));
             OnPropertyChanged(nameof(LicenseText));
         };
     }
@@ -176,6 +177,7 @@ public partial class SettingsViewModel : ObservableObject
     }
 
     public string VersionText => Loc.Format("Settings_Version", AppInfo.Version);
+    public string RemindUiText => Loc.Format("Settings_RemindUiVersion", RemindUI.Version);
     public string LicenseText => Loc.Format("Settings_License", RepoInfo.License);
 
     [RelayCommand] private void OpenGitHub() => AppInfo.Open(RepoInfo.RepoUrl);

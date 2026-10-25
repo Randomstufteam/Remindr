@@ -49,6 +49,9 @@ public partial class App : Application
 
         NotificationService.RegisterAppId();
         ApplyReducedMotion();
+#if DEBUG
+        MotionPolicy.ApplyLaunchArgs(Resources, launch, debugBuild: true);
+#endif
 
         try
         {
@@ -112,10 +115,8 @@ public partial class App : Application
     {
         // REMINDR_REDUCED_MOTION=1 forces this path so it can be checked without touching the Windows animation setting.
         if (SystemParameters.ClientAreaAnimation && Environment.GetEnvironmentVariable("REMINDR_REDUCED_MOTION") != "1") return;
-        foreach (var key in new[] { "DurFast", "DurNormal", "DurSlow", "DurShake", "DurHero", "DurHeroOut", "DurHue" })
-            Resources[key] = new Duration(TimeSpan.Zero);
-        Resources["StaggerMs"] = 0.0;
-        Resources["MotionEnabled"] = false;
+        // Every Dur* and Stagger* token in the merged dictionaries, found by name (a new token can't be missed).
+        MotionPolicy.ApplyReducedMotion(Resources, Resources.MergedDictionaries);
     }
 
     private TrayService? _tray;
