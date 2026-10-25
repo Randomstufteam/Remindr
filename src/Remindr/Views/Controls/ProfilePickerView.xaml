@@ -1,0 +1,269 @@
+<UserControl x:Class="Remindr.Views.Controls.ProfilePickerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+             xmlns:ctl="clr-namespace:Remindr.Views.Controls"
+             xmlns:vm="clr-namespace:Remindr.ViewModels"
+             xmlns:l="clr-namespace:Remindr.Views"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <!-- Swapped for compact values by the code-behind when the window is shorter than 640. -->
+        <sys:Double x:Key="TileW">168</sys:Double>
+        <sys:Double x:Key="TileH">220</sys:Double>
+        <sys:Double x:Key="TileAvatar">120</sys:Double>
+        <sys:Double x:Key="PickerHeadingSize">32</sys:Double>
+
+        <ContextMenu x:Key="TileMenu" x:Shared="False">
+            <MenuItem Header="{l:Loc Common_Edit}" Click="Edit_Click" />
+            <MenuItem Header="{l:Loc Common_Delete}" Click="Delete_Click" IsEnabled="{Binding CanDelete}" />
+        </ContextMenu>
+
+        <!-- Glass tile. The shadow is a sibling shape (never an Effect), so the text and picture inside stay sharp.
+             Hover / press motion is TileMotion (it animates the Scale/Translate of the "Lift" grid and the shadow). -->
+        <Style x:Key="TileButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Focusable" Value="True" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+            <EventSetter Event="GotKeyboardFocus" Handler="Tile_FocusChanged" />
+            <EventSetter Event="LostKeyboardFocus" Handler="Tile_FocusChanged" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="Lift" RenderTransformOrigin="0.5,0.5">
+                            <Grid.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform x:Name="Scale" ScaleX="1" ScaleY="1" />
+                                    <TranslateTransform x:Name="Move" X="0" Y="0" />
+                                </TransformGroup>
+                            </Grid.RenderTransform>
+                            <Border x:Name="Shadow" Style="{StaticResource GlassShadow}" Opacity="0.55" />
+                            <Border x:Name="Card" Style="{StaticResource GlassCard}" Padding="0">
+                                <ContentPresenter />
+                            </Border>
+                            <!-- Keyboard focus ring: lives inside "Lift" so it moves and scales with the card. -->
+                            <Border x:Name="FocusBorder" Margin="-3" CornerRadius="23" BorderThickness="2" Visibility="Collapsed"
+                                    SnapsToDevicePixels="True" IsHitTestVisible="False"
+                                    BorderBrush="{DynamicResource FocusStrokeColorOuterBrush}" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Lift" Property="ctl:TileMotion.Hover" Value="True" />
+                                <Setter TargetName="Lift" Property="ctl:TileMotion.Active" Value="True" />
+                            </Trigger>
+                            <!-- Keyboard focus only (set by Tile_FocusChanged): a mouse click must not leave the "..." button showing. -->
+                            <Trigger Property="ctl:TileMotion.KeyFocused" Value="True">
+                                <Setter TargetName="Lift" Property="ctl:TileMotion.Active" Value="True" />
+                                <Setter TargetName="FocusBorder" Property="Visibility" Value="Visible" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="Lift" Property="ctl:TileMotion.Pressed" Value="True" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- "..." button: invisible until the tile is hovered or focused, then fades in (DurFast). -->
+        <Style x:Key="DotsButton" TargetType="Button" BasedOn="{StaticResource GlassPill}">
+            <Setter Property="Opacity" Value="0" />
+            <Setter Property="Focusable" Value="False" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="MinHeight" Value="0" />
+            <Setter Property="Width" Value="30" />
+            <Setter Property="Height" Value="30" />
+            <Style.Triggers>
+                <Trigger Property="ctl:TileMotion.Active" Value="True">
+                    <Trigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="{StaticResource DurFast}" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.EnterActions>
+                    <Trigger.ExitActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="{StaticResource DurFast}" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.ExitActions>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <DataTemplate x:Key="ProfileTile">
+            <Grid Width="{DynamicResource TileW}" Height="{DynamicResource TileH}">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,16,0,0">
+                    <Grid Width="{DynamicResource TileAvatar}" Height="{DynamicResource TileAvatar}" HorizontalAlignment="Center">
+                        <ctl:ProfileAvatar Diameter="{DynamicResource TileAvatar}" RingThickness="3"
+                                           Color="{Binding Color}" Initial="{Binding Initial}" Avatar="{Binding Avatar}" />
+                        <!-- Lock badge: a glass disc so it stays readable on any picture. -->
+                        <Border Width="28" Height="28" CornerRadius="14" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                                Background="{DynamicResource GlassPillBrush}" BorderBrush="{DynamicResource GlassStrokeBrush}" BorderThickness="1"
+                                ToolTip="{l:Loc Picker_LockTooltip}"
+                                Visibility="{Binding HasPin, Converter={StaticResource BoolToVis}}">
+                            <ui:SymbolIcon Symbol="LockClosed16" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                           Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
+                        </Border>
+                    </Grid>
+                    <TextBlock Text="{Binding Name}" FontSize="16" FontWeight="SemiBold" TextAlignment="Center"
+                               TextTrimming="CharacterEllipsis" MaxWidth="140" Margin="0,12,0,0"
+                               Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
+                    <Border Style="{StaticResource GlassChip}" HorizontalAlignment="Center" Margin="0,8,0,0"
+                            Visibility="{Binding IsLast, Converter={StaticResource BoolToVis}}">
+                        <TextBlock Text="{l:Loc Picker_LastUsed}" FontSize="12" Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+                    </Border>
+                </StackPanel>
+                <Button Content="&#x2026;" FontSize="16" Style="{StaticResource DotsButton}"
+                        HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"
+                        ToolTip="{l:Loc Picker_MoreName}" AutomationProperties.Name="{l:Loc Picker_MoreName}" Click="Dots_Click" />
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Grid Background="{DynamicResource GlassPickerBackdropBrush}" KeyboardNavigation.TabNavigation="Cycle">
+        <Grid.InputBindings>
+            <KeyBinding Key="Escape" Command="{Binding CloseCommand}" />
+        </Grid.InputBindings>
+
+        <!-- Decorative colour blobs (BlobBackdrop: blurred + BitmapCache'd, drifting, paused when hidden). Colours come from the profiles. -->
+        <ctl:BlobBackdrop x:Name="Blobs" />
+
+        <!-- Picker -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Focusable="False" Margin="0,32,0,0">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="32,32">
+                <!-- Subtle backing so the header stays readable over the blobs and colourful wallpapers. -->
+                <Border x:Name="Header" Style="{StaticResource GlassTextBacking}" HorizontalAlignment="Center" Margin="0,0,0,40"
+                        Padding="28,14">
+                    <StackPanel>
+                        <TextBlock Text="{l:Loc Picker_Heading}" FontSize="{DynamicResource PickerHeadingSize}" FontWeight="SemiBold" TextAlignment="Center"
+                                   TextOptions.TextFormattingMode="Ideal"
+                                   Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
+                        <TextBlock Text="{l:Loc Picker_Subheading}" FontSize="14" TextAlignment="Center" Margin="0,6,0,0"
+                                   Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+                    </StackPanel>
+                </Border>
+
+                <!-- 5 tiles (188 wide each) per row at most: 1-4 profiles plus Add share one row, more wrap. -->
+                <ItemsControl x:Name="TileList" ItemsSource="{Binding Tiles}" MaxWidth="960" HorizontalAlignment="Center" Focusable="False" PreviewKeyDown="TileList_PreviewKeyDown"
+                              KeyboardNavigation.DirectionalNavigation="Contained"
+                              KeyboardNavigation.TabNavigation="Continue">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel HorizontalAlignment="Center" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.Resources>
+                        <DataTemplate DataType="{x:Type vm:ProfileTileViewModel}">
+                            <Button Style="{StaticResource TileButton}"
+                                    Command="{Binding DataContext.SelectCommand, RelativeSource={RelativeSource AncestorType=ctl:ProfilePickerView}}"
+                                    CommandParameter="{Binding}"
+                                    ContentTemplate="{StaticResource ProfileTile}"
+                                    Content="{Binding}"
+                                    AutomationProperties.Name="{Binding Name}"
+                                    ContextMenu="{StaticResource TileMenu}" />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type vm:AddTileViewModel}">
+                            <Button Style="{StaticResource TileButton}" AutomationProperties.Name="{l:Loc Picker_Add}"
+                                    Command="{Binding DataContext.AddCommand, RelativeSource={RelativeSource AncestorType=ctl:ProfilePickerView}}">
+                                <Grid Width="{DynamicResource TileW}" Height="{DynamicResource TileH}">
+                                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,16,0,0">
+                                        <Grid Width="{DynamicResource TileAvatar}" Height="{DynamicResource TileAvatar}" HorizontalAlignment="Center">
+                                            <Ellipse Margin="1" StrokeThickness="2" StrokeDashArray="3 3"
+                                                     Stroke="{DynamicResource TextFillColorTertiaryBrush}" />
+                                            <ui:SymbolIcon Symbol="Add24" FontSize="40"
+                                                           Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+                                        </Grid>
+                                        <TextBlock Text="{l:Loc Picker_Add}" FontSize="16" FontWeight="SemiBold" TextAlignment="Center" Margin="0,12,0,0"
+                                                   Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+                                    </StackPanel>
+                                </Grid>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.Resources>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Back to the current profile; only when the picker was opened as a switcher. -->
+        <Button Margin="20,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Style="{StaticResource GlassPill}" Padding="12,6"
+                ToolTip="{l:Loc Picker_BackTooltip}" AutomationProperties.Name="{l:Loc Common_Back}"
+                Command="{Binding CloseCommand}"
+                Visibility="{Binding CanClose, Converter={StaticResource BoolToVis}}">
+            <StackPanel Orientation="Horizontal">
+                <ui:SymbolIcon Symbol="ArrowLeft24" />
+                <TextBlock Text="{l:Loc Common_Back}" Margin="8,0,0,0" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
+
+        <!-- PIN prompt: dimmed layer + centred glass card.
+             Tab cycles inside the prompt so focus can't reach the tiles hidden behind it. -->
+        <Grid x:Name="PinPrompt" Background="{DynamicResource SmokeFillColorDefaultBrush}"
+              KeyboardNavigation.TabNavigation="Cycle"
+              KeyboardNavigation.DirectionalNavigation="Contained"
+              Visibility="{Binding IsPinPromptOpen, Converter={StaticResource BoolToVis}}">
+            <Grid.InputBindings>
+                <KeyBinding Key="Escape" Command="{Binding CancelPinCommand}" />
+                <KeyBinding Key="Return" Command="{Binding SubmitPinCommand}" />
+            </Grid.InputBindings>
+            <Grid x:Name="PinCard" Width="320" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform x:Name="PinScale" ScaleX="1" ScaleY="1" />
+                        <TranslateTransform x:Name="PinShake" X="0" />
+                    </TransformGroup>
+                </Grid.RenderTransform>
+                <Border Style="{StaticResource GlassShadow}" />
+                <!-- Mostly opaque backing so the tiles behind the prompt do not show through the text. -->
+                <Border CornerRadius="{DynamicResource RadiusPanel}" Background="{DynamicResource ApplicationBackgroundBrush}" Opacity="0.88" />
+                <Border Style="{StaticResource GlassCard}" Padding="24">
+                    <StackPanel>
+                        <ctl:ProfileAvatar Diameter="88" RingThickness="3" HorizontalAlignment="Center"
+                                           Color="{Binding PinTarget.Color}" Initial="{Binding PinTarget.Initial}" Avatar="{Binding PinTarget.Avatar}" />
+                        <TextBlock Text="{Binding PinTarget.Name}" FontSize="20" FontWeight="SemiBold" TextAlignment="Center"
+                                   TextTrimming="CharacterEllipsis" Margin="0,12,0,2"
+                                   Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
+                        <TextBlock Text="{Binding PinPrompt}" FontSize="13" TextAlignment="Center" TextWrapping="Wrap"
+                                   Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+
+                        <!-- Four dots fill as digits are typed. The real PasswordBox sits on top at Opacity 0, so clicking the dots focuses it. -->
+                        <Grid Height="44" Margin="0,16,0,0" FlowDirection="LeftToRight">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <Ellipse x:Name="Dot0" Width="14" Height="14" Margin="6,0" StrokeThickness="2" Stroke="{DynamicResource TextFillColorSecondaryBrush}" RenderTransformOrigin="0.5,0.5"><Ellipse.RenderTransform><ScaleTransform /></Ellipse.RenderTransform></Ellipse>
+                                <Ellipse x:Name="Dot1" Width="14" Height="14" Margin="6,0" StrokeThickness="2" Stroke="{DynamicResource TextFillColorSecondaryBrush}" RenderTransformOrigin="0.5,0.5"><Ellipse.RenderTransform><ScaleTransform /></Ellipse.RenderTransform></Ellipse>
+                                <Ellipse x:Name="Dot2" Width="14" Height="14" Margin="6,0" StrokeThickness="2" Stroke="{DynamicResource TextFillColorSecondaryBrush}" RenderTransformOrigin="0.5,0.5"><Ellipse.RenderTransform><ScaleTransform /></Ellipse.RenderTransform></Ellipse>
+                                <Ellipse x:Name="Dot3" Width="14" Height="14" Margin="6,0" StrokeThickness="2" Stroke="{DynamicResource TextFillColorSecondaryBrush}" RenderTransformOrigin="0.5,0.5"><Ellipse.RenderTransform><ScaleTransform /></Ellipse.RenderTransform></Ellipse>
+                            </StackPanel>
+                            <!-- Standard PasswordBox: Password is not bindable, so PasswordChanged (code-behind) feeds PinInput. -->
+                            <PasswordBox x:Name="PinBox" MaxLength="4" Opacity="0" Cursor="IBeam"
+                                         FocusVisualStyle="{x:Null}" BorderThickness="0" Background="Transparent"
+                                         AutomationProperties.Name="{l:Loc Picker_PinName}" PasswordChanged="PinBox_PasswordChanged" />
+                        </Grid>
+
+                        <TextBlock Text="{Binding PinError}" FontSize="12" TextAlignment="Center" TextWrapping="Wrap"
+                                   Margin="0,4,0,0" MinHeight="18"
+                                   Foreground="{DynamicResource SystemFillColorCriticalBrush}" />
+                        <Grid Margin="0,12,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="12" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" Content="{l:Loc Common_Cancel}" Style="{StaticResource GlassPill}"
+                                    Command="{Binding CancelPinCommand}" />
+                            <Button Grid.Column="2" Content="{l:Loc Picker_Unlock}" Style="{StaticResource GlassPill}"
+                                    Command="{Binding SubmitPinCommand}" />
+                        </Grid>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

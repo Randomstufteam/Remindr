@@ -1,0 +1,25 @@
+<UserControl x:Class="Remindr.Views.Controls.PinSetPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:l="clr-namespace:Remindr.Views">
+    <!-- "Choose a 4-digit PIN and repeat it": shared by the PIN dialog and first-run setup. Digits only; the mismatch message shows
+         once both boxes are full. Standard PasswordBoxes (the Password property is not bindable), read through the properties below. -->
+    <UserControl.Resources>
+        <Style x:Key="PinLabel" TargetType="TextBlock" BasedOn="{StaticResource Caption}">
+            <Setter Property="Margin" Value="0,12,0,4" />
+        </Style>
+    </UserControl.Resources>
+    <StackPanel>
+        <TextBlock Text="{l:Loc Pin_New}" Style="{StaticResource PinLabel}" Margin="0,0,0,4" />
+        <PasswordBox x:Name="NewBox" FlowDirection="LeftToRight" MaxLength="4" AutomationProperties.Name="{l:Loc Pin_New}"
+                     AutomationProperties.AutomationId="PinNewBox" PasswordChanged="Box_PasswordChanged" />
+
+        <TextBlock x:Name="RepeatLabel" Text="{l:Loc Pin_Repeat}" Style="{StaticResource PinLabel}" />
+        <TextBlock x:Name="RepeatNewLabel" Text="{l:Loc Pin_RepeatNew}" Style="{StaticResource PinLabel}" Visibility="Collapsed" />
+        <PasswordBox x:Name="ConfirmBox" FlowDirection="LeftToRight" MaxLength="4" AutomationProperties.Name="{l:Loc Pin_Repeat}"
+                     AutomationProperties.AutomationId="PinRepeatBox" PasswordChanged="Box_PasswordChanged" />
+
+        <TextBlock x:Name="MismatchText" FontSize="12" Margin="0,8,0,0" TextWrapping="Wrap" MinHeight="16"
+                   Foreground="{DynamicResource SystemFillColorCriticalBrush}" />
+    </StackPanel>
+</UserControl>

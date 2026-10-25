@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>作成</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>時刻</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>メモ</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>重要</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>yyyy'年'M'月'</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>M'月'd'日'</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>yyyy'年'M'月'd'日'</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>yyyy'年'M'月'd'日'</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d'日'</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>yyyy'年'M'月'd'日'</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>M'月'd'日'</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>M'月'd'日' dddd</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>yyyy'年'M'月'd'日' dddd</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>M'月'd'日' (ddd)</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>yyyy'年'M'月'd'日' (ddd)</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>M'月'd'日' dddd</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>yyyy'年'M'月'd'日' dddd</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>カレンダー</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>すべてのリマインダー</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>プロファイル</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>プロファイルを切り替える</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>サイドバーを折りたたむ/展開する</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>サイドバーの切り替え</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>おはようございます</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>おはようございます、{0}さん</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>こんにちは</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>こんにちは、{0}さん</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>こんばんは</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>こんばんは、{0}さん</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>今日の予定はありません</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>今日のリマインダーはここに表示されます。</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>新しいリマインダー</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>新しいリマインダー (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>期限切れ</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>明日</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>終日</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>完了: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>重要としてマーク</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>リマインダーを編集</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>リマインダーを削除</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>未完了 {0} 件、完了 {1} 件</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>リマインダーはまだありません</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>最初のリマインダーを追加すると、日付ごとにここに表示されます。</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>新しいリマインダー (空の状態)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>完了したリマインダー</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>週</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>アジェンダ</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>月表示</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>週表示</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>アジェンダ表示</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>前へ</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>今日へ移動</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>選択した日に新しいリマインダーを追加</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>この日の予定はありません。</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>今後の予定はありません</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>今後 {0} 日間のリマインダーはありません。</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>新しいリマインダー (空のアジェンダ)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>月のグリッド。矢印キーで選択日を変更し、Enter キーでリマインダーを追加します。</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>今日 · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>明日 · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0}～{1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0}～{1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0}～{1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1}から{0}日間</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>リマインダーなし</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>リマインダー {0} 件</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>リマインダー {0} 件</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}、{1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}、{1}、重要</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>リマインダーなし</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>リマインダー {0} 件</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>リマインダー {0} 件</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>カテゴリなしのリマインダー</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>カテゴリ付きのリマインダー</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>新しいリマインダー</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>リマインダーの編集</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>忘れてはいけないことは何ですか？</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>任意</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>赤い ! バッジが表示され、目立つようになります。</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>画像なし</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>画像を追加</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>画像: {0}。画像を変更</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>タイトルを入力してください。</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>タイトルは {0} 文字以内にしてください。</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>日付を選択してください。</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>{0} のように時刻を入力するか、「終日」をオンにしてください。</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>リマインダーを削除しますか？</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>「{0}」は完全に削除されます。この操作は元に戻せません。</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>新しいプロファイル</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>プロファイルの編集</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>画像の変更</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>プロファイル名</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>アバターの文字</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (任意)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>現在の PIN を維持</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>名前を入力してください。</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>名前は {0} 文字以内にしてください。</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>アバターには 1 文字を入力してください。</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN は 4 桁の数字にしてください。</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>このプロファイルは削除できません</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>プロファイルは少なくとも 1 つ必要です。このプロファイルを削除するには、先に別のプロファイルを作成してください。</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>「{0}」を削除しますか？</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>プロファイル「{0}」と、そのすべてのリマインダーおよびカテゴリが完全に削除されます。この操作は元に戻せません。</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN を設定</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN を変更</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN を削除</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>4 桁の PIN を設定してください。このプロファイルを開くときに必要になります。</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>現在の PIN を入力してから、新しい PIN を設定してください。</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>ロックを解除するには、現在の PIN を入力してください。</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>現在の PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>新しい 4 桁の PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN を再入力</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>新しい PIN を再入力</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>現在の PIN が正しくありません。もう一度お試しください。</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>2 つの PIN が一致しません。</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN は、のぞき見を防ぐためのプライバシー保護であり、強力なセキュリティではありません。</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>画像を検索</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>一致する画像がありません。</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>人物</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>家族と役割</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>動物</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>ファンタジーと楽しいもの</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>食べ物</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>自然</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>スポーツと趣味</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>物</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>学校</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>仕事</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>健康</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>お金</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>旅行</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>お祝い</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>スポーツ</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>画像を選択</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>自分の画像…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>自分の画像</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>コンピューター上の PNG または JPG を使用</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>文字のみ</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>画像の代わりに色付きの文字を表示</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>そのファイルを PNG または JPG の画像として読み込めませんでした。</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr を使うのはどなたですか？</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>続行するプロファイルを選択してください</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>プロファイルを追加</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>最後に使用</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN で保護されています</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>編集または削除</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>現在のプロファイルに戻る (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>ロック解除</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>4 桁の PIN を入力してください</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>編集または削除するには、このプロファイルの PIN を入力してください</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN が正しくありません。もう一度お試しください。</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>外観</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>アプリのテーマ</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>ライト、ダーク、または Windows の設定に合わせるを選択します。</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>ライト</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>ダーク</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Remindr の表示言語を選択します。変更はすぐに反映されます。</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>翻訳には機械翻訳を利用しています。修正のご提案をお待ちしています。</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>修正を提案する</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>プロファイル</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} としてサインイン中</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>別のプロファイルに切り替えたり、このプロファイルの名前、色、画像を変更したりできます。</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>画像を変更</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>プロファイルを切り替える</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN ロック</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN ロック: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 桁の PIN で、このプロファイルをのぞき見から守ります。これはプライバシー保護であり、強力なセキュリティではありません。</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>ヘルプとフィードバック</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>問題やアイデアがありますか？</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>報告は GitHub で開き、Remindr と Windows のバージョンだけが入力されます。それ以外は送信されません。</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>バグを報告</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>機能を提案</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>ログフォルダーを開く</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>バージョン情報</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} ライセンス</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub で表示</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>サードパーティの通知</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>問題が発生しました: {0}
+
+詳細は %AppData%\Remindr\error.log に保存されました</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+詳細は %AppData%\Remindr\error.log に保存されました</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr へようこそ</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>任意のキーを押すか、クリックして開始</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>はじめる</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>ようこそ画面をもう一度見る</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr のセットアップ</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>セットアップの進行状況</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>手順 {0} / {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>言語を選択</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>アプリはすぐに切り替わります。いつでも設定で変更できます。</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>言語を検索</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>一致する言語がありません。</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>外観を選択</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>ライト、ダーク、または Windows の設定に合わせます。</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>プロフィール</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>名前、色、画像を設定します。</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN を追加しますか？</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>任意です。4 桁の PIN でこのプロフィールを非公開にできます。</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>準備ができました、{0} さん</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>これらはあとから設定でいつでも変更できます。</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr を使い始める</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>最初のリマインダーを追加</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>学校</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>仕事</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>個人</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>新機能</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>後で</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>このバージョンをスキップ</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>再試行</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>ダウンロードを確認中…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ダウンロードしたファイルがチェックサムと一致しなかったため、削除しました。何もインストールされていません。</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>更新をダウンロードできませんでした。後でもう一度お試しください。</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr の起動時に更新を確認する</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>バージョン番号を比較するためだけに GitHub に接続します。あなたに関する情報は送信されません。</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>更新を確認</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>確認中…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>最新の状態です · {0} に確認</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} が利用できます</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>更新を確認できませんでした</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>更新があります</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · 現在のバージョン {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>ダウンロード中… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>インストールの準備ができました</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>再起動して更新</value>
+  </data>
+</root>

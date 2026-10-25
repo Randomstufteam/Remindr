@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Third-party notices
+    url: https://github.com/Randomstufteam/Remindr/blob/main/THIRD-PARTY-NOTICES.md
+    about: Licences for the pictures and libraries Remindr uses.

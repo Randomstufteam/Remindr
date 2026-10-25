@@ -1,0 +1,210 @@
+<Page x:Class="Remindr.Views.Pages.SettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:ctl="clr-namespace:Remindr.Views.Controls"
+      xmlns:l="clr-namespace:Remindr.Views"
+      Title="{l:Loc Nav_Settings}" Background="Transparent">
+    <Page.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />    </Page.Resources>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Background="Transparent">
+        <Grid Margin="{DynamicResource PagePadding}">
+            <!-- Stretch up to 1000px, then stay left-aligned like Windows 11 Settings. -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MaxWidth="1000" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Nav_Settings}" Style="{StaticResource PageTitle}" Margin="0,0,0,24" />
+
+                <!-- Appearance -->
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Appearance}" Style="{StaticResource SectionHeader}" Margin="0,0,0,8" />
+                <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Color24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{l:Loc Settings_Theme_Title}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{l:Loc Settings_Theme_Desc}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <ComboBox Grid.Column="2" MinWidth="160" VerticalAlignment="Center" AutomationProperties.Name="{l:Loc Settings_Theme_Name}"
+                                  ItemsSource="{Binding Themes}" DisplayMemberPath="Name"
+                                  SelectedItem="{Binding SelectedTheme, Mode=TwoWay}" />
+                    </Grid>
+                </Border></Grid>
+
+                <!-- Language: native names; changing it re-labels the whole app at once. -->
+                <Grid ctl:Anim.FadeInOnLoad="True" Margin="0,8,0,0">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="LocalLanguage24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{l:Loc Settings_Language_Title}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{l:Loc Settings_Language_Desc}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
+                            <TextBlock Style="{StaticResource Caption}" Margin="0,6,0,0">
+                                <Run Text="{l:Loc Settings_Language_Note}" />
+                                <Hyperlink Command="{Binding SuggestTranslationCommand}"><Run Text="{l:Loc Settings_Language_ReportLink}" /></Hyperlink>
+                            </TextBlock>
+                        </StackPanel>
+                        <ComboBox Grid.Column="2" MinWidth="220" Margin="16,0,0,0" VerticalAlignment="Center"
+                                  AutomationProperties.Name="{l:Loc Settings_Language_Name}"
+                                  ItemsSource="{Binding Languages}"
+                                  SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding NativeName}" VerticalAlignment="Center" />
+                                        <TextBlock Text="{Binding EnglishLabel}" Margin="8,0,0,0" VerticalAlignment="Center"
+                                                   Foreground="{DynamicResource TextFillColorSecondaryBrush}" FontSize="12" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                    </Grid>
+                </Border></Grid>
+
+                <!-- Profile -->
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Profile}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
+                <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ctl:ProfileAvatar Grid.Column="0" Diameter="40" RingThickness="2" Margin="0,0,16,0" VerticalAlignment="Center"
+                                           Color="{Binding CurrentColor}" Initial="{Binding CurrentInitial}" Avatar="{Binding CurrentAvatar}" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{Binding SignedInText}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{l:Loc Settings_Profile_Desc}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                            <Button Content="{l:Loc Settings_ChangePicture}" Style="{StaticResource GlassPill}" Command="{Binding ChangePictureCommand}" />
+                            <Button Content="{l:Loc Settings_SwitchProfile}" Style="{StaticResource GlassPill}" Margin="8,0,0,0" Command="{Binding SwitchProfileCommand}" />
+                            <Button Content="{l:Loc Common_Edit}" Style="{StaticResource GlassPill}" Margin="8,0,0,0" Command="{Binding EditCurrentProfileCommand}" />
+                        </StackPanel>
+                    </Grid>
+                </Border></Grid>
+
+                <!-- PIN lock -->
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_PinLock}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
+                <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="LockClosed24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{Binding PinStatusText}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{l:Loc Settings_Pin_Desc}"
+                                       Style="{StaticResource Caption}" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                            <Button Content="{l:Loc Pin_Set}" Style="{StaticResource GlassPill}" Command="{Binding SetPinCommand}"
+                                    Visibility="{Binding HasNoPin, Converter={StaticResource BoolToVis}}" />
+                            <StackPanel Orientation="Horizontal" Visibility="{Binding HasPin, Converter={StaticResource BoolToVis}}">
+                                <Button Content="{l:Loc Pin_Change}" Style="{StaticResource GlassPill}" Command="{Binding ChangePinCommand}" />
+                                <Button Content="{l:Loc Pin_Remove}" Style="{StaticResource GlassPill}" Margin="8,0,0,0" Command="{Binding RemovePinCommand}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Border></Grid>
+
+                <!-- Help & feedback -->
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Help}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
+                <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Bug24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{l:Loc Settings_Help_Title}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{l:Loc Settings_Help_Desc}"
+                                       Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                            <Button Content="{l:Loc Settings_ReportBug}" Style="{StaticResource GlassPill}" Command="{Binding ReportBugCommand}" />
+                            <Button Content="{l:Loc Settings_SuggestFeature}" Style="{StaticResource GlassPill}" Margin="8,0,0,0" Command="{Binding SuggestFeatureCommand}" />
+                            <Button Content="{l:Loc Settings_OpenLogs}" Style="{StaticResource GlassPill}" Margin="8,0,0,0" Command="{Binding OpenLogFolderCommand}" />
+                        </StackPanel>
+                    </Grid>
+                </Border></Grid>
+
+                <!-- Updates: the start-up check (only compares version numbers with GitHub's public release info). -->
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Updates}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
+                <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="ArrowSync24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{l:Loc Settings_Update_Title}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{l:Loc Settings_Update_Privacy}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <ui:ToggleSwitch Grid.Column="2" Margin="16,0,0,0" VerticalAlignment="Center"
+                                         IsChecked="{Binding Updates.CheckEnabled, Mode=TwoWay}"
+                                         AutomationProperties.AutomationId="UpdateCheckToggle"
+                                         AutomationProperties.Name="{l:Loc Settings_Update_Title}" />
+                    </Grid>
+                </Border></Grid>
+
+                <!-- About -->
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_About}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
+                <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Info24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{Binding VersionText}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{Binding LicenseText}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                            <Button Content="{l:Loc Settings_ViewGitHub}" Style="{StaticResource GlassPill}" Command="{Binding OpenGitHubCommand}" />
+                            <Button Content="{l:Loc Settings_Notices}" Style="{StaticResource GlassPill}" Margin="8,0,0,0" Command="{Binding OpenNoticesCommand}" />
+                            <Button Content="{l:Loc Settings_ReplayWelcome}" Style="{StaticResource GlassPill}" Margin="8,0,0,0" Command="{Binding ReplayWelcomeCommand}"
+                                    AutomationProperties.AutomationId="ReplayWelcome" />
+                        </StackPanel>
+                    </Grid>
+                    <!-- Manual update check + its status line. -->
+                    <Grid Margin="0,12,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Width="40" />
+                        <TextBlock Grid.Column="1" Text="{Binding Updates.StatusText}" Style="{StaticResource Caption}" VerticalAlignment="Center"
+                                   AutomationProperties.AutomationId="UpdateStatus" />
+                        <Button Grid.Column="2" Content="{l:Loc Settings_CheckForUpdates}" Style="{StaticResource GlassPill}" Margin="16,0,0,0"
+                                Command="{Binding Updates.CheckNowCommand}" AutomationProperties.AutomationId="CheckForUpdates" />
+                    </Grid>
+                    </StackPanel>
+                </Border></Grid>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>
+
+

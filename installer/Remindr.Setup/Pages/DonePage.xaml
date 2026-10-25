@@ -1,0 +1,24 @@
+<UserControl x:Class="Remindr.Setup.DonePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="48,28">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <!-- Animated check: circle and tick are stroked with dashes whose offset animates to 0 (draw), then the group pops. -->
+            <Grid x:Name="CheckGroup" Width="104" Height="104" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform><ScaleTransform x:Name="PopScale" /></Grid.RenderTransform>
+                <Ellipse Width="104" Height="104" Fill="{DynamicResource SetupAccentBrush}" Opacity="0.16" />
+                <Ellipse x:Name="Ring" Width="88" Height="88" StrokeThickness="5" Stroke="{DynamicResource SetupAccentBrush}"
+                         StrokeDashArray="52.4 52.4" StrokeDashCap="Round" RenderTransformOrigin="0.5,0.5">
+                    <Ellipse.RenderTransform><RotateTransform Angle="-90" /></Ellipse.RenderTransform>
+                </Ellipse>
+                <Canvas Width="104" Height="104">
+                    <Path x:Name="Tick" Data="M32,54 L45,67 L72,38" Stroke="{DynamicResource SetupAccentBrush}" StrokeThickness="6"
+                          StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeDashArray="10.6 10.6" StrokeDashCap="Round" />
+                </Canvas>
+            </Grid>
+            <TextBlock x:Name="Heading" Style="{StaticResource PageTitle}" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,22,0,0" />
+            <TextBlock x:Name="Detail" Style="{StaticResource Body}" FontSize="15" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,8,0,0"
+                       Foreground="{DynamicResource TextFillColorSecondaryBrush}" MaxWidth="480" />
+        </StackPanel>
+    </Grid>
+</UserControl>

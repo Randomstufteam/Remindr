@@ -1,0 +1,31 @@
+<UserControl x:Class="Remindr.Setup.OptionsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:automation="clr-namespace:System.Windows.Automation;assembly=PresentationCore">
+    <Grid Margin="36,28,36,24">
+        <StackPanel>
+            <TextBlock x:Name="Heading" Style="{StaticResource PageTitle}" Text="Install options" />
+
+            <TextBlock x:Name="LocationLabel" Style="{StaticResource SectionHeader}" Margin="0,18,0,6" Text="Install location" />
+            <Border x:Name="LocationBox" Style="{StaticResource GlassChip}" Padding="12,8">
+                <TextBox x:Name="LocationText" IsReadOnly="True" BorderThickness="0" Background="Transparent" FontSize="13"
+                         Foreground="{DynamicResource TextFillColorPrimaryBrush}" TextWrapping="NoWrap"
+                         automation:AutomationProperties.Name="Install location (read only)" />
+            </Border>
+            <TextBlock x:Name="LocationNote" Style="{StaticResource Caption}" Margin="2,6,0,0"
+                       Text="Installs just for you in your user folder. No administrator permission needed." />
+
+            <StackPanel Margin="0,22,0,0">
+                <CheckBox x:Name="DesktopBox" Style="{StaticResource SetupCheckBox}" Margin="0,0,0,12" Content="Create a desktop shortcut"
+                          automation:AutomationProperties.Name="Create a desktop shortcut" />
+                <CheckBox x:Name="StartupBox" Style="{StaticResource SetupCheckBox}" Margin="0,0,0,12" Content="Start Remindr with Windows"
+                          Visibility="Collapsed" automation:AutomationProperties.Name="Start Remindr with Windows" />
+                <CheckBox x:Name="LaunchBox" Style="{StaticResource SetupCheckBox}" Content="Launch Remindr when setup finishes" IsChecked="True"
+                          automation:AutomationProperties.Name="Launch Remindr when setup finishes" />
+            </StackPanel>
+
+            <TextBlock x:Name="KeepNote" Style="{StaticResource Caption}" Margin="0,18,0,0" Visibility="Collapsed"
+                       Text="Your reminders and settings are kept." />
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,44 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!-- Glass brushes, Dark theme, Windows transparency effects OFF: opaque fills, same shapes. -->
+
+    <!-- Card/panel surface: base fill plus an inner highlight over the top third. Border clips it to the corner radius. -->
+    <DrawingBrush x:Key="GlassSurfaceBrush" Stretch="Fill" ViewboxUnits="Absolute" Viewbox="0,0,1,1">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="#FF2B2B2D">
+                    <GeometryDrawing.Geometry><RectangleGeometry Rect="0,0,1,1" /></GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                            <GradientStop Color="#14FFFFFF" Offset="0" />
+                            <GradientStop Color="#00FFFFFF" Offset="1" />
+                        </LinearGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry><RectangleGeometry Rect="0,0,1,0.33" /></GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
+    <!-- 1px specular edge: bright at the top-left, fading to the bottom-right. -->
+    <LinearGradientBrush x:Key="GlassStrokeBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#40FFFFFF" Offset="0" />
+        <GradientStop Color="#14FFFFFF" Offset="1" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="GlassNavSurfaceBrush" Color="#FF232325" />
+    <SolidColorBrush x:Key="GlassPillBrush" Color="#FF3A3A3D" />
+    <SolidColorBrush x:Key="GlassPillHoverBrush" Color="#FF48484B" />
+    <SolidColorBrush x:Key="GlassPillPressedBrush" Color="#FF303033" />
+    <SolidColorBrush x:Key="GlassChipBrush" Color="#FF3A3A3D" />
+    <!-- Fill +25% opacity: put behind body text that sits on a busy backdrop. -->
+    <SolidColorBrush x:Key="GlassTextBackingBrush" Color="#FF2B2B2D" />
+    <!-- Disc behind avatar pictures (transparent PNGs). -->
+    <SolidColorBrush x:Key="GlassDiscBrush" Color="#FF3C3C3F" />
+    <!-- Profile picker: window-filling backdrop (transparent over Acrylic, opaque when transparency is off) and blob opacity (0 = no blobs). -->
+    <SolidColorBrush x:Key="GlassPickerBackdropBrush" Color="#FF202020" />
+    <sys:Double x:Key="GlassPickerBlobOpacity">0</sys:Double>
+</ResourceDictionary>

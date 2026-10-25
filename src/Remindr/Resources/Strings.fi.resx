@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Lisää</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Takaisin</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Luo</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Muokkaa</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Pois</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Päällä</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Tänään</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Otsikko</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Päivä</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Aika</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Muistiinpanot</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Luokka</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Kuva</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Tärkeä</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d. MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>d.</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d. MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d. MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d. MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d. MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d. MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Tänään</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalenteri</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Kaikki muistutukset</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profiili</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Vaihda profiilia</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Tiivistä tai laajenna sivupalkki</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Sivupalkki</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Hyvää huomenta</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Hyvää huomenta, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Hyvää päivää</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Hyvää päivää, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Hyvää iltaa</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Hyvää iltaa, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Ei tehtävää tänään</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Tämän päivän muistutukset näkyvät tässä.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Uusi muistutus</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Uusi muistutus (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Myöhässä</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Tänään</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Huomenna</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Valmiit</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Koko päivä</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Merkitse valmiiksi: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Merkitse tärkeäksi</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Muokkaa muistutusta</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Poista muistutus</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} avointa, {1} valmista</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Ei vielä muistutuksia</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Lisää ensimmäinen muistutuksesi, niin se näkyy tässä päivän mukaan ryhmiteltynä.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Uusi muistutus (tyhjä näkymä)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Valmiit muistutukset</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Kuukausi</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Viikko</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Kuukausinäkymä</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Viikkonäkymä</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Agendanäkymä</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Edellinen</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Seuraava</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Siirry tähän päivään</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Uusi muistutus valitulle päivälle</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Tälle päivälle ei ole suunnitelmia.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Ei tulevaa</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Ei muistutuksia seuraavan {0} päivän aikana.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Uusi muistutus (tyhjä agenda)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Kuukausiruudukko. Nuolinäppäimet vaihtavat valittua päivää, Enter lisää muistutuksen.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Tänään · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Huomenna · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Seuraavat {0} päivää alkaen {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Ei muistutuksia</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} muistutus</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} muistutusta</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, tärkeä</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>ei muistutuksia</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} muistutus</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} muistutusta</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Luokittelematon muistutus</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Luokiteltu muistutus</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Uusi muistutus</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Muokkaa muistutusta</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Mitä sinun pitää muistaa?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Valinnainen</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Näyttää punaisen ! -merkin, jotta se erottuu.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Ei kuvaa</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Lisää kuva</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Kuva: {0}. Vaihda kuva</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Anna otsikko.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Otsikossa saa olla enintään {0} merkkiä.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Valitse päivä.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Anna aika, esimerkiksi {0}, tai ota Koko päivä käyttöön.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Poistetaanko muistutus?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" poistetaan pysyvästi. Tätä ei voi kumota.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Ei mitään</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Uusi profiili</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Muokkaa profiilia</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Vaihda kuva</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Profiilin nimi</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Väri</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Avatarin kirjain</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (valinnainen)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Säilytä nykyinen PIN</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Anna nimi.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Nimessä saa olla enintään {0} merkkiä.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Anna avatarille yksi merkki.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN-koodissa on oltava tasan 4 numeroa.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Profiilia ei voi poistaa</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Vähintään yhden profiilin on oltava olemassa. Luo ensin toinen profiili, jos haluat poistaa tämän.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Poistetaanko "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Profiili "{0}" poistetaan pysyvästi kaikkine muistutuksineen ja luokkineen. Tätä ei voi kumota.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Aseta PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Vaihda PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Poista PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Valitse nelinumeroinen PIN. Tarvitset sitä tämän profiilin avaamiseen.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Anna nykyinen PIN ja valitse sitten uusi.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Anna nykyinen PIN poistaaksesi lukituksen.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Nykyinen PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Uusi nelinumeroinen PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Toista PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Toista uusi PIN</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Nykyinen PIN on väärä. Yritä uudelleen.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>PIN-koodit eivät täsmää.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN on yksityisyyssuoja uteliaita vastaan, ei vahvaa tietoturvaa.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Kaikki</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Hae kuvia</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Ei hakua vastaavia kuvia.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Ihmiset</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Perhe ja roolit</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Eläimet</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasia ja hauskaa</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Ruoka</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Luonto</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Urheilu ja harrastukset</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Esineet</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Koulu</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Työ</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Terveys</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Koti</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Raha</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Matkustus</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Juhlat</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Urheilu</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Valitse kuva</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Kuvat</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Oma kuva…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Oma kuva</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Käytä tietokoneesi PNG- tai JPG-kuvaa</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Vain kirjain</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Näytä värillinen kirjain kuvan sijaan</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Tiedostoa ei voitu lukea PNG- tai JPG-kuvana.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Kuka käyttää Remindria?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Jatka valitsemalla profiilisi</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Lisää profiili</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Viimeksi käytetty</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Suojattu PIN-koodilla</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Muokkaa tai poista</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Takaisin nykyiseen profiiliin (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Avaa</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Anna nelinumeroinen PIN</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Anna profiilin PIN muokataksesi tai poistaaksesi sen</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Väärä PIN. Yritä uudelleen.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Ulkoasu</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Sovelluksen teema</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Valitse vaalea tai tumma tai seuraa Windowsin asetusta.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Teema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Vaalea</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Tumma</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Järjestelmä</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Valitse Remindrin kieli. Muutos tulee voimaan heti.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Käännökset on tehty konetuella. Korjaukset ovat tervetulleita.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Ehdota korjausta</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profiili</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Kirjautuneena: {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Vaihda toiseen profiiliin tai muuta tämän profiilin nimeä, väriä ja kuvaa.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Vaihda kuva</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Vaihda profiilia</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-lukitus</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-lukitus: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Nelinumeroinen PIN pitää uteliaat poissa tästä profiilista. Se on yksityisyyssuoja, ei vahvaa tietoturvaa.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Ohje ja palaute</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Löysitkö ongelman tai onko sinulla idea?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Ilmoitukset avautuvat GitHubissa, ja vain Remindr- ja Windows-versiosi täytetään valmiiksi. Muuta ei lähetetä.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Ilmoita virheestä</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Ehdota ominaisuutta</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Avaa lokikansio</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Tietoja</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0}-lisenssi</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Näytä GitHubissa</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Kolmannen osapuolen ilmoitukset</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Jokin meni pieleen: {0}
+
+Tiedot tallennettiin tiedostoon %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Tiedot tallennettiin tiedostoon %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Tervetuloa Remindriin</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Aloita painamalla mitä tahansa näppäintä tai napsauttamalla</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Aloita</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Näytä tervetulo uudelleen</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Määritä Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Määrityksen eteneminen</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Vaihe {0}/{1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Seuraava</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Ohita</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Valitse kielesi</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Sovellus vaihtaa kieltä heti. Voit muuttaa sitä milloin tahansa Asetuksissa.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Hae kieliä</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Ei vastaavia kieliä.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Valitse ulkoasu</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Vaalea, tumma tai Windowsin asetuksen mukainen.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Profiilisi</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Lisää nimesi sekä valitse väri ja kuva.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Lisätäänkö PIN-koodi?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Valinnainen. Nelinumeroinen PIN-koodi pitää profiilin yksityisenä.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Kaikki on valmista, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Voit muuttaa nämä myöhemmin Asetuksissa.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Aloita Remindrin käyttö</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Lisää ensimmäinen muistutukseni</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Koulu</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Työ</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Henkilökohtainen</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Uutta</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Myöhemmin</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Ohita tämä versio</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Yritä uudelleen</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Tarkistetaan latausta…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Lataus ei vastannut tarkistussummaansa, joten se poistettiin eikä mitään asennettu.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Päivitystä ei voitu ladata. Yritä myöhemmin uudelleen.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Päivitykset</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Tarkista päivitykset, kun Remindr käynnistyy</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Ottaa yhteyden vain GitHubiin versionumeroiden vertaamiseksi; sinusta ei lähetetä mitään.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Tarkista päivitykset</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Tarkistetaan…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Ajan tasalla · tarkistettu {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} saatavilla</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Päivitysten tarkistus epäonnistui</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Päivitys saatavilla</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · sinulla on {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Päivitä</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Ladataan… {0} %</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Valmis asennettavaksi</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Käynnistä uudelleen ja päivitä</value>
+  </data>
+</root>

@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Kembali</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Buat</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Mati</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Hari ini</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Judul</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Waktu</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Catatan</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Gambar</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Penting</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Hari ini</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Semua pengingat</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Ganti profil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Ciutkan atau luaskan bilah samping</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Alihkan bilah samping</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Selamat pagi</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Selamat pagi, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Selamat siang</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Selamat siang, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Selamat malam</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Selamat malam, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Tidak ada yang jatuh tempo hari ini</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Pengingat untuk hari ini akan muncul di sini.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Pengingat baru</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Pengingat baru (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Terlambat</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Hari ini</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Besok</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Selesai</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Sepanjang hari</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Selesaikan: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Tandai sebagai penting</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Edit pengingat</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Hapus pengingat</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} terbuka, {1} selesai</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Belum ada pengingat</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Tambahkan pengingat pertama Anda dan pengingat itu akan muncul di sini, dikelompokkan menurut tanggal.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Pengingat baru (keadaan kosong)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Pengingat selesai</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Minggu</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Tampilan bulan</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Tampilan minggu</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Tampilan agenda</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Sebelumnya</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Berikutnya</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Buka hari ini</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Pengingat baru pada hari yang dipilih</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Tidak ada rencana untuk hari ini.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Tidak ada yang akan datang</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Tidak ada pengingat dalam {0} hari ke depan.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Pengingat baru (agenda kosong)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Kisi bulan. Tombol panah mengubah hari yang dipilih, Enter menambahkan pengingat.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Hari ini · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Besok · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} hari ke depan mulai {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Tidak ada pengingat</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} pengingat</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} pengingat</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, penting</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>tidak ada pengingat</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} pengingat</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} pengingat</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Pengingat tanpa kategori</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Pengingat berkategori</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Pengingat baru</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Edit pengingat</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Apa yang perlu Anda ingat?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Opsional</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Menampilkan lencana ! merah agar menonjol.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Tanpa gambar</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Tambahkan gambar</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Gambar: {0}. Ubah gambar</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Masukkan judul.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Judul maksimal {0} karakter.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Pilih tanggal.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Masukkan waktu seperti {0}, atau aktifkan Sepanjang hari.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Hapus pengingat?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Tidak ada</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Profil baru</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Edit profil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Ubah gambar</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Nama profil</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Warna</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Huruf avatar</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (opsional)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Pertahankan PIN saat ini</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Masukkan nama.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Nama maksimal {0} karakter.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Masukkan satu karakter untuk avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN harus tepat 4 digit.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Profil ini tidak dapat dihapus</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Harus ada setidaknya satu profil. Buat profil lain terlebih dahulu jika ingin menghapus profil ini.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Hapus "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Profil "{0}" akan dihapus secara permanen beserta semua pengingat dan kategorinya. Tindakan ini tidak dapat dibatalkan.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Setel PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Ubah PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Hapus PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Pilih PIN 4 digit. Anda memerlukannya untuk membuka profil ini.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Masukkan PIN saat ini, lalu pilih PIN baru.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Masukkan PIN saat ini untuk menonaktifkan kunci.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN saat ini</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN baru 4 digit</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Ulangi PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Ulangi PIN baru</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN saat ini salah. Coba lagi.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Kedua PIN tidak cocok.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN adalah layar privasi untuk menjauhkan orang iseng, bukan keamanan yang kuat.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Semua</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Cari gambar</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Tidak ada gambar yang cocok.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Orang</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Keluarga dan peran</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Hewan</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasi dan keseruan</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Makanan</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Alam</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Olahraga dan hobi</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Benda</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Sekolah</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Pekerjaan</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Kesehatan</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Rumah</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Uang</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Perjalanan</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Perayaan</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Olahraga</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Pilih gambar</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Gambar</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Gambar Anda sendiri…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Gambar Anda sendiri</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Gunakan PNG atau JPG dari komputer Anda</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Inisial saja</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Tampilkan huruf berwarna sebagai ganti gambar</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>File tersebut tidak dapat dibaca sebagai gambar PNG atau JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Siapa yang menggunakan Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Pilih profil Anda untuk melanjutkan</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Tambah profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Terakhir digunakan</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Dilindungi dengan PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Edit atau hapus</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Kembali ke profil saat ini (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Buka kunci</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Masukkan PIN 4 digit Anda</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Masukkan PIN profil ini untuk mengedit atau menghapusnya</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN salah. Coba lagi.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Tampilan</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Tema aplikasi</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Pilih Terang, Gelap, atau ikuti pengaturan Windows Anda.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Terang</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Gelap</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Pilih bahasa tampilan Remindr. Perubahan langsung diterapkan.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Terjemahan dibantu mesin. Koreksi sangat diterima.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Sarankan koreksi</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Masuk sebagai {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Beralih ke profil lain, atau ubah nama, warna, dan gambar profil ini.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Ubah gambar</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Ganti profil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Kunci PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Kunci PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>PIN 4 digit menjauhkan orang iseng dari profil ini. Ini adalah layar privasi, bukan keamanan yang kuat.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Bantuan &amp; masukan</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Menemukan masalah atau punya ide?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Laporan dibuka di GitHub dengan hanya versi Remindr dan Windows Anda yang terisi. Tidak ada data lain yang dikirim.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Laporkan bug</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Usulkan fitur</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Buka folder log</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Lisensi {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Lihat di GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Pemberitahuan pihak ketiga</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Terjadi kesalahan: {0}
+
+Rincian disimpan di %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Rincian disimpan di %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Selamat datang di Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Tekan tombol apa saja atau klik untuk memulai</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Mulai</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Putar ulang sambutan</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Siapkan Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Kemajuan penyiapan</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Langkah {0} dari {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Berikutnya</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Lewati</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Pilih bahasa Anda</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Aplikasi langsung berganti. Anda dapat mengubahnya kapan saja di Pengaturan.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Cari bahasa</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Tidak ada bahasa yang cocok.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Pilih tampilan Anda</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Terang, gelap, atau ikuti pengaturan Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Profil Anda</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Tambahkan nama, warna, dan gambar Anda.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Tambahkan PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Opsional. PIN 4 digit menjaga profil ini tetap pribadi.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Semua siap, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Anda dapat mengubah semua ini nanti di Pengaturan.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Mulai menggunakan Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Tambahkan pengingat pertama saya</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Sekolah</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Kerja</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Pribadi</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Yang baru</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Nanti</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Lewati versi ini</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Coba lagi</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Memeriksa unduhan…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Unduhan tidak cocok dengan checksum-nya, jadi dihapus dan tidak ada yang terinstal.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Pembaruan tidak dapat diunduh. Coba lagi nanti.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Pembaruan</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Periksa pembaruan saat Remindr dimulai</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Hanya menghubungi GitHub untuk membandingkan nomor versi; tidak ada data tentang Anda yang dikirim.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Periksa pembaruan</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Memeriksa…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Sudah terbaru · diperiksa pukul {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} tersedia</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Tidak dapat memeriksa pembaruan</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Pembaruan tersedia</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · Anda memakai {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Perbarui</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Mengunduh… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Siap diinstal</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Mulai ulang dan perbarui</value>
+  </data>
+</root>

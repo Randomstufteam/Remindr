@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Screenshot / hero / GIF maker. Not in Remindr.sln. It only ever uses a temp REMINDR_DATA_DIR with invented demo data. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Remindr.Shots</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="System.IO" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Only for the schema (Migrations.All) and the PIN hasher, so demo databases always match the app. -->
+    <ProjectReference Include="..\..\src\Remindr\Remindr.csproj" />
+  </ItemGroup>
+
+</Project>
+
+

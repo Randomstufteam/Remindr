@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <!-- Common -->
+  <data name="Common_Add" xml:space="preserve">
+    <value>Add</value>
+    <comment>Button that confirms a new reminder.</comment>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Create</value>
+    <comment>Button that confirms a new profile.</comment>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Off</value>
+    <comment>Switch state, as in &quot;PIN lock: Off&quot;.</comment>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>On</value>
+    <comment>Switch state, as in &quot;PIN lock: On&quot;.</comment>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Today</value>
+    <comment>Short word for the current day (button that jumps to today).</comment>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Title</value>
+    <comment>Field label: the name of a reminder.</comment>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Date</value>
+    <comment>Field label.</comment>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Time</value>
+    <comment>Field label: time of day.</comment>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notes</value>
+    <comment>Field label: free-text notes of a reminder.</comment>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Category</value>
+    <comment>Field label: reminder category such as School or Work.</comment>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Picture</value>
+    <comment>Field label: the small image of a reminder or profile.</comment>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Important</value>
+    <comment>Flag on a reminder; keep it short, it is shown in a badge.</comment>
+  </data>
+  <!-- Date and time patterns (.NET custom format patterns, NOT text: translate only the order/punctuation, keep the letters d, M, y) -->
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+    <comment>.NET date pattern. Example result: October 2026.</comment>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>MMM d</value>
+    <comment>.NET date pattern. Example result: Oct 24.</comment>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>MMM d, yyyy</value>
+    <comment>.NET date pattern. Example result: Oct 24, 2026.</comment>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>MMM d</value>
+    <comment>.NET date pattern for the first day of a week title inside one month. Each language orders and decorates the year, month and day its own way. Example: Oct 19 (in Oct 19 – 25, 2026). A lone d must be written %d.</comment>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d, yyyy</value>
+    <comment>.NET date pattern for the last day of a week title inside one month. Example: 25, 2026 (in Oct 19 – 25, 2026).</comment>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>MMM d</value>
+    <comment>.NET date pattern for the first day of a week title across two months of one year. Example: Oct 26 (in Oct 26 – Nov 1, 2026).</comment>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>MMM d, yyyy</value>
+    <comment>.NET date pattern for the last day of a week title across two months of one year. Example: Nov 1, 2026 (in Oct 26 – Nov 1, 2026).</comment>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, MMM d</value>
+    <comment>.NET date pattern. Example result: Saturday, Oct 24.</comment>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, MMM d, yyyy</value>
+    <comment>.NET date pattern. Example result: Saturday, Oct 24, 2026.</comment>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, MMM d</value>
+    <comment>.NET date pattern. Example result: Sat, Oct 24.</comment>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, MMM d, yyyy</value>
+    <comment>.NET date pattern. Example result: Sat, Oct 24, 2026.</comment>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, MMMM d</value>
+    <comment>.NET date pattern with the full month name. Example result: Saturday, October 24.</comment>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, MMMM d, yyyy</value>
+    <comment>.NET date pattern with the full month name. Example result: Saturday, October 24, 2026.</comment>
+  </data>
+  <!-- Navigation rail -->
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Today</value>
+    <comment>Sidebar item.</comment>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Calendar</value>
+    <comment>Sidebar item.</comment>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>All Reminders</value>
+    <comment>Sidebar item and page title.</comment>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profile</value>
+    <comment>Sidebar item before a profile is chosen; normally replaced by the profile name.</comment>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Sidebar item and page title.</comment>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Switch profile</value>
+    <comment>Tooltip of the profile item in the sidebar.</comment>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Collapse or expand the sidebar</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Toggle sidebar</value>
+    <comment>Screen-reader name of the sidebar button.</comment>
+  </data>
+  <!-- Today page -->
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Good morning</value>
+    <comment>Greeting without a name (before noon).</comment>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Good morning, {0}</value>
+    <comment>{0} is the person&apos;s profile name.</comment>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Good afternoon</value>
+    <comment>Greeting without a name (noon to 6 pm).</comment>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Good afternoon, {0}</value>
+    <comment>{0} is the person&apos;s profile name.</comment>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Good evening</value>
+    <comment>Greeting without a name (after 6 pm).</comment>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Good evening, {0}</value>
+    <comment>{0} is the person&apos;s profile name.</comment>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Nothing due today</value>
+    <comment>Empty state heading.</comment>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Reminders for today will show up here.</value>
+    <comment>Empty state text.</comment>
+  </data>
+  <!-- Reminders (lists, cards, groups) -->
+  <data name="Reminder_New" xml:space="preserve">
+    <value>New reminder</value>
+    <comment>Button that opens the new-reminder dialog.</comment>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>New reminder (Ctrl+N)</value>
+    <comment>Tooltip; Ctrl+N is the keyboard shortcut.</comment>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Overdue</value>
+    <comment>Section heading: reminders whose time has passed.</comment>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Today</value>
+    <comment>Section heading.</comment>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Tomorrow</value>
+    <comment>Section heading.</comment>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Completed</value>
+    <comment>Section heading: finished reminders.</comment>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>All day</value>
+    <comment>Shown instead of a time when a reminder has no time.</comment>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+    <comment>{0} is a date such as &quot;Tue, Oct 28&quot;, {1} is a time such as &quot;3:00 PM&quot; or &quot;All day&quot;.</comment>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Complete: {0}</value>
+    <comment>Screen-reader name of a reminder&apos;s checkbox; {0} is the reminder title.</comment>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Mark as important</value>
+    <comment>Tooltip of the flag button on a reminder card.</comment>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Edit reminder</value>
+    <comment>Screen-reader name of the edit button.</comment>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Delete reminder</value>
+    <comment>Screen-reader name of the delete button.</comment>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} open, {1} completed</value>
+    <comment>{0} and {1} are counts of reminders.</comment>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>No reminders yet</value>
+    <comment>Empty state heading.</comment>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Add your first reminder and it will show up here, grouped by date.</value>
+    <comment>Empty state text.</comment>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>New reminder (empty state)</value>
+    <comment>Screen-reader name of the button in the empty state.</comment>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Completed reminders</value>
+    <comment>Screen-reader name of the button that shows or hides finished reminders.</comment>
+  </data>
+  <!-- Calendar -->
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Month</value>
+    <comment>Segmented control: month view.</comment>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Week</value>
+    <comment>Segmented control: week view.</comment>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+    <comment>Segmented control: list of the next days.</comment>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Month view</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Week view</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Agenda view</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Previous</value>
+    <comment>Previous month/week/period button.</comment>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Next</value>
+    <comment>Next month/week/period button.</comment>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Go to today</value>
+    <comment>Screen-reader name of the Today button.</comment>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>New reminder on the selected day</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Nothing planned for this day.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Nothing coming up</value>
+    <comment>Empty state heading.</comment>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>No reminders in the next {0} days.</value>
+    <comment>{0} is the number of days (30).</comment>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>New reminder (empty agenda)</value>
+    <comment>Screen-reader name of the button in the empty state.</comment>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Month grid. Arrow keys change the selected day, Enter adds a reminder.</value>
+    <comment>Screen-reader description of the month grid.</comment>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Today · {0}</value>
+    <comment>{0} is a date such as &quot;Saturday, Oct 24&quot;.</comment>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Tomorrow · {0}</value>
+    <comment>{0} is a date such as &quot;Sunday, Oct 25&quot;.</comment>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+    <comment>Week title when it spans two years: {0} and {1} are full dates (Dec 28, 2026 – Jan 3, 2027).</comment>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+    <comment>Week title across two months: {0} first day, {1} last day, each built from the Fmt_WeekRangeCrossMonth* patterns (Oct 26 – Nov 1, 2026).</comment>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+    <comment>Week title inside one month: {0} first day, {1} last day, each built from the Fmt_WeekRangeSameMonth* patterns (Oct 19 – 25, 2026).</comment>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Next {0} days from {1}</value>
+    <comment>Agenda page title: {0} is a number of days (30), {1} a date such as &quot;Oct 24&quot;.</comment>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>No reminders</value>
+    <comment>Caption under a day&apos;s title when it has no reminders.</comment>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} reminder</value>
+    <comment>Caption for exactly one reminder; {0} is the count.</comment>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} reminders</value>
+    <comment>Caption for several reminders; {0} is the count.</comment>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+    <comment>Screen-reader name of a day: {0} is a full date, {1} the count text below.</comment>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, important</value>
+    <comment>Same, when the day has an important reminder.</comment>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>no reminders</value>
+    <comment>Lower case, used inside a sentence.</comment>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} reminder</value>
+    <comment>Used inside a sentence.</comment>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} reminders</value>
+    <comment>Used inside a sentence.</comment>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Uncategorized reminder</value>
+    <comment>Screen-reader name of a grey dot on a calendar day.</comment>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Categorized reminder</value>
+    <comment>Screen-reader name of a coloured dot on a calendar day.</comment>
+  </data>
+  <!-- New / edit reminder dialog -->
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>New reminder</value>
+    <comment>Dialog title.</comment>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Edit reminder</value>
+    <comment>Dialog title.</comment>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>What do you need to remember?</value>
+    <comment>Placeholder in the title box.</comment>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Optional</value>
+    <comment>Placeholder in the notes box.</comment>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Shows a red ! badge so it stands out.</value>
+    <comment>Explains the Important switch.</comment>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>No picture</value>
+    <comment>Button that removes the reminder&apos;s picture.</comment>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Add picture</value>
+    <comment>Name of the picture button when the reminder has no picture yet.</comment>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Picture: {0}. Change picture</value>
+    <comment>Name of the picture button; {0} is the picture&apos;s name.</comment>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Enter a title.</value>
+    <comment>Validation message.</comment>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Title must be {0} characters or fewer.</value>
+    <comment>{0} is the maximum length.</comment>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Pick a date.</value>
+    <comment>Validation message.</comment>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Enter a time like {0}, or turn on All day.</value>
+    <comment>{0} is an example time such as &quot;3:30 PM&quot;. &quot;All day&quot; is the switch&apos;s label.</comment>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Delete reminder?</value>
+    <comment>Dialog title.</comment>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>&quot;{0}&quot; will be permanently deleted. This can&apos;t be undone.</value>
+    <comment>{0} is the reminder title.</comment>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>None</value>
+    <comment>Category choice for &quot;no category&quot;.</comment>
+  </data>
+  <!-- Profiles -->
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>New profile</value>
+    <comment>Dialog title.</comment>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Edit profile</value>
+    <comment>Dialog title.</comment>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Change picture</value>
+    <comment>Dialog title.</comment>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Field label.</comment>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Profile name</value>
+    <comment>Placeholder in the name box.</comment>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Color</value>
+    <comment>Field label: the profile&apos;s accent colour.</comment>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Avatar letter</value>
+    <comment>Field label: the single letter shown when a profile has no picture.</comment>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (optional)</value>
+    <comment>Field label.</comment>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Keep current PIN</value>
+    <comment>Radio button.</comment>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Enter a name.</value>
+    <comment>Validation message.</comment>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Name must be {0} characters or fewer.</value>
+    <comment>{0} is the maximum length.</comment>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Enter a single character for the avatar.</value>
+    <comment>Validation message.</comment>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN must be exactly 4 digits.</value>
+    <comment>Validation message.</comment>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Can&apos;t delete this profile</value>
+    <comment>Dialog title.</comment>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>At least one profile must exist. Create another profile first if you want to delete this one.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Delete &quot;{0}&quot;?</value>
+    <comment>Dialog title; {0} is the profile name.</comment>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>This permanently deletes the profile &quot;{0}&quot; along with all of its reminders and categories. This can&apos;t be undone.</value>
+    <comment>{0} is the profile name.</comment>
+  </data>
+  <!-- PIN -->
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Set PIN</value>
+    <comment>Button and dialog title.</comment>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Change PIN</value>
+    <comment>Button and dialog title.</comment>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Remove PIN</value>
+    <comment>Button and dialog title.</comment>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Choose a 4-digit PIN. You&apos;ll need it to open this profile.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Enter your current PIN, then choose a new one.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Enter your current PIN to turn the lock off.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Current PIN</value>
+    <comment>Field label and screen-reader name.</comment>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>New 4-digit PIN</value>
+    <comment>Field label and screen-reader name.</comment>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Repeat PIN</value>
+    <comment>Field label (profile dialog).</comment>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Repeat new PIN</value>
+    <comment>Field label (PIN dialog).</comment>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Incorrect current PIN. Try again.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>The two PINs don&apos;t match.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>The PIN is a privacy screen to keep casual snoopers out, not strong security.</value>
+    <comment>Honest note under PIN fields.</comment>
+  </data>
+  <!-- Pictures and avatars -->
+  <data name="Pictures_All" xml:space="preserve">
+    <value>All</value>
+    <comment>Category chip that shows every picture.</comment>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Search pictures</value>
+    <comment>Placeholder and screen-reader name of the search box.</comment>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>No pictures match.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>People</value>
+    <comment>Picture category.</comment>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Family and roles</value>
+    <comment>Picture category.</comment>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Animals</value>
+    <comment>Picture category.</comment>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasy and fun</value>
+    <comment>Picture category.</comment>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Food</value>
+    <comment>Picture category.</comment>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Nature</value>
+    <comment>Picture category.</comment>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sports and hobbies</value>
+    <comment>Picture category.</comment>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Objects</value>
+    <comment>Picture category.</comment>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>School</value>
+    <comment>Picture category for reminders.</comment>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Work</value>
+    <comment>Picture category for reminders.</comment>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Health</value>
+    <comment>Picture category for reminders.</comment>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Home</value>
+    <comment>Picture category for reminders.</comment>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Money</value>
+    <comment>Picture category for reminders.</comment>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Travel</value>
+    <comment>Picture category for reminders.</comment>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Celebrations</value>
+    <comment>Picture category for reminders.</comment>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sports</value>
+    <comment>Picture category for reminders.</comment>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Choose a picture</value>
+    <comment>Title of the file-open window.</comment>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Pictures</value>
+    <comment>Name of the file type filter in the file-open window (followed by the extensions).</comment>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Your own picture…</value>
+    <comment>Button that opens the file-open window.</comment>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Your own picture</value>
+    <comment>Screen-reader name of that button.</comment>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Use a PNG or JPG from your computer</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Initial only</value>
+    <comment>Button: show the coloured letter instead of a picture.</comment>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Show the coloured letter instead of a picture</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>That file couldn&apos;t be read as a PNG or JPG picture.</value>
+  </data>
+  <!-- Profile picker overlay -->
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Who&apos;s using Remindr?</value>
+    <comment>Heading of the full-window profile chooser. Remindr is the app name; do not translate it.</comment>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Choose your profile to continue</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Add profile</value>
+    <comment>Tile that creates a new profile.</comment>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Last used</value>
+    <comment>Small label on the profile used most recently.</comment>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Protected with a PIN</value>
+    <comment>Tooltip on the lock badge of a profile.</comment>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Edit or delete</value>
+    <comment>Tooltip and screen-reader name of the &quot;...&quot; button on a profile tile.</comment>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Back to the current profile (Esc)</value>
+    <comment>Esc is the keyboard key.</comment>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+    <comment>Screen-reader name of the PIN entry box.</comment>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Unlock</value>
+    <comment>Button that checks the PIN.</comment>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Enter your 4-digit PIN</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Enter this profile&apos;s PIN to edit or delete it</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Incorrect PIN. Try again.</value>
+  </data>
+  <!-- Settings -->
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Appearance</value>
+    <comment>Section heading.</comment>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>App theme</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Choose Light, Dark, or follow your Windows setting.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Theme</value>
+    <comment>Screen-reader name of the theme list.</comment>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Light</value>
+    <comment>Theme name.</comment>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Dark</value>
+    <comment>Theme name.</comment>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>System</value>
+    <comment>Theme name: follow the Windows setting.</comment>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Choose the language Remindr is shown in. The change applies right away.</value>
+    <comment>Remindr is the app name; do not translate it.</comment>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Language</value>
+    <comment>Screen-reader name of the language list.</comment>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Translations were machine-assisted; corrections welcome.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Suggest a correction</value>
+    <comment>Link text that opens a GitHub form.</comment>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profile</value>
+    <comment>Section heading.</comment>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Signed in as {0}</value>
+    <comment>{0} is the profile name.</comment>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Switch to another profile, or change this profile&apos;s name, color and picture.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Change picture</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Switch profile</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN lock</value>
+    <comment>Section heading.</comment>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN lock: {0}</value>
+    <comment>{0} is On or Off.</comment>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>A 4-digit PIN keeps casual snoopers out of this profile. It is a privacy screen, not strong security.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Help &amp; feedback</value>
+    <comment>Section heading.</comment>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Found a problem or have an idea?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Reports open on GitHub with only your Remindr and Windows version filled in. Nothing else is sent.</value>
+    <comment>Remindr is the app name; do not translate it.</comment>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Report a bug</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Suggest a feature</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Open log folder</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>About</value>
+    <comment>Section heading.</comment>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+    <comment>{0} is the version number such as 0.3.0. Remindr is the app name; do not translate it.</comment>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} license</value>
+    <comment>{0} is a licence name such as MIT.</comment>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>View on GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Third-party notices</value>
+    <comment>Opens the list of open-source licences.</comment>
+  </data>
+  <!-- Errors -->
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Something went wrong: {0}
+
+Details were saved to %AppData%\Remindr\error.log</value>
+    <comment>{0} is a technical message. Keep the path as is.</comment>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Details were saved to %AppData%\Remindr\error.log</value>
+    <comment>{0} is a technical message. Keep the path as is.</comment>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Welcome to Remindr</value>
+    <comment>Spoken name of the full-window welcome greeting (screen readers).</comment>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Press any key or click to start</value>
+    <comment>Caption under the greeting.</comment>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Get started</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Replay welcome</value>
+    <comment>Button in Settings &gt; About: shows the welcome greeting again.</comment>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Set up Remindr</value>
+    <comment>Spoken name of the first-run setup card.</comment>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Setup progress</value>
+    <comment>Spoken name of the row of progress dots.</comment>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Step {0} of {1}</value>
+    <comment>Spoken name of a progress dot: {0} = this step, {1} = number of steps.</comment>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Choose your language</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>The app switches right away. You can change it any time in Settings.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Search languages</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>No languages match.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Pick your look</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Light, Dark, or follow your Windows setting.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Your profile</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Add your name, a color and a picture.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Add a PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Optional. A 4-digit PIN keeps this profile private.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>You&apos;re all set, {0}</value>
+    <comment>{0} = the person&apos;s name.</comment>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>You can change any of this later in Settings.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Start using Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Add my first reminder</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>School</value>
+    <comment>Name of the first default reminder category (created in the language chosen in setup).</comment>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Work</value>
+    <comment>Name of the second default reminder category.</comment>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Personal</value>
+    <comment>Name of the third default reminder category.</comment>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>What&apos;s new</value>
+    <comment>Banner button: opens the release notes in the browser.</comment>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Later</value>
+    <comment>Banner button: hides the banner until the next launch.</comment>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Skip this version</value>
+    <comment>Banner button: never offer this version again.</comment>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Try again</value>
+    <comment>Banner button after a failed update.</comment>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Checking the download…</value>
+    <comment>Banner title while the downloaded file is checked.</comment>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>The download didn&apos;t match its checksum, so it was deleted and nothing was installed.</value>
+    <comment>Banner error: the file failed its integrity check and was deleted.</comment>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Couldn&apos;t download the update. Please try again later.</value>
+    <comment>Banner error: the download failed.</comment>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Updates</value>
+    <comment>Settings section header.</comment>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Check for updates when Remindr starts</value>
+    <comment>Settings toggle: look for a new version each time the app starts.</comment>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Only contacts GitHub to compare version numbers; nothing about you is sent.</value>
+    <comment>Caption under the update toggle. GitHub is a brand name; keep it.</comment>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+    <comment>Button in Settings &gt; About: checks now.</comment>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Checking…</value>
+    <comment>Status while checking.</comment>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Up to date · checked {0}</value>
+    <comment>Status line. {0} = the time of the check, e.g. 9:41 PM.</comment>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} available</value>
+    <comment>Status line. {0} = a version number such as 0.4.0.</comment>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Couldn&apos;t check for updates</value>
+    <comment>Status line when the check could not be done.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Update available</value>
+    <comment>Title of the update card.</comment>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · you have {1}</value>
+    <comment>{0} = the new version, {1} = the installed version, e.g. Remindr 0.4.0 · you have 0.3.0. Remindr is the app name; do not translate it.</comment>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Update</value>
+    <comment>Primary button on the update card: downloads the update. Keep it short.</comment>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Downloading… {0}%</value>
+    <comment>Card title while downloading. {0} = percent done (0 to 100).</comment>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Button on the update card: stops the download.</comment>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Ready to install</value>
+    <comment>Card title once the download was verified.</comment>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Restart and update</value>
+    <comment>Button: closes Remindr and runs the installer. May be long; the button is full width.</comment>
+  </data>
+</root>

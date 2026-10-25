@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Δημιουργία</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Ανενεργό</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Ενεργό</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Σήμερα</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Τίτλος</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Ημερομηνία</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Ώρα</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Σημειώσεις</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Κατηγορία</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Εικόνα</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Σημαντικό</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Σήμερα</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Ημερολόγιο</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Όλες οι υπενθυμίσεις</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Προφίλ</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Αλλαγή προφίλ</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Σύμπτυξη ή ανάπτυξη της πλαϊνής γραμμής</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Εναλλαγή πλαϊνής γραμμής</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Καλημέρα</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Καλημέρα, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Καλό απόγευμα</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Καλό απόγευμα, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Καλησπέρα</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Καλησπέρα, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Τίποτα για σήμερα</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Οι υπενθυμίσεις για σήμερα θα εμφανίζονται εδώ.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Νέα υπενθύμιση</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Νέα υπενθύμιση (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Εκπρόθεσμες</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Σήμερα</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Αύριο</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Ολοκληρωμένες</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Ολοήμερο</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Ολοκλήρωση: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Επισήμανση ως σημαντικό</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Επεξεργασία υπενθύμισης</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Διαγραφή υπενθύμισης</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} ανοιχτές, {1} ολοκληρωμένες</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Καμία υπενθύμιση ακόμη</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Προσθέστε την πρώτη υπενθύμιση και θα εμφανιστεί εδώ, ομαδοποιημένη ανά ημερομηνία.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Νέα υπενθύμιση (κενή κατάσταση)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Ολοκληρωμένες υπενθυμίσεις</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Μήνας</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Εβδομάδα</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Ατζέντα</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Προβολή μήνα</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Προβολή εβδομάδας</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Προβολή ατζέντας</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Προηγούμενο</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Επόμενο</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Μετάβαση στο σήμερα</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Νέα υπενθύμιση για την επιλεγμένη ημέρα</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Δεν υπάρχει τίποτα προγραμματισμένο για αυτή την ημέρα.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Τίποτα προσεχώς</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Καμία υπενθύμιση τις επόμενες {0} ημέρες.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Νέα υπενθύμιση (κενή ατζέντα)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Πλέγμα μήνα. Τα βέλη αλλάζουν την επιλεγμένη ημέρα, το Enter προσθέτει υπενθύμιση.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Σήμερα · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Αύριο · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Επόμενες {0} ημέρες από {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Καμία υπενθύμιση</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} υπενθύμιση</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} υπενθυμίσεις</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, σημαντική</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>καμία υπενθύμιση</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} υπενθύμιση</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} υπενθυμίσεις</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Υπενθύμιση χωρίς κατηγορία</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Υπενθύμιση με κατηγορία</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Νέα υπενθύμιση</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Επεξεργασία υπενθύμισης</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Τι πρέπει να θυμάστε;</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Προαιρετικό</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Εμφανίζει κόκκινο σήμα ! για να ξεχωρίζει.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Χωρίς εικόνα</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Προσθήκη εικόνας</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Εικόνα: {0}. Αλλαγή εικόνας</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Εισαγάγετε έναν τίτλο.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Ο τίτλος πρέπει να έχει έως {0} χαρακτήρες.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Επιλέξτε ημερομηνία.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Εισαγάγετε ώρα, όπως {0}, ή ενεργοποιήστε το Ολοήμερο.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Διαγραφή υπενθύμισης;</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>Η υπενθύμιση «{0}» θα διαγραφεί οριστικά. Αυτή η ενέργεια δεν αναιρείται.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Καμία</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Νέο προφίλ</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Επεξεργασία προφίλ</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Αλλαγή εικόνας</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Όνομα προφίλ</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Χρώμα</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Γράμμα avatar</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (προαιρετικό)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Διατήρηση τρέχοντος PIN</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Εισαγάγετε ένα όνομα.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Το όνομα πρέπει να έχει έως {0} χαρακτήρες.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Εισαγάγετε έναν χαρακτήρα για το avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>Το PIN πρέπει να έχει ακριβώς 4 ψηφία.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Δεν είναι δυνατή η διαγραφή του προφίλ</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Πρέπει να υπάρχει τουλάχιστον ένα προφίλ. Δημιουργήστε πρώτα άλλο προφίλ για να διαγράψετε αυτό.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Διαγραφή του «{0}»;</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Το προφίλ «{0}» θα διαγραφεί οριστικά μαζί με όλες τις υπενθυμίσεις και τις κατηγορίες του. Αυτή η ενέργεια δεν αναιρείται.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Ορισμός PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Αλλαγή PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Αφαίρεση PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Επιλέξτε ένα PIN 4 ψηφίων. Θα το χρειάζεστε για να ανοίξετε αυτό το προφίλ.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Εισαγάγετε το τρέχον PIN και μετά επιλέξτε νέο.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Εισαγάγετε το τρέχον PIN για απενεργοποίηση του κλειδώματος.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Τρέχον PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Νέο PIN 4 ψηφίων</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Επανάληψη PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Επανάληψη νέου PIN</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Λάθος τρέχον PIN. Δοκιμάστε ξανά.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Τα δύο PIN δεν ταιριάζουν.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>Το PIN είναι οθόνη απορρήτου για τους περίεργους, όχι ισχυρή ασφάλεια.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Όλες</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Αναζήτηση εικόνων</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Καμία εικόνα δεν ταιριάζει.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Άνθρωποι</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Οικογένεια και ρόλοι</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Ζώα</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Φαντασία και διασκέδαση</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Φαγητό</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Φύση</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Σπορ και χόμπι</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Αντικείμενα</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Σχολείο</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Εργασία</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Υγεία</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Σπίτι</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Χρήματα</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Ταξίδια</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Γιορτές</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Αθλήματα</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Επιλογή εικόνας</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Εικόνες</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Δική σας εικόνα…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Δική σας εικόνα</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Χρήση PNG ή JPG από τον υπολογιστή σας</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Μόνο αρχικό</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Εμφάνιση του χρωματιστού γράμματος αντί για εικόνα</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η ανάγνωση του αρχείου ως εικόνας PNG ή JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Ποιος χρησιμοποιεί το Remindr;</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Επιλέξτε το προφίλ σας για να συνεχίσετε</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Προσθήκη προφίλ</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Τελευταία χρήση</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Προστατεύεται με PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Επεξεργασία ή διαγραφή</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Πίσω στο τρέχον προφίλ (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Ξεκλείδωμα</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Εισαγάγετε το PIN των 4 ψηφίων</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Εισαγάγετε το PIN του προφίλ για επεξεργασία ή διαγραφή</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Λάθος PIN. Δοκιμάστε ξανά.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Εμφάνιση</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Θέμα εφαρμογής</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Επιλέξτε Φωτεινό, Σκούρο ή ακολουθήστε τη ρύθμιση των Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Θέμα</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Φωτεινό</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Σκούρο</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Σύστημα</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Επιλέξτε τη γλώσσα του Remindr. Η αλλαγή ισχύει αμέσως.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Οι μεταφράσεις έγιναν με τη βοήθεια μηχανικής μετάφρασης. Διορθώσεις δεκτές.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Πρόταση διόρθωσης</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Προφίλ</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Συνδεδεμένος ως {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Αλλάξτε προφίλ ή τροποποιήστε το όνομα, το χρώμα και την εικόνα αυτού του προφίλ.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Αλλαγή εικόνας</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Αλλαγή προφίλ</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Κλείδωμα με PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Κλείδωμα με PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Ένα PIN 4 ψηφίων κρατά τους περίεργους μακριά από αυτό το προφίλ. Είναι οθόνη απορρήτου, όχι ισχυρή ασφάλεια.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Βοήθεια και σχόλια</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Βρήκατε πρόβλημα ή έχετε μια ιδέα;</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Οι αναφορές ανοίγουν στο GitHub, συμπληρωμένες μόνο με τις εκδόσεις Remindr και Windows. Δεν αποστέλλεται τίποτα άλλο.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Αναφορά σφάλματος</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Πρόταση λειτουργίας</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Άνοιγμα φακέλου αρχείων καταγραφής</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Άδεια {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Προβολή στο GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Ειδοποιήσεις τρίτων</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Κάτι πήγε στραβά: {0}
+
+Οι λεπτομέρειες αποθηκεύτηκαν στο %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Οι λεπτομέρειες αποθηκεύτηκαν στο %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Καλώς ήρθατε στο Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Πατήστε οποιοδήποτε πλήκτρο ή κάντε κλικ για να ξεκινήσετε</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Ας ξεκινήσουμε</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Επανάληψη καλωσορίσματος</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Ρύθμιση του Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Πρόοδος ρύθμισης</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Βήμα {0} από {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Επόμενο</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Παράλειψη</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Επιλέξτε γλώσσα</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Η εφαρμογή αλλάζει αμέσως. Μπορείτε να την αλλάξετε οποτεδήποτε στις Ρυθμίσεις.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Αναζήτηση γλωσσών</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Καμία γλώσσα δεν ταιριάζει.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Επιλέξτε εμφάνιση</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Φωτεινή, σκοτεινή ή σύμφωνα με τα Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Το προφίλ σας</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Προσθέστε το όνομά σας, ένα χρώμα και μια εικόνα.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Προσθήκη PIN;</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Προαιρετικό. Ένα PIN 4 ψηφίων κρατά αυτό το προφίλ ιδιωτικό.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Όλα έτοιμα, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Μπορείτε να τα αλλάξετε όλα αργότερα στις Ρυθμίσεις.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Ξεκινήστε να χρησιμοποιείτε το Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Προσθήκη της πρώτης μου υπενθύμισης</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Σχολείο</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Εργασία</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Προσωπικά</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Τι νέο υπάρχει</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Αργότερα</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Παράλειψη αυτής της έκδοσης</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Δοκιμή ξανά</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Έλεγχος της λήψης…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Η λήψη δεν ταίριαζε με το άθροισμα ελέγχου, οπότε διαγράφηκε και δεν εγκαταστάθηκε τίποτα.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η λήψη της ενημέρωσης. Δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Ενημερώσεις</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις κατά την εκκίνηση του Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Επικοινωνεί μόνο με το GitHub για σύγκριση αριθμών έκδοσης· δεν αποστέλλεται τίποτα για εσάς.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Έλεγχος…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Ενημερωμένο · έλεγχος στις {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>Διαθέσιμο: {0}</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Δεν ήταν δυνατός ο έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Διαθέσιμη ενημέρωση</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · έχετε {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Ενημέρωση</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Λήψη… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Έτοιμο για εγκατάσταση</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Επανεκκίνηση και ενημέρωση</value>
+  </data>
+</root>

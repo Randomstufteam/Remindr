@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>חזרה</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>ביטול</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>צור</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>כבוי</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>פועל</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>היום</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>תאריך</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>שעה</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>קטגוריה</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>תמונה</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>חשוב</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>היום</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>לוח שנה</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>כל התזכורות</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>פרופיל</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>החלפת פרופיל</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>כיווץ או הרחבה של סרגל הצד</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>החלפת מצב סרגל הצד</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>בוקר טוב</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>בוקר טוב, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>צהריים טובים</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>צהריים טובים, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>ערב טוב</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>ערב טוב, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>אין משימות להיום</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>התזכורות להיום יוצגו כאן.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>תזכורת חדשה</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>תזכורת חדשה (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>באיחור</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>היום</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>מחר</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>הושלמו</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>כל היום</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>סיום: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>סימון כחשוב</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>עריכת תזכורת</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>מחיקת תזכורת</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} פתוחות, {1} הושלמו</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>עדיין אין תזכורות</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>הוסף את התזכורת הראשונה שלך והיא תופיע כאן, מקובצת לפי תאריך.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>תזכורת חדשה (מצב ריק)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>תזכורות שהושלמו</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>חודש</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>שבוע</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>סדר יום</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>תצוגת חודש</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>תצוגת שבוע</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>תצוגת סדר יום</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>הקודם</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>הבא</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>מעבר להיום</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>תזכורת חדשה ביום הנבחר</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>אין תוכניות ליום זה.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>אין אירועים קרובים</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>אין תזכורות ב-{0} הימים הקרובים.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>תזכורת חדשה (סדר יום ריק)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>רשת חודש. מקשי החצים משנים את היום הנבחר, ו-Enter מוסיף תזכורת.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>היום · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>מחר · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} הימים הקרובים החל מ-{1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>אין תזכורות</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} תזכורת</value>
+  </data>
+  <data name="Calendar_DayCaption_Two" xml:space="preserve">
+    <value>{0} תזכורות</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} תזכורות</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, חשוב</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>אין תזכורות</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} תזכורת</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Two" xml:space="preserve">
+    <value>{0} תזכורות</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} תזכורות</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>תזכורת ללא קטגוריה</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>תזכורת עם קטגוריה</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>תזכורת חדשה</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>עריכת תזכורת</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>מה אתה צריך לזכור?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>אופציונלי</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>מציג תג ! אדום כדי שהתזכורת תבלוט.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>ללא תמונה</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>הוספת תמונה</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>תמונה: {0}. שינוי תמונה</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>הזן כותרת.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>הכותרת יכולה להכיל עד {0} תווים.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>בחר תאריך.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>הזן שעה כמו {0}, או הפעל "כל היום".</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>למחוק את התזכורת?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" תימחק לצמיתות. אי אפשר לבטל פעולה זו.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>ללא</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>פרופיל חדש</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>עריכת פרופיל</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>שינוי תמונה</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>שם הפרופיל</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>צבע</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>אות האווטאר</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>קוד PIN (אופציונלי)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>שמירת קוד ה-PIN הנוכחי</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>הזן שם.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>השם יכול להכיל עד {0} תווים.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>הזן תו אחד בלבד עבור האווטאר.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>קוד PIN חייב להכיל בדיוק 4 ספרות.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>לא ניתן למחוק פרופיל זה</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>חייב להישאר לפחות פרופיל אחד. כדי למחוק פרופיל זה, צור קודם פרופיל אחר.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>למחוק את "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>פעולה זו תמחק לצמיתות את הפרופיל "{0}" יחד עם כל התזכורות והקטגוריות שלו. אי אפשר לבטל פעולה זו.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>הגדרת קוד PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>שינוי קוד PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>הסרת קוד PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>בחר קוד PIN בן 4 ספרות. תזדקק לו כדי לפתוח פרופיל זה.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>הזן את קוד ה-PIN הנוכחי ואז בחר קוד חדש.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>הזן את קוד ה-PIN הנוכחי כדי לכבות את הנעילה.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>קוד PIN נוכחי</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>קוד PIN חדש בן 4 ספרות</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>הזנת קוד PIN שוב</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>הזנת קוד PIN חדש שוב</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>קוד ה-PIN הנוכחי שגוי. נסה שוב.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>שני קודי ה-PIN אינם תואמים.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>קוד PIN הוא מסך פרטיות שמרחיק מציצנים מזדמנים, ולא אבטחה חזקה.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>הכול</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>חיפוש תמונות</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>לא נמצאו תמונות תואמות.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>אנשים</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>משפחה ותפקידים</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>בעלי חיים</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>פנטזיה ובידור</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>אוכל</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>טבע</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>ספורט ותחביבים</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>חפצים</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>בית ספר</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>עבודה</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>בריאות</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>בית</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>כסף</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>נסיעות</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>חגיגות</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>ספורט</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>בחירת תמונה</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>תמונות</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>התמונה שלך…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>התמונה שלך</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>השתמש בקובץ PNG או JPG מהמחשב שלך</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>אות ראשונה בלבד</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>הצגת האות הצבעונית במקום תמונה</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>לא ניתן לקרוא את הקובץ כתמונת PNG או JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>מי משתמש ב-Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>בחר את הפרופיל שלך כדי להמשיך</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>הוספת פרופיל</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>שימוש אחרון</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>מוגן בקוד PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>עריכה או מחיקה</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>חזרה לפרופיל הנוכחי (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>ביטול נעילה</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>הזן את קוד ה-PIN בן 4 הספרות</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>הזן את קוד ה-PIN של פרופיל זה כדי לערוך או למחוק אותו</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>קוד PIN שגוי. נסה שוב.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>מראה</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>ערכת נושא של האפליקציה</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>בחר בהיר, כהה, או פעל לפי הגדרת Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>ערכת נושא</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>בהיר</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>כהה</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>מערכת</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>בחר את השפה שבה Remindr יוצג. השינוי חל מיד.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>התרגומים נוצרו בסיוע מכונה; תיקונים יתקבלו בברכה.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>הצעת תיקון</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>פרופיל</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>מחובר בשם {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>עבור לפרופיל אחר, או שנה את השם, הצבע והתמונה של פרופיל זה.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>שינוי תמונה</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>החלפת פרופיל</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>נעילת PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>נעילת PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>קוד PIN בן 4 ספרות מרחיק מציצנים מזדמנים מפרופיל זה. זהו מסך פרטיות, ולא אבטחה חזקה.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>עזרה ומשוב</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>מצאת בעיה או יש לך רעיון?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>הדיווחים נפתחים ב-GitHub כשרק גרסאות Remindr ו-Windows שלך ממולאות מראש. שום דבר אחר לא נשלח.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>דיווח על באג</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>הצעת תכונה</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>פתיחת תיקיית היומנים</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>רישיון {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>הצגה ב-GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>הודעות צד שלישי</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>משהו השתבש: {0}
+
+הפרטים נשמרו ב-%AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+הפרטים נשמרו ב-%AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>ברוכים הבאים אל Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>הקש על מקש כלשהו או לחץ כדי להתחיל</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>בואו נתחיל</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>הצגת הפתיחה שוב</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>הגדרת Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>התקדמות ההגדרה</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>שלב {0} מתוך {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>הבא</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>דלג</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>בחירת שפה</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>האפליקציה מתחלפת מיד. אפשר לשנות זאת בכל עת בהגדרות.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>חיפוש שפות</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>לא נמצאו שפות תואמות.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>בחירת מראה</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>בהיר, כהה או לפי הגדרת Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>הפרופיל שלך</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>הוספת שם, צבע ותמונה.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>להוסיף קוד PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>אופציונלי. קוד PIN בן 4 ספרות שומר על פרטיות הפרופיל.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>הכול מוכן, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>אפשר לשנות את כל זה בהמשך בהגדרות.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>התחלת השימוש ב-Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>הוספת התזכורת הראשונה שלי</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>בית ספר</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>עבודה</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>אישי</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>מה חדש</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>מאוחר יותר</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>דלג על גרסה זו</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>נסה שוב</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>בודק את ההורדה…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ההורדה לא התאימה לסכום הביקורת שלה, ולכן נמחקה ושום דבר לא הותקן.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>לא ניתן היה להוריד את העדכון. נסה שוב מאוחר יותר.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>עדכונים</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>חפש עדכונים כאשר Remindr מופעל</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>יוצר קשר רק עם GitHub כדי להשוות מספרי גרסאות; שום מידע עליך לא נשלח.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>חפש עדכונים</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>בודק…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>מעודכן · נבדק ב-{0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} זמין</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>לא ניתן היה לחפש עדכונים</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>יש עדכון זמין</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · יש לך {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>עדכן</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>מוריד… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>ביטול</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>מוכן להתקנה</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>הפעל מחדש ועדכן</value>
+  </data>
+</root>

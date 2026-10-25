@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Legg til</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Opprett</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Slett</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Av</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Tittel</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Klokkeslett</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notater</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Bilde</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Viktig</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d. MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>d.</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d. MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d. MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d. MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d. MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d. MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Alle påminnelser</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Bytt profil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Skjul eller vis sidefeltet</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Slå sidefeltet av/på</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>God morgen</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>God morgen, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>God ettermiddag</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>God ettermiddag, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>God kveld</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>God kveld, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Ingenting å gjøre i dag</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Påminnelser for i dag vises her.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Ny påminnelse</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Ny påminnelse (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Forfalt</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>I morgen</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Fullført</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Hele dagen</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Fullfør: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Merk som viktig</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Rediger påminnelse</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Slett påminnelse</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} åpne, {1} fullført</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Ingen påminnelser ennå</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Legg til den første påminnelsen din, så vises den her, gruppert etter dato.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Ny påminnelse (tom visning)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Fullførte påminnelser</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Uke</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Månedsvisning</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Ukevisning</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Agendavisning</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Forrige</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Gå til i dag</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Ny påminnelse på valgt dag</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Ingenting planlagt denne dagen.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Ingenting på gang</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Ingen påminnelser de neste {0} dagene.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Ny påminnelse (tom agenda)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Månedsrutenett. Piltastene endrer valgt dag, og Enter legger til en påminnelse.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>I dag · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>I morgen · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Neste {0} dager fra {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Ingen påminnelser</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} påminnelse</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} påminnelser</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, viktig</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>ingen påminnelser</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} påminnelse</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} påminnelser</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Påminnelse uten kategori</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Påminnelse med kategori</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Ny påminnelse</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Rediger påminnelse</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Hva må du huske?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Valgfritt</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Viser et rødt !-merke slik at den skiller seg ut.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Ingen bilde</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Legg til bilde</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Bilde: {0}. Bytt bilde</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Skriv inn en tittel.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Tittelen kan ha maks {0} tegn.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Velg en dato.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Skriv inn et klokkeslett som {0}, eller slå på Hele dagen.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Slette påminnelsen?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>&quot;{0}&quot; slettes permanent. Dette kan ikke angres.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Ny profil</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Rediger profil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Bytt bilde</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Profilnavn</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Farge</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Avatarbokstav</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN-kode (valgfritt)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Behold gjeldende PIN-kode</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Skriv inn et navn.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Navnet kan ha maks {0} tegn.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Skriv inn ett enkelt tegn for avataren.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN-koden må være nøyaktig 4 sifre.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Kan ikke slette denne profilen</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Minst én profil må finnes. Opprett en annen profil først hvis du vil slette denne.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Slette &quot;{0}&quot;?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Profilen &quot;{0}&quot; slettes permanent sammen med alle påminnelsene og kategoriene. Dette kan ikke angres.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Angi PIN-kode</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Endre PIN-kode</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Fjern PIN-kode</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Velg en PIN-kode på 4 sifre. Du trenger den for å åpne denne profilen.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Skriv inn gjeldende PIN-kode, og velg deretter en ny.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Skriv inn gjeldende PIN-kode for å slå av låsen.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Gjeldende PIN-kode</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Ny PIN-kode på 4 sifre</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Gjenta PIN-koden</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Gjenta den nye PIN-koden</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Feil gjeldende PIN-kode. Prøv igjen.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>De to PIN-kodene stemmer ikke overens.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN-koden er et innsynsvern mot nysgjerrige blikk, ikke sterk sikkerhet.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Søk etter bilder</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Ingen bilder samsvarer.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Mennesker</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Familie og yrker</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Dyr</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasi og moro</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Mat</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natur</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sport og hobbyer</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Gjenstander</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Skole</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Arbeid</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Helse</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Hjem</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Penger</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Reise</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Feiringer</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Velg et bilde</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Ditt eget bilde…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Ditt eget bilde</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Bruk en PNG eller JPG fra datamaskinen</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Bare initial</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Vis den fargede bokstaven i stedet for et bilde</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Filen kunne ikke leses som et PNG- eller JPG-bilde.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Hvem bruker Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Velg profilen din for å fortsette</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Legg til profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Sist brukt</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Beskyttet med PIN-kode</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Rediger eller slett</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Tilbake til gjeldende profil (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Lås opp</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Skriv inn PIN-koden din på 4 sifre</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Skriv inn PIN-koden for denne profilen for å redigere eller slette den</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Feil PIN-kode. Prøv igjen.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Utseende</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Apptema</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Velg Lys, Mørk, eller følg Windows-innstillingen.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Lys</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Mørk</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Velg språket Remindr vises på. Endringen gjelder umiddelbart.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Oversettelsene er laget med maskinell hjelp; rettelser mottas med takk.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Foreslå en rettelse</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Logget på som {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Bytt til en annen profil, eller endre navn, farge og bilde for denne profilen.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Bytt bilde</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Bytt profil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-lås</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-lås: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>En PIN-kode på 4 sifre holder nysgjerrige unna denne profilen. Det er et innsynsvern, ikke sterk sikkerhet.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Hjelp og tilbakemelding</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Funnet et problem eller har du en idé?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Rapporter åpnes på GitHub med bare Remindr- og Windows-versjonen din fylt ut. Ingenting annet sendes.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Rapporter en feil</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Foreslå en funksjon</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Åpne loggmappen</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0}-lisens</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Vis på GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Merknader om tredjepart</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Noe gikk galt: {0}
+
+Detaljer ble lagret i %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Detaljer ble lagret i %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Velkommen til Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Trykk på en tast eller klikk for å starte</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Kom i gang</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Vis velkomsten på nytt</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Sett opp Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Fremdrift for oppsett</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Trinn {0} av {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Hopp over</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Velg språk</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Appen bytter med en gang. Du kan endre det når som helst i Innstillinger.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Søk etter språk</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Ingen språk samsvarer.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Velg utseende</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Lyst, mørkt eller følg Windows-innstillingen.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Profilen din</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Legg til navnet ditt, en farge og et bilde.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Legge til en PIN-kode?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Valgfritt. En PIN-kode på 4 sifre holder profilen privat.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Alt er klart, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Du kan endre alt dette senere i Innstillinger.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Begynn å bruke Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Legg til min første påminnelse</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Skole</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Jobb</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Personlig</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Hva er nytt</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Senere</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Hopp over denne versjonen</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Prøv igjen</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Kontrollerer nedlastingen…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Nedlastingen stemte ikke med sjekksummen, så den ble slettet og ingenting ble installert.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Kunne ikke laste ned oppdateringen. Prøv igjen senere.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Oppdateringer</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Se etter oppdateringer når Remindr starter</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Kontakter bare GitHub for å sammenligne versjonsnumre; ingenting om deg sendes.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Se etter oppdateringer</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Kontrollerer…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Oppdatert · sjekket {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} er tilgjengelig</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Kunne ikke se etter oppdateringer</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Oppdatering tilgjengelig</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · du har {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Laster ned… {0} %</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Klar til installasjon</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Start på nytt og oppdater</value>
+  </data>
+</root>

@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Desactivado</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Importante</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM &apos;de&apos; yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d &apos;de&apos; MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d &apos;de&apos; MMMM &apos;de&apos; yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Todos los recordatorios</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Cambiar de perfil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Contraer o expandir la barra lateral</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Alternar barra lateral</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Buenos días</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Buenos días, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Buenas tardes</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Buenas tardes, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Buenas noches</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Buenas noches, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Nada para hoy</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Los recordatorios de hoy aparecerán aquí.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Nuevo recordatorio</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Nuevo recordatorio (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Vencidos</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Mañana</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Completados</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Todo el día</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Completar: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Marcar como importante</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Editar recordatorio</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Eliminar recordatorio</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} pendientes, {1} completados</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Aún no hay recordatorios</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Añade tu primer recordatorio y aparecerá aquí, agrupado por fecha.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Nuevo recordatorio (estado vacío)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Recordatorios completados</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Semana</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Vista de mes</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Vista de semana</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Vista de agenda</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Ir a hoy</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Nuevo recordatorio en el día seleccionado</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>No hay nada planeado para este día.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Nada próximo</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>No hay recordatorios en los próximos {0} días.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Nuevo recordatorio (agenda vacía)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Cuadrícula del mes. Las flechas cambian el día seleccionado y Intro añade un recordatorio.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Hoy · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Mañana · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Próximos {0} días desde {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Sin recordatorios</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} recordatorio</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} recordatorios</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, importante</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>sin recordatorios</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} recordatorio</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} recordatorios</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Recordatorio sin categoría</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Recordatorio con categoría</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Nuevo recordatorio</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Editar recordatorio</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>¿Qué necesitas recordar?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Opcional</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Muestra una insignia roja ! para que destaque.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Sin imagen</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Añadir imagen</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Imagen: {0}. Cambiar imagen</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Escribe un título.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>El título no puede superar los {0} caracteres.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Elige una fecha.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Escribe una hora como {0} o activa Todo el día.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>¿Eliminar recordatorio?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>&quot;{0}&quot; se eliminará de forma permanente. Esta acción no se puede deshacer.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Ninguna</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Nuevo perfil</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Editar perfil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Cambiar imagen</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Nombre del perfil</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Letra del avatar</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (opcional)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Mantener el PIN actual</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Escribe un nombre.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>El nombre no puede superar los {0} caracteres.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Escribe un solo carácter para el avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>El PIN debe tener exactamente 4 dígitos.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>No se puede eliminar este perfil</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Debe existir al menos un perfil. Crea otro perfil antes de eliminar este.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>¿Eliminar &quot;{0}&quot;?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Se eliminará de forma permanente el perfil &quot;{0}&quot; junto con todos sus recordatorios y categorías. Esta acción no se puede deshacer.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Establecer PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Cambiar PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Quitar PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Elige un PIN de 4 dígitos. Lo necesitarás para abrir este perfil.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Escribe tu PIN actual y luego elige uno nuevo.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Escribe tu PIN actual para desactivar el bloqueo.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN actual</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Nuevo PIN de 4 dígitos</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Repite el PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Repite el nuevo PIN</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>El PIN actual es incorrecto. Inténtalo de nuevo.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Los dos PIN no coinciden.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>El PIN es una pantalla de privacidad para evitar miradas curiosas, no una seguridad sólida.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Buscar imágenes</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Ninguna imagen coincide.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Personas</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Familia y profesiones</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Animales</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasía y diversión</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Comida</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Naturaleza</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Deportes y aficiones</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Objetos</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Escuela</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Trabajo</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Salud</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Dinero</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Viajes</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Celebraciones</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Deportes</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Elegir una imagen</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Imágenes</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Tu propia imagen…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Tu propia imagen</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Usa un PNG o JPG de tu equipo</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Solo inicial</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Mostrar la letra de color en lugar de una imagen</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>No se pudo leer ese archivo como imagen PNG o JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>¿Quién usa Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Elige tu perfil para continuar</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Añadir perfil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Último usado</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Protegido con un PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Editar o eliminar</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Volver al perfil actual (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Desbloquear</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Escribe tu PIN de 4 dígitos</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Escribe el PIN de este perfil para editarlo o eliminarlo</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN incorrecto. Inténtalo de nuevo.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Apariencia</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Tema de la aplicación</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Elige Claro, Oscuro o usa la configuración de Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Claro</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Oscuro</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Elige el idioma en el que se muestra Remindr. El cambio se aplica al instante.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Las traducciones se hicieron con ayuda automática; se agradecen las correcciones.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Sugerir una corrección</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Sesión iniciada como {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Cambia a otro perfil o modifica el nombre, el color y la imagen de este perfil.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Cambiar imagen</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Cambiar de perfil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Bloqueo con PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Bloqueo con PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Un PIN de 4 dígitos evita que curiosos entren en este perfil. Es una pantalla de privacidad, no una seguridad sólida.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Ayuda y comentarios</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>¿Has encontrado un problema o tienes una idea?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Los informes se abren en GitHub con solo tu versión de Remindr y de Windows. No se envía nada más.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Informar de un error</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Sugerir una función</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Abrir carpeta de registros</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Licencia {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Ver en GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Avisos de terceros</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Algo salió mal: {0}
+
+Los detalles se guardaron en %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Los detalles se guardaron en %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Te damos la bienvenida a Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Pulsa cualquier tecla o haz clic para empezar</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Empezar</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Ver de nuevo la bienvenida</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Configurar Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Progreso de la configuración</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Paso {0} de {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Omitir</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Elige tu idioma</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>La aplicación cambia al instante. Puedes cambiarlo cuando quieras en Configuración.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Buscar idiomas</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Ningún idioma coincide.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Elige tu estilo</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Claro, oscuro o el ajuste de Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Tu perfil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Añade tu nombre, un color y una imagen.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>¿Añadir un PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Opcional. Un PIN de 4 dígitos mantiene este perfil privado.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Todo listo, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Puedes cambiar todo esto más tarde en Configuración.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Empezar a usar Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Añadir mi primer recordatorio</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Escuela</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Trabajo</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Novedades</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Más tarde</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Omitir esta versión</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Reintentar</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Comprobando la descarga…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>La descarga no coincidía con su suma de comprobación, así que se eliminó y no se instaló nada.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>No se pudo descargar la actualización. Inténtalo de nuevo más tarde.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Actualizaciones</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Buscar actualizaciones al iniciar Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Solo se conecta a GitHub para comparar números de versión; no se envía nada sobre ti.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Buscar actualizaciones</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Comprobando…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Actualizado · comprobado {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} disponible</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>No se pudo buscar actualizaciones</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Actualización disponible</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · tienes {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Descargando… {0} %</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Listo para instalar</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Reiniciar y actualizar</value>
+  </data>
+</root>

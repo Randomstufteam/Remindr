@@ -1,0 +1,23 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Motion tokens. Reference these with StaticResource; no inline durations anywhere else.
+         With reduced motion (SystemParameters.ClientAreaAnimation off) App.OnStartup replaces them with 0 before any view loads. -->
+    <Duration x:Key="DurFast">0:0:0.15</Duration>
+    <Duration x:Key="DurNormal">0:0:0.2</Duration>
+    <Duration x:Key="DurSlow">0:0:0.25</Duration>
+    <Duration x:Key="DurShake">0:0:0.3</Duration>
+    <!-- Welcome / setup "hero" motion: a greeting word settling in, leaving, the blob hue shift, and a step's slide. -->
+    <Duration x:Key="DurHero">0:0:0.65</Duration>
+    <Duration x:Key="DurHeroOut">0:0:0.4</Duration>
+    <Duration x:Key="DurHue">0:0:1</Duration>
+
+    <!-- Delay between staggered items, in milliseconds. -->
+    <sys:Double x:Key="StaggerMs">40</sys:Double>
+
+    <!-- False under reduced motion: decorative loops (blob drift) should not start. -->
+    <sys:Boolean x:Key="MotionEnabled">True</sys:Boolean>
+
+    <CubicEase x:Key="EaseOut" EasingMode="EaseOut" />
+</ResourceDictionary>

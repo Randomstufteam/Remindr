@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Tillbaka</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Skapa</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Av</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Idag</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Anteckningar</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Viktigt</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Idag</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Alla påminnelser</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Byt profil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Fäll ihop eller expandera sidofältet</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Växla sidofält</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>God morgon</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>God morgon, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>God eftermiddag</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>God eftermiddag, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>God kväll</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>God kväll, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Inget att göra idag</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Påminnelser för idag visas här.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Ny påminnelse</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Ny påminnelse (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Försenade</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Idag</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Imorgon</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Slutförda</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Heldag</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Slutför: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Markera som viktig</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Redigera påminnelse</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Ta bort påminnelse</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} öppna, {1} slutförda</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Inga påminnelser än</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Lägg till din första påminnelse så visas den här, grupperad efter datum.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Ny påminnelse (tom vy)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Slutförda påminnelser</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Månad</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Vecka</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Månadsvy</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Veckovy</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Agendavy</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Föregående</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Gå till idag</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Ny påminnelse på vald dag</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Inget planerat för den här dagen.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Inget på gång</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Inga påminnelser de närmaste {0} dagarna.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Ny påminnelse (tom agenda)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Månadsrutnät. Piltangenterna byter vald dag och Retur lägger till en påminnelse.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Idag · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Imorgon · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Nästa {0} dagar från {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Inga påminnelser</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} påminnelse</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} påminnelser</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, viktigt</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>inga påminnelser</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} påminnelse</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} påminnelser</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Påminnelse utan kategori</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Påminnelse med kategori</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Ny påminnelse</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Redigera påminnelse</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Vad behöver du komma ihåg?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Valfritt</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Visar ett rött !-märke så att den syns.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Ingen bild</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Lägg till bild</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Bild: {0}. Byt bild</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Ange en titel.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Titeln får vara högst {0} tecken.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Välj ett datum.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Ange en tid som {0}, eller aktivera Heldag.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Ta bort påminnelsen?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>&quot;{0}&quot; tas bort permanent. Det går inte att ångra.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Ny profil</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Redigera profil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Byt bild</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Profilnamn</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Färg</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Avatarbokstav</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN-kod (valfritt)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Behåll nuvarande PIN-kod</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Ange ett namn.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Namnet får vara högst {0} tecken.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Ange ett enda tecken för avataren.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN-koden måste vara exakt 4 siffror.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Det går inte att ta bort profilen</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Minst en profil måste finnas. Skapa först en annan profil om du vill ta bort den här.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Ta bort &quot;{0}&quot;?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Profilen &quot;{0}&quot; tas bort permanent tillsammans med alla dess påminnelser och kategorier. Det går inte att ångra.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Ange PIN-kod</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Ändra PIN-kod</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Ta bort PIN-kod</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Välj en PIN-kod med 4 siffror. Du behöver den för att öppna den här profilen.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Ange din nuvarande PIN-kod och välj sedan en ny.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Ange din nuvarande PIN-kod för att stänga av låset.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Nuvarande PIN-kod</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Ny PIN-kod med 4 siffror</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Upprepa PIN-koden</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Upprepa den nya PIN-koden</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Fel nuvarande PIN-kod. Försök igen.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>De två PIN-koderna matchar inte.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN-koden är ett insynsskydd mot nyfikna blickar, inte ett starkt säkerhetsskydd.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Alla</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Sök bilder</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Inga bilder matchar.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Människor</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Familj och yrken</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Djur</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasi och kul</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Mat</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natur</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sport och hobbyer</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Föremål</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Skola</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Arbete</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Hälsa</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Hem</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Pengar</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Resor</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Fester</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Välj en bild</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Din egen bild…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Din egen bild</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Använd en PNG eller JPG från datorn</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Endast initial</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Visa den färgade bokstaven i stället för en bild</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Filen kunde inte läsas som en PNG- eller JPG-bild.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Vem använder Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Välj din profil för att fortsätta</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Lägg till profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Senast använd</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Skyddad med PIN-kod</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Redigera eller ta bort</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Tillbaka till nuvarande profil (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Lås upp</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Ange din PIN-kod med 4 siffror</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Ange profilens PIN-kod för att redigera eller ta bort den</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Fel PIN-kod. Försök igen.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Utseende</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Apptema</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Välj Ljust, Mörkt eller följ Windows-inställningen.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Ljust</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Mörkt</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Välj vilket språk Remindr visas på. Ändringen gäller direkt.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Översättningarna har tagits fram med maskinell hjälp; rättelser är välkomna.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Föreslå en rättelse</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Inloggad som {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Byt till en annan profil, eller ändra namn, färg och bild för den här profilen.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Byt bild</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Byt profil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-lås</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-lås: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>En PIN-kod med 4 siffror håller nyfikna borta från den här profilen. Det är ett insynsskydd, inte ett starkt säkerhetsskydd.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Hjälp och feedback</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Hittat ett problem eller har en idé?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Rapporter öppnas på GitHub med endast din Remindr- och Windows-version ifylld. Inget annat skickas.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Rapportera ett fel</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Föreslå en funktion</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Öppna loggmappen</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0}-licens</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Visa på GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Meddelanden om tredjepart</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Något gick fel: {0}
+
+Informationen sparades i %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Informationen sparades i %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Välkommen till Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Tryck på valfri tangent eller klicka för att börja</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Kom igång</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Visa välkomsten igen</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Konfigurera Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Konfigurationens förlopp</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Steg {0} av {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Hoppa över</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Välj språk</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Appen byter direkt. Du kan ändra det när som helst i Inställningar.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Sök språk</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Inga språk matchar.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Välj utseende</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Ljust, mörkt eller följ Windows-inställningen.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Din profil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Lägg till ditt namn, en färg och en bild.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Lägga till en PIN-kod?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Valfritt. En PIN-kod med 4 siffror håller profilen privat.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Allt är klart, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Du kan ändra allt detta senare i Inställningar.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Börja använda Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Lägg till min första påminnelse</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Skola</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Arbete</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Privat</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Nyheter</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Senare</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Hoppa över den här versionen</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Försök igen</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Kontrollerar nedladdningen…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Nedladdningen stämde inte med sin kontrollsumma, så den togs bort och inget installerades.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Det gick inte att hämta uppdateringen. Försök igen senare.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Uppdateringar</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Sök efter uppdateringar när Remindr startar</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Kontaktar bara GitHub för att jämföra versionsnummer; ingenting om dig skickas.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Sök efter uppdateringar</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Kontrollerar…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Uppdaterad · kontrollerad {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} är tillgänglig</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Det gick inte att söka efter uppdateringar</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Uppdatering tillgänglig</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · du har {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Hämtar… {0} %</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Redo att installera</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Starta om och uppdatera</value>
+  </data>
+</root>

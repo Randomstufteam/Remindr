@@ -1,0 +1,36 @@
+<UserControl x:Class="Remindr.Views.Dialogs.PinDialogView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ctl="clr-namespace:Remindr.Views.Controls"
+             xmlns:conv="clr-namespace:Remindr.Converters"
+             xmlns:l="clr-namespace:Remindr.Views"
+             Width="320">
+    <UserControl.Resources>
+        <conv:AddConverter x:Key="AddConverter" />
+        <Style x:Key="PinLabel" TargetType="TextBlock" BasedOn="{StaticResource Caption}">
+            <Setter Property="Margin" Value="0,12,0,4" />
+        </Style>
+    </UserControl.Resources>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" CanContentScroll="False"
+                  MaxHeight="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType=Window}, Converter={StaticResource AddConverter}, ConverterParameter=-160}">
+    <StackPanel ctl:Anim.FadeInOnLoad="True" ctl:Anim.Slide="0">
+        <TextBlock x:Name="Intro" Style="{StaticResource Caption}" />
+
+        <StackPanel x:Name="CurrentPanel">
+            <TextBlock Text="{l:Loc Pin_Current}" Style="{StaticResource PinLabel}" />
+            <PasswordBox FlowDirection="LeftToRight" x:Name="CurrentBox" MaxLength="4" AutomationProperties.Name="{l:Loc Pin_Current}"
+                         PasswordChanged="Box_PasswordChanged" />
+        </StackPanel>
+
+        <!-- New PIN + repeat (shared with first-run setup). -->
+        <ctl:PinSetPanel x:Name="NewPanel" Margin="0,12,0,0" RepeatsNewPin="True" />
+
+        <TextBlock x:Name="ErrorText" FontSize="12" Margin="0,4,0,0" TextWrapping="Wrap" MinHeight="16"
+                   Foreground="{DynamicResource SystemFillColorCriticalBrush}" />
+        <TextBlock Text="{l:Loc Pin_Note}"
+                   FontSize="11" TextWrapping="Wrap" Margin="0,8,0,0"
+                   Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+    </StackPanel>
+    </ScrollViewer>
+</UserControl>

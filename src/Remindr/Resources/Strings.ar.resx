@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>رجوع</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>إنشاء</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>الفئة</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>الصورة</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>مهم</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd، d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd، d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd، d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd، d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd، d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd، d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>التقويم</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>كل التذكيرات</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>تبديل الملف الشخصي</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>طي الشريط الجانبي أو توسيعه</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>تبديل الشريط الجانبي</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>صباح الخير</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>صباح الخير، {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>مساء الخير</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>مساء الخير، {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>مساء الخير</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>مساء الخير، {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>لا شيء مستحق اليوم</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>ستظهر تذكيرات اليوم هنا.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>تذكير جديد</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>تذكير جديد (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>متأخر</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>غدًا</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>مكتمل</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>طوال اليوم</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>إكمال: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>وضع علامة كمهم</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>تحرير التذكير</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>حذف التذكير</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} مفتوح، {1} مكتمل</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>لا توجد تذكيرات بعد</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>أضف أول تذكير لك وسيظهر هنا مجمّعًا حسب التاريخ.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>تذكير جديد (الحالة الفارغة)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>التذكيرات المكتملة</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>الشهر</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>الأسبوع</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>جدول الأعمال</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>عرض الشهر</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>عرض الأسبوع</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>عرض جدول الأعمال</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>الانتقال إلى اليوم</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>تذكير جديد في اليوم المحدد</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>لا شيء مخطط لهذا اليوم.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>لا شيء قادم</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>لا توجد تذكيرات في الأيام الـ {0} القادمة.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>تذكير جديد (جدول أعمال فارغ)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>شبكة الشهر. استخدم مفاتيح الأسهم لتغيير اليوم المحدد، واضغط Enter لإضافة تذكير.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>اليوم · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>غدًا · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>الأيام الـ {0} القادمة من {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>لا توجد تذكيرات</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} تذكير</value>
+  </data>
+  <data name="Calendar_DayCaption_Two" xml:space="preserve">
+    <value>{0} تذكيران</value>
+  </data>
+  <data name="Calendar_DayCaption_Few" xml:space="preserve">
+    <value>{0} تذكيرات</value>
+  </data>
+  <data name="Calendar_DayCaption_Many" xml:space="preserve">
+    <value>{0} تذكيرًا</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} تذكير</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}، {1}، مهم</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>لا توجد تذكيرات</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} تذكير</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Two" xml:space="preserve">
+    <value>{0} تذكيران</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Few" xml:space="preserve">
+    <value>{0} تذكيرات</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Many" xml:space="preserve">
+    <value>{0} تذكيرًا</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} تذكير</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>تذكير بلا فئة</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>تذكير مصنّف</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>تذكير جديد</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>تحرير التذكير</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>ماذا تريد أن تتذكر؟</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>اختياري</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>يعرض شارة ! حمراء ليبرز التذكير.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>بدون صورة</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>إضافة صورة</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>الصورة: {0}. تغيير الصورة</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>أدخل عنوانًا.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>يجب ألا يتجاوز العنوان {0} حرفًا.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>اختر تاريخًا.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>أدخل وقتًا مثل {0}، أو شغّل "طوال اليوم".</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>حذف التذكير؟</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" سيُحذف نهائيًا. لا يمكن التراجع عن هذا الإجراء.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>بلا</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>ملف شخصي جديد</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>تحرير الملف الشخصي</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>تغيير الصورة</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>اسم الملف الشخصي</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>اللون</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>حرف الصورة الرمزية</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>رمز PIN (اختياري)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>الاحتفاظ برمز PIN الحالي</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>أدخل اسمًا.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>يجب ألا يتجاوز الاسم {0} حرفًا.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>أدخل حرفًا واحدًا للصورة الرمزية.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>يجب أن يتكون رمز PIN من 4 أرقام بالضبط.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>لا يمكن حذف هذا الملف الشخصي</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>يجب أن يوجد ملف شخصي واحد على الأقل. أنشئ ملفًا شخصيًا آخر أولًا إذا أردت حذف هذا الملف.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>حذف "{0}"؟</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>سيؤدي هذا إلى حذف الملف الشخصي "{0}" نهائيًا مع جميع تذكيراته وفئاته. لا يمكن التراجع عن هذا الإجراء.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>تعيين رمز PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>تغيير رمز PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>إزالة رمز PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>اختر رمز PIN من 4 أرقام. ستحتاج إليه لفتح هذا الملف الشخصي.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>أدخل رمز PIN الحالي، ثم اختر رمزًا جديدًا.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>أدخل رمز PIN الحالي لإيقاف القفل.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>رمز PIN الحالي</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>رمز PIN جديد من 4 أرقام</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>أعد إدخال رمز PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>أعد إدخال رمز PIN الجديد</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>رمز PIN الحالي غير صحيح. حاول مرة أخرى.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>رمزا PIN غير متطابقين.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>رمز PIN شاشة خصوصية تمنع المتطفلين العابرين، وليس حماية قوية.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>البحث في الصور</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>لا توجد صور مطابقة.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>أشخاص</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>العائلة والأدوار</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>حيوانات</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>خيال ومرح</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>طعام</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>طبيعة</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>رياضة وهوايات</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>أشياء</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>المدرسة</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>العمل</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>الصحة</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>المنزل</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>المال</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>السفر</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>احتفالات</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>الرياضة</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>اختيار صورة</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>الصور</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>صورتك الخاصة…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>صورتك الخاصة</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>استخدم صورة PNG أو JPG من جهاز الكمبيوتر</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>الحرف الأول فقط</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>عرض الحرف الملوّن بدلًا من الصورة</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>تعذرت قراءة هذا الملف كصورة PNG أو JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>من يستخدم Remindr؟</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>اختر ملفك الشخصي للمتابعة</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>إضافة ملف شخصي</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>آخر استخدام</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>محمي برمز PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>تحرير أو حذف</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>العودة إلى الملف الشخصي الحالي (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>إلغاء القفل</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>أدخل رمز PIN المكوّن من 4 أرقام</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>أدخل رمز PIN لهذا الملف الشخصي لتحريره أو حذفه</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>رمز PIN غير صحيح. حاول مرة أخرى.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>المظهر</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>سمة التطبيق</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>اختر فاتحًا أو داكنًا، أو اتبع إعداد Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>السمة</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>فاتح</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>داكن</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>النظام</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>اختر اللغة التي يُعرض بها Remindr. يُطبَّق التغيير فورًا.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>تمت الترجمات بمساعدة الآلة، ونرحب بالتصحيحات.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>اقتراح تصحيح</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>تم تسجيل الدخول باسم {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>بدّل إلى ملف شخصي آخر، أو غيّر اسم هذا الملف ولونه وصورته.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>تغيير الصورة</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>تبديل الملف الشخصي</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>قفل PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>قفل PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>يمنع رمز PIN المكوّن من 4 أرقام المتطفلين العابرين من دخول هذا الملف الشخصي. وهو شاشة خصوصية وليس حماية قوية.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>المساعدة والتعليقات</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>وجدت مشكلة أو لديك فكرة؟</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>تُفتح البلاغات على GitHub مع تعبئة إصدار Remindr وWindows فقط. لا يُرسل أي شيء آخر.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>الإبلاغ عن خطأ</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>اقتراح ميزة</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>فتح مجلد السجلات</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>ترخيص {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>عرض على GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>إشعارات الجهات الخارجية</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>حدث خطأ ما: {0}
+
+تم حفظ التفاصيل في %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+تم حفظ التفاصيل في %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>مرحبًا بك في Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>اضغط أي مفتاح أو انقر للبدء</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>ابدأ</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>إعادة عرض الترحيب</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>إعداد Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>تقدّم الإعداد</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>الخطوة {0} من {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>تخطٍّ</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>اختر لغتك</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>يتغيّر التطبيق فورًا. يمكنك تغييرها في أي وقت من الإعدادات.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>ابحث عن لغة</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>لا توجد لغات مطابقة.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>اختر مظهرك</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>فاتح أو داكن أو حسب إعداد Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>ملفك الشخصي</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>أضف اسمك ولونًا وصورة.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>هل تريد إضافة رمز PIN؟</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>اختياري. رمز PIN من 4 أرقام يُبقي هذا الملف الشخصي خاصًا.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>كل شيء جاهز، {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>يمكنك تغيير كل ذلك لاحقًا من الإعدادات.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>ابدأ استخدام Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>أضف أول تذكير لي</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>المدرسة</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>العمل</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>شخصي</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>ما الجديد</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>لاحقًا</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>تخطي هذا الإصدار</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>إعادة المحاولة</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>جارٍ التحقق من التنزيل…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>لم يتطابق التنزيل مع المجموع الاختباري الخاص به، لذا تم حذفه ولم يتم تثبيت أي شيء.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>تعذّر تنزيل التحديث. يُرجى المحاولة لاحقًا.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>التحديثات</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>البحث عن التحديثات عند بدء Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>يتصل بـ GitHub فقط لمقارنة أرقام الإصدارات؛ ولا يُرسَل أي شيء عنك.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>البحث عن تحديثات</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>جارٍ التحقق…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>محدّث · تم التحقق في {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} متاح</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>تعذّر البحث عن التحديثات</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>يتوفر تحديث</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · لديك {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>جارٍ التنزيل… {0}٪</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>جاهز للتثبيت</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>إعادة التشغيل والتحديث</value>
+  </data>
+</root>

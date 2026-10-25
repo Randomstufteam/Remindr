@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1CDEFFE3-F489-4063-A46C-5F29264FA553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remindr", "src\Remindr\Remindr.csproj", "{0AD86FA3-B7DE-4575-AC79-3F2AD40321A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3FA392E6-5D02-4580-9F3C-5C18F93CD52A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remindr.Tests", "tests\Remindr.Tests\Remindr.Tests.csproj", "{E85AB132-FAFF-4511-A86D-F6CDA3FF817F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "installer", "installer", "{60F1DEAE-3118-4511-8D3F-259505135E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remindr.Setup.Core", "installer\Remindr.Setup.Core\Remindr.Setup.Core.csproj", "{2DFCC9D0-ADF8-4CA0-B27C-635E3CF3AA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remindr.Setup", "installer\Remindr.Setup\Remindr.Setup.csproj", "{D3662B4C-B02D-4862-8DAE-B1143157EF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AD86FA3-B7DE-4575-AC79-3F2AD40321A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD86FA3-B7DE-4575-AC79-3F2AD40321A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD86FA3-B7DE-4575-AC79-3F2AD40321A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD86FA3-B7DE-4575-AC79-3F2AD40321A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85AB132-FAFF-4511-A86D-F6CDA3FF817F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85AB132-FAFF-4511-A86D-F6CDA3FF817F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85AB132-FAFF-4511-A86D-F6CDA3FF817F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85AB132-FAFF-4511-A86D-F6CDA3FF817F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFCC9D0-ADF8-4CA0-B27C-635E3CF3AA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFCC9D0-ADF8-4CA0-B27C-635E3CF3AA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFCC9D0-ADF8-4CA0-B27C-635E3CF3AA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFCC9D0-ADF8-4CA0-B27C-635E3CF3AA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3662B4C-B02D-4862-8DAE-B1143157EF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3662B4C-B02D-4862-8DAE-B1143157EF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3662B4C-B02D-4862-8DAE-B1143157EF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3662B4C-B02D-4862-8DAE-B1143157EF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AD86FA3-B7DE-4575-AC79-3F2AD40321A9} = {1CDEFFE3-F489-4063-A46C-5F29264FA553}
+		{E85AB132-FAFF-4511-A86D-F6CDA3FF817F} = {3FA392E6-5D02-4580-9F3C-5C18F93CD52A}
+		{2DFCC9D0-ADF8-4CA0-B27C-635E3CF3AA64} = {60F1DEAE-3118-4511-8D3F-259505135E8E}
+		{D3662B4C-B02D-4862-8DAE-B1143157EF1B} = {60F1DEAE-3118-4511-8D3F-259505135E8E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+name: Translation fix
+description: Report a wrong, stiff or missing translation in Remindr
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remindr's translations were machine-assisted, so corrections are very welcome. Please do not include personal information.
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Which language is the text in? (Settings > Language shows the current one.)
+      placeholder: German (de)
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where in the app?
+      description: The screen or dialog where you saw it, for example "Settings > PIN lock" or "New reminder dialog".
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: Paste the text exactly as it appears now.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text
+      description: What it should say instead, and a short note if the meaning matters.
+    validations:
+      required: true

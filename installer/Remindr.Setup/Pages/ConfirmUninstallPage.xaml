@@ -1,0 +1,23 @@
+<UserControl x:Class="Remindr.Setup.ConfirmUninstallPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Remindr.Setup"
+             xmlns:automation="clr-namespace:System.Windows.Automation;assembly=PresentationCore">
+    <Grid Margin="36,28,36,24">
+        <StackPanel VerticalAlignment="Center">
+            <local:LogoMark Width="52" Height="52" HorizontalAlignment="Left" Margin="0,0,0,18" />
+            <TextBlock x:Name="Heading" Style="{StaticResource PageTitle}" Text="Uninstall Remindr?" />
+            <TextBlock x:Name="Body" Style="{StaticResource Body}" FontSize="15" Margin="0,8,0,0"
+                       Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                       Text="This removes the app and its shortcuts. Your profiles and reminders are kept unless you tick the box below." />
+
+            <Border x:Name="DataCard" Style="{StaticResource GlassCard}" Margin="0,22,0,0">
+                <StackPanel>
+                    <CheckBox x:Name="DataBox" Style="{StaticResource SetupCheckBox}" Content="Also remove my data"
+                              automation:AutomationProperties.Name="Also remove my data" Checked="DataBox_Changed" Unchecked="DataBox_Changed" />
+                    <TextBlock x:Name="DataNote" Style="{StaticResource Caption}" Margin="34,4,0,0" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>

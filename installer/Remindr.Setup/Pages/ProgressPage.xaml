@@ -1,0 +1,25 @@
+<UserControl x:Class="Remindr.Setup.ProgressPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Remindr.Setup"
+             xmlns:automation="clr-namespace:System.Windows.Automation;assembly=PresentationCore">
+    <Grid Margin="48,28">
+        <StackPanel VerticalAlignment="Center">
+            <local:LogoMark Width="52" Height="52" HorizontalAlignment="Left" Margin="0,0,0,20" />
+            <TextBlock x:Name="Heading" Style="{StaticResource PageTitle}" />
+            <TextBlock x:Name="StepText" Style="{StaticResource Body}" FontSize="16" Margin="0,8,0,0"
+                       Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                       automation:AutomationProperties.LiveSetting="Polite" />
+
+            <!-- Progress bar: track + accent fill (width animated) with a moving sheen. -->
+            <Grid Margin="0,28,0,0" Height="10">
+                <Border x:Name="Track" CornerRadius="5" Background="{DynamicResource SetupTrackBrush}" />
+                <Border x:Name="Fill" CornerRadius="5" HorizontalAlignment="Left" Width="0" />
+            </Grid>
+            <Grid Margin="0,10,0,0">
+                <TextBlock x:Name="Hint" Style="{StaticResource Caption}" Text="This only takes a moment." />
+                <TextBlock x:Name="Percent" Style="{StaticResource Caption}" HorizontalAlignment="Right" Text="0%" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

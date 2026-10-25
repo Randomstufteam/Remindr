@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Remindr.Setup.LogoMark"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Width="64" Height="64" Focusable="False" IsHitTestVisible="False">
+    <!-- Remindr app mark (same artwork as Assets\remindr.ico): blue-violet rounded square with a white bell. Scales with Width/Height. -->
+    <Viewbox Stretch="Uniform">
+        <Grid Width="32" Height="32">
+            <Border CornerRadius="7" Width="32" Height="32">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#3B82F6" Offset="0" />
+                        <GradientStop Color="#8B5CF6" Offset="1" />
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            <Path Fill="White" Data="M16,5 C11,5 8.5,9 8.5,13.5 L8.5,19 L6,22.5 L26,22.5 L23.5,19 L23.5,13.5 C23.5,9 21,5 16,5 Z" />
+            <Ellipse Fill="White" Width="6" Height="4" Margin="0,24,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" />
+            <Ellipse Fill="White" Width="2.8" Height="2.8" Margin="0,3,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        </Grid>
+    </Viewbox>
+</UserControl>
+

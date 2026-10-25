@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Картинка</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Важное</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Календарь</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Все напоминания</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Сменить профиль</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Свернуть или развернуть боковую панель</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Переключить боковую панель</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Доброе утро</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Доброе утро, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Добрый день</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Добрый день, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Добрый вечер</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Добрый вечер, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>На сегодня ничего нет</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Напоминания на сегодня появятся здесь.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Новое напоминание</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Новое напоминание (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Просроченные</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Завтра</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Выполненные</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Весь день</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Выполнить: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Пометить как важное</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Изменить напоминание</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Удалить напоминание</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>Открытых: {0}, выполненных: {1}</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Напоминаний пока нет</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Добавьте первое напоминание, и оно появится здесь, сгруппированное по датам.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Новое напоминание (пустое состояние)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Выполненные напоминания</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Неделя</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Повестка</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Вид «Месяц»</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Вид «Неделя»</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Вид «Повестка»</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Вперёд</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Перейти к сегодняшнему дню</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Новое напоминание на выбранный день</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>На этот день ничего не запланировано.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Ничего впереди</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Нет напоминаний на ближайшие {0} дн.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Новое напоминание (пустая повестка)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Сетка месяца. Стрелки меняют выбранный день, клавиша Enter добавляет напоминание.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Сегодня · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Завтра · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Ближайшие {0} дн., начиная с {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Нет напоминаний</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} напоминание</value>
+  </data>
+  <data name="Calendar_DayCaption_Few" xml:space="preserve">
+    <value>{0} напоминания</value>
+  </data>
+  <data name="Calendar_DayCaption_Many" xml:space="preserve">
+    <value>{0} напоминаний</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} напоминаний</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, важное</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>нет напоминаний</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} напоминание</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Few" xml:space="preserve">
+    <value>{0} напоминания</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Many" xml:space="preserve">
+    <value>{0} напоминаний</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} напоминаний</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Напоминание без категории</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Напоминание с категорией</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Новое напоминание</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Изменение напоминания</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>О чём нужно помнить?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Необязательно</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Показывает красный значок !, чтобы напоминание выделялось.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Без картинки</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Добавить картинку</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Картинка: {0}. Изменить картинку</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Введите название.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Название не должно быть длиннее {0} симв.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Выберите дату.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Введите время, например {0}, или включите «Весь день».</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Удалить напоминание?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>«{0}» будет удалено без возможности восстановления.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Новый профиль</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Изменение профиля</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Изменение картинки</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Имя профиля</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Буква аватара</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN-код (необязательно)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Оставить текущий PIN-код</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Введите имя.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Имя не должно быть длиннее {0} симв.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Введите один символ для аватара.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN-код должен состоять ровно из 4 цифр.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Этот профиль нельзя удалить</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Должен остаться хотя бы один профиль. Чтобы удалить этот, сначала создайте другой.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Удалить «{0}»?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Профиль «{0}» будет удалён вместе со всеми его напоминаниями и категориями без возможности восстановления.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Задать PIN-код</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Изменить PIN-код</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Удалить PIN-код</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Выберите PIN-код из 4 цифр. Он понадобится для входа в этот профиль.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Введите текущий PIN-код, затем выберите новый.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Введите текущий PIN-код, чтобы отключить блокировку.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Текущий PIN-код</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Новый PIN-код из 4 цифр</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Повторите PIN-код</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Повторите новый PIN-код</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Неверный текущий PIN-код. Повторите попытку.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>PIN-коды не совпадают.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN-код — это защита от посторонних глаз, а не надёжная безопасность.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Поиск картинок</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Подходящих картинок нет.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Люди</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Семья и роли</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Животные</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Фантазия и веселье</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Еда</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Природа</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Спорт и хобби</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Школа</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Работа</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Здоровье</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Дом</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Деньги</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Путешествия</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Праздники</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Спорт</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Выберите картинку</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Картинки</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Своя картинка…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Своя картинка</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Использовать PNG или JPG с компьютера</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Только буква</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Показывать цветную букву вместо картинки</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Не удалось прочитать файл как изображение PNG или JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Кто использует Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Выберите профиль, чтобы продолжить</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Добавить профиль</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Последний</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Защищено PIN-кодом</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Изменить или удалить</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Вернуться к текущему профилю (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN-код</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Разблокировать</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Введите PIN-код из 4 цифр</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Введите PIN-код профиля, чтобы изменить или удалить его</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Неверный PIN-код. Повторите попытку.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Оформление</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Тема приложения</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Выберите светлую или тёмную тему либо используйте параметр Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Тёмная</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Системная</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Выберите язык интерфейса Remindr. Изменение применяется сразу.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Переводы выполнены с помощью машинного перевода. Исправления приветствуются.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Предложить исправление</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Вход выполнен: {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Переключитесь на другой профиль или измените имя, цвет и картинку этого профиля.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Изменить картинку</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Сменить профиль</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Блокировка PIN-кодом</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Блокировка PIN-кодом: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>PIN-код из 4 цифр защищает этот профиль от посторонних глаз. Это защита приватности, а не надёжная безопасность.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Справка и отзывы</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Нашли проблему или есть идея?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Сообщения открываются на GitHub, в них заполняются только версии Remindr и Windows. Больше ничего не отправляется.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Сообщить об ошибке</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Предложить функцию</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Открыть папку журналов</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Лицензия {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Открыть на GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Уведомления сторонних компонентов</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Что-то пошло не так: {0}
+
+Подробности сохранены в %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Подробности сохранены в %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Добро пожаловать в Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Нажмите любую клавишу или щёлкните, чтобы начать</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Начать</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Показать приветствие ещё раз</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Настройка Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Ход настройки</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Шаг {0} из {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Пропустить</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Выберите язык</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Приложение переключится сразу. Язык можно изменить в любой момент в Параметрах.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Поиск языков</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Подходящих языков нет.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Выберите оформление</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Светлое, тёмное или как в Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Ваш профиль</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Укажите имя, выберите цвет и картинку.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Добавить PIN-код?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Необязательно. 4-значный PIN-код делает этот профиль приватным.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Всё готово, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Всё это можно изменить позже в Параметрах.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Начать работу с Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Добавить моё первое напоминание</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Учёба</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Работа</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Личное</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Что нового</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Позже</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Пропустить эту версию</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Проверка загрузки…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Загруженный файл не совпал с контрольной суммой, поэтому он был удалён, и ничего не установлено.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Не удалось загрузить обновление. Повторите попытку позже.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Обновления</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Проверять обновления при запуске Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Связывается только с GitHub для сравнения номеров версий; никакие данные о вас не отправляются.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Проверка…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Обновлений нет · проверено в {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>Доступна версия {0}</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Не удалось проверить обновления</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Доступно обновление</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · у вас {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Загрузка… {0} %</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Готово к установке</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Перезапустить и обновить</value>
+  </data>
+</root>

@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Adaugă</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Înapoi</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Creează</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Editează</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Oprit</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Pornit</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Salvează</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Azi</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Imagine</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Important</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Azi</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Toate mementourile</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Schimbă profilul</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Restrânge sau extinde bara laterală</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Comută bara laterală</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Bună dimineața</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Bună dimineața, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Bună ziua</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Bună ziua, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Bună seara</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Bună seara, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Nimic de făcut azi</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Mementourile pentru azi vor apărea aici.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Memento nou</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Memento nou (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Întârziate</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Azi</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Mâine</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Finalizate</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Toată ziua</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Finalizează: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Marchează ca important</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Editează mementoul</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Șterge mementoul</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} deschise, {1} finalizate</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Niciun memento încă</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Adaugă primul memento și va apărea aici, grupat după dată.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Memento nou (stare goală)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Mementouri finalizate</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Lună</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Săptămână</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Agendă</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Vizualizare lunară</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Vizualizare săptămânală</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Vizualizare agendă</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Următor</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Mergi la azi</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Memento nou în ziua selectată</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Nimic planificat pentru această zi.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Nimic în curând</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Niciun memento în următoarele {0} de zile.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Memento nou (agendă goală)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Grila lunii. Tastele săgeți schimbă ziua selectată, Enter adaugă un memento.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Azi · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Mâine · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Următoarele {0} de zile din {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Niciun memento</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} memento</value>
+  </data>
+  <data name="Calendar_DayCaption_Few" xml:space="preserve">
+    <value>{0} mementouri</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} de mementouri</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, important</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>niciun memento</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} memento</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Few" xml:space="preserve">
+    <value>{0} mementouri</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} de mementouri</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Memento fără categorie</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Memento cu categorie</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Memento nou</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Editează mementoul</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Ce trebuie să ții minte?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Opțional</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Afișează o insignă roșie ! ca să iasă în evidență.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Fără imagine</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Adaugă imagine</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Imagine: {0}. Schimbă imaginea</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Introdu un titlu.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Titlul poate avea cel mult {0} caractere.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Alege o dată.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Introdu o oră, de exemplu {0}, sau activează Toată ziua.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Ștergi mementoul?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>„{0}” va fi șters definitiv. Acțiunea nu poate fi anulată.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Niciuna</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Profil nou</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Editează profilul</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Schimbă imaginea</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Numele profilului</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Culoare</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Litera avatarului</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (opțional)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Păstrează PIN-ul actual</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Introdu un nume.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Numele poate avea cel mult {0} caractere.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Introdu un singur caracter pentru avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN-ul trebuie să aibă exact 4 cifre.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Profilul nu poate fi șters</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Trebuie să existe cel puțin un profil. Creează mai întâi alt profil dacă vrei să îl ștergi pe acesta.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Ștergi „{0}”?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Profilul „{0}” va fi șters definitiv, împreună cu toate mementourile și categoriile sale. Acțiunea nu poate fi anulată.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Setează PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Schimbă PIN-ul</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Elimină PIN-ul</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Alege un PIN din 4 cifre. Vei avea nevoie de el pentru a deschide acest profil.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Introdu PIN-ul actual, apoi alege unul nou.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Introdu PIN-ul actual pentru a dezactiva blocarea.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN actual</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN nou din 4 cifre</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Repetă PIN-ul</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Repetă PIN-ul nou</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN-ul actual este incorect. Încearcă din nou.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Cele două PIN-uri nu se potrivesc.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN-ul este un ecran de confidențialitate pentru curioși, nu o securitate puternică.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Toate</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Caută imagini</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Nicio imagine nu se potrivește.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Oameni</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Familie și roluri</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Animale</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantezie și distracție</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Mâncare</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natură</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sport și hobby-uri</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Obiecte</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Școală</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Serviciu</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Sănătate</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Acasă</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Bani</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Călătorii</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Sărbători</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Alege o imagine</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Imagini</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Imaginea ta…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Imaginea ta</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Folosește un PNG sau JPG de pe computer</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Doar inițiala</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Afișează litera colorată în loc de imagine</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Fișierul nu a putut fi citit ca imagine PNG sau JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Cine folosește Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Alege profilul pentru a continua</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Adaugă profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Folosit ultima dată</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Protejat cu PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Editează sau șterge</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Înapoi la profilul curent (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Deblochează</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Introdu PIN-ul din 4 cifre</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Introdu PIN-ul profilului pentru a-l edita sau șterge</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN incorect. Încearcă din nou.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Tema aplicației</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Alege Luminos, Întunecat sau urmează setarea Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Temă</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Luminos</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Întunecat</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Alege limba în care este afișat Remindr. Modificarea se aplică imediat.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Traducerile au fost realizate cu ajutor automat. Corecturile sunt binevenite.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Sugerează o corectură</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Conectat ca {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Treci la alt profil sau schimbă numele, culoarea și imaginea acestui profil.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Schimbă imaginea</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Schimbă profilul</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Blocare cu PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Blocare cu PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Un PIN din 4 cifre ține curioșii departe de acest profil. Este un ecran de confidențialitate, nu o securitate puternică.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Ajutor și feedback</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Ai găsit o problemă sau ai o idee?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Rapoartele se deschid pe GitHub, doar cu versiunile Remindr și Windows completate. Nu se trimite nimic altceva.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Raportează o eroare</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Sugerează o funcție</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Deschide folderul de jurnale</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Licență {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Vezi pe GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Notificări terțe</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Ceva nu a mers bine: {0}
+
+Detaliile au fost salvate în %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Detaliile au fost salvate în %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Bun venit în Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Apăsați orice tastă sau faceți clic pentru a începe</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Începeți</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Reafișează mesajul de bun venit</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Configurați Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Progresul configurării</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Pasul {0} din {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Înainte</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Omiteți</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Alegeți limba</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Aplicația se schimbă imediat. Puteți modifica oricând în Setări.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Căutați limbi</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Nicio limbă nu se potrivește.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Alegeți aspectul</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Luminos, întunecat sau conform setării Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Profilul dvs.</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Adăugați numele, o culoare și o imagine.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Adăugați un PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Opțional. Un PIN din 4 cifre păstrează acest profil privat.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Totul este gata, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Puteți modifica toate acestea mai târziu în Setări.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Începeți să folosiți Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Adăugați primul memento</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Școală</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Serviciu</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Noutăți</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Mai târziu</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Omite această versiune</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Încearcă din nou</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Se verifică descărcarea…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Descărcarea nu corespundea sumei de control, așa că a fost ștearsă și nu s-a instalat nimic.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Actualizarea nu a putut fi descărcată. Încearcă din nou mai târziu.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Actualizări</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Caută actualizări la pornirea Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Contactează doar GitHub pentru a compara numerele de versiune; nu se trimite nimic despre tine.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Caută actualizări</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Se verifică…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>La zi · verificat la {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} disponibil</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Nu s-au putut căuta actualizări</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Actualizare disponibilă</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · ai {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Actualizează</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Se descarcă… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Gata de instalare</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Repornește și actualizează</value>
+  </data>
+</root>

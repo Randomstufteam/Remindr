@@ -1,0 +1,89 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+      Glass styles. Every brush is a DynamicResource from the Glass.Light / Glass.Dark (or Glass.Opaque.*) dictionary
+      that ThemeService keeps merged into Application.Resources, so a theme or transparency change restyles live.
+      Tokens (radii, FocusRing) come from Tokens.xaml, which App.xaml merges.
+      WPF cannot blur what is behind an element: the blur comes from the window's Acrylic backdrop; these styles add
+      the translucent fill, specular edge, top highlight and shadow on top of it.
+    -->
+
+    <!-- Large surface (panel/card). It has NO Effect: an Effect would rasterise the text/images inside and make them soft.
+         Cast the shadow with a separate GlassShadow sibling behind it (same grid cell), never on the content layer. -->
+    <Style x:Key="GlassPanel" TargetType="Border">
+        <Setter Property="Background" Value="{DynamicResource GlassSurfaceBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource GlassStrokeBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="{DynamicResource RadiusPanel}" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+    </Style>
+
+    <!-- Soft shadow made of plain shapes (no BitmapEffect): place before the card in the same Grid cell. -->
+    <Style x:Key="GlassShadow" TargetType="Border">
+        <Setter Property="IsHitTestVisible" Value="False" />
+        <Setter Property="CornerRadius" Value="{DynamicResource RadiusPanel}" />
+        <Setter Property="Margin" Value="-3,2,-3,-8" />
+        <Setter Property="Background" Value="#0F000000" />
+        <Setter Property="BorderBrush" Value="#0A000000" />
+        <Setter Property="BorderThickness" Value="4" />
+    </Style>
+
+    <Style x:Key="GlassCard" TargetType="Border" BasedOn="{StaticResource GlassPanel}">
+        <Setter Property="Padding" Value="16" />
+    </Style>
+
+    <!-- Plain text backing for body copy on a busy backdrop (fill +25% opacity). -->
+    <Style x:Key="GlassTextBacking" TargetType="Border">
+        <Setter Property="Background" Value="{DynamicResource GlassTextBackingBrush}" />
+        <Setter Property="CornerRadius" Value="{DynamicResource RadiusSmall}" />
+        <Setter Property="Padding" Value="12,6" />
+    </Style>
+
+    <!-- Small label chip, e.g. "Last used". -->
+    <Style x:Key="GlassChip" TargetType="Border">
+        <Setter Property="Background" Value="{DynamicResource GlassChipBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource GlassStrokeBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="{DynamicResource RadiusSmall}" />
+        <Setter Property="Padding" Value="8,2" />
+    </Style>
+
+    <!-- Glass button. -->
+    <Style x:Key="GlassPill" TargetType="Button">
+        <Setter Property="Background" Value="{DynamicResource GlassPillBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource GlassStrokeBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+        <Setter Property="Padding" Value="14,6" />
+        <Setter Property="MinHeight" Value="32" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="FocusVisualStyle" Value="{DynamicResource FocusRing}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="Frame" Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="{DynamicResource RadiusSmall}" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                          RecognizesAccessKey="True" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Frame" Property="Background" Value="{DynamicResource GlassPillHoverBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="Frame" Property="Background" Value="{DynamicResource GlassPillPressedBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.5" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
+

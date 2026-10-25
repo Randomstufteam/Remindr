@@ -1,0 +1,32 @@
+# Build output
+bin/
+obj/
+publish/
+dist/
+*.user
+*.suo
+.vs/
+
+# User data must never be committed. The app keeps it in %AppData%\Remindr,
+# but copies can end up here during testing.
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.log
+error.log
+avatars/
+remindr-backup*/
+
+# Local test output (screenshots of real profiles, l10n checks, scratch)
+docs/l10n-check/
+shots/
+screenshots-local/
+*.local.*
+
+# Personal terms the privacy check looks for (stays on this PC only)
+.privacy-terms
+
+# Development plan stays local (user decision)
+PLAN.md

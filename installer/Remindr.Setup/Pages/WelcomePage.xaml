@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="Remindr.Setup.WelcomePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Remindr.Setup">
+    <UserControl.Resources>
+        <!-- One feature row: glyph chip + text. -->
+        <Style x:Key="FeatureGlyph" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe MDL2 Assets" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Foreground" Value="{DynamicResource SetupAccentBrush}" />
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="36,28,36,24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Width="120" VerticalAlignment="Top" Margin="0,4,28,0">
+            <!-- Soft glow behind the mark. -->
+            <Ellipse Width="110" Height="110" Fill="#8B5CF6" Opacity="0.35" IsHitTestVisible="False">
+                <Ellipse.Effect><BlurEffect Radius="36" RenderingBias="Performance" /></Ellipse.Effect>
+                <Ellipse.CacheMode><BitmapCache /></Ellipse.CacheMode>
+            </Ellipse>
+            <local:LogoMark x:Name="Logo" Width="96" Height="96" RenderTransformOrigin="0.5,0.5" />
+        </Grid>
+
+        <StackPanel Grid.Column="1">
+            <TextBlock x:Name="Heading" Style="{StaticResource PageTitle}" FontSize="36" TextOptions.TextFormattingMode="Ideal" />
+            <TextBlock x:Name="Tagline" Style="{StaticResource Body}" FontSize="16" Margin="0,4,0,0"
+                       Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                       Text="Calm, private reminders for you and your family." />
+
+            <Border x:Name="UpdateNote" Style="{StaticResource GlassChip}" Padding="12,6" Margin="0,14,0,0" HorizontalAlignment="Left" Visibility="Collapsed">
+                <TextBlock x:Name="UpdateText" Style="{StaticResource Body}" FontSize="13" />
+            </Border>
+
+            <StackPanel Margin="0,20,0,0">
+                <StackPanel x:Name="Row1" Orientation="Horizontal" Margin="0,0,0,12">
+                    <Border Style="{StaticResource GlassChip}" Width="30" Height="30" Padding="0"><TextBlock Style="{StaticResource FeatureGlyph}" Text="&#xE77B;" /></Border>
+                    <TextBlock Style="{StaticResource Body}" Margin="12,0,0,0" VerticalAlignment="Center" Text="Separate profiles for everyone, each with an optional PIN" />
+                </StackPanel>
+                <StackPanel x:Name="Row2" Orientation="Horizontal" Margin="0,0,0,12">
+                    <Border Style="{StaticResource GlassChip}" Width="30" Height="30" Padding="0"><TextBlock Style="{StaticResource FeatureGlyph}" Text="&#xE787;" /></Border>
+                    <TextBlock Style="{StaticResource Body}" Margin="12,0,0,0" VerticalAlignment="Center" Text="Month, week and agenda views of what is coming up" />
+                </StackPanel>
+                <StackPanel x:Name="Row3" Orientation="Horizontal" Margin="0,0,0,12">
+                    <Border Style="{StaticResource GlassChip}" Width="30" Height="30" Padding="0"><TextBlock Style="{StaticResource FeatureGlyph}" Text="&#xE734;" /></Border>
+                    <TextBlock Style="{StaticResource Body}" Margin="12,0,0,0" VerticalAlignment="Center" Text="Mark the important ones so they stand out" />
+                </StackPanel>
+                <StackPanel x:Name="Row4" Orientation="Horizontal">
+                    <Border Style="{StaticResource GlassChip}" Width="30" Height="30" Padding="0"><TextBlock Style="{StaticResource FeatureGlyph}" Text="&#xE72E;" /></Border>
+                    <TextBlock Style="{StaticResource Body}" Margin="12,0,0,0" VerticalAlignment="Center" Text="Everything stays on your PC, nothing is uploaded" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
+

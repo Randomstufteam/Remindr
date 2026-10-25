@@ -1,0 +1,25 @@
+<UserControl x:Class="Remindr.Views.Controls.AvatarChooserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ctl="clr-namespace:Remindr.Views.Controls"
+             xmlns:conv="clr-namespace:Remindr.Converters"
+             xmlns:l="clr-namespace:Remindr.Views">
+    <UserControl.Resources>
+        <conv:NullToCollapsedConverter x:Key="NullToCollapsed" />
+    </UserControl.Resources>
+
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="{l:Loc Avatar_Upload}" Click="Upload_Click" Style="{StaticResource GlassPill}"
+                    ToolTip="{l:Loc Avatar_UploadTooltip}" AutomationProperties.Name="{l:Loc Avatar_UploadName}" />
+            <Button Content="{l:Loc Avatar_InitialOnly}" Margin="8,0,0,0" Click="InitialOnly_Click" Style="{StaticResource GlassPill}"
+                    ToolTip="{l:Loc Avatar_InitialTooltip}" AutomationProperties.Name="{l:Loc Avatar_InitialOnly}" />
+        </StackPanel>
+
+        <TextBlock Text="{Binding Error}" FontSize="12" Margin="0,8,0,0" TextWrapping="Wrap"
+                   Foreground="{DynamicResource SystemFillColorCriticalBrush}"
+                   Visibility="{Binding Error, Converter={StaticResource NullToCollapsed}}" />
+
+        <ctl:PicturePickerView DataContext="{Binding Picker}" Margin="0,12,0,0" GridHeight="196" ThumbSize="52" />
+    </StackPanel>
+</UserControl>

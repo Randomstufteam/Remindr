@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>กลับ</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>สร้าง</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>แก้ไข</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>วันนี้</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>ชื่อเรื่อง</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>วันที่</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>เวลา</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>บันทึกย่อ</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>หมวดหมู่</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>สำคัญ</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>วันนี้</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>ปฏิทิน</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>การเตือนความจำทั้งหมด</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>โปรไฟล์</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>สลับโปรไฟล์</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>ยุบหรือขยายแถบด้านข้าง</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>สลับแถบด้านข้าง</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>สวัสดีตอนเช้า</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>สวัสดีตอนเช้า {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>สวัสดีตอนบ่าย</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>สวัสดีตอนบ่าย {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>สวัสดีตอนเย็น</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>สวัสดีตอนเย็น {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>วันนี้ไม่มีรายการที่ครบกำหนด</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>การเตือนความจำสำหรับวันนี้จะแสดงที่นี่</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>การเตือนความจำใหม่</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>การเตือนความจำใหม่ (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>เลยกำหนด</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>วันนี้</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>พรุ่งนี้</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>เสร็จสมบูรณ์</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>ทั้งวัน</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>เสร็จสมบูรณ์: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>ทำเครื่องหมายว่าสำคัญ</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>แก้ไขการเตือนความจำ</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>ลบการเตือนความจำ</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>ค้างอยู่ {0} รายการ เสร็จสมบูรณ์ {1} รายการ</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>ยังไม่มีการเตือนความจำ</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>เพิ่มการเตือนความจำแรกของคุณ แล้วจะแสดงที่นี่โดยจัดกลุ่มตามวันที่</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>การเตือนความจำใหม่ (สถานะว่าง)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>การเตือนความจำที่เสร็จสมบูรณ์</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>เดือน</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>สัปดาห์</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>กำหนดการ</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>มุมมองเดือน</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>มุมมองสัปดาห์</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>มุมมองกำหนดการ</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>ก่อนหน้า</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>ถัดไป</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>ไปที่วันนี้</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>การเตือนความจำใหม่ในวันที่เลือก</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>ไม่มีแผนในวันนี้</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>ไม่มีรายการที่กำลังจะมาถึง</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>ไม่มีการเตือนความจำใน {0} วันข้างหน้า</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>การเตือนความจำใหม่ (กำหนดการว่าง)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>ตารางเดือน ใช้ปุ่มลูกศรเพื่อเปลี่ยนวันที่เลือก และกด Enter เพื่อเพิ่มการเตือนความจำ</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>วันนี้ · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>พรุ่งนี้ · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} วันถัดไปจาก {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>ไม่มีการเตือนความจำ</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} การเตือนความจำ</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} การเตือนความจำ</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0} {1} สำคัญ</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>ไม่มีการเตือนความจำ</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} การเตือนความจำ</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} การเตือนความจำ</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>การเตือนความจำที่ไม่มีหมวดหมู่</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>การเตือนความจำที่มีหมวดหมู่</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>การเตือนความจำใหม่</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>แก้ไขการเตือนความจำ</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>คุณต้องจำอะไร</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>ไม่บังคับ</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>แสดงป้าย ! สีแดงเพื่อให้โดดเด่น</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>ไม่มีรูปภาพ</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>เพิ่มรูปภาพ</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>รูปภาพ: {0} เปลี่ยนรูปภาพ</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>ป้อนชื่อเรื่อง</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>ชื่อเรื่องต้องมีไม่เกิน {0} ตัวอักษร</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>เลือกวันที่</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>ป้อนเวลาเช่น {0} หรือเปิด "ทั้งวัน"</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>ลบการเตือนความจำหรือไม่</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" จะถูกลบอย่างถาวร ไม่สามารถยกเลิกการดำเนินการนี้ได้</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>โปรไฟล์ใหม่</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>แก้ไขโปรไฟล์</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>เปลี่ยนรูปภาพ</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>ชื่อโปรไฟล์</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>สี</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>อักษรอวตาร</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (ไม่บังคับ)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>ใช้ PIN ปัจจุบันต่อไป</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>ป้อนชื่อ</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>ชื่อต้องมีไม่เกิน {0} ตัวอักษร</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>ป้อนอักขระเพียงตัวเดียวสำหรับอวตาร</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN ต้องเป็นตัวเลข 4 หลักพอดี</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>ไม่สามารถลบโปรไฟล์นี้ได้</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>ต้องมีโปรไฟล์อย่างน้อยหนึ่งโปรไฟล์ หากต้องการลบโปรไฟล์นี้ ให้สร้างโปรไฟล์อื่นก่อน</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>ลบ "{0}" หรือไม่</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>การดำเนินการนี้จะลบโปรไฟล์ "{0}" พร้อมการเตือนความจำและหมวดหมู่ทั้งหมดอย่างถาวร ไม่สามารถยกเลิกการดำเนินการนี้ได้</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>ตั้ง PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>เปลี่ยน PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>ลบ PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>เลือก PIN 4 หลัก คุณจะต้องใช้ PIN นี้เพื่อเปิดโปรไฟล์นี้</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>ป้อน PIN ปัจจุบันของคุณ แล้วเลือก PIN ใหม่</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>ป้อน PIN ปัจจุบันของคุณเพื่อปิดการล็อก</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN ปัจจุบัน</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN ใหม่ 4 หลัก</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>ป้อน PIN ซ้ำ</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>ป้อน PIN ใหม่ซ้ำ</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN ปัจจุบันไม่ถูกต้อง ลองอีกครั้ง</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>PIN ทั้งสองไม่ตรงกัน</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN เป็นเพียงหน้าจอความเป็นส่วนตัวที่ช่วยกันคนที่แอบดู ไม่ใช่ระบบรักษาความปลอดภัยที่แข็งแกร่ง</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>ทั้งหมด</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>ค้นหารูปภาพ</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>ไม่พบรูปภาพที่ตรงกัน</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>ผู้คน</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>ครอบครัวและบทบาท</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>สัตว์</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>จินตนาการและความสนุก</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>อาหาร</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>ธรรมชาติ</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>กีฬาและงานอดิเรก</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>สิ่งของ</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>โรงเรียน</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>งาน</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>สุขภาพ</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>บ้าน</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>การเงิน</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>การเดินทาง</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>การเฉลิมฉลอง</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>กีฬา</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>เลือกรูปภาพ</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>รูปภาพของคุณเอง…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>รูปภาพของคุณเอง</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>ใช้ PNG หรือ JPG จากคอมพิวเตอร์ของคุณ</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>ตัวอักษรเท่านั้น</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>แสดงตัวอักษรสีแทนรูปภาพ</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>ไม่สามารถอ่านไฟล์นั้นเป็นรูปภาพ PNG หรือ JPG ได้</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>ใครกำลังใช้ Remindr</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>เลือกโปรไฟล์ของคุณเพื่อดำเนินการต่อ</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>เพิ่มโปรไฟล์</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>ใช้ล่าสุด</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>ป้องกันด้วย PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>แก้ไขหรือลบ</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>กลับไปยังโปรไฟล์ปัจจุบัน (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>ปลดล็อก</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>ป้อน PIN 4 หลักของคุณ</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>ป้อน PIN ของโปรไฟล์นี้เพื่อแก้ไขหรือลบ</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN ไม่ถูกต้อง ลองอีกครั้ง</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>รูปลักษณ์</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>ธีมของแอป</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>เลือกสว่าง มืด หรือใช้ตามการตั้งค่า Windows ของคุณ</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>ธีม</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>สว่าง</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>มืด</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>ระบบ</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>เลือกภาษาที่ใช้แสดง Remindr การเปลี่ยนแปลงจะมีผลทันที</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>คำแปลสร้างด้วยความช่วยเหลือของเครื่อง ยินดีรับการแก้ไข</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>แนะนำการแก้ไข</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>โปรไฟล์</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>ลงชื่อเข้าใช้ในชื่อ {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>สลับไปยังโปรไฟล์อื่น หรือเปลี่ยนชื่อ สี และรูปภาพของโปรไฟล์นี้</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>เปลี่ยนรูปภาพ</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>สลับโปรไฟล์</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>การล็อกด้วย PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>การล็อกด้วย PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>PIN 4 หลักช่วยกันคนที่แอบดูโปรไฟล์นี้ เป็นเพียงหน้าจอความเป็นส่วนตัว ไม่ใช่ระบบรักษาความปลอดภัยที่แข็งแกร่ง</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>วิธีใช้และคำติชม</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>พบปัญหาหรือมีไอเดียหรือไม่</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>รายงานจะเปิดบน GitHub โดยกรอกเฉพาะเวอร์ชันของ Remindr และ Windows ไว้ให้ ไม่มีการส่งข้อมูลอื่น</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>รายงานข้อบกพร่อง</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>แนะนำคุณลักษณะ</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>เปิดโฟลเดอร์บันทึก</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>สัญญาอนุญาต {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>ดูบน GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>ประกาศของบุคคลที่สาม</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>เกิดข้อผิดพลาด: {0}
+
+รายละเอียดถูกบันทึกไว้ที่ %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+รายละเอียดถูกบันทึกไว้ที่ %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>ยินดีต้อนรับสู่ Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>กดปุ่มใดก็ได้หรือคลิกเพื่อเริ่มต้น</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>เริ่มต้นใช้งาน</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>เล่นข้อความต้อนรับอีกครั้ง</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>ตั้งค่า Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>ความคืบหน้าการตั้งค่า</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>ขั้นตอนที่ {0} จาก {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>ถัดไป</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>ข้าม</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>เลือกภาษาของคุณ</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>แอปจะเปลี่ยนทันที คุณเปลี่ยนได้ทุกเมื่อในการตั้งค่า</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>ค้นหาภาษา</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>ไม่พบภาษาที่ตรงกัน</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>เลือกรูปลักษณ์</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>สว่าง มืด หรือตามการตั้งค่า Windows</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>โปรไฟล์ของคุณ</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>เพิ่มชื่อ สี และรูปภาพของคุณ</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>เพิ่ม PIN ไหม</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>ไม่บังคับ PIN 4 หลักช่วยให้โปรไฟล์นี้เป็นส่วนตัว</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>พร้อมแล้ว {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>คุณเปลี่ยนทั้งหมดนี้ได้ภายหลังในการตั้งค่า</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>เริ่มใช้ Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>เพิ่มการเตือนความจำแรกของฉัน</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>โรงเรียน</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>งาน</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>ส่วนตัว</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>มีอะไรใหม่</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>ภายหลัง</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>ข้ามเวอร์ชันนี้</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>ลองอีกครั้ง</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>กำลังตรวจสอบไฟล์ที่ดาวน์โหลด…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ไฟล์ที่ดาวน์โหลดไม่ตรงกับค่าตรวจสอบ จึงถูกลบและไม่มีการติดตั้งใดๆ</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>ไม่สามารถดาวน์โหลดการอัปเดตได้ โปรดลองอีกครั้งในภายหลัง</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>การอัปเดต</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>ตรวจสอบการอัปเดตเมื่อ Remindr เริ่มทำงาน</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>ติดต่อ GitHub เพื่อเปรียบเทียบหมายเลขเวอร์ชันเท่านั้น ไม่มีการส่งข้อมูลใดๆ เกี่ยวกับคุณ</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>ตรวจสอบการอัปเดต</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>กำลังตรวจสอบ…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>เป็นเวอร์ชันล่าสุดแล้ว · ตรวจสอบเมื่อ {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>มี {0} พร้อมใช้งาน</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>ไม่สามารถตรวจสอบการอัปเดตได้</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>มีการอัปเดต</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · คุณใช้ {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>อัปเดต</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>กำลังดาวน์โหลด… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>พร้อมติดตั้ง</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>รีสตาร์ทและอัปเดต</value>
+  </data>
+</root>

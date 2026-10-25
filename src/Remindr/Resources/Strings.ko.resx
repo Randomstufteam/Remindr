@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>뒤로</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>만들기</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>끔</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>켬</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>메모</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>범주</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>사진</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>중요</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>yyyy'년' M'월'</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>M'월' d'일'</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>yyyy'년' M'월' d'일'</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>yyyy'년' M'월' d'일'</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d'일'</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>yyyy'년' M'월' d'일'</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>M'월' d'일'</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>M'월' d'일' dddd</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>yyyy'년' M'월' d'일' dddd</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>M'월' d'일' (ddd)</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>yyyy'년' M'월' d'일' (ddd)</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>M'월' d'일' dddd</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>yyyy'년' M'월' d'일' dddd</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>캘린더</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>모든 미리 알림</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>프로필</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>프로필 전환</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>사이드바 접기 또는 펼치기</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>사이드바 전환</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>좋은 아침입니다</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>{0}님, 좋은 아침입니다</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>좋은 오후입니다</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>{0}님, 좋은 오후입니다</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>좋은 저녁입니다</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>{0}님, 좋은 저녁입니다</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>오늘 마감인 항목이 없습니다</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>오늘의 미리 알림이 여기에 표시됩니다.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>새 미리 알림</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>새 미리 알림 (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>기한 초과</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>내일</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>완료됨</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>하루 종일</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>완료: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>중요로 표시</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>미리 알림 편집</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>미리 알림 삭제</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>진행 중 {0}개, 완료 {1}개</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>아직 미리 알림이 없습니다</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>첫 미리 알림을 추가하면 날짜별로 묶여 여기에 표시됩니다.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>새 미리 알림 (빈 상태)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>완료된 미리 알림</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>월</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>일정</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>월 보기</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>주 보기</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>일정 보기</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>오늘로 이동</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>선택한 날짜에 새 미리 알림 추가</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>이 날에는 계획된 일이 없습니다.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>예정된 항목이 없습니다</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>앞으로 {0}일 동안 미리 알림이 없습니다.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>새 미리 알림 (빈 일정)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>월 표. 화살표 키로 선택한 날짜를 바꾸고 Enter 키로 미리 알림을 추가합니다.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>오늘 · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>내일 · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} ~ {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} ~ {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} ~ {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1}부터 {0}일</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>미리 알림 없음</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>미리 알림 {0}개</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>미리 알림 {0}개</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, 중요</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>미리 알림 없음</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>미리 알림 {0}개</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>미리 알림 {0}개</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>범주 없는 미리 알림</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>범주가 있는 미리 알림</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>새 미리 알림</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>미리 알림 편집</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>무엇을 기억해야 하나요?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>선택 사항</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>빨간 ! 배지가 표시되어 눈에 잘 띕니다.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>사진 없음</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>사진 추가</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>사진: {0}. 사진 변경</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>제목을 입력하세요.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>제목은 {0}자 이하여야 합니다.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>날짜를 선택하세요.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>{0}과(와) 같은 형식으로 시간을 입력하거나 '하루 종일'을 켜세요.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>미리 알림을 삭제할까요?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}"이(가) 영구적으로 삭제됩니다. 이 작업은 취소할 수 없습니다.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>새 프로필</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>프로필 편집</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>사진 변경</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>프로필 이름</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>색</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>아바타 글자</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (선택 사항)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>현재 PIN 유지</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>이름을 입력하세요.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>이름은 {0}자 이하여야 합니다.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>아바타에 사용할 글자를 하나만 입력하세요.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN은 정확히 4자리 숫자여야 합니다.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>이 프로필을 삭제할 수 없습니다</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>프로필이 하나 이상 있어야 합니다. 이 프로필을 삭제하려면 먼저 다른 프로필을 만드세요.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>"{0}"을(를) 삭제할까요?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>프로필 "{0}"과(와) 모든 미리 알림 및 범주가 영구적으로 삭제됩니다. 이 작업은 취소할 수 없습니다.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN 설정</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN 변경</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN 제거</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>4자리 PIN을 선택하세요. 이 프로필을 열 때 필요합니다.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>현재 PIN을 입력한 다음 새 PIN을 선택하세요.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>잠금을 해제하려면 현재 PIN을 입력하세요.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>현재 PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>새 4자리 PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN 다시 입력</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>새 PIN 다시 입력</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>현재 PIN이 올바르지 않습니다. 다시 시도하세요.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>두 PIN이 일치하지 않습니다.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN은 가벼운 엿보기를 막는 개인 정보 보호 화면일 뿐, 강력한 보안이 아닙니다.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>전체</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>사진 검색</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>일치하는 사진이 없습니다.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>사람</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>가족과 역할</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>동물</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>판타지와 재미</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>음식</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>자연</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>스포츠와 취미</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>사물</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>학교</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>업무</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>건강</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>집</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>돈</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>여행</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>축하</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>스포츠</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>사진 선택</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>사진</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>내 사진…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>내 사진</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>컴퓨터의 PNG 또는 JPG 사용</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>글자만</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>사진 대신 색깔 있는 글자 표시</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>해당 파일을 PNG 또는 JPG 사진으로 읽을 수 없습니다.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>누가 Remindr를 사용하나요?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>계속하려면 프로필을 선택하세요</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>프로필 추가</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>마지막 사용</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN으로 보호됨</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>편집 또는 삭제</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>현재 프로필로 돌아가기 (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>잠금 해제</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>4자리 PIN을 입력하세요</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>편집하거나 삭제하려면 이 프로필의 PIN을 입력하세요</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN이 올바르지 않습니다. 다시 시도하세요.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>모양</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>앱 테마</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>밝게, 어둡게 또는 Windows 설정에 따르기를 선택하세요.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>테마</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>밝게</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>어둡게</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>시스템</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Remindr를 표시할 언어를 선택하세요. 변경 내용은 바로 적용됩니다.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>번역은 기계의 도움을 받아 작성되었습니다. 수정 제안을 환영합니다.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>수정 제안</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>프로필</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0}(으)로 로그인됨</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>다른 프로필로 전환하거나 이 프로필의 이름, 색, 사진을 변경합니다.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>사진 변경</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>프로필 전환</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN 잠금</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN 잠금: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4자리 PIN은 다른 사람이 이 프로필을 가볍게 엿보는 것을 막아 줍니다. 개인 정보 보호 화면일 뿐, 강력한 보안이 아닙니다.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>도움말 및 피드백</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>문제를 발견했거나 아이디어가 있나요?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>보고서는 GitHub에서 열리며 Remindr 및 Windows 버전만 미리 입력됩니다. 그 외에는 아무것도 전송되지 않습니다.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>버그 신고</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>기능 제안</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>로그 폴더 열기</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} 라이선스</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub에서 보기</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>타사 고지 사항</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>문제가 발생했습니다: {0}
+
+자세한 내용이 %AppData%\Remindr\error.log에 저장되었습니다</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+자세한 내용이 %AppData%\Remindr\error.log에 저장되었습니다</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr에 오신 것을 환영합니다</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>아무 키나 누르거나 클릭하여 시작</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>시작하기</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>환영 화면 다시 보기</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr 설정</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>설정 진행 상황</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>{1}단계 중 {0}단계</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>건너뛰기</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>앱이 바로 바뀝니다. 언제든지 설정에서 변경할 수 있습니다.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>언어 검색</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>일치하는 언어가 없습니다.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>모양 선택</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>밝게, 어둡게 또는 Windows 설정을 따릅니다.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>내 프로필</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>이름, 색, 사진을 추가하세요.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN을 추가할까요?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>선택 사항입니다. 4자리 PIN으로 이 프로필을 비공개로 유지합니다.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>준비가 끝났습니다, {0}님</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>이 모든 항목은 나중에 설정에서 변경할 수 있습니다.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr 사용 시작</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>첫 번째 미리 알림 추가</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>학교</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>업무</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>개인</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>새로운 기능</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>나중에</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>이 버전 건너뛰기</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>다시 시도</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>다운로드 확인 중…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>다운로드한 파일이 체크섬과 일치하지 않아 삭제했으며 아무것도 설치되지 않았습니다.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>업데이트를 다운로드할 수 없습니다. 나중에 다시 시도하세요.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr 시작 시 업데이트 확인</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>버전 번호를 비교하기 위해서만 GitHub에 연결하며, 사용자에 대한 정보는 전송되지 않습니다.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>업데이트 확인</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>확인 중…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>최신 버전입니다 · {0}에 확인함</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} 사용 가능</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>업데이트를 확인할 수 없습니다</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>업데이트 사용 가능</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · 현재 {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>다운로드 중… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>설치 준비 완료</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>다시 시작하고 업데이트</value>
+  </data>
+</root>

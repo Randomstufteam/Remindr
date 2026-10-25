@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="Remindr.Views.Controls.ProfileAvatar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid x:Name="Root">
+        <!-- Initial mode: profile-colour disc + letter. Picture mode: glass disc behind the image. -->
+        <Ellipse x:Name="Disc" />
+        <Ellipse x:Name="Picture" Visibility="Collapsed" RenderOptions.BitmapScalingMode="HighQuality" />
+        <TextBlock x:Name="Letter" FontWeight="SemiBold"
+                   HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Ellipse x:Name="Ring" Fill="{x:Null}" Visibility="Collapsed" IsHitTestVisible="False" />
+    </Grid>
+</UserControl>
