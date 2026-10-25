@@ -108,6 +108,8 @@ public partial class App : Application
         Resources["MotionEnabled"] = false;
     }
 
+    private TrayService? _tray;
+
     private bool _toastColdStart;
 
     /// <summary>
@@ -120,6 +122,10 @@ public partial class App : Application
         var notifications = _host!.Services.GetRequiredService<NotificationService>();
         var scheduler = _host.Services.GetRequiredService<SchedulerService>();
         var reminders = _host.Services.GetRequiredService<ReminderRepo>();
+        _tray = new TrayService(window, _host.Services.GetRequiredService<TraySettings>(), notifications, BringForward);
+        _tray.Start();
+        // Logoff / shutdown must never be blocked by close-to-tray.
+        SessionEnding += (_, _) => _tray.PrepareExit();
         // At midnight the date-based views (All Reminders grouping, calendar "today") reload through the normal change path.
         scheduler.DayChanged += (_, _) => Dispatcher.BeginInvoke(reminders.RaiseExternalRefresh);
         // Subscribe first: the library registers its COM activator as soon as it is touched (StartedFromToast does), and a
@@ -131,7 +137,7 @@ public partial class App : Application
             _toastColdStart = false;
             // Only a body click raises the window; Complete/Snooze/Dismiss act quietly.
             if (outcome.ShowWindow) { BringForward(window); scheduler.Release(); }
-            else if (cold) Shutdown();
+            else if (cold) ExitApp();
         });
         _toastColdStart = NotificationService.StartedFromToast;
         // A process started by a toast click stays silent (no scheduler) until it knows it will not exit: a button click shuts it
@@ -147,7 +153,14 @@ public partial class App : Application
         timer.Start();
     }
 
-    private static void BringForward(Window window)
+    /// <summary>A real exit (update installer started, toast-launched action done): the window closes instead of hiding to the tray.</summary>
+    internal static void ExitApp()
+    {
+        if (Current is App app) app._tray?.PrepareExit();
+        Current.Shutdown();
+    }
+
+    internal static void BringForward(Window window)
     {
         if (!window.IsVisible) window.Show();
         if (window.WindowState == WindowState.Minimized) window.WindowState = WindowState.Normal;
@@ -171,6 +184,7 @@ public partial class App : Application
         s.AddSingleton<ToastActionHandler>();
         s.AddSingleton<NotificationService>();
         s.AddSingleton<IToastSink>(sp => sp.GetRequiredService<NotificationService>());
+        s.AddSingleton<TraySettings>();
         s.AddSingleton<SchedulerService>();
         s.AddHostedService(sp => sp.GetRequiredService<SchedulerService>());
         s.AddSingleton<LocalizationService>();
@@ -225,6 +239,7 @@ public partial class App : Application
 
     protected override void OnExit(ExitEventArgs e)
     {
+        _tray?.Dispose();
         if (_host is not null)
         {
             _host.StopAsync(TimeSpan.FromSeconds(5)).GetAwaiter().GetResult();

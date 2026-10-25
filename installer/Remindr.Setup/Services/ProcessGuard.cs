@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Threading;
 using Remindr.Setup.Core;
 
 namespace Remindr.Setup;
@@ -27,6 +28,10 @@ public sealed class ProcessGuard : IAppProcessGuard
         {
             foreach (var p in procs)
             {
+                // Remindr keeps running in the tray when its window is closed (and a hidden window has no main-window handle),
+                // so ask it to exit through its quit event; only versions without that event get a window close.
+                try { if (SignalQuit(p.Id)) continue; }
+                catch (Exception ex) { _log.Error("Quit signal failed.", ex); }
                 try { p.CloseMainWindow(); }
                 catch (Exception ex) { _log.Error("CloseMainWindow failed.", ex); }
             }
@@ -39,6 +44,15 @@ public sealed class ProcessGuard : IAppProcessGuard
         }
         finally { foreach (var p in procs) p.Dispose(); }
         return !IsRunning(exePath);
+    }
+
+    /// <summary>Must match <c>QuitSignal.NameFor</c> in the app.</summary>
+    public static string QuitEventName(int processId) => @"Local\Remindr.Quit." + processId;
+
+    private static bool SignalQuit(int processId)
+    {
+        if (!EventWaitHandle.TryOpenExisting(QuitEventName(processId), out var quit)) return false;
+        using (quit) return quit.Set();
     }
 
     public void ForceKill(string exePath)

@@ -842,4 +842,25 @@ Details wurden in %AppData%\Remindr\error.log gespeichert</value>
   <data name="Settings_TestToast_Button" xml:space="preserve">
     <value>Send test</value>
   </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Quick Add</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr is still running in the tray</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Keep running in the tray when I close the window</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+  </data>
 </root>

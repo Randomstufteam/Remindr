@@ -102,7 +102,7 @@ public partial class MainWindow : FluentWindow
         foreach (var overlay in new FrameworkElement[] { Picker, Welcome, Setup })
             overlay.IsVisibleChanged += (_, _) => RefreshUpdateCard();
         // The installer was started (and verified): leave so it can replace the app files.
-        update.InstallerStarted += (_, _) => Application.Current.Shutdown();
+        update.InstallerStarted += (_, _) => App.ExitApp();
         Loaded += (_, _) =>
         {
             SquareContentFrameCorner();
@@ -186,6 +186,16 @@ public partial class MainWindow : FluentWindow
         if (template is null) return;
         foreach (var item in RootNavigation.MenuItems.OfType<RemindrNavItem>().Concat(RootNavigation.FooterMenuItems.OfType<RemindrNavItem>()))
             item.Template = template;
+    }
+
+    /// <summary>Tray Quick Add: shows the window, then opens the new-reminder dialog only when that is allowed (a profile is open, no PIN prompt or other overlay).</summary>
+    public void QuickAdd()
+    {
+        App.BringForward(this);
+        Dispatcher.BeginInvoke(new Action(() =>
+        {
+            if (CanAddReminder()) _ = _reminderDialogs.ShowEditAsync(null);
+        }), System.Windows.Threading.DispatcherPriority.Background);
     }
 
     private bool CanAddReminder() =>

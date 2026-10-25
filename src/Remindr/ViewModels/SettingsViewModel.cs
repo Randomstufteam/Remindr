@@ -34,11 +34,13 @@ public partial class SettingsViewModel : ObservableObject
     private readonly NotificationService _notifications;
     private readonly Data.Repositories.ReminderRepo _reminders;
     private readonly IClock _clock;
+    private readonly TraySettings _tray;
 
     public SettingsViewModel(ThemeService theme, ProfileSession session, ProfilePickerViewModel picker, ProfileDialogs dialogs,
         LocalizationService localization, WelcomeController welcome, UpdateViewModel updates,
-        NotificationService notifications, Data.Repositories.ReminderRepo reminders, IClock clock)
+        NotificationService notifications, Data.Repositories.ReminderRepo reminders, IClock clock, TraySettings tray)
     {
+        _tray = tray;
         Updates = updates;
         _notifications = notifications;
         _reminders = reminders;
@@ -75,6 +77,18 @@ public partial class SettingsViewModel : ObservableObject
             OnPropertyChanged(nameof(VersionText));
             OnPropertyChanged(nameof(LicenseText));
         };
+    }
+
+    /// <summary>Keep running in the tray when the window is closed (saved at once).</summary>
+    public bool CloseToTray
+    {
+        get => _tray.CloseToTray;
+        set
+        {
+            if (_tray.CloseToTray == value) return;
+            _tray.CloseToTray = value;
+            OnPropertyChanged();
+        }
     }
 
     /// <summary>The update toggle and the About card's "Check for updates" row.</summary>

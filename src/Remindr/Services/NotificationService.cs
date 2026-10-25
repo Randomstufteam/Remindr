@@ -158,6 +158,13 @@ public sealed class NotificationService : IToastSink
         catch (Exception ex) { ErrorLog.Write(ex, "Showing a toast"); }
     }
 
+    /// <summary>A plain information toast (no buttons), e.g. "still running in the tray". Never throws.</summary>
+    public void ShowInfo(string title, string body)
+    {
+        try { new ToastContentBuilder().AddText(title, AdaptiveTextStyle.Header).AddText(body).Show(); }
+        catch (Exception ex) { ErrorLog.Write(ex, "Showing an info toast"); }
+    }
+
     /// <summary>A sample toast for the Settings test button: the next upcoming reminder, else a sample one.</summary>
     public void ShowTest(Reminder? next)
     {
