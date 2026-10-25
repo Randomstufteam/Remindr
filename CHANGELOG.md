@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.3.1 (2026-10-25)
+
+### Improved
+- **Faster start-up and lower memory use.** The app is now precompiled, skips start-up work it never needed, and runs without a background memory-cleanup thread.
+
+### Fixed
+- Setup no longer freezes ("not responding") when you click **Launch Remindr** at the end.
+
 ## v0.3.0 (2026-10-25)
 
 The first public release.

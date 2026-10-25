@@ -41,7 +41,8 @@ public partial class App : Application
 
         try
         {
-            _host = Host.CreateDefaultBuilder()
+            // Plain HostBuilder: no appsettings files, file watchers, env-var config or console/event-log loggers, which the app never uses.
+            _host = new HostBuilder()
                 .ConfigureServices(ConfigureServices)
                 .Build();
 

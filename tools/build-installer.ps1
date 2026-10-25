@@ -18,10 +18,11 @@ Write-Host "Remindr $version"
 
 foreach ($d in $appOut, $stubOut, $instOut) { if (Test-Path $d) { Remove-Item $d -Recurse -Force }; New-Item -ItemType Directory $d | Out-Null }
 
-# 1. App: self-contained single file, win-x64, compressed.
+# 1. App: self-contained single file, win-x64, compressed, precompiled (ReadyToRun) for fast start-up.
+# Kept compressed: uncompressed it is ~250 MB on disk, and Windows' scan of a file that size stalls the first launch.
 dotnet publish $appProj -c Release -r win-x64 --self-contained true `
     -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true `
-    -p:EnableCompressionInSingleFile=true -p:PublishTrimmed=false -o $appOut
+    -p:EnableCompressionInSingleFile=true -p:PublishReadyToRun=true -p:PublishTrimmed=false -o $appOut
 if ($LASTEXITCODE -ne 0) { throw 'App publish failed.' }
 $exe = Join-Path $appOut 'Remindr.exe'
 if (-not (Test-Path $exe)) { throw 'Remindr.exe missing from the publish output.' }

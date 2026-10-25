@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe"><b>⬇ Download Remindr-Installer.exe</b></a>
-  &nbsp;·&nbsp; v0.3.0 &nbsp;·&nbsp; Windows 10 (2004+) and 11 &nbsp;·&nbsp; 78 MB
+  &nbsp;·&nbsp; v0.3.1 &nbsp;·&nbsp; Windows 10 (2004+) and 11 &nbsp;·&nbsp; 94 MB
 </p>
 
 > [!WARNING]
