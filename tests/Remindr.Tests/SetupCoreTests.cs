@@ -330,6 +330,9 @@ public class SetupCoreTests : IDisposable
         // Seed a Run value as an older install would have left it; uninstall must still remove it.
         reg.SetValues(InstallPaths.RunSubKey, new[] { new KeyValuePair<string, object>("Remindr", p.RunCommand) });
         reg.SetValues(InstallPaths.AumidSubKey(RepoInfo.Aumid), new[] { new KeyValuePair<string, object>("DisplayName", "Remindr") });
+        reg.SetValues(InstallPaths.ToastClsidSubKey, new[] { new KeyValuePair<string, object>("x", "y") });
+        Directory.CreateDirectory(p.ToastCompatDir);
+        File.WriteAllText(Path.Combine(p.ToastCompatDir, "DisplayName.txt"), "x");
         Directory.CreateDirectory(p.DataDir);
         File.WriteAllText(Path.Combine(p.DataDir, "remindr.db"), "precious");
         return (new UninstallEngine(p, App, reg, procs, new NullLog()), reg, p);
@@ -347,6 +350,8 @@ public class SetupCoreTests : IDisposable
         Assert.False(reg.KeyExists(InstallPaths.UninstallSubKey));
         Assert.False(reg.KeyExists(InstallPaths.AumidSubKey(RepoInfo.Aumid)));
         Assert.Null(reg.GetString(InstallPaths.RunSubKey, "Remindr"));
+        Assert.False(reg.KeyExists(InstallPaths.ToastClsidSubKey));
+        Assert.False(Directory.Exists(p.ToastCompatDir));
         Assert.True(File.Exists(Path.Combine(p.DataDir, "remindr.db")));
     }
 

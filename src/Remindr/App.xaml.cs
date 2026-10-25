@@ -118,6 +118,10 @@ public partial class App : Application
     private void StartNotifications(MainWindow window)
     {
         var notifications = _host!.Services.GetRequiredService<NotificationService>();
+        var scheduler = _host.Services.GetRequiredService<SchedulerService>();
+        var reminders = _host.Services.GetRequiredService<ReminderRepo>();
+        // At midnight the date-based views (All Reminders grouping, calendar "today") reload through the normal change path.
+        scheduler.DayChanged += (_, _) => Dispatcher.BeginInvoke(reminders.RaiseExternalRefresh);
         // Subscribe first: the library registers its COM activator as soon as it is touched (StartedFromToast does), and a
         // cold-start click that arrives before a handler is subscribed is dropped. The handler only reads _toastColdStart on
         // the UI thread, after this method has set it.
@@ -126,17 +130,19 @@ public partial class App : Application
             var cold = _toastColdStart;
             _toastColdStart = false;
             // Only a body click raises the window; Complete/Snooze/Dismiss act quietly.
-            if (outcome.ShowWindow) BringForward(window);
+            if (outcome.ShowWindow) { BringForward(window); scheduler.Release(); }
             else if (cold) Shutdown();
         });
         _toastColdStart = NotificationService.StartedFromToast;
-        if (!_toastColdStart) { window.Show(); return; }
+        // A process started by a toast click stays silent (no scheduler) until it knows it will not exit: a button click shuts it
+        // down again, so the scheduler is released only for a body click or when no click arrived in time.
+        if (!_toastColdStart) { window.Show(); scheduler.Release(); return; }
 
         var timer = new System.Windows.Threading.DispatcherTimer { Interval = TimeSpan.FromSeconds(5) };
         timer.Tick += (_, _) =>
         {
             timer.Stop();
-            if (_toastColdStart) { _toastColdStart = false; BringForward(window); }
+            if (_toastColdStart) { _toastColdStart = false; BringForward(window); scheduler.Release(); }
         };
         timer.Start();
     }
@@ -164,6 +170,9 @@ public partial class App : Application
         s.AddSingleton<ThemeService>();
         s.AddSingleton<ToastActionHandler>();
         s.AddSingleton<NotificationService>();
+        s.AddSingleton<IToastSink>(sp => sp.GetRequiredService<NotificationService>());
+        s.AddSingleton<SchedulerService>();
+        s.AddHostedService(sp => sp.GetRequiredService<SchedulerService>());
         s.AddSingleton<LocalizationService>();
         s.AddSingleton<AvatarService>();
         s.AddSingleton<ProfileSession>();

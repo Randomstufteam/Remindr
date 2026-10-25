@@ -48,6 +48,8 @@ public sealed class UninstallEngine
         progress(new SetupProgress("Cleaning up settings", 0.65));
         _reg.DeleteValue(InstallPaths.RunSubKey, InstallPaths.RunValueName);
         _reg.DeleteKeyTree(InstallPaths.AumidSubKey(_app.Aumid));
+        BestEffort(() => _reg.DeleteKeyTree(InstallPaths.ToastClsidSubKey), "toast activator key");
+        BestEffort(() => InstallEngine.DeleteDirectory(_paths.ToastCompatDir), "toast library folder");
 
         if (removeData)
         {
@@ -61,6 +63,12 @@ public sealed class UninstallEngine
 
         progress(new SetupProgress("Cleaning up settings", 1));
         _log.Info("Uninstall finished.");
+    }
+
+    private void BestEffort(Action action, string what)
+    {
+        try { action(); }
+        catch (Exception ex) { _log.Error("Could not remove the " + what + " (ignored).", ex); }
     }
 
     private void DeleteFile(string path)

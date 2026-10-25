@@ -23,6 +23,7 @@ public sealed class InstallPaths
         StartMenuShortcut = Path.Combine(startMenuPrograms, "Remindr.lnk");
         DesktopShortcut = Path.Combine(desktop, "Remindr.lnk");
         DataDir = Path.Combine(appData, "Remindr");
+        ToastCompatDir = Path.Combine(localAppData, "ToastNotificationManagerCompat", "Apps", "Remindr.App");
     }
 
     public string InstallDir { get; }
@@ -34,6 +35,11 @@ public sealed class InstallPaths
     public string DesktopShortcut { get; }
     /// <summary>%AppData%\Remindr: profiles, reminders, avatars. Only removed when the user asks.</summary>
     public string DataDir { get; }
+    /// <summary>%LocalAppData%\ToastNotificationManagerCompat\Apps\Remindr.App: the toast library's per-app leftovers.</summary>
+    public string ToastCompatDir { get; }
+
+    /// <summary>COM activator class the toast library registers for Remindr's toast clicks.</summary>
+    public const string ToastClsidSubKey = @"Software\Classes\CLSID\{52656d69-6e64-722e-4170-700000000000}";
 
     public static string AumidSubKey(string aumid) => @"Software\Classes\AppUserModelId\" + aumid;
 

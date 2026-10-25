@@ -136,6 +136,9 @@ public sealed class ProfileRepo
         conn.Execute("UPDATE profiles SET pin_hash=NULL, pin_salt=NULL WHERE id=@id", new { id });
     }
 
+    /// <summary>Raised after a profile was deleted, with its id (its toasts in Action Center are cleared).</summary>
+    public event EventHandler<int>? Deleted;
+
     /// <summary>
     /// Deletes the profile; categories and reminders go with it via FK cascade. Also drops its per-profile settings.
     /// Returns false (and deletes nothing) if this is the only profile left.
@@ -148,7 +151,11 @@ public sealed class ProfileRepo
         conn.Execute("DELETE FROM app_settings WHERE profile_id=@id", new { id }, tx);
         var deleted = conn.Execute("DELETE FROM profiles WHERE id=@id", new { id }, tx);
         tx.Commit();
-        if (deleted > 0) AvatarService.DeleteFile(_avatarDir, id);
+        if (deleted > 0)
+        {
+            AvatarService.DeleteFile(_avatarDir, id);
+            Deleted?.Invoke(this, id);
+        }
         return deleted > 0;
     }
 }

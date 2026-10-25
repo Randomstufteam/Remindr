@@ -143,6 +143,24 @@ public sealed class ReminderRepo
             new { pid = ProfileId, today = D(today), time = T(time) }).ToList();
     }
 
+    /// <summary>
+    /// The scheduler's one query, across ALL profiles: open (not completed) reminders that could need an alert now, i.e. due
+    /// from two days ago through tomorrow (the 1-day pre-alert window reaches at most one calendar day ahead; anything older
+    /// is past <see cref="Services.NotificationPlanner.StaleAfter"/> and stays silent), plus any snoozed one whatever its date.
+    /// Not scoped to the current profile.
+    /// </summary>
+    public IReadOnlyList<Reminder> ListOpenForScheduler(DateTime nowLocal)
+    {
+        using var conn = _db.Open();
+        var today = DateOnly.FromDateTime(nowLocal);
+        return conn.Query<Reminder>(
+            Select + @" WHERE is_completed=0 AND ((due_date >= @floor AND due_date <= @horizon) OR snoozed_until IS NOT NULL)" + Order,
+            new { floor = D(today.AddDays(-2)), horizon = D(today.AddDays(1)) }).ToList();
+    }
+
+    /// <summary>Tells open lists to reload without any data having changed (the date rolled over at midnight).</summary>
+    public void RaiseExternalRefresh() => RaiseChanged();
+
     /// <summary>Marks complete (completed_at = now, UTC) or incomplete (completed_at cleared).</summary>
     public bool SetCompleted(int id, bool completed, int? profileId = null)
     {

@@ -12,6 +12,7 @@ public sealed class WinRegistryStore : IRegistryStore
     {
         var ok = subKey.StartsWith(InstallPaths.UninstallSubKey, StringComparison.OrdinalIgnoreCase)
                  || subKey.Equals(InstallPaths.RunSubKey, StringComparison.OrdinalIgnoreCase)
+                 || subKey.Equals(InstallPaths.ToastClsidSubKey, StringComparison.OrdinalIgnoreCase)
                  || subKey.StartsWith(@"Software\Classes\AppUserModelId\" + RepoInfo.Aumid, StringComparison.OrdinalIgnoreCase);
         if (!ok) throw new InvalidOperationException("Refusing to touch registry key " + subKey);
         return subKey;

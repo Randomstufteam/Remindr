@@ -11,7 +11,7 @@ namespace Remindr.Services;
 /// on the UI thread. Clicks arrive both while the app runs and when a click started the app (cold start): the library calls
 /// OnActivated either way once <see cref="Initialize"/> has subscribed.
 /// </summary>
-public sealed class NotificationService
+public sealed class NotificationService : IToastSink
 {
     [DllImport("shell32.dll", SetLastError = true)]
     private static extern int SetCurrentProcessExplicitAppUserModelID([MarshalAs(UnmanagedType.LPWStr)] string appId);
@@ -19,14 +19,16 @@ public sealed class NotificationService
     private readonly ToastActionHandler _handler;
     private readonly ReminderRepo _reminders;
     private readonly IClock _clock;
+    private readonly ProfileRepo _profiles;
     private Dispatcher? _dispatcher;
     private Action<ToastOutcome>? _onHandled;
 
-    public NotificationService(ToastActionHandler handler, ReminderRepo reminders, IClock clock)
+    public NotificationService(ToastActionHandler handler, ReminderRepo reminders, IClock clock, ProfileRepo profiles)
     {
         _handler = handler;
         _reminders = reminders;
         _clock = clock;
+        _profiles = profiles;
     }
 
     /// <summary>
@@ -58,6 +60,7 @@ public sealed class NotificationService
         _dispatcher = dispatcher;
         _onHandled = onHandled;
         _reminders.Closed += (_, r) => ClearHistory(r);
+        _profiles.Deleted += (_, id) => OnUi(() => ClearProfile(id));
         try
         {
             ToastNotificationManagerCompat.OnActivated += e =>
@@ -90,6 +93,34 @@ public sealed class NotificationService
             ErrorLog.Write(ex, "Handling a toast click");
             _onHandled?.Invoke(new ToastOutcome(ToastAction.Open, false));
         }
+    }
+
+    /// <summary>
+    /// Shows the toast on the UI thread (the scheduler runs on a pool thread). Completes once the toast was handed to Windows;
+    /// a cancelled token (app shutting down) abandons the wait instead of blocking a UI thread that is stopping the host.
+    /// </summary>
+    public async Task ShowAsync(Reminder r, PlannedAlert alert, CancellationToken ct)
+    {
+        if (_dispatcher is null || _dispatcher.CheckAccess()) { Show(r, alert); return; }
+        await _dispatcher.InvokeAsync(() => Show(r, alert), DispatcherPriority.Normal, ct);
+    }
+
+    /// <summary>Removes every toast of a deleted profile from Action Center (tags start with "p{id}r").</summary>
+    private static void ClearProfile(int profileId)
+    {
+        try
+        {
+            var prefix = "p" + profileId.ToString(System.Globalization.CultureInfo.InvariantCulture) + "r";
+            foreach (var t in ToastNotificationManagerCompat.History.GetHistory())
+                if (t.Tag is { } tag && tag.StartsWith(prefix, StringComparison.Ordinal))
+                    ToastNotificationManagerCompat.History.Remove(tag, t.Group);
+        }
+        catch { /* nothing to clear */ }
+    }
+
+    private void OnUi(Action a)
+    {
+        if (_dispatcher is null || _dispatcher.CheckAccess()) a(); else _dispatcher.BeginInvoke(a);
     }
 
     /// <summary>Shows (or replaces) the toast for this reminder occurrence.</summary>

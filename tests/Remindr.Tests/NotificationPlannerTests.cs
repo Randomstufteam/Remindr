@@ -268,4 +268,53 @@ public class NotificationPlannerTests
         var a = NotificationPlanner.GetDue(Rem(), Array.Empty<NotificationLogEntry>(), now);
         Assert.Equal(NotificationKind.AtTime, Kind(a));
     }
+
+    [Fact]
+    public void Stale_occurrence_gets_no_attime_and_no_nag()
+    {
+        Assert.Equal(NotificationKind.AtTime, Kind(Get(Rem(true), Due.AddHours(24))));
+        Assert.Empty(Get(Rem(true), Due.AddHours(24).AddMinutes(1)));
+        Assert.Empty(Get(Rem(), Due.AddDays(30)));
+        // Nagging stops once the occurrence is stale.
+        Assert.Equal(NotificationKind.Nag, Kind(Get(Rem(true), Due.AddHours(23).AddMinutes(55), null, L(NotificationKind.AtTime, Due.AddHours(23).AddMinutes(40)))));
+        Assert.Empty(Get(Rem(true), Due.AddHours(24).AddMinutes(5), null, L(NotificationKind.AtTime, Due.AddHours(23).AddMinutes(40))));
+    }
+
+    [Fact]
+    public void Stale_window_counts_from_a_later_snooze()
+    {
+        var snooze = Due.AddHours(20);
+        var fired = L(NotificationKind.Snooze, snooze);
+        // 30 h after due but only 10 h after the snooze fired: still nagging.
+        Assert.Equal(NotificationKind.Nag, Kind(Get(Rem(true), Due.AddHours(30), snooze, fired)));
+        Assert.Empty(Get(Rem(true), snooze.AddHours(24).AddMinutes(1), snooze, fired));
+        // A snooze that expired more than a day ago (app was off) does not fire late.
+        Assert.Empty(Get(Rem(), snooze.AddHours(25), snooze));
+    }
+
+    private static PendingAlert P(int id, int hour, NotificationKind k, bool overdue)
+    {
+        var r = new Reminder { Id = id, DueDate = new DateOnly(2026, 10, 24), DueTime = new TimeOnly(hour, 0) };
+        return new PendingAlert(r, new PlannedAlert(k, NotificationPlanner.OccurrenceKey(r), overdue));
+    }
+
+    [Fact]
+    public void Budget_prefers_on_time_then_recent_overdue_and_silences_only_overdue_attime()
+    {
+        var pending = new[]
+        {
+            P(1, 8, NotificationKind.AtTime, true),
+            P(2, 9, NotificationKind.Nag, true),
+            P(3, 10, NotificationKind.AtTime, true),
+            P(4, 15, NotificationKind.AtTime, false),
+            P(5, 7, NotificationKind.AtTime, true),
+            P(6, 16, NotificationKind.Pre1Hour, false),
+        };
+        var (show, silence) = NotificationPlanner.Budget(pending);
+        Assert.Equal(new[] { 6, 4, 3 }, show.Select(p => p.Reminder.Id));
+        Assert.Equal(new[] { 1, 5 }, silence.Select(p => p.Reminder.Id)); // the nag (2) waits for the next tick
+        var (few, none) = NotificationPlanner.Budget(pending.Take(2).ToList());
+        Assert.Equal(2, few.Count);
+        Assert.Empty(none);
+    }
 }

@@ -11,6 +11,9 @@ public sealed record NotificationLogEntry(long ReminderId, string Occurrence, No
 
 public sealed record PlannedAlert(NotificationKind Kind, string Occurrence, bool IsOverdue);
 
+/// <summary>An alert the planner wants for one reminder, before the per-tick budget is applied.</summary>
+public sealed record PendingAlert(Reminder Reminder, PlannedAlert Alert);
+
 /// <summary>
 /// Pure notification rules. No clock access, no WPF: callers pass "now".
 /// Log times are UTC; they are compared with "now" as elapsed time (nowUtc - firedUtc),
@@ -24,6 +27,13 @@ public static class NotificationPlanner
     public static readonly TimeSpan NagInterval = TimeSpan.FromMinutes(10);
     /// <summary>An AtTime/Snooze alert fired more than this after its time is flagged overdue.</summary>
     public static readonly TimeSpan OverdueGrace = TimeSpan.FromMinutes(1);
+    /// <summary>
+    /// An occurrence whose due time (or snooze time, if later) is more than this in the past is stale: it gets no AtTime or
+    /// Snooze toast and important ones stop nagging. Keeps an upgrade from 0.3.x or a long vacation from bursting old alerts.
+    /// </summary>
+    public static readonly TimeSpan StaleAfter = TimeSpan.FromHours(24);
+    /// <summary>Most toasts shown in one scheduler tick (see <see cref="Budget"/>).</summary>
+    public const int MaxToastsPerTick = 3;
 
     /// <summary>Occurrence key: due date + due time ("yyyy-MM-ddTHH:mm"); all-day uses 09:00.</summary>
     public static string OccurrenceKey(Reminder r) =>
@@ -59,7 +69,7 @@ public static class NotificationPlanner
         if (snoozedUntilLocal is { } snooze)
         {
             if (nowLocal < snooze) return none;
-            if (!mine.Any(e => e.Kind == NotificationKind.Snooze && e.Local >= snooze))
+            if (nowLocal - snooze <= StaleAfter && !mine.Any(e => e.Kind == NotificationKind.Snooze && e.Local >= snooze))
                 return One(NotificationKind.Snooze, nowLocal - snooze > OverdueGrace);
         }
 
@@ -79,7 +89,11 @@ public static class NotificationPlanner
             return none;
         }
 
-        // Past due. A Snooze alert fired at/after due also counts as the at-time alert.
+        // Past due. Stale occurrences stay silent: no late AtTime, no more nags.
+        var anchor = snoozedUntilLocal is { } snoozeTime && snoozeTime > due ? snoozeTime : due;
+        if (nowLocal - anchor > StaleAfter) return none;
+
+        // A Snooze alert fired at/after due also counts as the at-time alert.
         bool atTimeDone = Has(NotificationKind.AtTime) ||
                           mine.Any(e => e.Kind == NotificationKind.Snooze && e.Local >= due);
         if (!atTimeDone)
@@ -89,5 +103,29 @@ public static class NotificationPlanner
         var last = mine.Where(e => e.Kind is NotificationKind.AtTime or NotificationKind.Nag or NotificationKind.Snooze)
                        .Select(e => e.Local).DefaultIfEmpty(DateTime.MinValue).Max();
         return nowLocal - last >= NagInterval ? One(NotificationKind.Nag, true) : none;
+    }
+
+    /// <summary>
+    /// Applies the per-tick toast budget. Order: on-time alerts (pre-alerts, AtTime within grace, Snooze) first, then overdue
+    /// AtTime, then nags; within each group the most recent due time first. The first <paramref name="max"/> are shown. Of the
+    /// rest, overdue AtTime alerts are silenced (logged without a toast, so a backlog never trickles out tick after tick);
+    /// everything else waits for the next tick.
+    /// </summary>
+    public static (IReadOnlyList<PendingAlert> Show, IReadOnlyList<PendingAlert> Silence) Budget(
+        IReadOnlyList<PendingAlert> pending, int max = MaxToastsPerTick)
+    {
+        static int Rank(PlannedAlert a) => a.Kind switch
+        {
+            NotificationKind.Nag => 2,
+            NotificationKind.AtTime when a.IsOverdue => 1,
+            _ => 0,
+        };
+        var ordered = pending.OrderBy(p => Rank(p.Alert))
+                             .ThenByDescending(p => DueLocal(p.Reminder))
+                             .ThenBy(p => p.Reminder.Id)
+                             .ToList();
+        var show = ordered.Take(max).ToList();
+        var silence = ordered.Skip(max).Where(p => Rank(p.Alert) == 1).ToList();
+        return (show, silence);
     }
 }
