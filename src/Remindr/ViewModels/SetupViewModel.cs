@@ -45,6 +45,7 @@ public sealed partial class SetupViewModel : ObservableObject
     private readonly Action<string>? _previewLanguage;
     private readonly Action<AppTheme>? _previewTheme;
     private Profile? _created;
+    private readonly string _whatsNewVersion = WhatsNewService.CurrentVersion;
 
     /// <param name="profiles">Where the profile is created.</param>
     /// <param name="initialLanguage">The language the app is showing now (the Windows default).</param>
@@ -239,6 +240,8 @@ public sealed partial class SetupViewModel : ObservableObject
         {
             [LocalizationService.SettingKey] = LanguageCode,
             [ThemeService.SettingKey] = Theme.ToString(),
+            // A new user starts "up to date": the What's New page is for people who update.
+            [WhatsNewService.LastSeenKey] = _whatsNewVersion,
         };
         _created = _profiles.CreateFirst(DisplayName, Color, ProfileEditViewModel.DeriveInitial(Name),
             HasPin ? Pin : null, Avatar, categories, settings);

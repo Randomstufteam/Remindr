@@ -95,6 +95,16 @@ internal static class Demo
 
     private static string Tr(string lang, string en) => Tx.TryGetValue(lang, out var m) && m.TryGetValue(en, out var t) ? t : en;
 
+    /// <summary>Adds a profile with no reminders (empty-state probes).</summary>
+    public static void AddEmptyProfile(string dir, string name)
+    {
+        EnsureSafe(dir);
+        using var c = new SqliteConnection(new SqliteConnectionStringBuilder { DataSource = Path.Combine(dir, "remindr.db"), Pooling = false }.ToString());
+        c.Open();
+        Exec(c, "INSERT INTO profiles(name,color,avatar_initial,avatar,created_at) VALUES (@n,'#0EA5E9',@i,'builtin:fox',@now)",
+            ("@n", name), ("@i", name[..1]), ("@now", DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ", CultureInfo.InvariantCulture)));
+    }
+
     /// <summary>Three invented profiles with reminders around today. Setup is skipped because profiles exist.</summary>
     public static void SeedProfiles(string dir, string theme, string language)
     {

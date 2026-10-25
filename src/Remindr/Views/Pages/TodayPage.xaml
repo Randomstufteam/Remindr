@@ -12,16 +12,18 @@
             <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{Binding DateCaption}" Style="{StaticResource Caption}" Margin="0,4,0,24" />
 
             <!-- Placeholder until the Phase 5 dashboard: just a way to add a reminder. -->
-            <Grid MaxWidth="560" HorizontalAlignment="Left" ctl:Anim.FadeInOnLoad="True">
+            <Grid MaxWidth="560" HorizontalAlignment="Left">
                 <Border Style="{StaticResource GlassShadow}" />
                 <Border Style="{StaticResource GlassCard}" Padding="32">
                 <StackPanel>
-                    <ui:SymbolIcon Symbol="CalendarCheckmark24" FontSize="32" HorizontalAlignment="Left"
-                                   Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
-                    <TextBlock Text="{l:Loc Today_Empty_Title}" Style="{StaticResource SectionHeader}" FontSize="16" Margin="0,12,0,4" />
+                    <!-- Remind UI 0.4: a floating picture, then the title, caption and button stagger in. -->
+                    <ctl:FloatingPicture Picture="builtin:sun_with_face" Size="96" ctl:Anim.FadeInOnLoad="True" ctl:Anim.Slide="0" />
+                    <TextBlock Text="{l:Loc Today_Empty_Title}" Style="{StaticResource SectionHeader}" FontSize="16" Margin="0,12,0,4"
+                               ctl:Anim.FadeInOnLoad="True" />
                     <TextBlock Text="{l:Loc Today_Empty_Text}"
-                               Style="{StaticResource Caption}" />
+                               Style="{StaticResource Caption}" ctl:Anim.FadeInOnLoad="True" />
                     <ui:Button Appearance="Primary" Content="{l:Loc Reminder_New}" Margin="0,16,0,0" HorizontalAlignment="Left"
+                               ctl:Anim.FadeInOnLoad="True"
                                Command="{Binding NewReminderCommand}" ToolTip="{l:Loc Reminder_NewTooltip}"
                                AutomationProperties.Name="{l:Loc Reminder_New}">
                         <ui:Button.Icon>

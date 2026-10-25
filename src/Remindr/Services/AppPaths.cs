@@ -17,6 +17,7 @@ public sealed class AppPaths
         DbFile = Path.Combine(dataDir, "remindr.db");
         AvatarsDir = Path.Combine(dataDir, "avatars");
         ErrorLogFile = Path.Combine(dataDir, "error.log");
+        ToastCacheDir = Path.Combine(dataDir, "toast-cache");
     }
 
     /// <summary>The folder everything lives in.</summary>
@@ -24,6 +25,8 @@ public sealed class AppPaths
     public string DbFile { get; }
     public string AvatarsDir { get; }
     public string ErrorLogFile { get; }
+    /// <summary>Small circle-cropped pictures for toasts; unused ones are removed after a week (see <see cref="ToastImageCache"/>).</summary>
+    public string ToastCacheDir { get; }
 
     /// <summary>True when the folder came from <see cref="EnvironmentVariable"/> instead of %AppData%.</summary>
     public bool IsOverridden { get; private init; }

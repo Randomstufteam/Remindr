@@ -6,10 +6,14 @@ namespace Remindr.Services;
 /// The command-line switches Remindr understands. Anything else is ignored (an older Run value, a future switch, the
 /// arguments Windows adds). Pure, so it is unit tested.
 /// </summary>
-public sealed record LaunchArgs(bool Minimized, bool Welcome, bool ToastActivated, bool NoEffects = false)
+public sealed record LaunchArgs(bool Minimized, bool Welcome, bool ToastActivated, bool NoEffects = false, bool WhatsNew = false, string? PretendVersion = null)
 {
     /// <summary>Debug builds only (see MotionPolicy): turns the visual-effects gate off so every effect is instant.</summary>
     public const string NoEffectsArg = "--no-effects";
+    /// <summary>Debug builds only: show the What's New page after the profile opens, even if it was seen.</summary>
+    public const string WhatsNewArg = "--whatsnew";
+    /// <summary>Debug builds only: <c>--pretend-version=0.4.0</c> makes What's New count that as the running version.</summary>
+    public const string PretendVersionPrefix = "--pretend-version=";
     public const string MinimizedArg = "--minimized";
     public const string WelcomeArg = "--welcome";
     /// <summary>Added by the toast library when Windows starts the app for a toast click.</summary>
@@ -17,15 +21,19 @@ public sealed record LaunchArgs(bool Minimized, bool Welcome, bool ToastActivate
 
     public static LaunchArgs Parse(IEnumerable<string>? args)
     {
-        bool minimized = false, welcome = false, toast = false, noEffects = false;
+        bool minimized = false, welcome = false, toast = false, noEffects = false, whatsNew = false;
+        string? pretend = null;
         foreach (var a in args ?? Array.Empty<string>())
         {
             if (string.Equals(a, MinimizedArg, StringComparison.OrdinalIgnoreCase)) minimized = true;
             else if (string.Equals(a, WelcomeArg, StringComparison.OrdinalIgnoreCase)) welcome = true;
             else if (string.Equals(a, NoEffectsArg, StringComparison.OrdinalIgnoreCase)) noEffects = true;
+            else if (string.Equals(a, WhatsNewArg, StringComparison.OrdinalIgnoreCase)) whatsNew = true;
+            else if (a.StartsWith(PretendVersionPrefix, StringComparison.OrdinalIgnoreCase))
+                pretend = WhatsNewCatalog.ParseVersion(a[PretendVersionPrefix.Length..]) is { } v ? v.ToString(3) : null;
             else if (string.Equals(a, ToastActivatedArg, StringComparison.OrdinalIgnoreCase)) toast = true;
         }
-        return new LaunchArgs(minimized, welcome, toast, noEffects);
+        return new LaunchArgs(minimized, welcome, toast, noEffects, whatsNew, pretend);
     }
 }
 

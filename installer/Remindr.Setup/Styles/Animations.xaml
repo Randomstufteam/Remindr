@@ -9,6 +9,12 @@
     <Duration x:Key="DurSlow">0:0:0.25</Duration>
     <Duration x:Key="DurShake">0:0:0.3</Duration>
 
+    <!-- Remind UI 0.4 (copied from the app). -->
+    <Duration x:Key="DurEnter">0:0:0.32</Duration>
+    <Duration x:Key="DurExit">0:0:0.18</Duration>
+    <sys:Double x:Key="StaggerRevealMs">90</sys:Double>
+    <sys:Double x:Key="PressScale">0.96</sys:Double>
+
     <!-- Delay between staggered items, in milliseconds. -->
     <sys:Double x:Key="StaggerMs">40</sys:Double>
 
@@ -16,4 +22,6 @@
     <sys:Boolean x:Key="MotionEnabled">True</sys:Boolean>
 
     <CubicEase x:Key="EaseOut" EasingMode="EaseOut" />
+    <CubicEase x:Key="EaseInOut" EasingMode="EaseInOut" />
+    <BackEase x:Key="EasePop" EasingMode="EaseOut" Amplitude="0.3" />
 </ResourceDictionary>

@@ -237,6 +237,8 @@
                             <TextBlock Text="{Binding VersionText}" Style="{StaticResource Body}" />
                             <TextBlock Text="{Binding RemindUiText}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
                             <TextBlock Text="{Binding LicenseText}" Style="{StaticResource Caption}" Margin="0,2,0,0" />
+                            <Button Content="{l:Loc WhatsNew_Open}" Style="{StaticResource GlassPill}" HorizontalAlignment="Left" Margin="0,10,0,0"
+                                    Command="{Binding ShowWhatsNewCommand}" AutomationProperties.AutomationId="ShowWhatsNew" />
                         </StackPanel>
                         <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
                             <Button Content="{l:Loc Settings_ViewGitHub}" Style="{StaticResource GlassPill}" Command="{Binding OpenGitHubCommand}" />

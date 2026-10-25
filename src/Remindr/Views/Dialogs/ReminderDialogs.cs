@@ -76,7 +76,7 @@ public sealed class ReminderDialogs
         return _reminders.Update(target) ? _reminders.Get(target.Id) : null;
     }
 
-    /// <summary>Asks, then deletes. Returns true if the reminder was deleted.</summary>
+    /// <summary>Asks for confirmation only (the caller deletes, after the card has slid out). Returns true if the user confirmed.</summary>
     public async Task<bool> ConfirmDeleteAsync(Reminder reminder)
     {
         if (DialogOpen) return false;
@@ -96,8 +96,7 @@ public sealed class ReminderDialogs
         dialog.CloseButtonText = Loc.Get("Common_Cancel");
         dialog.DefaultButton = ContentDialogButton.Close;
 
-        if (await dialog.ShowAsync() != ContentDialogResult.Primary) return false;
-        return _reminders.Delete(reminder.Id);
+        return await dialog.ShowAsync() == ContentDialogResult.Primary;
     }
 }
 

@@ -1,5 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ctl="clr-namespace:Remindr.Views.Controls">
     <!--
       Glass styles. Every brush is a DynamicResource from the Glass.Light / Glass.Dark (or Glass.Opaque.*) dictionary
       that ThemeService keeps merged into Application.Resources, so a theme or transparency change restyles live.
@@ -50,6 +51,8 @@
 
     <!-- Glass button. -->
     <Style x:Key="GlassPill" TargetType="Button">
+        <!-- Remind UI 0.4: scale 0.96 while pressed (IconAction and NavButton inherit it). -->
+        <Setter Property="ctl:Anim.PressScale" Value="True" />
         <Setter Property="Background" Value="{DynamicResource GlassPillBrush}" />
         <Setter Property="BorderBrush" Value="{DynamicResource GlassStrokeBrush}" />
         <Setter Property="BorderThickness" Value="1" />

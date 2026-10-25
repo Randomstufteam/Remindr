@@ -39,8 +39,9 @@
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="Frame" Property="Background" Value="{DynamicResource GlassPillHoverBrush}" />
                             </Trigger>
+                            <!-- The accent fill is the one sliding SegmentPill behind the segments, not a fill per button. -->
                             <Trigger Property="IsChecked" Value="True">
-                                <Setter TargetName="Frame" Property="Background" Value="{DynamicResource AccentFillColorDefaultBrush}" />
+                                <Setter TargetName="Frame" Property="Background" Value="Transparent" />
                                 <Setter Property="Foreground" Value="{DynamicResource TextOnAccentFillColorPrimaryBrush}" />
                             </Trigger>
                         </ControlTemplate.Triggers>
@@ -87,6 +88,7 @@
                  Mouse is handled in PreviewMouseLeftButtonDown (click / double-click); Click is the UIA / keyboard-less path. -->
             <Button Style="{StaticResource CellButton}" PreviewMouseLeftButtonDown="OnDayMouseDown" Click="OnDayInvoke"
                     AutomationProperties.Name="{Binding AutomationName}">
+            <Grid>
             <Border x:Name="Cell" Margin="1" CornerRadius="12" Background="Transparent" BorderThickness="2" BorderBrush="Transparent"
                     Cursor="Hand">
                 <Grid x:Name="CellContent" Margin="6,2,6,3">
@@ -126,6 +128,11 @@
                     </StackPanel>
                 </Grid>
             </Border>
+            <!-- The selection ring: scales 0.9 to 1 when the day becomes selected (Anim.RingWhen). Opacity 0 at rest. -->
+            <Border x:Name="Ring" Margin="1" CornerRadius="12" BorderThickness="2" IsHitTestVisible="False" Opacity="0"
+                    BorderBrush="{DynamicResource AccentFillColorDefaultBrush}"
+                    ctl:Anim.RingWhen="{Binding IsSelected}" />
+            </Grid>
             </Button>
             <DataTemplate.Triggers>
                 <Trigger SourceName="Cell" Property="IsMouseOver" Value="True">
@@ -139,7 +146,6 @@
                     <Setter TargetName="Number" Property="Foreground" Value="{DynamicResource TextOnAccentFillColorPrimaryBrush}" />
                 </DataTrigger>
                 <DataTrigger Binding="{Binding IsSelected}" Value="True">
-                    <Setter TargetName="Cell" Property="BorderBrush" Value="{DynamicResource AccentFillColorDefaultBrush}" />
                     <Setter TargetName="Cell" Property="Background" Value="{DynamicResource GlassPillBrush}" />
                 </DataTrigger>
             </DataTemplate.Triggers>
@@ -205,18 +211,23 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <TextBlock Text="{Binding Title}" Style="{StaticResource PageTitle}" VerticalAlignment="Center"
+            <TextBlock x:Name="TitleText" Text="{Binding Title}" Style="{StaticResource PageTitle}" VerticalAlignment="Center"
                        TextWrapping="Wrap" Margin="0,0,16,0" />
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
                 <Border Style="{StaticResource GlassChip}" Padding="3" CornerRadius="12" Margin="0,0,12,0">
-                    <StackPanel Orientation="Horizontal">
-                        <RadioButton GroupName="CalendarMode" Content="{l:Loc Calendar_Month}" Style="{StaticResource SegmentButton}"
-                                     IsChecked="{Binding IsMonth, Mode=TwoWay}" AutomationProperties.Name="{l:Loc Calendar_MonthViewName}" />
-                        <RadioButton GroupName="CalendarMode" Content="{l:Loc Calendar_Week}" Style="{StaticResource SegmentButton}"
-                                     IsChecked="{Binding IsWeek, Mode=TwoWay}" AutomationProperties.Name="{l:Loc Calendar_WeekViewName}" />
-                        <RadioButton GroupName="CalendarMode" Content="{l:Loc Calendar_Agenda}" Style="{StaticResource SegmentButton}"
-                                     IsChecked="{Binding IsAgenda, Mode=TwoWay}" AutomationProperties.Name="{l:Loc Calendar_AgendaViewName}" />
-                    </StackPanel>
+                    <Grid>
+                        <!-- One selection pill slides between three equal-width segments (the page sets its width and X; Anim.SlidePill). -->
+                        <Border x:Name="SegmentPill" HorizontalAlignment="Left" Width="0" CornerRadius="9"
+                                Background="{DynamicResource AccentFillColorDefaultBrush}" IsHitTestVisible="False" />
+                        <UniformGrid x:Name="SegmentGrid" Rows="1" Columns="3">
+                            <RadioButton GroupName="CalendarMode" Content="{l:Loc Calendar_Month}" Style="{StaticResource SegmentButton}"
+                                         IsChecked="{Binding IsMonth, Mode=TwoWay}" AutomationProperties.Name="{l:Loc Calendar_MonthViewName}" />
+                            <RadioButton GroupName="CalendarMode" Content="{l:Loc Calendar_Week}" Style="{StaticResource SegmentButton}"
+                                         IsChecked="{Binding IsWeek, Mode=TwoWay}" AutomationProperties.Name="{l:Loc Calendar_WeekViewName}" />
+                            <RadioButton GroupName="CalendarMode" Content="{l:Loc Calendar_Agenda}" Style="{StaticResource SegmentButton}"
+                                         IsChecked="{Binding IsAgenda, Mode=TwoWay}" AutomationProperties.Name="{l:Loc Calendar_AgendaViewName}" />
+                        </UniformGrid>
+                    </Grid>
                 </Border>
                 <Button Style="{StaticResource NavButton}" Command="{Binding PreviousCommand}" ToolTip="{l:Loc Calendar_Previous}"
                         AutomationProperties.Name="{l:Loc Calendar_Previous}">
@@ -326,8 +337,21 @@
                             <Grid>
                                 <ItemsControl ItemsSource="{Binding SelectedDayItems}" ItemTemplate="{StaticResource ReminderCard}"
                                               Margin="2,0" Focusable="False" IsTabStop="False" />
-                                <TextBlock Text="{l:Loc Calendar_DayEmpty}" Style="{StaticResource Caption}" Margin="2,4,0,0"
-                                           Visibility="{Binding SelectedDayEmpty, Converter={StaticResource BoolToVis}}" />
+                                <!-- Empty day: a floating picture over the caption (smaller in the narrow layout, where the panel is short). -->
+                                <StackPanel Margin="2,4,0,0" Visibility="{Binding SelectedDayEmpty, Converter={StaticResource BoolToVis}}">
+                                    <ctl:FloatingPicture Picture="builtin:calendar" Margin="0,0,0,8">
+                                        <ctl:FloatingPicture.Style>
+                                            <Style TargetType="ctl:FloatingPicture">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsNarrow}" Value="True">
+                                                        <Setter Property="Size" Value="48" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </ctl:FloatingPicture.Style>
+                                    </ctl:FloatingPicture>
+                                    <TextBlock Text="{l:Loc Calendar_DayEmpty}" Style="{StaticResource Caption}" />
+                                </StackPanel>
                             </Grid>
                         </ScrollViewer>
                     </DockPanel>
@@ -358,7 +382,9 @@
                         </ItemsControl>
 
                         <!-- One tab stop: arrow keys move the selected day, Enter adds a reminder on it. -->
-                        <ItemsControl x:Name="MonthGrid" Grid.Row="1" ItemsSource="{Binding MonthCells}"
+                        <!-- MonthHost stacks the live grid and, during a month change, a picture of the old one (MonthSnap) that slides out. -->
+                        <Grid x:Name="MonthHost" Grid.Row="1" ClipToBounds="True">
+                        <ItemsControl x:Name="MonthGrid" ItemsSource="{Binding MonthCells}"
                                       ItemTemplate="{StaticResource MonthCell}" Focusable="True" IsTabStop="True"
                                       FocusVisualStyle="{DynamicResource FocusRing}" AutomationProperties.Name="{l:Loc Calendar_MonthGridName}">
                             <ItemsControl.ItemsPanel>
@@ -374,6 +400,16 @@
                                 <KeyBinding Key="Return" Command="{Binding NewReminderCommand}" />
                             </ItemsControl.InputBindings>
                         </ItemsControl>
+                        <!-- The month just left: the page fills it with the old cells for the slide-out (see OnNavigating), then empties it. -->
+                        <ItemsControl x:Name="MonthGridOut" ItemTemplate="{StaticResource MonthCell}" Visibility="Collapsed"
+                                      IsHitTestVisible="False" Focusable="False" IsTabStop="False" KeyboardNavigation.TabNavigation="None">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <UniformGrid Rows="6" Columns="7" />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                        </ItemsControl>
+                        </Grid>
                     </Grid>
                 </Border>
             </Grid>
@@ -383,8 +419,8 @@
         <!-- The 7 columns share the viewport width (Width is bound to it); below 90 px per column (MinWidth) it scrolls. -->
         <ScrollViewer x:Name="WeekScroll" Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" Background="Transparent"
                       Visibility="{Binding IsWeek, Converter={StaticResource BoolToVis}}">
-            <ItemsControl ItemsSource="{Binding WeekColumns}" ItemTemplate="{StaticResource WeekColumn}" MinWidth="630"
-                          Width="{Binding ViewportWidth, ElementName=WeekScroll}" HorizontalAlignment="Left"
+            <Grid x:Name="WeekHost" MinWidth="630" Width="{Binding ViewportWidth, ElementName=WeekScroll}" HorizontalAlignment="Left" ClipToBounds="True">
+            <ItemsControl x:Name="WeekColumnsList" ItemsSource="{Binding WeekColumns}" ItemTemplate="{StaticResource WeekColumn}"
                           Focusable="False" IsTabStop="False">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -392,6 +428,15 @@
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
             </ItemsControl>
+            <ItemsControl x:Name="WeekColumnsOut" ItemTemplate="{StaticResource WeekColumn}" Visibility="Collapsed"
+                          IsHitTestVisible="False" Focusable="False" IsTabStop="False" KeyboardNavigation.TabNavigation="None">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="1" Columns="7" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+            </Grid>
         </ScrollViewer>
 
         <!-- ================= Agenda ================= -->
@@ -409,11 +454,13 @@
                     <Border Style="{StaticResource GlassShadow}" />
                     <Border Style="{StaticResource GlassCard}" Padding="32">
                         <StackPanel>
-                            <ui:SymbolIcon Symbol="CalendarLtr24" FontSize="32" HorizontalAlignment="Left"
-                                           Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
-                            <TextBlock Text="{l:Loc Calendar_AgendaEmptyTitle}" Style="{StaticResource SectionHeader}" FontSize="16" Margin="0,12,0,4" />
-                            <TextBlock Text="{Binding AgendaEmptyText}" Style="{StaticResource Caption}" />
+                            <!-- Remind UI 0.4: a floating picture, then the title, caption and button stagger in. -->
+                            <ctl:FloatingPicture Picture="builtin:tear_off_calendar" Size="96" ctl:Anim.FadeInOnLoad="True" ctl:Anim.Slide="0" />
+                            <TextBlock Text="{l:Loc Calendar_AgendaEmptyTitle}" Style="{StaticResource SectionHeader}" FontSize="16" Margin="0,12,0,4"
+                                       ctl:Anim.FadeInOnLoad="True" />
+                            <TextBlock Text="{Binding AgendaEmptyText}" Style="{StaticResource Caption}" ctl:Anim.FadeInOnLoad="True" />
                             <ui:Button Appearance="Primary" Content="{l:Loc Reminder_New}" Margin="0,16,0,0" HorizontalAlignment="Left"
+                                       ctl:Anim.FadeInOnLoad="True"
                                        Command="{Binding NewReminderCommand}" AutomationProperties.Name="{l:Loc Calendar_NewEmptyAgendaName}">
                                 <ui:Button.Icon>
                                     <ui:SymbolIcon Symbol="Add24" />

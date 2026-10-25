@@ -73,7 +73,17 @@ public sealed partial class UpdateViewModel : ObservableObject
     [RelayCommand] private Task UpdateNowAsync() => _service.UpdateNowAsync();
     [RelayCommand] private Task InstallAsync() => _service.InstallAsync();
     [RelayCommand] private void Cancel() => _service.CancelDownload();
-    [RelayCommand] private void WhatsNew() { if (_service.Release is { } r) AppInfo.Open(r.HtmlUrl); }
+    /// <summary>Raised when the banner's What's new is pressed and the release has notes to show in the app.</summary>
+    public event Action<ReleaseInfo>? NotesRequested;
+
+    /// <summary>B-lite: the release notes as a plain in-app list. Without notes (or nobody listening) it opens the release page, as before.</summary>
+    [RelayCommand]
+    private void WhatsNew()
+    {
+        if (_service.Release is not { } r) return;
+        if (NotesRequested is not null && ReleaseNotes.Parse(r.Body).Count > 0) NotesRequested(r);
+        else AppInfo.Open(r.HtmlUrl);
+    }
     [RelayCommand] private void Later() => _service.Later();
     [RelayCommand] private void Skip() => _service.Skip();
     // ---- Settings ------------------------------------------------------------------------------------------

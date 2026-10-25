@@ -8,10 +8,11 @@ internal static class Scenes
         var dir = Demo.NewTempDir("probe");
         if (o.ProbeSetup) return ProbeSetup(o, dir);
         if (o.ProbeEmpty) Demo.SeedEmpty(dir, o.ProbeTheme, o.ProbeLang); else Demo.SeedProfiles(dir, o.ProbeTheme, o.ProbeLang);
+        if (o.EmptyProfile is not null) Demo.AddEmptyProfile(dir, o.EmptyProfile);
         using var bd = new Backdrop();
         bd.Start(o.ProbeTheme == "Dark");
-        using var app = AppWindow.Launch(o.AppExe, dir, o.Reduced);
-        Shooter.Place(app);
+        using var app = AppWindow.Launch(o.AppExe, dir, o.Reduced, o.AppArgs);
+        Shooter.Place(app, o.W, o.H);
         app.Settle(o.WaitMs);
         foreach (var s in o.Steps)
         {

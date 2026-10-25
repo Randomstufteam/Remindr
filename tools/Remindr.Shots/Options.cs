@@ -10,7 +10,7 @@ internal sealed class Options
     public string OutDir = Path.Combine(Path.GetTempPath(), "remindr-shots", "out");
     public string Docs => Path.Combine(Root, "docs");
     public string ProbeTheme = "Light", ProbeLang = "en";
-    public bool ProbeEmpty; public string[] Steps = Array.Empty<string>(); public string? DumpFrom; public bool Reduced; public bool ProbeSetup; public int WaitMs = 2500; public string[]? DumpSkip;
+    public bool ProbeEmpty; public string[] Steps = Array.Empty<string>(); public string? DumpFrom; public bool Reduced; public bool ProbeSetup; public int WaitMs = 2500; public string[] AppArgs = Array.Empty<string>(); public int W = Shooter.LogicalW, H = Shooter.LogicalH; public string? EmptyProfile; public string[]? DumpSkip;
 
     public static string FindRoot()
     {
@@ -47,6 +47,9 @@ internal sealed class Options
                 case "--setup": o.ProbeSetup = true; break;
                 case "--reduced": o.Reduced = true; break;
                 case "--wait": o.WaitMs = int.Parse(a[++i]); break;
+                case "--size": { var wh = a[++i].Split('x'); o.W = int.Parse(wh[0]); o.H = int.Parse(wh[1]); break; }
+                case "--emptyprofile": o.EmptyProfile = a[++i]; break;
+                case "--appargs": o.AppArgs = a[++i].Split('|', StringSplitOptions.RemoveEmptyEntries); break;
                 case "--dumpfrom": o.DumpFrom = a[++i]; break;
                 case "--empty": o.ProbeEmpty = true; break;
                 case "--theme": o.ProbeTheme = a[++i]; break;

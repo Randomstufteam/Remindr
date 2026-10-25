@@ -34,6 +34,7 @@ public partial class CalendarViewModel : ObservableObject
         _clock = clock;
         _dialogs = dialogs;
         _actions = new ReminderActionHandler(repo, dialogs, () => Reload(), refreshAfterImportant: true);
+        _actions.Saved = Highlight;
         _anchor = clock.Today;
         Title = CalendarMath.Title(Mode, _anchor, CalendarMath.FirstDayOfWeek(), Loc.Culture);
         Weekdays = CalendarMath.WeekdayLabels(CalendarMath.FirstDayOfWeek(), Loc.Culture);
@@ -185,10 +186,14 @@ public partial class CalendarViewModel : ObservableObject
     private void SetAnchor(DateOnly date)
     {
         var newRange = CalendarMath.VisibleRange(Mode, date, CalendarMath.FirstDayOfWeek(Loc.Culture));
+        var direction = NavigationDirection(_anchor, date);
         _anchor = date;
         OnPropertyChanged(nameof(Anchor));
         if (_range is null || newRange != _range || Mode == CalendarViewMode.Agenda)
         {
+            // The view is about to be replaced by another month / week: let the page keep the old one for the slide-out.
+            if (_range is not null && newRange != _range && Mode != CalendarViewMode.Agenda && direction != 0)
+                Navigating?.Invoke(direction);
             Reload(animate: true);
             return;
         }
@@ -196,6 +201,12 @@ public partial class CalendarViewModel : ObservableObject
         foreach (var c in WeekColumns) c.IsSelected = c.Date == date;
         if (Mode == CalendarViewMode.Month) RefreshSelectedDay(animate: true);
     }
+
+    /// <summary>+1 when moving to a later date, -1 for an earlier one, 0 when the date is unchanged (the slide direction).</summary>
+    public static int NavigationDirection(DateOnly from, DateOnly to) => to.CompareTo(from) switch { > 0 => 1, < 0 => -1, _ => 0 };
+
+    /// <summary>Raised just before Month / Week data for another range replaces the current one. Argument: the direction (+1 forward, -1 back).</summary>
+    public event Action<int>? Navigating;
 
     [RelayCommand]
     private void Previous() => SetAnchor(CalendarMath.Navigate(Mode, _anchor, -1));
@@ -234,11 +245,15 @@ public partial class CalendarViewModel : ObservableObject
 
     /// <summary>New reminder prefilled with the selected / anchor date.</summary>
     [RelayCommand]
-    private Task NewReminderAsync() => _dialogs.ShowEditAsync(null, _anchor);
+    private async Task NewReminderAsync() => Highlight(await _dialogs.ShowEditAsync(null, _anchor));
 
     /// <summary>New reminder prefilled with a given day (double-click on an empty part of a day, Enter on the selection).</summary>
     [RelayCommand]
-    private Task NewReminderOnAsync(DateOnly date) => _dialogs.ShowEditAsync(null, date);
+    private async Task NewReminderOnAsync(DateOnly date) => Highlight(await _dialogs.ShowEditAsync(null, date));
+
+    /// <summary>Scrolls the saved reminder's card into view and glows it, wherever it is shown (day panel, week column, agenda).</summary>
+    private void Highlight(Reminder? saved) => ReminderHighlight.Apply(
+        SelectedDayItems.Concat(WeekColumns.SelectMany(c => c.Items)).Concat(AgendaGroups.SelectMany(g => g.Items)), saved);
 }
 
 

@@ -75,17 +75,19 @@
                 </DockPanel>
 
                 <!-- Empty state -->
-                <Grid MaxWidth="560" HorizontalAlignment="Left" Margin="0,12,0,0" ctl:Anim.FadeInOnLoad="True"
+                <Grid MaxWidth="560" HorizontalAlignment="Left" Margin="0,12,0,0"
                       Visibility="{Binding IsEmpty, Converter={StaticResource BoolToVis}}">
                     <Border Style="{StaticResource GlassShadow}" />
                     <Border Style="{StaticResource GlassCard}" Padding="32">
                         <StackPanel>
-                            <ui:SymbolIcon Symbol="TaskListSquareLtr24" FontSize="32" HorizontalAlignment="Left"
-                                           Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
-                            <TextBlock Text="{l:Loc AllReminders_Empty_Title}" Style="{StaticResource SectionHeader}" FontSize="16" Margin="0,12,0,4" />
+                            <!-- Remind UI 0.4: a floating picture, then the title, caption and button stagger in. -->
+                            <ctl:FloatingPicture Picture="builtin:clipboard" Size="96" ctl:Anim.FadeInOnLoad="True" ctl:Anim.Slide="0" />
+                            <TextBlock Text="{l:Loc AllReminders_Empty_Title}" Style="{StaticResource SectionHeader}" FontSize="16" Margin="0,12,0,4"
+                                       ctl:Anim.FadeInOnLoad="True" />
                             <TextBlock Text="{l:Loc AllReminders_Empty_Text}"
-                                       Style="{StaticResource Caption}" />
+                                       Style="{StaticResource Caption}" ctl:Anim.FadeInOnLoad="True" />
                             <ui:Button Appearance="Primary" Content="{l:Loc Reminder_New}" Margin="0,16,0,0" HorizontalAlignment="Left"
+                                       ctl:Anim.FadeInOnLoad="True"
                                        Command="{Binding NewReminderCommand}" AutomationProperties.Name="{l:Loc AllReminders_NewEmptyName}">
                                 <ui:Button.Icon>
                                     <ui:SymbolIcon Symbol="Add24" />

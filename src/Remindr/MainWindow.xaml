@@ -91,12 +91,21 @@
                                     <ColumnDefinition Width="40" />
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
+                                <!-- Remind UI 0.4: the bar is always visible but squashed to ScaleY 0 until the item is active; Anim.GrowWhen
+                                     grows it (EasePop). Gate off: it jumps to the end state. -->
                                 <Rectangle x:Name="Indicator" Width="3" Height="16" RadiusX="1.5" RadiusY="1.5"
-                                           HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0"
-                                           Fill="{DynamicResource NavigationViewSelectionIndicatorForeground}" />
+                                           HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"
+                                           Fill="{DynamicResource NavigationViewSelectionIndicatorForeground}"
+                                           ctl:Anim.GrowWhen="{Binding IsActive, RelativeSource={RelativeSource TemplatedParent}}">
+                                    <Rectangle.RenderTransform>
+                                        <ScaleTransform ScaleY="0" />
+                                    </Rectangle.RenderTransform>
+                                </Rectangle>
+                                <!-- The icon nudges 2px toward the label on hover (Anim.NudgeWhen). -->
                                 <ContentPresenter x:Name="IconPresenter" Width="20" Height="20"
                                                   HorizontalAlignment="Center" VerticalAlignment="Center"
-                                                  Content="{TemplateBinding Icon}" TextElement.FontSize="16" />
+                                                  Content="{TemplateBinding Icon}" TextElement.FontSize="16"
+                                                  ctl:Anim.NudgeWhen="{Binding IsMouseOver, RelativeSource={RelativeSource TemplatedParent}}" />
                                 <ContentPresenter x:Name="LabelPresenter" Grid.Column="1" Margin="0,0,8,0"
                                                   VerticalAlignment="Center" Content="{TemplateBinding Content}"
                                                   TextElement.FontSize="14" />
@@ -110,7 +119,6 @@
                             </Trigger>
                             <Trigger Property="IsActive" Value="True">
                                 <Setter TargetName="Pill" Property="Background" Value="{DynamicResource NavigationViewItemBackgroundSelected}" />
-                                <Setter TargetName="Indicator" Property="Opacity" Value="1" />
                             </Trigger>
                             <Trigger Property="IsEnabled" Value="False">
                                 <Setter Property="Opacity" Value="0.5" />
@@ -283,6 +291,10 @@
 
         <!-- First-run setup card: rises in over the greeting, replaces the old silent "Me" profile. -->
         <welcome:SetupView x:Name="Setup" Grid.Row="0" Grid.RowSpan="2" Visibility="Collapsed" />
+
+        <!-- What's New (Remind UI 0.4): above the shell, below dialogs. Shown once after an update, from Settings > About, and as the plain
+             release-notes list from the update banner. -->
+        <welcome:WhatsNewView x:Name="WhatsNewOverlay" Grid.Row="0" Grid.RowSpan="2" Visibility="Collapsed" />
 
         <!-- Host for WPF-UI ContentDialogs (create/edit/delete profile). -->
         <ContentPresenter x:Name="DialogHost" Grid.RowSpan="2" />

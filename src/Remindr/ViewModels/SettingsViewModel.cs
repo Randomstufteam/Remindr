@@ -31,6 +31,7 @@ public partial class SettingsViewModel : ObservableObject
     private readonly ProfileDialogs _dialogs;
     private readonly LocalizationService _localization;
     private readonly WelcomeController _welcome;
+    private readonly WhatsNewService _whatsNew;
     private readonly NotificationService _notifications;
     private readonly Data.Repositories.ReminderRepo _reminders;
     private readonly IClock _clock;
@@ -60,8 +61,9 @@ public partial class SettingsViewModel : ObservableObject
     public SettingsViewModel(ThemeService theme, ProfileSession session, ProfilePickerViewModel picker, ProfileDialogs dialogs,
         LocalizationService localization, WelcomeController welcome, UpdateViewModel updates,
         NotificationService notifications, Data.Repositories.ReminderRepo reminders, IClock clock, TraySettings tray,
-        StartWithWindowsService startup)
+        StartWithWindowsService startup, WhatsNewService whatsNew)
     {
+        _whatsNew = whatsNew;
         _tray = tray;
         _startup = startup;
         Updates = updates;
@@ -185,6 +187,9 @@ public partial class SettingsViewModel : ObservableObject
 
     /// <summary>Shows only the welcome greeting again (no setup, no data changes).</summary>
     [RelayCommand] private void ReplayWelcome() => _welcome.Replay();
+
+    /// <summary>Shows the bundled What's New page again (Settings > About).</summary>
+    [RelayCommand] private void ShowWhatsNew() => _whatsNew.RequestShow();
     /// <summary>Shows a toast for the next upcoming open reminder of this profile (or a sample one), buttons included.</summary>
     [RelayCommand]
     private void SendTestNotification()

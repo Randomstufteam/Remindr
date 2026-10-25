@@ -28,14 +28,17 @@ public partial class MainWindow : FluentWindow
     private readonly WelcomeController _welcome;
     private readonly LocalizationService _localization;
     private readonly UpdateService _update;
+    private readonly WhatsNewService _whatsNew;
+    private bool? _whatsNewDue;
     private bool _firstRun;
     private bool _updateCheckStarted;
 
     public MainWindow(IServiceProvider services, ThemeService theme, ProfileSession session,
         ProfilePickerViewModel picker, ProfileRepo profiles, Wpf.Ui.IContentDialogService dialogService,
         ReminderDialogs reminderDialogs, WelcomeController welcome, LocalizationService localization,
-        UpdateService update, UpdateViewModel updateViewModel)
+        UpdateService update, UpdateViewModel updateViewModel, WhatsNewService whatsNew)
     {
+        _whatsNew = whatsNew;
         _update = update;
         _localization = localization;
         _welcome = welcome;
@@ -77,6 +80,13 @@ public partial class MainWindow : FluentWindow
                 Welcome.TryDismissFromKey(e);
                 return;
             }
+            // What's New: Esc is Got it even when focus has not reached the overlay.
+            if (WhatsNewOverlay.Visibility == Visibility.Visible && !WhatsNewOverlay.IsKeyboardFocusWithin && e.Key == System.Windows.Input.Key.Escape)
+            {
+                CloseWhatsNew(WhatsNewOverlay.IsBundled);
+                e.Handled = true;
+                return;
+            }
             if (e.Key != System.Windows.Input.Key.Escape || !_picker.IsVisible || Picker.IsKeyboardFocusWithin) return;
             if (DialogHost.Content is not null || DialogHost.IsKeyboardFocusWithin) return;
             if (_picker.IsPinPromptOpen) _picker.CancelPinCommand.Execute(null);
@@ -99,8 +109,16 @@ public partial class MainWindow : FluentWindow
         // The card shows only while a profile is open: never over the welcome, setup, picker or PIN prompt (it waits until then).
         update.PropertyChanged += (_, _) => RefreshUpdateCard();
         session.CurrentProfileChanged += (_, _) => RefreshUpdateCard();
-        foreach (var overlay in new FrameworkElement[] { Picker, Welcome, Setup })
+        foreach (var overlay in new FrameworkElement[] { Picker, Welcome, Setup, WhatsNewOverlay })
             overlay.IsVisibleChanged += (_, _) => RefreshUpdateCard();
+        // What's New: once after an update (after the profile is open), from Settings, and as release notes from the update banner.
+        WhatsNewOverlay.Dismissed += (_, bundled) => CloseWhatsNew(bundled);
+        whatsNew.ShowRequested += (_, _) => ShowWhatsNewBundled();
+        updateViewModel.NotesRequested += ShowReleaseNotes;
+        session.CurrentProfileChanged += (_, _) => Dispatcher.BeginInvoke(new Action(TryStartupWhatsNew), System.Windows.Threading.DispatcherPriority.Background);
+        foreach (var overlay in new FrameworkElement[] { Picker, Welcome, Setup })
+            overlay.IsVisibleChanged += (_, _) => Dispatcher.BeginInvoke(new Action(TryStartupWhatsNew), System.Windows.Threading.DispatcherPriority.Background);
+        IsVisibleChanged += (_, _) => Dispatcher.BeginInvoke(new Action(TryStartupWhatsNew), System.Windows.Threading.DispatcherPriority.Background);
         // The installer was started (and verified): leave so it can replace the app files.
         update.InstallerStarted += (_, _) => App.ExitApp();
         Loaded += (_, _) =>
@@ -145,7 +163,8 @@ public partial class MainWindow : FluentWindow
     private void RefreshUpdateCard()
     {
         var show = _update.ShowBanner && _session.Current is not null && !_firstRun
-            && Picker.Visibility != Visibility.Visible && Welcome.Visibility != Visibility.Visible && Setup.Visibility != Visibility.Visible;
+            && Picker.Visibility != Visibility.Visible && Welcome.Visibility != Visibility.Visible && Setup.Visibility != Visibility.Visible
+            && WhatsNewOverlay.Visibility != Visibility.Visible;   // the banner waits until What's New is closed
         if (show == _updateCardShown) return;
         _updateCardShown = show;
         UpdateCard.BeginAnimation(UIElement.OpacityProperty, null);
@@ -209,7 +228,53 @@ public partial class MainWindow : FluentWindow
 
     private bool CanAddReminder() =>
         _session.Current is not null && !_picker.IsVisible && DialogHost.Content is null
-        && Welcome.Visibility != Visibility.Visible && Setup.Visibility != Visibility.Visible;
+        && Welcome.Visibility != Visibility.Visible && Setup.Visibility != Visibility.Visible
+        && WhatsNewOverlay.Visibility != Visibility.Visible;
+
+    // ---- What's New overlay ----------------------------------------------------------------------------
+
+    private bool CanShowWhatsNew() =>
+        IsVisible && _session.Current is not null && !_firstRun && !_picker.IsVisible && DialogHost.Content is null
+        && Welcome.Visibility != Visibility.Visible && Setup.Visibility != Visibility.Visible && WhatsNewOverlay.Visibility != Visibility.Visible;
+
+    /// <summary>After an update: shows the bundled page once, as soon as a profile is open and nothing else (welcome, setup, picker, PIN) covers the app.</summary>
+    private void TryStartupWhatsNew()
+    {
+        if (!CanShowWhatsNew()) return;
+        _whatsNewDue ??= _whatsNew.ShouldShowNow() || WhatsNewService.ForceShow;
+        if (_whatsNewDue != true) return;
+        _whatsNewDue = false;
+        ShowWhatsNewBundled();
+    }
+
+    private void ShowWhatsNewBundled()
+    {
+        if (!CanShowWhatsNew()) return;
+        var version = WhatsNewCatalog.HasEntries(WhatsNewService.CurrentVersion) ? WhatsNewService.CurrentVersion : WhatsNewCatalog.Latest;
+        WhatsNewOverlay.ShowBundled(version);
+        OpenWhatsNewOverlay();
+    }
+
+    private void ShowReleaseNotes(ReleaseInfo release)
+    {
+        if (!CanShowWhatsNew()) return;
+        WhatsNewOverlay.ShowNotes(release.Version.ToString(), release.Body ?? "", release.HtmlUrl);
+        OpenWhatsNewOverlay();
+    }
+
+    private void OpenWhatsNewOverlay()
+    {
+        RootNavigation.IsEnabled = false;
+        FadeOverlay(WhatsNewOverlay, true);
+    }
+
+    /// <summary>Got it / Esc. The bundled page remembers the version; the release-notes list does not.</summary>
+    private void CloseWhatsNew(bool bundled)
+    {
+        if (WhatsNewOverlay.Visibility != Visibility.Visible) return;
+        if (bundled) _whatsNew.MarkSeen();
+        FadeOverlay(WhatsNewOverlay, false, () => RootNavigation.IsEnabled = !_picker.IsVisible);
+    }
 
     private void StartProfileFlow()
     {

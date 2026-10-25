@@ -16,6 +16,8 @@
     <!-- Remind UI 0.4: an element or view entering, and one leaving. -->
     <Duration x:Key="DurEnter">0:0:0.32</Duration>
     <Duration x:Key="DurExit">0:0:0.18</Duration>
+    <!-- One full cycle of the empty-state picture float (TranslateY +-4). Zero under reduced motion, so the float never starts. -->
+    <Duration x:Key="DurFloat">0:0:6</Duration>
 
     <!-- Delay between staggered items, in milliseconds. Every Dur* and Stagger* key is zeroed under reduced motion (MotionPolicy). -->
     <sys:Double x:Key="StaggerMs">40</sys:Double>

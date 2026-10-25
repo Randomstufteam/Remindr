@@ -61,7 +61,7 @@ public readonly record struct SemVer(int Major, int Minor, int Patch, string Pre
 }
 
 /// <summary>What the update check needs from a GitHub release.</summary>
-public sealed record ReleaseInfo(SemVer Version, string Tag, string HtmlUrl, string? InstallerUrl, string? ChecksumUrl);
+public sealed record ReleaseInfo(SemVer Version, string Tag, string HtmlUrl, string? InstallerUrl, string? ChecksumUrl, string? Body = null);
 
 /// <summary>Reads the <c>releases/latest</c> JSON. Pure, no network.</summary>
 public static class ReleaseParser
@@ -95,7 +95,7 @@ public static class ReleaseParser
                     if (name == InstallerAssetName) installer ??= url;
                     else if (name == ChecksumAssetName) checksum ??= url;
                 }
-            return new ReleaseInfo(version, tag!, html, installer, checksum);
+            return new ReleaseInfo(version, tag!, html, installer, checksum, Str(root, "body"));
         }
         catch (JsonException)
         {

@@ -89,7 +89,9 @@ public class ResxParityTests
             var file = Path.GetFileName(path);
             var other = SourceTree.ReadResx(path);
 
-            Assert.True(!neutral.Keys.Except(other.Keys).Any(), $"{file} lacks: " + string.Join(", ", neutral.Keys.Except(other.Keys)));
+            // WhatsNew_<ver>_<n>_* (the bundled release highlights) may be missing: they fall back to English until translated.
+            var missing = neutral.Keys.Except(other.Keys).Where(k => !Regex.IsMatch(k, @"^WhatsNew_\d+_")).ToList();
+            Assert.True(missing.Count == 0, $"{file} lacks: " + string.Join(", ", missing));
             // Languages may add plural categories English lacks (key_Two/_Few/_Many/_Zero) next to an existing key_Other.
             var unknown = other.Keys.Where(k => !neutral.ContainsKey(k) && EnglishFor(neutral, k) is null).ToList();
             Assert.True(unknown.Count == 0, $"{file} has unknown keys: " + string.Join(", ", unknown));

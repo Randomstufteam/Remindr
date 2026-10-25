@@ -27,7 +27,8 @@ public partial class AllRemindersViewModel : ObservableObject
         _session = session;
         _clock = clock;
         _dialogs = dialogs;
-        _actions = new ReminderActionHandler(repo, dialogs, () => Reload());
+        _actions = new ReminderActionHandler(repo, dialogs, () => Reload(), leavesOnComplete: true);
+        _actions.Saved = r => ReminderHighlight.Apply(Groups.SelectMany(g => g.Items), r);
 
         repo.Changed += (_, _) => { if (!_actions.IsWriting) Reload(); };
         session.CurrentProfileChanged += (_, _) => Reload(animateAll: true);
@@ -84,7 +85,7 @@ public partial class AllRemindersViewModel : ObservableObject
     private HashSet<int> _known = new();
 
     [RelayCommand]
-    private Task NewReminderAsync() => _dialogs.ShowEditAsync(null);
+    private async Task NewReminderAsync() => ReminderHighlight.Apply(Groups.SelectMany(g => g.Items), await _dialogs.ShowEditAsync(null));
 }
 
 

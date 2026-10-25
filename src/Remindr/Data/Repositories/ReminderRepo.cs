@@ -158,6 +158,28 @@ public sealed class ReminderRepo
             new { floor = D(today.AddDays(-2)), horizon = D(today.AddDays(1)) }).ToList();
     }
 
+    /// <summary>
+    /// The tray icon's numbers, across ALL profiles: open reminders due today, and open ones that are overdue and not snoozed into the
+    /// future. One cheap aggregate query, so it can run after every scheduler tick and every change.
+    /// </summary>
+    public TrayStatus CountTrayStatus(DateTime nowLocal)
+    {
+        var (today, time) = ReminderQueries.OverdueCutoff(nowLocal);
+        using var conn = _db.Open();
+        var row = conn.QuerySingle<(int DueToday, int Overdue)>(
+            @"SELECT
+                COALESCE(SUM(CASE WHEN due_date = @today THEN 1 ELSE 0 END), 0) AS DueToday,
+                COALESCE(SUM(CASE WHEN (due_date < @today OR (due_date = @today AND due_time IS NOT NULL AND due_time < @time))
+                                   AND (snoozed_until IS NULL OR snoozed_until <= @now) THEN 1 ELSE 0 END), 0) AS Overdue
+              FROM reminders WHERE is_completed = 0",
+            new
+            {
+                today = D(today), time = T(time),
+                now = nowLocal.ToString("yyyy-MM-dd'T'HH:mm", CultureInfo.InvariantCulture)
+            });
+        return new TrayStatus(row.DueToday, row.Overdue);
+    }
+
     /// <summary>Tells open lists to reload without any data having changed (the date rolled over at midnight).</summary>
     public void RaiseExternalRefresh() => RaiseChanged();
 

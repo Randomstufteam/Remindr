@@ -82,9 +82,10 @@ public partial class App : Application
     private void ApplyReducedMotion()
     {
         if (SystemParameters.ClientAreaAnimation) return;
-        foreach (var key in new[] { "DurFast", "DurNormal", "DurSlow", "DurShake" })
+        foreach (var key in new[] { "DurFast", "DurNormal", "DurSlow", "DurShake", "DurEnter", "DurExit" })
             Resources[key] = new Duration(TimeSpan.Zero);
         Resources["StaggerMs"] = 0.0;
+        Resources["StaggerRevealMs"] = 0.0;
         Resources["MotionEnabled"] = false;
     }
 }

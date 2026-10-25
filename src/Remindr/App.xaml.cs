@@ -50,6 +50,8 @@ public partial class App : Application
         NotificationService.RegisterAppId();
         ApplyReducedMotion();
 #if DEBUG
+        if (launch.PretendVersion is not null) WhatsNewService.CurrentVersion = launch.PretendVersion;
+        WhatsNewService.ForceShow = launch.WhatsNew;
         MotionPolicy.ApplyLaunchArgs(Resources, launch, debugBuild: true);
 #endif
 
@@ -183,8 +185,14 @@ public partial class App : Application
         var notifications = _host!.Services.GetRequiredService<NotificationService>();
         var scheduler = _scheduler = _host.Services.GetRequiredService<SchedulerService>();
         var reminders = _host.Services.GetRequiredService<ReminderRepo>();
-        _tray = new TrayService(window, _host.Services.GetRequiredService<TraySettings>(), notifications, BringForward);
+        var clock = _host.Services.GetRequiredService<IClock>();
+        _tray = new TrayService(window, _host.Services.GetRequiredService<TraySettings>(), notifications, BringForward,
+            () => reminders.CountTrayStatus(clock.Now));
         _tray.Start();
+        // The tooltip ("Remindr - 2 due today") and the alert dot follow every scheduler tick and every change, so completing the last
+        // overdue reminder clears the dot at once (at the latest on the next tick).
+        scheduler.Ticked += (_, _) => _tray?.RefreshStatus();
+        reminders.Changed += (_, _) => _tray?.RefreshStatus();
         // Logoff / shutdown must never be blocked by close-to-tray.
         SessionEnding += (_, _) => _tray.PrepareExit();
         // At midnight the date-based views (All Reminders grouping, calendar "today") reload through the normal change path.
@@ -266,6 +274,7 @@ public partial class App : Application
         s.AddSingleton<AvatarService>();
         s.AddSingleton<ProfileSession>();
         s.AddSingleton<WelcomeController>();
+        s.AddSingleton<WhatsNewService>();
         s.AddSingleton<Wpf.Ui.IContentDialogService, Wpf.Ui.ContentDialogService>();
         s.AddSingleton<ProfileDialogs>();
         s.AddSingleton<ReminderDialogs>();

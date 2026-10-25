@@ -30,9 +30,6 @@
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="Frame" Property="Background" Value="{DynamicResource GlassPillHoverBrush}" />
                             </Trigger>
-                            <Trigger Property="IsChecked" Value="True">
-                                <Setter Property="Foreground" Value="{DynamicResource SystemFillColorCriticalBrush}" />
-                            </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
@@ -49,7 +46,18 @@
 
         <!-- Shadow is a sibling (no Effect on the text-bearing card). -->
         <DataTemplate x:Key="ReminderCardTemplate" DataType="{x:Type vm:ReminderItemViewModel}">
-            <Grid x:Name="CardRoot" Margin="0,0,0,10" ctl:Anim.FadeInOnLoad="{Binding Animate}" ctl:Anim.Slide="8">
+            <Grid x:Name="LeaveRoot" ctl:Anim.ExitWhen="{Binding IsExiting}" ctl:Anim.SettleWhen="{Binding IsSettling}">
+            <!-- CardRoot keeps the card's footprint hit-testable (Transparent), so the 2px hover lift never makes the pointer flicker in and out
+                 at the bottom edge. LiftRoot is the part that moves (TileMotion subtle mode): lift 2px + Elevation2 shadow, press 0.99. -->
+            <Grid x:Name="CardRoot" Margin="0,0,0,10" Background="Transparent" ctl:Anim.FadeInOnLoad="{Binding Animate}" ctl:Anim.Slide="8"
+                  ctl:TileMotion.SubtleHost="True">
+              <Grid x:Name="LiftRoot" ctl:TileMotion.Subtle="True" RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Grid.RenderTransform>
                 <Border Style="{StaticResource GlassShadow}" />
                 <Border x:Name="Card" Style="{StaticResource GlassCard}" Padding="14,12">
                     <Border.ContextMenu>
@@ -75,6 +83,7 @@
 
                         <CheckBox x:Name="DoneCheck" Grid.Column="0" MinWidth="0" Padding="0" Margin="0,0,12,0" VerticalAlignment="Top"
                                   IsChecked="{Binding IsCompleted, Mode=TwoWay}"
+                                  ctl:Anim.PopWhen="{Binding IsCompleted}"
                                   AutomationProperties.Name="{Binding CompleteAutomationName}" />
 
                         <StackPanel x:Name="Body" Grid.Column="1" VerticalAlignment="Center">
@@ -89,9 +98,19 @@
                                        Visibility="{Binding HasIcon, Converter={StaticResource BoolToVis}}"
                                        Source="{Binding Reminder.Icon, Converter={StaticResource PictureConv}, ConverterParameter=64}"
                                        AutomationProperties.Name="{Binding IconLabel}" />
-                                <TextBlock x:Name="TitleText" Grid.Column="1" Text="{Binding Title}" FontSize="15" FontWeight="SemiBold"
-                                           VerticalAlignment="Center"
-                                           TextWrapping="Wrap" Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
+                                <!-- The Grid is as wide as the title text, so the strike line (Anim.StrikeWhen) spans exactly the text. -->
+                                <Grid Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                    <TextBlock x:Name="TitleText" Text="{Binding Title}" FontSize="15" FontWeight="SemiBold"
+                                               TextWrapping="Wrap" Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
+                                    <Rectangle Height="1.5" VerticalAlignment="Center" IsHitTestVisible="False"
+                                               Fill="{DynamicResource TextFillColorPrimaryBrush}" RenderTransformOrigin="0,0.5"
+                                               ctl:Anim.StrikeWhen="{Binding IsCompleted}">
+                                        <!-- Undrawn at rest: StrikeWhen only runs on a change, and an open card's false is the default. -->
+                                        <Rectangle.RenderTransform>
+                                            <ScaleTransform ScaleX="0" />
+                                        </Rectangle.RenderTransform>
+                                    </Rectangle>
+                                </Grid>
                             </Grid>
                             <WrapPanel Margin="0,4,0,0">
                                 <StackPanel Orientation="Horizontal" Margin="0,0,6,0">
@@ -139,11 +158,22 @@
                             </StackPanel>
                             <ToggleButton x:Name="ImportantFlag" Style="{StaticResource IconToggle}" IsChecked="{Binding IsImportant, Mode=TwoWay}"
                                           ToolTip="{l:Loc Card_ImportantTooltip}" AutomationProperties.Name="{l:Loc Common_Important}">
-                                <ui:SymbolIcon Symbol="Flag24" FontSize="16" Filled="{Binding IsImportant}" />
+                                <Grid ctl:Anim.PopWhen="{Binding IsImportant}">
+                                    <ui:SymbolIcon Symbol="Flag24" FontSize="16" ctl:Anim.HideWhen="{Binding IsImportant}" />
+                                    <ui:SymbolIcon Symbol="Flag24" Filled="True" FontSize="16" Opacity="0"
+                                                   Foreground="{DynamicResource SystemFillColorCriticalBrush}"
+                                                   ctl:Anim.ShowWhen="{Binding IsImportant}" />
+                                </Grid>
                             </ToggleButton>
                         </StackPanel>
                     </Grid>
                 </Border>
+                <!-- One accent glow after a save (Anim.GlowOn): opacity only, never hit-testable. -->
+                <Border x:Name="Glow" IsHitTestVisible="False" Opacity="0" BorderThickness="2"
+                        CornerRadius="{DynamicResource RadiusPanel}" BorderBrush="{DynamicResource AccentFillColorDefaultBrush}"
+                        ctl:Anim.GlowOn="{Binding GlowToken}" />
+              </Grid>
+            </Grid>
             </Grid>
             <DataTemplate.Triggers>
                 <DataTrigger Binding="{Binding IsImportant}" Value="True">
@@ -164,13 +194,13 @@
                     <Setter TargetName="ImportantText" Property="Visibility" Value="Collapsed" />
                     <Setter TargetName="ClockIcon" Property="Visibility" Value="Collapsed" />
                     <Setter TargetName="CardRoot" Property="Margin" Value="0,0,0,8" />
+                    <Setter TargetName="CardRoot" Property="ctl:TileMotion.SubtleHost" Value="False" />
                 </DataTrigger>
                 <DataTrigger Binding="{Binding IsCompact}" Value="False">
                     <Setter TargetName="Card" Property="ContextMenuService.IsEnabled" Value="False" />
                 </DataTrigger>
                 <!-- Done: strike-through and fade. -->
                 <DataTrigger Binding="{Binding IsCompleted}" Value="True">
-                    <Setter TargetName="TitleText" Property="TextDecorations" Value="{x:Static TextDecorations.Strikethrough}" />
                     <DataTrigger.EnterActions>
                         <BeginStoryboard>
                             <Storyboard>

@@ -1,0 +1,55 @@
+<UserControl x:Class="Remindr.Views.Welcome.WhatsNewView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+             xmlns:ctl="clr-namespace:Remindr.Views.Controls"
+             xmlns:l="clr-namespace:Remindr.Views"
+             Focusable="True" FocusVisualStyle="{x:Null}" KeyboardNavigation.TabNavigation="Cycle"
+             AutomationProperties.AutomationId="WhatsNewView" AutomationProperties.LiveSetting="Off">
+    <!-- Remind UI 0.4 What's New: a full-window overlay with drifting blobs (profile accent, reduced opacity) behind a centred glass sheet.
+         Title and chip first, then the highlight cards reveal one by one (WhatsNewView.xaml.cs). Also hosts the plain release-notes list
+         the update banner opens (no card animation there). -->
+    <Grid x:Name="Root" Background="{DynamicResource GlassPickerBackdropBrush}">
+        <Border Background="{DynamicResource ApplicationBackgroundBrush}" Opacity="0.94" />
+        <ctl:BlobBackdrop x:Name="Blobs" Opacity="0.55" IsHitTestVisible="False" />
+
+        <Grid x:Name="SheetHost" MaxWidth="720" MaxHeight="560" Margin="24" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border CornerRadius="{DynamicResource RadiusLarge}" Margin="{DynamicResource Elevation3Margin}" Opacity="{DynamicResource Elevation3Opacity}"
+                    IsHitTestVisible="False" Background="#1A000000">
+                <!-- Soft edge: blurred once and cached, so the shadow doesn't read as a grey slab in Light. -->
+                <Border.Effect><BlurEffect Radius="20" RenderingBias="Performance" /></Border.Effect>
+                <Border.CacheMode><BitmapCache /></Border.CacheMode>
+            </Border>
+            <Border x:Name="Sheet" Style="{StaticResource GlassPanel}" CornerRadius="{DynamicResource RadiusLarge}" Padding="32,28"
+                    Background="{DynamicResource SolidBackgroundFillColorSecondaryBrush}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel x:Name="Header" Grid.Row="0">
+                        <TextBlock x:Name="TitleText" Style="{StaticResource Display}" TextWrapping="Wrap" FontSize="34" />
+                        <Border x:Name="Chip" Style="{StaticResource GlassChip}" HorizontalAlignment="Left" Margin="0,10,0,0">
+                            <TextBlock x:Name="ChipText" FontSize="12" Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
+                        </Border>
+                    </StackPanel>
+
+                    <ScrollViewer Grid.Row="1" Margin="0,20,0,16" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"
+                                  Focusable="False">
+                        <StackPanel x:Name="Items" Margin="0,0,0,4" />
+                    </ScrollViewer>
+
+                    <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button x:Name="GitHubButton" Style="{StaticResource GlassPill}" Content="{l:Loc Settings_ViewGitHub}" Margin="0,0,8,0"
+                                Visibility="Collapsed" Click="GitHubButton_Click" AutomationProperties.AutomationId="WhatsNewGitHub" />
+                        <ui:Button x:Name="GotItButton" Appearance="Primary" Content="{l:Loc WhatsNew_GotIt}" MinHeight="36" MinWidth="120"
+                                   HorizontalContentAlignment="Center" Click="GotItButton_Click" AutomationProperties.AutomationId="WhatsNewGotIt"
+                                   AutomationProperties.Name="{l:Loc WhatsNew_GotIt}" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

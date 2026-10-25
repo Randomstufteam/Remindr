@@ -36,6 +36,9 @@ public sealed class SchedulerService : BackgroundService
     /// <summary>Raised (on the scheduler thread) once when the local date changes between two ticks.</summary>
     public event EventHandler? DayChanged;
 
+    /// <summary>Raised (on the scheduler thread) at the end of every tick, so the tray can refresh its tooltip and alert dot.</summary>
+    public event EventHandler? Ticked;
+
     /// <summary>Lets the loop start ticking. Called at normal start-up and once a toast-launched process decides to stay.</summary>
     public void Release() => _released.TrySetResult();
 
@@ -113,6 +116,8 @@ public sealed class SchedulerService : BackgroundService
             }
         }
         finally { _tickLock.Release(); }
+        try { Ticked?.Invoke(this, EventArgs.Empty); }
+        catch (Exception ex) { ErrorLog.Write(ex, "Scheduler tick event"); }
     }
 
     private void RaiseDayChanged()

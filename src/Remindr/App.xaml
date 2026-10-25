@@ -10,6 +10,7 @@
                 <ResourceDictionary Source="Styles/Tokens.xaml" />
                 <ResourceDictionary Source="Styles/Animations.xaml" />
                 <ResourceDictionary Source="Styles/Glass.xaml" />
+                <ResourceDictionary Source="Styles/TrayMenu.xaml" />
                 <!-- The Glass.Light/Dark/Opaque brush dictionary is merged by ThemeService (it swaps on theme/transparency change). -->
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

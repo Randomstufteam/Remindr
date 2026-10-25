@@ -20,6 +20,7 @@ public sealed class NotificationService : IToastSink
     private readonly ReminderRepo _reminders;
     private readonly IClock _clock;
     private readonly ProfileRepo _profiles;
+    private readonly ToastImageCache _images = new(AppPaths.Current.ToastCacheDir);
     private Dispatcher? _dispatcher;
     private Action<ToastOutcome>? _onHandled;
 
@@ -59,6 +60,7 @@ public sealed class NotificationService : IToastSink
     {
         _dispatcher = dispatcher;
         _onHandled = onHandled;
+        _images.Clean();
         _reminders.Closed += (_, r) => ClearHistory(r);
         _profiles.Deleted += (_, id) => OnUi(() => ClearProfile(id));
         try
@@ -129,26 +131,13 @@ public sealed class NotificationService : IToastSink
         try
         {
             var open = new ToastArgs(ToastAction.Open, r.Id, r.ProfileId, alert.Occurrence);
-            var heading = Loc.Get("Toast_Heading_" + alert.Kind);
-            if (alert.IsOverdue) heading = Loc.Format("Toast_HeadingOverdue", heading);
-
             var when = ReminderQueries.WhenText(r, _clock.Now, showDate: true);
-            var notes = (r.Notes ?? "").Trim();
-            var body = notes.Length == 0 ? when : when + "\n" + (notes.Length > 160 ? notes[..160] + "…" : notes);
 
-            var builder = new ToastContentBuilder()
-                .AddToastActivationInfo(open.Encode(), ToastActivationType.Foreground)
-                .AddText(heading, AdaptiveTextStyle.Caption)
-                .AddText(r.Title, AdaptiveTextStyle.Header)
-                .AddText(body)
-                .AddComboBox(ToastArgs.SnoozeInputId, ToastActionHandler.ChoiceId(SnoozeChoice.Minutes5),
-                    (ToastActionHandler.ChoiceId(SnoozeChoice.Minutes5), Loc.Get("Toast_Snooze5")),
-                    (ToastActionHandler.ChoiceId(SnoozeChoice.Hour1), Loc.Get("Toast_Snooze60")),
-                    (ToastActionHandler.ChoiceId(SnoozeChoice.Tomorrow), Loc.Get("Toast_SnoozeTomorrow")))
-                .AddButton(Button("Toast_Complete", open.With(ToastAction.Complete)))
-                .AddButton(Button("Toast_Snooze", open.With(ToastAction.Snooze)))
-                .AddButton(Button("Toast_Dismiss", open.With(ToastAction.Dismiss)));
+            Profile? profile = null;
+            try { profile = r.ProfileId > 0 ? _profiles.Get(r.ProfileId) : null; }
+            catch (Exception ex) { ErrorLog.Write(ex, "Reading the toast's profile"); }
 
+            var builder = ToastContent.Build(r, alert, when, profile?.Name, LogoFor(r, profile));
             builder.Show(toast =>
             {
                 toast.Tag = open.Tag;
@@ -156,6 +145,24 @@ public sealed class NotificationService : IToastSink
             });
         }
         catch (Exception ex) { ErrorLog.Write(ex, "Showing a toast"); }
+    }
+
+    /// <summary>The round picture for a toast: the reminder's picture, else the profile's avatar, drawn once into the toast cache. Null = app icon.</summary>
+    private Uri? LogoFor(Reminder r, Profile? profile)
+    {
+        try
+        {
+            var value = ToastImageCache.PickPicture(r, profile);
+            if (value is null) return null;
+            var key = ToastImageCache.KeyFor(value, AvatarService.DefaultDirectory);
+            var path = _images.GetOrCreate(key, () => ToastLogoRenderer.Render(value));
+            return path is null ? null : new Uri(path);
+        }
+        catch (Exception ex)
+        {
+            ErrorLog.Write(ex, "Preparing the toast picture");
+            return null;
+        }
     }
 
     /// <summary>A plain information toast (no buttons), e.g. "still running in the tray". Never throws.</summary>
@@ -175,9 +182,6 @@ public sealed class NotificationService : IToastSink
         };
         Show(r, new PlannedAlert(NotificationKind.AtTime, NotificationPlanner.OccurrenceKey(r), false));
     }
-
-    private static ToastButton Button(string key, ToastArgs args) =>
-        new ToastButton(Loc.Get(key), args.Encode()) { ActivationType = ToastActivationType.Foreground };
 
     private static void ClearToast(ToastArgs a)
     {

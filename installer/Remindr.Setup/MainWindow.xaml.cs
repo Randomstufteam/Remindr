@@ -79,19 +79,19 @@ public partial class MainWindow : Window
             var enter = new TranslateTransform(old == null ? 0 : 40, old == null ? 12 : 0);
             page.RenderTransform = enter;
             page.Opacity = 0;
-            page.BeginAnimation(OpacityProperty, new DoubleAnimation(0, 1, Motion.Slow) { EasingFunction = Motion.EaseOut });
-            enter.BeginAnimation(TranslateTransform.XProperty, new DoubleAnimation(enter.X, 0, Motion.Slow) { EasingFunction = Motion.EaseOut });
-            enter.BeginAnimation(TranslateTransform.YProperty, new DoubleAnimation(enter.Y, 0, Motion.Slow) { EasingFunction = Motion.EaseOut });
+            page.BeginAnimation(OpacityProperty, new DoubleAnimation(0, 1, Motion.Enter) { EasingFunction = Motion.EaseOut });
+            enter.BeginAnimation(TranslateTransform.XProperty, new DoubleAnimation(enter.X, 0, Motion.Enter) { EasingFunction = Motion.EaseOut });
+            enter.BeginAnimation(TranslateTransform.YProperty, new DoubleAnimation(enter.Y, 0, Motion.Enter) { EasingFunction = Motion.EaseOut });
 
             if (old != null)
             {
                 old.IsHitTestVisible = false;
                 var leave = new TranslateTransform();
                 old.RenderTransform = leave;
-                var fade = new DoubleAnimation(old.Opacity, 0, Motion.Fast) { EasingFunction = Motion.EaseOut };
+                var fade = new DoubleAnimation(old.Opacity, 0, Motion.Exit) { EasingFunction = Motion.EaseInOut };
                 fade.Completed += (_, _) => PageHost.Children.Remove(old);
                 old.BeginAnimation(OpacityProperty, fade);
-                leave.BeginAnimation(TranslateTransform.XProperty, new DoubleAnimation(0, -28, Motion.Fast) { EasingFunction = Motion.EaseOut });
+                leave.BeginAnimation(TranslateTransform.XProperty, new DoubleAnimation(0, -28, Motion.Exit) { EasingFunction = Motion.EaseInOut });
             }
         }
 
@@ -260,6 +260,7 @@ public partial class MainWindow : Window
     private void StartBlobs()
     {
         if (!Motion.Enabled) return;       // reduced motion: static blobs
+        Motion.Pop(Blobs, 0.9);
         Drift(Blob0, 46, 30, 19, 23);
         Drift(Blob1, -40, 38, 23, 17);
         Drift(Blob2, 52, -34, 27, 21);

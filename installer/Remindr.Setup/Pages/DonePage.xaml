@@ -19,6 +19,9 @@
             <TextBlock x:Name="Heading" Style="{StaticResource PageTitle}" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,22,0,0" />
             <TextBlock x:Name="Detail" Style="{StaticResource Body}" FontSize="15" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,8,0,0"
                        Foreground="{DynamicResource TextFillColorSecondaryBrush}" MaxWidth="480" />
+            <StackPanel x:Name="NewList" Margin="0,18,0,0" HorizontalAlignment="Center" Visibility="Collapsed">
+                <TextBlock x:Name="NewTitle" Style="{StaticResource SectionHeader}" Text="New in 0.4" Margin="0,0,0,6" />
+            </StackPanel>
         </StackPanel>
     </Grid>
 </UserControl>

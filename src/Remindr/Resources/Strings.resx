@@ -1118,4 +1118,62 @@ Details were saved to %AppData%\Remindr\error.log</value>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
     <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
   </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Important</value>
+    <comment>Toast attribution line for an important reminder; joined with the profile name as "Important · Sam".</comment>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Overdue</value>
+    <comment>Toast attribution line when the reminder is past its time; joined with the profile name.</comment>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} due today</value>
+    <comment>Tray icon tooltip when one reminder is due today. Keep the app name "Remindr" first.</comment>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} due today</value>
+    <comment>Tray icon tooltip when several reminders are due today. Keep the app name "Remindr" first.</comment>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>What's new in Remindr {0}</value>
+    <comment>Heading of the What's New page. {0} is the version, e.g. 0.4.</comment>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Got it</value>
+    <comment>Button that closes the What's New page.</comment>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>What's new in this version</value>
+    <comment>Settings > About button that shows the What's New page again.</comment>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Reminders that find you</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows notifications with Complete, Snooze and Dismiss buttons. Snooze for 5 minutes, an hour, or until tomorrow.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Important means it nags</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Important reminders alert you a day and an hour ahead, then every 10 minutes until you act on them.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Keeps running quietly</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Close the window and Remindr stays in the tray, so alerts still arrive. Open or quit it from the tray icon.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Starts with Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Turn it on in Settings and Remindr starts hidden in the tray when you sign in.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Cards lift, ticks pop, the calendar slides and empty pages float. With Windows animations off, everything stays still.</value>
+  </data>
 </root>

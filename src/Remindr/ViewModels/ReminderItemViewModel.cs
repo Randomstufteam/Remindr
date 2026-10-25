@@ -30,6 +30,7 @@ public partial class ReminderItemViewModel : ObservableObject
         CategoryName = category?.Name;
         CategoryColor = category?.Color;
         _isCompleted = reminder.IsCompleted;
+        ShownCompleted = reminder.IsCompleted;
         _isImportant = reminder.IsImportant;
         EditCommand = new AsyncRelayCommand(() => actions.EditAsync(this));
         DeleteCommand = new AsyncRelayCommand(() => actions.DeleteAsync(this));
@@ -53,14 +54,31 @@ public partial class ReminderItemViewModel : ObservableObject
     public string? CategoryColor { get; }
     public bool HasCategory => CategoryName is not null;
 
-    /// <summary>Fade in when created. False for items that were already on screen, so a refresh does not replay the entrance.</summary>
-    public bool Animate { get; }
+    /// <summary>Fade in when created (false for items already on screen, so a refresh does not replay the entrance). Internal setter: the calendar clears it on the copies it keeps for a slide-out, so they do not fade in again.</summary>
+    public bool Animate { get; internal set; }
 
     /// <summary>Narrow layout for the week columns: no notes, flag or hover buttons (edit/delete move to a right-click menu).</summary>
     public bool IsCompact { get; }
 
     [ObservableProperty] private bool _isCompleted;
     [ObservableProperty] private bool _isImportant;
+
+    /// <summary>True while a deleted card plays its slide-out (the list removes it right after).</summary>
+    [ObservableProperty] private bool _isExiting;
+
+    /// <summary>True while a just-completed card fades out before it moves to another list.</summary>
+    [ObservableProperty] private bool _isSettling;
+
+    /// <summary>Bumped to ask the card to scroll into view and glow once (after a save).</summary>
+    [ObservableProperty] private int _glowToken;
+
+    /// <summary>The completed state the list placed this card by. A toggle that ends back on it keeps the card in its group (no fade).</summary>
+    public bool ShownCompleted { get; }
+
+    /// <summary>Latest completion toggle of this card; a delayed fade only runs if no newer toggle happened.</summary>
+    public int SettleToken { get; set; }
+
+    public void RequestGlow() => GlowToken++;
 
     public IAsyncRelayCommand EditCommand { get; }
     public IAsyncRelayCommand DeleteCommand { get; }
