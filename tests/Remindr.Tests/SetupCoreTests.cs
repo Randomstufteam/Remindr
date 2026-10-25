@@ -199,9 +199,9 @@ public class SetupCoreTests : IDisposable
         Assert.False(Directory.Exists(p.BackupDir));
         Assert.Contains(lnk.Created, c => c.Path == p.StartMenuShortcut && c.Aumid == RepoInfo.Aumid);
         Assert.Contains(lnk.Created, c => c.Path == p.DesktopShortcut);
-        // Start with Windows is hidden for v0.3: the Run value is never written, even if the option is passed.
-        Assert.False(SetupFeatures.StartWithWindows);
-        Assert.Null(reg.GetString(InstallPaths.RunSubKey, "Remindr"));
+        // Start with Windows is on: the Run value is the quoted exe plus --minimized (the format the app's Settings toggle writes too).
+        Assert.True(SetupFeatures.StartWithWindows);
+        Assert.Equal("\"" + p.ExePath + "\" --minimized", reg.GetString(InstallPaths.RunSubKey, "Remindr"));
         Assert.Equal("0.3.0", reg.GetString(InstallPaths.UninstallSubKey, "DisplayVersion"));
         Assert.Equal((3 + 3 + 5000 + 1023) / 1024, reg.Keys[InstallPaths.UninstallSubKey]["EstimatedSize"]);
         Assert.Equal(1.0, steps.Last().Fraction);
@@ -222,16 +222,19 @@ public class SetupCoreTests : IDisposable
     }
 
     [Fact]
-    public void Update_removes_a_stale_run_value_while_the_feature_is_off()
+    public void Update_rewrites_the_run_value_when_ticked_and_removes_it_when_not()
     {
         var (e, reg, _, _, p) = NewEngine();
         Install(e, new InstallOptions(), MakeZip(("Remindr.exe", "OLD")));
         reg.Keys[InstallPaths.UninstallSubKey]["DisplayVersion"] = "0.2.0";
-        reg.SetValues(InstallPaths.RunSubKey, new[] { new KeyValuePair<string, object>("Remindr", p.RunCommand) });
+        reg.SetValues(InstallPaths.RunSubKey, new[] { new KeyValuePair<string, object>("Remindr", "\"old path\" --minimized") });
         Assert.True(e.Detect().HasRunValue);
 
         Install(e, new InstallOptions { StartWithWindows = true }, MakeZip(("Remindr.exe", "NEW")));
+        Assert.Equal(p.RunCommand, reg.GetString(InstallPaths.RunSubKey, "Remindr"));
 
+        reg.Keys[InstallPaths.UninstallSubKey]["DisplayVersion"] = "0.2.0";
+        Install(e, new InstallOptions { StartWithWindows = false }, MakeZip(("Remindr.exe", "NEWER")));
         Assert.Null(reg.GetString(InstallPaths.RunSubKey, "Remindr"));
     }
 

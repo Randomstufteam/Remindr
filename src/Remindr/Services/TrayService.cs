@@ -34,6 +34,9 @@ public sealed class TrayService : IDisposable
     /// <summary>True once the app is really exiting: closing the window must then not hide it.</summary>
     public bool IsExiting => _exiting;
 
+    /// <summary>True when the notification-area icon exists (so a hidden window can be reopened and quit).</summary>
+    public bool IsIconCreated => _icon is { IsCreated: true };
+
     public void Start()
     {
         _window.Closing += OnWindowClosing;

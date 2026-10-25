@@ -11,7 +11,7 @@ public partial class OptionsPage : UserControl
         InitializeComponent();
         LocationText.Text = installDir;
         DesktopBox.IsChecked = desktop;
-        // Hidden for v0.3 (SetupFeatures.StartWithWindows); the XAML default is Collapsed.
+        // Shown only while SetupFeatures.StartWithWindows is on; the XAML default is Collapsed.
         if (SetupFeatures.StartWithWindows) StartupBox.Visibility = Visibility.Visible;
         StartupBox.IsChecked = SetupFeatures.StartWithWindows && startup;
         LaunchBox.IsChecked = launch;

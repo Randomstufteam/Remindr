@@ -159,6 +159,25 @@
                     </Grid>
                 </Border></Grid>
 
+                <Grid ctl:Anim.FadeInOnLoad="True" Margin="0,12,0,0">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Power24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{l:Loc Settings_StartWithWindows_Title}" Style="{StaticResource Body}" TextWrapping="Wrap" />
+                            <TextBlock Text="{l:Loc Settings_StartWithWindows_Desc}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <ui:ToggleSwitch Grid.Column="2" Margin="16,0,0,0" VerticalAlignment="Center"
+                                         IsChecked="{Binding StartWithWindows, Mode=TwoWay}"
+                                         AutomationProperties.AutomationId="StartWithWindowsToggle"
+                                         AutomationProperties.Name="{l:Loc Settings_StartWithWindows_Title}" />
+                    </Grid>
+                </Border></Grid>
+
                 <!-- Help & feedback -->
                 <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Help}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
                 <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">

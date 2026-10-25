@@ -9,5 +9,6 @@ public partial class SettingsPage : Page
     {
         DataContext = viewModel;
         InitializeComponent();
+        Loaded += (_, _) => viewModel.RefreshStartWithWindows();
     }
 }

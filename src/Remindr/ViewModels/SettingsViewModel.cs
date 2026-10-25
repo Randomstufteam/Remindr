@@ -35,12 +35,35 @@ public partial class SettingsViewModel : ObservableObject
     private readonly Data.Repositories.ReminderRepo _reminders;
     private readonly IClock _clock;
     private readonly TraySettings _tray;
+    private readonly StartWithWindowsService _startup;
+    private bool _startWithWindows;
+
+    /// <summary>Start Remindr (minimized, in the tray) when the user signs in. Mirrors the real Run value.</summary>
+    public bool StartWithWindows
+    {
+        get => _startWithWindows;
+        set
+        {
+            if (_startWithWindows == value) return;
+            _startWithWindows = _startup.Set(value);
+            OnPropertyChanged();
+        }
+    }
+
+    /// <summary>Re-reads the registry (the user may have changed it in Task Manager's Startup apps) when Settings opens.</summary>
+    public void RefreshStartWithWindows()
+    {
+        _startWithWindows = _startup.Read();
+        OnPropertyChanged(nameof(StartWithWindows));
+    }
 
     public SettingsViewModel(ThemeService theme, ProfileSession session, ProfilePickerViewModel picker, ProfileDialogs dialogs,
         LocalizationService localization, WelcomeController welcome, UpdateViewModel updates,
-        NotificationService notifications, Data.Repositories.ReminderRepo reminders, IClock clock, TraySettings tray)
+        NotificationService notifications, Data.Repositories.ReminderRepo reminders, IClock clock, TraySettings tray,
+        StartWithWindowsService startup)
     {
         _tray = tray;
+        _startup = startup;
         Updates = updates;
         _notifications = notifications;
         _reminders = reminders;

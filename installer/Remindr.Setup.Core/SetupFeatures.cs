@@ -4,10 +4,9 @@ namespace Remindr.Setup.Core;
 public static class SetupFeatures
 {
     /// <summary>
-    /// "Start with Windows" (HKCU Run value). Off for v0.3: the app has no notifications or background running
-    /// and does not understand --minimized yet (user decision 2026-10-25). Returns with PLAN Phase 4.
-    /// While off, install/update never writes the Run value and removes a stale one.
+    /// "Start with Windows" (HKCU Run value <c>"exe" --minimized</c>). On since Phase 4.5: the app understands --minimized,
+    /// runs in the tray and shows alerts. While off, install/update never writes the Run value and removes a stale one.
     /// (static readonly rather than const so the gated code does not become unreachable-code warnings.)
     /// </summary>
-    public static readonly bool StartWithWindows = false;
+    public static readonly bool StartWithWindows = true;
 }

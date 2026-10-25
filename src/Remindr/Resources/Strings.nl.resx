@@ -863,4 +863,13 @@ Details zijn opgeslagen in %AppData%\Remindr\error.log</value>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
     <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
   </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Start Remindr when I sign in</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+  </data>
 </root>

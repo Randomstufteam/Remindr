@@ -37,6 +37,16 @@ public partial class App : Application
             args.SetObserved();
         };
 
+        // One Remindr per user: a second launch hands over to the first and leaves before it builds anything.
+        var launch = LaunchArgs.Parse(e.Args);
+        _singleInstance = new SingleInstance(SingleInstance.DefaultId());
+        if (!_singleInstance.TryBecomePrimary() && !HandOverToRunningInstance(launch, e.Args))
+        {
+            Shutdown(0);
+            return;
+        }
+        _singleInstance.StartServer(OnSecondLaunch);
+
         NotificationService.RegisterAppId();
         ApplyReducedMotion();
 
@@ -63,7 +73,7 @@ public partial class App : Application
 
             var window = _host.Services.GetRequiredService<MainWindow>();
             ApplyLanguageToWindows(localization);
-            StartNotifications(window);
+            StartNotifications(window, launch);
         }
         catch (Exception ex)
         {
@@ -109,18 +119,68 @@ public partial class App : Application
     }
 
     private TrayService? _tray;
+    private SingleInstance? _singleInstance;
+    private SchedulerService? _scheduler;
+    private volatile MainWindow? _mainWindow;
 
     private bool _toastColdStart;
+
+    /// <summary>How long a launch that got no answer waits for a closing copy (an update, Quit; OnExit may take ~5 s) to go away.</summary>
+    private static readonly TimeSpan TakeOverWait = TimeSpan.FromSeconds(6);
+
+    /// <summary>
+    /// A later launch found this instance running (second process; nothing of the app has been built yet). Returns true when this
+    /// process should start normally after all (the other copy was closing and is gone), false when it should exit.
+    /// </summary>
+    private bool HandOverToRunningInstance(LaunchArgs launch, IReadOnlyList<string> args)
+    {
+        // A toast click while Remindr runs reaches the running process through the toast library: forward nothing.
+        var forward = SingleInstanceRules.ForDuplicate(launch) == DuplicateLaunchAction.ForwardAndExit;
+        if (forward)
+        {
+            // Task.Run: blocking the UI thread on a continuation that wants this thread's context would deadlock.
+            var delivered = Task.Run(() => _singleInstance!.SendToRunningAsync(args)).GetAwaiter().GetResult();
+            if (delivered) return false;
+        }
+        // No answer, or a toast click Windows did not hand to a running copy: the other copy is most likely closing (the installer
+        // starts the new version right after the old one quit). Wait for it to go and start normally instead of leaving nothing running.
+        if (_singleInstance!.WaitToBecomePrimary(TakeOverWait)) return true;
+        // Still there (frozen): tell a person who asked for the window, stay quiet at sign-in and for a toast click.
+        if (forward && !launch.Minimized)
+            MessageBox.Show(Loc.Get("App_AlreadyRunningStuck"), "Remindr", MessageBoxButton.OK, MessageBoxImage.Information);
+        return false;
+    }
+
+    /// <summary>A second launch reached this instance (pool thread). Returns once the UI thread has handled it, which is the sender's "ok".</summary>
+    private Task OnSecondLaunch(string[] args)
+    {
+        if (!SingleInstanceRules.ShouldBringForward(LaunchArgs.Parse(args))) return Task.CompletedTask;
+        // Runs on the UI thread after start-up finished, when the window exists. During start-up the sender is not made to wait for it.
+        var op = Dispatcher.InvokeAsync(() => { if (_mainWindow is { } w) BringForward(w); });
+        return _mainWindow is null ? Task.CompletedTask : op.Task;
+    }
+
+    /// <summary>
+    /// Any way the user opens the window (tray Open / Quick Add, a second launch, a toast body click) ends the toast cold-start
+    /// wait: a later button click must not exit the app under the window they just opened.
+    /// </summary>
+    private void NoteWindowOpened()
+    {
+        if (!_toastColdStart) return;
+        _toastColdStart = false;
+        _scheduler?.Release();
+    }
 
     /// <summary>
     /// Hooks up toast clicks, then shows the window. When a toast click started the app, the window stays hidden until the
     /// click arrives: a button click is applied and the app exits again; a body click shows the window. If no click arrives
-    /// within a few seconds the window is shown anyway.
+    /// within a few seconds the window is shown anyway. With --minimized the window is created but only the tray icon shows.
     /// </summary>
-    private void StartNotifications(MainWindow window)
+    private void StartNotifications(MainWindow window, LaunchArgs launch)
     {
+        _mainWindow = window;
         var notifications = _host!.Services.GetRequiredService<NotificationService>();
-        var scheduler = _host.Services.GetRequiredService<SchedulerService>();
+        var scheduler = _scheduler = _host.Services.GetRequiredService<SchedulerService>();
         var reminders = _host.Services.GetRequiredService<ReminderRepo>();
         _tray = new TrayService(window, _host.Services.GetRequiredService<TraySettings>(), notifications, BringForward);
         _tray.Start();
@@ -142,7 +202,18 @@ public partial class App : Application
         _toastColdStart = NotificationService.StartedFromToast;
         // A process started by a toast click stays silent (no scheduler) until it knows it will not exit: a button click shuts it
         // down again, so the scheduler is released only for a body click or when no click arrived in time.
-        if (!_toastColdStart) { window.Show(); scheduler.Release(); return; }
+        if (!_toastColdStart)
+        {
+            // --minimized keeps the window hidden, but never when that would leave an unreachable app: the first-run welcome
+            // needs the window, and so does a failed tray icon (there would be no way to open or quit).
+            var firstRun = SetupViewModel.ShouldRun(_host.Services.GetRequiredService<ProfileRepo>());
+            var stayHidden = launch.Minimized && !launch.Welcome && !firstRun && _tray.IsIconCreated;
+            if (!stayHidden) window.Show();
+            // The window's Loaded starts the update check; a window that stays hidden never loads, so start it here instead.
+            else window.StartBackgroundWork();
+            scheduler.Release();
+            return;
+        }
 
         var timer = new System.Windows.Threading.DispatcherTimer { Interval = TimeSpan.FromSeconds(5) };
         timer.Tick += (_, _) =>
@@ -162,6 +233,7 @@ public partial class App : Application
 
     internal static void BringForward(Window window)
     {
+        (Current as App)?.NoteWindowOpened();
         if (!window.IsVisible) window.Show();
         if (window.WindowState == WindowState.Minimized) window.WindowState = WindowState.Normal;
         window.Activate();
@@ -185,6 +257,8 @@ public partial class App : Application
         s.AddSingleton<NotificationService>();
         s.AddSingleton<IToastSink>(sp => sp.GetRequiredService<NotificationService>());
         s.AddSingleton<TraySettings>();
+        s.AddSingleton<IStartupRegistry, WindowsStartupRegistry>();
+        s.AddSingleton<StartWithWindowsService>(sp => new StartWithWindowsService(sp.GetRequiredService<IStartupRegistry>(), sp.GetRequiredService<SettingsRepo>()));
         s.AddSingleton<SchedulerService>();
         s.AddHostedService(sp => sp.GetRequiredService<SchedulerService>());
         s.AddSingleton<LocalizationService>();
@@ -240,6 +314,7 @@ public partial class App : Application
     protected override void OnExit(ExitEventArgs e)
     {
         _tray?.Dispose();
+        _singleInstance?.Dispose();
         if (_host is not null)
         {
             _host.StopAsync(TimeSpan.FromSeconds(5)).GetAwaiter().GetResult();

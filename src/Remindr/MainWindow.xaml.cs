@@ -130,6 +130,15 @@ public partial class MainWindow : FluentWindow
         }), System.Windows.Threading.DispatcherPriority.ApplicationIdle);
     }
 
+    /// <summary>
+    /// For a start that keeps the window hidden (--minimized), where Loaded does not fire until the user opens it: the once-per-launch
+    /// automatic update check still runs (its card waits until a profile is open in the window).
+    /// </summary>
+    internal void StartBackgroundWork()
+    {
+        if (!_firstRun) StartUpdateCheck();
+    }
+
     private bool _updateCardShown;
 
     /// <summary>Shows the update card (slides up and fades in) only while a profile is open and nothing covers the app.</summary>
