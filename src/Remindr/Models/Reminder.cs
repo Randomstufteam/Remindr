@@ -19,8 +19,15 @@ public sealed class Reminder
     public string? Icon { get; set; }
     public string CreatedAt { get; set; } = "";
     public string UpdatedAt { get; set; } = "";
+    /// <summary>Local yyyy-MM-ddTHH:mm; alerts are silent until then. Cleared whenever the occurrence changes.</summary>
+    public string? SnoozedUntil { get; set; }
 
     public bool IsAllDay => DueTime is null;
+
+    /// <summary><see cref="SnoozedUntil"/> as a local time, or null (none or unreadable).</summary>
+    public DateTime? SnoozedUntilLocal =>
+        DateTime.TryParseExact(SnoozedUntil, "yyyy-MM-dd'T'HH:mm", System.Globalization.CultureInfo.InvariantCulture,
+            System.Globalization.DateTimeStyles.None, out var d) ? d : null;
 
     public Reminder Clone() => (Reminder)MemberwiseClone();
 }

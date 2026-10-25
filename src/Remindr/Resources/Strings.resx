@@ -1012,4 +1012,76 @@ Details were saved to %AppData%\Remindr\error.log</value>
     <value>Restart and update</value>
     <comment>Button: closes Remindr and runs the installer. May be long; the button is full width.</comment>
   </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>In 1 day</value>
+    <comment>Toast heading for the 1-day-before alert.</comment>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>In 1 hour</value>
+    <comment>Toast heading for the 1-hour-before alert.</comment>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Now</value>
+    <comment>Toast heading when the reminder is due.</comment>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Still to do</value>
+    <comment>Toast heading for a repeat alert.</comment>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Snooze is up</value>
+    <comment>Toast heading after a snooze ends.</comment>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - overdue</value>
+    <comment>Toast heading with the overdue label. {0} is the heading, e.g. Now.</comment>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Complete</value>
+    <comment>Toast button: mark the reminder done.</comment>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Snooze</value>
+    <comment>Toast button: snooze for the chosen time.</comment>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Dismiss</value>
+    <comment>Toast button: stop alerting for this occurrence.</comment>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minutes</value>
+    <comment>Toast snooze choice.</comment>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 hour</value>
+    <comment>Toast snooze choice.</comment>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Tomorrow</value>
+    <comment>Toast snooze choice: moves the reminder to tomorrow, same time.</comment>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Test notification</value>
+    <comment>Title of the sample reminder shown by the test button.</comment>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <comment>Notes of the sample reminder shown by the test button.</comment>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+    <comment>Section heading.</comment>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Send a test notification</value>
+    <comment>Settings card title.</comment>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <comment>Settings card description.</comment>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Send test</value>
+    <comment>Button.</comment>
+  </data>
 </root>

@@ -16,6 +16,10 @@ public static class AvatarCatalog
     {
         // Registers the pack:// scheme even when no Application exists yet (unit tests, early startup).
         _ = System.IO.Packaging.PackUriHelper.UriSchemePack;
+        // pack://application:,,, resolves only after Application's static constructor has registered the app's resource
+        // package. Application.GetResourceStream triggers it, BitmapImage does not: without this, a picture decoded before
+        // anything touched Application failed (and the null was cached). Unit tests hit this depending on test order.
+        System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(Application).TypeHandle);
     }
 
     /// <summary>All avatar pictures in display order, whether or not their image is present.</summary>

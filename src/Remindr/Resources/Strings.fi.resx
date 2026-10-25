@@ -794,4 +794,58 @@ Tiedot tallennettiin tiedostoon %AppData%\Remindr\error.log</value>
   <data name="Update_RestartUpdate" xml:space="preserve">
     <value>Käynnistä uudelleen ja päivitä</value>
   </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>In 1 day</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>In 1 hour</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Still to do</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Snooze is up</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - overdue</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Snooze</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Dismiss</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minutes</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Tomorrow</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Test notification</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Send a test notification</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Send test</value>
+  </data>
 </root>

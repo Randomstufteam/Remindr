@@ -37,6 +37,7 @@ public partial class App : Application
             args.SetObserved();
         };
 
+        NotificationService.RegisterAppId();
         ApplyReducedMotion();
 
         try
@@ -62,7 +63,7 @@ public partial class App : Application
 
             var window = _host.Services.GetRequiredService<MainWindow>();
             ApplyLanguageToWindows(localization);
-            window.Show();
+            StartNotifications(window);
         }
         catch (Exception ex)
         {
@@ -107,6 +108,46 @@ public partial class App : Application
         Resources["MotionEnabled"] = false;
     }
 
+    private bool _toastColdStart;
+
+    /// <summary>
+    /// Hooks up toast clicks, then shows the window. When a toast click started the app, the window stays hidden until the
+    /// click arrives: a button click is applied and the app exits again; a body click shows the window. If no click arrives
+    /// within a few seconds the window is shown anyway.
+    /// </summary>
+    private void StartNotifications(MainWindow window)
+    {
+        var notifications = _host!.Services.GetRequiredService<NotificationService>();
+        // Subscribe first: the library registers its COM activator as soon as it is touched (StartedFromToast does), and a
+        // cold-start click that arrives before a handler is subscribed is dropped. The handler only reads _toastColdStart on
+        // the UI thread, after this method has set it.
+        notifications.Initialize(Dispatcher, outcome =>
+        {
+            var cold = _toastColdStart;
+            _toastColdStart = false;
+            // Only a body click raises the window; Complete/Snooze/Dismiss act quietly.
+            if (outcome.ShowWindow) BringForward(window);
+            else if (cold) Shutdown();
+        });
+        _toastColdStart = NotificationService.StartedFromToast;
+        if (!_toastColdStart) { window.Show(); return; }
+
+        var timer = new System.Windows.Threading.DispatcherTimer { Interval = TimeSpan.FromSeconds(5) };
+        timer.Tick += (_, _) =>
+        {
+            timer.Stop();
+            if (_toastColdStart) { _toastColdStart = false; BringForward(window); }
+        };
+        timer.Start();
+    }
+
+    private static void BringForward(Window window)
+    {
+        if (!window.IsVisible) window.Show();
+        if (window.WindowState == WindowState.Minimized) window.WindowState = WindowState.Normal;
+        window.Activate();
+    }
+
     private static void ConfigureServices(HostBuilderContext ctx, IServiceCollection s)
     {
         // Data
@@ -116,10 +157,13 @@ public partial class App : Application
         s.AddSingleton<ProfileRepo>();
         s.AddSingleton<CategoryRepo>();
         s.AddSingleton<ReminderRepo>();
+        s.AddSingleton<NotificationLogRepo>();
 
         // Services
         s.AddSingleton<IClock, SystemClock>();
         s.AddSingleton<ThemeService>();
+        s.AddSingleton<ToastActionHandler>();
+        s.AddSingleton<NotificationService>();
         s.AddSingleton<LocalizationService>();
         s.AddSingleton<AvatarService>();
         s.AddSingleton<ProfileSession>();

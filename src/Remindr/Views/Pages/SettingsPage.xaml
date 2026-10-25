@@ -121,6 +121,25 @@
                     </Grid>
                 </Border></Grid>
 
+                <!-- Notifications -->
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Notifications}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
+                <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Alert24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{l:Loc Settings_TestToast_Title}" Style="{StaticResource Body}" />
+                            <TextBlock Text="{l:Loc Settings_TestToast_Desc}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <Button Grid.Column="2" Content="{l:Loc Settings_TestToast_Button}" Style="{StaticResource GlassPill}" Margin="16,0,0,0"
+                                Command="{Binding SendTestNotificationCommand}" AutomationProperties.AutomationId="SendTestNotification" />
+                    </Grid>
+                </Border></Grid>
+
                 <!-- Help & feedback -->
                 <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Help}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
                 <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">

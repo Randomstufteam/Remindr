@@ -14,7 +14,7 @@ public sealed class ReminderRepo
     private const string Select =
         @"SELECT id AS Id, profile_id AS ProfileId, category_id AS CategoryId, title AS Title, notes AS Notes,
                  due_date AS DueDate, due_time AS DueTime, is_important AS IsImportant, is_completed AS IsCompleted,
-                 completed_at AS CompletedAt, icon AS Icon, created_at AS CreatedAt, updated_at AS UpdatedAt
+                 completed_at AS CompletedAt, snoozed_until AS SnoozedUntil, icon AS Icon, created_at AS CreatedAt, updated_at AS UpdatedAt
           FROM reminders";
 
     // all-day (NULL time) first, then by time, then insertion order
@@ -77,7 +77,9 @@ public sealed class ReminderRepo
         {
             n = conn.Execute(
                 @"UPDATE reminders SET category_id=@cat, title=@title, notes=@notes, due_date=@date, due_time=@time,
-                                       is_important=@imp, icon=@icon, updated_at=@now
+                                       is_important=@imp, icon=@icon, updated_at=@now,
+                                       snoozed_until = CASE WHEN due_date <> @date OR IFNULL(due_time, '') <> IFNULL(@time, '')
+                                                            THEN NULL ELSE snoozed_until END
                   WHERE id=@id AND profile_id=@pid",
                 new
                 {
@@ -92,18 +94,27 @@ public sealed class ReminderRepo
 
     public bool Delete(int id)
     {
+        var before = Get(id);
         int n;
         using (var conn = _db.Open())
             n = conn.Execute("DELETE FROM reminders WHERE id=@id AND profile_id=@pid", new { id, pid = ProfileId });
-        if (n > 0) RaiseChanged();
+        if (n > 0)
+        {
+            RaiseChanged();
+            if (before is not null) Closed?.Invoke(this, before);
+        }
         return n > 0;
     }
 
-    public Reminder? Get(int id)
+    /// <summary>Raised (after <see cref="Changed"/>) when a reminder is completed or deleted, with its last state, so its toasts can be cleared.</summary>
+    public event EventHandler<Reminder>? Closed;
+
+    /// <param name="profileId">Profile to look in; null = the current profile. Toasts name their own profile.</param>
+    public Reminder? Get(int id, int? profileId = null)
     {
         using var conn = _db.Open();
         return conn.QuerySingleOrDefault<Reminder>(Select + " WHERE id=@id AND profile_id=@pid",
-            new { id, pid = ProfileId });
+            new { id, pid = profileId ?? ProfileId });
     }
 
     public IReadOnlyList<Reminder> ListAll()
@@ -133,13 +144,45 @@ public sealed class ReminderRepo
     }
 
     /// <summary>Marks complete (completed_at = now, UTC) or incomplete (completed_at cleared).</summary>
-    public bool SetCompleted(int id, bool completed)
+    public bool SetCompleted(int id, bool completed, int? profileId = null)
     {
         int n;
         using (var conn = _db.Open())
             n = conn.Execute(
                 "UPDATE reminders SET is_completed=@done, completed_at=@at, updated_at=@now WHERE id=@id AND profile_id=@pid",
-                new { id, pid = ProfileId, done = completed ? 1 : 0, at = completed ? Stamp() : null, now = Stamp() });
+                new { id, pid = profileId ?? ProfileId, done = completed ? 1 : 0, at = completed ? Stamp() : null, now = Stamp() });
+        if (n > 0)
+        {
+            RaiseChanged();
+            if (completed && Get(id, profileId) is { } r) Closed?.Invoke(this, r);
+        }
+        return n > 0;
+    }
+
+    /// <summary>Silences alerts until <paramref name="until"/> (local time, minute precision); null clears the snooze.</summary>
+    public bool SetSnoozedUntil(int id, DateTime? until, int? profileId = null)
+    {
+        int n;
+        using (var conn = _db.Open())
+            n = conn.Execute(
+                "UPDATE reminders SET snoozed_until=@until, updated_at=@now WHERE id=@id AND profile_id=@pid",
+                new
+                {
+                    id, pid = profileId ?? ProfileId, now = Stamp(),
+                    until = until?.ToString("yyyy-MM-dd'T'HH:mm", CultureInfo.InvariantCulture)
+                });
+        if (n > 0) RaiseChanged();
+        return n > 0;
+    }
+
+    /// <summary>Moves the due date (time kept) and clears any snooze, since the occurrence changed.</summary>
+    public bool MoveToDate(int id, DateOnly date, int? profileId = null)
+    {
+        int n;
+        using (var conn = _db.Open())
+            n = conn.Execute(
+                "UPDATE reminders SET due_date=@date, snoozed_until=NULL, updated_at=@now WHERE id=@id AND profile_id=@pid",
+                new { id, pid = profileId ?? ProfileId, date = D(date), now = Stamp() });
         if (n > 0) RaiseChanged();
         return n > 0;
     }

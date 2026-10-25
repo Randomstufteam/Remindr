@@ -31,11 +31,18 @@ public partial class SettingsViewModel : ObservableObject
     private readonly ProfileDialogs _dialogs;
     private readonly LocalizationService _localization;
     private readonly WelcomeController _welcome;
+    private readonly NotificationService _notifications;
+    private readonly Data.Repositories.ReminderRepo _reminders;
+    private readonly IClock _clock;
 
     public SettingsViewModel(ThemeService theme, ProfileSession session, ProfilePickerViewModel picker, ProfileDialogs dialogs,
-        LocalizationService localization, WelcomeController welcome, UpdateViewModel updates)
+        LocalizationService localization, WelcomeController welcome, UpdateViewModel updates,
+        NotificationService notifications, Data.Repositories.ReminderRepo reminders, IClock clock)
     {
         Updates = updates;
+        _notifications = notifications;
+        _reminders = reminders;
+        _clock = clock;
         _welcome = welcome;
         _theme = theme;
         _session = session;
@@ -139,6 +146,20 @@ public partial class SettingsViewModel : ObservableObject
 
     /// <summary>Shows only the welcome greeting again (no setup, no data changes).</summary>
     [RelayCommand] private void ReplayWelcome() => _welcome.Replay();
+    /// <summary>Shows a toast for the next upcoming open reminder of this profile (or a sample one), buttons included.</summary>
+    [RelayCommand]
+    private void SendTestNotification()
+    {
+        Reminder? next = null;
+        try
+        {
+            if (_session.Current is not null)
+                next = _reminders.ListAll().FirstOrDefault(r => !r.IsCompleted && NotificationPlanner.DueLocal(r) >= _clock.Now);
+        }
+        catch (Exception ex) { ErrorLog.Write(ex, "Finding a reminder for the test notification"); }
+        _notifications.ShowTest(next);
+    }
+
     [RelayCommand] private void ReportBug() => AppInfo.Open(FeedbackLinks.BugReportUrl(AppInfo.Version, AppInfo.OsText));
     [RelayCommand] private void SuggestFeature() => AppInfo.Open(FeedbackLinks.FeatureRequestUrl());
 
