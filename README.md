@@ -7,6 +7,7 @@
   <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4">
   <img alt=".NET 8" src="https://img.shields.io/badge/.NET-8-512BD4">
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-green"></a>
+  <a href="https://randomstufteam.github.io/"><img alt="Website" src="https://img.shields.io/badge/website-randomstufteam.github.io-8A6CFF"></a>
 </p>
 
 **Remindr** is a reminders and calendar app for Windows, built for the whole family. Each person gets their own profile (with an optional PIN), their reminders get a picture, and everything sits in a soft, translucent glass interface we call **Remind UI**. It speaks 32 languages, and your data never leaves your PC.
@@ -14,6 +15,7 @@
 <p align="center">
   <a href="https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe"><b>⬇ Download Remindr-Installer.exe</b></a>
   &nbsp;·&nbsp; v0.3.1 &nbsp;·&nbsp; Windows 10 (2004+) and 11 &nbsp;·&nbsp; 94 MB
+  <br><a href="https://randomstufteam.github.io/">🌐 Visit the Remindr website</a>
 </p>
 
 > [!WARNING]
