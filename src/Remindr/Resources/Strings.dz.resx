@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>བསྣན་གནང་།</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>ལོག་འགྱོ།</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>ཆ་མེད་གཏང་།</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>བཟོ་གནང་།</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>བཏོན་གཏང་།</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>ཞུན་དག་འབད།</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>ཁ་བསྡམས།</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>ཁ་ཕྱེ།</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>སྲུང་གནང་།</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>ད་རིས།</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>མགོ་མིང་།</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>ཚེས་གྲངས།</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>དུས་ཚོད།</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>དྲན་ཐོ།</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>སྡེ་ཚན།</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>པར།</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>གལ་ཅན།</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>MMM d</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>MMM d, yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>MMM d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d, yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>MMM d</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>MMM d, yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, MMM d</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, MMM d, yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, MMM d</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, MMM d, yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, MMMM d</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, MMMM d, yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>ད་རིས།</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>ལོ་ཐོ།</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>དྲན་གསོ་ག་ར།</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>གསལ་སྡུད།</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>སྒྲིག་སྟངས།</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>གསལ་སྡུད་སོར་གནང་།</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>ཟུར་ཐོ་འདི་བསྡུ་ནི་ཡང་ན་རྒྱས་ནི།</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>ཟུར་ཐོ་སོར་ནི།</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>དྲོ་པ་བཟང་པོ།</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>དྲོ་པ་བཟང་པོ། {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>ཕྱི་རུ་བཟང་པོ།</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>ཕྱི་རུ་བཟང་པོ། {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>ནུབ་མོ་བཟང་པོ།</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>ནུབ་མོ་བཟང་པོ། {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>ད་རིས་འབད་ནི་ག་ནི་ཡང་མེད།</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>ད་རིས་ཀྱི་དྲན་གསོ་ཚུ་ནཱ་ལུ་སྟོནམ་ཨིན།</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>དྲན་གསོ་གསརཔ།</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>དྲན་གསོ་གསརཔ། (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>དུས་ཡོལ་ཡོདཔ།</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>ད་རིས།</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>ནངས་པ།</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>མཇུག་བསྡུ་ཡོདཔ།</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>ཉིནམ་གང་།</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>མཇུག་བསྡུ་གནང་། {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>གལ་ཅན་སྦེ་རྟགས་བཀལ་གནང་།</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>དྲན་གསོ་ཞུན་དག་འབད།</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>དྲན་གསོ་བཏོན་གཏང་།</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>འབད་ནི་ལྷག་མི་ {0}, མཇུག་བསྡུ་ཡོདཔ་ {1}</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>ད་ཚུན་དྲན་གསོ་མེད།</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>ཁྱོད་རའི་དྲན་གསོ་དང་པ་བསྣན་གནང་། དེ་ཚུ་ཚེས་གྲངས་དང་འཁྲིལ་ཏེ་དབྱེ་སྟེ་ནཱ་ལུ་སྟོནམ་ཨིན།</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>དྲན་གསོ་གསརཔ། (སྟོངམ་སྟོན་མི་ཤོག་ལེབ།)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>མཇུག་བསྡུ་ཡོད་པའི་དྲན་གསོ་ཚུ།</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>ཟླཝ།</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>བདུན་ཕྲག</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>ལས་རིམ།</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>ཟླཝ་གི་མཐོང་སྣང་།</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>བདུན་ཕྲག་གི་མཐོང་སྣང་།</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>ལས་རིམ་གྱི་མཐོང་སྣང་།</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>ཧེ་མམ།</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>ཤུལ་མམ།</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>ད་རིས་ལུ་འགྱོ།</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>གདམ་ཁ་རྐྱབ་མི་ཉིནམ་ལུ་དྲན་གསོ་གསརཔ་བསྣན་གནང་།</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>ཉིནམ་འདི་ལུ་འཆར་གཞི་ག་ནི་ཡང་མེད།</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>ཤུལ་ལས་ཡོང་ནི་ག་ནི་ཡང་མེད།</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>ཤུལ་མའི་ཉིནམ་ {0} གི་ནང་དྲན་གསོ་མེད།</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>དྲན་གསོ་གསརཔ། (ལས་རིམ་སྟོངམ།)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>ཟླཝ་གི་རེའུ་མིག མདའ་རྟགས་ལྡེ་མིག་གིས་གདམ་ཁ་རྐྱབ་མི་ཉིནམ་སོརཝ་ཨིན། Enter གིས་དྲན་གསོ་བསྣནམ་ཨིན།</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>ད་རིས། · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>ནངས་པ། · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1} ལས་ཚུར་ཤུལ་མའི་ཉིནམ་ {0}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>དྲན་གསོ་མེད།</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>དྲན་གསོ་ {0}</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>དྲན་གསོ་ {0}</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, གལ་ཅན།</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>དྲན་གསོ་མེདཔ།</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>དྲན་གསོ་ {0}</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>དྲན་གསོ་ {0}</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>སྡེ་ཚན་མེད་པའི་དྲན་གསོ།</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>སྡེ་ཚན་ཡོད་པའི་དྲན་གསོ།</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>དྲན་གསོ་གསརཔ།</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>དྲན་གསོ་ཞུན་དག་འབད།</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>ཁྱོད་ཀྱིས་ག་ཅི་དྲན་དགོཔ་སྨོ?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>གདམ་ཁ་ཨིན།</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>ངོ་མཐོང་ཚུགསཔ་སྦེ་རྟགས་དམརཔོ་ ! སྟོནམ་ཨིན།</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>པར་མེད།</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>པར་བསྣན་གནང་།</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>པར། {0}། པར་སོར་གནང་།</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>མགོ་མིང་བཙུགས་གནང་།</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>མགོ་མིང་འདི་ཡིག་འབྲུ་ {0} ཡང་ན་དེ་ལས་ཉུངམ་དགོ།</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>ཚེས་གྲངས་གདམ་ཁ་རྐྱབ་གནང་།</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>{0} བཟུམ་གྱི་དུས་ཚོད་བཙུགས་གནང་། ཡང་ན་ ཉིནམ་གང་ འདི་ཁ་ཕྱེ་གནང་།</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>དྲན་གསོ་བཏོན་གཏང་ནི་ཨིན་ན?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" འདི་གཏན་གཏན་བཏོན་གཏངམ་ཨིན། འདི་སླར་ལོག་འབད་མི་ཚུགས།</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>མེད།</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>གསལ་སྡུད་གསརཔ།</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>གསལ་སྡུད་ཞུན་དག་འབད།</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>པར་སོར་ནི།</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>མིང་།</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>གསལ་སྡུད་ཀྱི་མིང་།</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>ཚོས་གཞི།</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>ངོ་རྟགས་ཡིག་འབྲུ།</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (གདམ་ཁ)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>ད་ལྟོའི་ PIN བཞག་གནང་།</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>མིང་བཙུགས་གནང་།</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>མིང་འདི་ཡིག་འབྲུ་ {0} ཡང་ན་དེ་ལས་ཉུངམ་དགོ།</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>ངོ་རྟགས་ཀྱི་དོན་ལུ་ཡིག་འབྲུ་གཅིག་རྐྱངམ་ཅིག་བཙུགས་གནང་།</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN འདི་ལུ་ཨང་གྲངས་ 4 ངེས་པར་དུ་དགོ།</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>གསལ་སྡུད་འདི་བཏོན་གཏང་མི་ཚུགས།</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>ཉུང་མཐའ་གསལ་སྡུད་གཅིག་ཡོད་དགོ། འདི་བཏོན་གཏང་ནི་ཨིན་པ་ཅིན་ ཧེ་མ་གསལ་སྡུད་གཞན་མི་ཅིག་བཟོ་གནང་།</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>"{0}" བཏོན་གཏང་ནི་ཨིན་ན?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>འདི་གིས་གསལ་སྡུད་ "{0}" དང་དེ་གི་དྲན་གསོ་དང་སྡེ་ཚན་ག་ར་གཏན་གཏན་བཏོན་གཏངམ་ཨིན། འདི་སླར་ལོག་འབད་མི་ཚུགས།</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN གཞི་སྒྲིག</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN སོར་ནི།</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN རྩ་བསྐྲད།</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>ཨང་གྲངས་ 4 གི་ PIN ཅིག་གདམ་ཁ་རྐྱབ་གནང་། གསལ་སྡུད་འདི་ཁ་ཕྱེ་ནི་ལུ་དེ་དགོཔ་ཨིན།</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>ད་ལྟོའི་ PIN བཙུགས་ཞིནམ་ལས་ གསརཔ་ཅིག་གདམ་ཁ་རྐྱབ་གནང་།</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>ཟྭ་འདི་ཁ་ཕྱེ་སྟེ་མེདཔ་བཟོ་ནི་ལུ་ ད་ལྟོའི་ PIN བཙུགས་གནང་།</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>ད་ལྟོའི་ PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>ཨང་གྲངས་ 4 གི་ PIN གསརཔ།</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN ལོག་བཙུགས།</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>PIN གསརཔ་ལོག་བཙུགས།</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>ད་ལྟོའི་ PIN འདི་ཏོག་ཏོ་མེན། ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>PIN གཉིས་མཐུན་སྒྲིག་མེད།</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN འདི་ གཞན་མི་ཚུ་གིས་ཉམས་ལྟ་འབད་ནི་མ་བཅུག་ནི་གི་སྒེར་གསང་གདོང་གཡོགས་རྐྱངམ་ཅིག་ཨིན། ཉེན་སྲུང་སྟོབས་ཅན་མེན།</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>ག་ར།</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>པར་འཚོལ།</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>མཐུན་པའི་པར་མིན་འདུག</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>མི་ཚུ།</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>བཟའ་ཚང་དང་འགན་ཁུར།</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>སེམས་ཅན།</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>མནོ་བསམ་དང་རྩེད་འཇོ།</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>བཟའ་འཐུང་།</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>རང་བཞིན།</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>རྩེད་འགྲན་དང་དགའ་ཕྱོགས།</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>དངོས་པོ།</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>སློབ་གྲྭ།</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>ལཱ།</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>འཕྲོད་བསྟེན།</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>ཁྱིམ།</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>ཏི་རུ།</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>འགྲུལ་བཞུད།</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>དགའ་སྟོན།</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>རྩེད་འགྲན།</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>པར་གདམ་ཁ་རྐྱབ་གནང་།</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>པར་ཚུ།</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>ཁྱོད་རའི་པར་…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>ཁྱོད་རའི་པར།</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>ཁྱོད་ཀྱི་གློག་རིག་ནང་ལས་ PNG ཡང་ན་ JPG ལག་ལེན་འཐབ་གནང་།</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>ཡིག་འབྲུ་རྐྱངམ་ཅིག</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>པར་གྱི་ཚབ་ལུ་ཚོས་གཞི་ཅན་གྱི་ཡིག་འབྲུ་སྟོན།</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>ཡིག་སྣོད་དེ་ PNG ཡང་ན་ JPG པར་སྦེ་ལྷག་མ་ཚུགས།</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr ག་གིས་ལག་ལེན་འཐབ་དོ་ཡོདཔ་སྨོ?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>འཕྲོ་མཐུད་ནི་ལུ་ཁྱོད་རའི་གསལ་སྡུད་གདམ་ཁ་རྐྱབ་གནང་།</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>གསལ་སྡུད་བསྣན་གནང་།</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>མཇུག་མམ་སྦེ་ལག་ལེན་འཐབ་མི།</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN གིས་ཉེན་སྲུང་འབད་ཡི།</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>ཞུན་དག་ཡང་ན་བཏོན་གཏང་།</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>ད་ལྟོའི་གསལ་སྡུད་ལུ་ལོག་འགྱོ། (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>ཟྭ་ཕྱེ།</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>ཁྱོད་ཀྱི་ཨང་གྲངས་ 4 གི་ PIN བཙུགས་གནང་།</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>གསལ་སྡུད་འདི་ཞུན་དག་ཡང་ན་བཏོན་གཏང་ནི་ལུ་ དེ་གི་ PIN བཙུགས་གནང་།</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN ཏོག་ཏོ་མེན། ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>མཐོང་སྣང་།</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>གློག་རིམ་གྱི་བརྗོད་དོན།</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>དཀརཔོ་ ནགཔོ་གདམ་ཁ་རྐྱབ་གནང་། ཡང་ན་ Windows གི་སྒྲིག་སྟངས་དང་འཁྲིལ་གནང་།</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>བརྗོད་དོན།</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>དཀརཔོ།</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>ནགཔོ།</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>རིམ་ལུགས།</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>སྐད་ཡིག</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Remindr སྟོན་ནི་གི་སྐད་ཡིག་གདམ་ཁ་རྐྱབ་གནང་། བསྒྱུར་བཅོས་འདི་ཕྱིན་སར་ལས་རང་འགོ་བཙུགསཔ་ཨིན།</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>སྐད་ཡིག</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>སྐད་བསྒྱུར་འདི་འཕྲུལ་ཆས་ཀྱི་གྲོགས་རམ་གྱིས་འབད་ཡི། ཞུན་དག་འབད་ནི་ལུ་དགའ་བསུ་ཞུ།</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>ཞུན་དག་གི་གྲོས་འཆར་བཀོད།</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>འཕྲུལ་ཆས་སྐད་བསྒྱུར།</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>སྐད་བསྒྱུར་ལུ་གྲོགས་རམ་འབད།</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>སྐད་ཡིག {0}། སོར་ནི་ལུ་ཨེབ་གནང་།</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>གསལ་སྡུད།</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} སྦེ་ནང་བསྐྱོད་འབད་ཡི།</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>གསལ་སྡུད་གཞན་མི་ལུ་སོར་གནང་། ཡང་ན་ གསལ་སྡུད་འདི་གི་མིང་དང་ཚོས་གཞི་ པར་ཚུ་སོར་གནང་།</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>པར་སོར་གནང་།</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>གསལ་སྡུད་སོར་ནི།</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN ཟྭ།</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN ཟྭ། {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>ཨང་གྲངས་ 4 གི་ PIN གིས་ གཞན་མི་ཚུ་གསལ་སྡུད་འདི་ནང་ཉམས་ལྟ་འབད་ནི་མ་བཅུགཔ་ཨིན། འདི་སྒེར་གསང་གདོང་གཡོགས་ཨིན་རུང་ ཉེན་སྲུང་སྟོབས་ཅན་མེན།</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>གྲོགས་རམ་དང་བསམ་འཆར།</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>དཀའ་ངལ་ཐོབ་ཡི་ག? ཡང་ན་བསམ་འཆར་ཡོད་ག?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>སྙན་ཞུ་ཚུ་ GitHub གུ་ཁ་ཕྱེཝ་ཨིན། ཁྱོད་ཀྱི་ Remindr དང་ Windows གི་ཐོན་རིམ་རྐྱངམ་ཅིག་བཀང་ཡོདཔ་ཨིནམ་ལས་ གཞན་ག་ནི་ཡང་མི་གཏང་།</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>འཛོལ་བ་སྙན་ཞུ་འབད།</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>ཁྱད་རྣམ་གྲོས་འཆར་བཀོད།</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>ཟིན་ཐོའི་སྣོད་འཛིན་ཁ་ཕྱེ།</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>སྐོར་ལས།</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} ཆོག་ཐམ།</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub གུ་བལྟ།</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>ཕྱོགས་གསུམ་པའི་བརྡ་དོན།</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>འཛོལ་བ་ཅིག་བྱུང་ནུག {0}
+
+རྒྱས་བཤད་ཚུ་ %AppData%\Remindr\error.log ནང་སྲུང་ཡོདཔ་ཨིན།</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+རྒྱས་བཤད་ཚུ་ %AppData%\Remindr\error.log ནང་སྲུང་ཡོདཔ་ཨིན།</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr ལུ་བྱོན་པ་ལེགས་སོ།</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>འགོ་བཙུགས་ནི་ལུ་ལྡེ་མིག་གང་རུང་ཨེབ་གནང་། ཡང་ན་ཀིལིཀ་འབད།</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>འགོ་བཙུགས།</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>དགའ་བསུ་ལོག་སྟོན།</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr གཞི་སྒྲིག་འབད།</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>གཞི་སྒྲིག་གི་ཡར་འཕེལ།</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>རིམ་པ་ {1} ལས་ {0}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>ཤུལ་མམ།</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>གོམ་འགྱོ།</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>ཁྱོད་རའི་སྐད་ཡིག་གདམ་ཁ་རྐྱབ་གནང་།</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>གློག་རིམ་འདི་ཕྱིན་སར་ལས་སོརཝ་ཨིན། སྒྲིག་སྟངས་ནང་ནམ་རང་སོར་ཚུགས།</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>སྐད་ཡིག་འཚོལ།</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>མཐུན་པའི་སྐད་ཡིག་མིན་འདུག</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>ཁྱོད་རའི་མཐོང་སྣང་གདམ་གནང་།</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>དཀརཔོ་ ནགཔོ་ ཡང་ན་ Windows གི་སྒྲིག་སྟངས་དང་འཁྲིལ་ནི།</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>ཁྱོད་རའི་གསལ་སྡུད།</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>ཁྱོད་ཀྱི་མིང་དང་ཚོས་གཞི་ པར་ཅིག་བསྣན་གནང་།</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN བསྣན་ནི་ཨིན་ན?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>གདམ་ཁ་ཨིན། ཨང་གྲངས་ 4 གི་ PIN གིས་གསལ་སྡུད་འདི་སྒེར་གསང་སྦེ་བཞགཔ་ཨིན།</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>ག་ར་གྲ་སྒྲིག་ཨིན། {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>འདི་ཚུ་ག་ར་ཤུལ་ལས་སྒྲིག་སྟངས་ནང་སོར་ཚུགས།</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr ལག་ལེན་འཐབ་ནི་འགོ་བཙུགས།</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>ངེའི་དྲན་གསོ་དང་པ་བསྣན།</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>སློབ་གྲྭ།</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>ལཱ།</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>སྒེར།</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>གསརཔ་ག་ཅི་ཡོད?</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>ཤུལ་ལས།</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>ཐོན་རིམ་འདི་གོམ་འགྱོ།</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>ལོག་འབད་རྩོལ་བསྐྱེད།</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>ཕབ་ལེན་ཞིབ་དཔྱད་འབད་དོ…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ཕབ་ལེན་འདི་ཞིབ་དཔྱད་ཨང་དང་མ་མཐུནམ་ལས་ བཏོན་གཏང་ཡི། ག་ནི་ཡང་གཞི་བཙུགས་མ་འབད།</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>དུས་མཐུན་ཕབ་ལེན་འབད་མ་ཚུགས། ཤུལ་ལས་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>དུས་མཐུན།</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr འགོ་བཙུགསཔ་ད་དུས་མཐུན་ཞིབ་དཔྱད་འབད།</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>ཐོན་རིམ་ཨང་གྲངས་ག་བསྡུར་འབད་ནི་ལུ་ GitHub དང་རྐྱངམ་ཅིག་འབྲེལ་བ་འཐབ་ཨིན། ཁྱོད་ཀྱི་སྐོར་ལས་ག་ནི་ཡང་མི་གཏང་།</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>དུས་མཐུན་ཞིབ་དཔྱད་འབད།</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>ཞིབ་དཔྱད་འབད་དོ…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>དུས་མཐུན་ཨིན། · {0} ལུ་ཞིབ་དཔྱད་འབད་ཡི།</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} ཐོབ་ཚུགས།</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>དུས་མཐུན་ཞིབ་དཔྱད་འབད་མ་ཚུགས།</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>དུས་མཐུན་ཐོབ་ཚུགས།</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · ཁྱོད་ལུ་ {1} ཡོད།</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>དུས་མཐུན་བཟོ།</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>ཕབ་ལེན་འབད་དོ… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>ཕབ་ལེན་ཆ་མེད་གཏང་།</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>གཞི་བཙུགས་ནི་ལུ་གྲ་སྒྲིག་ཨིན།</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>ལོག་འགོ་བཙུགས་ཏེ་དུས་མཐུན་བཟོ།</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>ཉིནམ་ 1 གི་ཤུལ་ལས།</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>ཆུ་ཚོད་ 1 གི་ཤུལ་ལས།</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>ད་ལྟོ།</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>ད་རུང་འབད་དགོཔ་ཡོད།</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>ཤུལ་ལས་གི་དུས་ཚོད་ལྷོད་ཡི།</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - དུས་ཡོལ།</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>མཇུག་བསྡུ།</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>ཤུལ་ལས་དྲན་གསོ་འབད།</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>བཀོ་བཞག</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>སྐར་མ་ 5</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>ཆུ་ཚོད་ 1</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>ནངས་པ།</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>བརྟག་དཔྱད་བརྡ་བསྐུལ།</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>འདི་དཔེ་ཚད་ཨིནམ་ལས་ དེ་གི་ཨེབ་རྟ་ཚུ་གིས་ག་ནི་ཡང་མི་འབད། དྲན་གསོ་ཅིག་བསྣན་ཞིནམ་ལས་ ཨེབ་རྟ་ཚུ་བརྟག་དཔྱད་འབད་ནི་ལུ་ བརྟག་དཔྱད་ལོག་གཏང་གནང་།</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>བརྡ་བསྐུལ།</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>བརྟག་དཔྱད་བརྡ་བསྐུལ་གཏང་།</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>ཨེབ་རྟ་ཚུ་བརྟག་དཔྱད་འབད་ཚུགསཔ་སྦེ་ ཁྱོད་ཀྱི་ཤུལ་མའི་དྲན་གསོ་གི་བརྡ་བསྐུལ་སྟོནམ་ཨིན།</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>བརྟག་དཔྱད་གཏང་།</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>ཁ་ཕྱེ་གནང་།</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>མགྱོགས་དྲགས་བསྣན།</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>ཕྱིར་འཐོན།</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr ད་རུང་ཡང་སྡེར་མ་ནང་ལཱ་འབད་དོ་ཡོདཔ་ཨིན།</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>ཁྱོད་ཀྱི་དྲན་གསོ་ཚུ་གིས་འཕྲོ་མཐུད་དེ་བརྡ་བསྐུལ་འབདཝ་ཨིན། ཁ་ཕྱེ་ནི་ཡང་ན་ཕྱིར་འཐོན་ནི་ལུ་ སྡེར་མའི་ངོ་རྟགས་ལག་ལེན་འཐབ་གནང་།</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>སྒོ་སྒྲིག་ཁ་བསྡམས་པའི་སྐབས་ སྡེར་མ་ནང་འཕྲོ་མཐུད་དེ་ལཱ་འབད།</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>སྒོ་སྒྲིག་ཁ་བསྡམས་ཡོད་རུང་ དྲན་གསོ་ཚུ་གིས་འཕྲོ་མཐུད་དེ་བརྡ་བསྐུལ་འབདཝ་ཨིན། ཁ་བསྡམས་པའི་སྐབས་ཕྱིར་འཐོན་ནི་ཨིན་པ་ཅིན་ འདི་ཁ་བསྡམས་གནང་།</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>ང་ནང་བསྐྱོད་འབདཝ་ད་ Remindr འགོ་བཙུགས།</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>དྲན་གསོ་ཚུ་གིས་འཕྲོ་མཐུད་དེ་བརྡ་བསྐུལ་འབད་ནི་ལུ་ སྡེར་མ་ནང་ཁུ་སིམ་སིམ་སྦེ་འགོ་བཙུགསཔ་ཨིན། ཁྱོད་རང་གིས་འགོ་བཙུགས་ནི་ཨིན་པ་ཅིན་ འདི་ཁ་བསྡམས་གནང་།</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr ཧེ་མ་ལས་ར་ལཱ་འབད་དོ་ཡོད་རུང་ ལན་མི་འབདཝ་ཨིན། ཁ་བསྡམས་དོ་ཡོདཔ་ཨིན་པ་ཅིན་ ཅུང་ཅིག་སྒུག་སྟེ་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་། དེ་མིན་པ་ཅིན་ Task Manager ནང་མཇུག་བསྡུ་གནང་།</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>གལ་ཅན།</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>དུས་ཡོལ།</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · ད་རིས་འབད་དགོ་མི་ {0}</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · ད་རིས་འབད་དགོ་མི་ {0}</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0} ནང་གསརཔ་ག་ཅི་ཡོད?</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>ཧ་གོ་ཡི།</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>ཐོན་རིམ་འདི་ནང་གསརཔ་ག་ཅི་ཡོད?</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>ཁྱོད་ལུ་ལྷོད་མི་དྲན་གསོ་ཚུ།</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>མཇུག་བསྡུ་དང་ ཤུལ་ལས་དྲན་གསོ་ བཀོ་བཞག་གི་ཨེབ་རྟ་ཚུ་ཡོད་མི་ Windows བརྡ་བསྐུལ། སྐར་མ་ 5 ཡང་ན་ ཆུ་ཚོད་ 1 ཡང་ན་ ནངས་པ་ཚུན་ཤུལ་ལས་དྲན་གསོ་འབད་ཚུགས།</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>གལ་ཅན་ཟེར་མི་འདི་ ལོག་ལོག་སྐུལ་མ་འབདཝ་ཨིན།</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>གལ་ཅན་གྱི་དྲན་གསོ་ཚུ་གིས་ ཉིནམ་གཅིག་དང་ཆུ་ཚོད་གཅིག་གི་ཧེ་མ་བརྡ་བསྐུལ་འབདཝ་ཨིན། དེ་ལས་ ཁྱོད་ཀྱིས་ལཱ་མ་འབད་ཚུན་ སྐར་མ་ 10 རེ་རེ་ལུ་བརྡ་བསྐུལ་འབདཝ་ཨིན།</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>ཁུ་སིམ་སིམ་སྦེ་ལཱ་འབདཝ་ཨིན།</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>སྒོ་སྒྲིག་ཁ་བསྡམས་རུང་ Remindr སྡེར་མ་ནང་སྡོདཔ་ཨིནམ་ལས་ བརྡ་བསྐུལ་ཚུ་ད་རུང་ལྷོདཔ་ཨིན། སྡེར་མའི་ངོ་རྟགས་ལས་ཁ་ཕྱེ་ནི་ཡང་ན་ཕྱིར་འཐོན་ནི་འབད་ཚུགས།</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows དང་གཅིག་ཁར་འགོ་བཙུགསཔ་ཨིན།</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>སྒྲིག་སྟངས་ནང་ཁ་ཕྱེ་བ་ཅིན་ ཁྱོད་ནང་བསྐྱོད་འབདཝ་ད་ Remindr སྡེར་མ་ནང་སྦ་སྟེ་འགོ་བཙུགསཔ་ཨིན།</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>ཤོག་བྱང་ཚུ་ཡར་འཕགཔ་ཨིན། རྟགས་ཚུ་མཆོངམ་ཨིན། ལོ་ཐོ་འདི་འདྲེདཔ་ཨིན། ཤོག་ལེབ་སྟོངམ་ཚུ་ལྡིངམ་ཨིན། Windows གི་འགུལ་རིས་ཁ་བསྡམས་པ་ཅིན་ ག་ར་སྒུལ་མེད་སྦེ་སྡོདཔ་ཨིན།</value>
+  </data>
+</root>

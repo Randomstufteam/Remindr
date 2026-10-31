@@ -792,108 +792,147 @@ Details zijn opgeslagen in %AppData%\Remindr\error.log</value>
     <value>Opnieuw starten en bijwerken</value>
   </data>
   <data name="Toast_Heading_Pre1Day" xml:space="preserve">
-    <value>In 1 day</value>
+    <value>Over 1 dag</value>
   </data>
   <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
-    <value>In 1 hour</value>
+    <value>Over 1 uur</value>
   </data>
   <data name="Toast_Heading_AtTime" xml:space="preserve">
-    <value>Now</value>
+    <value>Nu</value>
   </data>
   <data name="Toast_Heading_Nag" xml:space="preserve">
-    <value>Still to do</value>
+    <value>Nog te doen</value>
   </data>
   <data name="Toast_Heading_Snooze" xml:space="preserve">
-    <value>Snooze is up</value>
+    <value>Uitstel is voorbij</value>
   </data>
   <data name="Toast_HeadingOverdue" xml:space="preserve">
-    <value>{0} - overdue</value>
+    <value>{0} - te laat</value>
   </data>
   <data name="Toast_Complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>Voltooien</value>
   </data>
   <data name="Toast_Snooze" xml:space="preserve">
-    <value>Snooze</value>
+    <value>Uitstellen</value>
   </data>
   <data name="Toast_Dismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Negeren</value>
   </data>
   <data name="Toast_Snooze5" xml:space="preserve">
-    <value>5 minutes</value>
+    <value>5 minuten</value>
   </data>
   <data name="Toast_Snooze60" xml:space="preserve">
-    <value>1 hour</value>
+    <value>1 uur</value>
   </data>
   <data name="Toast_SnoozeTomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
+    <value>Morgen</value>
   </data>
   <data name="Toast_TestTitle" xml:space="preserve">
-    <value>Test notification</value>
+    <value>Testmelding</value>
   </data>
   <data name="Toast_TestNotes" xml:space="preserve">
-    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <value>Dit is een voorbeeld, dus de knoppen doen niets. Voeg een herinnering toe en verstuur daarna opnieuw een test om ze uit te proberen.</value>
   </data>
   <data name="Settings_Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>Meldingen</value>
   </data>
   <data name="Settings_TestToast_Title" xml:space="preserve">
-    <value>Send a test notification</value>
+    <value>Een testmelding versturen</value>
   </data>
   <data name="Settings_TestToast_Desc" xml:space="preserve">
-    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <value>Toont een melding voor je volgende herinnering, zodat je de knoppen kunt uitproberen.</value>
   </data>
   <data name="Settings_TestToast_Button" xml:space="preserve">
-    <value>Send test</value>
+    <value>Test versturen</value>
   </data>
   <data name="Tray_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>Openen</value>
   </data>
   <data name="Tray_QuickAdd" xml:space="preserve">
-    <value>Quick Add</value>
+    <value>Snel toevoegen</value>
   </data>
   <data name="Tray_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>Afsluiten</value>
   </data>
   <data name="Tray_StillRunningTitle" xml:space="preserve">
-    <value>Remindr is still running in the tray</value>
+    <value>Remindr draait nog in het systeemvak</value>
   </data>
   <data name="Tray_StillRunningBody" xml:space="preserve">
-    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+    <value>Je herinneringen blijven je waarschuwen. Gebruik het pictogram in het systeemvak om te openen of af te sluiten.</value>
   </data>
   <data name="Settings_CloseToTray_Title" xml:space="preserve">
-    <value>Keep running in the tray when I close the window</value>
+    <value>Blijf draaien in het systeemvak als ik het venster sluit</value>
   </data>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
-    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+    <value>Herinneringen blijven je waarschuwen terwijl het venster gesloten is. Schakel uit om af te sluiten bij het sluiten.</value>
   </data>
   <data name="Settings_StartWithWindows_Title" xml:space="preserve">
-    <value>Start Remindr when I sign in</value>
+    <value>Remindr starten als ik me aanmeld</value>
   </data>
   <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
-    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+    <value>Start stilletjes in het systeemvak, zodat je herinneringen je blijven waarschuwen. Schakel uit om het zelf te starten.</value>
   </data>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
-    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+    <value>Remindr draait al maar reageert niet. Als het aan het afsluiten is, wacht dan even en probeer het opnieuw; sluit het anders af in Taakbeheer.</value>
   </data>
   <data name="Toast_AttrImportant" xml:space="preserve">
-    <value>Important</value>
+    <value>Belangrijk</value>
   </data>
   <data name="Toast_AttrOverdue" xml:space="preserve">
-    <value>Overdue</value>
+    <value>Te laat</value>
   </data>
   <data name="Tray_TooltipDue_One" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} vandaag te doen</value>
   </data>
   <data name="Tray_TooltipDue_Other" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} vandaag te doen</value>
   </data>
   <data name="WhatsNew_Title" xml:space="preserve">
-    <value>What's new in Remindr {0}</value>
+    <value>Nieuw in Remindr {0}</value>
   </data>
   <data name="WhatsNew_GotIt" xml:space="preserve">
-    <value>Got it</value>
+    <value>Begrepen</value>
   </data>
   <data name="WhatsNew_Open" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>Nieuw in deze versie</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Herinneringen die je vinden</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-meldingen met de knoppen Voltooien, Uitstellen en Negeren. Stel 5 minuten, een uur of tot morgen uit.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Belangrijk betekent: het blijft herinneren</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Belangrijke herinneringen waarschuwen je een dag en een uur van tevoren, daarna elke 10 minuten tot je ingrijpt.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Draait stilletjes door</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Sluit het venster en Remindr blijft in het systeemvak, zodat meldingen blijven binnenkomen. Open of sluit het af via het pictogram.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Start met Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Zet het aan in Instellingen en Remindr start verborgen in het systeemvak wanneer je je aanmeldt.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kaarten tillen op, vinkjes springen, de kalender schuift en lege pagina's zweven. Met Windows-animaties uit blijft alles stil.</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Automatisch vertaald</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Help met vertalen</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Taal: {0}. Druk om te wijzigen.</value>
   </data>
 </root>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Aldoni</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Reen</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Nuligi</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Krei</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Forigi</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Redakti</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Malŝaltita</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Ŝaltita</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Konservi</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Hodiaŭ</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Horo</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notoj</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kategorio</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Bildo</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Grava</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Hodiaŭ</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalendaro</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Ĉiuj memorigoj</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profilo</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Agordoj</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Ŝanĝi profilon</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Faldi aŭ malfaldi la flankan breton</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Ŝalti flankan breton</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Bonan matenon</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Bonan matenon, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Bonan posttagmezon</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Bonan posttagmezon, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Bonan vesperon</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Bonan vesperon, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Nenio ĝis hodiaŭ</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>La memorigoj por hodiaŭ aperos ĉi tie.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Nova memorigo</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Nova memorigo (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Prokrastita</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Hodiaŭ</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Morgaŭ</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Finitaj</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Tuttage</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Fini: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Marki kiel gravan</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Redakti memorigon</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Forigi memorigon</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} malfinitaj, {1} finitaj</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Ankoraŭ neniuj memorigoj</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Aldonu vian unuan memorigon kaj ĝi aperos ĉi tie, grupigita laŭ dato.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Nova memorigo (malplena stato)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Finitaj memorigoj</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Monato</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Semajno</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Tagordo</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Monata vido</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Semajna vido</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Tagorda vido</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Antaŭa</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Sekva</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Iri al hodiaŭ</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Nova memorigo en la elektita tago</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Nenio planita por ĉi tiu tago.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Nenio venonta</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Neniuj memorigoj en la venontaj {0} tagoj.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Nova memorigo (malplena tagordo)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Monata krado. Sagoklavoj ŝanĝas la elektitan tagon, Enter aldonas memorigon.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Hodiaŭ · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Morgaŭ · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Venontaj {0} tagoj ekde {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Neniuj memorigoj</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} memorigo</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} memorigoj</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, grava</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>neniuj memorigoj</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} memorigo</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} memorigoj</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Memorigo sen kategorio</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Memorigo kun kategorio</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Nova memorigo</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Redakti memorigon</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Kion vi bezonas memori?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Nedeviga</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Montras ruĝan ! insignon por ke ĝi elstaru.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Sen bildo</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Aldoni bildon</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Bildo: {0}. Ŝanĝi bildon</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Enigu titolon.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>La titolo povas havi maksimume {0} signojn.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Elektu daton.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Enigu horon kiel {0}, aŭ ŝaltu Tuttage.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Ĉu forigi memorigon?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" estos porĉiame forigita. Tion ne eblas malfari.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Nenia</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Nova profilo</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Redakti profilon</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Ŝanĝi bildon</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Nomo</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Nomo de profilo</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Koloro</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Litero de avataro</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (nedeviga)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Konservi la nunan PIN</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Enigu nomon.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>La nomo povas havi maksimume {0} signojn.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Enigu unu signon por la avataro.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN devas havi precize 4 ciferojn.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ne eblas forigi ĉi tiun profilon</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Almenaŭ unu profilo devas ekzisti. Unue kreu alian profilon se vi volas forigi ĉi tiun.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Ĉu forigi "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Ĉi tio porĉiame forigas la profilon "{0}" kune kun ĉiuj ĝiaj memorigoj kaj kategorioj. Tion ne eblas malfari.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Starigi PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Ŝanĝi PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Forigi PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Elektu 4-ciferan PIN. Vi bezonos ĝin por malfermi ĉi tiun profilon.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Enigu vian nunan PIN, poste elektu novan.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Enigu vian nunan PIN por malŝalti la ŝlosadon.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Nuna PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Nova 4-cifera PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Ripetu PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Ripetu novan PIN</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Malĝusta nuna PIN. Provu denove.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>La du PIN-oj ne kongruas.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>La PIN estas privateca ekrano kontraŭ hazardaj scivolemuloj, ne forta sekureco.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Ĉiuj</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Serĉi bildojn</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Neniu bildo kongruas.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Homoj</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Familio kaj roloj</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Bestoj</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantazio kaj amuzo</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Manĝaĵo</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Naturo</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sportoj kaj ŝatokupoj</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Objektoj</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Lernejo</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Laboro</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Sano</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Hejmo</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Vojaĝo</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Festoj</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sportoj</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Elektu bildon</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Bildoj</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Via propra bildo…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Via propra bildo</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Uzu PNG aŭ JPG de via komputilo</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Nur inicialo</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Montri la koloran literon anstataŭ bildo</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Tiu dosiero ne legeblis kiel PNG aŭ JPG bildo.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Kiu uzas Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Elektu vian profilon por daŭrigi</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Aldoni profilon</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Laste uzita</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Protektita per PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Redakti aŭ forigi</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Reen al la nuna profilo (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Malŝlosi</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Enigu vian 4-ciferan PIN</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Enigu la PIN de ĉi tiu profilo por redakti aŭ forigi ĝin</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Malĝusta PIN. Provu denove.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Aspekto</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Etoso de la aplikaĵo</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Elektu Lumigitan, Malluman aŭ sekvu la agordon de Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Etoso</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Luma</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Malluma</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Lingvo</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Elektu la lingvon en kiu Remindr montriĝas. La ŝanĝo efektiviĝas tuj.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Lingvo</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>La tradukoj estis maŝine helpitaj; korektoj bonvenas.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Sugesti korekton</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Maŝine tradukita</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Helpi traduki</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Lingvo: {0}. Premu por ŝanĝi.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profilo</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Ensalutinta kiel {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Ŝanĝu al alia profilo, aŭ ŝanĝu la nomon, koloron kaj bildon de ĉi tiu profilo.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Ŝanĝi bildon</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Ŝanĝi profilon</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-ŝlosilo</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-ŝlosilo: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4-cifera PIN tenas hazardajn scivolemulojn for de ĉi tiu profilo. Ĝi estas privateca ekrano, ne forta sekureco.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Helpo kaj opinioj</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Ĉu vi trovis problemon aŭ havas ideon?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Raportoj malfermiĝas en GitHub kun nur via versio de Remindr kaj Windows plenigita. Nenio alia estas sendata.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Raporti cimon</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Sugesti funkcion</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Malfermi protokolan dosierujon</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Pri</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Permesilo {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Vidi en GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Avizoj pri triaj partioj</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Io misfunkciis: {0}
+
+Detaloj estis konservitaj en %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Detaloj estis konservitaj en %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Bonvenon al Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Premu ajnan klavon aŭ alklaku por komenci</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Komenci</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Remontri bonvenon</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Agordi Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Progreso de agordo</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Paŝo {0} el {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Sekva</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Preterpasi</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Elektu vian lingvon</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>La aplikaĵo ŝanĝiĝas tuj. Vi povas ŝanĝi ĝin iam ajn en Agordoj.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Serĉi lingvojn</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Neniu lingvo kongruas.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Elektu vian aspekton</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Luma, Malluma, aŭ sekvu la agordon de Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Via profilo</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Aldonu vian nomon, koloron kaj bildon.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Ĉu aldoni PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Nedeviga. 4-cifera PIN tenas ĉi tiun profilon privata.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Ĉio preta, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Vi povas ŝanĝi ĉion ĉi poste en Agordoj.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Ekuzi Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Aldoni mian unuan memorigon</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Lernejo</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Laboro</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Persona</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Kio novas</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Poste</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Preterpasi ĉi tiun version</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Provi denove</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Kontrolado de la elŝuto…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>La elŝuto ne kongruis kun sia kontrolsumo, do ĝi estis forigita kaj nenio estis instalita.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Ne eblis elŝuti la ĝisdatigon. Bonvolu provi denove poste.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Ĝisdatigoj</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Kontroli ĝisdatigojn kiam Remindr ekas</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Nur kontaktas GitHub por kompari versionumerojn; nenio pri vi estas sendata.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Kontroli ĝisdatigojn</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Kontrolado…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Ĝisdata · kontrolita {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} disponeblas</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Ne eblis kontroli ĝisdatigojn</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Ĝisdatigo disponeblas</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · vi havas {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Ĝisdatigi</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Elŝutado… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Nuligi</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Preta por instalo</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Relanĉi kaj ĝisdatigi</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Post 1 tago</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Post 1 horo</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Nun</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Ankoraŭ farenda</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>La dormeto finiĝis</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - prokrastita</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Fini</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Dormetigi</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Ignori</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minutoj</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 horo</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Morgaŭ</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Provo de sciigo</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Ĉi tio estas ekzemplo, do ĝiaj butonoj faras nenion. Aldonu memorigon, poste sendu novan provon por provi ilin.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Sciigoj</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Sendi provan sciigon</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Montras sciigon pri via venonta memorigo por ke vi provu la butonojn.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Sendi provon</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Malfermi</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Rapida aldono</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Eliri</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr ankoraŭ funkcias en la sistema pleto</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Viaj memorigoj daŭre sciigos vin. Uzu la piktogramon en la pleto por malfermi aŭ eliri.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Daŭre funkcii en la pleto kiam mi fermas la fenestron</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Memorigoj daŭre sciigas dum la fenestro estas fermita. Malŝaltu por eliri kiam vi ĝin fermas.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Startigi Remindr kiam mi ensalutas</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Ekas trankvile en la pleto por ke viaj memorigoj daŭre sciigu vin. Malŝaltu por startigi ĝin mem.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr jam funkcias sed ne respondas. Se ĝi fermiĝas, atendu momenton kaj provu denove; alie finu ĝin en Task Manager.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Grava</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Prokrastita</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} ĝis hodiaŭ</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} ĝis hodiaŭ</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Kio novas en Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Komprenite</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Kio novas en ĉi tiu versio</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Memorigoj kiuj trovas vin</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-sciigoj kun butonoj Fini, Dormetigi kaj Ignori. Dormetigu por 5 minutoj, horo, aŭ ĝis morgaŭ.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Grava signifas insiste</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Gravaj memorigoj sciigas vin tagon kaj horon antaŭe, poste ĉiujn 10 minutojn ĝis vi agas.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Funkcias trankvile</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Fermu la fenestron kaj Remindr restas en la pleto, do sciigoj ankoraŭ alvenas. Malfermu aŭ eliru per la piktogramo en la pleto.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Ekas kun Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Ŝaltu ĝin en Agordoj kaj Remindr ekas kaŝita en la pleto kiam vi ensalutas.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kartoj leviĝas, krucetoj eksaltas, la kalendaro glitas kaj malplenaj paĝoj flosas. Kun Windows-animacioj malŝaltitaj, ĉio restas senmova.</value>
+  </data>
+</root>

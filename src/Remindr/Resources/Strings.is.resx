@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Bæta við</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Til baka</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Hætta við</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Búa til</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Eyða</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Breyta</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Slökkt</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Kveikt</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Í dag</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titill</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Dagsetning</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Tími</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Athugasemdir</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Flokkur</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Mynd</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Mikilvægt</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d. MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d.</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d. MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d. MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d. MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d. MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d. MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Í dag</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Dagatal</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Allar áminningar</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Prófíll</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Stillingar</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Skipta um prófíl</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Fella saman eða víkka hliðarstikuna</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Víxla hliðarstiku</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Góðan daginn</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Góðan daginn, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Góðan daginn</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Góðan daginn, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Gott kvöld</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Gott kvöld, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Ekkert á dagskrá í dag</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Áminningar fyrir daginn í dag birtast hér.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Ný áminning</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Ný áminning (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Fallið á tíma</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Í dag</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Á morgun</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Lokið</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Allan daginn</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Ljúka: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Merkja sem mikilvægt</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Breyta áminningu</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Eyða áminningu</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} opnar, {1} búnar</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Engar áminningar enn</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Bættu við fyrstu áminningunni þinni og hún birtist hér, flokkuð eftir dagsetningu.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Ný áminning (tómt yfirlit)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Búnar áminningar</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Mánuður</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Vika</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Dagskrá</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Mánaðarsýn</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Vikusýn</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Dagskrársýn</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Fyrri</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Næsta</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Fara á daginn í dag</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Ný áminning á völdum degi</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Ekkert á dagskrá þennan dag.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Ekkert framundan</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Engar áminningar næstu {0} daga.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Ný áminning (tóm dagskrá)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Mánaðarnet. Örvatakkar breyta völdum degi, Enter bætir við áminningu.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Í dag · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Á morgun · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Næstu {0} daga frá {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Engar áminningar</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} áminning</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} áminningar</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, mikilvægt</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>engar áminningar</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} áminning</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} áminningar</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Áminning án flokks</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Áminning í flokki</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Ný áminning</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Breyta áminningu</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Hvað þarftu að muna?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Valfrjálst</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Sýnir rautt !-merki svo hún skeri sig úr.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Engin mynd</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Bæta við mynd</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Mynd: {0}. Skipta um mynd</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Sláðu inn titil.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Titillinn má vera í mesta lagi {0} stafir.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Veldu dagsetningu.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Sláðu inn tíma eins og {0} eða kveiktu á Allan daginn.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Eyða áminningu?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" verður eytt fyrir fullt og allt. Ekki er hægt að afturkalla það.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Enginn</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Nýr prófíll</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Breyta prófíl</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Skipta um mynd</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Nafn</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Nafn prófíls</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Litur</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Stafur á auðkennismynd</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (valfrjálst)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Halda núverandi PIN</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Sláðu inn nafn.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Nafnið má vera í mesta lagi {0} stafir.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Sláðu inn einn staf fyrir auðkennismyndina.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN verður að vera nákvæmlega 4 tölustafir.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ekki er hægt að eyða þessum prófíl</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Að minnsta kosti einn prófíll verður að vera til. Búðu fyrst til annan prófíl ef þú vilt eyða þessum.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Eyða „{0}“?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Þetta eyðir prófílnum „{0}“ fyrir fullt og allt ásamt öllum áminningum hans og flokkum. Ekki er hægt að afturkalla það.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Setja PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Breyta PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Fjarlægja PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Veldu 4 stafa PIN. Þú þarft það til að opna þennan prófíl.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Sláðu inn núverandi PIN og veldu svo nýtt.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Sláðu inn núverandi PIN til að slökkva á lásnum.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Núverandi PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Nýtt 4 stafa PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Endurtaka PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Endurtaka nýtt PIN</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Rangt núverandi PIN. Reyndu aftur.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>PIN-númerin tvö stemma ekki.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN er einkaskjár til að halda forvitnum í fjarlægð, ekki sterkt öryggi.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Allar</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Leita að myndum</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Engar myndir fundust.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Fólk</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Fjölskylda og hlutverk</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Dýr</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Ævintýri og gaman</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Matur</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Náttúra</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Íþróttir og áhugamál</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Hlutir</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Skóli</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Vinna</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Heilsa</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Heimili</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Peningar</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Ferðalög</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Hátíðahöld</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Íþróttir</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Veldu mynd</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Myndir</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Þín eigin mynd…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Þín eigin mynd</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Notaðu PNG eða JPG úr tölvunni þinni</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Aðeins upphafsstafur</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Sýna litaða stafinn í stað myndar</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Ekki tókst að lesa skrána sem PNG- eða JPG-mynd.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Hver er að nota Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Veldu prófílinn þinn til að halda áfram</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Bæta við prófíl</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Síðast notað</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Varið með PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Breyta eða eyða</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Til baka í núverandi prófíl (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Aflæsa</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Sláðu inn 4 stafa PIN</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Sláðu inn PIN þessa prófíls til að breyta honum eða eyða</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Rangt PIN. Reyndu aftur.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Útlit</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Þema forritsins</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Veldu Ljóst, Dökkt eða fylgdu Windows-stillingunni.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Þema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Ljóst</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Dökkt</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Kerfi</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Tungumál</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Veldu tungumálið sem Remindr birtist á. Breytingin tekur gildi strax.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Tungumál</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Þýðingarnar eru vélaðstoðaðar; leiðréttingar eru vel þegnar.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Leggja til leiðréttingu</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Vélþýtt</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Hjálpa til við þýðingu</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Tungumál: {0}. Ýttu til að breyta.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Prófíll</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Skráð(ur) inn sem {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Skiptu yfir í annan prófíl eða breyttu nafni, lit og mynd þessa prófíls.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Skipta um mynd</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Skipta um prófíl</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-lás</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-lás: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 stafa PIN heldur forvitnum frá þessum prófíl. Það er einkaskjár, ekki sterkt öryggi.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Hjálp og ábendingar</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Fannstu vandamál eða ertu með hugmynd?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Tilkynningar opnast á GitHub með aðeins Remindr- og Windows-útgáfunni þinni útfylltri. Engu öðru er sent.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Tilkynna villu</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Leggja til eiginleika</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Opna annálamöppu</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Um forritið</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0}-leyfi</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Skoða á GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Tilkynningar þriðja aðila</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Eitthvað fór úrskeiðis: {0}
+
+Upplýsingar voru vistaðar í %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Upplýsingar voru vistaðar í %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Velkomin(n) í Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Ýttu á hvaða takka sem er eða smelltu til að byrja</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Byrja</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Spila velkomu aftur</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Setja upp Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Framvinda uppsetningar</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Skref {0} af {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Áfram</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Sleppa</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Veldu tungumál</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Forritið skiptir strax. Þú getur breytt þessu hvenær sem er í Stillingum.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Leita að tungumálum</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Engin tungumál fundust.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Veldu útlit</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Ljóst, Dökkt eða fylgdu Windows-stillingunni.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Prófíllinn þinn</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Bættu við nafni, lit og mynd.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Bæta við PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Valfrjálst. 4 stafa PIN heldur þessum prófíl einkamáli.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Allt klárt, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Þú getur breytt þessu öllu síðar í Stillingum.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Byrja að nota Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Bæta við fyrstu áminningunni minni</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Skóli</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Vinna</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Einkamál</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Hvað er nýtt</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Seinna</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Sleppa þessari útgáfu</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Reyna aftur</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Athuga niðurhalið…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Niðurhalið passaði ekki við samtölu sína, svo því var eytt og engu var sett upp.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Ekki tókst að sækja uppfærsluna. Reyndu aftur síðar.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Uppfærslur</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Leita að uppfærslum þegar Remindr ræsist</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Hefur aðeins samband við GitHub til að bera saman útgáfunúmer; ekkert um þig er sent.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Leita að uppfærslum</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Athuga…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Uppfært · athugað {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} er tiltæk</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Ekki tókst að leita að uppfærslum</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Uppfærsla í boði</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · þú ert með {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Uppfæra</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Sæki… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Hætta við</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Tilbúið til uppsetningar</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Endurræsa og uppfæra</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Eftir 1 dag</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Eftir 1 klukkustund</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Núna</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Á eftir að gera</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Fresturinn er liðinn</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - fallið á tíma</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Ljúka</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Fresta</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Hunsa</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 mínútur</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 klukkustund</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Á morgun</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Prufutilkynning</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Þetta er sýnishorn, svo hnapparnir gera ekkert. Bættu við áminningu og sendu prufu aftur til að prófa þá.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Tilkynningar</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Senda prufutilkynningu</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Sýnir tilkynningu fyrir næstu áminningu þína svo þú getir prófað hnappana.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Senda prufu</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Opna</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Fljótleg viðbót</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Hætta</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr keyrir enn í tilkynningasvæðinu</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Áminningarnar þínar halda áfram að láta þig vita. Notaðu táknið í tilkynningasvæðinu til að opna eða hætta.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Halda áfram að keyra í tilkynningasvæðinu þegar ég loka glugganum</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Áminningar láta þig áfram vita meðan glugginn er lokaður. Slökktu til að hætta þegar þú lokar honum.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Ræsa Remindr þegar ég skrái mig inn</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Ræsist hljóðlega í tilkynningasvæðinu svo áminningarnar þínar haldi áfram að láta þig vita. Slökktu til að ræsa það sjálf(ur).</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr er þegar í gangi en svarar ekki. Ef það er að lokast skaltu bíða aðeins og reyna aftur; annars skaltu loka því í Verkefnastjórnun.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Mikilvægt</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Fallið á tíma</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} á að ljúka í dag</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} eiga að klárast í dag</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Hvað er nýtt í Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Skilið</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Hvað er nýtt í þessari útgáfu</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Áminningar sem finna þig</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-tilkynningar með hnöppunum Ljúka, Fresta og Hunsa. Frestaðu um 5 mínútur, klukkustund eða til morguns.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Mikilvægt þýðir að það minnir á sig</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Mikilvægar áminningar láta þig vita degi og klukkustund fyrirfram og svo á 10 mínútna fresti þar til þú bregst við.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Heldur áfram í kyrrþey</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Lokaðu glugganum og Remindr verður áfram í tilkynningasvæðinu svo tilkynningar berist enn. Opnaðu eða lokaðu því með tákninu.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Ræsist með Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Kveiktu á því í Stillingum og Remindr ræsist falið í tilkynningasvæðinu þegar þú skráir þig inn.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Spjöld lyftast, hakar poppa, dagatalið rennur og tómar síður svífa. Með Windows-hreyfimyndir slökktar helst allt kyrrt.</value>
+  </data>
+</root>

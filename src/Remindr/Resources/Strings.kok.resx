@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>जोडात</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>फाटीं</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>रद्द करात</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>तयार करात</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>काडून उडयात</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>संपादन करात</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>बंद</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>चालू</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>सांबाळात</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>आज</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>मथळो</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>तारीख</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>वेळ</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>नोंदी</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>वर्ग</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>चित्र</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>म्हत्वाचें</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>आज</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>दिनदर्शिका</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>सगळ्यो आठवणी</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>प्रोफायल</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>सेटिंग्ज</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>प्रोफायल बदलात</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>साईडबार निमाणो वा व्हड करात</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>साईडबार टॉगल करात</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>सुप्रभात</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>सुप्रभात, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>शुभ दनपार</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>शुभ दनपार, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>शुभ सांज</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>शुभ सांज, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>आज कांयच बाकी ना</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>आयजच्यो आठवणी हांगा दिसतले.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>नवी आठवण</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>नवी आठवण (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>वेळ सरिल्यो</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>आज</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>फाल्यां</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>पुराय जाल्यो</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>सगळो दीस</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>पुराय करात: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>म्हत्वाचें म्हण खूण करात</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>आठवण संपादन करात</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>आठवण काडून उडयात</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} उकते, {1} पुराय</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>अजून आठवणी ना</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>तुजी पयली आठवण जोडात आनी ती तारखे प्रमाणें गटांत हांगा दिसतली.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>नवी आठवण (रिकामी स्थिती)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>पुराय जाल्ल्यो आठवणी</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>म्हयनो</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>सप्ताह</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>कार्यसूची</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>म्हयन्याचें दृश्य</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>सप्ताहाचें दृश्य</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>कार्यसूचीचें दृश्य</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>फाटलें</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>फुडलें</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>आजचेर वचात</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>निवडिल्ल्या दिसा नवी आठवण</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>ह्या दिसा कांयच नेमलेलें ना.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>फुडें कांयच ना</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>फुडल्या {0} दिसांनी आठवणी ना.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>नवी आठवण (रिकामी कार्यसूची)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>म्हयन्याची जाळी. बाण कळींनी दीस बदलात, Enter दाबून आठवण जोडात.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>आज · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>फाल्यां · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1} सावन फुडले {0} दीस</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>आठवणी ना</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>आठवणी: {0}</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>आठवणी: {0}</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, म्हत्वाचें</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>आठवणी ना</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>आठवणी: {0}</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>आठवणी: {0}</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>वर्ग नाशिल्ली आठवण</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>वर्ग आशिल्ली आठवण</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>नवी आठवण</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>आठवण संपादन करात</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>कितें लक्षांत दवरपाचें आसा?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>ऐच्छिक</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>तांबडें ! चिन्न दिसता, देखून ती वेगळी दिसता.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>चित्र ना</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>चित्र जोडात</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>चित्र: {0}. चित्र बदलात</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>मथळो बरयात.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>मथळो चड ते चड {0} अक्षरांचो आसूंक जाय.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>तारीख वेंचात.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>{0} सारिखी वेळ बरयात, वा सगळो दीस चालू करात.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>आठवण काडून उडयची?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>&quot;{0}&quot; कायमची काडून उडयतली. हें परतून करूंक जायना.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>कांयच ना</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>नवो प्रोफायल</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>प्रोफायल संपादन करात</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>चित्र बदलात</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>नांव</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>प्रोफायलाचें नांव</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>रंग</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>अवतार अक्षर</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (ऐच्छिक)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>सद्याचो PIN दवरात</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>नांव बरयात.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>नांव चड ते चड {0} अक्षरांचें आसूंक जाय.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>अवतारा खातीर एकूच अक्षर बरयात.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN बरोबर 4 आंकड्यांचो आसूंक जाय.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>हो प्रोफायल काडून उडोवंक जायना</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>उणो तें उणो एक प्रोफायल आसूंक जाय. हो काडून उडोवपाचो जाल्यार पयलीं दुसरो प्रोफायल तयार करात.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>&quot;{0}&quot; काडून उडयचो?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>&quot;{0}&quot; हो प्रोफायल ताच्या सगळ्या आठवणी आनी वर्गां वांगडा कायमचो काडून उडयतलो. हें परतून करूंक जायना.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN सेट करात</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN बदलात</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN काडात</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>4 आंकड्यांचो PIN वेंचात. हो प्रोफायल उकलपाक तो जाय पडटलो.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>सद्याचो PIN बरयात, मागीर नवो वेंचात.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>कुलूप बंद करपाक सद्याचो PIN बरयात.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>सद्याचो PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>नवो 4 आंकड्यांचो PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN परत बरयात</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>नवो PIN परत बरयात</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>सद्याचो PIN चुकीचो. परत यत्न करात.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>दोनूय PIN जुळनात.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN म्हळ्यार गुपीततायेचो पडदो, सादारण डोकावप्यांक पयस दवरपी; तें बळिश्ट सुरक्षा न्हय.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>सगळीं</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>चित्रां सोदात</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>जुळपी चित्रां ना.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>लोक</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>कुटुंब आनी भुमिका</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>जनावरां</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>कल्पना आनी मजा</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>जेवण</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>निसर्ग</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>खेळ आनी छंद</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>वस्तू</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>शाळ</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>काम</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>आरोग्य</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>घर</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>पयसो</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>प्रवास</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>सण-समारंभ</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>खेळ</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>चित्र वेंचात</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>चित्रां</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>तुजें आपलें चित्र…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>तुजें आपलें चित्र</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>कंप्युटरांतलो PNG वा JPG वापरात</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>फकत आद्याक्षर</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>चित्राच्या जाग्यार रंगीत अक्षर दाखयात</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>ती फायल PNG वा JPG चित्र म्हणून वाचूंक जाली ना.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr कोण वापरता?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>फुडें वचपाक तुजो प्रोफायल वेंचात</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>प्रोफायल जोडात</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>निमाणें वापरिल्लें</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN न सांबाळिल्लो</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>संपादन करात वा काडून उडयात</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>सद्याच्या प्रोफायलाचेर परत (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>उकलात</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>तुजो 4 आंकड्यांचो PIN बरयात</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>संपादन वा काडून उडोवपाक ह्या प्रोफायलाचो PIN बरयात</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN चुकीचो. परत यत्न करात.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>रूप</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>अॅपाची थीम</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>उजवाडाची, काळोखी, वा तुज्या Windows सेटिंगा प्रमाणें वेंचात.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>थीम</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>उजवाडाची</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>काळोखी</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>सिस्टीम</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>भास</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Remindr खंयच्या भाशेंत दाखोवपाचें तें वेंचात. बदल तेच दमलांत लागू जाता.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>भास</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>भाशांतर यंत्राच्या आदारान केलां; सुदारणूक स्वागतार्ह.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>सुदारणूक सुचयात</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>यंत्र-भाशांतर</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>भाशांतरांत आदार करात</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>भास: {0}. बदलपाक दाबात.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>प्रोफायल</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} म्हणून साईन इन केलां</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>दुसऱ्या प्रोफायलाचेर वचात, वा ह्या प्रोफायलाचें नांव, रंग आनी चित्र बदलात.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>चित्र बदलात</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>प्रोफायल बदलात</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN कुलूप</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN कुलूप: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 आंकड्यांचो PIN सादारण डोकावप्यांक ह्या प्रोफायलांतल्यान पयस दवरता. तो गुपीततायेचो पडदो, बळिश्ट सुरक्षा न्हय.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>आदार आनी अभिप्राय</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>समस्या मेळ्ळी वा कल्पना आसा?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>अहवाल GitHub चेर उकतात, तातूंत फकत तुजी Remindr आनी Windows आवृत्ती भरिल्ली आसता. आनीक कांयच धाडना.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>चूक कळयात</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>सोय सुचयात</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>लॉग फोल्डर उकलात</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>विशीं</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} परवानो</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub चेर पळयात</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>तिसऱ्या पक्षाच्यो सुचोवण्यो</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>कितेंतरी बिघडलें: {0}
+
+तपशील %AppData%\Remindr\error.log हांगा सांबाळून दवरला</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+तपशील %AppData%\Remindr\error.log हांगा सांबाळून दवरला</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr आयलें स्वागत</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>सुरू करपाक खंयचीय कळ दाबात वा क्लिक करात</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>सुरू करात</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>स्वागत परत दाखयात</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr सेट करात</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>सेटअपाची प्रगती</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>पावल {0} / {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>फुडें</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>सोडात</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>तुजी भास वेंचात</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>अॅप तेच दमलांत बदलता. तें केन्नाय सेटिंग्जांत बदलूंक मेळटा.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>भाशा सोदात</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>जुळपी भाशा ना.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>तुजें रूप वेंचात</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>उजवाडाचें, काळोखें, वा तुज्या Windows सेटिंगा प्रमाणें.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>तुजो प्रोफायल</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>तुजें नांव, रंग आनी चित्र जोडात.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN जोडचो?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>ऐच्छिक. 4 आंकड्यांचो PIN हो प्रोफायल खासगी दवरता.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>सगळें तयार, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>हातूंतलें कांयय उपरांत सेटिंग्जांत बदलूंक मेळटा.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr वापरपाक सुरवात करात</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>म्हजी पयली आठवण जोडात</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>शाळ</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>काम</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>वैयक्तिक</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>कितें नवें</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>उपरांत</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>हे आवृत्ती सोडात</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>परत यत्न करात</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>डाउनलोड तपासता…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>डाउनलोड ताच्या चेकसमाक जुळलें ना, देखून तें काडून उडयलां आनी कांयच इन्स्टॉल केलें ना.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>अपडेट डाउनलोड करूंक जालें ना. उपरांत परत यत्न करात.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>अपडेट्स</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr सुरू जातकच अपडेट तपासात</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>फकत आवृत्ती क्रमांक पडताळपाक GitHub कडेन संपर्क करता; तुजे विशीं कांयच धाडना.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>अपडेट तपासात</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>तपासता…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>अद्ययावत · तपासलें {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} उपलब्ध</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>अपडेट तपासूंक जालें ना</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>अपडेट उपलब्ध</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · तुजेकडेन {1} आसा</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>अपडेट करात</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>डाउनलोड जाता… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>रद्द करात</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>इन्स्टॉल करपाक तयार</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>परत सुरू करून अपडेट करात</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 दिसांनी</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 वरान</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>आतां</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>अजून करपाचें</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>स्नूझ सरलो</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - वेळ सरली</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>पुराय करात</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>स्नूझ करात</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>बंद करात</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 मिनिटां</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 वर</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>फाल्यां</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>चाचणी सुचोवणी</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>हें एक नमुनो, देखून हातूंतलीं बटणां कांयच करचीं ना. आठवण जोडात आनी बटणां पळोवपाक परत चाचणी धाडात.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>सुचोवण्यो</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>चाचणी सुचोवणी धाडात</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>तुज्या फुडल्या आठवणीची सुचोवणी दाखयता, जाका लागून बटणां पळोवंक मेळटात.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>चाचणी धाडात</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>उकलात</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>बेगीन जोडात</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>भायर सरात</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr अजून ट्रे मदीं चालू आसा</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>तुज्यो आठवणी सुचोवणी दितच रावतले. उकलपाक वा भायर सरपाक ट्रे आयकॉन वापरात.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>विंडो बंद केल्यार ट्रे मदीं चालू दवरात</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>विंडो बंद आसतना लेगीत आठवणी सुचोवणी दितात. बंद केल्यार भायर सरपाक हें बंद करात.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>हांव साईन इन केल्यार Remindr सुरू करात</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>शांतपणें ट्रे मदीं सुरू जाता, देखून आठवणी सुचोवणी दितच रावतात. आपूण सुरू करपाक हें बंद करात.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr आदींच चालू आसा, पूण प्रतिसाद दिना. तें बंद जातलें जाल्यार घडये उडकून परत यत्न करात; न्हय जाल्यार Task Manager तल्यान तें बंद करात.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>म्हत्वाचें</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>वेळ सरली</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · आज बाकी: {0}</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · आज बाकी: {0}</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0} त कितें नवें</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>समजलें</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>ह्या आवृत्तींत कितें नवें</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>तुका मेळपी आठवणी</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>पुराय करात, स्नूझ करात आनी बंद करात बटणां आशिल्ल्यो Windows सुचोवण्यो. 5 मिनिटां, एक वर वा फाल्यां मेरेन स्नूझ करात.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>म्हत्वाचें म्हळ्यार परत परत सांगप</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>म्हत्वाच्यो आठवणी एक दीस आनी एक वर फुडें सुचोवणी दितात, मागीर तुमी कृती करिनात जाल्यार दर 10 मिनिटांनी.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>शांतपणें चालू रावता</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>विंडो बंद करात आनी Remindr ट्रे मदीं रावता, देखून सुचोवण्यो येतच रावतात. ट्रे आयकॉना वरवीं तें उकलात वा बंद करात.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows वांगडा सुरू जाता</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>सेटिंग्जांत हें चालू करात आनी तुमी साईन इन केल्यार Remindr लिपून ट्रे मदीं सुरू जाता.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>कार्डां वयर उबतात, खुणो उडटात, दिनदर्शिका सरकता आनी रिकामीं पानां तरंगतात. Windows अॅनिमेशन बंद आसल्यार सगळें थीर रावता.</value>
+  </data>
+</root>

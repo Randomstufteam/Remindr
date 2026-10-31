@@ -59,9 +59,9 @@ public sealed partial class SetupViewModel : ObservableObject
         _previewLanguage = previewLanguage;
         _previewTheme = previewTheme;
         _languageCode = LocalizationService.Find(initialLanguage)?.Code ?? LocalizationService.EnglishCode;
+        SuggestedLanguageCode = _languageCode;
         _theme = initialTheme;
         _color = ProfileEditViewModel.Palette[0];
-        _filteredLanguages = SetupLanguages;
         for (var i = 0; i < StepCount; i++) Dots.Add(new StepDot(i, StepCount));
         UpdateDots();
     }
@@ -69,9 +69,9 @@ public sealed partial class SetupViewModel : ObservableObject
     /// <summary>Setup only runs on a database with no profiles: an existing user never sees it.</summary>
     public static bool ShouldRun(ProfileRepo profiles) => profiles.Count() == 0;
 
-    /// <summary>The languages offered by setup: the 32 real ones (never the debug pseudo-locale).</summary>
+    /// <summary>The languages offered by setup: the ones with a shipped translation (never the debug pseudo-locale).</summary>
     public static IReadOnlyList<LanguageInfo> SetupLanguages { get; } =
-        LocalizationService.Supported.Where(l => l.Code != LocalizationService.PseudoCode).ToList();
+        LocalizationService.Available.Where(l => l.Code != LocalizationService.PseudoCode).ToList();
 
     public ObservableCollection<StepDot> Dots { get; } = new();
 
@@ -152,31 +152,12 @@ public sealed partial class SetupViewModel : ObservableObject
 
     public string LanguageNativeName => LocalizationService.Find(LanguageCode)?.NativeName ?? LanguageCode;
 
-    [ObservableProperty] private string _languageSearch = "";
+    /// <summary>The language the app was showing when setup began (the Windows display language when supported): the picker lists it first.</summary>
+    public string SuggestedLanguageCode { get; }
 
-    [ObservableProperty] private IReadOnlyList<LanguageInfo> _filteredLanguages;
-
-    partial void OnLanguageSearchChanged(string value) => FilteredLanguages = FilterLanguages(value, SetupLanguages);
-
-    /// <summary>
-    /// Languages whose native name, English name or code contains the search text (case and accents ignored: "espanol" finds Español,
-    /// "deutsch" and "german" both find German). An empty search lists everything.
-    /// </summary>
-    public static IReadOnlyList<LanguageInfo> FilterLanguages(string? search, IEnumerable<LanguageInfo> all)
-    {
-        var q = Fold(search);
-        if (q.Length == 0) return all.ToList();
-        return all.Where(l => Fold(l.NativeName).Contains(q) || Fold(l.EnglishName).Contains(q) || Fold(l.Code).Contains(q)).ToList();
-    }
-
-    private static string Fold(string? text)
-    {
-        if (string.IsNullOrWhiteSpace(text)) return "";
-        var sb = new StringBuilder();
-        foreach (var c in text.Trim().Normalize(NormalizationForm.FormD))
-            if (CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark) sb.Append(c);
-        return sb.ToString().Normalize(NormalizationForm.FormC).ToLowerInvariant();
-    }
+    /// <summary>Languages whose native name, English name or code match the search (see <see cref="LanguageSearch"/>); everything for an empty search.</summary>
+    public static IReadOnlyList<LanguageInfo> FilterLanguages(string? search, IEnumerable<LanguageInfo> all) =>
+        LanguageSearch.Filter(search, all);
 
     // ---- appearance ---------------------------------------------------------------------------------
 

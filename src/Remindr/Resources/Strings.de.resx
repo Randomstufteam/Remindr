@@ -792,108 +792,147 @@ Details wurden in %AppData%\Remindr\error.log gespeichert</value>
     <value>Neu starten und aktualisieren</value>
   </data>
   <data name="Toast_Heading_Pre1Day" xml:space="preserve">
-    <value>In 1 day</value>
+    <value>In 1 Tag</value>
   </data>
   <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
-    <value>In 1 hour</value>
+    <value>In 1 Stunde</value>
   </data>
   <data name="Toast_Heading_AtTime" xml:space="preserve">
-    <value>Now</value>
+    <value>Jetzt</value>
   </data>
   <data name="Toast_Heading_Nag" xml:space="preserve">
-    <value>Still to do</value>
+    <value>Noch zu erledigen</value>
   </data>
   <data name="Toast_Heading_Snooze" xml:space="preserve">
-    <value>Snooze is up</value>
+    <value>Erneute Erinnerung</value>
   </data>
   <data name="Toast_HeadingOverdue" xml:space="preserve">
-    <value>{0} - overdue</value>
+    <value>{0} - überfällig</value>
   </data>
   <data name="Toast_Complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>Erledigen</value>
   </data>
   <data name="Toast_Snooze" xml:space="preserve">
-    <value>Snooze</value>
+    <value>Später erinnern</value>
   </data>
   <data name="Toast_Dismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Verwerfen</value>
   </data>
   <data name="Toast_Snooze5" xml:space="preserve">
-    <value>5 minutes</value>
+    <value>5 Minuten</value>
   </data>
   <data name="Toast_Snooze60" xml:space="preserve">
-    <value>1 hour</value>
+    <value>1 Stunde</value>
   </data>
   <data name="Toast_SnoozeTomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
+    <value>Morgen</value>
   </data>
   <data name="Toast_TestTitle" xml:space="preserve">
-    <value>Test notification</value>
+    <value>Testbenachrichtigung</value>
   </data>
   <data name="Toast_TestNotes" xml:space="preserve">
-    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <value>Das ist ein Beispiel, die Schaltflächen tun also nichts. Füge eine Erinnerung hinzu und sende dann erneut einen Test, um sie auszuprobieren.</value>
   </data>
   <data name="Settings_Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>Benachrichtigungen</value>
   </data>
   <data name="Settings_TestToast_Title" xml:space="preserve">
-    <value>Send a test notification</value>
+    <value>Testbenachrichtigung senden</value>
   </data>
   <data name="Settings_TestToast_Desc" xml:space="preserve">
-    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <value>Zeigt eine Benachrichtigung für deine nächste Erinnerung an, damit du die Schaltflächen ausprobieren kannst.</value>
   </data>
   <data name="Settings_TestToast_Button" xml:space="preserve">
-    <value>Send test</value>
+    <value>Test senden</value>
   </data>
   <data name="Tray_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>Öffnen</value>
   </data>
   <data name="Tray_QuickAdd" xml:space="preserve">
-    <value>Quick Add</value>
+    <value>Schnell hinzufügen</value>
   </data>
   <data name="Tray_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>Beenden</value>
   </data>
   <data name="Tray_StillRunningTitle" xml:space="preserve">
-    <value>Remindr is still running in the tray</value>
+    <value>Remindr läuft weiter im Infobereich</value>
   </data>
   <data name="Tray_StillRunningBody" xml:space="preserve">
-    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+    <value>Deine Erinnerungen melden sich weiterhin. Über das Symbol im Infobereich kannst du Remindr öffnen oder beenden.</value>
   </data>
   <data name="Settings_CloseToTray_Title" xml:space="preserve">
-    <value>Keep running in the tray when I close the window</value>
+    <value>Im Infobereich weiterlaufen, wenn ich das Fenster schließe</value>
   </data>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
-    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+    <value>Erinnerungen melden sich auch bei geschlossenem Fenster. Schalte die Option aus, um beim Schließen zu beenden.</value>
   </data>
   <data name="Settings_StartWithWindows_Title" xml:space="preserve">
-    <value>Start Remindr when I sign in</value>
+    <value>Remindr bei der Anmeldung starten</value>
   </data>
   <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
-    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+    <value>Startet unauffällig im Infobereich, damit deine Erinnerungen sich weiterhin melden. Schalte die Option aus, um es selbst zu starten.</value>
   </data>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
-    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+    <value>Remindr läuft bereits, reagiert aber nicht. Wenn es gerade beendet wird, warte einen Moment und versuche es erneut; andernfalls beende es im Task-Manager.</value>
   </data>
   <data name="Toast_AttrImportant" xml:space="preserve">
-    <value>Important</value>
+    <value>Wichtig</value>
   </data>
   <data name="Toast_AttrOverdue" xml:space="preserve">
-    <value>Overdue</value>
+    <value>Überfällig</value>
   </data>
   <data name="Tray_TooltipDue_One" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} heute fällig</value>
   </data>
   <data name="Tray_TooltipDue_Other" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} heute fällig</value>
   </data>
   <data name="WhatsNew_Title" xml:space="preserve">
-    <value>What's new in Remindr {0}</value>
+    <value>Neu in Remindr {0}</value>
   </data>
   <data name="WhatsNew_GotIt" xml:space="preserve">
-    <value>Got it</value>
+    <value>Verstanden</value>
   </data>
   <data name="WhatsNew_Open" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>Neu in dieser Version</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Erinnerungen, die dich finden</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-Benachrichtigungen mit den Schaltflächen Erledigen, Später erinnern und Verwerfen. Lass dich nach 5 Minuten, einer Stunde oder morgen erneut erinnern.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Wichtig heißt: es drängelt</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Wichtige Erinnerungen melden sich einen Tag und eine Stunde vorher und danach alle 10 Minuten, bis du reagierst.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Läuft leise weiter</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Schließe das Fenster und Remindr bleibt im Infobereich, damit Meldungen weiter ankommen. Öffne oder beende es über das Symbol im Infobereich.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Startet mit Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Aktiviere die Option in den Einstellungen, und Remindr startet bei der Anmeldung versteckt im Infobereich.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Karten heben sich, Häkchen springen, der Kalender gleitet und leere Seiten schweben. Sind die Windows-Animationen aus, bleibt alles ruhig.</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Maschinell übersetzt</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Beim Übersetzen helfen</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Sprache: {0}. Zum Ändern drücken.</value>
   </data>
 </root>

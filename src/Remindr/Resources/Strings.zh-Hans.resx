@@ -798,108 +798,147 @@
     <value>重启并更新</value>
   </data>
   <data name="Toast_Heading_Pre1Day" xml:space="preserve">
-    <value>In 1 day</value>
+    <value>1 天后</value>
   </data>
   <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
-    <value>In 1 hour</value>
+    <value>1 小时后</value>
   </data>
   <data name="Toast_Heading_AtTime" xml:space="preserve">
-    <value>Now</value>
+    <value>现在</value>
   </data>
   <data name="Toast_Heading_Nag" xml:space="preserve">
-    <value>Still to do</value>
+    <value>仍待处理</value>
   </data>
   <data name="Toast_Heading_Snooze" xml:space="preserve">
-    <value>Snooze is up</value>
+    <value>稍后提醒时间到了</value>
   </data>
   <data name="Toast_HeadingOverdue" xml:space="preserve">
-    <value>{0} - overdue</value>
+    <value>{0} - 已过期</value>
   </data>
   <data name="Toast_Complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>完成</value>
   </data>
   <data name="Toast_Snooze" xml:space="preserve">
-    <value>Snooze</value>
+    <value>稍后提醒</value>
   </data>
   <data name="Toast_Dismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>关闭</value>
   </data>
   <data name="Toast_Snooze5" xml:space="preserve">
-    <value>5 minutes</value>
+    <value>5 分钟</value>
   </data>
   <data name="Toast_Snooze60" xml:space="preserve">
-    <value>1 hour</value>
+    <value>1 小时</value>
   </data>
   <data name="Toast_SnoozeTomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
+    <value>明天</value>
   </data>
   <data name="Toast_TestTitle" xml:space="preserve">
-    <value>Test notification</value>
+    <value>测试通知</value>
   </data>
   <data name="Toast_TestNotes" xml:space="preserve">
-    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <value>这是一个示例，所以按钮不会执行任何操作。添加一个提醒，然后再次发送测试即可试用。</value>
   </data>
   <data name="Settings_Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>通知</value>
   </data>
   <data name="Settings_TestToast_Title" xml:space="preserve">
-    <value>Send a test notification</value>
+    <value>发送测试通知</value>
   </data>
   <data name="Settings_TestToast_Desc" xml:space="preserve">
-    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <value>为你的下一个提醒显示一条通知，方便你试用这些按钮。</value>
   </data>
   <data name="Settings_TestToast_Button" xml:space="preserve">
-    <value>Send test</value>
+    <value>发送测试</value>
   </data>
   <data name="Tray_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>打开</value>
   </data>
   <data name="Tray_QuickAdd" xml:space="preserve">
-    <value>Quick Add</value>
+    <value>快速添加</value>
   </data>
   <data name="Tray_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>退出</value>
   </data>
   <data name="Tray_StillRunningTitle" xml:space="preserve">
-    <value>Remindr is still running in the tray</value>
+    <value>Remindr 仍在系统托盘中运行</value>
   </data>
   <data name="Tray_StillRunningBody" xml:space="preserve">
-    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+    <value>你的提醒仍会继续通知你。使用托盘图标可打开或退出。</value>
   </data>
   <data name="Settings_CloseToTray_Title" xml:space="preserve">
-    <value>Keep running in the tray when I close the window</value>
+    <value>关闭窗口后继续在托盘中运行</value>
   </data>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
-    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+    <value>窗口关闭后提醒仍会通知你。关闭此项后，关闭窗口即退出。</value>
   </data>
   <data name="Settings_StartWithWindows_Title" xml:space="preserve">
-    <value>Start Remindr when I sign in</value>
+    <value>登录时启动 Remindr</value>
   </data>
   <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
-    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+    <value>在托盘中静默启动，让你的提醒继续通知你。关闭此项则需自行启动。</value>
   </data>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
-    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+    <value>Remindr 已在运行，但没有响应。如果它正在关闭，请稍等片刻再试；否则请在任务管理器中结束它。</value>
   </data>
   <data name="Toast_AttrImportant" xml:space="preserve">
-    <value>Important</value>
+    <value>重要</value>
   </data>
   <data name="Toast_AttrOverdue" xml:space="preserve">
-    <value>Overdue</value>
+    <value>已过期</value>
   </data>
   <data name="Tray_TooltipDue_One" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · 今天到期 {0} 项</value>
   </data>
   <data name="Tray_TooltipDue_Other" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · 今天到期 {0} 项</value>
   </data>
   <data name="WhatsNew_Title" xml:space="preserve">
-    <value>What's new in Remindr {0}</value>
+    <value>Remindr {0} 的新增功能</value>
   </data>
   <data name="WhatsNew_GotIt" xml:space="preserve">
-    <value>Got it</value>
+    <value>知道了</value>
   </data>
   <data name="WhatsNew_Open" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>此版本的新增功能</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>主动找到你的提醒</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>带有“完成”“稍后提醒”和“关闭”按钮的 Windows 通知。可稍后提醒 5 分钟、1 小时或到明天。</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>重要即反复提醒</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>重要提醒会提前一天和一小时通知你，之后每 10 分钟通知一次，直到你处理为止。</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>静默持续运行</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>关闭窗口后 Remindr 会留在托盘中，通知照常送达。可通过托盘图标打开或退出。</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>随 Windows 启动</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>在“设置”中启用后，登录时 Remindr 会隐藏在托盘中启动。</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>卡片浮起，对勾弹跳，日历滑动，空白页面漂浮。关闭 Windows 动画后，一切保持静止。</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>机器翻译</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>帮助翻译</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>语言：{0}。按下可更改。</value>
   </data>
 </root>

@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Cur ry-heu</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Er-ash</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cur ass</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Croo</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Scrios</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Reaghey</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Ass</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Er</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Sauail</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Jiu</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Ard-ennym</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Laa-ennym</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Traa</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Noteyn</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Rolley</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Pictyr</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Ymmydoil</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Jiu</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalandar</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Ooilley ny cooinaghtynyn</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Pròfeil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Reaghyn</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Caghlaa pròfeil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Follee ny soilshaghey y chlaare-lhiattee</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Caghlaa claare-lhiattee</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Moghrey mie</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Moghrey mie, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Laa mie</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Laa mie, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Fastyr mie</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Fastyr mie, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Cha vel nhee jiu</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Nee cooinaghtynyn son jiu soilshaghey ayns shoh.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Cooinaghtyn noa</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Cooinaghtyn noa (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Anmooin</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Jiu</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Mairagh</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Jeant</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Ooilley yn laa</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Jean: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Soiagh myr ymmydoil</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Reaghey cooinaghtyn</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Scrios cooinaghtyn</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} foshlit, {1} jeant</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Cha vel cooinaghtynyn foast</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Cur ry-heu dty chied chooinaghtyn as nee eh soilshaghey ayns shoh, ny-whaaue lieh y laa-ennym.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Cooinaghtyn noa (duillag follym)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Cooinaghtynyn jeant</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Mee</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Shiaghtin</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Clar</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Garaghtyn y vee</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Garaghtyn y hiaghtin</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Garaghtyn y chlaar</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Roie</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Ayns</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Gow gys jiu</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Cooinaghtyn noa er y laa reiht</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Cha vel nhee er-bun son y laa shoh.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Cha vel nhee ry-heet</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Cha vel cooinaghtynyn ayns ny {0} laaghyn ry-heet.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Cooinaghtyn noa (clar follym)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Grid y vee. Ta ny keayn-eddyr caghlaa y laa reiht, Enter cur cooinaghtyn ry-heu.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Jiu · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Mairagh · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Ny {0} laaghyn ry-heet veih {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Cooinaghtynyn erbee</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} chooinaghtyn</value>
+  </data>
+  <data name="Calendar_DayCaption_Two" xml:space="preserve">
+    <value>{0} chooinaghtyn</value>
+  </data>
+  <data name="Calendar_DayCaption_Few" xml:space="preserve">
+    <value>{0} cooinaghtyn</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} cooinaghtyn</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, ymmydoil</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>cooinaghtynyn erbee</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} chooinaghtyn</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Two" xml:space="preserve">
+    <value>{0} chooinaghtyn</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Few" xml:space="preserve">
+    <value>{0} cooinaghtyn</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} cooinaghtyn</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Cooinaghtyn gyn rolley</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Cooinaghtyn lesh rolley</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Cooinaghtyn noa</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Reaghey cooinaghtyn</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Cre te ghowin er cooinaghtyn?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Gyn ymmyd</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Soilshaghey badge jiarg ! dy vod eh ve er-lheh.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Pictyr erbee</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Cur pictyr ry-heu</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Pictyr: {0}. Caghlaa pictyr</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Cur stiagh ard-ennym.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Cha dod yn ard-ennym ve ny smoo na {0} caractyr.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Reih laa-ennym.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Cur stiagh traa goll {0}, ny cur er Ooilley yn laa.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Scrios cooinaghtyn?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>Bee "{0}" scriosit son dy bragh. Cha vod shoh ve rieauit.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Veg</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Pròfeil noa</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Reaghey pròfeil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Caghlaa pictyr</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Ennym</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Ennym pròfeil</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Dath</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Recaid avatar</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (gyn ymmyd)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Freayl yn PIN jiu</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Cur stiagh ennym.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Cha dod yn ennym ve ny smoo na {0} caractyr.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Cur stiagh un caractyr son yn avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>Shegin da'n PIN ve kiart 4 nummeyryn.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Cha dod oo scrios y pròfeil shoh</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Shegin da lhiandoo un pròfeil ve ayn. Croo pròfeil elley ayns y chied ynnyd my sailt oo shoh y scrios.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Scrios "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Nee shoh y pròfeil "{0}" y scrios son dy bragh marish ooilley ny cooinaghtynyn as rolleyn echey. Cha vod shoh ve rieauit.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Soie PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Caghlaa PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Cur ersooyl PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Reih PIN 4-nummeyr. Bee eh feeu ort dy foshley y pròfeil shoh.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Cur stiagh dty PIN jiu, as reih fer noa.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Cur stiagh dty PIN jiu dy chur y chlyst ersooyl.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN jiu</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN noa 4-nummeyr</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Reayrt PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Reayrt PIN noa</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Cha nel yn PIN jiu kiart. Gow rish reesht.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Cha nel ny daa PIN gollrish.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>Ta yn PIN screen cooyl-dty-hene dy chooilley ghooinney, cha nel eh shickyrys lajer.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Ooilley</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Shirrey pictyryn</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Cha vel pictyryn rere.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Pobble</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Lught-thie as ruillaghyn</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Bwoaillee</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasee as gaue</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Bee</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Nadur</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Spoyrt as imman</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Reddyn</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Skee</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Obbyr</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Slaynt</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Dhie</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Argid</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Turrys</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Greeishyn</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Spoyrt</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Reih pictyr</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Pictyryn</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Dty pictyr hene…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Dty pictyr hene</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Jean ymmyd jeh PNG ny JPG veih dty choonceptagh</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Recaid er-lheh</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Soilshaghey y recaid daathit ayns ynnyd pictyr</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Cha dod yn coadan shoh ve lhiastit myr pictyr PNG ny JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Quoi ta jannoo ymmyd jeh Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Reih dty phròfeil dy lhiassaghey</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Cur pròfeil ry-heu</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Ymmydit sodjey er dy-yerrey</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Crooit lesh PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Reaghey ny scrios</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Er-ash gys y phròfeil jiu (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Foshil</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Cur stiagh dty PIN 4-nummeyr</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Cur stiagh PIN y phròfeil shoh dy reaghey ny scrios eh</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Cha nel yn PIN kiart. Gow rish reesht.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Cummey</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Theme yn chlaare</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Reih Soilshey, Dorraghey, ny jean lhiggey Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Cuspyr</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Soilshey</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Dorraghey</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Co-hirrey</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Chengey</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Reih y chengey ayn t'er Remindr ve soilshit. Ta'n caghlaa gobbraghey dy tappee.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Chengey</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Va'n çhengaghyn jeant lesh jeinaght; ta kiarail dy-vie-ghoillagh.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Cur-stiagh kiarail</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Çhengaghey jeinaght</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Cooney lesh çhengaghey</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Chengey: {0}. Gow er dy chaghlaa.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Pròfeil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Çhyndaa-stiagh myr {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Caghlaa gys pròfeil elley, ny caghlaa ennym, dath as pictyr y phròfeil shoh.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Caghlaa pictyr</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Caghlaa pròfeil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Clyst PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Clyst PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Ta PIN 4-nummeyr cummal ass shennoo-sheeagh ass y phròfeil shoh. Ta eh screen cooyl-dty-hene, cha nel shickyrys lajer.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Cooney as ymmoddee</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Fuair oo doilleeid ny smooinaght?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Ta ripoortyn foshlit er GitHub lesh dty Remindr as Windows ynrican. Cha nel nhee elley currit.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Cur-stiagh doilleeid</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Cur-stiagh ard-obbyr</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Foshil coonceeyn lioar-lhiasaghey</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Mychione</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Kuse {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Jeeagh er GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Fockleyn mychione trooid-chiarey</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Hie nhee dy-cha-chiart: {0}
+
+Va'n fysseree sauailt gys %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Va'n fysseree sauailt gys %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Failt gys Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Gow er key erbee ny cliogh dy ostey</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Ostey</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Reayrt failt</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Soie Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Cheet-er-e-hoshiaght yn soiaghey</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Kay {0} jeh {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Ayns</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Lhiettrimmey</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Reih dty chengey</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Ta'n clay caghlaa dy tappee. Foddee oo caghlaa eh ec traa erbee ayns Reaghyn.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Shirrey çhengaghyn</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Cha vel çhengaghyn rere.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Reih dty chummey</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Soilshey, Dorraghey, ny jean lhiggey Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Dty phròfeil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Cur ry-heu dty ennym, dath as pictyr.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Cur PIN ry-heu?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Gyn ymmyd. Ta PIN 4-nummeyr freayl y phròfeil shoh cooyl.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Ta ooilley ullee, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Foddee oo caghlaa ooilley shoh ny-sodjey ayns Reaghyn.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Ostey ymmyd jeh Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Cur my chied chooinaghtyn ry-heu</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Skee</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Obbyr</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Persoonagh</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Cre ta noa</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Ny sodjey</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Lhiettrimmey yn lhieggan shoh</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Gow rish reesht</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Dooney yn lioar-taaghey…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Cha row y jeeaghyn rere rish y checksum echey, shen-y-fa va eh scriosit as cha row nhee currit stiagh.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Cha dod yn noa-lhiassaghey ve jeant. Gow rish reesht ny sodjey.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Noa-lhiassaghyn</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Jeeagh son noa-lhiassaghyn tra ta Remindr goaill toshiaght</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Cha nel eh cur GitHub ynrican dy chaghlaa earishyn; cha nel nhee mychione oo currit.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Jeeagh son noa-lhiassaghyn</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Jeeaghey…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Ayns-earroo · jeeaghit {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} ry-gheddyn</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Cha dod mayd jeeaghey son noa-lhiassaghyn</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Noa-lhiassaghey ry-gheddyn</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · ta {1} ayd</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Noa-lhiassaghey</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Cur neose… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Cur ass</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Ullee dy cur stiagh</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Ostey reesht as noa-lhiassaghey</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Ayns 1 laa</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Ayns 1 oor</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Nish</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Foast dy yannoo</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Ta'n chaa fo-ghooinney jeant</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - anmooin</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Jean</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Fo-ghooinney</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Cur ersooyl</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minnidyn</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 oor</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Mairagh</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Fysseree prowal</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Shoh sampleyr, shen-y-fa cha jean ny cappanyn nhee. Cur cooinaghtyn ry-heu, eisht cur prowal reesht dy hoiggal ad.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Fysseree</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Cur fysseree prowal</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Soilshaghey fysseree son dty chooinaghtyn ry-heet dy hoiggal ny cappanyn.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Cur prowal</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Foshil</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Cur ry-heu dy tappee</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Scuirr</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Ta Remindr foast gobbraghey ayns y chlaare-lhiattee</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Nee dty chooinaghtynyn lhiasaghey foast. Ymmyd yn ikon dy hoshley ny scuirr.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Lhiggey dy gobbraghey ayns y tray tra ta'n uinnag dooint</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Ta cooinaghtynyn foast lhiasaghey choud's ta'n uinnag dooint. Cur ersooyl dy scuirr tra ta eh dooint.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Ostey Remindr tra ta mee çhyndaa-stiagh</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Ta eh goaill toshiaght dy ching ayns y chlaare-lhiattee dy vod dty chooinaghtynyn lhiasaghey foast. Cur ersooyl dy ostey eh hene.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Ta Remindr gobbraghey dy hannah agh cha nel eh freggyrt. My ta eh dooney, ynrick eddyr veg as gow rish reesht; mannagh nee, jean eh dooney ayns Rheamagh Obbraghyn.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Ymmydoil</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Anmooin</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} jiu</value>
+  </data>
+  <data name="Tray_TooltipDue_Two" xml:space="preserve">
+    <value>Remindr · {0} jiu</value>
+  </data>
+  <data name="Tray_TooltipDue_Few" xml:space="preserve">
+    <value>Remindr · {0} jiu</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} jiu</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Cre ta noa ayns Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Hoig mee</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Cre ta noa ayns yn lhieggan shoh</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Cooinaghtynyn ta geddyn oo</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Fysseree Windows lesh cappanyn Jean, Fo-ghooinney as Cur ersooyl. Fo-ghooinney son 5 minnidyn, oor, ny gys mairagh.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Ymmydoil ta ny hrean</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Ta cooinaghtynyn ymmydoil fysseree oo laa as oor roish, eisht dy chooilley 10 minnidyn derrey t'ou jannoo nhee.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Cooishagh dy ching</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Dooin yn uinnag as ta Remindr fuirraghtyn ayns y chlaare-lhiattee, dy vod fysseree cheet foast. Foshil ny scuirr eh veih'n ikon.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Goaill toshiaght lesh Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Cur eh er ayns Reaghyn as ta Remindr goaill toshiaght follit ayns y chlaare-lhiattee tra t'ou çhyndaa-stiagh.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Ta cartyn gooyn, ticks lhiassaghey, ta'n kalandar crooghey as ta duillagyn follym shooyl. Lesh animaghyn Windows ass, ta ooilley kiaull.</value>
+  </data>
+</root>

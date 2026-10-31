@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Agiuntar</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Enavos</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Interrumper</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Stizzar</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Modifitgar</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Deactivà</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Activà</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Memorisar</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Oz</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Ura</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notizias</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Maletg</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Impurtant</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Oz</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Chalender</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Tut ils regords</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Midar il profil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Serrar u avrir la bara laterala</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Midar la bara laterala</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Bun di</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Bun di, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Buna damaun</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Buna damaun, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Buna saira</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Buna saira, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Nagut da far oz</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Ils regords per oz cumparan qua.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Nov regord</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Nov regord (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Surpassà</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Oz</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Damaun</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Terminà</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Tut il di</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Terminar: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Marcar sco impurtant</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Modifitgar il regord</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Stizzar il regord</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} averts, {1} terminads</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Anc nagins regords</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Agiunta tes emprim regord ed el cumpara qua, grupà tenor data.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Nov regord (stadi vid)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Regords terminads</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Mais</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Emna</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Vista dal mais</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Vista da l'emna</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Vista dal program</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Anteriur</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Proxim</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Ir ad oz</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Nov regord il di tschernì</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Nagut planisà per quest di.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Nagut en vista</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Nagins regords ils proxims {0} dis.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Nov regord (program vid)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Grillia dal mais. Cun las tastas da frizza mida il di tschernì, cun Enter agiuntas in regord.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Oz · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Damaun · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Ils proxims {0} dis a partir dals {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Nagins regords</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} regord</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} regords</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, impurtant</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>nagins regords</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} regord</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} regords</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Regord senza categoria</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Regord cun categoria</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Nov regord</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Modifitgar il regord</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Co has ti da ta regurdar?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Opziunal</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Mussa in badge ross ! per che quai cuntrastia.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Nagin maletg</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Agiuntar in maletg</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Maletg: {0}. Midar il maletg</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Endatescha in titel.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Il titel dastga avair maximalmain {0} segns.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Tscherna ina data.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Endatescha ina ura sco {0} u activescha Tut il di.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Stizzar il regord?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>«{0}» vegn stizzà definitivamain. Quai na po betg vegnir revocà.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Nagina</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Nov profil</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Modifitgar il profil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Midar il maletg</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Num</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Num dal profil</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Colur</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Letra da l'avatar</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (opziunal)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Tegnair il PIN actual</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Endatescha in num.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Il num dastga avair maximalmain {0} segns.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Endatescha in sulet segn per l'avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>Il PIN sto avair exactamain 4 cifras.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Impussibel da stizzar quest profil</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Almain in profil sto exister. Crea emprim in auter profil, sch'ti vul stizzar quest.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Stizzar «{0}»?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Quai stizza definitivamain il profil «{0}» cun tut ses regords e sias categorias. Quai na po betg vegnir revocà.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Definir in PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Midar il PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Allontanar il PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Tscherna in PIN da 4 cifras. Ti en has basegn per avrir quest profil.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Endatescha tes PIN actual e tscherna lura in nov.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Endatescha tes PIN actual per deactivar la bloccada.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN actual</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Nov PIN da 4 cifras</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Repeter il PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Repeter il nov PIN</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN actual nuncorrect. Emprova danovamain.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Ils dus PINs na correspundan betg.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>Il PIN è ina protecziun da la sfera privata cunter persunas curiusas, na betg ina segirezza ferma.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Tut</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Tschertgar maletgs</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Nagins maletgs correspundents.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Persunas</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Famiglia e rollas</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Bestias</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasia e divertiment</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Mangiar</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natira</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sport e hobis</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Object</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Scola</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Lavur</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Sanadad</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Chasa</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Daners</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Viadi</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Festas</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Tscherner in maletg</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Maletgs</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Tes agen maletg…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Tes agen maletg</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Utilisar in PNG u JPG da tes computer</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Be l'inizial</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Mussar la letra colurada empè d'in maletg</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Questa datoteca n'ha betg pudì vegnir legida sco maletg PNG u JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Tgi dovra Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Tscherna tes profil per cuntinuar</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Agiuntar in profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Utilisà il davos</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Protegì cun in PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Modifitgar u stizzar</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Enavos al profil actual (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Debloccar</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Endatescha tes PIN da 4 cifras</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Endatescha il PIN da quest profil per al modifitgar u stizzar</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN nuncorrect. Emprova danovamain.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Tema da l'app</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Tscherna cler, stgir u suonda la parametrisaziun da Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Cler</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Stgir</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Tscherna la lingua en la quala Remindr vegn mussà. La midada vala immediat.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Las translaziuns èn vegnidas fatgas cun agid automatic; correcturas èn bainvegnidas.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Proponer ina correctura</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Translatà automaticamain</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Gidar a translatar</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Lingua: {0}. Smatgar per midar.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Annunzià sco {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Midar sin in auter profil u modifitgar il num, la colur e il maletg da quest profil.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Midar il maletg</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Midar il profil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Bloccada cun PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Bloccada cun PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>In PIN da 4 cifras tegna persunas curiusas ordaifer quest profil. Quai è ina protecziun da la sfera privata, na betg ina segirezza ferma.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Agid e feedback</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Chattà in problem u ina idea?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Annunzias s'avran sin GitHub, emplenidas be cun tia versiun da Remindr e da Windows. Nagut auter na vegn trametti.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Rapportar in sbagl</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Proponer ina funcziun</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Avrir l'ordinatur dals protocols</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Davart</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Licenza {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Mussar sin GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Infurmaziuns da terzas persunas</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Insatge n'è betg i bain: {0}
+
+Ils detagls èn vegnids memorisads en %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Ils detagls èn vegnids memorisads en %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Bainvegni en Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Smatga ina tasta u cliccha per cumenzar</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Cumenzar</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Mussar danovamain la bainvegni</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Configurar Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Progress da la configuraziun</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Pass {0} da {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Proxim</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Sursilir</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Tscherna tia lingua</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>L'app midada immediat. Ti pos tut ina giada midar quai en ils parameters.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Tschertgar linguas</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Nagina lingua correspundenta.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Tscherna tes aspect</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Cler, stgir u suonda la parametrisaziun da Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Tes profil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Agiunta tes num, ina colur ed in maletg.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Agiuntar in PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Opziunal. In PIN da 4 cifras tegna quest profil privat.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Tut è pront, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Ti pos midar tut quai pli tard en ils parameters.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Cumenzar ad utilisar Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Agiuntar mes emprim regord</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Scola</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Lavur</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Persunal</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Novitads</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Pli tard</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Sursilir questa versiun</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Empruvar danovamain</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Controllar la telechargiada…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>La telechargiada na correspundeva betg a sia summa da controlla, perquai è ella vegnida stizzada e nagut n'è vegnì installà.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>L'actualisaziun n'ha betg pudì vegnir telechargiada. Emprova pli tard danovamain.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Actualisaziuns</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Controllar actualisaziuns cura che Remindr cumenza</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Contactescha be GitHub per cumparegliar numers da versiun; nagut davart tai na vegn trametti.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Controllar actualisaziuns</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Controllar…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Actual · controllà {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} disponibel</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Impussibel da controllar actualisaziuns</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Actualisaziun disponibla</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · ti has {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Actualisar</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Telechargiar… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Interrumper</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Pront per installar</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Reavrir ed actualisar</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>En 1 di</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>En 1 ura</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Ussa</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Anc da far</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Il suspens è terminà</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - surpassà</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Terminar</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Repeter pli tard</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Serrar</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minutas</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 ura</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Damaun</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Notificaziun da test</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Quai è in exempel, perquai na fan ses buttuns nagut. Agiunta in regord e trametta lura danovamain in test per als empruvar.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Notificaziuns</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Trametter ina notificaziun da test</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Mussa ina notificaziun per tes proxim regord, per che ti pos empruvar ils buttuns.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Trametter test</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Avrir</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Agiuntar svelt</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Terminar</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr è anc activ en l'area da notificaziun</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Tes regords t'avisan vinavant. Utilisescha l'icona en l'area da notificaziun per avrir u terminar.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Restar activ en l'area da notificaziun cura che jau serr la fanestra</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Ils regords t'avisan vinavant, era cura che la fanestra è serrada. Deactivescha per terminar cura che ti la serras.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Aviar Remindr cura che jau m'annunzia</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Cumenza en silenzi en l'area da notificaziun, per che tes regords t'avisan vinavant. Deactivescha per l'aviar sez.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr è gia activ, ma na reagescha betg. Sch'el serra, spetga in mument ed emprova danovamain; uschiglio termina el en l'administratur da lavurs.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Impurtant</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Surpassà</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} per oz</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} per oz</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Novitads en Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Chapì</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Novitads en questa versiun</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Regords che ta chattan</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Notificaziuns da Windows cun ils buttuns Terminar, Repeter pli tard e Serrar. Repeter suenter 5 minutas, in'ura u damaun.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Impurtant vul dir insistent</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Regords impurtants t'avisan in di ed ina ura ant, lura mintga 10 minutas fin che ti reagescha.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Cuntinuescha en silenzi</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Serra la fanestra e Remindr resta en l'area da notificaziun, uschia che ils avis arrivan vinavant. Avra u termina el cun l'icona.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Cumenza cun Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Activescha quai en ils parameters e Remindr cumenza zuppà en l'area da notificaziun cura che ti t'annunzias.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Cartas s'auzan, ils segns da controlla sautan, il chalender glischa e paginas vidas flottan. Cun animaziuns da Windows deactivadas resta tut en pasch.</value>
+  </data>
+</root>

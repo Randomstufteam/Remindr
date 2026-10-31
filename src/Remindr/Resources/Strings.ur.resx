@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>شامل کریں</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>واپس</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>منسوخ کریں</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>بنائیں</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>حذف کریں</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>ترمیم</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>بند</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>آن</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>محفوظ کریں</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>آج</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>وقت</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>نوٹس</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>زمرہ</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>تصویر</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>اہم</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd، d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd، d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd، d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd، d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd، d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd، d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>آج</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>کیلنڈر</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>تمام یاد دہانیاں</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>پروفائل</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>ترتیبات</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>پروفائل تبدیل کریں</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>سائیڈ بار سمیٹیں یا پھیلائیں</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>سائیڈ بار ٹوگل کریں</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>صبح بخیر</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>صبح بخیر، {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>سہ پہر بخیر</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>سہ پہر بخیر، {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>شام بخیر</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>شام بخیر، {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>آج کچھ باقی نہیں</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>آج کی یاد دہانیاں یہاں نظر آئیں گی۔</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>نئی یاد دہانی</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>نئی یاد دہانی (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>مقررہ وقت گزر چکا</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>آج</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>کل</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>مکمل</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>سارا دن</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>مکمل کریں: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>اہم کے طور پر نشان زد کریں</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>یاد دہانی میں ترمیم کریں</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>یاد دہانی حذف کریں</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} کھلی، {1} مکمل</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>ابھی کوئی یاد دہانی نہیں</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>اپنی پہلی یاد دہانی شامل کریں، وہ تاریخ کے لحاظ سے یہاں نظر آئے گی۔</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>نئی یاد دہانی (خالی صفحہ)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>مکمل یاد دہانیاں</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>مہینہ</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>ہفتہ</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>ایجنڈا</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>مہینے کا منظر</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>ہفتے کا منظر</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>ایجنڈا منظر</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>پچھلا</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>اگلا</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>آج پر جائیں</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>منتخب دن پر نئی یاد دہانی</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>اس دن کے لیے کچھ طے نہیں۔</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>آگے کچھ نہیں</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>اگلے {0} دنوں میں کوئی یاد دہانی نہیں۔</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>نئی یاد دہانی (خالی ایجنڈا)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>مہینے کا گرڈ۔ تیر والے بٹن منتخب دن بدلتے ہیں، Enter یاد دہانی شامل کرتا ہے۔</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>آج · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>کل · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1} سے اگلے {0} دن</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>کوئی یاد دہانی نہیں</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} یاد دہانی</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} یاد دہانیاں</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}، {1}، اہم</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>کوئی یاد دہانی نہیں</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} یاد دہانی</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} یاد دہانیاں</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>بغیر زمرے کی یاد دہانی</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>زمرے والی یاد دہانی</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>نئی یاد دہانی</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>یاد دہانی میں ترمیم</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>آپ کو کیا یاد رکھنا ہے؟</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>اختیاری</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>ایک سرخ ! نشان دکھاتا ہے تاکہ یہ نمایاں رہے۔</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>کوئی تصویر نہیں</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>تصویر شامل کریں</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>تصویر: {0}۔ تصویر تبدیل کریں</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>عنوان درج کریں۔</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>عنوان زیادہ سے زیادہ {0} حروف کا ہو۔</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>تاریخ منتخب کریں۔</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>{0} جیسا وقت درج کریں یا «سارا دن» آن کریں۔</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>یاد دہانی حذف کریں؟</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>«{0}» ہمیشہ کے لیے حذف ہو جائے گی۔ اسے واپس نہیں لایا جا سکتا۔</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>کوئی نہیں</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>نیا پروفائل</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>پروفائل میں ترمیم</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>تصویر تبدیل کریں</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>پروفائل کا نام</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>رنگ</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>اوتار کا حرف</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (اختیاری)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>موجودہ PIN برقرار رکھیں</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>نام درج کریں۔</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>نام زیادہ سے زیادہ {0} حروف کا ہو۔</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>اوتار کے لیے ایک حرف درج کریں۔</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN بالکل 4 ہندسوں کا ہونا چاہیے۔</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>یہ پروفائل حذف نہیں ہو سکتا</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>کم از کم ایک پروفائل کا ہونا ضروری ہے۔ اسے حذف کرنا ہو تو پہلے دوسرا پروفائل بنائیں۔</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>«{0}» حذف کریں؟</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>یہ پروفائل «{0}» کو اس کی تمام یاد دہانیوں اور زمروں سمیت ہمیشہ کے لیے حذف کر دے گا۔ اسے واپس نہیں لایا جا سکتا۔</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN سیٹ کریں</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN تبدیل کریں</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN ہٹائیں</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>4 ہندسوں کا PIN منتخب کریں۔ اس پروفائل کو کھولنے کے لیے یہ درکار ہوگا۔</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>اپنا موجودہ PIN درج کریں، پھر نیا منتخب کریں۔</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>لاک بند کرنے کے لیے اپنا موجودہ PIN درج کریں۔</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>موجودہ PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>نیا 4 ہندسوں کا PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN دوبارہ درج کریں</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>نیا PIN دوبارہ درج کریں</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>موجودہ PIN غلط ہے۔ دوبارہ کوشش کریں۔</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>دونوں PIN مختلف ہیں۔</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN صرف رازداری کا پردہ ہے جو عام تاک جھانک سے بچاتا ہے، مضبوط سیکیورٹی نہیں۔</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>سب</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>تصاویر تلاش کریں</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>کوئی تصویر نہیں ملی۔</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>لوگ</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>خاندان اور کردار</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>جانور</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>خیالی اور تفریح</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>کھانا</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>قدرت</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>کھیل اور مشاغل</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>اشیا</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>اسکول</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>کام</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>صحت</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>گھر</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>پیسہ</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>سفر</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>تقریبات</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>کھیل</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>تصویر منتخب کریں</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>تصاویر</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>اپنی تصویر…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>اپنی تصویر</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>اپنے کمپیوٹر سے PNG یا JPG استعمال کریں</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>صرف پہلا حرف</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>تصویر کی جگہ رنگین حرف دکھائیں</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>یہ فائل PNG یا JPG تصویر کے طور پر نہیں پڑھی جا سکی۔</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr کون استعمال کر رہا ہے؟</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>جاری رکھنے کے لیے اپنا پروفائل منتخب کریں</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>پروفائل شامل کریں</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>آخری بار استعمال</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN سے محفوظ</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>ترمیم یا حذف</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>موجودہ پروفائل پر واپس (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>کھولیں</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>اپنا 4 ہندسوں کا PIN درج کریں</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>ترمیم یا حذف کرنے کے لیے اس پروفائل کا PIN درج کریں</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN غلط ہے۔ دوبارہ کوشش کریں۔</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>ظاہری شکل</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>ایپ تھیم</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>روشن، تاریک یا اپنی Windows ترتیب کے مطابق منتخب کریں۔</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>تھیم</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>روشن</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>تاریک</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>سسٹم</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>وہ زبان منتخب کریں جس میں Remindr دکھائی دے۔ تبدیلی فوراً لاگو ہوتی ہے۔</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>ترجمے مشین کی مدد سے کیے گئے ہیں؛ اصلاح کا خیرمقدم ہے۔</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>اصلاح تجویز کریں</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>مشینی ترجمہ</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>ترجمے میں مدد کریں</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>زبان: {0}۔ تبدیل کرنے کے لیے دبائیں۔</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>پروفائل</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} کے طور پر سائن اِن</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>دوسرے پروفائل پر جائیں، یا اس پروفائل کا نام، رنگ اور تصویر بدلیں۔</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>تصویر تبدیل کریں</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>پروفائل تبدیل کریں</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN لاک</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN لاک: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 ہندسوں کا PIN اس پروفائل کو عام تاک جھانک سے بچاتا ہے۔ یہ رازداری کا پردہ ہے، مضبوط سیکیورٹی نہیں۔</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>مدد اور رائے</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>کوئی مسئلہ ملا یا کوئی خیال ہے؟</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>رپورٹیں GitHub پر کھلتی ہیں اور ان میں صرف آپ کا Remindr اور Windows ورژن بھرا ہوتا ہے۔ اور کچھ نہیں بھیجا جاتا۔</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>خرابی کی اطلاع دیں</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>نئی خصوصیت تجویز کریں</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>لاگ فولڈر کھولیں</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>تعارف</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} لائسنس</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub پر دیکھیں</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>تھرڈ پارٹی نوٹسز</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>کچھ غلط ہو گیا: {0}
+
+تفصیلات %AppData%\Remindr\error.log میں محفوظ کر دی گئیں</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+تفصیلات %AppData%\Remindr\error.log میں محفوظ کر دی گئیں</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr میں خوش آمدید</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>شروع کرنے کے لیے کوئی بھی بٹن دبائیں یا کلک کریں</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>شروع کریں</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>خیرمقدم دوبارہ دکھائیں</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr سیٹ اپ کریں</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>سیٹ اپ کی پیش رفت</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>مرحلہ {0} از {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>اگلا</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>چھوڑیں</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>اپنی زبان منتخب کریں</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>ایپ فوراً بدل جاتی ہے۔ آپ اسے کسی بھی وقت ترتیبات میں بدل سکتے ہیں۔</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>زبانیں تلاش کریں</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>کوئی زبان نہیں ملی۔</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>اپنی پسند کی شکل چنیں</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>روشن، تاریک یا اپنی Windows ترتیب کے مطابق۔</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>آپ کا پروفائل</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>اپنا نام، رنگ اور تصویر شامل کریں۔</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN شامل کریں؟</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>اختیاری۔ 4 ہندسوں کا PIN اس پروفائل کو نجی رکھتا ہے۔</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>سب تیار ہے، {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>یہ سب کچھ آپ بعد میں ترتیبات میں بدل سکتے ہیں۔</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr استعمال کرنا شروع کریں</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>میری پہلی یاد دہانی شامل کریں</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>اسکول</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>کام</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>ذاتی</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>نیا کیا ہے</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>بعد میں</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>یہ ورژن چھوڑ دیں</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>دوبارہ کوشش کریں</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>ڈاؤن لوڈ کی جانچ ہو رہی ہے…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ڈاؤن لوڈ اپنے چیک سم سے میل نہیں کھایا، اس لیے حذف کر دیا گیا اور کچھ انسٹال نہیں ہوا۔</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>اپ ڈیٹ ڈاؤن لوڈ نہیں ہو سکی۔ براہِ کرم بعد میں دوبارہ کوشش کریں۔</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>اپ ڈیٹس</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr شروع ہونے پر اپ ڈیٹس چیک کریں</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>صرف ورژن نمبروں کے موازنے کے لیے GitHub سے رابطہ ہوتا ہے؛ آپ کے بارے میں کچھ نہیں بھیجا جاتا۔</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>اپ ڈیٹس چیک کریں</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>جانچ ہو رہی ہے…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>تازہ ترین · چیک کیا گیا {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} دستیاب ہے</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>اپ ڈیٹس چیک نہیں ہو سکیں</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>اپ ڈیٹ دستیاب ہے</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · آپ کے پاس {1} ہے</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>اپ ڈیٹ کریں</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>ڈاؤن لوڈ ہو رہی ہے… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>منسوخ کریں</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>انسٹال کے لیے تیار</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>دوبارہ شروع کریں اور اپ ڈیٹ کریں</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 دن بعد</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 گھنٹے بعد</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>ابھی</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>ابھی باقی ہے</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>مہلت ختم</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - وقت گزر چکا</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>مکمل کریں</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>مؤخر کریں</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>مسترد کریں</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 منٹ</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 گھنٹہ</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>کل</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>آزمائشی اطلاع</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>یہ ایک نمونہ ہے، اس لیے اس کے بٹن کچھ نہیں کرتے۔ یاد دہانی شامل کریں، پھر انہیں آزمانے کے لیے دوبارہ ٹیسٹ بھیجیں۔</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>اطلاعات</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>آزمائشی اطلاع بھیجیں</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>آپ کی اگلی یاد دہانی کی اطلاع دکھاتا ہے تاکہ آپ بٹن آزما سکیں۔</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>ٹیسٹ بھیجیں</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>کھولیں</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>فوری اضافہ</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>باہر نکلیں</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr اب بھی سسٹم ٹرے میں چل رہا ہے</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>آپ کی یاد دہانیاں آپ کو اطلاع دیتی رہیں گی۔ کھولنے یا بند کرنے کے لیے ٹرے آئیکن استعمال کریں۔</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>ونڈو بند کرنے پر سسٹم ٹرے میں چلتا رہے</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>ونڈو بند ہونے پر بھی یاد دہانیاں اطلاع دیتی رہتی ہیں۔ بند کرتے وقت باہر نکلنے کے لیے اسے بند کریں۔</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>سائن اِن کرنے پر Remindr شروع کریں</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>خاموشی سے سسٹم ٹرے میں شروع ہوتا ہے تاکہ یاد دہانیاں اطلاع دیتی رہیں۔ خود شروع کرنے کے لیے اسے بند کریں۔</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr پہلے سے چل رہا ہے مگر جواب نہیں دے رہا۔ اگر یہ بند ہو رہا ہے تو ذرا انتظار کر کے دوبارہ کوشش کریں؛ ورنہ اسے Task Manager میں بند کریں۔</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>اہم</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>مقررہ وقت گزر چکا</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · آج {0} یاد دہانی</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · آج {0} یاد دہانیاں</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0} میں نیا کیا ہے</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>سمجھ گیا</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>اس ورژن میں نیا کیا ہے</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>یاد دہانیاں جو آپ تک پہنچیں</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows اطلاعات، مکمل کریں، مؤخر کریں اور مسترد کریں بٹنوں کے ساتھ۔ 5 منٹ، ایک گھنٹے یا کل تک مؤخر کریں۔</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>اہم کا مطلب ہے بار بار یاد دلانا</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>اہم یاد دہانیاں ایک دن اور ایک گھنٹہ پہلے اطلاع دیتی ہیں، پھر ہر 10 منٹ بعد، جب تک آپ ان پر عمل نہ کریں۔</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>خاموشی سے چلتا رہتا ہے</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>ونڈو بند کریں تو Remindr ٹرے میں رہتا ہے، اس لیے اطلاعات پھر بھی ملتی ہیں۔ ٹرے آئیکن سے اسے کھولیں یا بند کریں۔</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows کے ساتھ شروع ہوتا ہے</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>ترتیبات میں اسے آن کریں تو سائن اِن کرنے پر Remindr چھپا ہوا ٹرے میں شروع ہو جاتا ہے۔</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>کارڈ اوپر اٹھتے ہیں، ٹک اچھلتے ہیں، کیلنڈر سرکتا ہے اور خالی صفحے تیرتے ہیں۔ Windows اینیمیشنز بند ہوں تو سب کچھ ساکن رہتا ہے۔</value>
+  </data>
+</root>

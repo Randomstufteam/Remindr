@@ -756,6 +756,18 @@
     <value>Suggest a correction</value>
     <comment>Link text that opens a GitHub form.</comment>
   </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Machine-translated</value>
+    <comment>Small tag beside a language in the picker: its text was produced by machine translation and no native speaker has checked it. Keep it short.</comment>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Help translate</value>
+    <comment>Button in the language picker that opens a GitHub form to improve the translation.</comment>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Language: {0}. Press to change.</value>
+    <comment>Screen-reader name of the Settings button that opens the language picker. {0} is the current language written in itself, e.g. Deutsch.</comment>
+  </data>
   <data name="Settings_Profile" xml:space="preserve">
     <value>Profile</value>
     <comment>Section heading.</comment>

@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>დამატება</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>უკან</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>გაუქმება</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>შექმნა</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>წაშლა</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>რედაქტირება</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>გამორთულია</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>ჩართულია</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>შენახვა</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>დღეს</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>სათაური</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>თარიღი</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>დრო</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>შენიშვნები</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>კატეგორია</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>სურათი</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>მნიშვნელოვანი</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM, yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM, yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM, yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM, yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM, yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM, yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM, yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>დღეს</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>კალენდარი</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>ყველა შეხსენება</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>პროფილი</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>პარამეტრები</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>პროფილის გამოცვლა</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>გვერდითი პანელის ჩაკეცვა ან გაშლა</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>გვერდითი პანელის გადართვა</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>დილა მშვიდობისა</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>დილა მშვიდობისა, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>დღე მშვიდობისა</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>დღე მშვიდობისა, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>საღამო მშვიდობისა</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>საღამო მშვიდობისა, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>დღეს არაფერია</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>დღევანდელი შეხსენებები აქ გამოჩნდება.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>ახალი შეხსენება</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>ახალი შეხსენება (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>ვადაგადაცილებული</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>დღეს</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>ხვალ</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>დასრულებული</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>მთელი დღე</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>დასრულება: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>მნიშვნელოვნად მონიშვნა</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>შეხსენების რედაქტირება</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>შეხსენების წაშლა</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} ღია, {1} დასრულებული</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>შეხსენებები ჯერ არ არის</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>დაამატეთ პირველი შეხსენება და ის აქ გამოჩნდება, თარიღების მიხედვით დაჯგუფებული.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>ახალი შეხსენება (ცარიელი მდგომარეობა)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>დასრულებული შეხსენებები</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>თვე</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>კვირა</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>გეგმა</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>თვის ხედი</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>კვირის ხედი</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>გეგმის ხედი</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>წინა</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>შემდეგი</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>დღევანდელ დღეზე გადასვლა</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>ახალი შეხსენება არჩეული დღისთვის</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>ამ დღისთვის არაფერია დაგეგმილი.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>მალე არაფერია</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>მომდევნო {0} დღეში შეხსენებები არ არის.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>ახალი შეხსენება (ცარიელი გეგმა)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>თვის ბადე. ისრის კლავიშებით იცვლება დღე, Enter-ით ემატება შეხსენება.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>დღეს — {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>ხვალ — {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>მომდევნო {0} დღე {1}-დან</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>შეხსენებები არ არის</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} შეხსენება</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} შეხსენება</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, მნიშვნელოვანი</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>შეხსენებები არ არის</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} შეხსენება</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} შეხსენება</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>კატეგორიის გარეშე შეხსენება</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>კატეგორიიანი შეხსენება</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>ახალი შეხსენება</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>შეხსენების რედაქტირება</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>რა უნდა გახსოვდეთ?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>არასავალდებულო</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>აჩვენებს წითელ ! ნიშანს, რომ გამოირჩეოდეს.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>სურათის გარეშე</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>სურათის დამატება</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>სურათი: {0}. სურათის შეცვლა</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>შეიყვანეთ სათაური.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>სათაური არ უნდა აღემატებოდეს {0} სიმბოლოს.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>აირჩიეთ თარიღი.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>შეიყვანეთ დრო, მაგალითად {0}, ან ჩართეთ «მთელი დღე».</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>წაიშალოს შეხსენება?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" სამუდამოდ წაიშლება. ამის გაუქმება შეუძლებელია.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>არცერთი</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>ახალი პროფილი</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>პროფილის რედაქტირება</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>სურათის შეცვლა</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>სახელი</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>პროფილის სახელი</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>ფერი</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>ავატარის ასო</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (არასავალდებულო)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>მიმდინარე PIN-ის შენარჩუნება</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>შეიყვანეთ სახელი.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>სახელი არ უნდა აღემატებოდეს {0} სიმბოლოს.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>ავატარისთვის შეიყვანეთ ერთი სიმბოლო.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN ზუსტად 4 ციფრისგან უნდა შედგებოდეს.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>ამ პროფილის წაშლა შეუძლებელია</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>ერთი პროფილი მაინც უნდა არსებობდეს. თუ ამის წაშლა გსურთ, ჯერ შექმენით სხვა პროფილი.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>წაიშალოს „{0}“?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>პროფილი „{0}“ თავისი ყველა შეხსენებითა და კატეგორიით სამუდამოდ წაიშლება. ამის გაუქმება შეუძლებელია.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN-ის დაყენება</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN-ის შეცვლა</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN-ის მოხსნა</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>აირჩიეთ 4-ციფრიანი PIN. ის დაგჭირდებათ ამ პროფილის გასახსნელად.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>შეიყვანეთ მიმდინარე PIN, შემდეგ აირჩიეთ ახალი.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>ჩაკეტვის გამოსართავად შეიყვანეთ მიმდინარე PIN.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>მიმდინარე PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>ახალი 4-ციფრიანი PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>გაიმეორეთ PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>გაიმეორეთ ახალი PIN</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>მიმდინარე PIN არასწორია. სცადეთ თავიდან.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>ორი PIN არ ემთხვევა.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN კონფიდენციალურობის ეკრანია შემთხვევითი დამკვირვებლებისგან დასაცავად და არა სერიოზული უსაფრთხოება.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>ყველა</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>სურათების ძებნა</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>შესაბამისი სურათი არ მოიძებნა.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>ადამიანები</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>ოჯახი და როლები</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>ცხოველები</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>ფანტაზია და გართობა</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>საკვები</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>ბუნება</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>სპორტი და ჰობი</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>ნივთები</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>სკოლა</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>სამსახური</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>ჯანმრთელობა</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>სახლი</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>ფული</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>მოგზაურობა</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>დღესასწაულები</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>სპორტი</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>აირჩიეთ სურათი</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>სურათები</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>თქვენი საკუთარი სურათი.</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>თქვენი საკუთარი სურათი</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>გამოიყენეთ PNG ან JPG თქვენი კომპიუტერიდან</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>მხოლოდ ასო</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>სურათის ნაცვლად ფერადი ასოს ჩვენება</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>ამ ფაილის PNG ან JPG სურათად წაკითხვა ვერ მოხერხდა.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>ვინ იყენებს Remindr-ს?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>გასაგრძელებლად აირჩიეთ თქვენი პროფილი</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>პროფილის დამატება</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>ბოლოს გამოყენებული</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>დაცულია PIN-ით</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>რედაქტირება ან წაშლა</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>მიმდინარე პროფილზე დაბრუნება (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>გახსნა</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>შეიყვანეთ თქვენი 4-ციფრიანი PIN</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>რედაქტირებისთვის ან წასაშლელად შეიყვანეთ ამ პროფილის PIN</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN არასწორია. სცადეთ თავიდან.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>იერსახე</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>აპლიკაციის თემა</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>აირჩიეთ ნათელი, მუქი ან მიჰყევით Windows-ის პარამეტრს.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>თემა</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>ნათელი</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>მუქი</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>სისტემური</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>ენა</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>აირჩიეთ ენა, რომლითაც Remindr გამოჩნდება. ცვლილება მაშინვე ამოქმედდება.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>ენა</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>თარგმანები მანქანური დახმარებით შესრულდა; შესწორებები მისასალმებელია.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>შესწორების შეთავაზება</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>მანქანური თარგმანი</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>დაგვეხმარეთ თარგმნაში</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>ენა: {0}. შესაცვლელად დააჭირეთ.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>პროფილი</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>შესულია როგორც {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>გადადით სხვა პროფილზე ან შეცვალეთ ამ პროფილის სახელი, ფერი და სურათი.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>სურათის შეცვლა</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>პროფილის გამოცვლა</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN ჩაკეტვა</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN ჩაკეტვა: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4-ციფრიანი PIN შემთხვევით დამკვირვებლებს ამ პროფილისგან აშორებს. ეს კონფიდენციალურობის ეკრანია და არა სერიოზული უსაფრთხოება.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>დახმარება და უკუკავშირი</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>იპოვეთ პრობლემა ან გაქვთ იდეა?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>შეტყობინებები იხსნება GitHub-ზე, სადაც შევსებულია მხოლოდ თქვენი Remindr-ის და Windows-ის ვერსია. სხვა არაფერი იგზავნება.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>შეცდომის შეტყობინება</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>ფუნქციის შეთავაზება</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>ჟურნალის საქაღალდის გახსნა</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>შესახებ</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} ლიცენზია</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub-ზე ნახვა</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>მესამე მხარის შეტყობინებები</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>რაღაც არასწორად წავიდა: {0}
+
+დეტალები შენახულია %AppData%\Remindr\error.log ფაილში</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+დეტალები შენახულია %AppData%\Remindr\error.log ფაილში</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>კეთილი იყოს თქვენი მობრძანება Remindr-ში</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>დასაწყებად დააჭირეთ ნებისმიერ კლავიშს ან დააწკაპუნეთ</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>დაწყება</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>მისალმების გამეორება</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr-ის დაყენება</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>დაყენების პროგრესი</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>ნაბიჯი {0}/{1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>შემდეგი</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>გამოტოვება</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>აირჩიეთ თქვენი ენა</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>აპლიკაცია მაშინვე გადაირთვება. მოგვიანებით ნებისმიერ დროს შეგიძლიათ შეცვალოთ პარამეტრებში.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>ენების ძებნა</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>შესაბამისი ენა არ მოიძებნა.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>აირჩიეთ იერსახე</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>ნათელი, მუქი ან Windows-ის პარამეტრის მიხედვით.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>თქვენი პროფილი</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>დაამატეთ სახელი, ფერი და სურათი.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>დაემატოს PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>არასავალდებულო. 4-ციფრიანი PIN ამ პროფილს კერძოდ ინახავს.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>ყველაფერი მზადაა, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>ამ ყველაფრის შეცვლა მოგვიანებით პარამეტრებშიც შეგიძლიათ.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr-ის გამოყენების დაწყება</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>ჩემი პირველი შეხსენების დამატება</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>სკოლა</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>სამსახური</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>პირადი</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>სიახლეები</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>მოგვიანებით</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>ამ ვერსიის გამოტოვება</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>თავიდან ცდა</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>მიმდინარეობს ჩამოტვირთვის შემოწმება.</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ჩამოტვირთული ფაილი საკონტროლო ჯამს არ დაემთხვა, ამიტომ წაიშალა და არაფერი დაინსტალირდა.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>განახლების ჩამოტვირთვა ვერ მოხერხდა. სცადეთ მოგვიანებით.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>განახლებები</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>განახლებების შემოწმება Remindr-ის გაშვებისას</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>GitHub-თან მხოლოდ ვერსიის ნომრების შესადარებლად ხდება დაკავშირება; თქვენს შესახებ არაფერი იგზავნება.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>განახლებების შემოწმება</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>მიმდინარეობს შემოწმება.</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>განახლებულია — შემოწმდა {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>ხელმისაწვდომია {0}</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>განახლებების შემოწმება ვერ მოხერხდა</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>ხელმისაწვდომია განახლება</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} — თქვენ გაქვთ {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>განახლება</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>მიმდინარეობს ჩამოტვირთვა. {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>გაუქმება</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>მზადაა დასაინსტალირებლად</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>გადატვირთვა და განახლება</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 დღეში</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 საათში</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>ახლა</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>ჯერ კიდევ გასაკეთებელია</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>გადადების დრო ამოიწურა</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - ვადაგადაცილებული</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>დასრულება</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>გადადება</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>დახურვა</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 წუთი</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 საათი</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>ხვალ</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>სატესტო შეტყობინება</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>ეს ნიმუშია, ამიტომ მისი ღილაკები არაფერს აკეთებს. დაამატეთ შეხსენება და ღილაკების გასაცდელად თავიდან გააგზავნეთ ტესტი.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>შეტყობინებები</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>სატესტო შეტყობინების გაგზავნა</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>აჩვენებს თქვენი შემდეგი შეხსენების შეტყობინებას, რათა ღილაკები გამოსცადოთ.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>ტესტის გაგზავნა</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>გახსნა</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>სწრაფი დამატება</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>გასვლა</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr კვლავ მუშაობს სისტემურ უჯრაში</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>თქვენი შეხსენებები კვლავ გაგაფრთხილებთ. გასახსნელად ან გასასვლელად გამოიყენეთ უჯრის ხატულა.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>ფანჯრის დახურვისას სისტემურ უჯრაში მუშაობის გაგრძელება</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>შეხსენებები გაგაფრთხილებთ ფანჯრის დახურვის შემდეგაც. გამორთეთ, თუ გსურთ დახურვისას გასვლა.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Remindr-ის გაშვება სისტემაში შესვლისას</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>ჩუმად ეშვება სისტემურ უჯრაში, რათა შეხსენებებმა გაგაფრთხილოთ. გამორთეთ, თუ გსურთ თავად გაუშვათ.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr უკვე გაშვებულია, მაგრამ არ პასუხობს. თუ იხურება, ცოტა ხანს დაელოდეთ და სცადეთ თავიდან; სხვაგვარად დაასრულეთ Task Manager-ში.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>მნიშვნელოვანი</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>ვადაგადაცილებული</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · დღეს ვადა აქვს {0}-ს</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · დღეს ვადა აქვს {0}-ს</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>რა არის ახალი Remindr {0}-ში</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>გასაგებია</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>რა არის ახალი ამ ვერსიაში</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>შეხსენებები, რომლებიც თქვენ გპოულობენ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-ის შეტყობინებები ღილაკებით: დასრულება, გადადება და დახურვა. გადადეთ 5 წუთით, ერთი საათით ან ხვალამდე.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>მნიშვნელოვანი ნიშნავს, რომ მოგაგონებთ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>მნიშვნელოვანი შეხსენებები გაფრთხილებს ერთი დღით და ერთი საათით ადრე, შემდეგ კი ყოველ 10 წუთში, სანამ არ მოიქცევით.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>ჩუმად აგრძელებს მუშაობას</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>დახურეთ ფანჯარა და Remindr სისტემურ უჯრაში დარჩება, ამიტომ გაფრთხილებები მაინც მოვა. გახსენით ან გამოდით უჯრის ხატულიდან.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>იწყება Windows-თან ერთად</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>ჩართეთ პარამეტრებში და სისტემაში შესვლისას Remindr დამალული ჩაირთვება სისტემურ უჯრაში.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>ბარათები იწევა, ნიშნები ჩნდება, კალენდარი სრიალებს და ცარიელი გვერდები ტივტივებს. Windows-ის ანიმაციების გამორთვისას ყველაფერი უძრავია.</value>
+  </data>
+</root>

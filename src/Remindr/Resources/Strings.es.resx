@@ -792,108 +792,147 @@ Los detalles se guardaron en %AppData%\Remindr\error.log</value>
     <value>Reiniciar y actualizar</value>
   </data>
   <data name="Toast_Heading_Pre1Day" xml:space="preserve">
-    <value>In 1 day</value>
+    <value>En 1 día</value>
   </data>
   <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
-    <value>In 1 hour</value>
+    <value>En 1 hora</value>
   </data>
   <data name="Toast_Heading_AtTime" xml:space="preserve">
-    <value>Now</value>
+    <value>Ahora</value>
   </data>
   <data name="Toast_Heading_Nag" xml:space="preserve">
-    <value>Still to do</value>
+    <value>Aún pendiente</value>
   </data>
   <data name="Toast_Heading_Snooze" xml:space="preserve">
-    <value>Snooze is up</value>
+    <value>Terminó el aplazamiento</value>
   </data>
   <data name="Toast_HeadingOverdue" xml:space="preserve">
-    <value>{0} - overdue</value>
+    <value>{0} - vencido</value>
   </data>
   <data name="Toast_Complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>Completar</value>
   </data>
   <data name="Toast_Snooze" xml:space="preserve">
-    <value>Snooze</value>
+    <value>Posponer</value>
   </data>
   <data name="Toast_Dismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Descartar</value>
   </data>
   <data name="Toast_Snooze5" xml:space="preserve">
-    <value>5 minutes</value>
+    <value>5 minutos</value>
   </data>
   <data name="Toast_Snooze60" xml:space="preserve">
-    <value>1 hour</value>
+    <value>1 hora</value>
   </data>
   <data name="Toast_SnoozeTomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
+    <value>Mañana</value>
   </data>
   <data name="Toast_TestTitle" xml:space="preserve">
-    <value>Test notification</value>
+    <value>Notificación de prueba</value>
   </data>
   <data name="Toast_TestNotes" xml:space="preserve">
-    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <value>Esto es un ejemplo, así que sus botones no hacen nada. Añade un recordatorio y vuelve a enviar una prueba para probarlos.</value>
   </data>
   <data name="Settings_Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>Notificaciones</value>
   </data>
   <data name="Settings_TestToast_Title" xml:space="preserve">
-    <value>Send a test notification</value>
+    <value>Enviar una notificación de prueba</value>
   </data>
   <data name="Settings_TestToast_Desc" xml:space="preserve">
-    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <value>Muestra una notificación de tu próximo recordatorio para que puedas probar los botones.</value>
   </data>
   <data name="Settings_TestToast_Button" xml:space="preserve">
-    <value>Send test</value>
+    <value>Enviar prueba</value>
   </data>
   <data name="Tray_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>Abrir</value>
   </data>
   <data name="Tray_QuickAdd" xml:space="preserve">
-    <value>Quick Add</value>
+    <value>Añadir rápido</value>
   </data>
   <data name="Tray_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>Salir</value>
   </data>
   <data name="Tray_StillRunningTitle" xml:space="preserve">
-    <value>Remindr is still running in the tray</value>
+    <value>Remindr sigue en ejecución en la bandeja</value>
   </data>
   <data name="Tray_StillRunningBody" xml:space="preserve">
-    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+    <value>Tus recordatorios seguirán avisándote. Usa el icono de la bandeja para abrir o salir.</value>
   </data>
   <data name="Settings_CloseToTray_Title" xml:space="preserve">
-    <value>Keep running in the tray when I close the window</value>
+    <value>Seguir en ejecución en la bandeja al cerrar la ventana</value>
   </data>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
-    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+    <value>Los recordatorios siguen avisándote con la ventana cerrada. Desactívalo para salir al cerrarla.</value>
   </data>
   <data name="Settings_StartWithWindows_Title" xml:space="preserve">
-    <value>Start Remindr when I sign in</value>
+    <value>Iniciar Remindr al iniciar sesión</value>
   </data>
   <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
-    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+    <value>Se inicia en silencio en la bandeja para que tus recordatorios sigan avisándote. Desactívalo para iniciarlo tú.</value>
   </data>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
-    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+    <value>Remindr ya se está ejecutando, pero no responde. Si se está cerrando, espera un momento e inténtalo de nuevo; si no, finalízalo en el Administrador de tareas.</value>
   </data>
   <data name="Toast_AttrImportant" xml:space="preserve">
-    <value>Important</value>
+    <value>Importante</value>
   </data>
   <data name="Toast_AttrOverdue" xml:space="preserve">
-    <value>Overdue</value>
+    <value>Vencido</value>
   </data>
   <data name="Tray_TooltipDue_One" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} vence hoy</value>
   </data>
   <data name="Tray_TooltipDue_Other" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} vencen hoy</value>
   </data>
   <data name="WhatsNew_Title" xml:space="preserve">
-    <value>What's new in Remindr {0}</value>
+    <value>Novedades de Remindr {0}</value>
   </data>
   <data name="WhatsNew_GotIt" xml:space="preserve">
-    <value>Got it</value>
+    <value>Entendido</value>
   </data>
   <data name="WhatsNew_Open" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>Novedades de esta versión</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Recordatorios que te encuentran</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Notificaciones de Windows con botones Completar, Posponer y Descartar. Pospón 5 minutos, una hora o hasta mañana.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Importante significa insistente</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Los recordatorios importantes te avisan un día y una hora antes, y luego cada 10 minutos hasta que actúes.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Sigue en silencio</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Cierra la ventana y Remindr se queda en la bandeja, así que los avisos siguen llegando. Ábrelo o ciérralo desde el icono de la bandeja.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Se inicia con Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Actívalo en Configuración y Remindr se inicia oculto en la bandeja al iniciar sesión.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Las tarjetas se elevan, las marcas saltan, el calendario se desliza y las páginas vacías flotan. Con las animaciones de Windows desactivadas, todo permanece quieto.</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Traducción automática</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Ayuda a traducir</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Idioma: {0}. Pulsa para cambiar.</value>
   </data>
 </root>

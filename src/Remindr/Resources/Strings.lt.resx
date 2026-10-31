@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve"><value>Pridėti</value></data>
+  <data name="Common_Back" xml:space="preserve"><value>Atgal</value></data>
+  <data name="Common_Cancel" xml:space="preserve"><value>Atšaukti</value></data>
+  <data name="Common_Create" xml:space="preserve"><value>Sukurti</value></data>
+  <data name="Common_Delete" xml:space="preserve"><value>Ištrinti</value></data>
+  <data name="Common_Edit" xml:space="preserve"><value>Redaguoti</value></data>
+  <data name="Common_Ok" xml:space="preserve"><value>OK</value></data>
+  <data name="Common_Off" xml:space="preserve"><value>Išjungta</value></data>
+  <data name="Common_On" xml:space="preserve"><value>Įjungta</value></data>
+  <data name="Common_Save" xml:space="preserve"><value>Išsaugoti</value></data>
+  <data name="Common_Today" xml:space="preserve"><value>Šiandien</value></data>
+  <data name="Common_Title" xml:space="preserve"><value>Pavadinimas</value></data>
+  <data name="Common_Date" xml:space="preserve"><value>Data</value></data>
+  <data name="Common_Time" xml:space="preserve"><value>Laikas</value></data>
+  <data name="Common_Notes" xml:space="preserve"><value>Pastabos</value></data>
+  <data name="Common_Category" xml:space="preserve"><value>Kategorija</value></data>
+  <data name="Common_Picture" xml:space="preserve"><value>Paveikslėlis</value></data>
+  <data name="Common_Important" xml:space="preserve"><value>Svarbu</value></data>
+  <data name="Fmt_MonthYear" xml:space="preserve"><value>yyyy MMMM</value></data>
+  <data name="Fmt_MonthDay" xml:space="preserve"><value>MMM d</value></data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve"><value>yyyy MMM d</value></data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve"><value>yyyy MMM d</value></data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve"><value>%d</value></data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve"><value>yyyy MMM d</value></data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve"><value>MMM d</value></data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve"><value>dddd, MMM d</value></data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve"><value>dddd, yyyy MMM d</value></data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve"><value>ddd, MMM d</value></data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve"><value>ddd, yyyy MMM d</value></data>
+  <data name="Fmt_FullDate" xml:space="preserve"><value>dddd, MMMM d</value></data>
+  <data name="Fmt_FullDateYear" xml:space="preserve"><value>dddd, yyyy MMMM d</value></data>
+  <data name="Nav_Today" xml:space="preserve"><value>Šiandien</value></data>
+  <data name="Nav_Calendar" xml:space="preserve"><value>Kalendorius</value></data>
+  <data name="Nav_AllReminders" xml:space="preserve"><value>Visi priminimai</value></data>
+  <data name="Nav_Profile" xml:space="preserve"><value>Profilis</value></data>
+  <data name="Nav_Settings" xml:space="preserve"><value>Nustatymai</value></data>
+  <data name="Nav_SwitchProfile" xml:space="preserve"><value>Perjungti profilį</value></data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve"><value>Suskleisti arba išskleisti šoninę juostą</value></data>
+  <data name="Nav_ToggleName" xml:space="preserve"><value>Perjungti šoninę juostą</value></data>
+  <data name="Today_Greeting_Morning" xml:space="preserve"><value>Labas rytas</value></data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve"><value>Labas rytas, {0}</value></data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve"><value>Laba diena</value></data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve"><value>Laba diena, {0}</value></data>
+  <data name="Today_Greeting_Evening" xml:space="preserve"><value>Labas vakaras</value></data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve"><value>Labas vakaras, {0}</value></data>
+  <data name="Today_Empty_Title" xml:space="preserve"><value>Šiandien nieko nėra</value></data>
+  <data name="Today_Empty_Text" xml:space="preserve"><value>Šiandienos priminimai bus rodomi čia.</value></data>
+  <data name="Reminder_New" xml:space="preserve"><value>Naujas priminimas</value></data>
+  <data name="Reminder_NewTooltip" xml:space="preserve"><value>Naujas priminimas (Ctrl+N)</value></data>
+  <data name="Group_Overdue" xml:space="preserve"><value>Pavėluoti</value></data>
+  <data name="Group_Today" xml:space="preserve"><value>Šiandien</value></data>
+  <data name="Group_Tomorrow" xml:space="preserve"><value>Rytoj</value></data>
+  <data name="Group_Completed" xml:space="preserve"><value>Atlikti</value></data>
+  <data name="Time_AllDay" xml:space="preserve"><value>Visą dieną</value></data>
+  <data name="Card_DateAndTime" xml:space="preserve"><value>{0}, {1}</value></data>
+  <data name="Card_CompleteName" xml:space="preserve"><value>Pažymėti kaip atliktą: {0}</value></data>
+  <data name="Card_ImportantTooltip" xml:space="preserve"><value>Pažymėti kaip svarbų</value></data>
+  <data name="Card_EditName" xml:space="preserve"><value>Redaguoti priminimą</value></data>
+  <data name="Card_DeleteName" xml:space="preserve"><value>Ištrinti priminimą</value></data>
+  <data name="AllReminders_Summary" xml:space="preserve"><value>{0} neatlikta, {1} atlikta</value></data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve"><value>Priminimų dar nėra</value></data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve"><value>Pridėk pirmąjį priminimą ir jis atsiras čia, sugrupuotas pagal datą.</value></data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve"><value>Naujas priminimas (tuščias sąrašas)</value></data>
+  <data name="AllReminders_CompletedName" xml:space="preserve"><value>Atlikti priminimai</value></data>
+  <data name="Calendar_Month" xml:space="preserve"><value>Mėnuo</value></data>
+  <data name="Calendar_Week" xml:space="preserve"><value>Savaitė</value></data>
+  <data name="Calendar_Agenda" xml:space="preserve"><value>Darbotvarkė</value></data>
+  <data name="Calendar_MonthViewName" xml:space="preserve"><value>Mėnesio rodinys</value></data>
+  <data name="Calendar_WeekViewName" xml:space="preserve"><value>Savaitės rodinys</value></data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve"><value>Darbotvarkės rodinys</value></data>
+  <data name="Calendar_Previous" xml:space="preserve"><value>Ankstesnis</value></data>
+  <data name="Calendar_Next" xml:space="preserve"><value>Kitas</value></data>
+  <data name="Calendar_GoToToday" xml:space="preserve"><value>Eiti į šiandieną</value></data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve"><value>Naujas priminimas pasirinktai dienai</value></data>
+  <data name="Calendar_DayEmpty" xml:space="preserve"><value>Šiai dienai nieko neplanuota.</value></data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve"><value>Netrukus nieko nėra</value></data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve"><value>Artimiausių {0} dienų priminimų nėra.</value></data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve"><value>Naujas priminimas (tuščia darbotvarkė)</value></data>
+  <data name="Calendar_MonthGridName" xml:space="preserve"><value>Mėnesio tinklelis. Rodyklių klavišais keiti pasirinktą dieną, Enter prideda priminimą.</value></data>
+  <data name="Calendar_TodayHeading" xml:space="preserve"><value>Šiandien · {0}</value></data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve"><value>Rytoj · {0}</value></data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve"><value>{0} – {1}</value></data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve"><value>{0} – {1}</value></data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve"><value>{0} – {1}</value></data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve"><value>Kitos {0} d. nuo {1}</value></data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve"><value>Priminimų nėra</value></data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve"><value>{0} priminimas</value></data>
+  <data name="Calendar_DayCaption_Few" xml:space="preserve"><value>{0} priminimai</value></data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve"><value>{0} priminimų</value></data>
+  <data name="Calendar_DayAutomation" xml:space="preserve"><value>{0}, {1}</value></data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve"><value>{0}, {1}, svarbu</value></data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve"><value>priminimų nėra</value></data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve"><value>{0} priminimas</value></data>
+  <data name="Calendar_DayAutomationCount_Few" xml:space="preserve"><value>{0} priminimai</value></data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve"><value>{0} priminimų</value></data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve"><value>Priminimas be kategorijos</value></data>
+  <data name="Calendar_DotCategorized" xml:space="preserve"><value>Priminimas su kategorija</value></data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve"><value>Naujas priminimas</value></data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve"><value>Redaguoti priminimą</value></data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve"><value>Ką reikia prisiminti?</value></data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve"><value>Neprivaloma</value></data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve"><value>Rodo raudoną ! ženklą, kad išsiskirtų.</value></data>
+  <data name="Reminder_NoPicture" xml:space="preserve"><value>Be paveikslėlio</value></data>
+  <data name="Reminder_PictureAdd" xml:space="preserve"><value>Pridėti paveikslėlį</value></data>
+  <data name="Reminder_PictureChange" xml:space="preserve"><value>Paveikslėlis: {0}. Keisti paveikslėlį</value></data>
+  <data name="Reminder_Error_Title" xml:space="preserve"><value>Įvesk pavadinimą.</value></data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve"><value>Pavadinimas gali būti ne ilgesnis nei {0} simbolių.</value></data>
+  <data name="Reminder_Error_Date" xml:space="preserve"><value>Pasirink datą.</value></data>
+  <data name="Reminder_Error_Time" xml:space="preserve"><value>Įvesk laiką, pvz., {0}, arba įjunk „Visą dieną“.</value></data>
+  <data name="Reminder_Delete_Title" xml:space="preserve"><value>Ištrinti priminimą?</value></data>
+  <data name="Reminder_Delete_Message" xml:space="preserve"><value>„{0}“ bus ištrintas visam laikui. Šio veiksmo atšaukti negalima.</value></data>
+  <data name="Category_None" xml:space="preserve"><value>Nėra</value></data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve"><value>Naujas profilis</value></data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve"><value>Redaguoti profilį</value></data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve"><value>Keisti paveikslėlį</value></data>
+  <data name="Profile_Name" xml:space="preserve"><value>Vardas</value></data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve"><value>Profilio vardas</value></data>
+  <data name="Profile_Color" xml:space="preserve"><value>Spalva</value></data>
+  <data name="Profile_AvatarLetter" xml:space="preserve"><value>Avataro raidė</value></data>
+  <data name="Profile_PinOptional" xml:space="preserve"><value>PIN (neprivaloma)</value></data>
+  <data name="Profile_KeepPin" xml:space="preserve"><value>Palikti dabartinį PIN</value></data>
+  <data name="Profile_Error_Name" xml:space="preserve"><value>Įvesk vardą.</value></data>
+  <data name="Profile_Error_NameLength" xml:space="preserve"><value>Vardas gali būti ne ilgesnis nei {0} simbolių.</value></data>
+  <data name="Profile_Error_Initial" xml:space="preserve"><value>Avatarui įvesk vieną simbolį.</value></data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve"><value>PIN turi būti sudarytas iš lygiai 4 skaitmenų.</value></data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve"><value>Šio profilio ištrinti negalima</value></data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve"><value>Turi likti bent vienas profilis. Jei nori ištrinti šį, pirmiausia sukurk kitą profilį.</value></data>
+  <data name="Profile_Delete_Title" xml:space="preserve"><value>Ištrinti „{0}“?</value></data>
+  <data name="Profile_Delete_Message" xml:space="preserve"><value>Profilis „{0}“ bus visam laikui ištrintas kartu su visais jo priminimais ir kategorijomis. Šio veiksmo atšaukti negalima.</value></data>
+  <data name="Pin_Set" xml:space="preserve"><value>Nustatyti PIN</value></data>
+  <data name="Pin_Change" xml:space="preserve"><value>Keisti PIN</value></data>
+  <data name="Pin_Remove" xml:space="preserve"><value>Pašalinti PIN</value></data>
+  <data name="Pin_Intro_Set" xml:space="preserve"><value>Pasirink 4 skaitmenų PIN. Jo reikės šiam profiliui atidaryti.</value></data>
+  <data name="Pin_Intro_Change" xml:space="preserve"><value>Įvesk dabartinį PIN, tada pasirink naują.</value></data>
+  <data name="Pin_Intro_Remove" xml:space="preserve"><value>Įvesk dabartinį PIN, kad išjungtum užraktą.</value></data>
+  <data name="Pin_Current" xml:space="preserve"><value>Dabartinis PIN</value></data>
+  <data name="Pin_New" xml:space="preserve"><value>Naujas 4 skaitmenų PIN</value></data>
+  <data name="Pin_Repeat" xml:space="preserve"><value>Pakartok PIN</value></data>
+  <data name="Pin_RepeatNew" xml:space="preserve"><value>Pakartok naują PIN</value></data>
+  <data name="Pin_Error_Current" xml:space="preserve"><value>Dabartinis PIN neteisingas. Bandyk dar kartą.</value></data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve"><value>Abu PIN nesutampa.</value></data>
+  <data name="Pin_Note" xml:space="preserve"><value>PIN yra privatumo ekranas, saugantis nuo atsitiktinių smalsuolių, o ne stipri apsauga.</value></data>
+  <data name="Pictures_All" xml:space="preserve"><value>Visi</value></data>
+  <data name="Pictures_Search" xml:space="preserve"><value>Ieškoti paveikslėlių</value></data>
+  <data name="Pictures_NoMatch" xml:space="preserve"><value>Paveikslėlių nerasta.</value></data>
+  <data name="PictureCat_People" xml:space="preserve"><value>Žmonės</value></data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve"><value>Šeima ir vaidmenys</value></data>
+  <data name="PictureCat_Animals" xml:space="preserve"><value>Gyvūnai</value></data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve"><value>Fantazija ir linksmybės</value></data>
+  <data name="PictureCat_Food" xml:space="preserve"><value>Maistas</value></data>
+  <data name="PictureCat_Nature" xml:space="preserve"><value>Gamta</value></data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve"><value>Sportas ir pomėgiai</value></data>
+  <data name="PictureCat_Objects" xml:space="preserve"><value>Daiktai</value></data>
+  <data name="PictureCat_School" xml:space="preserve"><value>Mokykla</value></data>
+  <data name="PictureCat_Work" xml:space="preserve"><value>Darbas</value></data>
+  <data name="PictureCat_Health" xml:space="preserve"><value>Sveikata</value></data>
+  <data name="PictureCat_Home" xml:space="preserve"><value>Namai</value></data>
+  <data name="PictureCat_Money" xml:space="preserve"><value>Pinigai</value></data>
+  <data name="PictureCat_Travel" xml:space="preserve"><value>Kelionės</value></data>
+  <data name="PictureCat_Celebrations" xml:space="preserve"><value>Šventės</value></data>
+  <data name="PictureCat_Sports" xml:space="preserve"><value>Sportas</value></data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve"><value>Pasirink paveikslėlį</value></data>
+  <data name="Avatar_FileFilterName" xml:space="preserve"><value>Paveikslėliai</value></data>
+  <data name="Avatar_Upload" xml:space="preserve"><value>Tavo paveikslėlis…</value></data>
+  <data name="Avatar_UploadName" xml:space="preserve"><value>Tavo paveikslėlis</value></data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve"><value>Naudok PNG arba JPG failą iš savo kompiuterio</value></data>
+  <data name="Avatar_InitialOnly" xml:space="preserve"><value>Tik raidė</value></data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve"><value>Rodyti spalvotą raidę vietoj paveikslėlio</value></data>
+  <data name="Avatar_Error_Read" xml:space="preserve"><value>Šio failo nepavyko nuskaityti kaip PNG ar JPG paveikslėlio.</value></data>
+  <data name="Picker_Heading" xml:space="preserve"><value>Kas naudoja Remindr?</value></data>
+  <data name="Picker_Subheading" xml:space="preserve"><value>Pasirink savo profilį, kad tęstum</value></data>
+  <data name="Picker_Add" xml:space="preserve"><value>Pridėti profilį</value></data>
+  <data name="Picker_LastUsed" xml:space="preserve"><value>Paskutinį kartą naudotas</value></data>
+  <data name="Picker_LockTooltip" xml:space="preserve"><value>Apsaugota PIN</value></data>
+  <data name="Picker_MoreName" xml:space="preserve"><value>Redaguoti arba ištrinti</value></data>
+  <data name="Picker_BackTooltip" xml:space="preserve"><value>Atgal į dabartinį profilį (Esc)</value></data>
+  <data name="Picker_PinName" xml:space="preserve"><value>PIN</value></data>
+  <data name="Picker_Unlock" xml:space="preserve"><value>Atrakinti</value></data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve"><value>Įvesk savo 4 skaitmenų PIN</value></data>
+  <data name="Picker_PinPromptManage" xml:space="preserve"><value>Įvesk šio profilio PIN, kad jį redaguotum ar ištrintum</value></data>
+  <data name="Picker_PinWrong" xml:space="preserve"><value>Neteisingas PIN. Bandyk dar kartą.</value></data>
+  <data name="Settings_Appearance" xml:space="preserve"><value>Išvaizda</value></data>
+  <data name="Settings_Theme_Title" xml:space="preserve"><value>Programos tema</value></data>
+  <data name="Settings_Theme_Desc" xml:space="preserve"><value>Pasirink šviesią ar tamsią temą arba sek Windows nustatymą.</value></data>
+  <data name="Settings_Theme_Name" xml:space="preserve"><value>Tema</value></data>
+  <data name="Settings_Theme_Light" xml:space="preserve"><value>Šviesi</value></data>
+  <data name="Settings_Theme_Dark" xml:space="preserve"><value>Tamsi</value></data>
+  <data name="Settings_Theme_System" xml:space="preserve"><value>Sistemos</value></data>
+  <data name="Settings_Language_Title" xml:space="preserve"><value>Kalba</value></data>
+  <data name="Settings_Language_Desc" xml:space="preserve"><value>Pasirink kalbą, kuria rodoma Remindr. Pakeitimas pritaikomas iš karto.</value></data>
+  <data name="Settings_Language_Name" xml:space="preserve"><value>Kalbos pasirinkimas</value></data>
+  <data name="Settings_Language_Note" xml:space="preserve"><value>Vertimai atlikti mašininiu būdu; pataisymų laukiame.</value></data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve"><value>Pasiūlyti pataisymą</value></data>
+  <data name="Language_MachineTranslated" xml:space="preserve"><value>Išversta mašina</value></data>
+  <data name="Language_HelpTranslate" xml:space="preserve"><value>Padėti versti</value></data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve"><value>Kalba: {0}. Paspausk, kad pakeistum.</value></data>
+  <data name="Settings_Profile" xml:space="preserve"><value>Profilis</value></data>
+  <data name="Settings_SignedIn" xml:space="preserve"><value>Prisijungta kaip {0}</value></data>
+  <data name="Settings_Profile_Desc" xml:space="preserve"><value>Persijunk į kitą profilį arba pakeisk šio profilio vardą, spalvą ir paveikslėlį.</value></data>
+  <data name="Settings_ChangePicture" xml:space="preserve"><value>Keisti paveikslėlį</value></data>
+  <data name="Settings_SwitchProfile" xml:space="preserve"><value>Perjungti profilį</value></data>
+  <data name="Settings_PinLock" xml:space="preserve"><value>PIN užraktas</value></data>
+  <data name="Settings_PinStatus" xml:space="preserve"><value>PIN užraktas: {0}</value></data>
+  <data name="Settings_Pin_Desc" xml:space="preserve"><value>4 skaitmenų PIN apsaugo šį profilį nuo atsitiktinių smalsuolių. Tai privatumo ekranas, o ne stipri apsauga.</value></data>
+  <data name="Settings_Help" xml:space="preserve"><value>Pagalba ir atsiliepimai</value></data>
+  <data name="Settings_Help_Title" xml:space="preserve"><value>Radai problemą ar turi idėją?</value></data>
+  <data name="Settings_Help_Desc" xml:space="preserve"><value>Pranešimai atidaromi GitHub, juose nurodoma tik tavo Remindr ir Windows versija. Daugiau nieko nesiunčiama.</value></data>
+  <data name="Settings_ReportBug" xml:space="preserve"><value>Pranešti apie klaidą</value></data>
+  <data name="Settings_SuggestFeature" xml:space="preserve"><value>Pasiūlyti funkciją</value></data>
+  <data name="Settings_OpenLogs" xml:space="preserve"><value>Atidaryti žurnalų aplanką</value></data>
+  <data name="Settings_About" xml:space="preserve"><value>Apie</value></data>
+  <data name="Settings_Version" xml:space="preserve"><value>Remindr {0}</value></data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve"><value>Remind UI {0}</value></data>
+  <data name="Settings_License" xml:space="preserve"><value>{0} licencija</value></data>
+  <data name="Settings_ViewGitHub" xml:space="preserve"><value>Žiūrėti GitHub</value></data>
+  <data name="Settings_Notices" xml:space="preserve"><value>Trečiųjų šalių pranešimai</value></data>
+  <data name="Error_Unhandled" xml:space="preserve"><value>Kažkas nepavyko: {0}
+
+Išsami informacija įrašyta į %AppData%\Remindr\error.log</value></data>
+  <data name="Error_Startup" xml:space="preserve"><value>{0}
+
+Išsami informacija įrašyta į %AppData%\Remindr\error.log</value></data>
+  <data name="Welcome_Name" xml:space="preserve"><value>Sveiki atvykę į Remindr</value></data>
+  <data name="Welcome_Hint" xml:space="preserve"><value>Paspausk bet kurį klavišą arba spustelėk, kad pradėtum</value></data>
+  <data name="Welcome_GetStarted" xml:space="preserve"><value>Pradėti</value></data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve"><value>Rodyti sveikinimą dar kartą</value></data>
+  <data name="Setup_Name" xml:space="preserve"><value>Remindr sąranka</value></data>
+  <data name="Setup_Progress" xml:space="preserve"><value>Sąrankos eiga</value></data>
+  <data name="Setup_StepOf" xml:space="preserve"><value>{0} žingsnis iš {1}</value></data>
+  <data name="Setup_Next" xml:space="preserve"><value>Toliau</value></data>
+  <data name="Setup_Skip" xml:space="preserve"><value>Praleisti</value></data>
+  <data name="Setup_Language_Title" xml:space="preserve"><value>Pasirink savo kalbą</value></data>
+  <data name="Setup_Language_Desc" xml:space="preserve"><value>Programa persijungia iš karto. Bet kada gali pakeisti nustatymuose.</value></data>
+  <data name="Setup_Language_Search" xml:space="preserve"><value>Ieškoti kalbų</value></data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve"><value>Kalbų nerasta.</value></data>
+  <data name="Setup_Appearance_Title" xml:space="preserve"><value>Pasirink išvaizdą</value></data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve"><value>Šviesi, tamsi arba sek Windows nustatymą.</value></data>
+  <data name="Setup_Profile_Title" xml:space="preserve"><value>Tavo profilis</value></data>
+  <data name="Setup_Profile_Desc" xml:space="preserve"><value>Pridėk savo vardą, spalvą ir paveikslėlį.</value></data>
+  <data name="Setup_Pin_Title" xml:space="preserve"><value>Pridėti PIN?</value></data>
+  <data name="Setup_Pin_Desc" xml:space="preserve"><value>Neprivaloma. 4 skaitmenų PIN išlaiko šį profilį privatų.</value></data>
+  <data name="Setup_Done_Title" xml:space="preserve"><value>Viskas paruošta, {0}</value></data>
+  <data name="Setup_Done_Desc" xml:space="preserve"><value>Visa tai gali pakeisti vėliau nustatymuose.</value></data>
+  <data name="Setup_Done_Start" xml:space="preserve"><value>Pradėti naudoti Remindr</value></data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve"><value>Pridėti mano pirmąjį priminimą</value></data>
+  <data name="Category_School" xml:space="preserve"><value>Mokykla</value></data>
+  <data name="Category_Work" xml:space="preserve"><value>Darbas</value></data>
+  <data name="Category_Personal" xml:space="preserve"><value>Asmeniniai</value></data>
+  <data name="Update_WhatsNew" xml:space="preserve"><value>Kas naujo</value></data>
+  <data name="Update_Later" xml:space="preserve"><value>Vėliau</value></data>
+  <data name="Update_Skip" xml:space="preserve"><value>Praleisti šią versiją</value></data>
+  <data name="Update_TryAgain" xml:space="preserve"><value>Bandyti dar kartą</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Tikrinamas atsisiuntimas…</value></data>
+  <data name="Update_HashFailed" xml:space="preserve"><value>Atsisiuntimas neatitiko savo kontrolinės sumos, todėl buvo ištrintas ir niekas neįdiegta.</value></data>
+  <data name="Update_DownloadFailed" xml:space="preserve"><value>Nepavyko atsisiųsti naujinimo. Bandyk vėliau.</value></data>
+  <data name="Settings_Updates" xml:space="preserve"><value>Naujinimai</value></data>
+  <data name="Settings_Update_Title" xml:space="preserve"><value>Tikrinti naujinimus paleidus Remindr</value></data>
+  <data name="Settings_Update_Privacy" xml:space="preserve"><value>Susisiekia tik su GitHub, kad palygintų versijų numerius; nieko apie tave nesiunčiama.</value></data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve"><value>Tikrinti naujinimus</value></data>
+  <data name="Settings_Update_Checking" xml:space="preserve"><value>Tikrinama…</value></data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve"><value>Naujausia versija · patikrinta {0}</value></data>
+  <data name="Settings_Update_Available" xml:space="preserve"><value>Galima {0}</value></data>
+  <data name="Settings_Update_Failed" xml:space="preserve"><value>Nepavyko patikrinti naujinimų</value></data>
+  <data name="Update_Title" xml:space="preserve"><value>Yra naujinimas</value></data>
+  <data name="Update_Versions" xml:space="preserve"><value>Remindr {0} · tu turi {1}</value></data>
+  <data name="Update_Update" xml:space="preserve"><value>Naujinti</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Atsisiunčiama… {0}%</value></data>
+  <data name="Update_Cancel" xml:space="preserve"><value>Atšaukti</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Paruošta diegti</value></data>
+  <data name="Update_RestartUpdate" xml:space="preserve"><value>Paleisti iš naujo ir naujinti</value></data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve"><value>Po 1 dienos</value></data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve"><value>Po 1 valandos</value></data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve"><value>Dabar</value></data>
+  <data name="Toast_Heading_Nag" xml:space="preserve"><value>Dar neatlikta</value></data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve"><value>Atidėjimas baigėsi</value></data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve"><value>{0} - pavėluota</value></data>
+  <data name="Toast_Complete" xml:space="preserve"><value>Užbaigti</value></data>
+  <data name="Toast_Snooze" xml:space="preserve"><value>Atidėti</value></data>
+  <data name="Toast_Dismiss" xml:space="preserve"><value>Atmesti</value></data>
+  <data name="Toast_Snooze5" xml:space="preserve"><value>5 minutės</value></data>
+  <data name="Toast_Snooze60" xml:space="preserve"><value>1 valanda</value></data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve"><value>Rytoj</value></data>
+  <data name="Toast_TestTitle" xml:space="preserve"><value>Bandomasis pranešimas</value></data>
+  <data name="Toast_TestNotes" xml:space="preserve"><value>Tai pavyzdys, todėl jo mygtukai nieko neveikia. Pridėk priminimą ir vėl išsiųsk bandymą, kad juos išbandytum.</value></data>
+  <data name="Settings_Notifications" xml:space="preserve"><value>Pranešimai</value></data>
+  <data name="Settings_TestToast_Title" xml:space="preserve"><value>Siųsti bandomąjį pranešimą</value></data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve"><value>Parodo kito priminimo pranešimą, kad galėtum išbandyti mygtukus.</value></data>
+  <data name="Settings_TestToast_Button" xml:space="preserve"><value>Siųsti bandymą</value></data>
+  <data name="Tray_Open" xml:space="preserve"><value>Atidaryti</value></data>
+  <data name="Tray_QuickAdd" xml:space="preserve"><value>Greitas pridėjimas</value></data>
+  <data name="Tray_Quit" xml:space="preserve"><value>Išeiti</value></data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve"><value>Remindr vis dar veikia sistemos dėkle</value></data>
+  <data name="Tray_StillRunningBody" xml:space="preserve"><value>Priminimai ir toliau tave perspės. Atidaryk arba išeik per sistemos dėklo piktogramą.</value></data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve"><value>Toliau veikti sistemos dėkle uždarius langą</value></data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve"><value>Priminimai perspėja ir uždarius langą. Išjunk, kad uždarius langą programa išsijungtų.</value></data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve"><value>Paleisti Remindr prisijungus</value></data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve"><value>Paleidžiama tyliai sistemos dėkle, kad priminimai ir toliau perspėtų. Išjunk, jei nori paleisti pats.</value></data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve"><value>Remindr jau veikia, bet nereaguoja. Jei ji užsidaro, šiek tiek palauk ir bandyk dar kartą; kitaip užbaik ją užduočių tvarkytuvėje.</value></data>
+  <data name="Toast_AttrImportant" xml:space="preserve"><value>Svarbu</value></data>
+  <data name="Toast_AttrOverdue" xml:space="preserve"><value>Pavėluota</value></data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve"><value>Remindr · šiandien: {0} priminimas</value></data>
+  <data name="Tray_TooltipDue_Few" xml:space="preserve"><value>Remindr · šiandien: {0} priminimai</value></data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve"><value>Remindr · šiandien: {0} priminimų</value></data>
+  <data name="WhatsNew_Title" xml:space="preserve"><value>Kas naujo Remindr {0}</value></data>
+  <data name="WhatsNew_GotIt" xml:space="preserve"><value>Supratau</value></data>
+  <data name="WhatsNew_Open" xml:space="preserve"><value>Kas naujo šioje versijoje</value></data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve"><value>Priminimai, kurie tave suranda</value></data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve"><value>Windows pranešimai su mygtukais Užbaigti, Atidėti ir Atmesti. Atidėk 5 minutėms, valandai arba iki rytojaus.</value></data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve"><value>Svarbu reiškia primygtinai</value></data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve"><value>Svarbūs priminimai perspėja prieš dieną ir valandą, vėliau kas 10 minučių, kol imsiesi veiksmų.</value></data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve"><value>Veikia tyliai</value></data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve"><value>Uždaryk langą, o Remindr liks sistemos dėkle, todėl perspėjimai vis tiek ateis. Atidaryk arba uždaryk ją piktograma.</value></data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve"><value>Paleidžiama kartu su Windows</value></data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve"><value>Įjunk nustatymuose, ir Remindr prisijungus pasileis paslėpta sistemos dėkle.</value></data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve"><value>Remind UI 0.4</value></data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve"><value>Kortelės pakyla, varnelės šoktelėja, kalendorius slysta, o tuščios sritys plūduriuoja. Išjungus Windows animacijas, viskas lieka nejudru.</value></data>
+</root>

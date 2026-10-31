@@ -13,18 +13,18 @@ public class LanguageListTests
     };
 
     [Fact]
-    public void Supported_ListsAll32PlannedLanguages_WithNativeNames()
+    public void Supported_StartsWithThe32PlannedLanguages_WithNativeNames()
     {
         var real = LocalizationService.Supported.Where(l => l.Code != LocalizationService.PseudoCode).ToList();
-        Assert.Equal(Planned, real.Select(l => l.Code).ToArray());
-        Assert.Equal(32, real.Count);
+        Assert.Equal(Planned, real.Take(32).Select(l => l.Code).ToArray());
+        Assert.Equal(176, real.Count);
         Assert.All(real, l =>
         {
             Assert.False(string.IsNullOrWhiteSpace(l.NativeName), l.Code);
             Assert.False(string.IsNullOrWhiteSpace(l.EnglishName), l.Code);
         });
         Assert.Equal(real.Count, real.Select(l => l.NativeName).Distinct().Count());
-        Assert.Equal(new[] { "ar", "he" }, real.Where(l => l.IsRtl).Select(l => l.Code).ToArray());
+        Assert.Equal(new[] { "ar", "he" }, real.Take(32).Where(l => l.IsRtl).Select(l => l.Code).ToArray());
     }
 
     [Fact]
@@ -63,7 +63,6 @@ public class LanguageListTests
     [InlineData("pt-AO", "pt-BR")]
     [InlineData("pt-PT", "pt-PT")]
     [InlineData("nb-NO", "nb")]
-    [InlineData("nn-NO", "nb")]
     [InlineData("no", "nb")]
     [InlineData("fil-PH", "fil")]
     [InlineData("tl", "fil")]
@@ -77,7 +76,7 @@ public class LanguageListTests
 
     [Theory]
     [InlineData("xx-XX")]
-    [InlineData("sw-KE")]
+    [InlineData("tlh")]
     [InlineData("")]
     [InlineData(null)]
     [InlineData("  ")]
@@ -265,8 +264,8 @@ public class LocTests
     {
         Assert.Equal("Cancel", Loc.Get("Common_Cancel", En));
         Assert.Equal("All day", Loc.Get("Time_AllDay", En));
-        // A culture with no resx of its own (Irish isn't shipped) falls back to English.
-        Assert.Equal("Cancel", Loc.Get("Common_Cancel", CultureInfo.GetCultureInfo("ga-IE")));
+        // A culture with no resx of its own (Afar isn't shipped) falls back to English.
+        Assert.Equal("Cancel", Loc.Get("Common_Cancel", CultureInfo.GetCultureInfo("aa-ET")));
     }
 
     [Fact]

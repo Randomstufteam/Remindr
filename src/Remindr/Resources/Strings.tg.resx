@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Илова кардан</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Бозгашт</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Бекор кардан</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Сохтан</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Нест кардан</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Таҳрир кардан</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>Хуб</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Хомӯш</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Фаъол</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Захира кардан</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Имрӯз</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Ном</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Сана</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Вақт</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Ёддоштҳо</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Расм</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Муҳим</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Имрӯз</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Тақвим</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Ҳамаи ёдраскуниҳо</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Профил</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Танзимот</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Иваз кардани профил</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Ҷамъ кардан ё кушодани панели паҳлуӣ</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Панели паҳлуӣ</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Субҳ бахайр</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Субҳ бахайр, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Рӯз бахайр</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Рӯз бахайр, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Шом бахайр</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Шом бахайр, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Имрӯз ҳеҷ чиз нест</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Ёдраскуниҳои имрӯза дар ин ҷо пайдо мешаванд.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Ёдраскунии нав</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Ёдраскунии нав (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Гузашта</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Имрӯз</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Фардо</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Иҷрошуда</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Тамоми рӯз</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Иҷро кардан: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Ҳамчун муҳим қайд кардан</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Таҳрир кардани ёдраскунӣ</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Нест кардани ёдраскунӣ</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} кушода, {1} иҷрошуда</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Ёдраскуниҳо ҳоло нестанд</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Аввалин ёдраскуниро илова кунед ва он дар ин ҷо аз рӯи сана гурӯҳбандӣ шуда пайдо мешавад.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Ёдраскунии нав (рӯйхати холӣ)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Ёдраскуниҳои иҷрошуда</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Моҳ</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Ҳафта</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Нақша</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Намуди моҳона</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Намуди ҳафтагӣ</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Намуди нақша</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Қаблӣ</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Баъдӣ</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Гузариш ба имрӯз</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Ёдраскунии нав барои рӯзи интихобшуда</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Барои ин рӯз ҳеҷ чиз нақша гирифта нашудааст.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Дар пеш ҳеҷ чиз нест</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Дар {0} рӯзи оянда ёдраскунӣ нест.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Ёдраскунии нав (нақшаи холӣ)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Ҷадвали моҳ. Тирчаҳо рӯзи интихобшударо иваз мекунанд, Enter ёдраскунӣ илова мекунад.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Имрӯз · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Фардо · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} рӯзи оянда аз {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Ёдраскунӣ нест</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} ёдраскунӣ</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} ёдраскунӣ</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, муҳим</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>ёдраскунӣ нест</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} ёдраскунӣ</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} ёдраскунӣ</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Ёдраскунии бе категория</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Ёдраскунии категориядор</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Ёдраскунии нав</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Таҳрир кардани ёдраскунӣ</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Чиро бояд дар хотир нигоҳ дошт?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Ихтиёрӣ</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Нишони сурхи ! -ро нишон медиҳад, то фарқ кунад.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Бе расм</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Илова кардани расм</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Расм: {0}. Иваз кардани расм</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Номро ворид кунед.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Ном бояд на зиёда аз {0} аломат бошад.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Санаро интихоб кунед.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Вақтро ворид кунед, масалан {0}, ё «Тамоми рӯз»-ро фаъол кунед.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Ёдраскунӣ нест карда шавад?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>«{0}» якбора нест карда мешавад. Инро баргардонидан мумкин нест.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Нест</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Профили нав</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Таҳрир кардани профил</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Иваз кардани расм</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Ном</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Номи профил</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Ранг</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Ҳарфи аватар</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>ПИН (ихтиёрӣ)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>ПИН-и ҳозираро нигоҳ доштан</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Номро ворид кунед.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Ном бояд на зиёда аз {0} аломат бошад.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Барои аватар як аломат ворид кунед.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>ПИН бояд аниқан аз 4 рақам иборат бошад.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ин профилро нест кардан мумкин нест</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Ақаллан як профил бояд вуҷуд дошта бошад. Агар мехоҳед инро нест кунед, аввал профили дигар созед.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>«{0}» нест карда шавад?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Профили «{0}» якҷо бо ҳамаи ёдраскуниҳо ва категорияҳояш якбора нест карда мешавад. Инро баргардонидан мумкин нест.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Таъин кардани ПИН</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Иваз кардани ПИН</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Тоза кардани ПИН</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>ПИН-и 4-рақама интихоб кунед. Барои кушодани ин профил ба он ниёз доред.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>ПИН-и ҳозираро ворид кунед, сипас нави онро интихоб кунед.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Барои хомӯш кардани қулф ПИН-и ҳозираро ворид кунед.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>ПИН-и ҳозира</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>ПИН-и нави 4-рақама</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>ПИН-ро такрор кунед</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>ПИН-и навро такрор кунед</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>ПИН-и ҳозира нодуруст аст. Дубора кӯшиш кунед.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Ду ПИН мувофиқ нестанд.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>ПИН экрани махфият аз нигоҳи тасодуфӣ аст, на ҳимояи мустаҳкам.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Ҳама</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Ҷустуҷӯи расмҳо</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Расми мувофиқ нест.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Одамон</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Оила ва нақшҳо</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Ҳайвонот</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Хаёлот ва шодӣ</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Хӯрок</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Табиат</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Варзиш ва шавқҳо</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Ашё</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Мактаб</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Кор</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Саломатӣ</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Хона</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Пул</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Сафар</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Ҷашнҳо</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Варзиш</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Расмро интихоб кунед</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Расмҳо</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Расми худатон…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Расми худатон</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>PNG ё JPG-ро аз компютери худ истифода баред</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Танҳо ҳарф</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Ба ҷои расм ҳарфи рангинро нишон додан</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Ин файлро ҳамчун расми PNG ё JPG хондан имконнопазир буд.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Кӣ Remindr-ро истифода мебарад?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Барои идома додан профили худро интихоб кунед</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Илова кардани профил</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Охирин истифодашуда</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Бо ПИН ҳифз шудааст</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Таҳрир ё нест кардан</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Бозгашт ба профили ҳозира (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>ПИН</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Кушодани қулф</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>ПИН-и 4-рақамаатонро ворид кунед</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Барои таҳрир ё нест кардан ПИН-и ин профилро ворид кунед</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>ПИН нодуруст аст. Дубора кӯшиш кунед.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Намуди зоҳирӣ</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Мавзӯи барнома</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Равшан, торик ё пайравӣ аз танзимоти Windows-ро интихоб кунед.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Мавзӯъ</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Равшан</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Торик</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Низомӣ</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Забон</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Забонеро интихоб кунед, ки Remindr бо он нишон дода мешавад. Тағйирот фавран татбиқ мешавад.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Забон</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Тарҷумаҳо бо кӯмаки мошин анҷом ёфтаанд; ислоҳҳо қабул карда мешаванд.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Пешниҳоди ислоҳ</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Тарҷумаи мошинӣ</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Ёрӣ дар тарҷума</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Забон: {0}. Барои иваз кардан пахш кунед.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Профил</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Шумо ҳамчун {0} ворид шудед</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Ба профили дигар гузаред ё ном, ранг ва расми ин профилро тағйир диҳед.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Иваз кардани расм</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Иваз кардани профил</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Қулфи ПИН</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Қулфи ПИН: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>ПИН-и 4-рақама профилро аз нигоҳи тасодуфӣ ҳифз мекунад. Ин экрани махфият аст, на ҳимояи мустаҳкам.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Кӯмак ва фикру мулоҳиза</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Мушкилӣ ёфтед ё ғояе доред?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Гузоришҳо дар GitHub кушода мешаванд ва танҳо нусхаҳои Remindr ва Windows пур карда мешаванд. Чизи дигар фиристода намешавад.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Хабар додан дар бораи хато</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Пешниҳоди имконият</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Кушодани ҷузвдони сабтҳо</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Дар бораи барнома</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Иҷозатномаи {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Дидан дар GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Огоҳиҳои тарафҳои сеюм</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Чизе ноҷо шуд: {0}
+
+Тафсилот дар %AppData%\Remindr\error.log захира шуд</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Тафсилот дар %AppData%\Remindr\error.log захира шуд</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Хуш омадед ба Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Барои оғоз ягон клавишро пахш кунед ё клик кунед</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Оғоз кардан</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Дубора нишон додани салом</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Танзими Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Пешрафти танзим</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Қадами {0} аз {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Баъдӣ</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Гузарондан</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Забони худро интихоб кунед</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Барнома фавран иваз мешавад. Онро ҳар вақт дар Танзимот тағйир додан мумкин аст.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Ҷустуҷӯи забонҳо</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Забони мувофиқ нест.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Намудро интихоб кунед</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Равшан, торик ё пайравӣ аз танзимоти Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Профили шумо</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Ном, ранг ва расм илова кунед.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>ПИН илова мекунед?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Ихтиёрӣ. ПИН-и 4-рақама ин профилро хусусӣ нигоҳ медорад.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Ҳама чиз омода аст, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Инро ҳамаашро баъдтар дар Танзимот тағйир додан мумкин аст.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Истифодаи Remindr-ро оғоз кунед</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Илова кардани аввалин ёдраскунии ман</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Мактаб</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Кор</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Шахсӣ</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Чӣ нав аст</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Баъдтар</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Гузарондани ин нусха</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Дубора кӯшиш кардан</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Файли боргирифташуда санҷида мешавад…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Файли боргирифташуда бо суммаи назоратиаш мувофиқ наомад, бинобар ин нест карда шуд ва ҳеҷ чиз насб нашуд.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Навсозиро бор кардан имконнопазир буд. Баъдтар дубора кӯшиш кунед.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Навсозиҳо</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Ҳангоми оғози Remindr навсозиҳоро санҷидан</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Танҳо барои муқоиса кардани рақамҳои нусха ба GitHub пайваст мешавад; дар бораи шумо чизе фиристода намешавад.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Санҷидани навсозиҳо</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Санҷида истодаем…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Навсоз аст · санҷида шуд {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} дастрас аст</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Санҷидани навсозиҳо муяссар нашуд</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Навсозӣ дастрас аст</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · шумо доред {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Навсозӣ</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Боргирӣ… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Бекор кардан</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Барои насб омода аст</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Аз нав оғоз карда навсоз кардан</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Баъд аз 1 рӯз</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Баъд аз 1 соат</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Ҳозир</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Ҳоло бояд иҷро шавад</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Таъхир ба охир расид</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - гузашта</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Иҷро</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Таъхир</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Пӯшидан</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 дақиқа</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 соат</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Фардо</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Огоҳии санҷишӣ</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Ин намуна аст, бинобар ин тугмаҳои он коре намекунанд. Ёдраскунӣ илова кунед, сипас барои озмудани тугмаҳо санҷишро дубора фиристед.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Огоҳиҳо</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Фиристодани огоҳии санҷишӣ</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Огоҳиро барои ёдраскунии навбатии шумо нишон медиҳад, то тугмаҳоро биозмоед.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Фиристодани санҷиш</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Кушодан</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Иловаи зуд</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Баромадан</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr дар минтақаи огоҳиҳо кор карда истодааст</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Ёдраскуниҳо ба шумо хабар доданро идома медиҳанд. Барои кушодан ё баромадан аз нишони минтақаи огоҳиҳо истифода баред.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Ҳангоми пӯшидани тиреза дар минтақаи огоҳиҳо кор карданро идома додан</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Ёдраскуниҳо ҳатто бо тирезаи пӯшида хабар медиҳанд. Барои баромадан ҳангоми пӯшидани тиреза хомӯш кунед.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Ҳангоми воридшавӣ Remindr-ро оғоз кардан</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Хомӯшона дар минтақаи огоҳиҳо оғоз меёбад, то ёдраскуниҳо хабар доданро идома диҳанд. Барои худатон оғоз кардан хомӯш кунед.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr аллакай кор карда истодааст, аммо ҷавоб намедиҳад. Агар баста истодааст, андаке мунтазир шуда, дубора кӯшиш кунед; вагарна онро дар Диспетчери вазифаҳо ба анҷом расонед.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Муҳим</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Гузашта</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · барои имрӯз: {0}</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · барои имрӯз: {0}</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Чӣ нав аст дар Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Фаҳмидам</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Чӣ нав аст дар ин нусха</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Ёдраскуниҳое, ки шуморо пайдо мекунанд</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Огоҳиҳои Windows бо тугмаҳои Иҷро, Таъхир ва Пӯшидан. Барои 5 дақиқа, як соат ё то фардо ба таъхир андозед.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Муҳим маънои боз-боз хабар доданро дорад</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Ёдраскуниҳои муҳим як рӯз ва як соат пеш хабар медиҳанд, сипас то амал кардани шумо ҳар 10 дақиқа такрор мешаванд.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Хомӯшона кор карданро идома медиҳад</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Тирезаро пӯшед ва Remindr дар минтақаи огоҳиҳо мемонад, бинобар ин огоҳиҳо ҳамоно мерасанд. Барномаро аз нишон кушоед ё аз он баромадед.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Бо Windows оғоз мешавад</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Инро дар Танзимот фаъол кунед ва Remindr ҳангоми воридшавӣ пинҳонӣ дар минтақаи огоҳиҳо оғоз меёбад.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Корт боло мешавад, аломатҳо ҷаҳида мебароянд, тақвим лағжида мегузарад ва саҳифаҳои холӣ шино мекунанд. Бо анимацияи ғайрифаъоли Windows ҳама чиз бетаҳаррук мемонад.</value>
+  </data>
+</root>

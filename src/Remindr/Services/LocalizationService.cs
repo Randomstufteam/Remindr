@@ -4,10 +4,14 @@ using Remindr.Data.Repositories;
 namespace Remindr.Services;
 
 /// <summary>One language the app can be shown in. Names are written in the language itself (native) and in English.</summary>
-public sealed record LanguageInfo(string Code, string NativeName, string EnglishName, bool IsRtl)
+/// <param name="Reviewed">True when a person has checked the translation. False means it is shown with a "Machine-translated" tag.</param>
+public sealed record LanguageInfo(string Code, string NativeName, string EnglishName, bool IsRtl, bool Reviewed = false)
 {
     /// <summary>The English name in brackets as secondary text beside the native name; empty when both are the same word.</summary>
     public string EnglishLabel => string.Equals(NativeName, EnglishName, StringComparison.Ordinal) ? "" : "(" + EnglishName + ")";
+
+    /// <summary>True for languages without a native-speaker review: the picker tags them "Machine-translated". English is the source text and never tagged.</summary>
+    public bool IsMachineTranslated => !Reviewed;
 
     /// <summary>What a screen reader says for a list entry: "Deutsch (German)". (The default record text read as junk.)</summary>
     public override string ToString() => EnglishLabel.Length == 0 ? NativeName : NativeName + " " + EnglishLabel;
@@ -25,50 +29,35 @@ public sealed class LocalizationService
     /// <summary>Debug builds only: accented, padded English that exposes hard-coded text and layout expansion.</summary>
     public const string PseudoCode = "qps-ploc";
 
-    private static readonly LanguageInfo[] Languages =
-    {
-        new("en", "English", "English", false),
-        new("es", "Español", "Spanish", false),
-        new("fr", "Français", "French", false),
-        new("de", "Deutsch", "German", false),
-        new("it", "Italiano", "Italian", false),
-        new("pt-BR", "Português (Brasil)", "Portuguese (Brazil)", false),
-        new("pt-PT", "Português (Portugal)", "Portuguese (Portugal)", false),
-        new("nl", "Nederlands", "Dutch", false),
-        new("pl", "Polski", "Polish", false),
-        new("sv", "Svenska", "Swedish", false),
-        new("nb", "Norsk bokmål", "Norwegian Bokmål", false),
-        new("da", "Dansk", "Danish", false),
-        new("fi", "Suomi", "Finnish", false),
-        new("cs", "Čeština", "Czech", false),
-        new("hu", "Magyar", "Hungarian", false),
-        new("ro", "Română", "Romanian", false),
-        new("el", "Ελληνικά", "Greek", false),
-        new("tr", "Türkçe", "Turkish", false),
-        new("ru", "Русский", "Russian", false),
-        new("uk", "Українська", "Ukrainian", false),
-        new("ar", "العربية", "Arabic", true),
-        new("he", "עברית", "Hebrew", true),
-        new("hi", "हिन्दी", "Hindi", false),
-        new("bn", "বাংলা", "Bengali", false),
-        new("id", "Bahasa Indonesia", "Indonesian", false),
-        new("vi", "Tiếng Việt", "Vietnamese", false),
-        new("th", "ไทย", "Thai", false),
-        new("ja", "日本語", "Japanese", false),
-        new("ko", "한국어", "Korean", false),
-        new("zh-Hans", "简体中文", "Chinese (Simplified)", false),
-        new("zh-Hant", "繁體中文", "Chinese (Traditional)", false),
-        new("fil", "Filipino", "Filipino", false),
-    };
+    private static readonly LanguageInfo[] Languages = LanguageCatalog.All();
 
-    /// <summary>All 32 languages (plus the pseudo-locale in Debug builds), English first.</summary>
+    /// <summary>
+    /// Every language in the catalog (176, English first, plus the pseudo-locale in Debug builds). Some have no text yet: they fall
+    /// back to English until their translation batch lands, so the pickers list <see cref="Available"/> instead.
+    /// </summary>
     public static IReadOnlyList<LanguageInfo> Supported { get; } = BuildSupported();
+
+    /// <summary>The languages that can be chosen now: the catalog entries whose translation is shipped (English and every <c>Strings.&lt;code&gt;.resx</c>).</summary>
+    public static IReadOnlyList<LanguageInfo> Available => _available ??= Supported.Where(l => IsTranslated(l.Code)).ToList();
+    private static IReadOnlyList<LanguageInfo>? _available;
+
+    /// <summary>True for English, the Debug pseudo-locale, and any language whose string table is shipped with the app.</summary>
+    public static bool IsTranslated(string? code)
+    {
+        if (code is null) return false;
+        if (string.Equals(code, EnglishCode, StringComparison.OrdinalIgnoreCase) || string.Equals(code, PseudoCode, StringComparison.OrdinalIgnoreCase)) return true;
+        if (Find(code) is not { } info) return false;
+        return Translated.GetOrAdd(info.Code, c => Loc.HasTranslation(c));
+    }
+
+    private static readonly System.Collections.Concurrent.ConcurrentDictionary<string, bool> Translated = new(StringComparer.Ordinal);
+
 
     private static IReadOnlyList<LanguageInfo> BuildSupported()
     {
         var list = new List<LanguageInfo>(Languages);
 #if DEBUG
-        list.Add(new LanguageInfo(PseudoCode, "[Þšéůḋó] (debug)", "Pseudo-locale (debug)", false));
+        list.Add(new LanguageInfo(PseudoCode, "[Þšéůḋó] (debug)", "Pseudo-locale (debug)", false, true));
 #endif
         return list;
     }
@@ -77,9 +66,11 @@ public sealed class LocalizationService
         code is null ? null : Supported.FirstOrDefault(l => string.Equals(l.Code, code, StringComparison.OrdinalIgnoreCase));
 
     /// <summary>
-    /// Maps a Windows / .NET culture name to a supported language code, or null. Region and script variants walk up to their language
-    /// (es-MX to es, de-AT to de), Chinese splits by script/region (zh-CN, zh-Hans-* to zh-Hans; zh-TW, zh-HK, zh-MO, zh-Hant-* to
-    /// zh-Hant), plain pt is Brazilian, and a few legacy codes are renamed (no, nn to nb).
+    /// Maps a Windows / .NET culture name to a catalog language code, or null. Region and script variants walk up to their language
+    /// (es-MX to es, de-AT to de, sr-Latn-RS to sr-Latn, pa-Guru-IN to pa, pa-Arab-PK to pa-Arab, fa-AF to fa); Chinese splits by
+    /// script/region (zh-CN, zh-Hans-* to zh-Hans; zh-TW, zh-HK, zh-MO, zh-Hant-* to zh-Hant); plain pt is Brazilian; a language the
+    /// catalog lists only per script maps to its usual script (sr to sr-Cyrl, uz to uz-Latn); and a few legacy codes are renamed
+    /// (no to nb, iw to he, in to id). The result may not be translated yet: see <see cref="IsTranslated"/>.
     /// </summary>
     public static string? ResolveSupported(string? cultureName)
     {
@@ -89,6 +80,8 @@ public sealed class LocalizationService
         if (parts.Length == 0) return null;
         var lang = parts[0].ToLowerInvariant();
         var rest = parts.Skip(1).Select(p => p.ToLowerInvariant()).ToList();
+        var script = rest.FirstOrDefault(p => p.Length == 4 && p.All(char.IsLetter));
+        var region = rest.FirstOrDefault(p => p.Length == 2 && p.All(char.IsLetter) || p.Length == 3 && p.All(char.IsDigit));
 
         switch (lang)
         {
@@ -96,7 +89,7 @@ public sealed class LocalizationService
                 return rest.Contains("hant") || rest.Any(p => p is "tw" or "hk" or "mo") ? "zh-Hant" : "zh-Hans";
             case "pt":
                 return rest.Contains("pt") ? "pt-PT" : "pt-BR";
-            case "no": case "nn": case "nb":
+            case "no": case "nb":
                 return "nb";
             case "tl": case "fil":
                 return "fil";
@@ -104,16 +97,59 @@ public sealed class LocalizationService
                 return "he";
             case "in":
                 return "id";
+            case "ji":
+                return "yi";
+            case "jw":
+                return "jv";
+            case "ku" when script == "arab":
+                return "ckb";
+            case "pa" when script is null && region == "pk":
+                return "pa-Arab";
         }
-        var match = Languages.FirstOrDefault(l => string.Equals(l.Code, lang, StringComparison.OrdinalIgnoreCase));
-        return match?.Code;
+
+        if (script is not null)
+        {
+            // Language and script together first (sr-Latn, az-Latn), then the bare language (pa-Guru is pa). A script the catalog does
+            // not have (uz-Cyrl) is not mapped to another script's text.
+            var withScript = FindExact(lang + "-" + script);
+            if (withScript is not null) return withScript.Code;
+            return FindExact(lang)?.Code;
+        }
+
+        if (FindExact(lang) is { } exact) return exact.Code;
+        // The catalog has this language only per script: use the usual one.
+        return lang switch
+        {
+            "az" => "az-Latn",
+            "bs" => "bs-Latn",
+            "uz" => "uz-Latn",
+            "ff" => "ff-Latn",
+            "sr" => "sr-Cyrl",
+            "sd" => "sd-Arab",
+            "ks" => "ks-Arab",
+            "mni" => "mni-Beng",
+            "sat" => "sat-Olck",
+            _ => null,
+        };
     }
 
-    /// <summary>The language to start with: a saved supported choice wins, else the Windows display language, else English.</summary>
+    private static LanguageInfo? FindExact(string code) =>
+        Languages.FirstOrDefault(l => string.Equals(l.Code, code, StringComparison.OrdinalIgnoreCase));
+
+    /// <summary>When a language has no text yet, the closest shipped relative is preferred over English (Nynorsk shows Bokmål).</summary>
+    private static readonly Dictionary<string, string> Relatives = new(StringComparer.Ordinal)
+    {
+        ["nn"] = "nb",
+    };
+
+    /// <summary>The language to start with: a saved choice that is shipped wins, else the Windows display language when it is shipped (or a close relative is), else English.</summary>
     public static string ResolveDefault(string? saved, CultureInfo? windowsUi)
     {
-        if (Find(saved) is { } s) return s.Code;
-        return ResolveSupported(windowsUi?.Name) ?? EnglishCode;
+        if (Find(saved) is { } s && IsTranslated(s.Code)) return s.Code;
+        var resolved = ResolveSupported(windowsUi?.Name);
+        if (resolved is null) return EnglishCode;
+        if (IsTranslated(resolved)) return resolved;
+        return Relatives.TryGetValue(resolved, out var relative) && IsTranslated(relative) ? relative : EnglishCode;
     }
 
     private readonly SettingsRepo _settings;
@@ -179,9 +215,9 @@ public sealed class LocalizationService
         var info = Find(code) ?? Languages[0];
         var pseudo = info.Code == PseudoCode;
         // Resources are read for the language; pseudo is English text run through Pseudo.
-        var resourceCulture = CultureInfo.GetCultureInfo(pseudo ? EnglishCode : info.Code);
+        var resourceCulture = CultureFor(pseudo ? EnglishCode : info.Code);
         Code = info.Code;
-        Current = FormatCultureFor(resourceCulture);
+        Current = ForceGregorian(FormatCultureFor(resourceCulture));
         if (!_applyToProcess) return;
 
         CultureInfo.DefaultThreadCurrentCulture = Current;
@@ -191,10 +227,38 @@ public sealed class LocalizationService
         Loc.Apply(resourceCulture, Current, pseudo);
     }
 
+    /// <summary>The culture of a catalog code; English when this Windows cannot create it (a test checks the catalog on current Windows).</summary>
+    public static CultureInfo CultureFor(string code)
+    {
+        try { return CultureInfo.GetCultureInfo(code, predefinedOnly: true); }
+        catch (CultureNotFoundException) { return CultureInfo.GetCultureInfo(EnglishCode); }
+    }
+
     /// <summary>The regional culture when it is the same language (en-GB, de-AT), otherwise the language's own culture.</summary>
     private CultureInfo FormatCultureFor(CultureInfo language)
     {
         var sameLanguage = ResolveSupported(_regional.Name) is { } r && string.Equals(r, ResolveSupported(language.Name), StringComparison.Ordinal);
         return sameLanguage && !_regional.IsNeutralCulture ? _regional : language;
+    }
+
+    /// <summary>
+    /// The same culture with the Gregorian calendar, for display. Some languages default to another calendar (fa: Persian, th: Buddhist,
+    /// ps and dz can differ too), which would change the month grid and the year in every date. Stored data is always invariant. A culture
+    /// that is already Gregorian, or has no Gregorian option, is returned unchanged.
+    /// </summary>
+    public static CultureInfo ForceGregorian(CultureInfo culture)
+    {
+        try
+        {
+            if (culture.DateTimeFormat.Calendar is GregorianCalendar) return culture;
+            if (!culture.OptionalCalendars.Any(c => c is GregorianCalendar)) return culture;
+            var clone = (CultureInfo)culture.Clone();
+            clone.DateTimeFormat.Calendar = culture.OptionalCalendars.First(c => c is GregorianCalendar);
+            return clone;
+        }
+        catch (ArgumentException)
+        {
+            return culture;
+        }
     }
 }

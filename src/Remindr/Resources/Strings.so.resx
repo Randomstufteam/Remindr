@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+    <data name="Common_Add" xml:space="preserve">
+    <value>Ku dar</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Dib</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Jooji</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Samee</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Tirtir</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Wax ka beddel</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Dansan</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Shidan</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Kaydi</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Maanta</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Cinwaan</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Taariikh</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Waqti</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Qoraallo</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Qayb</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Sawir</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Muhiim</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Maanta</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalandar</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Xusuusinta oo dhan</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Astaan</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Dejinta</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>U beddel astaan kale</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Yaree ama balaadhi bar-garabka</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Bar-garabka beddel</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Subax wanaagsan</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Subax wanaagsan, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Galab wanaagsan</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Galab wanaagsan, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Fiid wanaagsan</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Fiid wanaagsan, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Maanta waxba ma harsana</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Xusuusinta maanta halkan ayay ka muuqan doontaa.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Xusuusin cusub</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Xusuusin cusub (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Dhaafay waqtigii</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Maanta</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Berri</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>La dhammaystiray</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Maalinta oo dhan</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Dhammaystir: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>U calaamadee muhiim</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Wax ka beddel xusuusinta</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Tirtir xusuusinta</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} furan, {1} la dhammaystiray</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Weli xusuusin ma jirto</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Ku dar xusuusintaadii ugu horreysay, halkan ayay ka muuqan doontaa iyadoo taariikh loo kala saaray.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Xusuusin cusub (bogga madhan)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Xusuusinta la dhammaystiray</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Bil</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Toddobaad</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Jadwal</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Muuqaalka bisha</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Muuqaalka toddobaadka</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Muuqaalka jadwalka</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Hore</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Xiga</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>U gudub maanta</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Xusuusin cusub oo maalinta la doortay ah</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Maalintan waxba lagama qorshayn.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Waxba ma soo socdo</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>{0} maalmood ee soo socda xusuusin ma jirto.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Xusuusin cusub (jadwal madhan)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Shabakadda bisha. Furayaasha fallaadhaha ayaa beddela maalinta la doortay, Enter wuxuu ku daraa xusuusin.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Maanta · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Berri · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} maalmood ee xiga laga bilaabo {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Xusuusin ma jirto</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} xusuusin</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} xusuusin</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, muhiim</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>xusuusin ma jirto</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} xusuusin</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} xusuusin</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Xusuusin aan qayb lahayn</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Xusuusin qayb leh</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Xusuusin cusub</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Wax ka beddel xusuusinta</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Maxaad u baahan tahay inaad xasuusato?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Ikhtiyaar</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Waxay muujisaa calaamad ! guduudan si ay u muuqato.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Sawir la'aan</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Ku dar sawir</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Sawir: {0}. Beddel sawirka</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Geli cinwaan.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Cinwaanku waa inuu ahaadaa {0} xaraf ama ka yar.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Dooro taariikh.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Geli waqti sida {0}, ama shid Maalinta oo dhan.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Tirtir xusuusinta?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" waa la tirtiri doonaa weligeed. Tan lama celin karo.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Midna</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Astaan cusub</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Wax ka beddel astaanta</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Beddel sawirka</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Magac</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Magaca astaanta</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Midab</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Xarafka astaanta</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (ikhtiyaar)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Hay PIN-ka hadda</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Geli magac.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Magacu waa inuu ahaadaa {0} xaraf ama ka yar.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Geli hal xaraf oo astaanta ah.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN-ku waa inuu ahaadaa 4 lambar oo sax ah.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Astaantan lama tirtiri karo</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Ugu yaraan hal astaan waa inay jirtaa. Marka hore samee astaan kale haddii aad rabto inaad tan tirtirto.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Tirtir "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Tani waxay weligeed tirtiraysaa astaanta "{0}" iyo dhammaan xusuusinteeda iyo qaybaheeda. Tan lama celin karo.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Dejiso PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Beddel PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Ka saar PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Dooro PIN 4 lambar ah. Waxaad u baahan doontaa si aad u furto astaantan.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Geli PIN-kaaga hadda, ka dibna dooro mid cusub.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Geli PIN-kaaga hadda si aad u damiso quful-ka.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN-ka hadda</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN cusub oo 4 lambar ah</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Ku celi PIN-ka</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Ku celi PIN-ka cusub</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN-ka hadda waa khalad. Isku day mar kale.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Labada PIN isma waafaqsana.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN-ku waa shaashad qarsoodi ah oo ka ilaalisa dadka dhaqsaha ah, ma aha amni xooggan.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Dhammaan</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Raadi sawirro</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Sawirro ma jiraan.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Dad</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Qoyska iyo doorarka</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Xayawaan</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Khayaali iyo madadaalo</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Cunto</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Dabeecad</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Ciyaaro iyo hiwaayado</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Walxo</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Dugsi</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Shaqo</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Caafimaad</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Guri</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Lacag</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Safar</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Dabaaldegyo</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Ciyaaro</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Dooro sawir</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Sawirro</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Sawirkaaga…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Sawirkaaga</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Isticmaal PNG ama JPG kombuyutarkaaga ka yimid</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Xaraf kaliya</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Muuji xarafka midabka leh halkii sawir</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Faylkaas lama akhrin karo sidii sawir PNG ama JPG ah.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Yaa isticmaalaya Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Dooro astaantaada si aad u sii wadato</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Ku dar astaan</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Ugu dambeysay</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Waxaa lagu ilaaliyay PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Wax ka beddel ama tirtir</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Ku noqo astaanta hadda (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Fur</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Geli PIN-kaaga 4 lambar ah</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Geli PIN-ka astaantan si aad wax uga beddesho ama u tirtirto</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN khalad ah. Isku day mar kale.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Muuqaal</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Mawduuca app-ka</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Dooro Iftiin, Mugdi, ama raac dejinta Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Mawduuc</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Iftiin</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Mugdi</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Nidaamka</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Luuqad</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Dooro luqadda lagu muujinayo Remindr. Isbeddelku isla markiiba ayuu shaqeeyaa.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Luuqad</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Tarjumaadda waxaa lagu caawiyay mashiin; sixitaanno waa soo dhawaan.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Soo jeedi sixitaan</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Mashiin ku turjumay</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Caawi turjumaadda</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Luuqad: {0}. Taabo si aad u beddesho.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Astaan</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Waxaad ku gashay sida {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>U beddel astaan kale, ama wax ka beddel magaca, midabka iyo sawirka astaantan.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Beddel sawirka</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>U beddel astaan kale</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Quful PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Quful PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>PIN 4 lambar ah ayaa astaantan ka ilaaliya dadka dhaqsaha ah. Waa shaashad qarsoodi ah, ma aha amni xooggan.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Caawimo iyo jawaab celin</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Ma heshay dhibaato ama fikrad?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Warbixinnadu waxay ka furmaan GitHub iyadoo lagu buuxiyay oo keliya nooca Remindr iyo Windows. Wax kale lama diro.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Ka warbixi cilad</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Soo jeedi muuqaal cusub</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Fur faylka diiwaanka</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Ku saabsan</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Shahaadada {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Ka daawo GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Ogeysiisyada dhinac saddexaad</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Wax khalad ah ayaa dhacay: {0}
+
+Faahfaahinta waxaa lagu kaydiyay %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Faahfaahinta waxaa lagu kaydiyay %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Ku soo dhawow Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Taabo furaha kasta ama guji si aad u bilowdo</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Bilow</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Mar kale muuji soo dhawayntii</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Deji Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Horumarka dejinta</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Tallaabo {0} ee {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Xiga</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Ka tuur</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Dooro luqaddaada</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>App-ku isla markiiba ayuu isbeddelaa. Waad beddeli kartaa wakhti kasta Dejinta dhexdeeda.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Raadi luqado</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Luqado ma jiraan.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Dooro muuqaalkaaga</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Iftiin, Mugdi, ama raac dejinta Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Astaantaada</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Ku dar magacaaga, midab iyo sawir.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Ku dar PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Ikhtiyaar. PIN 4 lambar ah ayaa astaantan ka dhigaya mid gaar ah.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Wax walba waa diyaar, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Waad beddeli kartaa waxaas oo dhan mar dambe Dejinta dhexdeeda.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Bilow isticmaalka Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Ku dar xusuusintaydii ugu horreysay</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Dugsi</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Shaqo</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Shakhsi</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Waxa cusub</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Dambe</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Ka bood nooca</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Isku day mar kale</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Hubinaya soo dejinta…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Soo dejintu ma waafaqin summaddeeda hubinta, sidaa darteed waa la tirtiray lamana rakibin waxba.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Cusboonaysiinta lama soo dejin karin. Fadlan isku day mar dambe.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Cusboonaysiin</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Hubi cusboonaysiinta marka Remindr bilaabmo</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Waxay la xiriirtaa GitHub oo keliya si ay u barbar dhigto lambarrada nooca; wax ku saabsan adiga lama diro.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Hubi cusboonaysiinta</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Hubinaya…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Waa cusub yahay · la hubiyay {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} waa diyaar</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Cusboonaysiinta lama hubin karin</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Cusboonaysiin diyaar ah</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · adigu waxaad haysataa {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Cusboonaysii</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Soo dejinaya… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Jooji</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Diyaar u ah rakibid</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Dib u bilow oo cusboonaysii</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 maalin gudaheed</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 saac gudaheed</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Hadda</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Weli la qabanayo</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Dib u dhigiddu waa dhammaaday</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - waqtigii wuu dhaafay</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Dhammaystir</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Dib u dhig</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Ka saar</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 daqiiqo</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 saac</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Berri</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Ogeysiis tijaabo ah</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Tani waa tusaale, sidaa darteed badhamadiisu waxba ma qabtaan. Ku dar xusuusin, ka dibna mar kale dir tijaabo si aad u isku daydo.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Ogeysiisyo</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Dir ogeysiis tijaabo ah</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Waxay muujisaa ogeysiis xusuusintaada xigta si aad badhamada u tijaabiso.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Dir tijaabo</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Fur</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Ku dar degdeg</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Ka bax</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr weli wuu shaqeynayaa saxanka nidaamka</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Xusuusintaadu way ku ogeysiin doontaa. Isticmaal summadda saxanka si aad u furto ama uga baxdo.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Ku sii shaqee saxanka nidaamka marka aan daaqadda xiro</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Xusuusintu way ku ogeysiinaysaa inta daaqaddu xiran tahay. Dami si aad uga baxdo marka aad xirto.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Bilow Remindr marka aan soo galo</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Wuxuu ku bilaabmaa si aamusnaan ah saxanka nidaamka si xusuusintaadu u sii ogeysiiso. Dami si aad adigu u bilowdo.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr horey ayuu u shaqaynayay laakiin ma jawaabayo. Haddii uu xirmayo, sug wax yar oo isku day mar kale; haddii kale ku dhammee Task Manager.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Muhiim</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Waqtigii dhaafay</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} maanta ku egtahay</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} maanta ku egtahay</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Waxa cusub ee Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Waan helay</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Waxa cusub ee nooca</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Xusuusin ku soo hesha</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Ogeysiisyada Windows oo leh badhamada Dhammaystir, Dib u dhig iyo Ka saar. Dib u dhig 5 daqiiqo, hal saac, ama ilaa berri.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Muhiim waxay la macno tahay inay dib u xasuusiso</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Xusuusinta muhiimka ah waxay ku ogeysiisaa maalin iyo saac ka hor, ka dibna 10 daqiiqo kasta ilaa aad wax ka qabato.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Si aamusnaan ah ayuu u sii shaqeeyaa</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Xir daaqadda Remindr wuxuu ku sii jiraa saxanka nidaamka, sidaa darteed ogeysiisyadu weli way imaanayaan. Ka fur ama ka bax summadda saxanka.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Wuxuu la bilaabmaa Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Ku shid Dejinta, Remindr wuxuu ku bilaabmayaa si qarsoon saxanka nidaamka marka aad soo gasho.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kaararku way kacaan, calaamaduhu way soo boodaan, kalandarku wuu simbiirixdaa, bogagga madhanna way sabaynayaan. Marka animation-ka Windows damsan yahay, wax walba way taagan yihiin.</value>
+  </data>
+</root>

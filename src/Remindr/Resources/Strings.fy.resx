@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Tafoegje</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Werom</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Annulearje</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Oanmeitsje</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Wiskje</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Bewurkje</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Út</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Oan</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Bewarje</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Hjoed</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Tiid</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notysjes</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kategory</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Ofbylding</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Wichtich</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Hjoed</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalinder</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Alle herinneringen</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profyl</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Ynstellingen</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Fan profyl wikselje</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>De sydbalke yn- of útklappe</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Sydbalke wikselje</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Goeiemoarn</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Goeiemoarn, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Goeimiddei</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Goeimiddei, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Goeienjoen</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Goeienjoen, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Hjoed neat te dwaan</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Herinneringen foar hjoed ferskine hjir.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Nije herinnering</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Nije herinnering (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Te let</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Hjoed</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Moarn</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Foltôge</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Hiele dei</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Foltôgje: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Markearje as wichtich</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Herinnering bewurkje</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Herinnering wiskje</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} iepen, {1} foltôge</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Noch gjin herinneringen</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Foegje jo earste herinnering ta en dy ferskynt hjir, groepearre op datum.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Nije herinnering (lege steat)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Foltôge herinneringen</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Moanne</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Wike</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Aginda</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Moannewerjefte</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Wikewerjefte</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Agindawerjefte</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Foarige</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Folgjende</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Gean nei hjoed</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Nije herinnering op de selektearre dei</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Neat pland foar dizze dei.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Neat op komst</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Gjin herinneringen yn de kommende {0} dagen.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Nije herinnering (lege aginda)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Moanneraster. Mei de pylktsjes feroarje jo de selektearre dei, mei Enter foegje jo in herinnering ta.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Hjoed · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Moarn · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Kommende {0} dagen fan {1} ôf</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Gjin herinneringen</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} herinnering</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} herinneringen</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, wichtich</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>gjin herinneringen</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} herinnering</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} herinneringen</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Herinnering sûnder kategory</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Herinnering mei kategory</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Nije herinnering</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Herinnering bewurkje</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Wat moatte jo ûnthâlde?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Opsjoneel</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Lit in read !-badge sjen, sadat it opfalt.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Gjin ofbylding</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Ofbylding tafoegje</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Ofbylding: {0}. Ofbylding wizigje</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Jou in titel yn.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>De titel mei maksimaal {0} tekens wêze.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Kies in datum.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Jou in tiid yn lykas {0}, of set Hiele dei oan.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Herinnering wiskje?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" wurdt foargoed wiske. Dit kin net ûngedien makke wurde.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Gjin</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Nij profyl</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Profyl bewurkje</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Ofbylding wizigje</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Namme</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Profylnamme</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Kleur</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Avatarletter</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (opsjoneel)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Hjoeddeiske PIN hâlde</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Jou in namme yn.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>De namme mei maksimaal {0} tekens wêze.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Jou ien teken yn foar de avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>De PIN moat krekt 4 sifers wêze.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Dit profyl kin net wiske wurde</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Der moat teminsten ien profyl bestean. Meitsje earst in oar profyl oan as jo dit wiskje wolle.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>"{0}" wiskje?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Hjirmei wurdt it profyl "{0}" foargoed wiske, tegearre mei al syn herinneringen en kategoryen. Dit kin net ûngedien makke wurde.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN ynstelle</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN wizigje</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN fuortsmite</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Kies in PIN fan 4 sifers. Jo hawwe dy nedich om dit profyl te iepenjen.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Jou jo hjoeddeiske PIN yn en kies dan in nije.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Jou jo hjoeddeiske PIN yn om it slot út te setten.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Hjoeddeiske PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Nije PIN fan 4 sifers</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN werhelje</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Nije PIN werhelje</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Ferkearde hjoeddeiske PIN. Besykje it nochris.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>De twa PIN's komme net oerien.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>De PIN is in privacyskerm om nijsgjirrigen bûten te hâlden, gjin sterke befeiliging.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Ofbyldings sykje</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Gjin ofbyldings fûn.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Minsken</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Famylje en rollen</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Bisten</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasy en wille</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Iten</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natuer</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sport en hobby's</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Dingen</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Skoalle</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Wurk</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Sûnens</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Thús</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Jild</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Reizgje</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Feesten</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Kies in ofbylding</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Ofbyldings</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Jo eigen ofbylding…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Jo eigen ofbylding</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Brûk in PNG of JPG fan jo kompjûter</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Allinnich inisjaal</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Lit de kleurde letter sjen yn plak fan in ofbylding</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Dat bestân koe net as PNG- of JPG-ofbylding lêzen wurde.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Wa brûkt Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Kies jo profyl om troch te gean</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Profyl tafoegje</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Lêst brûkt</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Beskerme mei in PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Bewurkje of wiskje</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Werom nei it hjoeddeiske profyl (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Untskoattelje</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Jou jo PIN fan 4 sifers yn</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Jou de PIN fan dit profyl yn om it te bewurkjen of te wiskjen</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Ferkearde PIN. Besykje it nochris.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Uterlik</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>App-tema</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Kies Ljocht, Tsjuster, of folgje jo Windows-ynstelling.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Ljocht</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Tsjuster</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Systeem</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Kies de taal wêryn Remindr toand wurdt. De feroaring jildt daliks.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>De oersettingen binne mei help fan masines makke; ferbetteringen binne wolkom.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>In ferbettering foarstelle</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Masinaal oersetten</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Help oersette</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Taal: {0}. Druk om te wizigjen.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profyl</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Oanmeld as {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Wikselje nei in oar profyl, of wizigje de namme, kleur en ofbylding fan dit profyl.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Ofbylding wizigje</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Fan profyl wikselje</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-slot</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-slot: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>In PIN fan 4 sifers hâldt nijsgjirrigen bûten dit profyl. It is in privacyskerm, gjin sterke befeiliging.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Help en feedback</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>In probleem fûn of in idee?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Meldingen iepenje op GitHub mei allinnich jo Remindr- en Windows-ferzje ynfolle. Der wurdt neat oars ferstjoerd.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>In bug melde</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>In funksje foarstelle</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Logmap iepenje</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Oer</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0}-lisinsje</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Besjoch op GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Lisinsjes fan tredden</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Der gie wat mis: {0}
+
+Details binne bewarre yn %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Details binne bewarre yn %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Wolkom by Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Druk op in toets of klik om te begjinnen</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Oan de slach</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Wolkom opnij toane</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr ynstelle</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Foarútgong fan de ynstelling</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Stap {0} fan {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Folgjende</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Oerslaan</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Kies jo taal</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>De app wikselet daliks. Jo kinne it op elts momint wizigje yn Ynstellingen.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Talen sykje</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Gjin talen fûn.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Kies jo utsjoch</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Ljocht, Tsjuster, of folgje jo Windows-ynstelling.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Jo profyl</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Foegje jo namme, in kleur en in ofbylding ta.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>In PIN tafoegje?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Opsjoneel. In PIN fan 4 sifers hâldt dit profyl privee.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Alles ree, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Jo kinne dit alles letter wizigje yn Ynstellingen.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr begjinne te brûken</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Myn earste herinnering tafoegje</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Skoalle</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Wurk</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Persoanlik</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Wat is der nij</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Letter</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Dizze ferzje oerslaan</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Opnij besykje</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>De download kontrolearje…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>De download kaam net oerien mei syn kontrôlesom, dêrom is er wiske en is der neat ynstallearre.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>De update koe net downloade wurde. Besykje it letter nochris.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Kontrolearje op updates as Remindr start</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Nimt allinnich kontakt op mei GitHub om ferzjenûmers te fergelykjen; der wurdt neat oer jo ferstjoerd.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Op updates kontrolearje</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Kontrolearje…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Bywurke · kontrolearre {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} beskikber</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Kontrolearjen op updates slagge net</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Update beskikber</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · jo hawwe {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Bywurkje</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Downloade… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Annulearje</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Klear om te ynstallearjen</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Opnij starte en bywurkje</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Oer 1 dei</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Oer 1 oere</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Noch te dwaan</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>De sluimertiid is om</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - te let</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Foltôgje</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Sluimerje</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Slute</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minuten</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 oere</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Moarn</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Testmelding</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Dit is in foarbyld, dus de knoppen dogge neat. Foegje in herinnering ta en stjoer dan nochris in test om se út te probearjen.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Meldingen</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>In testmelding stjoere</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Lit in melding sjen foar jo folgjende herinnering, sadat jo de knoppen útprobearje kinne.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Test stjoere</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Iepenje</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Flot tafoegje</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Ofslute</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr rint noch yn it systeemfak</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Jo herinneringen bliuwe jo warskôgje. Brûk it systeemfakikoan om te iepenjen of ôf te sluten.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Trochgean yn it systeemfak as ik it finster slút</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Herinneringen bliuwe warskôgje as it finster ticht is. Set út om ôf te sluten as jo it slute.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Remindr starte as ik oanmeld</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Start stil yn it systeemfak, sadat jo herinneringen bliuwe warskôgje. Set út om it sels te starten.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr rint al, mar reagearret net. As it ôfslút, wachtsje efkes en besykje it nochris; slút it oars ôf yn Taakbehearder.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Wichtich</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Te let</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} hjoed te dwaan</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} hjoed te dwaan</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Wat is der nij yn Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Begrepen</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Wat is der nij yn dizze ferzje</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Herinneringen dy't jo fine</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-meldingen mei de knoppen Foltôgje, Sluimerje en Slute. Sluimerje foar 5 minuten, in oere, of oant moarn.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Wichtich betsjut oanhâlde</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Wichtige herinneringen warskôgje jo in dei en in oere foarôf, dan elke 10 minuten oant jo der wat mei dogge.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Bliuwt stil trochrinne</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Slút it finster en Remindr bliuwt yn it systeemfak, sadat warskôgingen noch oankomme. Iepenje of ôfslute it fia it systeemfakikoan.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Start mei Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Set it oan yn Ynstellingen en Remindr start ferstoppe yn it systeemfak as jo oanmelde.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kaarten ferheffe har, finkjes poppe, de kalinder glidet en lege siden driuwe. Mei Windows-animaasjes út bliuwt alles stil.</value>
+  </data>
+</root>

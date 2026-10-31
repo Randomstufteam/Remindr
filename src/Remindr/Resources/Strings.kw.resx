@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Keworra</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Distro</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Hedhi</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Gwruthyl</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Dilea</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Golya</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Hedhys</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Gweythys</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Gwitha</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Hedhyw</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Dydhyas</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Termyn</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notennow</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Klass</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Skeusenn</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Poesek</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Hedhyw</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalennyk</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Oll an daskovyow</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Settyansow</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Chanjya profil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Kudha po displetya an tenn-ves</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Chanjya tenn-ves</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Myttin da</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Myttin da, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Dydh da</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Dydh da, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Gorthugher da</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Gorthugher da, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Nyns eus travyth hedhyw</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Daskovyow rag hedhyw a vydh dyskwedhys omma.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Daskov nowydh</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Daskov nowydh (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Diwedhes</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Hedhyw</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Avorow</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Gorfennys</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Oll an jydh</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Gorfenna: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Merkya avel poesek</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Golya daskov</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Dilea daskov</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} igor, {1} gorfennys</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Nyns eus daskov hwath</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Keworr dha gynsa daskov hag ev a vydh dyskwedhys omma, kesunys herwydh an dydhyas.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Daskov nowydh (folen wag)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Daskovyow gorfennys</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Mis</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Seythen</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Gwel an vis</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Gwel an seythen</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Gwel an rol</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Kens</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Nessa</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Mos dhe hedhyw</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Daskov nowydh war an jydh dowisys</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Nyns eus travyth ragdhyghtys rag an jydh ma.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Nyns eus travyth ow tos</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Nyns eus daskov y'n {0} dydh nessa.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Daskov nowydh (rol wag)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Gwel an vis. Alwednow a gemm an jydh dowisys, Enter a gewsor daskov.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Hedhyw · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Avorow · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} dydh nessa dhyworth {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Nyns eus daskov</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayCaption_Two" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayCaption_Few" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayCaption_Many" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, poesek</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>nyns eus daskov</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Two" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Few" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Many" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} daskov</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Daskov heb klass</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Daskov gans klass</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Daskov nowydh</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Golya daskov</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Pyth a res dhis y gofha?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Dewisyus</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Dyskwedhes badj ruth ! may fo gwelys yn ta.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Heb skeusenn</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Keworra skeusenn</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Skeusenn: {0}. Chanjya skeusenn</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Entrewgh titel.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Res yw an titel bos {0} arwodh po le.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Dewisewgh dydhyas.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Entrewgh termyn kepar ha {0}, po gweythyewgh Oll an jydh.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Dilea daskov?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>Y fydh "{0}" dileys yn fynn. Ny yll hemma bos dhegys.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Nagonan</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Profil nowydh</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Golya profil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Chanjya skeusenn</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Hanow</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Hanow profil</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Liw</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Lyther avatar</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (dewisyus)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Gwitha an PIN a-lemmyn</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Entrewgh hanow.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Res yw an hanow bos {0} arwodh po le.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Entrewgh unn arwodh rag an avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>Res yw an PIN bos peswar figur ha nyns moy.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ny yllir dilea an profil ma</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Res yw bos unn profil dhe'n lyha. Gwrewgh profil aral kens mar mynnewgh dilea hemma.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Dilea "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Hemma a dhilea yn fynn an profil "{0}" ha'y oll daskovyow ha klassys. Ny yll hemma bos dhegys.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Settya PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Chanjya PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Dilea PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Dewisewgh PIN a beswar figur. Y fydh othem dhodho rag egery an profil ma.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Entrewgh agas PIN a-lemmyn, ena dewisewgh onan nowydh.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Entrewgh agas PIN a-lemmyn rag dhe dhiwhedhi an kleyth.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN a-lemmyn</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN nowydh a beswar figur</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Dasskrifa PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Dasskrifa PIN nowydh</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>An PIN a-lemmyn nyns yw ewn. Previewgh arta.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Nyns yw an dhew PIN an keth.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>An PIN yw skrin privetter rag skonya an hwithrans, nyns yw sewrynsi krev.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Oll</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Hwilas skeusennow</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Nyns eus skeusenn a dhiskwedh.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Tus</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Teylu ha rannow</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Enyvales</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasi ha sport</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Bos</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natur</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sportys ha hobiow</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Taklow</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Skol</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Oberenn</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Sotheva</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Tre</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Arghans</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Viaj</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Solempnyansow</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sportys</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Dewisewgh skeusenn</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Skeusennow</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Dha skeusenn dha-honan…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Dha skeusenn dha-honan</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Devnydhyewgh PNG po JPG dhyworth agas kompoter</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Lyther dhe-unn</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Dyskwedhes an lyther liwys yn le skeusenn</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Ny ylli redya an dhosten ma avel skeusenn PNG po JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Pyw a usi Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Dewisewgh agas profil rag pesya</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Keworra profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Devnydhys an dhiwettha</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Gwithys gans PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Golya po dilea</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Distro dhe'n profil a-lemmyn (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Egery</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Entrewgh agas PIN a beswar figur</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Entrewgh PIN an profil ma rag y wolya po y dhilea</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>An PIN nyns yw ewn. Previewgh arta.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Semlant</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Tema an app</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Dewisewgh Kler, Du, po holyewgh settyans Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Kler</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Du</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Yeth</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Dewisewgh an yeth may fo Remindr dyskwedhys ynni. An chanj a worr ynwedh heb let.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Yeth</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>An treylyansow a veu gwrys gans pewas; diwygyansow yw wolkodys.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Profya diwygyans</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Treylys gans pewas</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Gweres treylya</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Yeth: {0}. Gwaskewgh rag chanjya.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Omgelmys avel {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Chanjyewgh dhe brofil aral, po chanjyewgh hanow, liw ha skeusenn an profil ma.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Chanjya skeusenn</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Chanjya profil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Kleyth PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Kleyth PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>PIN a beswar figur a wra skonya hwithrans dhyworth an profil ma. Skrin privetter yw, nyns yw sewrynsi krev.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Gweres ha kemmeres</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>A wrussowgh kavos kudyn po kavos tybyans?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Derivadow a egor war GitHub gans agas versyon Remindr ha Windows yn unnik. Travyth aral ny vydh danvenys.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Derivas gwall</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Profya nerth nowydh</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Egery fillen logys</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>A-dro dhe</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Lysans {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Gwelas war GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Gwarnyansow tredhek parti</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Neppyth eth yn kamm: {0}
+
+Manylyon a veu gwithys dhe %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Manylyon a veu gwithys dhe %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Dynnargh dhe Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Gwaskewgh pub alwedh po klyka rag dalleth</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Dalleth</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Dasserghi an dynnargh</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Settya Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Avonsyans an settyans</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Pas {0} a {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Nessa</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Lamma</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Dewisewgh agas yeth</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>An app a gemm yn skon. Hwi a yll hy chanjya pan vynnewgh yn Settyansow.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Hwilas yethow</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Nyns eus yeth a dhiskwedh.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Dewisewgh agas semlant</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Kler, Du, po holyewgh settyans Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Agas profil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Keworrewgh agas hanow, liw ha skeusenn.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Keworra PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Dewisyus. PIN a beswar figur a wra gwitha an profil ma privet.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Pub tra yw parys, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Hwi a yll chanjya hemma oll nessa-prys yn Settyansow.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Dalleth usya Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Keworra ow gynsa daskov</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Skol</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Oberenn</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Privet</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Pyth yw nowydh</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Warlergh</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Lamma an versyon ma</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Previewgh arta</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Kwitya an iskarga…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Nyns o an iskarga unn hag y hwithrans, ytho y fu dileys ha travyth ny veu staliys.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Ny ylli iskarga an nowedhheans. Previewgh arta war-lergh.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Nowedhheansow</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Hwithra rag nowedhheansow pan dhallo Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Nyns usi marth GitHub marnas rag keheveli niverow versyon; travyth adro dhis ny vydh danvenys.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Hwithra rag nowedhheansow</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Ow hwithra…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>A-lemmyn · hwithrys {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} kavadow</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Ny ylli hwithra rag nowedhheansow</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Nowedhheans kavadow</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · hwi a'n jeves {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Nowedhhe</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Ow iskarga… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Hedhi</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Parys dhe staliya</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Dalleth arta ha nowedhhe</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Yn 1 dydh</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Yn 1 eur</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Lemmyn</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Hwath dhe wul</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Gorfennys yw an hunros</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - diwedhes</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Gorfenna</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Hunros</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Hedhi</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 mynysenn</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 eur</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Avorow</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Derivadow previ</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Hemma yw sampel, ytho ny wra y vottonyow travyth. Keworrewgh daskov, ena danvenewgh previ arta rag aga previ.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Derivadow</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Danvon derivas previ</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Dyskwedhes derivas rag agas daskov nessa may hyllir previ an bottonyow.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Danvon previ</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Egery</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Keworra skon</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Kwitya</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr a wra hwath ow ponya y'n tray</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Agas daskovyow a wra pesya ow talgerdhya. Devnydhyewgh an arwodh y'n tray rag egery po kwitya.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Pesya ow ponya y'n tray pan vo an fenester degeys</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Daskovyow a bes ow talgerdhya hedre vo an fenester degeys. Hedhewgh rag kwitya pan wrewgh y dhegea.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Dalleth Remindr pan vo omgelmys</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>A dhallath yn kosel y'n tray may hyllo agas daskovyow pesya ow talgerdhya. Hedhewgh rag y dhalleth agas honan.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr a bonya seulabrys mes ny worta. Mar mydh ow serrya, gortewgh pols ha previewgh arta; poken diwedhewgh yn Menystrer Oberow.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Poesek</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Diwedhes</value>
+  </data>
+  <data name="Tray_TooltipDue_Zero" xml:space="preserve">
+    <value>Remindr · {0} daskov rag hedhyw</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} daskov rag hedhyw</value>
+  </data>
+  <data name="Tray_TooltipDue_Two" xml:space="preserve">
+    <value>Remindr · {0} daskov rag hedhyw</value>
+  </data>
+  <data name="Tray_TooltipDue_Few" xml:space="preserve">
+    <value>Remindr · {0} daskov rag hedhyw</value>
+  </data>
+  <data name="Tray_TooltipDue_Many" xml:space="preserve">
+    <value>Remindr · {0} daskov rag hedhyw</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} daskov rag hedhyw</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Pyth yw nowydh yn Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Konvedhys</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Pyth yw nowydh y'n versyon ma</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Daskovyow a gav hwi</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Derivadow Windows gans bottonyow Gorfenna, Hunros ha Hedhi. Hunros rag 5 mynysenn, eur, po bys avorow.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Poesek a styr kerth</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Daskovyow poesek a dalgerdh hwi dydh hag eur kens, ena pub 10 mynysenn bys pan wrewgh gweythres warnedhans.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Ow pesya yn kosel</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Degewgh an fenester ha Remindr a wra triga y'n tray, may teu an talgerdhyow hwath. Egerewgh po kwitewgh dhyworth an arwodh.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Dalleth gans Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Gweythyewgh hemma yn Settyansow ha Remindr a dhallath kudhys y'n tray pan wrewgh omgelmi.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kartow a sevel, tikkys a boppya, an kalennyk a lymm ha folennow wag a neyja. Gans animasyons Windows dhe-ves, pub tra a bes kosel.</value>
+  </data>
+</root>

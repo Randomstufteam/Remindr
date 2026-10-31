@@ -28,7 +28,7 @@ public partial class SetupView : UserControl
     private readonly IReadOnlyList<ThemeOption> _themes = new[] { AppTheme.Light, AppTheme.Dark, AppTheme.System }.Select(t => new ThemeOption(t)).ToList();
     private SetupViewModel? _vm;
     private int _shownIndex;
-    private bool _syncingLanguage, _syncingTheme, _syncingPin, _finishing;
+    private bool _syncingTheme, _syncingPin, _finishing;
 
     public SetupView()
     {
@@ -135,12 +135,8 @@ public partial class SetupView : UserControl
                 DotsList.SelectedIndex = _vm.StepIndex;
                 ShowStep(from, _shownIndex);
                 break;
-            case nameof(SetupViewModel.FilteredLanguages):
-                NoLanguages.Visibility = _vm.FilteredLanguages.Count == 0 ? Visibility.Visible : Visibility.Collapsed;
-                // The list lost its selection when its items were replaced; mark the chosen language again if it is still listed.
-                Dispatcher.BeginInvoke(new Action(SelectCurrentLanguage), System.Windows.Threading.DispatcherPriority.Background);
-                break;
             case nameof(SetupViewModel.LanguageCode):
+                LanguageControl.SelectedCode = _vm.LanguageCode;
                 RefreshSummary();
                 break;
             case nameof(SetupViewModel.Theme):
@@ -182,33 +178,14 @@ public partial class SetupView : UserControl
     private void SelectCurrentLanguage()
     {
         if (_vm is null) return;
-        _syncingLanguage = true;
-        var item = _vm.FilteredLanguages.FirstOrDefault(l => l.Code == _vm.LanguageCode);
-        LanguageList.SelectedItem = item;
-        _syncingLanguage = false;
-        if (item is not null) LanguageList.ScrollIntoView(item);
+        LanguageControl.PinnedCode = _vm.SuggestedLanguageCode;
+        LanguageControl.SelectedCode = _vm.LanguageCode;
     }
 
-    private void LanguageList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    /// <summary>A language was chosen in the picker: the app previews it live (the choice is saved when setup is finished).</summary>
+    private void LanguageControl_LanguageChosen(string code)
     {
-        if (_syncingLanguage || _vm is null) return;
-        if (LanguageList.SelectedItem is LanguageInfo info) _vm.LanguageCode = info.Code;
-    }
-
-    private void LanguageSearch_PreviewKeyDown(object sender, KeyEventArgs e)
-    {
-        // Down moves from the search box into the list (to the chosen language, or the first one).
-        if (e.Key != Key.Down || LanguageList.Items.Count == 0) return;
-        FocusLanguageItem();
-        e.Handled = true;
-    }
-
-    private void FocusLanguageItem()
-    {
-        var target = LanguageList.SelectedItem ?? LanguageList.Items[0];
-        LanguageList.ScrollIntoView(target);
-        LanguageList.UpdateLayout();
-        (LanguageList.ItemContainerGenerator.ContainerFromItem(target) as ListBoxItem)?.Focus();
+        if (_vm is not null) _vm.LanguageCode = code;
     }
 
     private void SelectCurrentTheme()
@@ -262,6 +239,12 @@ public partial class SetupView : UserControl
     {
         base.OnPreviewKeyDown(e);
         if (_vm is null || e.Handled) return;
+        // On the Language page the picker gets Enter (choose the highlighted language, a second Enter goes on) and Esc (clear the search) first.
+        if (_vm.Step == SetupStep.Language && LanguageControl.IsKeyboardFocusWithin)
+        {
+            if (e.Key == Key.Enter && LanguageControl.ActivateCandidate()) { e.Handled = true; return; }
+            if (e.Key == Key.Escape && LanguageControl.ClearSearch()) { e.Handled = true; return; }
+        }
 
         if (e.Key == Key.Escape)
         {
@@ -381,7 +364,7 @@ public partial class SetupView : UserControl
         switch (index)
         {
             case 0:
-                LanguageSearch.Focus();
+                LanguageControl.FocusSearch();
                 break;
             case 1:
                 if (ThemeList.SelectedItem is { } theme && ThemeList.ItemContainerGenerator.ContainerFromItem(theme) is ListBoxItem card) card.Focus();

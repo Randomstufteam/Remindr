@@ -492,7 +492,7 @@ public class WeekRangeTitleTests
 {
     private static string Range(string code, DateOnly from, DateOnly to)
     {
-        var res = CultureInfo.GetCultureInfo(code);
+        var res = Remindr.Services.LocalizationService.ForceGregorian(CultureInfo.GetCultureInfo(code));
         string P(string key, DateOnly d) { var f = Remindr.Services.Loc.Get(key, res); try { return d.ToString(f, res); } catch (FormatException) { throw new FormatException($"{code} {key} = [{f}]"); } }
         if (from.Year != to.Year)
             return string.Format(Remindr.Services.Loc.Get("Calendar_WeekRangeCrossYear", res), P("Fmt_MonthDayYear", from), P("Fmt_MonthDayYear", to));

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>បន្ថែម</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>ថយក្រោយ</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>បោះបង់</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>បង្កើត</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>លុប</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>កែសម្រួល</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>បិទ</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>បើក</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>រក្សាទុក</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>ថ្ងៃនេះ</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>ចំណងជើង</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>កាលបរិច្ឆេទ</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>ពេលវេលា</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>កំណត់ចំណាំ</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>ប្រភេទ</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>រូបភាព</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>សំខាន់</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>ថ្ងៃនេះ</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>ប្រតិទិន</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>ការរំលឹកទាំងអស់</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>ប្រវត្តិរូប</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>ការកំណត់</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>ប្ដូរប្រវត្តិរូប</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>បង្រួម ឬពង្រីករបារចំហៀង</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>បិទបើករបារចំហៀង</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>អរុណសួស្ដី</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>អរុណសួស្ដី {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>ទិវាសួស្ដី</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>ទិវាសួស្ដី {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>សាយណ្ហសួស្ដី</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>សាយណ្ហសួស្ដី {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>គ្មានអ្វីដល់ពេលថ្ងៃនេះទេ</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>ការរំលឹកសម្រាប់ថ្ងៃនេះនឹងបង្ហាញនៅទីនេះ។</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>ការរំលឹកថ្មី</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>ការរំលឹកថ្មី (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>ហួសកំណត់</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>ថ្ងៃនេះ</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>ថ្ងៃស្អែក</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>បានបញ្ចប់</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>ពេញមួយថ្ងៃ</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>បញ្ចប់៖ {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>ដាក់ជាសំខាន់</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>កែសម្រួលការរំលឹក</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>លុបការរំលឹក</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>កំពុងរង់ចាំ {0}, បានបញ្ចប់ {1}</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>មិនទាន់មានការរំលឹកទេ</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>បន្ថែមការរំលឹកដំបូងរបស់អ្នក ហើយវានឹងបង្ហាញនៅទីនេះ តាមកាលបរិច្ឆេទ។</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>ការរំលឹកថ្មី (ទំព័រទទេ)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>ការរំលឹកដែលបានបញ្ចប់</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>ខែ</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>សប្ដាហ៍</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>របៀបវារៈ</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>ទិដ្ឋភាពតាមខែ</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>ទិដ្ឋភាពតាមសប្ដាហ៍</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>ទិដ្ឋភាពរបៀបវារៈ</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>មុន</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>បន្ទាប់</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>ទៅថ្ងៃនេះ</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>ការរំលឹកថ្មីនៅថ្ងៃដែលបានជ្រើស</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>គ្មានអ្វីគ្រោងទុកសម្រាប់ថ្ងៃនោះទេ។</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>គ្មានអ្វីនឹងមកដល់ទេ</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>គ្មានការរំលឹកក្នុង {0} ថ្ងៃខាងមុខទេ។</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>ការរំលឹកថ្មី (របៀបវារៈទទេ)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>ក្រឡាតាមខែ។ ប្រើព្រួញដើម្បីប្ដូរថ្ងៃដែលបានជ្រើស ហើយចុច Enter ដើម្បីបន្ថែមការរំលឹក។</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>ថ្ងៃនេះ · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>ថ្ងៃស្អែក · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} ថ្ងៃខាងមុខ ចាប់ពី {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>គ្មានការរំលឹក</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>ការរំលឹក {0}</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>ការរំលឹក {0}</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, សំខាន់</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>គ្មានការរំលឹក</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>ការរំលឹក {0}</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>ការរំលឹក {0}</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>ការរំលឹកគ្មានប្រភេទ</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>ការរំលឹកមានប្រភេទ</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>ការរំលឹកថ្មី</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>កែសម្រួលការរំលឹក</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>តើអ្នកត្រូវចងចាំអ្វី?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>ស្រេចចិត្ត</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>បង្ហាញស្លាក ! ពណ៌ក្រហម ដើម្បីឱ្យលេចធ្លោ។</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>គ្មានរូបភាព</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>បន្ថែមរូបភាព</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>រូបភាព៖ {0}។ ប្ដូររូបភាព</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>សូមបញ្ចូលចំណងជើង។</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>ចំណងជើងត្រូវមានមិនលើស {0} តួអក្សរ។</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>សូមជ្រើសរើសកាលបរិច្ឆេទ។</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>សូមបញ្ចូលម៉ោងដូចជា {0} ឬបើក ពេញមួយថ្ងៃ។</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>លុបការរំលឹកឬ?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" នឹងត្រូវលុបជាអចិន្ត្រៃយ៍។ មិនអាចត្រឡប់វិញបានទេ។</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>គ្មាន</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>ប្រវត្តិរូបថ្មី</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>កែសម្រួលប្រវត្តិរូប</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>ប្ដូររូបភាព</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>ឈ្មោះ</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>ឈ្មោះប្រវត្តិរូប</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>ពណ៌</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>អក្សរតំណាង</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (ស្រេចចិត្ត)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>រក្សា PIN បច្ចុប្បន្ន</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>សូមបញ្ចូលឈ្មោះ។</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>ឈ្មោះត្រូវមានមិនលើស {0} តួអក្សរ។</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>សូមបញ្ចូលតួអក្សរតែមួយសម្រាប់តំណាង។</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN ត្រូវមានលេខ 4 ខ្ទង់ពិតប្រាកដ។</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>មិនអាចលុបប្រវត្តិរូបនេះបានទេ</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>ត្រូវមានប្រវត្តិរូបយ៉ាងហោចណាស់មួយ។ សូមបង្កើតប្រវត្តិរូបផ្សេងជាមុនសិន ប្រសិនបើចង់លុបប្រវត្តិរូបនេះ។</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>លុប "{0}" ឬ?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>សកម្មភាពនេះនឹងលុបប្រវត្តិរូប "{0}" ជាអចិន្ត្រៃយ៍ រួមទាំងការរំលឹក និងប្រភេទទាំងអស់របស់វា។ មិនអាចត្រឡប់វិញបានទេ។</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>កំណត់ PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>ប្ដូរ PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>ដក PIN ចេញ</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>សូមជ្រើសរើស PIN 4 ខ្ទង់។ អ្នកនឹងត្រូវការវាដើម្បីបើកប្រវត្តិរូបនេះ។</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>សូមបញ្ចូល PIN បច្ចុប្បន្នរបស់អ្នក រួចជ្រើសរើស PIN ថ្មី។</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>សូមបញ្ចូល PIN បច្ចុប្បន្នរបស់អ្នក ដើម្បីបិទសោ។</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN បច្ចុប្បន្ន</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN ថ្មី 4 ខ្ទង់</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>បញ្ចូល PIN ម្ដងទៀត</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>បញ្ចូល PIN ថ្មីម្ដងទៀត</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN បច្ចុប្បន្នមិនត្រឹមត្រូវ។ សូមព្យាយាមម្ដងទៀត។</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>PIN ទាំងពីរមិនដូចគ្នាទេ។</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN គឺជាអេក្រង់ភាពឯកជនសម្រាប់ទប់ស្កាត់អ្នកចង់ដឹងចង់ឃើញ មិនមែនជាសុវត្ថិភាពខ្លាំងទេ។</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>ទាំងអស់</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>ស្វែងរករូបភាព</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>គ្មានរូបភាពត្រូវគ្នាទេ។</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>មនុស្ស</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>គ្រួសារ និងតួនាទី</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>សត្វ</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>ការស្រមើស្រមៃ និងកម្សាន្ត</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>អាហារ</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>ធម្មជាតិ</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>កីឡា និងចំណូលចិត្ត</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>វត្ថុ</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>សាលា</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>ការងារ</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>សុខភាព</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>ផ្ទះ</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>លុយ</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>ការធ្វើដំណើរ</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>ពិធីបុណ្យ</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>កីឡា</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>ជ្រើសរើសរូបភាព</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>រូបភាព</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>រូបភាពផ្ទាល់ខ្លួន…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>រូបភាពផ្ទាល់ខ្លួន</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>ប្រើ PNG ឬ JPG ពីកុំព្យូទ័ររបស់អ្នក</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>អក្សរដំបូងតែប៉ុណ្ណោះ</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>បង្ហាញអក្សរមានពណ៌ជំនួសរូបភាព</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>មិនអាចអានឯកសារនោះជារូបភាព PNG ឬ JPG បានទេ។</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>តើនរណាកំពុងប្រើ Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>ជ្រើសរើសប្រវត្តិរូបរបស់អ្នកដើម្បីបន្ត</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>បន្ថែមប្រវត្តិរូប</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>ប្រើចុងក្រោយ</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>ការពារដោយ PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>កែសម្រួល ឬលុប</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>ត្រឡប់ទៅប្រវត្តិរូបបច្ចុប្បន្ន (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>ដោះសោ</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>បញ្ចូល PIN 4 ខ្ទង់របស់អ្នក</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>បញ្ចូល PIN របស់ប្រវត្តិរូបនេះ ដើម្បីកែសម្រួល ឬលុប</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN មិនត្រឹមត្រូវ។ សូមព្យាយាមម្ដងទៀត។</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>រូបរាង</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>ស្បែកកម្មវិធី</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>ជ្រើសរើសភ្លឺ ងងឹត ឬតាមការកំណត់ Windows របស់អ្នក។</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>ស្បែក</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>ភ្លឺ</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>ងងឹត</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>តាមប្រព័ន្ធ</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>ភាសា</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>ជ្រើសរើសភាសាដែល Remindr បង្ហាញ។ ការផ្លាស់ប្ដូរមានប្រសិទ្ធភាពភ្លាមៗ។</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>ភាសា</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>ការបកប្រែត្រូវបានជួយដោយម៉ាស៊ីន; ស្វាគមន៍ការកែតម្រូវ។</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>ណែនាំការកែតម្រូវ</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>បកប្រែដោយម៉ាស៊ីន</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>ជួយបកប្រែ</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>ភាសា៖ {0}។ ចុចដើម្បីប្ដូរ។</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>ប្រវត្តិរូប</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>បានចូលជា {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>ប្ដូរទៅប្រវត្តិរូបផ្សេង ឬប្ដូរឈ្មោះ ពណ៌ និងរូបភាពរបស់ប្រវត្តិរូបនេះ។</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>ប្ដូររូបភាព</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>ប្ដូរប្រវត្តិរូប</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>សោ PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>សោ PIN៖ {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>PIN 4 ខ្ទង់ទប់ស្កាត់អ្នកចង់ដឹងចង់ឃើញពីប្រវត្តិរូបនេះ។ វាជាអេក្រង់ភាពឯកជន មិនមែនជាសុវត្ថិភាពខ្លាំងទេ។</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>ជំនួយ និងមតិកែលម្អ</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>ឃើញបញ្ហា ឬមានគំនិតអ្វីទេ?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>របាយការណ៍បើកនៅលើ GitHub ដោយបំពេញតែកំណែ Remindr និង Windows របស់អ្នកប៉ុណ្ណោះ។ គ្មានអ្វីផ្សេងត្រូវបានផ្ញើទេ។</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>រាយការណ៍កំហុស</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>ស្នើមុខងារ</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>បើកថតកំណត់ហេតុ</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>អំពី</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>អាជ្ញាប័ណ្ណ {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>មើលនៅលើ GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>សេចក្ដីជូនដំណឹងភាគីទីបី</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>មានអ្វីមួយមិនប្រក្រតី៖ {0}
+
+ព័ត៌មានលម្អិតត្រូវបានរក្សាទុកក្នុង %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+ព័ត៌មានលម្អិតត្រូវបានរក្សាទុកក្នុង %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>សូមស្វាគមន៍មកកាន់ Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>ចុចគ្រាប់ចុចណាមួយ ឬចុចកណ្ដុរដើម្បីចាប់ផ្ដើម</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>ចាប់ផ្ដើម</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>ចាក់សារស្វាគមន៍ម្ដងទៀត</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>រៀបចំ Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>ដំណើរការនៃការរៀបចំ</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>ជំហាន {0} នៃ {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>បន្ទាប់</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>រំលង</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>ជ្រើសរើសភាសារបស់អ្នក</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>កម្មវិធីប្ដូរភាសាភ្លាមៗ។ អ្នកអាចប្ដូរបានគ្រប់ពេលនៅក្នុងការកំណត់។</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>ស្វែងរកភាសា</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>គ្មានភាសាត្រូវគ្នាទេ។</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>ជ្រើសរើសរូបរាងរបស់អ្នក</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>ភ្លឺ ងងឹត ឬតាមការកំណត់ Windows របស់អ្នក។</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>ប្រវត្តិរូបរបស់អ្នក</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>បន្ថែមឈ្មោះ ពណ៌ និងរូបភាពរបស់អ្នក។</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>បន្ថែម PIN ឬទេ?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>ស្រេចចិត្ត។ PIN 4 ខ្ទង់ធ្វើឱ្យប្រវត្តិរូបនេះជាឯកជន។</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>អ្នករួចរាល់ហើយ {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>អ្នកអាចប្ដូរអ្វីទាំងអស់នេះនៅពេលក្រោយក្នុងការកំណត់។</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>ចាប់ផ្ដើមប្រើ Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>បន្ថែមការរំលឹកដំបូងរបស់ខ្ញុំ</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>សាលា</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>ការងារ</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>ផ្ទាល់ខ្លួន</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>មានអ្វីថ្មី</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>ពេលក្រោយ</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>រំលងកំណែនេះ</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>ព្យាយាមម្ដងទៀត</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>កំពុងពិនិត្យការទាញយក…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ការទាញយកមិនត្រូវនឹង checksum របស់វា ដូច្នេះវាត្រូវបានលុប ហើយមិនមានអ្វីត្រូវបានដំឡើងទេ។</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>មិនអាចទាញយកការអាប់ដេតបានទេ។ សូមព្យាយាមម្ដងទៀតនៅពេលក្រោយ។</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>ការអាប់ដេត</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>ពិនិត្យរកការអាប់ដេតនៅពេល Remindr ចាប់ផ្ដើម</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>ទាក់ទង GitHub តែដើម្បីប្រៀបធៀបលេខកំណែប៉ុណ្ណោះ; គ្មានអ្វីអំពីអ្នកត្រូវបានផ្ញើទេ។</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>ពិនិត្យរកការអាប់ដេត</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>កំពុងពិនិត្យ…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>ទាន់សម័យ · បានពិនិត្យ {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>មាន {0}</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>មិនអាចពិនិត្យរកការអាប់ដេតបានទេ</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>មានការអាប់ដេត</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · អ្នកមាន {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>អាប់ដេត</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>កំពុងទាញយក… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>បោះបង់</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>ត្រៀមដំឡើង</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>ចាប់ផ្ដើមឡើងវិញ និងអាប់ដេត</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>ក្នុង 1 ថ្ងៃ</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>ក្នុង 1 ម៉ោង</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>ឥឡូវនេះ</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>នៅសល់ត្រូវធ្វើ</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>ការពន្យារពេលបានអស់</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - ហួសកំណត់</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>បញ្ចប់</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>ពន្យារពេល</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>បិទចោល</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 នាទី</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 ម៉ោង</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>ថ្ងៃស្អែក</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>ការជូនដំណឹងសាកល្បង</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>នេះគ្រាន់តែជាគំរូ ដូច្នេះប៊ូតុងរបស់វាមិនធ្វើអ្វីទេ។ បន្ថែមការរំលឹក រួចផ្ញើការសាកល្បងម្ដងទៀតដើម្បីសាកល្បងប៊ូតុងទាំងនោះ។</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>ការជូនដំណឹង</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>ផ្ញើការជូនដំណឹងសាកល្បង</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>បង្ហាញការជូនដំណឹងសម្រាប់ការរំលឹកបន្ទាប់របស់អ្នក ដើម្បីឱ្យអ្នកសាកល្បងប៊ូតុង។</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>ផ្ញើសាកល្បង</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>បើក</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>បន្ថែមរហ័ស</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>ចេញ</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr នៅតែដំណើរការក្នុងថាសប្រព័ន្ធ</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>ការរំលឹករបស់អ្នកនឹងបន្តជូនដំណឹង។ ប្រើរូបតំណាងក្នុងថាសប្រព័ន្ធដើម្បីបើក ឬចេញ។</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>បន្តដំណើរការក្នុងថាសប្រព័ន្ធនៅពេលខ្ញុំបិទបង្អួច</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>ការរំលឹកបន្តជូនដំណឹងអ្នកនៅពេលបង្អួចបិទ។ បិទជម្រើសនេះដើម្បីចេញនៅពេលអ្នកបិទវា។</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>ចាប់ផ្ដើម Remindr នៅពេលខ្ញុំចូល</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>ចាប់ផ្ដើមដោយស្ងាត់ៗក្នុងថាសប្រព័ន្ធ ដើម្បីឱ្យការរំលឹករបស់អ្នកបន្តជូនដំណឹង។ បិទដើម្បីចាប់ផ្ដើមដោយខ្លួនឯង។</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr កំពុងដំណើរការរួចហើយ ប៉ុន្តែមិនឆ្លើយតប។ ប្រសិនបើវាកំពុងបិទ សូមរង់ចាំបន្តិចហើយព្យាយាមម្ដងទៀត បើមិនដូច្នោះទេ សូមបញ្ចប់វាក្នុង Task Manager។</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>សំខាន់</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>ហួសកំណត់</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · ដល់កំណត់ថ្ងៃនេះ {0}</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · ដល់កំណត់ថ្ងៃនេះ {0}</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>អ្វីថ្មីក្នុង Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>យល់ហើយ</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>អ្វីថ្មីក្នុងកំណែនេះ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>ការរំលឹកដែលរកអ្នកឃើញ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>ការជូនដំណឹង Windows ជាមួយប៊ូតុងបញ្ចប់ ពន្យារពេល និងបិទចោល។ ពន្យារពេល 5 នាទី មួយម៉ោង ឬរហូតដល់ថ្ងៃស្អែក។</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>សំខាន់ មានន័យថាតាមរំលឹក</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>ការរំលឹកសំខាន់ជូនដំណឹងមុនមួយថ្ងៃ និងមួយម៉ោង បន្ទាប់មករាល់ 10 នាទីរហូតដល់អ្នកធ្វើអ្វីមួយ។</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>បន្តដំណើរការដោយស្ងាត់ៗ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>បិទបង្អួច ហើយ Remindr នៅតែស្ថិតក្នុងថាសប្រព័ន្ធ ដូច្នេះការជូនដំណឹងនៅតែមកដល់។ បើក ឬចេញពីរូបតំណាងក្នុងថាសប្រព័ន្ធ។</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>ចាប់ផ្ដើមជាមួយ Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>បើកវាក្នុងការកំណត់ ហើយ Remindr ចាប់ផ្ដើមដោយលាក់ក្នុងថាសប្រព័ន្ធនៅពេលអ្នកចូល។</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>កាតលើកឡើង ធីកលោតឡើង ប្រតិទិនរអិល ហើយទំព័រទទេអណ្ដែត។ ពេលបិទចលនា Windows អ្វីៗនៅស្ងៀម។</value>
+  </data>
+</root>

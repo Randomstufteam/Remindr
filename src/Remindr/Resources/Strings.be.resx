@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Дадаць</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Скасаваць</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Стварыць</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Выдаліць</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Змяніць</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Укл.</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Захаваць</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Сёння</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Час</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Нататкі</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Катэгорыя</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Малюнак</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Важна</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Сёння</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Каляндар</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Усе напаміны</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Профіль</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Налады</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Змяніць профіль</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Згарнуць або разгарнуць бакавую панэль</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Бакавая панэль</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Добрай раніцы</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Добрай раніцы, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Добры дзень</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Добры дзень, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Добры вечар</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Добры вечар, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>На сёння нічога няма</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Напаміны на сёння з’явяцца тут.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Новы напамін</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Новы напамін (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Пратэрмінавана</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Сёння</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Заўтра</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Выканана</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Увесь дзень</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Выканаць: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Пазначыць як важнае</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Змяніць напамін</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Выдаліць напамін</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} адкрытых, {1} выкананых</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Напамінаў пакуль няма</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Дадайце першы напамін, і ён з’явіцца тут, згрупаваны па даце.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Новы напамін (пусты спіс)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Выкананыя напаміны</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Тыдзень</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Парадак дня</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Выгляд па месяцах</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Выгляд па тыднях</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Выгляд парадку дня</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Папярэдні</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Наступны</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Перайсці да сёння</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Новы напамін на абраны дзень</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>На гэты дзень нічога не запланавана.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Нічога наперадзе</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Няма напамінаў на найбліжэйшыя {0} дн.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Новы напамін (пусты парадак дня)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Сетка месяца. Стрэлкі мяняюць абраны дзень, Enter дадае напамін.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Сёння · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Заўтра · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Найбліжэйшыя {0} дн., пачынаючы з {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Няма напамінаў</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} напамін</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} напаміну</value>
+  </data>
+  <data name="Calendar_DayCaption_Few" xml:space="preserve">
+    <value>{0} напаміны</value>
+  </data>
+  <data name="Calendar_DayCaption_Many" xml:space="preserve">
+    <value>{0} напамінаў</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, важна</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>няма напамінаў</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} напамін</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} напаміну</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Few" xml:space="preserve">
+    <value>{0} напаміны</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Many" xml:space="preserve">
+    <value>{0} напамінаў</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Напамін без катэгорыі</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Напамін з катэгорыяй</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Новы напамін</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Змяніць напамін</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Што трэба запомніць?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Неабавязкова</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Паказвае чырвоную пазнаку !, каб напамін вылучаўся.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Без малюнка</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Дадаць малюнак</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Малюнак: {0}. Змяніць малюнак</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Увядзіце назву.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Назва можа мець не больш за {0} сімвалаў.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Выберыце дату.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Увядзіце час, напрыклад {0}, або ўключыце «Увесь дзень».</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Выдаліць напамін?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>«{0}» будзе выдалены назаўсёды. Гэта нельга адрабіць.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Няма</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Новы профіль</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Змяніць профіль</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Змяніць малюнак</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Імя</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Імя профілю</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Колер</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Літара аватара</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>ПІН (неабавязкова)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Пакінуць бягучы ПІН</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Увядзіце імя.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Імя можа мець не больш за {0} сімвалаў.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Увядзіце адзін сімвал для аватара.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>ПІН павінен складацца роўна з 4 лічбаў.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Немагчыма выдаліць гэты профіль</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Павінен застацца хоць адзін профіль. Спачатку стварыце іншы профіль, калі хочаце выдаліць гэты.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Выдаліць «{0}»?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Профіль «{0}» будзе выдалены назаўсёды разам з усімі яго напамінамі і катэгорыямі. Гэта нельга адрабіць.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Задаць ПІН</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Змяніць ПІН</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Выдаліць ПІН</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Абярыце ПІН з 4 лічбаў. Ён спатрэбіцца, каб адкрыць гэты профіль.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Увядзіце бягучы ПІН, потым абярыце новы.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Увядзіце бягучы ПІН, каб выключыць блакаванне.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Бягучы ПІН</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Новы ПІН з 4 лічбаў</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Паўтарыце ПІН</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Паўтарыце новы ПІН</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Няправільны бягучы ПІН. Паспрабуйце яшчэ раз.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Два ПІНы не супадаюць.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>ПІН — гэта экран прыватнасці ад выпадковых позіркаў, а не надзейная абарона.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Усе</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Пошук малюнкаў</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Падыходных малюнкаў няма.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Людзі</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Сям’я і ролі</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Жывёлы</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Фантазія і забавы</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Ежа</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Прырода</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Спорт і хобі</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Рэчы</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Школа</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Праца</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Здароўе</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Дом</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Грошы</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Падарожжы</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Святы</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Спорт</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Абярыце малюнак</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Малюнкі</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Ваш малюнак…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Ваш малюнак</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Выкарыстайце PNG або JPG з вашага камп’ютара</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Толькі літара</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Паказваць каляровую літару замест малюнка</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Гэты файл не ўдалося прачытаць як малюнак PNG або JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Хто карыстаецца Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Абярыце свой профіль, каб працягнуць</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Дадаць профіль</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Апошні</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Абаронены ПІНам</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Змяніць або выдаліць</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Назад да бягучага профілю (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>ПІН</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Разблакаваць</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Увядзіце свой ПІН з 4 лічбаў</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Увядзіце ПІН гэтага профілю, каб змяніць або выдаліць яго</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Няправільны ПІН. Паспрабуйце яшчэ раз.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Выгляд</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Тэма праграмы</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Абярыце светлую, цёмную або сачыце за наладай Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Тэма</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Цёмная</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Сістэмная</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Абярыце мову, на якой паказваецца Remindr. Змена ўступае ў сілу адразу.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Пераклады зроблены з дапамогай машыны; паправкі вітаюцца.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Прапанаваць паправку</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Машынны пераклад</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Дапамагчы з перакладам</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Мова: {0}. Націсніце, каб змяніць.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Профіль</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Вы ўвайшлі як {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Пераключыцеся на іншы профіль або змяніце імя, колер і малюнак гэтага профілю.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Змяніць малюнак</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Змяніць профіль</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Блакаванне ПІНам</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Блакаванне ПІНам: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>ПІН з 4 лічбаў абараняе профіль ад выпадковых позіркаў. Гэта экран прыватнасці, а не надзейная абарона.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Дапамога і водгукі</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Знайшлі памылку або маеце ідэю?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Паведамленні адкрываюцца на GitHub, у іх запоўнены толькі версіі Remindr і Windows. Больш нічога не адпраўляецца.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Паведаміць пра памылку</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Прапанаваць функцыю</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Адкрыць папку з журналамі</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Пра праграму</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Ліцэнзія {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Адкрыць на GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Паведамленні пра сталароннія кампаненты</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Нешта пайшло не так: {0}
+
+Падрабязнасці захаваны ў %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Падрабязнасці захаваны ў %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Сардэчна запрашаем у Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Націсніце любую клавішу або пстрыкніце, каб пачаць</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Пачаць</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Паказаць прывітанне яшчэ раз</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Налада Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Ход налады</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Крок {0} з {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Далей</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Прапусціць</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Абярыце мову</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Праграма пераключаецца адразу. Мову можна змяніць у любы час у наладах.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Пошук моў</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Падыходных моў няма.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Абярыце выгляд</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Светлая, цёмная або сачыце за наладай Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Ваш профіль</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Дадайце імя, колер і малюнак.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Дадаць ПІН?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Неабавязкова. ПІН з 4 лічбаў трымае гэты профіль прыватным.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Усё гатова, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Усё гэта можна змяніць пазней у наладах.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Пачаць карыстацца Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Дадаць мой першы напамін</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Школа</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Праца</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Асабістае</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Што новага</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Пазней</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Прапусціць гэту версію</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Паспрабаваць яшчэ раз</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Праверка спампаванага файла…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Спампаваны файл не супаў са сваёй кантрольнай сумай, таму быў выдалены і нічога не ўсталявана.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Не ўдалося спампаваць абнаўленне. Паспрабуйце пазней.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Абнаўленні</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Правяраць абнаўленні пры запуску Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Звяртаецца толькі да GitHub, каб параўнаць нумары версій; нічога пра вас не адпраўляецца.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Праверыць абнаўленні</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Праверка…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Актуальна · праверана {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>Даступна {0}</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Не ўдалося праверыць абнаўленні</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Даступна абнаўленне</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · у вас {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Абнавіць</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Спампоўка… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Скасаваць</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Гатова да ўсталявання</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Перазапусціць і абнавіць</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Праз 1 дзень</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Праз 1 гадзіну</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Цяпер</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Яшчэ трэба зрабіць</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Адкладанне скончылася</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - пратэрмінавана</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Выканаць</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Адкласці</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Закрыць</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 хвілін</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 гадзіна</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Заўтра</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Пробнае апавяшчэнне</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Гэта прыклад, таму яго кнопкі нічога не робяць. Дадайце напамін, а потым адпраўце пробу яшчэ раз, каб іх паспрабаваць.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Апавяшчэнні</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Адправіць пробнае апавяшчэнне</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Паказвае апавяшчэнне пра ваш наступны напамін, каб вы маглі паспрабаваць кнопкі.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Адправіць пробу</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Адкрыць</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Хуткае даданне</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Выйсці</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr працягвае працаваць у вобласці апавяшчэнняў</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Напаміны будуць і далей апавяшчаць вас. Скарыстайцеся значком у вобласці апавяшчэнняў, каб адкрыць праграму або выйсці.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Працягваць працу ў вобласці апавяшчэнняў, калі я закрываю акно</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Напаміны апавяшчаюць, нават калі акно закрыта. Выключыце, каб праграма завяршалася разам з акном.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Запускаць Remindr пры ўваходзе ў сістэму</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Запускаецца ціха ў вобласці апавяшчэнняў, каб напаміны працягвалі апавяшчаць вас. Выключыце, каб запускаць самому.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr ужо запушчаны, але не адказвае. Калі ён закрываецца, пачакайце крыху і паспрабуйце яшчэ раз; інакш завяршыце яго ў Дыспетчары задач.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Важна</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Пратэрмінавана</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · на сёння: {0}</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · на сёння: {0}</value>
+  </data>
+  <data name="Tray_TooltipDue_Few" xml:space="preserve">
+    <value>Remindr · на сёння: {0}</value>
+  </data>
+  <data name="Tray_TooltipDue_Many" xml:space="preserve">
+    <value>Remindr · на сёння: {0}</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Што новага ў Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Зразумела</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Што новага ў гэтай версіі</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Напаміны, якія вас знаходзяць</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Апавяшчэнні Windows з кнопкамі «Выканаць», «Адкласці» і «Закрыць». Адкладзіце на 5 хвілін, гадзіну або да заўтра.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Важнае не адстае</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Важныя напаміны апавяшчаюць за дзень і за гадзіну, а потым кожныя 10 хвілін, пакуль вы не адрэагуеце.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Ціха працуе ў фоне</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Закрыйце акно, і Remindr застанецца ў вобласці апавяшчэнняў, таму апавяшчэнні па-ранейшаму прыходзяць. Адкрывайце або закрывайце праграму праз значок.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Запускаецца разам з Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Уключыце гэта ў наладах, і Remindr будзе запускацца схаваным у вобласці апавяшчэнняў пры ўваходзе ў сістэму.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Карткі прыўздымаюцца, галачкі падскокваюць, каляндар слізгае, а пустыя старонкі лунаюць. Калі анімацыя Windows выключана, усё застаецца нерухомым.</value>
+  </data>
+</root>

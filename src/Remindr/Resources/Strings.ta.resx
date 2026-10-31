@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Neutral (English) user-facing strings for Remindr. Keys are Area_Item. Other languages live in Strings.<culture>.resx
+    (es, pt-BR, zh-Hans, ...) and must contain exactly these keys with the same {0}-style placeholders.
+    Rules for translators: "Remindr" is the app name and is never translated; Fmt_* values are .NET date format patterns;
+    keep Ctrl+N, Esc and the file name error.log as they are. Counts use _Zero/_One/_Other key variants.
+  -->
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+    <data name="Common_Add" xml:space="preserve">
+    <value>சேர்</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>பின்</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>ரத்து</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>உருவாக்கு</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>நீக்கு</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>திருத்து</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>முடக்கம்</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>இயக்கம்</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>இன்று</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>தலைப்பு</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>தேதி</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>நேரம்</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>குறிப்புகள்</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>வகை</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>படம்</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>முக்கியம்</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>இன்று</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>நாள்காட்டி</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>அனைத்து நினைவூட்டல்கள்</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>சுயவிவரம்</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>அமைப்புகள்</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>சுயவிவரத்தை மாற்று</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>பக்கப்பட்டியைச் சுருக்கு அல்லது விரி</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>பக்கப்பட்டியை மாற்று</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>காலை வணக்கம்</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>காலை வணக்கம், {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>மதிய வணக்கம்</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>மதிய வணக்கம், {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>மாலை வணக்கம்</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>மாலை வணக்கம், {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>இன்று எதுவும் இல்லை</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>இன்றைய நினைவூட்டல்கள் இங்கே தோன்றும்.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>புதிய நினைவூட்டல்</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>புதிய நினைவூட்டல் (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>காலம் கடந்தவை</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>இன்று</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>நாளை</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>முடிந்தவை</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>நாள் முழுவதும்</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>முடி: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>முக்கியம் எனக் குறி</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>நினைவூட்டலைத் திருத்து</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>நினைவூட்டலை நீக்கு</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} நிலுவையில், {1} முடிந்தவை</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>இன்னும் நினைவூட்டல்கள் இல்லை</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>உங்கள் முதல் நினைவூட்டலைச் சேர்த்தால், அது தேதி வாரியாக இங்கே தோன்றும்.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>புதிய நினைவூட்டல் (காலி நிலை)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>முடிந்த நினைவூட்டல்கள்</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>மாதம்</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>வாரம்</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>நிகழ்ச்சிநிரல்</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>மாதக் காட்சி</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>வாரக் காட்சி</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>நிகழ்ச்சிநிரல் காட்சி</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>முந்தையது</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>அடுத்தது</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>இன்றுக்குச் செல்</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>தேர்ந்தெடுத்த நாளுக்குப் புதிய நினைவூட்டல்</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>இந்த நாளுக்கு எதுவும் திட்டமிடப்படவில்லை.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>வரவிருப்பவை எதுவும் இல்லை</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>அடுத்த {0} நாட்களில் நினைவூட்டல்கள் இல்லை.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>புதிய நினைவூட்டல் (காலி நிகழ்ச்சிநிரல்)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>மாத அட்டவணை. அம்புக்குறி விசைகளால் நாளை மாற்றலாம், Enter விசையால் நினைவூட்டலைச் சேர்க்கலாம்.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>இன்று · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>நாளை · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1} முதல் அடுத்த {0} நாட்கள்</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>நினைவூட்டல்கள் இல்லை</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} நினைவூட்டல்</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} நினைவூட்டல்கள்</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, முக்கியம்</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>நினைவூட்டல்கள் இல்லை</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} நினைவூட்டல்</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} நினைவூட்டல்கள்</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>வகையற்ற நினைவூட்டல்</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>வகையுள்ள நினைவூட்டல்</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>புதிய நினைவூட்டல்</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>நினைவூட்டலைத் திருத்து</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>எதை நினைவில் வைக்க வேண்டும்?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>விருப்பத்திற்குரியது</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>தனித்துத் தெரிய சிவப்பு ! சின்னத்தைக் காட்டும்.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>படம் இல்லை</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>படம் சேர்</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>படம்: {0}. படத்தை மாற்று</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>தலைப்பை உள்ளிடவும்.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>தலைப்பு அதிகபட்சம் {0} எழுத்துகளுக்குள் இருக்க வேண்டும்.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>ஒரு தேதியைத் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>{0} போன்ற நேரத்தை உள்ளிடவும், அல்லது நாள் முழுவதும் என்பதை இயக்கவும்.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>நினைவூட்டலை நீக்கவா?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>“{0}” நிரந்தரமாக நீக்கப்படும். இதைச் செயல்தவிர்க்க முடியாது.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>எதுவுமில்லை</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>புதிய சுயவிவரம்</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>சுயவிவரத்தைத் திருத்து</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>படத்தை மாற்று</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>பெயர்</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>சுயவிவரப் பெயர்</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>நிறம்</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>அவதார் எழுத்து</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (விருப்பத்திற்குரியது)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>தற்போதைய PIN-ஐ வைத்திரு</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>பெயரை உள்ளிடவும்.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>பெயர் அதிகபட்சம் {0} எழுத்துகளுக்குள் இருக்க வேண்டும்.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>அவதாருக்கு ஒரு எழுத்தை உள்ளிடவும்.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN சரியாக 4 இலக்கங்களாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>இந்தச் சுயவிவரத்தை நீக்க முடியாது</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>குறைந்தது ஒரு சுயவிவரம் இருக்க வேண்டும். இதை நீக்க விரும்பினால் முதலில் மற்றொன்றை உருவாக்கவும்.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>“{0}” ஐ நீக்கவா?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>இது “{0}” சுயவிவரத்தையும் அதன் அனைத்து நினைவூட்டல்கள், வகைகளையும் நிரந்தரமாக நீக்கும். இதைச் செயல்தவிர்க்க முடியாது.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN அமை</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN மாற்று</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN நீக்கு</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>4 இலக்க PIN ஐத் தேர்ந்தெடுக்கவும். இந்தச் சுயவிவரத்தைத் திறக்க அது தேவைப்படும்.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>தற்போதைய PIN ஐ உள்ளிட்டு, புதியதைத் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>பூட்டை அணைக்க தற்போதைய PIN ஐ உள்ளிடவும்.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>தற்போதைய PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>புதிய 4 இலக்க PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN ஐ மீண்டும் உள்ளிடவும்</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>புதிய PIN ஐ மீண்டும் உள்ளிடவும்</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>தற்போதைய PIN தவறு. மீண்டும் முயலவும்.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>இரண்டு PIN களும் பொருந்தவில்லை.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN என்பது சாதாரணமாக எட்டிப்பார்ப்பவர்களைத் தடுக்கும் தனியுரிமைத் திரை மட்டுமே, வலுவான பாதுகாப்பு அல்ல.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>அனைத்தும்</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>படங்களைத் தேடு</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>பொருந்தும் படங்கள் இல்லை.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>மக்கள்</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>குடும்பமும் பாத்திரங்களும்</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>விலங்குகள்</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>கற்பனையும் வேடிக்கையும்</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>உணவு</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>இயற்கை</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>விளையாட்டும் பொழுதுபோக்கும்</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>பொருட்கள்</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>பள்ளி</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>வேலை</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>உடல்நலம்</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>வீடு</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>பணம்</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>பயணம்</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>கொண்டாட்டங்கள்</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>விளையாட்டு</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>ஒரு படத்தைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>படங்கள்</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>உங்கள் சொந்தப் படம்.</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>உங்கள் சொந்தப் படம்</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>உங்கள் கணினியிலிருந்து PNG அல்லது JPG ஐப் பயன்படுத்தவும்</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>எழுத்து மட்டும்</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>படத்துக்குப் பதிலாக நிற எழுத்தைக் காட்டு</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>அந்தக் கோப்பை PNG அல்லது JPG படமாகப் படிக்க முடியவில்லை.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr ஐப் பயன்படுத்துவது யார்?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>தொடர உங்கள் சுயவிவரத்தைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>சுயவிவரம் சேர்</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>கடைசியாகப் பயன்படுத்தியது</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN ஆல் பாதுகாக்கப்பட்டது</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>திருத்து அல்லது நீக்கு</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>தற்போதைய சுயவிவரத்துக்குத் திரும்பு (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>திற</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>உங்கள் 4 இலக்க PIN ஐ உள்ளிடவும்</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>திருத்த அல்லது நீக்க இந்தச் சுயவிவரத்தின் PIN ஐ உள்ளிடவும்</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN தவறு. மீண்டும் முயலவும்.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>தோற்றம்</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>பயன்பாட்டுத் தீம்</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>ஒளி, இருள் அல்லது உங்கள் Windows அமைப்பைப் பின்பற்றுவதைத் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>தீம்</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>ஒளி</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>இருள்</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>சிஸ்டம்</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>மொழி</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Remindr காட்டப்படும் மொழியைத் தேர்ந்தெடுக்கவும். மாற்றம் உடனே செயல்படும்.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>மொழி</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>மொழிபெயர்ப்புகள் இயந்திரத்தின் உதவியுடன் செய்யப்பட்டவை; திருத்தங்கள் வரவேற்கப்படுகின்றன.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>திருத்தத்தைப் பரிந்துரை</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>இயந்திர மொழிபெயர்ப்பு</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>மொழிபெயர்க்க உதவுங்கள்</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>மொழி: {0}. மாற்ற அழுத்தவும்.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>சுயவிவரம்</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} ஆக உள்நுழைந்துள்ளீர்கள்</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>வேறு சுயவிவரத்துக்கு மாறவும், அல்லது இந்தச் சுயவிவரத்தின் பெயர், நிறம், படத்தை மாற்றவும்.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>படத்தை மாற்று</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>சுயவிவரத்தை மாற்று</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN பூட்டு</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN பூட்டு: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 இலக்க PIN சாதாரணமாக எட்டிப்பார்ப்பவர்களை இந்தச் சுயவிவரத்திலிருந்து விலக்கி வைக்கும். இது தனியுரிமைத் திரை, வலுவான பாதுகாப்பு அல்ல.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>உதவியும் கருத்தும்</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>சிக்கல் கண்டீர்களா அல்லது யோசனை உள்ளதா?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>அறிக்கைகள் GitHub இல் திறக்கும்; உங்கள் Remindr மற்றும் Windows பதிப்பு மட்டுமே நிரப்பப்படும். வேறு எதுவும் அனுப்பப்படாது.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>பிழையைப் புகாரளி</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>அம்சத்தைப் பரிந்துரை</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>பதிவுக் கோப்புறையைத் திற</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>பற்றி</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} உரிமம்</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub இல் காண்க</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>மூன்றாம் தரப்பு அறிவிப்புகள்</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>ஏதோ தவறு நேர்ந்தது: {0}
+
+விவரங்கள் %AppData%\Remindr\error.log இல் சேமிக்கப்பட்டன</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+விவரங்கள் %AppData%\Remindr\error.log இல் சேமிக்கப்பட்டன</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr க்கு வரவேற்கிறோம்</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>தொடங்க ஏதேனும் விசையை அழுத்தவும் அல்லது கிளிக் செய்யவும்</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>தொடங்கு</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>வரவேற்பை மீண்டும் காட்டு</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr ஐ அமை</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>அமைப்பின் முன்னேற்றம்</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>படி {0} / {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>அடுத்து</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>தவிர்</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>பயன்பாடு உடனே மாறும். எப்போது வேண்டுமானாலும் அமைப்புகளில் மாற்றலாம்.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>மொழிகளைத் தேடு</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>பொருந்தும் மொழிகள் இல்லை.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>உங்கள் தோற்றத்தைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>ஒளி, இருள் அல்லது உங்கள் Windows அமைப்பைப் பின்பற்றுதல்.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>உங்கள் சுயவிவரம்</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>உங்கள் பெயர், ஒரு நிறம், ஒரு படத்தைச் சேர்க்கவும்.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN சேர்க்கவா?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>விருப்பத்திற்குரியது. 4 இலக்க PIN இந்தச் சுயவிவரத்தைத் தனிப்பட்டதாக வைக்கும்.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>எல்லாம் தயார், {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>இவற்றில் எதையும் பிறகு அமைப்புகளில் மாற்றலாம்.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr ஐப் பயன்படுத்தத் தொடங்கு</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>என் முதல் நினைவூட்டலைச் சேர்</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>பள்ளி</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>வேலை</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>தனிப்பட்டது</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>புதியவை</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>பிறகு</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>இந்தப் பதிப்பைத் தவிர்</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>மீண்டும் முயல்</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>பதிவிறக்கத்தைச் சரிபார்க்கிறது.</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>பதிவிறக்கம் அதன் சரிபார்ப்புத் தொகையுடன் பொருந்தவில்லை, எனவே அது நீக்கப்பட்டது; எதுவும் நிறுவப்படவில்லை.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>புதுப்பிப்பைப் பதிவிறக்க முடியவில்லை. பிறகு மீண்டும் முயலவும்.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>புதுப்பிப்புகள்</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr தொடங்கும்போது புதுப்பிப்புகளைச் சரிபார்</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>பதிப்பு எண்களை ஒப்பிட மட்டுமே GitHub ஐத் தொடர்புகொள்ளும்; உங்களைப் பற்றி எதுவும் அனுப்பப்படாது.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>புதுப்பிப்புகளைச் சரிபார்</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>சரிபார்க்கிறது.</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>புதுப்பித்த நிலை · {0} அன்று சரிபார்க்கப்பட்டது</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} கிடைக்கிறது</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>புதுப்பிப்புகளைச் சரிபார்க்க முடியவில்லை</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>புதுப்பிப்பு உள்ளது</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · உங்களிடம் {1} உள்ளது</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>புதுப்பி</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>பதிவிறக்குகிறது. {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>ரத்து</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>நிறுவத் தயார்</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>மறுதொடங்கிப் புதுப்பி</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 நாளில்</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 மணி நேரத்தில்</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>இப்போது</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>இன்னும் செய்ய வேண்டும்</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>ஒத்திவைப்பு முடிந்தது</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - காலம் கடந்தது</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>முடி</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>ஒத்திவை</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>நிராகரி</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 நிமிடம்</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 மணி நேரம்</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>நாளை</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>சோதனை அறிவிப்பு</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>இது ஒரு மாதிரி, எனவே இதன் பொத்தான்கள் எதுவும் செய்யாது. ஒரு நினைவூட்டலைச் சேர்த்து, அவற்றை முயல மீண்டும் சோதனையை அனுப்பவும்.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>அறிவிப்புகள்</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>சோதனை அறிவிப்பை அனுப்பு</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>பொத்தான்களை முயல உங்கள் அடுத்த நினைவூட்டலுக்கான அறிவிப்பைக் காட்டும்.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>சோதனை அனுப்பு</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>திற</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>விரைவு சேர்</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>வெளியேறு</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr இன்னும் ட்ரேயில் இயங்குகிறது</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>உங்கள் நினைவூட்டல்கள் தொடர்ந்து எச்சரிக்கும். திறக்க அல்லது வெளியேற ட்ரே ஐகானைப் பயன்படுத்தவும்.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>சாளரத்தை மூடும்போது ட்ரேயில் இயங்க விடு</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>சாளரம் மூடியிருந்தாலும் நினைவூட்டல்கள் தொடர்ந்து எச்சரிக்கும். மூடும்போது வெளியேற இதை அணைக்கவும்.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>நான் உள்நுழையும்போது Remindr ஐத் தொடங்கு</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>நினைவூட்டல்கள் தொடர்ந்து எச்சரிக்க, அமைதியாக ட்ரேயில் தொடங்கும். நீங்களே தொடங்க இதை அணைக்கவும்.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr ஏற்கெனவே இயங்குகிறது, ஆனால் பதிலளிக்கவில்லை. அது மூடிக்கொண்டிருந்தால் சற்றுக் காத்திருந்து மீண்டும் முயலவும்; இல்லையெனில் Task Manager இல் அதை முடிக்கவும்.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>முக்கியம்</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>காலம் கடந்தது</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · இன்று நிலுவை: {0}</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · இன்று நிலுவை: {0}</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0} இல் புதியவை</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>புரிந்தது</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>இந்தப் பதிப்பில் புதியவை</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>உங்களைத் தேடி வரும் நினைவூட்டல்கள்</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>முடி, ஒத்திவை, நிராகரி பொத்தான்களுடன் Windows அறிவிப்புகள். 5 நிமிடம், ஒரு மணி நேரம் அல்லது நாளை வரை ஒத்திவைக்கலாம்.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>முக்கியம் என்றால் தொடர்ந்து நினைவூட்டும்</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>முக்கிய நினைவூட்டல்கள் ஒரு நாள், ஒரு மணி நேரம் முன்பே எச்சரிக்கும்; பின்னர் நீங்கள் செயல்படும் வரை ஒவ்வொரு 10 நிமிடமும்.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>அமைதியாக இயங்கும்</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>சாளரத்தை மூடினாலும் Remindr ட்ரேயில் இருக்கும், எனவே எச்சரிக்கைகள் வந்துகொண்டே இருக்கும். ட்ரே ஐகானிலிருந்து திறக்கலாம் அல்லது வெளியேறலாம்.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows உடன் தொடங்கும்</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>அமைப்புகளில் இயக்கினால், நீங்கள் உள்நுழையும்போது Remindr மறைந்து ட்ரேயில் தொடங்கும்.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>அட்டைகள் மேலெழும், டிக் குறிகள் துள்ளும், நாள்காட்டி நகரும், காலிப் பக்கங்கள் மிதக்கும். Windows அனிமேஷன்கள் அணைந்திருந்தால் எல்லாம் அசையாமல் இருக்கும்.</value>
+  </data>
+</root>

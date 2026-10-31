@@ -14,19 +14,27 @@ namespace Remindr.Services;
 public sealed class SingleInstance : IDisposable
 {
     public static readonly TimeSpan SendTimeout = TimeSpan.FromSeconds(3);
-    private static readonly TimeSpan HandleTimeout = TimeSpan.FromSeconds(2.5);
-    private static readonly TimeSpan ReadTimeout = TimeSpan.FromSeconds(2);
+    private static readonly TimeSpan DefaultHandleTimeout = TimeSpan.FromSeconds(2.5);
+    private static readonly TimeSpan DefaultReadTimeout = TimeSpan.FromSeconds(2);
 
     private readonly string _mutexName;
     private readonly string _pipeName;
+    private readonly TimeSpan _handleTimeout;
+    private readonly TimeSpan _readTimeout;
     private Mutex? _mutex;
     private CancellationTokenSource? _cts;
     private Task? _server;
 
-    public SingleInstance(string id)
+    /// <param name="serverTimeout">
+    /// How long the server waits for a client's message and for its handler (default 2 s / 2.5 s). Tests that are not about timing pass
+    /// a long one, so a busy test machine cannot make them fail.
+    /// </param>
+    public SingleInstance(string id, TimeSpan? serverTimeout = null)
     {
         _mutexName = @"Local\Remindr.App." + id;
         _pipeName = "Remindr.App." + id;
+        _handleTimeout = serverTimeout ?? DefaultHandleTimeout;
+        _readTimeout = serverTimeout ?? DefaultReadTimeout;
     }
 
     /// <summary>The id for this user: the Windows SID, plus a short hash of the data folder when REMINDR_DATA_DIR moves it (so test data folders do not collide with the real app).</summary>
@@ -102,11 +110,11 @@ public sealed class SingleInstance : IDisposable
                 try
                 {
                     using var read = CancellationTokenSource.CreateLinkedTokenSource(ct);
-                    read.CancelAfter(ReadTimeout);
+                    read.CancelAfter(_readTimeout);
                     var line = await ReadLineAsync(pipe, SingleInstanceRules.MaxMessageBytes, read.Token).ConfigureAwait(false);
                     var args = SingleInstanceRules.Decode(line);
                     if (args is null) continue;
-                    await handler(args).WaitAsync(HandleTimeout, ct).ConfigureAwait(false);
+                    await handler(args).WaitAsync(_handleTimeout, ct).ConfigureAwait(false);
                     await pipe.WriteAsync(Ok, ct).ConfigureAwait(false);
                     await pipe.FlushAsync(ct).ConfigureAwait(false);
                 }

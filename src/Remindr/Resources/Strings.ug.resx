@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>قوشۇش</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>قايتىش</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>بىكار قىلىش</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>قۇرۇش</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>ئۆچۈرۈش</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>تەھرىرلەش</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>تاقاق</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>ئوچۇق</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>ساقلاش</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>بۈگۈن</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>ماۋزۇ</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>چېسلا</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>ۋاقىت</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>ئىزاھات</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>تۈر</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>سۈرەت</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>مۇھىم</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>yyyy-MMMM</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>MMM d</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>yyyy-MMM d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>yyyy-MMM d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>yyyy-MMM d</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>MMM d</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>MMM d، dddd</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>yyyy-MMM d، dddd</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>MMM d، ddd</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>yyyy-MMM d، ddd</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>MMMM d، dddd</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>yyyy-MMMM d، dddd</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>بۈگۈن</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>كالېندار</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>بارلىق ئەسكەرتىشلەر</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>پروفىل</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>تەڭشەك</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>پروفىل ئالماشتۇرۇش</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>يان بالداقنى يىغىش ياكى يېيىش</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>يان بالداقنى ئالماشتۇرۇش</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>خەيرلىك ئەتىگەن</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>خەيرلىك ئەتىگەن، {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>خەيرلىك چۈشتىن كېيىن</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>خەيرلىك چۈشتىن كېيىن، {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>خەيرلىك كەچ</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>خەيرلىك كەچ، {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>بۈگۈن ھېچ ئىش يوق</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>بۈگۈنكى ئەسكەرتىشلەر بۇ يەردە كۆرۈنىدۇ.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>يېڭى ئەسكەرتىش</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>يېڭى ئەسكەرتىش (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>ۋاقتى ئۆتكەن</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>بۈگۈن</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>ئەتە</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>تاماملانغان</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>پۈتۈن كۈن</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>تاماملاش: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>مۇھىم دەپ بەلگىلەش</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>ئەسكەرتىشنى تەھرىرلەش</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>ئەسكەرتىشنى ئۆچۈرۈش</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} ئوچۇق، {1} تاماملانغان</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>تېخى ئەسكەرتىش يوق</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>تۇنجى ئەسكەرتىشىڭىزنى قوشسىڭىز، ئۇ چېسلا بويىچە بۇ يەردە كۆرۈنىدۇ.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>يېڭى ئەسكەرتىش (قۇرۇق بەت)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>تاماملانغان ئەسكەرتىشلەر</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>ئاي</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>ھەپتە</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>كۈن تەرتىپى</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>ئاي كۆرۈنۈشى</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>ھەپتە كۆرۈنۈشى</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>كۈن تەرتىپى كۆرۈنۈشى</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>ئالدىنقى</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>كېيىنكى</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>بۈگۈنگە ئۆتۈش</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>تاللانغان كۈندە يېڭى ئەسكەرتىش</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>بۇ كۈنگە پىلانلانغان ئىش يوق.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>ئالدىدا ئىش يوق</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>كېيىنكى {0} كۈندە ئەسكەرتىش يوق.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>يېڭى ئەسكەرتىش (قۇرۇق كۈن تەرتىپى)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>ئاي كاتەكچىسى. ئوق كۇنۇپكىلىرى تاللانغان كۈننى ئۆزگەرتىدۇ، Enter ئەسكەرتىش قوشىدۇ.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>بۈگۈن · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>ئەتە · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1} دىن باشلاپ كېيىنكى {0} كۈن</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>ئەسكەرتىش يوق</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} ئەسكەرتىش</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} ئەسكەرتىش</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}، {1}، مۇھىم</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>ئەسكەرتىش يوق</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} ئەسكەرتىش</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} ئەسكەرتىش</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>تۈرسىز ئەسكەرتىش</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>تۈرلۈك ئەسكەرتىش</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>يېڭى ئەسكەرتىش</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>ئەسكەرتىشنى تەھرىرلەش</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>نېمىنى ئېسىڭىزدە تۇتماقچى؟</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>ئىختىيارى</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>قىزىل ! بەلگىسىنى كۆرسىتىپ، ئۇنى گەۋدىلەندۈرىدۇ.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>سۈرەت يوق</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>سۈرەت قوشۇش</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>سۈرەت: {0}. سۈرەتنى ئۆزگەرتىش</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>ماۋزۇ كىرگۈزۈڭ.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>ماۋزۇ ئەڭ كۆپ بولغاندا {0} ھەرپ بولۇشى كېرەك.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>چېسلا تاللاڭ.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>{0} غا ئوخشاش ۋاقىت كىرگۈزۈڭ ياكى «پۈتۈن كۈن» نى ئېچىڭ.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>ئەسكەرتىش ئۆچۈرۈلسۇنمۇ؟</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>«{0}» پۈتۈنلەي ئۆچۈرۈلىدۇ. بۇنى ئەسلىگە كەلتۈرگىلى بولمايدۇ.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>يوق</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>يېڭى پروفىل</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>پروفىلنى تەھرىرلەش</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>سۈرەتنى ئۆزگەرتىش</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>ئىسىم</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>پروفىل ئىسمى</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>رەڭ</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>باش سۈرەت ھەرپى</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (ئىختىيارى)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>نۆۋەتتىكى PIN نى ساقلاش</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>ئىسىم كىرگۈزۈڭ.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>ئىسىم ئەڭ كۆپ بولغاندا {0} ھەرپ بولۇشى كېرەك.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>باش سۈرەت ئۈچۈن بىر ھەرپ كىرگۈزۈڭ.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN توغرا 4 خانىلىق بولۇشى كېرەك.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>بۇ پروفىلنى ئۆچۈرگىلى بولمايدۇ</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>ئاز دېگەندە بىر پروفىل بولۇشى كېرەك. بۇنى ئۆچۈرمەكچى بولسىڭىز، ئاۋۋال باشقا پروفىل قۇرۇڭ.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>«{0}» ئۆچۈرۈلسۇنمۇ؟</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>بۇ «{0}» پروفىلىنى ئۇنىڭدىكى بارلىق ئەسكەرتىش ۋە تۈرلەر بىلەن بىرگە پۈتۈنلەي ئۆچۈرىدۇ. بۇنى ئەسلىگە كەلتۈرگىلى بولمايدۇ.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN بەلگىلەش</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN ئۆزگەرتىش</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN ئېلىۋېتىش</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>4 خانىلىق PIN تاللاڭ. بۇ پروفىلنى ئېچىشتا ئۇ لازىم بولىدۇ.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>نۆۋەتتىكى PIN نى كىرگۈزۈڭ، ئاندىن يېڭىسىنى تاللاڭ.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>قۇلۇپنى ئېتىش ئۈچۈن نۆۋەتتىكى PIN نى كىرگۈزۈڭ.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>نۆۋەتتىكى PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>يېڭى 4 خانىلىق PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN نى قايتا كىرگۈزۈڭ</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>يېڭى PIN نى قايتا كىرگۈزۈڭ</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>نۆۋەتتىكى PIN خاتا. قايتا سىناڭ.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>ئىككى PIN ئوخشاش ئەمەس.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN پەقەت شەخسىيەت پەردىسى بولۇپ، ئادەتتىكى كۈزىتىشتىن ساقلايدۇ، كۈچلۈك بىخەتەرلىك ئەمەس.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>ھەممىسى</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>سۈرەت ئىزدەش</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>ماس كېلىدىغان سۈرەت يوق.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>كىشىلەر</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>ئائىلە ۋە سالاھىيەتلەر</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>ھايۋانلار</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>خىيال ۋە ئويۇن-چاقچاق</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>يېمەك-ئىچمەك</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>تەبىئەت</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>ئويۇن ۋە ھەۋەس</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>بۇيۇملار</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>مەكتەپ</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>ئىش</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>ساغلاملىق</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>ئۆي</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>پۇل</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>ساياھەت</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>بايرام</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>ئويۇنلار</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>سۈرەت تاللاش</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>سۈرەتلەر</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>ئۆز سۈرىتىڭىز…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>ئۆز سۈرىتىڭىز</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>كومپيۇتېرىڭىزدىكى PNG ياكى JPG نى ئىشلىتىڭ</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>تۇنجى ھەرپلا</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>سۈرەتنىڭ ئورنىغا رەڭلىك ھەرپنى كۆرسىتىش</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>بۇ ھۆججەتنى PNG ياكى JPG سۈرەت سۈپىتىدە ئوقۇغىلى بولمىدى.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr نى كىم ئىشلىتىۋاتىدۇ؟</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>داۋاملاشتۇرۇش ئۈچۈن پروفىلىڭىزنى تاللاڭ</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>پروفىل قوشۇش</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>ئاخىرقى ئىشلىتىلگەن</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN بىلەن قوغدالغان</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>تەھرىرلەش ياكى ئۆچۈرۈش</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>نۆۋەتتىكى پروفىلغا قايتىش (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>ئېچىش</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>4 خانىلىق PIN نى كىرگۈزۈڭ</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>تەھرىرلەش ياكى ئۆچۈرۈش ئۈچۈن بۇ پروفىلنىڭ PIN نى كىرگۈزۈڭ</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN خاتا. قايتا سىناڭ.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>تاشقى كۆرۈنۈش</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>ئەپ تېمىسى</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>يورۇق، قاراڭغۇ ياكى Windows تەڭشىكىگە ئەگىشىشنى تاللاڭ.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>تېما</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>يورۇق</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>قاراڭغۇ</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>سىستېما</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>تىل</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Remindr كۆرسىتىلىدىغان تىلنى تاللاڭ. ئۆزگەرتىش دەرھال كۈچكە ئىگە بولىدۇ.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>تىل</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>تەرجىمىلەر ماشىنا ياردىمىدە قىلىنغان؛ تۈزىتىشلەرنى قارشى ئالىمىز.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>تۈزىتىش تەكلىپ قىلىش</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>ماشىنا تەرجىمىسى</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>تەرجىمىگە ياردەم</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>تىل: {0}. ئۆزگەرتىش ئۈچۈن بېسىڭ.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>پروفىل</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} سۈپىتىدە كىرگەن</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>باشقا پروفىلغا ئالماشتۇرۇڭ ياكى بۇ پروفىلنىڭ ئىسمى، رەڭگى ۋە سۈرىتىنى ئۆزگەرتىڭ.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>سۈرەتنى ئۆزگەرتىش</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>پروفىل ئالماشتۇرۇش</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN قۇلۇپى</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN قۇلۇپى: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 خانىلىق PIN بۇ پروفىلنى ئادەتتىكى كۈزىتىشتىن ساقلايدۇ. بۇ شەخسىيەت پەردىسى، كۈچلۈك بىخەتەرلىك ئەمەس.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>ياردەم ۋە قايتۇرما پىكىر</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>مەسىلە بايقىدىڭىزمۇ ياكى تەكلىپىڭىز بارمۇ؟</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>دوكلاتلار GitHub تا ئېچىلىدۇ ھەمدە ئۇنىڭغا پەقەت Remindr ۋە Windows نەشرىڭىز تولدۇرۇلىدۇ. باشقا ھېچ نېمە ئەۋەتىلمەيدۇ.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>خاتالىق دوكلات قىلىش</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>ئىقتىدار تەكلىپ قىلىش</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>خاتىرە قىسقۇچىنى ئېچىش</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>ھەققىدە</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} ئىجازەتنامىسى</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub تا كۆرۈش</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>ئۈچىنچى تەرەپ ئەسكەرتمىلىرى</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>خاتالىق كۆرۈلدى: {0}
+
+تەپسىلاتى %AppData%\Remindr\error.log غا ساقلاندى</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+تەپسىلاتى %AppData%\Remindr\error.log غا ساقلاندى</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr غا خوش كەلدىڭىز</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>باشلاش ئۈچۈن ھەر قانداق كۇنۇپكىنى بېسىڭ ياكى چېكىڭ</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>باشلاش</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>قارشى ئېلىشنى قايتا ئوينىتىش</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr نى تەڭشەش</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>تەڭشەش ئىلگىرىلەپ بېرىشى</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>{1} قەدەمنىڭ {0}-قەدىمى</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>كېيىنكى</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>ئاتلاش</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>تىلىڭىزنى تاللاڭ</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>ئەپ دەرھال ئالمىشىدۇ. خالىغان ۋاقىتتا تەڭشەكتە ئۆزگەرتەلەيسىز.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>تىل ئىزدەش</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>ماس كېلىدىغان تىل يوق.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>ياقتۇرغان كۆرۈنۈشىڭىزنى تاللاڭ</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>يورۇق، قاراڭغۇ ياكى Windows تەڭشىكىگە ئەگىشىش.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>پروفىلىڭىز</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>ئىسمىڭىز، رەڭگىڭىز ۋە سۈرىتىڭىزنى قوشۇڭ.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN قوشامسىز؟</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>ئىختىيارى. 4 خانىلىق PIN بۇ پروفىلنى شەخسىي ساقلايدۇ.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>ھەممىسى تەييار، {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>بۇلارنىڭ ھەممىسىنى كېيىن تەڭشەكتە ئۆزگەرتەلەيسىز.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr نى ئىشلىتىشنى باشلاش</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>تۇنجى ئەسكەرتىشىمنى قوشۇش</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>مەكتەپ</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>ئىش</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>شەخسىي</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>يېڭىلىقلار</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>كېيىن</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>بۇ نەشرىنى ئاتلاش</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>قايتا سىناش</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>چۈشۈرۈلگەن ھۆججەت تەكشۈرۈلۈۋاتىدۇ…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>چۈشۈرۈلگەن ھۆججەت تەكشۈرۈش قىممىتىگە ماس كەلمىدى، شۇڭا ئۆچۈرۈلدى ۋە ھېچ نېمە ئورنىتىلمىدى.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>يېڭىلاشنى چۈشۈرگىلى بولمىدى. سەل تۇرۇپ قايتا سىناڭ.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>يېڭىلاش</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr ئىشقا چۈشكەندە يېڭىلاشنى تەكشۈرۈش</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>پەقەت نەشر نومۇرىنى سېلىشتۇرۇش ئۈچۈنلا GitHub بىلەن ئالاقە قىلىدۇ؛ سىز ھەققىدە ھېچ نېمە ئەۋەتىلمەيدۇ.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>يېڭىلاشنى تەكشۈرۈش</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>تەكشۈرۈلۈۋاتىدۇ…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>ئەڭ يېڭى · تەكشۈرۈلگەن ۋاقىت {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} ئىشلىتىشكە بولىدۇ</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>يېڭىلاشنى تەكشۈرگىلى بولمىدى</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>يېڭىلاش ئىشلىتىشكە بولىدۇ</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · سىزدە {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>يېڭىلاش</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>چۈشۈرۈلۈۋاتىدۇ… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>بىكار قىلىش</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>ئورنىتىشقا تەييار</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>قايتا قوزغىتىپ يېڭىلاش</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 كۈندىن كېيىن</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 سائەتتىن كېيىن</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>ھازىر</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>تېخى قىلىنمىدى</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>كېچىكتۈرۈش ئاخىرلاشتى</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - ۋاقتى ئۆتكەن</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>تاماملاش</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>كېچىكتۈرۈش</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>يېپىش</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 مىنۇت</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 سائەت</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>ئەتە</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>سىناق ئۇقتۇرۇشى</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>بۇ پەقەت ئۈلگە، شۇڭا ئۇنىڭ كۇنۇپكىلىرى ھېچ ئىش قىلمايدۇ. ئەسكەرتىش قوشۇپ، ئاندىن سىناقنى قايتا ئەۋەتىپ ئۇلارنى سىناڭ.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>ئۇقتۇرۇشلار</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>سىناق ئۇقتۇرۇشى ئەۋەتىش</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>كېيىنكى ئەسكەرتىشىڭىز ئۈچۈن ئۇقتۇرۇش كۆرسىتىپ، كۇنۇپكىلارنى سىناپ بېقىشىڭىزغا يول قويىدۇ.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>سىناق ئەۋەتىش</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>ئېچىش</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>تېز قوشۇش</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>چېكىنىش</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr يەنىلا سىستېما قاچىسىدا ئىشلەۋاتىدۇ</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>ئەسكەرتىشلىرىڭىز ئۇقتۇرۇپ تۇرىدۇ. ئېچىش ياكى چېكىنىش ئۈچۈن قاچا سىنبەلگىسىنى ئىشلىتىڭ.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>كۆزنەكنى يېپىپ قويغاندا سىستېما قاچىسىدا ئىشلەپ تۇرسۇن</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>كۆزنەك يېپىق بولسىمۇ ئەسكەرتىشلەر ئۇقتۇرۇپ تۇرىدۇ. يېپىقاندا چىقىپ كېتىش ئۈچۈن ئۇنى ئېتىڭ.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>كىرگەندە Remindr نى ئىجرا قىلىش</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>ئۈنسىز ھالدا سىستېما قاچىسىدا باشلىنىدۇ، ئەسكەرتىشلەر ئۇقتۇرۇپ تۇرىدۇ. ئۆزىڭىز باشلىماقچى بولسىڭىز ئۇنى ئېتىڭ.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr ئىشلىنىۋاتىدۇ، ئەمما جاۋاب بەرمەيدۇ. ئەگەر يېپىلىۋاتقان بولسا، سەل كۈتۈپ قايتا سىناڭ؛ بولمىسا ئۇنى Task Manager دا ئاخىرلاشتۇرۇڭ.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>مۇھىم</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>ۋاقتى ئۆتكەن</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · بۈگۈن {0} ئەسكەرتىش</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · بۈگۈن {0} ئەسكەرتىش</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0} دىكى يېڭىلىقلار</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>سىزنى ئىزدەپ كېلىدىغان ئەسكەرتىشلەر</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows ئۇقتۇرۇشلىرى، تاماملاش، كېچىكتۈرۈش ۋە يېپىش كۇنۇپكىلىرى بىلەن. 5 مىنۇت، بىر سائەت ياكى ئەتىگىچە كېچىكتۈرەلەيسىز.</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>چۈشەندىم</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>بۇ نەشردىكى يېڭىلىقلار</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>مۇھىم دېگەنلىك قايتا-قايتا ئەسكەرتىش</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>مۇھىم ئەسكەرتىشلەر بىر كۈن ۋە بىر سائەت ئالدىن ئۇقتۇرىدۇ، ئاندىن سىز ئىش قىلغۇچە ھەر 10 مىنۇتتا قايتىلايدۇ.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>ئۈنسىز ئىشلەپ تۇرىدۇ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>كۆزنەكنى يېپىڭ، Remindr سىستېما قاچىسىدا قالىدۇ، شۇڭا ئۇقتۇرۇشلار يەنىلا كېلىدۇ. قاچا سىنبەلگىسىدىن ئېچىڭ ياكى چېكىنىڭ.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows بىلەن بىللە باشلىنىدۇ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>تەڭشەكتە ئۇنى ئېچىڭ، Remindr كىرگەندە يوشۇرۇن ھالدا سىستېما قاچىسىدا باشلىنىدۇ.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>كارتىلار كۆتۈرۈلىدۇ، بەلگىلەر سەكرەيدۇ، كالېندار سىيرىلىدۇ، قۇرۇق بەتلەر لەيلەيدۇ. Windows ئانىماتسىيەسى تاقاق بولسا ھەممە نەرسە جايىدا تۇرىدۇ.</value>
+  </data>
+</root>

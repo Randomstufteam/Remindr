@@ -77,7 +77,6 @@ public partial class SettingsViewModel : ObservableObject
         _dialogs = dialogs;
         _localization = localization;
         _selectedTheme = Themes.First(t => t.Theme == theme.Current);
-        _selectedLanguage = LocalizationService.Find(localization.Code) ?? LocalizationService.Supported[0];
         session.CurrentProfileChanged += (_, _) =>
         {
             OnPropertyChanged(nameof(CurrentProfileName));
@@ -102,6 +101,8 @@ public partial class SettingsViewModel : ObservableObject
             OnPropertyChanged(nameof(VersionText));
             OnPropertyChanged(nameof(RemindUiText));
             OnPropertyChanged(nameof(LicenseText));
+            OnPropertyChanged(nameof(CurrentLanguage));
+            OnPropertyChanged(nameof(LanguageButtonName));
         };
     }
 
@@ -143,15 +144,21 @@ public partial class SettingsViewModel : ObservableObject
 
     // ---- Language ----------------------------------------------------------------------------------------
 
-    /// <summary>Every supported language (native name first, English name beside it).</summary>
-    public IReadOnlyList<LanguageInfo> Languages => LocalizationService.Supported;
+    /// <summary>The languages the picker lists: those with a shipped translation (the catalog has more; see <see cref="LocalizationService.Available"/>).</summary>
+    public IReadOnlyList<LanguageInfo> Languages => LocalizationService.Available;
 
-    [ObservableProperty] private LanguageInfo _selectedLanguage;
+    /// <summary>The language in use, for the button that opens the picker.</summary>
+    public LanguageInfo CurrentLanguage => LocalizationService.Find(_localization.Code) ?? LocalizationService.Supported[0];
 
-    partial void OnSelectedLanguageChanged(LanguageInfo value)
+    /// <summary>Screen-reader name of the picker button: "Language: Deutsch. Press to change."</summary>
+    public string LanguageButtonName => Loc.Format("Settings_Language_ButtonName", CurrentLanguage.NativeName);
+
+    /// <summary>Switches the app to a language now (the picker calls this when a language is chosen).</summary>
+    public void ChooseLanguage(string code)
     {
-        // The combo can briefly report null while its items are rebuilt; keep the current choice then.
-        if (value is not null) _localization.SetLanguage(value.Code);
+        _localization.SetLanguage(code);
+        OnPropertyChanged(nameof(CurrentLanguage));
+        OnPropertyChanged(nameof(LanguageButtonName));
     }
 
     [RelayCommand]

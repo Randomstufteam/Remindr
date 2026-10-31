@@ -105,44 +105,6 @@
             </Setter>
         </Style>
 
-        <!-- Language row. -->
-        <Style x:Key="LanguageItem" TargetType="ListBoxItem">
-            <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
-            <Setter Property="Cursor" Value="Hand" />
-            <Setter Property="Margin" Value="0,0,0,2" />
-            <Setter Property="FocusVisualStyle" Value="{DynamicResource FocusRing}" />
-            <Setter Property="AutomationProperties.Name" Value="{Binding}" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="ListBoxItem">
-                        <Border x:Name="Frame" Background="Transparent" CornerRadius="10" Padding="14,9">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                                    <TextBlock Text="{Binding NativeName}" FontSize="15" VerticalAlignment="Center" />
-                                    <TextBlock Text="{Binding EnglishLabel}" FontSize="12" Opacity="0.7" Margin="10,1,0,0" VerticalAlignment="Center" />
-                                </StackPanel>
-                                <ui:SymbolIcon x:Name="Check" Grid.Column="1" Symbol="Checkmark24" FontSize="16" Visibility="Collapsed" VerticalAlignment="Center" />
-                            </Grid>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="Frame" Property="Background" Value="{DynamicResource GlassPillHoverBrush}" />
-                            </Trigger>
-                            <Trigger Property="IsSelected" Value="True">
-                                <Setter TargetName="Frame" Property="Background" Value="{DynamicResource AccentFillColorDefaultBrush}" />
-                                <Setter Property="Foreground" Value="{DynamicResource TextOnAccentFillColorPrimaryBrush}" />
-                                <Setter TargetName="Check" Property="Visibility" Value="Visible" />
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
         <!-- Theme card: a mini window drawing, its name and a check badge when chosen. -->
         <Style x:Key="ThemeCard" TargetType="ListBoxItem">
             <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
@@ -273,17 +235,8 @@
                                 <TextBlock Text="{l:Loc Setup_Language_Title}" Style="{StaticResource SetupTitle}" />
                                 <TextBlock Text="{l:Loc Setup_Language_Desc}" Style="{StaticResource SetupDesc}" />
                             </StackPanel>
-                            <ui:TextBox x:Name="LanguageSearch" Grid.Row="1" Margin="0,14,0,10" PlaceholderText="{l:Loc Setup_Language_Search}"
-                                        AutomationProperties.AutomationId="SetupLanguageSearch" AutomationProperties.Name="{l:Loc Setup_Language_Search}"
-                                        Text="{Binding LanguageSearch, UpdateSourceTrigger=PropertyChanged}" PreviewKeyDown="LanguageSearch_PreviewKeyDown" />
-                            <Grid Grid.Row="2">
-                                <ListBox x:Name="LanguageList" ItemsSource="{Binding FilteredLanguages}" ItemContainerStyle="{StaticResource LanguageItem}"
-                                         Background="Transparent" BorderThickness="0" Padding="0,0,6,0"
-                                         ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="LanguageList_SelectionChanged"
-                                         AutomationProperties.AutomationId="SetupLanguageList" AutomationProperties.Name="{l:Loc Setup_Language_Title}" />
-                                <TextBlock x:Name="NoLanguages" Text="{l:Loc Setup_Language_NoMatch}" Style="{StaticResource Caption}" Visibility="Collapsed"
-                                           HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,24,0,0" />
-                            </Grid>
+                            <ctl:LanguageList x:Name="LanguageControl" Grid.Row="2" Margin="0,14,0,0" SearchAutomationId="SetupLanguageSearch" EnterChooses="False"
+                                              LanguageChosen="LanguageControl_LanguageChosen" />
                         </Grid>
 
                         <!-- 2. Appearance -->

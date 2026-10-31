@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>ಸೇರಿಸಿ</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>ಹಿಂದೆ</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>ರದ್ದುಗೊಳಿಸಿ</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>ರಚಿಸಿ</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>ಅಳಿಸಿ</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>ಸಂಪಾದಿಸಿ</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>ಆಫ್</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>ಆನ್</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>ಉಳಿಸಿ</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>ಇಂದು</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>ಶೀರ್ಷಿಕೆ</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>ದಿನಾಂಕ</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>ಸಮಯ</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>ಟಿಪ್ಪಣಿಗಳು</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>ವರ್ಗ</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>ಚಿತ್ರ</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>ಮುಖ್ಯ</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>ಇಂದು</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>ಕ್ಯಾಲೆಂಡರ್</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>ಎಲ್ಲಾ ರಿಮೈಂಡರ್‌ಗಳು</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>ಪ್ರೊಫೈಲ್</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>ಸೆಟ್ಟಿಂಗ್‌ಗಳು</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>ಪ್ರೊಫೈಲ್ ಬದಲಿಸಿ</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>ಸೈಡ್‌ಬಾರ್ ಕುಗ್ಗಿಸಿ ಅಥವಾ ವಿಸ್ತರಿಸಿ</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>ಸೈಡ್‌ಬಾರ್ ಟಾಗಲ್ ಮಾಡಿ</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>ಶುಭೋದಯ</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>ಶುಭೋದಯ, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>ಶುಭ ಮಧ್ಯಾಹ್ನ</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>ಶುಭ ಮಧ್ಯಾಹ್ನ, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>ಶುಭ ಸಂಜೆ</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>ಶುಭ ಸಂಜೆ, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>ಇಂದು ಏನೂ ಬಾಕಿ ಇಲ್ಲ</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>ಇಂದಿನ ರಿಮೈಂಡರ್‌ಗಳು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>ಹೊಸ ರಿಮೈಂಡರ್</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>ಹೊಸ ರಿಮೈಂಡರ್ (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>ಅವಧಿ ಮೀರಿದ</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>ಇಂದು</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>ನಾಳೆ</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಂಡ</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>ದಿನವಿಡೀ</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಳಿಸಿ: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>ಮುಖ್ಯ ಎಂದು ಗುರುತಿಸಿ</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>ರಿಮೈಂಡರ್ ಸಂಪಾದಿಸಿ</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>ರಿಮೈಂಡರ್ ಅಳಿಸಿ</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} ತೆರೆದಿವೆ, {1} ಪೂರ್ಣಗೊಂಡಿವೆ</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>ಇನ್ನೂ ರಿಮೈಂಡರ್‌ಗಳಿಲ್ಲ</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಮೊದಲ ರಿಮೈಂಡರ್ ಸೇರಿಸಿ, ಅದು ದಿನಾಂಕದ ಪ್ರಕಾರ ಗುಂಪಾಗಿ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>ಹೊಸ ರಿಮೈಂಡರ್ (ಖಾಲಿ ಸ್ಥಿತಿ)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಂಡ ರಿಮೈಂಡರ್‌ಗಳು</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>ತಿಂಗಳು</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>ವಾರ</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>ಕಾರ್ಯಸೂಚಿ</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>ತಿಂಗಳ ನೋಟ</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>ವಾರದ ನೋಟ</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>ಕಾರ್ಯಸೂಚಿ ನೋಟ</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>ಹಿಂದಿನ</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>ಮುಂದಿನ</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>ಇಂದಿಗೆ ಹೋಗಿ</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>ಆಯ್ಕೆ ಮಾಡಿದ ದಿನದಂದು ಹೊಸ ರಿಮೈಂಡರ್</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>ಈ ದಿನಕ್ಕೆ ಏನೂ ಯೋಜಿಸಿಲ್ಲ.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>ಮುಂದೆ ಏನೂ ಇಲ್ಲ</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>ಮುಂದಿನ {0} ದಿನಗಳಲ್ಲಿ ರಿಮೈಂಡರ್‌ಗಳಿಲ್ಲ.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>ಹೊಸ ರಿಮೈಂಡರ್ (ಖಾಲಿ ಕಾರ್ಯಸೂಚಿ)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>ತಿಂಗಳ ಗ್ರಿಡ್. ಬಾಣದ ಕೀಲಿಗಳು ಆಯ್ಕೆ ಮಾಡಿದ ದಿನವನ್ನು ಬದಲಿಸುತ್ತವೆ, Enter ರಿಮೈಂಡರ್ ಸೇರಿಸುತ್ತದೆ.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>ಇಂದು · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>ನಾಳೆ · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1} ರಿಂದ ಮುಂದಿನ {0} ದಿನಗಳು</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>ರಿಮೈಂಡರ್‌ಗಳಿಲ್ಲ</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} ರಿಮೈಂಡರ್</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} ರಿಮೈಂಡರ್‌ಗಳು</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, ಮುಖ್ಯ</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>ರಿಮೈಂಡರ್‌ಗಳಿಲ್ಲ</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} ರಿಮೈಂಡರ್</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} ರಿಮೈಂಡರ್‌ಗಳು</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>ವರ್ಗವಿಲ್ಲದ ರಿಮೈಂಡರ್</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>ವರ್ಗ ಇರುವ ರಿಮೈಂಡರ್</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>ಹೊಸ ರಿಮೈಂಡರ್</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>ರಿಮೈಂಡರ್ ಸಂಪಾದಿಸಿ</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>ನೀವು ಏನನ್ನು ನೆನಪಿನಲ್ಲಿಡಬೇಕು?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>ಐಚ್ಛಿಕ</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>ಎದ್ದು ಕಾಣುವಂತೆ ಕೆಂಪು ! ಬ್ಯಾಡ್ಜ್ ತೋರಿಸುತ್ತದೆ.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>ಚಿತ್ರ ಬೇಡ</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>ಚಿತ್ರ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>ಚಿತ್ರ: {0}. ಚಿತ್ರ ಬದಲಿಸಿ</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>ಶೀರ್ಷಿಕೆ ನಮೂದಿಸಿ.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>ಶೀರ್ಷಿಕೆ {0} ಅಕ್ಷರಗಳು ಅಥವಾ ಕಡಿಮೆ ಇರಬೇಕು.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>ದಿನಾಂಕ ಆಯ್ಕೆ ಮಾಡಿ.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>{0} ರೀತಿಯ ಸಮಯ ನಮೂದಿಸಿ, ಅಥವಾ ದಿನವಿಡೀ ಆನ್ ಮಾಡಿ.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>ರಿಮೈಂಡರ್ ಅಳಿಸಬೇಕೇ?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>“{0}” ಅನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>ಯಾವುದೂ ಇಲ್ಲ</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>ಹೊಸ ಪ್ರೊಫೈಲ್</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>ಪ್ರೊಫೈಲ್ ಸಂಪಾದಿಸಿ</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>ಚಿತ್ರ ಬದಲಿಸಿ</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>ಹೆಸರು</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>ಪ್ರೊಫೈಲ್ ಹೆಸರು</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>ಬಣ್ಣ</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>ಅವತಾರ್ ಅಕ್ಷರ</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (ಐಚ್ಛಿಕ)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>ಈಗಿನ PIN ಉಳಿಸಿ</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>ಹೆಸರು ನಮೂದಿಸಿ.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>ಹೆಸರು {0} ಅಕ್ಷರಗಳು ಅಥವಾ ಕಡಿಮೆ ಇರಬೇಕು.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>ಅವತಾರ್‌ಗಾಗಿ ಒಂದು ಅಕ್ಷರ ನಮೂದಿಸಿ.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN ನಿಖರವಾಗಿ 4 ಅಂಕೆಗಳಿರಬೇಕು.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>ಈ ಪ್ರೊಫೈಲ್ ಅಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>ಕನಿಷ್ಠ ಒಂದು ಪ್ರೊಫೈಲ್ ಇರಲೇಬೇಕು. ಇದನ್ನು ಅಳಿಸಬೇಕಾದರೆ ಮೊದಲು ಇನ್ನೊಂದು ಪ್ರೊಫೈಲ್ ರಚಿಸಿ.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>“{0}” ಅಳಿಸಬೇಕೇ?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>ಇದು “{0}” ಪ್ರೊಫೈಲ್ ಅನ್ನು ಅದರ ಎಲ್ಲಾ ರಿಮೈಂಡರ್‌ಗಳು ಮತ್ತು ವರ್ಗಗಳೊಂದಿಗೆ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುತ್ತದೆ. ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN ಹೊಂದಿಸಿ</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN ಬದಲಿಸಿ</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN ತೆಗೆದುಹಾಕಿ</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>4 ಅಂಕೆಗಳ PIN ಆರಿಸಿ. ಈ ಪ್ರೊಫೈಲ್ ತೆರೆಯಲು ಅದು ಬೇಕಾಗುತ್ತದೆ.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಈಗಿನ PIN ನಮೂದಿಸಿ, ನಂತರ ಹೊಸದನ್ನು ಆರಿಸಿ.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>ಲಾಕ್ ಆಫ್ ಮಾಡಲು ನಿಮ್ಮ ಈಗಿನ PIN ನಮೂದಿಸಿ.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>ಈಗಿನ PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>ಹೊಸ 4 ಅಂಕೆಗಳ PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN ಮತ್ತೆ ನಮೂದಿಸಿ</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>ಹೊಸ PIN ಮತ್ತೆ ನಮೂದಿಸಿ</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>ಈಗಿನ PIN ತಪ್ಪಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>ಎರಡೂ PIN ಗಳು ಹೊಂದುತ್ತಿಲ್ಲ.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN ಎಂಬುದು ಸಾಮಾನ್ಯವಾಗಿ ಇಣುಕಿ ನೋಡುವವರನ್ನು ತಡೆಯುವ ಗೌಪ್ಯತೆಯ ಪರದೆ ಮಾತ್ರ, ಬಲವಾದ ಭದ್ರತೆಯಲ್ಲ.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>ಎಲ್ಲಾ</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>ಚಿತ್ರಗಳನ್ನು ಹುಡುಕಿ</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>ಯಾವುದೇ ಚಿತ್ರ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>ಜನರು</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>ಕುಟುಂಬ ಮತ್ತು ಪಾತ್ರಗಳು</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>ಪ್ರಾಣಿಗಳು</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>ಕಲ್ಪನೆ ಮತ್ತು ಮೋಜು</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>ಆಹಾರ</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>ಪ್ರಕೃತಿ</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>ಕ್ರೀಡೆ ಮತ್ತು ಹವ್ಯಾಸಗಳು</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>ವಸ್ತುಗಳು</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>ಶಾಲೆ</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>ಕೆಲಸ</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>ಆರೋಗ್ಯ</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>ಮನೆ</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>ಹಣ</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>ಪ್ರಯಾಣ</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>ಆಚರಣೆಗಳು</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>ಕ್ರೀಡೆ</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>ಚಿತ್ರವನ್ನು ಆರಿಸಿ</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>ಚಿತ್ರಗಳು</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>ನಿಮ್ಮದೇ ಚಿತ್ರ…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>ನಿಮ್ಮದೇ ಚಿತ್ರ</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಿಂದ PNG ಅಥವಾ JPG ಬಳಸಿ</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>ಮೊದಲಕ್ಷರ ಮಾತ್ರ</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>ಚಿತ್ರದ ಬದಲು ಬಣ್ಣದ ಅಕ್ಷರ ತೋರಿಸಿ</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>ಆ ಫೈಲ್ ಅನ್ನು PNG ಅಥವಾ JPG ಚಿತ್ರವಾಗಿ ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr ಬಳಸುತ್ತಿರುವವರು ಯಾರು?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>ಮುಂದುವರಿಯಲು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಆರಿಸಿ</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>ಪ್ರೊಫೈಲ್ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>ಕೊನೆಯದಾಗಿ ಬಳಸಿದ</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN ನಿಂದ ರಕ್ಷಿಸಲಾಗಿದೆ</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>ಸಂಪಾದಿಸಿ ಅಥವಾ ಅಳಿಸಿ</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>ಈಗಿನ ಪ್ರೊಫೈಲ್‌ಗೆ ಹಿಂತಿರುಗಿ (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>ಅನ್‌ಲಾಕ್ ಮಾಡಿ</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>ನಿಮ್ಮ 4 ಅಂಕೆಗಳ PIN ನಮೂದಿಸಿ</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>ಸಂಪಾದಿಸಲು ಅಥವಾ ಅಳಿಸಲು ಈ ಪ್ರೊಫೈಲ್‌ನ PIN ನಮೂದಿಸಿ</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN ತಪ್ಪಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>ಗೋಚರತೆ</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>ಆ್ಯಪ್ ಥೀಮ್</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>ಲೈಟ್, ಡಾರ್ಕ್ ಆರಿಸಿ, ಅಥವಾ ನಿಮ್ಮ Windows ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಅನುಸರಿಸಿ.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>ಥೀಮ್</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>ಲೈಟ್</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>ಡಾರ್ಕ್</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>ಸಿಸ್ಟಮ್</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>ಭಾಷೆ</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Remindr ತೋರಿಸುವ ಭಾಷೆಯನ್ನು ಆರಿಸಿ. ಬದಲಾವಣೆ ತಕ್ಷಣ ಅನ್ವಯವಾಗುತ್ತದೆ.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>ಭಾಷೆ</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>ಅನುವಾದಗಳನ್ನು ಯಂತ್ರದ ಸಹಾಯದಿಂದ ಮಾಡಲಾಗಿದೆ; ತಿದ್ದುಪಡಿಗಳಿಗೆ ಸ್ವಾಗತ.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>ತಿದ್ದುಪಡಿ ಸೂಚಿಸಿ</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>ಯಂತ್ರ ಅನುವಾದ</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>ಅನುವಾದಕ್ಕೆ ಸಹಾಯ ಮಾಡಿ</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>ಭಾಷೆ: {0}. ಬದಲಿಸಲು ಒತ್ತಿ.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>ಪ್ರೊಫೈಲ್</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} ಆಗಿ ಸೈನ್ ಇನ್ ಆಗಿದೆ</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>ಬೇರೆ ಪ್ರೊಫೈಲ್‌ಗೆ ಬದಲಿಸಿ, ಅಥವಾ ಈ ಪ್ರೊಫೈಲ್‌ನ ಹೆಸರು, ಬಣ್ಣ ಮತ್ತು ಚಿತ್ರ ಬದಲಿಸಿ.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>ಚಿತ್ರ ಬದಲಿಸಿ</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>ಪ್ರೊಫೈಲ್ ಬದಲಿಸಿ</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN ಲಾಕ್</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN ಲಾಕ್: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 ಅಂಕೆಗಳ PIN ಸಾಮಾನ್ಯವಾಗಿ ಇಣುಕಿ ನೋಡುವವರನ್ನು ಈ ಪ್ರೊಫೈಲ್‌ನಿಂದ ದೂರವಿಡುತ್ತದೆ. ಇದು ಗೌಪ್ಯತೆಯ ಪರದೆ ಮಾತ್ರ, ಬಲವಾದ ಭದ್ರತೆಯಲ್ಲ.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>ಸಹಾಯ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>ಸಮಸ್ಯೆ ಸಿಕ್ಕಿದೆಯೇ ಅಥವಾ ಸಲಹೆ ಇದೆಯೇ?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>ವರದಿಗಳು GitHub ನಲ್ಲಿ ತೆರೆಯುತ್ತವೆ; ನಿಮ್ಮ Remindr ಮತ್ತು Windows ಆವೃತ್ತಿ ಮಾತ್ರ ತುಂಬಿರುತ್ತದೆ. ಬೇರೇನೂ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>ದೋಷ ವರದಿ ಮಾಡಿ</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>ವೈಶಿಷ್ಟ್ಯ ಸೂಚಿಸಿ</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>ಲಾಗ್ ಫೋಲ್ಡರ್ ತೆರೆಯಿರಿ</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>ಕುರಿತು</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} ಪರವಾನಗಿ</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಸೂಚನೆಗಳು</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>ಏನೋ ತಪ್ಪಾಗಿದೆ: {0}
+
+ವಿವರಗಳನ್ನು %AppData%\Remindr\error.log ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+ವಿವರಗಳನ್ನು %AppData%\Remindr\error.log ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr ಗೆ ಸ್ವಾಗತ</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>ಪ್ರಾರಂಭಿಸಲು ಯಾವುದೇ ಕೀ ಒತ್ತಿ ಅಥವಾ ಕ್ಲಿಕ್ ಮಾಡಿ</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>ಪ್ರಾರಂಭಿಸಿ</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>ಸ್ವಾಗತ ಮತ್ತೆ ತೋರಿಸಿ</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr ಹೊಂದಿಸಿ</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>ಹೊಂದಿಸುವಿಕೆಯ ಪ್ರಗತಿ</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>ಹಂತ {0} / {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>ಮುಂದೆ</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>ಬಿಟ್ಟುಬಿಡಿ</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆರಿಸಿ</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>ಆ್ಯಪ್ ತಕ್ಷಣ ಬದಲಾಗುತ್ತದೆ. ಯಾವಾಗ ಬೇಕಾದರೂ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಬದಲಿಸಬಹುದು.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>ಭಾಷೆಗಳನ್ನು ಹುಡುಕಿ</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>ಯಾವುದೇ ಭಾಷೆ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>ನಿಮ್ಮ ನೋಟವನ್ನು ಆರಿಸಿ</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>ಲೈಟ್, ಡಾರ್ಕ್, ಅಥವಾ ನಿಮ್ಮ Windows ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಅನುಸರಿಸಿ.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಪ್ರೊಫೈಲ್</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>ನಿಮ್ಮ ಹೆಸರು, ಬಣ್ಣ ಮತ್ತು ಚಿತ್ರ ಸೇರಿಸಿ.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN ಸೇರಿಸಬೇಕೇ?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>ಐಚ್ಛಿಕ. 4 ಅಂಕೆಗಳ PIN ಈ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಖಾಸಗಿಯಾಗಿಡುತ್ತದೆ.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>ಎಲ್ಲವೂ ಸಿದ್ಧ, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>ಇವೆಲ್ಲವನ್ನೂ ನೀವು ನಂತರ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಬದಲಿಸಬಹುದು.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr ಬಳಸಲು ಪ್ರಾರಂಭಿಸಿ</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>ನನ್ನ ಮೊದಲ ರಿಮೈಂಡರ್ ಸೇರಿಸಿ</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>ಶಾಲೆ</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>ಕೆಲಸ</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>ವೈಯಕ್ತಿಕ</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>ಹೊಸದೇನಿದೆ</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>ನಂತರ</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>ಈ ಆವೃತ್ತಿ ಬಿಟ್ಟುಬಿಡಿ</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>ಡೌನ್‌ಲೋಡ್ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ಡೌನ್‌ಲೋಡ್ ಅದರ ಚೆಕ್‌ಸಮ್‌ಗೆ ಹೊಂದಿಕೆಯಾಗಲಿಲ್ಲ, ಆದ್ದರಿಂದ ಅದನ್ನು ಅಳಿಸಲಾಗಿದೆ ಮತ್ತು ಏನನ್ನೂ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿಲ್ಲ.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>ಅಪ್‌ಡೇಟ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>ಅಪ್‌ಡೇಟ್‌ಗಳು</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr ಪ್ರಾರಂಭವಾದಾಗ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>ಆವೃತ್ತಿ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಸಲು ಮಾತ್ರ GitHub ಅನ್ನು ಸಂಪರ್ಕಿಸುತ್ತದೆ; ನಿಮ್ಮ ಬಗ್ಗೆ ಏನನ್ನೂ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>ನವೀಕೃತ · ಪರಿಶೀಲಿಸಿದ್ದು {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} ಲಭ್ಯವಿದೆ</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>ಅಪ್‌ಡೇಟ್ ಲಭ್ಯವಿದೆ</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · ನಿಮ್ಮಲ್ಲಿ {1} ಇದೆ</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>ಅಪ್‌ಡೇಟ್</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>ಡೌನ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>ರದ್ದುಗೊಳಿಸಿ</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲು ಸಿದ್ಧ</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 ದಿನದಲ್ಲಿ</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 ಗಂಟೆಯಲ್ಲಿ</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>ಈಗ</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>ಇನ್ನೂ ಮಾಡಬೇಕಿದೆ</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>ಸ್ನೂಜ್ ಮುಗಿದಿದೆ</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - ಅವಧಿ ಮೀರಿದೆ</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಳಿಸಿ</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>ಮುಂದೂಡಿ</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>ವಜಾಗೊಳಿಸಿ</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 ನಿಮಿಷ</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 ಗಂಟೆ</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>ನಾಳೆ</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>ಪರೀಕ್ಷಾ ಅಧಿಸೂಚನೆ</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>ಇದು ಮಾದರಿ, ಆದ್ದರಿಂದ ಇದರ ಬಟನ್‌ಗಳು ಏನನ್ನೂ ಮಾಡುವುದಿಲ್ಲ. ರಿಮೈಂಡರ್ ಸೇರಿಸಿ, ನಂತರ ಅವುಗಳನ್ನು ಪ್ರಯತ್ನಿಸಲು ಮತ್ತೆ ಪರೀಕ್ಷೆ ಕಳುಹಿಸಿ.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>ಅಧಿಸೂಚನೆಗಳು</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>ಪರೀಕ್ಷಾ ಅಧಿಸೂಚನೆ ಕಳುಹಿಸಿ</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>ಬಟನ್‌ಗಳನ್ನು ಪ್ರಯತ್ನಿಸಲು ನಿಮ್ಮ ಮುಂದಿನ ರಿಮೈಂಡರ್‌ಗಾಗಿ ಅಧಿಸೂಚನೆ ತೋರಿಸುತ್ತದೆ.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>ಪರೀಕ್ಷೆ ಕಳುಹಿಸಿ</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>ತೆರೆಯಿರಿ</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>ತ್ವರಿತ ಸೇರ್ಪಡೆ</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>ನಿರ್ಗಮಿಸಿ</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr ಇನ್ನೂ ಟ್ರೇಯಲ್ಲಿ ಚಾಲನೆಯಲ್ಲಿದೆ</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>ನಿಮ್ಮ ರಿಮೈಂಡರ್‌ಗಳು ನಿಮ್ಮನ್ನು ಎಚ್ಚರಿಸುತ್ತಲೇ ಇರುತ್ತವೆ. ತೆರೆಯಲು ಅಥವಾ ನಿರ್ಗಮಿಸಲು ಟ್ರೇ ಐಕಾನ್ ಬಳಸಿ.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>ನಾನು ವಿಂಡೋ ಮುಚ್ಚಿದಾಗ ಟ್ರೇಯಲ್ಲಿ ಚಾಲನೆಯಲ್ಲಿರಲಿ</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>ವಿಂಡೋ ಮುಚ್ಚಿದ್ದರೂ ರಿಮೈಂಡರ್‌ಗಳು ನಿಮ್ಮನ್ನು ಎಚ್ಚರಿಸುತ್ತಲೇ ಇರುತ್ತವೆ. ಮುಚ್ಚಿದಾಗ ನಿರ್ಗಮಿಸಲು ಆಫ್ ಮಾಡಿ.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>ನಾನು ಸೈನ್ ಇನ್ ಮಾಡಿದಾಗ Remindr ಪ್ರಾರಂಭಿಸಿ</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>ನಿಮ್ಮ ರಿಮೈಂಡರ್‌ಗಳು ಎಚ್ಚರಿಸುತ್ತಲೇ ಇರಲು ಟ್ರೇಯಲ್ಲಿ ಸದ್ದಿಲ್ಲದೆ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ. ನೀವೇ ಪ್ರಾರಂಭಿಸಲು ಆಫ್ ಮಾಡಿ.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr ಈಗಾಗಲೇ ಚಾಲನೆಯಲ್ಲಿದೆ ಆದರೆ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಿಲ್ಲ. ಅದು ಮುಚ್ಚುತ್ತಿದ್ದರೆ ಸ್ವಲ್ಪ ಕಾಯಿರಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ; ಇಲ್ಲದಿದ್ದರೆ ಟಾಸ್ಕ್ ಮ್ಯಾನೇಜರ್‌ನಲ್ಲಿ ಅದನ್ನು ಕೊನೆಗೊಳಿಸಿ.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>ಮುಖ್ಯ</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>ಅವಧಿ ಮೀರಿದ</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · ಇಂದು {0} ಬಾಕಿ</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · ಇಂದು {0} ಬಾಕಿ</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0} ನಲ್ಲಿ ಹೊಸದೇನಿದೆ</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>ಸರಿ</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>ಈ ಆವೃತ್ತಿಯಲ್ಲಿ ಹೊಸದೇನಿದೆ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>ನಿಮ್ಮನ್ನು ಹುಡುಕಿ ಬರುವ ರಿಮೈಂಡರ್‌ಗಳು</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>ಪೂರ್ಣಗೊಳಿಸಿ, ಮುಂದೂಡಿ ಮತ್ತು ವಜಾಗೊಳಿಸಿ ಬಟನ್‌ಗಳಿರುವ Windows ಅಧಿಸೂಚನೆಗಳು. 5 ನಿಮಿಷ, ಒಂದು ಗಂಟೆ ಅಥವಾ ನಾಳೆಯವರೆಗೆ ಮುಂದೂಡಿ.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>ಮುಖ್ಯ ಎಂದರೆ ಪದೇ ಪದೇ ನೆನಪಿಸುತ್ತದೆ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>ಮುಖ್ಯ ರಿಮೈಂಡರ್‌ಗಳು ಒಂದು ದಿನ ಮತ್ತು ಒಂದು ಗಂಟೆ ಮುಂಚೆ ಎಚ್ಚರಿಸುತ್ತವೆ, ನಂತರ ನೀವು ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳುವವರೆಗೆ ಪ್ರತಿ 10 ನಿಮಿಷಕ್ಕೆ ಎಚ್ಚರಿಸುತ್ತವೆ.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>ಸದ್ದಿಲ್ಲದೆ ಚಾಲನೆಯಲ್ಲಿರುತ್ತದೆ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>ವಿಂಡೋ ಮುಚ್ಚಿದರೂ Remindr ಟ್ರೇಯಲ್ಲಿ ಉಳಿಯುತ್ತದೆ, ಹೀಗಾಗಿ ಎಚ್ಚರಿಕೆಗಳು ಬರುತ್ತಲೇ ಇರುತ್ತವೆ. ಟ್ರೇ ಐಕಾನ್‌ನಿಂದ ತೆರೆಯಿರಿ ಅಥವಾ ನಿರ್ಗಮಿಸಿ.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows ಜೊತೆ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ಆನ್ ಮಾಡಿ, ನೀವು ಸೈನ್ ಇನ್ ಮಾಡಿದಾಗ Remindr ಟ್ರೇಯಲ್ಲಿ ಅಡಗಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>ಕಾರ್ಡ್‌ಗಳು ಮೇಲೇಳುತ್ತವೆ, ಟಿಕ್‌ಗಳು ಪಾಪ್ ಆಗುತ್ತವೆ, ಕ್ಯಾಲೆಂಡರ್ ಜಾರುತ್ತದೆ ಮತ್ತು ಖಾಲಿ ಪುಟಗಳು ತೇಲುತ್ತವೆ. Windows ಅನಿಮೇಷನ್‌ಗಳು ಆಫ್ ಇದ್ದರೆ ಎಲ್ಲವೂ ಸ್ಥಿರವಾಗಿರುತ್ತದೆ.</value>
+  </data>
+</root>

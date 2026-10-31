@@ -43,16 +43,18 @@ public class WhatsNewTests
     }
 
     [Fact]
-    public void VersionedKeys_AreEnglishOnly_ChromeKeysAreEverywhere()
+    public void VersionedKeys_AreTranslatedInEveryShippedLanguage_AndFallBackToEnglishInOthers()
     {
         var dir = Path.Combine(SourceTree.AppDir(), "Resources");
         var de = SourceTree.ReadResx(Path.Combine(dir, "Strings.de.resx"));
-        Assert.DoesNotContain(de.Keys, k => k.StartsWith("WhatsNew_0_4_0_", StringComparison.Ordinal));
-        foreach (var k in new[] { "WhatsNew_Title", "WhatsNew_GotIt", "WhatsNew_Open" }) Assert.Contains(k, de.Keys);
+        foreach (var k in new[] { "WhatsNew_Title", "WhatsNew_GotIt", "WhatsNew_Open", "WhatsNew_0_4_0_1_Title", "WhatsNew_0_4_0_5_Text" }) Assert.Contains(k, de.Keys);
         Assert.Equal("What's new in Remindr 0.4", Loc.Format("WhatsNew_Title", "0.4"));
-        // Falls back to English in a language with no card text yet.
-        Assert.Equal(Loc.Get("WhatsNew_0_4_0_1_Title", System.Globalization.CultureInfo.InvariantCulture),
+        // German has its own card text now (the string freeze); a language with no file yet falls back to English.
+        Assert.NotEqual(Loc.Get("WhatsNew_0_4_0_1_Title", System.Globalization.CultureInfo.InvariantCulture),
             Loc.Get("WhatsNew_0_4_0_1_Title", System.Globalization.CultureInfo.GetCultureInfo("de")));
+        if (!Remindr.Services.LocalizationService.IsTranslated("sw"))
+        Assert.Equal(Loc.Get("WhatsNew_0_4_0_1_Title", System.Globalization.CultureInfo.InvariantCulture),
+            Loc.Get("WhatsNew_0_4_0_1_Title", System.Globalization.CultureInfo.GetCultureInfo("sw")));
     }
 
     private static (TempDb T, SettingsRepo S, ProfileRepo P, WhatsNewService W) Make()

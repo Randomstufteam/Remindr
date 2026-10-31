@@ -55,20 +55,32 @@
                                 <Hyperlink Command="{Binding SuggestTranslationCommand}"><Run Text="{l:Loc Settings_Language_ReportLink}" /></Hyperlink>
                             </TextBlock>
                         </StackPanel>
-                        <ComboBox Grid.Column="2" MinWidth="220" Margin="16,0,0,0" VerticalAlignment="Center"
-                                  AutomationProperties.Name="{l:Loc Settings_Language_Name}"
-                                  ItemsSource="{Binding Languages}"
-                                  SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}">
-                            <ComboBox.ItemTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding NativeName}" VerticalAlignment="Center" />
-                                        <TextBlock Text="{Binding EnglishLabel}" Margin="8,0,0,0" VerticalAlignment="Center"
-                                                   Foreground="{DynamicResource TextFillColorSecondaryBrush}" FontSize="12" />
-                                    </StackPanel>
-                                </DataTemplate>
-                            </ComboBox.ItemTemplate>
-                        </ComboBox>
+                        <Grid Grid.Column="2" Margin="16,0,0,0" VerticalAlignment="Center">
+                            <!-- Shows the current language in its own name; opens the searchable picker (the same control setup uses). -->
+                            <Button x:Name="LanguageButton" Style="{StaticResource GlassPill}" MinWidth="200" Click="LanguageButton_Click"
+                                    AutomationProperties.AutomationId="SettingsLanguageButton"
+                                    AutomationProperties.Name="{Binding LanguageButtonName}" ToolTip="{l:Loc Settings_Language_Name}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="{Binding CurrentLanguage.NativeName}" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                                    <ui:SymbolIcon Grid.Column="1" Symbol="ChevronDown24" FontSize="14" Margin="12,0,0,0" VerticalAlignment="Center" />
+                                </Grid>
+                            </Button>
+                            <Popup x:Name="LanguagePopup" PlacementTarget="{Binding ElementName=LanguageButton}" Placement="Bottom"
+                                   StaysOpen="False" AllowsTransparency="True" PopupAnimation="None" VerticalOffset="6"
+                                   Opened="LanguagePopup_Opened" Closed="LanguagePopup_Closed">
+                                <Border Style="{StaticResource GlassCard}" Width="400" Height="440" Margin="0,0,16,16"
+                                        Background="{DynamicResource SolidBackgroundFillColorBaseBrush}" KeyboardNavigation.TabNavigation="Cycle"
+                                        KeyboardNavigation.ControlTabNavigation="Cycle">
+                                    <ctl:LanguageList x:Name="LanguagePicker" ClosesOnEscape="True" SearchAutomationId="SettingsLanguageSearch"
+                                                      SelectedCode="{Binding CurrentLanguage.Code, Mode=OneWay}"
+                                                      LanguageChosen="LanguagePicker_LanguageChosen" CloseRequested="LanguagePicker_CloseRequested" />
+                                </Border>
+                            </Popup>
+                        </Grid>
                     </Grid>
                 </Border></Grid>
 

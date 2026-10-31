@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Engeza</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Buyela emuva</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Khansela</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Dala</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Susa</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Hlela</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Kuvaliwe</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Kuvuliwe</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Gcina</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Lamuhla</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Isihloko</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Usuku</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Isikhathi</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Amanothi</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Isigaba</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Isithombe</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Kubalulekile</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Lamuhla</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Ikhalenda</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Zonke izikhumbuzo</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Iphrofayili</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Izilungiselelo</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Tshintsha iphrofayili</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Vala loba vula uhlangothi</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Uhlangothi</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Livukile</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Livukile, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Litshonile</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Litshonile, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Litshonile kusihlwa</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Litshonile kusihlwa, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Akukho okumele kwenziwe lamuhla</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Izikhumbuzo zalamuhla zizabonakala lapha.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Isikhumbuzo esitsha</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Isikhumbuzo esitsha (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Sezidlulelwe yisikhathi</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Lamuhla</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Kusasa</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Seziqediwe</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Usuku lonke</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Qeda: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Maka njengokubalulekileyo</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Hlela isikhumbuzo</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Susa isikhumbuzo</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} zivuliwe, {1} seziqediwe</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Kakho izikhumbuzo okwamanje</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Engeza isikhumbuzo sakho sokuqala sizabonakala lapha, sihlelwe ngosuku.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Isikhumbuzo esitsha (ikhasi elingelalutho)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Izikhumbuzo eziqediweyo</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Inyanga</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Iviki</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Uhlelo lwemisebenzi</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Ukubuka inyanga</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Ukubuka iviki</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Ukubuka uhlelo lwemisebenzi</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Okwedlule</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Okulandelayo</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Yakwamuhla</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Isikhumbuzo esitsha ngosuku olukhethiweyo</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Akukho okuhleliweyo kolu suku.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Akukho okuzayo</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Akukho zikhumbuzo ezinsukwini ezingu-{0} ezizayo.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Isikhumbuzo esitsha (uhlelo olungelalutho)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Ithebula lenyanga. Imikhiyo yemikhombo iguqula usuku olukhethiweyo, i-Enter yengeza isikhumbuzo.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Lamuhla · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Kusasa · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Izinsuku ezingu-{0} ezilandelayo kusukela ku-{1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Akukho zikhumbuzo</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>Isikhumbuzo esingu-{0}</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>Izikhumbuzo ezingu-{0}</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, kubalulekile</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>akukho zikhumbuzo</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>isikhumbuzo esingu-{0}</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>izikhumbuzo ezingu-{0}</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Isikhumbuzo esingelasigaba</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Isikhumbuzo esinesigaba</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Isikhumbuzo esitsha</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Hlela isikhumbuzo</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Ufuna ukukhumbula bani?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Akuphoqelekile</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Kubonisa uphawu olubomvu ! ukuze kubonakale.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Akukho sithombe</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Engeza isithombe</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Isithombe: {0}. Tshintsha isithombe</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Faka isihloko.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Isihloko kumele sibe nezinhlamvu ezingu-{0} loba ezimbalwa.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Khetha usuku.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Faka isikhathi esifana lo-{0}, loba vula Usuku lonke.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Susa isikhumbuzo?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" sizasuswa unomphela. Lokhu akunakubuyiswa.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Lutho</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Iphrofayili entsha</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Hlela iphrofayili</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Tshintsha isithombe</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Ibizo</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Ibizo lephrofayili</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Umbala</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Unhlamvu lwesithombe</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (akuphoqelekile)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Gcina i-PIN yamanje</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Faka ibizo.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Ibizo kumele libe nezinhlamvu ezingu-{0} loba ezimbalwa.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Faka unhlamvu olulodwa lwesithombe.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>I-PIN kumele ibe yizinombolo ezingu-4 kuphela.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ayinakususwa le phrofayili</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Kumele kube khona okungenani iphrofayili eyodwa. Dala enye kuqala uma ufuna ukususa le.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Susa "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Lokhu kususa iphrofayili "{0}" unomphela kanye lazo zonke izikhumbuzo lezigaba zayo. Lokhu akunakubuyiswa.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Misa i-PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Tshintsha i-PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Susa i-PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Khetha i-PIN yezinombolo ezingu-4. Uzayidinga ukuvula le phrofayili.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Faka i-PIN yakho yamanje, bese ukhetha entsha.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Faka i-PIN yakho yamanje ukuze uvule ukukhiya.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>I-PIN yamanje</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>I-PIN entsha yezinombolo ezingu-4</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Phinda i-PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Phinda i-PIN entsha</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>I-PIN yamanje ayilunganga. Zama futhi.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Ama-PIN amabili akafani.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>I-PIN yisikrini sokufihla esivimbela abadlulayo, hatshi ukuvikela okuqinileyo.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Zonke</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Sesha izithombe</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Akukho zithombe ezifanayo.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Abantu</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Umndeni lemisebenzi</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Izilwane</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Izinganekwane lokuzithokozisa</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Ukudla</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Indalo</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Imidlalo lezinto ezithandwayo</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Izinto</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Isikolo</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Umsebenzi</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Impilo</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Ikhaya</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Imali</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Uhambo</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Imikhosi</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Imidlalo</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Khetha isithombe</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Izithombe</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Isithombe sakho…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Isithombe sakho</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Sebenzisa i-PNG loba i-JPG evela ekhompyutheni yakho</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Unhlamvu kuphela</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Khombisa unhlamvu olunemibala esikhundleni sesithombe</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Leyo ifayela ayikwazanga ukufundwa njengesithombe se-PNG loba se-JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Ngubani osebenzisa i-Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Khetha iphrofayili yakho ukuze uqhubeke</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Engeza iphrofayili</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Isetshenziswe kokugcina</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Ivikelwe nge-PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Hlela loba susa</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Buyela kuphrofayili yamanje (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Vula</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Faka i-PIN yakho yezinombolo ezingu-4</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Faka i-PIN yale phrofayili ukuze uyihlele loba uyisuse</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>I-PIN ayilunganga. Zama futhi.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Ukubukeka</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Itimu ye-app</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Khetha Ukukhanya, Ubumnyama, loba landela ukulungiswa kwe-Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Itimu</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Ukukhanya</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Ubumnyama</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Isistimu</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Ulimi</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Khetha ulimi i-Remindr ezabonakala ngalo. Ukutshintsha kusebenza masinyane.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Ulimi</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Ukuhumusha kwenziwe ngomshini; ukulungisa kuyemukelwa.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Phakamisa ukulungisa</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Kuhumushwe ngomshini</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Siza ukuhumusha</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Ulimi: {0}. Cindezela ukuze utshintshe.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Iphrofayili</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Ungene njengo-{0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Tshintshela kuphrofayili enye, loba tshintsha ibizo, umbala lesithombe seliphrofayili.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Tshintsha isithombe</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Tshintsha iphrofayili</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Ukukhiya nge-PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Ukukhiya nge-PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>I-PIN yezinombolo ezingu-4 ivimbela abadlulayo ukuthi babone le phrofayili. Yisikrini sokufihla, hatshi ukuvikela okuqinileyo.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Usizo lemibono</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Utholile inkinga loba ulomqondo?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Imibiko ivuleka ku-GitHub kuphela ngenguqulo ye-Remindr le-Windows. Akukho okunye okuthunyelwayo.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Bika inkinga</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Phakamisa isici</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Vula ifolda yamarekhodi</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Mayelana</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Imvume ye-{0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Buka ku-GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Izaziso zabanye</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Kulenkinga: {0}
+
+Izinhlobo zigcinwe ku-%AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Izinhlobo zigcinwe ku-%AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Wamukelekile ku-Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Cindezela noma yiphi ikhiye loba chofoza ukuze uqalise</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Qalisa</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Phinda ukwamukela</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Lungisa i-Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Inqubekela phambili yokulungisa</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Isinyathelo {0} kusuka ku-{1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Okulandelayo</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Yeqa</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Khetha ulimi lwakho</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>I-app iyatshintsha masinyane. Ungatshintsha nanini kuzilungiselelo.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Sesha izilimi</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Akukho zilimi ezifanayo.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Khetha ukubukeka kwakho</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Ukukhanya, Ubumnyama, loba landela ukulungiswa kwe-Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Iphrofayili yakho</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Engeza ibizo lakho, umbala lesithombe.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Engeza i-PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Akuphoqelekile. I-PIN yezinombolo ezingu-4 igcina le phrofayili iyimfihlo.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Konke kulungile, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Ungatshintsha konke lokhu kamuva kuzilungiselelo.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Qalisa ukusebenzisa i-Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Engeza isikhumbuzo sami sokuqala</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Isikolo</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Umsebenzi</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Siqu</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Okutsha</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Kamuva</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Yeqa leli vezini</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Zama futhi</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Kuhlolwa okulandiweyo…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Okulandiweyo akuhambelani le-checksum yako, ngakho kususiwe futhi akukho okufakiweyo.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Ayikwazanga ukulanda isibuyekezo. Zama futhi kamuva.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Izibuyekezo</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Hlola izibuyekezo nxa i-Remindr iqalisa</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Ixhumana le-GitHub kuphela ukuze ilinganise izinombolo zenguqulo; akukho okukuphathelene lawe okuthunyelwayo.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Hlola izibuyekezo</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Kuyahlolwa…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Kutsha · kuhlolwe {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>Ikhona i-{0}</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Ayikwazanga ukuhlola izibuyekezo</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Kulesibuyekezo</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · ulayo {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Buyekeza</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Kuyalandwa… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Khansela</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Kukulungele ukufakwa</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Qalisa kutsha ubuyekeze</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Ngemva kosuku olu-1</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Ngemva kwehora eli-1</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Khathesi</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Kusasele</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Isikhathi sokuhlehlisa siphelile</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - sekudlulelwe yisikhathi</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Qeda</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Hlehlisa</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Yekela</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>Imizuzu emi-5</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>Ihora eli-1</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Kusasa</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Isaziso sokuhlola</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Lesi isibonelo kuphela, ngakho amabhatheni alo awasebenzi. Engeza isikhumbuzo, bese uthumela ukuhlola futhi ukuze uwazame.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Izaziso</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Thumela isaziso sokuhlola</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Sibonisa isaziso sesikhumbuzo sakho esilandelayo ukuze uzame amabhatheni.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Thumela ukuhlola</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Vula</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Ukwengeza ngokushesha</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Phuma</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>I-Remindr isasebenza ku-tray</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Izikhumbuzo zakho zizaqhubeka zikwazise. Sebenzisa uphawu lwe-tray ukuvula loba ukuphuma.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Hlala usebenza ku-tray nxa ngivala iwindi</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Izikhumbuzo ziyaqhubeka zikwazisa iwindi livaliwe. Vala ukuze uphume nxa ulivala.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Qalisa i-Remindr nxa ngingena</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Iqalisa ngokuthula ku-tray ukuze izikhumbuzo zakho ziqhubeke zikwazisa. Vala ukuze uyiqalise wena.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>I-Remindr isasebenza kodwa ayiphenduli. Nxa ivalwa, linda kancane bese uzama futhi; kungenjalo, yiqede ku-Task Manager.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Kubalulekile</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Sekudlulelwe yisikhathi</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} lamuhla</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} lamuhla</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Okutsha ku-Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Ngiyezwa</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Okutsha kuleli vezini</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Izikhumbuzo ezikuthola</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Izaziso ze-Windows ezilamabhatheni Qeda, Hlehlisa le-Yekela. Hlehlisa imizuzu emi-5, ihora, loba kuze kube kusasa.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Okubalulekileyo kuyakhumbuza</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Izikhumbuzo ezibalulekileyo zikwazisa usuku lehora ngaphambili, bese zinjalo ngemizuzu eyi-10 kuze uzenzele.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Kuhlala kusebenza ngokuthula</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Vala iwindi bese i-Remindr ihlala ku-tray, ngakho izaziso ziyafika. Ivule loba uphume kuphawu lwe-tray.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Iqala le-Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Kuvule kuzilungiselelo bese i-Remindr iqala ifihlekile ku-tray nxa ungena.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Amakhadi ayaphakama, izimpawu ziyagqama, ikhalenda liyashelela, amakhasi angelalutho ayabhukuda. Nxa ukunyakaza kwe-Windows kuvaliwe, konke kuhlala kumile.</value>
+  </data>
+</root>

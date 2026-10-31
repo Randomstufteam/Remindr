@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Tāpiri</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Hoki</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Whakakore</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Waihanga</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Muku</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Whakatika</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Whakamutu</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Whakakā</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Tiaki</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Tēnei rā</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Taitara</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Rā</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Wā</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Ngā tuhipoka</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kāwai</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Whakaahua</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Hira</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Tēnei rā</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Maramataka</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Ngā whakamahara katoa</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Kōtaha</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Tautuhinga</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Whakawhiti kōtaha</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Whakaiti, whakawhānui rānei i te pae taha</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Whakawhiti i te pae taha</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Ata mārie</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Ata mārie, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Ahiahi mārie</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Ahiahi mārie, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Pō mārie</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Pō mārie, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Kāore he mea mō tēnei rā</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Ka puta mai ngā whakamahara mō tēnei rā ki konei.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Whakamahara hou</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Whakamahara hou (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Kua pahemo</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Tēnei rā</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Apōpō</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Kua oti</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Te rā katoa</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Whakaoti: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Tohua hei mea hira</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Whakatika whakamahara</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Muku whakamahara</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} tuwhera, {1} kua oti</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Kāore anō he whakamahara</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Tāpirihia tō whakamahara tuatahi, ka puta mai ki konei, kua whakarōpūtia ki te rā.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Whakamahara hou (wāhi kau)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Ngā whakamahara kua oti</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Marama</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Rārangi mahi</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Tirohanga marama</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Tirohanga wiki</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Tirohanga rārangi mahi</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Whakamuri</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Whakamua</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Haere ki tēnei rā</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Whakamahara hou mō te rā kua tohua</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Kāore he mahi mō tēnei rā.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Kāore he mea e haere mai ana</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Kāore he whakamahara i ngā rā {0} e haere ake nei.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Whakamahara hou (rārangi mahi kau)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Mātiti marama. Ka huri ngā pātene pere i te rā kua tohua, ka tāpiri a Enter i tētahi whakamahara.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Tēnei rā · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Apōpō · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Ngā rā {0} e haere ake nei mai i te {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Kāore he whakamahara</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} whakamahara</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} whakamahara</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, hira</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>kāore he whakamahara</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} whakamahara</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} whakamahara</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Whakamahara kāore he kāwai</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Whakamahara he kāwai tōna</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Whakamahara hou</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Whakatika whakamahara</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>He aha tāu e hiahia ana ki te maumahara?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Kōwhiri noa</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Ka whakaatu i tētahi tohu ! whero kia kitea ai.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Kāore he whakaahua</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Tāpiri whakaahua</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Whakaahua: {0}. Whakarerekē whakaahua</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Whakauruhia he taitara.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Kia {0} ngā pūāhua, iti iho rānei te taitara.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Kōwhiria he rā.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Whakauruhia tētahi wā pēnei i te {0}, whakakāhia rānei Te rā katoa.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Muku whakamahara?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>Ka mukua mō ake tonu atu a &quot;{0}&quot;. Kāore e taea te whakahoki.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Kore</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Kōtaha hou</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Whakatika kōtaha</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Whakarerekē whakaahua</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Ingoa</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Ingoa kōtaha</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Tae</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Reta tohu</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (kōwhiri noa)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Pupuri i te PIN o nāianei</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Whakauruhia he ingoa.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Kia {0} ngā pūāhua, iti iho rānei te ingoa.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Whakauruhia he pūāhua kotahi mō te tohu.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>Me 4 ngā tau tonu o te PIN.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Kāore e taea te muku i tēnei kōtaha</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Me mau tonu tētahi kōtaha i te iti rawa. Waihangatia he kōtaha kē i te tuatahi mēnā e hiahia ana koe ki te muku i tēnei.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Muku &quot;{0}&quot;?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Ka mukua mō ake tonu te kōtaha &quot;{0}&quot; me ana whakamahara me ana kāwai katoa. Kāore e taea te whakahoki.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Tautuhi PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Whakarerekē PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Tango PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Kōwhiria he PIN 4 tau. Ka hiahiatia hei whakatuwhera i tēnei kōtaha.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Whakauruhia tō PIN o nāianei, kātahi kōwhiria he PIN hou.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Whakauruhia tō PIN o nāianei hei whakamutu i te raka.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN o nāianei</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN 4 tau hou</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Tukuna anō te PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Tukuna anō te PIN hou</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Kāore te PIN o nāianei i tika. Whakamātauria anō.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Kāore ngā PIN e rua i ōrite.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>He mata matatapu te PIN hei pupuri i te hunga tirotiro noa atu, ehara i te tūmataiti kaha.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Katoa</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Rapu whakaahua</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Kāore he whakaahua e ōrite.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Tāngata</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Whānau me ngā tūranga</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Kararehe</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Pohewa me te harikoa</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Kai</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Taiao</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Hākinakina me ngā mahi ngahau</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Ngā taonga</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Kura</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Mahi</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Hauora</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Kāinga</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Pūtea</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Haerenga</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Ngā whakanui</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Hākinakina</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Kōwhiria he whakaahua</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Whakaahua</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Tō ake whakaahua…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Tō ake whakaahua</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Whakamahia he PNG, JPG rānei mai i tō rorohiko</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Reta tuatahi anake</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Whakaatu i te reta tae kē i te whakaahua</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Kāore i taea te pānui taua kōnae hei whakaahua PNG, JPG rānei.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Ko wai kei te whakamahi i a Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Kōwhiria tō kōtaha hei haere tonu</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Tāpiri kōtaha</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Whakamahia whakamutunga</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Kua tiakina ki te PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Whakatika, muku rānei</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Hoki ki te kōtaha o nāianei (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Whakatuwhera</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Whakauruhia tō PIN 4 tau</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Whakauruhia te PIN o tēnei kōtaha hei whakatika, hei muku rānei</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Kāore te PIN i tika. Whakamātauria anō.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Te āhua</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Kaupapa o te taupānga</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Kōwhiria te Marama, te Pōuri, te whai rānei i tō tautuhinga Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Kaupapa</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Marama</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Pōuri</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Pūnaha</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Reo</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Kōwhiria te reo e whakaatuhia ai a Remindr. Ka whai kiko te huringa i taua wā tonu.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Reo</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>I āwhina te rorohiko ki ngā whakamāoritanga; e manaakitia ana ngā whakatikatika.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Tūtohu whakatikatika</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Whakamāoritia e te rorohiko</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Āwhina ki te whakamāori</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Reo: {0}. Pēhia hei whakarerekē.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Kōtaha</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Kua takiuru a {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Whakawhitihia ki tētahi atu kōtaha, whakarerekē rānei i te ingoa, te tae me te whakaahua o tēnei kōtaha.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Whakarerekē whakaahua</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Whakawhiti kōtaha</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Raka PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Raka PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Ka pupuri te PIN 4 tau i te hunga tirotiro noa atu i tēnei kōtaha. He mata matatapu, ehara i te tūmataiti kaha.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Āwhina me ngā urupare</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>I kitea he raruraru, he whakaaro rānei tāu?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Ka tuwhera ngā pūrongo ki GitHub me te putanga Remindr me Windows anake kua whakaurua. Kāore he mea atu e tukuna.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Pūrongo i tētahi hapa</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Tūtohu āhuatanga</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Tuwhera i te kōpaki rangitaki</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Mō</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Raihana {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Tirohia ki GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Ngā pānui a te tuatoru</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>I hē tētahi mea: {0}
+
+I tiakina ngā taipitopito ki %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+I tiakina ngā taipitopito ki %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Nau mai ki Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Pēhia tētahi kī, pāwhiri rānei hei tīmata</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Tīmata</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Whakahaere anō i te powhiri</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Whakarite Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Anga whakarite</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Wāhanga {0} o {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Haere tonu</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Tāpae</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Kōwhiria tō reo</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Ka huri tonu te taupānga. Ka taea te whakarerekē i ngā wā katoa i ngā Tautuhinga.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Rapu reo</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Kāore he reo e ōrite.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Kōwhiria tō āhua</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Marama, Pōuri, te whai rānei i tō tautuhinga Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Tō kōtaha</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Tāpirihia tō ingoa, he tae me tētahi whakaahua.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Tāpiri PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Kōwhiri noa. Ka pupuri te PIN 4 tau i tēnei kōtaha hei mea tūmataiti.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Kua rite koe, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Ka taea e koe te whakarerekē i ēnei katoa a muri ake i ngā Tautuhinga.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Tīmata te whakamahi i a Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Tāpiri taku whakamahara tuatahi</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Kura</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Mahi</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Whaiaro</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>He aha te mea hou</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Ā muri</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Tāpae i tēnei putanga</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Whakamātau anō</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>E tirotiro ana i te tikiake…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Kāore te tikiake i ōrite ki tōna tātai manatoko, no reira i mukua, ā, kāore he mea i tāutahia.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Kāore i taea te tikiake i te whakahou. Whakamātauria anō a muri ake nei.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Whakahou</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Tirohia mō ngā whakahou ina tīmata a Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Ka whakapā atu ki GitHub anake hei whakataurite i ngā tau putanga; kāore he mea mō koe e tukuna.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Tirohia mō ngā whakahou</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>E tirotiro ana…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Kua hou · i tirohia i te {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>Kei te wātea te {0}</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Kāore i taea te tirotiro mō ngā whakahou</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Kei te wātea he whakahou</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · kei a koe te {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Whakahou</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>E tikiake ana… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Whakakore</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Kua rite hei tāutahi</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Tīmata anō me te whakahou</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>I roto i te 1 rā</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>I roto i te 1 hāora</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Ināianei</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Me mahi tonu</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Kua mutu te whakatārewa</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - kua pahemo</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Whakaoti</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Whakatārewa</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Kati</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 meneti</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 hāora</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Apōpō</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Whakamōhiotanga whakamātau</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>He tauira tēnei, no reira kāore ngā pātene e mahi. Tāpirihia he whakamahara, ka tukuna anō he whakamātau hei whakamātau i a rātou.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Whakamōhiotanga</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Tukuna he whakamōhiotanga whakamātau</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Ka whakaatu i tētahi whakamōhiotanga mō tō whakamahara e whai ake nei, kia whakamātauria ai ngā pātene.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Tuku whakamātau</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Tuwhera</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Tāpiri tere</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Wehe</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Kei te rere tonu a Remindr i te pae pūnaha</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Ka whakamōhio tonu ō whakamahara ki a koe. Whakamahia te tohu pae pūnaha hei whakatuwhera, hei wehe rānei.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Me rere tonu i te pae pūnaha ina katia e au te matapihi</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Ka whakamōhio tonu ngā whakamahara i te wā kua katia te matapihi. Whakamutua hei wehe ina katia.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Tīmatahia a Remindr ina takiuru au</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Ka tīmata marietia i te pae pūnaha kia whakamōhio tonu ō whakamahara ki a koe. Whakamutua hei tīmata māu ake.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Kei te rere kē a Remindr engari kāore e whakautu ana. Mēnā e katia ana, tatari mō tētahi wā ka whakamātau anō; ki te kore, whakamutua i te Kaiwhakahaere Mahi.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Hira</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Kua pahemo</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} te take i tēnei rā</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} te take i tēnei rā</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>He aha te mea hou i Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Kua mārama</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>He aha te mea hou i tēnei putanga</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Ngā whakamahara ka kitea koe</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Ngā whakamōhiotanga Windows me ngā pātene Whakaoti, Whakatārewa me Kati. Whakatārewa mō te 5 meneti, te hāora, tae noa ki āpōpō.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Ko te hira he whakatupato tonu</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Ka whakamōhio ngā whakamahara hira i te rā me te hāora i mua, ā, ia 10 meneti tae noa ki tō mahi.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Kei te rere marie tonu</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Katia te matapihi, ka noho a Remindr ki te pae pūnaha, kia tae tonu ai ngā whakamōhiotanga. Tuwhera, wehe rānei mā te tohu pae pūnaha.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Ka tīmata me Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Whakakāhia ki ngā Tautuhinga, ka tīmata huna a Remindr ki te pae pūnaha ina takiuru koe.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Ka ara ngā kāri, ka pāoro ngā tohu, ka retireti te maramataka, ka rere ngā whārangi kau. Ki te weto ngā ānimeiti o Windows, ka noho tau ngā mea katoa.</value>
+  </data>
+</root>

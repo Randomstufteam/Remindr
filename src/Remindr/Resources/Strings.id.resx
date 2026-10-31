@@ -233,7 +233,7 @@
     <value>Pengingat baru pada hari yang dipilih</value>
   </data>
   <data name="Calendar_DayEmpty" xml:space="preserve">
-    <value>Tidak ada rencana untuk hari ini.</value>
+    <value>Tidak ada rencana untuk hari tersebut.</value>
   </data>
   <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
     <value>Tidak ada yang akan datang</value>
@@ -798,108 +798,147 @@ Rincian disimpan di %AppData%\Remindr\error.log</value>
     <value>Mulai ulang dan perbarui</value>
   </data>
   <data name="Toast_Heading_Pre1Day" xml:space="preserve">
-    <value>In 1 day</value>
+    <value>1 hari lagi</value>
   </data>
   <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
-    <value>In 1 hour</value>
+    <value>1 jam lagi</value>
   </data>
   <data name="Toast_Heading_AtTime" xml:space="preserve">
-    <value>Now</value>
+    <value>Sekarang</value>
   </data>
   <data name="Toast_Heading_Nag" xml:space="preserve">
-    <value>Still to do</value>
+    <value>Masih harus dikerjakan</value>
   </data>
   <data name="Toast_Heading_Snooze" xml:space="preserve">
-    <value>Snooze is up</value>
+    <value>Penundaan berakhir</value>
   </data>
   <data name="Toast_HeadingOverdue" xml:space="preserve">
-    <value>{0} - overdue</value>
+    <value>{0} - terlambat</value>
   </data>
   <data name="Toast_Complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>Selesaikan</value>
   </data>
   <data name="Toast_Snooze" xml:space="preserve">
-    <value>Snooze</value>
+    <value>Tunda</value>
   </data>
   <data name="Toast_Dismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Abaikan</value>
   </data>
   <data name="Toast_Snooze5" xml:space="preserve">
-    <value>5 minutes</value>
+    <value>5 menit</value>
   </data>
   <data name="Toast_Snooze60" xml:space="preserve">
-    <value>1 hour</value>
+    <value>1 jam</value>
   </data>
   <data name="Toast_SnoozeTomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
+    <value>Besok</value>
   </data>
   <data name="Toast_TestTitle" xml:space="preserve">
-    <value>Test notification</value>
+    <value>Notifikasi uji coba</value>
   </data>
   <data name="Toast_TestNotes" xml:space="preserve">
-    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <value>Ini hanya contoh, jadi tombolnya tidak melakukan apa-apa. Tambahkan pengingat, lalu kirim uji coba lagi untuk mencobanya.</value>
   </data>
   <data name="Settings_Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>Notifikasi</value>
   </data>
   <data name="Settings_TestToast_Title" xml:space="preserve">
-    <value>Send a test notification</value>
+    <value>Kirim notifikasi uji coba</value>
   </data>
   <data name="Settings_TestToast_Desc" xml:space="preserve">
-    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <value>Menampilkan notifikasi untuk pengingat berikutnya agar Anda dapat mencoba tombolnya.</value>
   </data>
   <data name="Settings_TestToast_Button" xml:space="preserve">
-    <value>Send test</value>
+    <value>Kirim uji coba</value>
   </data>
   <data name="Tray_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>Buka</value>
   </data>
   <data name="Tray_QuickAdd" xml:space="preserve">
-    <value>Quick Add</value>
+    <value>Tambah Cepat</value>
   </data>
   <data name="Tray_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>Keluar</value>
   </data>
   <data name="Tray_StillRunningTitle" xml:space="preserve">
-    <value>Remindr is still running in the tray</value>
+    <value>Remindr masih berjalan di baki sistem</value>
   </data>
   <data name="Tray_StillRunningBody" xml:space="preserve">
-    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+    <value>Pengingat Anda akan tetap memberi tahu Anda. Gunakan ikon baki untuk membuka atau keluar.</value>
   </data>
   <data name="Settings_CloseToTray_Title" xml:space="preserve">
-    <value>Keep running in the tray when I close the window</value>
+    <value>Tetap berjalan di baki sistem saat saya menutup jendela</value>
   </data>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
-    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+    <value>Pengingat tetap memberi tahu Anda saat jendela ditutup. Matikan untuk keluar saat jendela ditutup.</value>
   </data>
   <data name="Settings_StartWithWindows_Title" xml:space="preserve">
-    <value>Start Remindr when I sign in</value>
+    <value>Jalankan Remindr saat saya masuk</value>
   </data>
   <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
-    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+    <value>Dimulai secara diam-diam di baki sistem agar pengingat Anda tetap memberi tahu. Matikan untuk menjalankannya sendiri.</value>
   </data>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
-    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+    <value>Remindr sudah berjalan tetapi tidak merespons. Jika sedang menutup, tunggu sebentar lalu coba lagi; jika tidak, akhiri di Task Manager.</value>
   </data>
   <data name="Toast_AttrImportant" xml:space="preserve">
-    <value>Important</value>
+    <value>Penting</value>
   </data>
   <data name="Toast_AttrOverdue" xml:space="preserve">
-    <value>Overdue</value>
+    <value>Terlambat</value>
   </data>
   <data name="Tray_TooltipDue_One" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} jatuh tempo hari ini</value>
   </data>
   <data name="Tray_TooltipDue_Other" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} jatuh tempo hari ini</value>
   </data>
   <data name="WhatsNew_Title" xml:space="preserve">
-    <value>What's new in Remindr {0}</value>
+    <value>Yang baru di Remindr {0}</value>
   </data>
   <data name="WhatsNew_GotIt" xml:space="preserve">
-    <value>Got it</value>
+    <value>Mengerti</value>
   </data>
   <data name="WhatsNew_Open" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>Yang baru di versi ini</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Pengingat yang menemukan Anda</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Notifikasi Windows dengan tombol Selesaikan, Tunda, dan Abaikan. Tunda 5 menit, satu jam, atau sampai besok.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Penting berarti terus mengingatkan</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Pengingat penting memberi tahu sehari dan sejam sebelumnya, lalu setiap 10 menit sampai Anda bertindak.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Berjalan diam-diam</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Tutup jendela dan Remindr tetap di baki sistem, sehingga peringatan tetap datang. Buka atau keluar lewat ikon baki.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Mulai bersama Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Aktifkan di Pengaturan dan Remindr mulai tersembunyi di baki sistem saat Anda masuk.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kartu terangkat, centang melompat, kalender bergeser, dan halaman kosong melayang. Dengan animasi Windows dimatikan, semuanya tetap diam.</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Terjemahan mesin</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Bantu menerjemahkan</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Bahasa: {0}. Tekan untuk mengubah.</value>
   </data>
 </root>

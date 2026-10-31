@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Djunta</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Volta</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Kansela</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Kria</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Apaga</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Edita</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Dizligadu</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Ligadu</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Guardá</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Oji</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Títulu</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kategoria</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Inportanti</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Oji</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalendáriu</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Tudu lembrete</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Definison</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Troka perfil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Fetxa o abri barra di lado</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Barra di lado</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Bon dia</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Bon dia, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Boa tardi</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Boa tardi, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Boa noti</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Boa noti, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Nada pa oji</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Lembrete di oji ta aparesi li.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Lembrete novu</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Lembrete novu (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Atrazadu</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Oji</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Manhan</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Konkluidu</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Dia interu</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Kompleta: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Marka komu inportanti</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Edita lembrete</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Apaga lembrete</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} abertu, {1} konkluidu</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Inda ka tem lembrete</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Djunta bu prinsipal lembrete i el ta aparesi li, agrupadu pa data.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Lembrete novu (pajina vazia)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Lembrete konkluidu</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Simana</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Pauta</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Vista di mes</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Vista di simana</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Vista di pauta</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Siginti</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Bai pa oji</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Lembrete novu na dia seletadu</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Nada planiadu pa es dia.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Nada ta bem</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Nhun lembrete na kes {0} dia ki ta bem.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Lembrete novu (pauta vazia)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Grade di mes. Seta di teklado ta muda dia seletadu, Enter ta djunta un lembrete.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Oji · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Manhan · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Próksimu {0} dia di {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Nhun lembrete</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} lembrete</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} lembrete</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, inportanti</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>nhun lembrete</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} lembrete</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} lembrete</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Lembrete sen kategoria</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Lembrete ku kategoria</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Lembrete novu</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Edita lembrete</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Kuze ki bu meste lembra?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Opsional</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Ta mostra un distintivu ! vermellu pa el distaka.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Sen imagem</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Djunta imagem</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Imagem: {0}. Muda imagem</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Skrebe un títulu.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Títulu ten ki ten {0} karakter o menos.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Skodje un data.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Skrebe un ora manera {0}, o ativa Dia interu.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Apaga lembrete?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" ta ser apagadu pa sempri. Ka ta pode ser dizfetu.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Nhun</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Perfil novu</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Edita perfil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Muda imagem</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Nómi</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Nómi di perfil</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Kor</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Letra di avatar</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (opsional)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Mantem PIN atual</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Skrebe un nómi.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Nómi ten ki ten {0} karakter o menos.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Skrebe un sô karakter pa avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN ten ki ten 4 dígitu justu.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ka ta pode apaga es perfil</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Ten ki ten pelu menos un perfil. Kria otu perfil prumeru si bu kre apaga es.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Apaga "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Es ta apaga pa sempri perfil "{0}" djuntu ku tudu se lembrete i kategoria. Ka ta pode ser dizfetu.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Defini PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Muda PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Tira PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Skodje un PIN di 4 dígitu. Bu ta presisa del pa abri es perfil.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Skrebe bu PIN atual, dipos skodje un novu.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Skrebe bu PIN atual pa diziativa bloku.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN atual</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN novu di 4 dígitu</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Repiti PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Repiti PIN novu</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN atual sta etxadu. Tenta di novu.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Kes dós PIN ka ta kuncorda.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN é un tela di privasidadi pa mantem kurioza lonji, ka é siguransa forti.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Tudu</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Prokura imagem</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Nhun imagem ta kuncorda.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Pesoa</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Família i papel</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Bitxu</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantazia i diversãu</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Kumida</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natureza</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Desportu i pasatenpu</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Objetu</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Skola</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Trabadju</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Saúdi</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Kasa</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Dinheru</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Viajen</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Festa</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Desportu</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Skodje un imagem</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Bu prôpi imagem…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Bu prôpi imagem</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Uza un PNG o JPG di bu konputador</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Sô inisial</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Mostra letra kolorida en vez di imagem</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Ka konsigi lê es fitxeru komu imagem PNG o JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Kenha ki sta uza Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Skodje bu perfil pa kontinua</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Djunta perfil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Últimu uzadu</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Protejidu ku PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Edita o apaga</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Volta pa perfil atual (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Dizbloketa</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Skrebe bu PIN di 4 dígitu</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Skrebe PIN di es perfil pa edita o apaga el</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN etxadu. Tenta di novu.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Aparénsia</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Tema di aplikason</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Skodje Klaru, Skuru, o sigi definison di Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Klaru</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Skuru</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Skodje lingua na ki Remindr ta mostrado. Mudansa ta aplika diretamenti.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Tradusons foi feitu ku azuda di mákina; korson é bem-vindu.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Sujeri un korson</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Traduzidu pa mákina</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Djuda traduzi</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Lingua: {0}. Primi pa muda.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Entradu komu {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Muda pa otu perfil, o muda nómi, kor i imagem di es perfil.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Muda imagem</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Troka perfil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Bloku di PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Bloku di PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Un PIN di 4 dígitu ta mantem kurioza lonji di es perfil. É un tela di privasidadi, ka é siguransa forti.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Djuda i opinion</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Atxa un problema o ten un ideia?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Relatóriu ta abri na GitHub ku sô bu versãu di Remindr i di Windows preenxidu. Nada más ta ser mandadu.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Relata un erru</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Sujeri un funson</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Abri pasta di rejistu</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Sobri</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Lisensa {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Odja na GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Avizu di terseru</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Algu dá erru: {0}
+
+Detalhi foi guardadu na %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Detalhi foi guardadu na %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Bem-vindu ba Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Primi kualker tekla o klika pa kumesa</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Kumesa</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Repete bem-vindu</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Konfigura Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Progresu di konfigurason</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Pasu {0} di {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Siginti</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Salta</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Skodje bu lingua</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Aplikason ta muda diretamenti. Bu pode muda kualker ora na Definison.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Prokura lingua</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Nhun lingua ta kuncorda.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Skodje bu aparénsia</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Klaru, Skuru, o sigi definison di Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Bu perfil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Djunta bu nómi, un kor i un imagem.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Djunta un PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Opsional. Un PIN di 4 dígitu ta mantem es perfil privadu.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Tudu pronto, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Bu pode muda tudu es dipos na Definison.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Kumesa uza Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Djunta meu prinsipal lembrete</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Skola</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Trabadju</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Pesoal</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Novidadi</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Más tardi</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Salta es versãu</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Tenta di novu</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Ta verifika transferénsia…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Transferénsia ka kuncordaba ku se soma di verifikason, entãu foi apagadu i nada foi instaladu.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Ka konsigi transferi atualizason. Tenta di novu más tardi.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Atualizason</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Verifika atualizason kuandu Remindr kumesa</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Sô ta kontata GitHub pa kumpara númeru di versãu; nada sobri bo ta ser mandadu.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Verifika atualizason</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Ta verifika…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Atualizadu · verifikadu {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} dispunível</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Ka konsigi verifika atualizason</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Atualizason dispunível</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · bu ten {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Atualiza</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Ta transferi… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Kansela</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Pronto pa instala</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Reinisia i atualiza</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Di aki a 1 dia</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Di aki a 1 ora</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Agora</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Inda ta falta</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Adiamentu kabadu</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - atrazadu</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Kompleta</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Adia</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Fexa</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minutu</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 ora</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Manhan</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Notifikason di teste</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Es é un ezenplu, entãu se botãu ka ta faze nada. Djunta un lembrete, dipos manda un teste di novu pa eksperimenta.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Notifikason</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Manda un notifikason di teste</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Ta mostra un notifikason pa bu próksimu lembrete pa bu pode eksperimenta botãu.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Manda teste</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Abri</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Djuntada rápidu</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Sai</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr inda sta kurrendu na área di notifikason</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Bu lembrete ta kontinua avisa bu. Uza ikone di área di notifikason pa abri o sai.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Kontinua kurrendu na área di notifikason kuandu N fetxa janela</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Lembrete ta kontinua avisa bu ku janela fetxadu. Diziativa pa sai kuandu bu fetxa el.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Kumesa Remindr kuandu N entra</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Ta kumesa kaladu na área di notifikason pa bu lembrete kontinua avisa bu. Diziativa pa bu kumesa el bu kabésa.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr dja sta kurrendu más ka ta rispondi. Si el sta fetxa, spera un bokadu i tenta di novu; di kontráriu, termina el na Jestor di Tarefa.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Inportanti</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Atrazadu</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} pa oji</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} pa oji</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Novidadi na Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Intendidu</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Novidadi na es versãu</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Lembrete ki ta atxa bu</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Notifikason di Windows ku botãu Kompleta, Adia i Fexa. Adia pa 5 minutu, un ora, o te manhan.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Inportanti ta nifika ki ta insisti</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Lembrete inportanti ta avisa bu un dia i un ora antis, dipos kada 10 minutu te bu agi.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Ta kontinua kaladu</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Fetxa janela i Remindr ta fika na área di notifikason, entãu avizu ta kontinua txiga. Abri o sai pa ikone.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Ta kumesa ku Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Ativa na Definison i Remindr ta kumesa skondidu na área di notifikason kuandu bu entra.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kartãu ta lanta, marka ta salta, kalendáriu ta dizlisa i pajina vazia ta flutua. Ku animason di Windows diziativadu, tudu ta fika kuetu.</value>
+  </data>
+</root>

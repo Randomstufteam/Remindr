@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Ilanngussiguk</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Utimut</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Atorunnaarsikkit</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Pilersikkit</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Peeruk</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Allanngortiguk</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Tunuarsimaarpoq</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Aallarsimavoq</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Toqqoruk</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Ullumi</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Atsiornera</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Ulloq</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Piffissaq</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Allaaserisaq</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Immikkoortoq</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Assiliaq</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Pingaarutilik</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Ullumi</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Ullorsiut</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Eqqaasitsissutit tamarmik</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profili</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Aaqqissuutit</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Profili allanngortiguk</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Sinaakkusiut qanillisiguk imaluunniit annerusumik takutiguk</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Sinaakkusiut allanngortiguk</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Ullaakkut kutaa</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Ullaakkut kutaa, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Unnukkut kutaa</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Unnukkut kutaa, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Unnukkut kutaa</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Unnukkut kutaa, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Ullumi suna tamaaniissaanngilaq</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Ullumi eqqaasitsissutit una tikkuussivigaat.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Eqqaasitsissut nutaaq</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Eqqaasitsissut nutaaq (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Piffissaq qaangiuppoq</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Ullumi</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Aqagu</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Naammassineqarpoq</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Ulloq naallugu</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Naammassiguk: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Pingaarutilittut ilisarnaruk</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Eqqaasitsissut allanngortiguk</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Eqqaasitsissut peeruk</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} ammarsimapput, {1} naammassineqarput</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Eqqaasitsissutit suulluunniit pigineqanngillat</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Eqqaasitsissutit siullit ilanngullugu una tikkuussivigaa, ulloq naapertorlugu ataatsimoortinneqarluni.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Eqqaasitsissut nutaaq (imaqanngitsoq)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Eqqaasitsissutit naammassineqarsimasut</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Qaammat</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Sapaatip akunnera</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Pilersaarut</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Qaammatit takutinneqarnerat</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Sapaatip akunneranut takutitsineq</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Pilersaarummik takutitsineq</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Siulleq</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Tulleq</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Ullumut ingerlaruk</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Eqqaasitsissut nutaaq ulloq toqqakkami</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Ullumi una suna pilersaarutigineqanngilaq.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Suna tulleriiaarnngilaq</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Ullut {0} tulliuttuni eqqaasitsissutit pigineqanngillat.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Eqqaasitsissut nutaaq (pilersaarut imaqanngitsoq)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Qaammatit nalunaarsuiffia. Pilersuutit ulloq toqqarneqartoq allanngortippaat, Enter eqqaasitsissummik ilanngussivoq.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Ullumi · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Aqagu · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Ullut {0} tulliuttut {1}-miit</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Eqqaasitsissutit pigineqanngillat</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} eqqaasitsissut</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} eqqaasitsissutit</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, pingaarutilik</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>eqqaasitsissutit pigineqanngillat</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} eqqaasitsissut</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} eqqaasitsissutit</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Eqqaasitsissut immikkoortunngitsoq</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Eqqaasitsissut immikkoortumi</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Eqqaasitsissut nutaaq</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Eqqaasitsissut allanngortiguk</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Suna eqqaaniartariaqarpiuk?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Kissaatigineqarpat</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Ilisarnaat tungujortoq ! takutippaa isertuutigiumallugu.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Assiliaqanngilaq</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Assiliaq ilanngussiguk</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Assiliaq: {0}. Assiliaq allanngortiguk</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Atsiorneq allaguk.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Atsiorneq {0}-mik naanerusariaqanngilaq.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Ulloq toqqaruk.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Piffissaq {0} assingusoq allaguk, imaluunniit Ulloq naallugu aallartiguk.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Eqqaasitsissut peerneqassaa?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" peerneqassaaq. Uteqqiinnaqarsinnaanngilaq.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Aalajangersaanngilaq</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Profili nutaaq</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Profili allanngortiguk</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Assiliaq allanngortiguk</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Ateq</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Profilip ateqarfia</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Kulereq</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Avatarip naqinnera</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (kissaatigineqarpat)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>PIN massakkorpiaq tigussiguk</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Ateq allaguk.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Ateq {0}-mik naanerusariaqanngilaq.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Avatarimut naqinnermik ataatsimik allaguk.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN-ip uuttortaaffiit marlussuit sisamanik pissusissaaq.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Profili una peerneqarsinnaanngilaq</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Profili ataaseq kinguaassiutitsiartariaqarpoq. Siullermik profili alla pilersikkit una peeruniuk.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>"{0}" peerneqassaa?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Profili "{0}" eqqaasitsissutaannut immikkoortuinullu tamanut peerneqassaaq. Uteqqiinnaqarsinnaanngilaq.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN ikkussuguk</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN allanngortiguk</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN peeruk</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>PIN sisamanik uuttortaasoq toqqaruk. Profili una ammarniaraangat atorneqassaaq.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>PIN massakkorpiaq allaguk, taava nutaaq toqqaruk.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>PIN massakkorpiaq allaguk issiaqqittarnissaq unitsinniarlugu.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN massakkorpiaq</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN nutaaq sisamanik</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN uteqqiguk</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>PIN nutaaq uteqqiguk</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN massakkorpiaq kukkuvoq. Misileqqiguk.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>PIN marluk assigiinngillat.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN isertuussinermut sinaakkusiuutaavoq, isumannaallisaanermut iluaqutaanngilaq.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Tamarmik</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Assiliat ujaruk</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Assiliat ajornartorsiutigineqanngillat.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Inuit</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Ilaquttat sulinerillu</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Pisuussutit</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Eqqarsaat quiasaarnerlu</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Nerisassat</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Naasorissaarutit</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Pinnguaatit sunniutaasutullu</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Pigisat</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Atuarfik</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Sulineq</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Peqqissuseq</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Illoq</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Aningaasat</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Angalaneq</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Nipitalerneq</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sunngiffik</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Assiliaq toqqaruk</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Assiliat</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Namminerlu assiliat…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Namminerlu assiliat</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>PNG imaluunniit JPG naatsorsuutinit atoruk</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Naqinneq kisimi</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Naqinneq kulereqartoq assiliami sinnerlugu takutiguk</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Fil una PNG imaluunniit JPG-tut atuarneqarsinnaanngilaq.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Kina Remindr atorpaa?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Profilit toqqaruk ingerlaqqinniarlugu</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Profili ilanngussiguk</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Kingullermik atorneqarpoq</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN-imik isumannaarneqarpoq</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Allanngortiguk imaluunniit peeruk</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Profilimut massakkorpiamut utimut (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Ammaruk</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>PIN sisamanik uuttortaasoq allaguk</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Profili una allanngortinniarukku imaluunniit peerniarukku PIN allaguk</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN kukkuvoq. Misileqqiguk.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Isikkua</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Appip isikkua</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Qaamasoq, Taartoq imaluunniit Windowsip aaqqissuutaa malinnaruk toqqaruk.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Isikkoq</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Qaamasoq</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Taartoq</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Systemi</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Oqaatsit</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Oqaaseq Remindr-imi atorneqartoq toqqaruk. Allanngorneq oqartussaavoq qaninnermi.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Oqaatsit</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Nutserneqartut mappiliornermut tapersiisorlugu; aaqqiivigineqarnissaq tamaviaarpoq.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Aaqqiissut siunnersuutigiuk</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Mappiliornikkut nutserneqarpoq</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Nutsernermi ikiuuk</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Oqaatsit: {0}. Allanngortiniarlugu tooruk.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profili</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0}-mut iserpoq</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Profili allamut allanngortiguk, imaluunniit profili una atserneranik, kulereqarneranik assiliaqarneranillu allanngortiguk.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Assiliaq allanngortiguk</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Profili allanngortiguk</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-imik issiaqqittarneq</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-imik issiaqqittarneq: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>PIN sisamanik uuttortaasoq profili una isertuutissaa. Isertuussinermut sinaakkusiuutaavoq, isumannaallisaanermut iluaqutaanngilaq.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Ikiuutit isummallu</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Ajornartorsiut nassaarpiuk imaluunniit eqqarsaateqarpit?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Nalunaarutit GitHub-imi ammarput Remindr-ip Windowsillu versionii kisimik ilanngunneqarluni. Allatigut sunik nassiussuinngilaq.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Kukkunersiuutit nalunaaruteqaruk</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Pissusissamisoorsinnaanera siunnersuutigiuk</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Nalunaarsuutinik mappi ammaruk</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Pillugu</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Akuersissut {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub-imi takuguk</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Pingajuinik tunniussinerit nalunaarutaat</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Ajornartorsiutissaqarpoq: {0}
+
+Ernumassutit %AppData%\Remindr\error.log-imi toqqarneqarput</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Ernumassutit %AppData%\Remindr\error.log-imi toqqarneqarput</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr-imut tikilluarit</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Naqitsiguk imaluunniit tooruk aallartiniarlugu</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Aallartiguk</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Tikilluaqqusineq uteqqiguk</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr aaqqissuutiguk</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Aaqqissuussinermi ingerlaneq</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Sammisaq {0} / {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Tulleq</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Qaangerniaruk</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Oqaatsit toqqaruk</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>App qaninnermi allanngorpoq. Aaqqissuutini piffissaq tamaat allanngortissinnaavat.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Oqaatsit ujaruk</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Oqaatsit ajornartorsiutigineqanngillat.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Isikkoq toqqaruk</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Qaamasoq, Taartoq imaluunniit Windowsip aaqqissuutaa malinnaruk.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Profilit</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Atit, kulereq assiliarlu ilanngussiguk.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN ilanngussissaa?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Kissaatigineqarpat. PIN sisamanik uuttortaasoq profili una isertuutissaa.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Tamarmik piareerput, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Una tamarmi kingusinnerusukkut Aaqqissuutini allanngortissinnaavat.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr atorniarlugu aallartiguk</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Eqqaasitsissut siulleq ilanngussiguk</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Atuarfik</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Sulineq</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Namminermut</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Nutaaq</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Kingusinnerusukkut</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Version una qaangerniaruk</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Misileqqiguk</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Ujartuiffigineqarpoq…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Ujartuiffigineqartoq nalunaarutimik naapertuutinngilaq, taamaattumik peerneqarpoq imarlu ikkunneqarsimanani.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Nutarteriffik ujartorneqarsinnaanngilaq. Kingusinnerusukkut misileqqiguk.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Nutarterinerit</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr aallarpat nutarterinerit misissuguk</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>GitHub kisimik attaviliivoq version-it naleqqiussinerannut; sunik pillugit nassiussuinngilaq.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Nutarterinerit misissuguk</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Misissorneqarpoq…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Nutaarsiaasoq · misissuiffigineqarpoq {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} pissarsiarineqarsinnaavoq</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Nutarterinerit misissorneqarsinnaanngillat</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Nutarteriffik pissarsiarineqarsinnaavoq</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · {1} pigaat</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Nutarteruk</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Ujartorneqarpoq… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Atorunnaarsikkit</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Ikkussuiffissaq piareerpoq</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Aallartiguk nutarterlugulu</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Ulloq 1 qaangiuppat</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Nalunaaquttap akunnera 1 qaangiuppat</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Massakkut</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Suliarisassaavoq</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Kinguarsaaneq naammassivoq</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - piffissaq qaangiuppoq</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Naammassiguk</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Kingusinnerusukkut</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Qimakkit</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>Minutsit 5</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>Nalunaaquttap akunnera 1</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Aqagu</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Nalunaarut misilittagaq</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Una assersuutaavoq, taamaattumik tooqqutai suna tamaaniinngillat. Eqqaasitsissummik ilanngussiguk, taava misileraasoq nutaaq nassiuguk atuarlugu.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Nalunaarutit</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Nalunaarummik misileraasoq nassiuguk</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Eqqaasitsissut tulleq pillugu nalunaarut takutippaa tooqqutit misilerniarlugit.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Misileraasoq nassiuguk</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Ammaruk</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Sukkasuumik ilanngussiguk</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Naammassiguk</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr tray-imi suli ingerlavoq</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Eqqaasitsissutit suli nalunaarutigissavaatit. Ikon tray-imi atoruk ammaruniaruk imaluunniit naammassiniaruk.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Qupperneq matukkaangat tray-imi ingerlaannassaaq</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Eqqaasitsissutit nalunaarutigissavaatit qupperneq matuneqarsimagaluarpat. Tunuarsimaarsinnaavat matukkaangat naammassiniarlugu.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Remindr aallartigit iserpaangat</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Tray-imi nipiliorluni aallarpoq eqqaasitsissutit nalunaarutigisinnaassammata. Tunuarsimaarsinnaavat namminerlu aallartinnialugu.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr ingerlavoq kisianni akissuteqanngilaq. Matoqqissuuppat sivitsorsimaneqarluni misileqqiguk; imaluunniit Task Manager-imi naammassiguk.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Pingaarutilik</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Piffissaq qaangiuppoq</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} ullumi</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} ullumi</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0}-imi nutaaq</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Paasivara</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Version una pillugu nutaaq</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Eqqaasitsissutit nassaartartut</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-ip nalunaarutai tooqqutinik Naammassiguk, Kingusinnerusukkut Qimakkillu. Minutsit 5, nalunaaquttap akunnera ataaseq, imaluunniit aqagu tikillugu kinguartinneqarsinnaapput.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Pingaarutilik taamaattoq nalunaarutigineqartarpoq</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Eqqaasitsissutit pingaarutillit ulloq nalunaaquttap akunneralu siusinnerusukkut nalunaarutigineqartarput, taava minutsit 10-ni tamaasa sulinissat tikillugu.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Nipiliorluni ingerlavoq</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Qupperneq matukkaangat Remindr tray-imi nassaassaavoq, taamaattumik nalunaarutit suli tikittarput. Tray-imi ikon atorlugu ammaruk imaluunniit naammassiguk.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows-imik aallartarpoq</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Aaqqissuutini aallartiguk, taava iserpaangat Remindr tray-imi isertoorluni aallartassaaq.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kortit qulassuput, ilisarnaatit qaffasarput, ullorsiut siaruarpoq qupperneqarpullu imaqanngitsut ikkarput. Windows-ip animationii tunuarsimaappata tamarmik nunaqqataapput.</value>
+  </data>
+</root>

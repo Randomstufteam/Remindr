@@ -15,6 +15,7 @@ public sealed class Loc : INotifyPropertyChanged
     public static Loc Instance { get; } = new();
 
     private static readonly ResourceManager Resources = new("Remindr.Resources.Strings", typeof(Loc).Assembly);
+    private static readonly ResourceManager ProbeResources = new("Remindr.Resources.Strings", typeof(Loc).Assembly);
 
     /// <summary>Culture the strings are read in (a supported language, e.g. pt-BR). English until a language is applied.</summary>
     public static CultureInfo ResourceCulture { get; private set; } = CultureInfo.GetCultureInfo("en");
@@ -51,13 +52,31 @@ public sealed class Loc : INotifyPropertyChanged
     /// <summary>
     /// Count-dependent text: reads <c>key_Zero</c> when n is 0 and that key exists, otherwise the key for the language's plural
     /// category (<c>key_One</c>, <c>key_Few</c>, ...), falling back to <c>key_Other</c>. {0} in the text is the count.
+    /// <c>key_Zero</c> is the message for exactly 0 ("No reminders"). A language whose CLDR "zero" category also covers other numbers
+    /// (Latvian: 10, 20, 11 to 19) writes that form as <c>key_ZeroForm</c>.
     /// </summary>
     public static string Plural(string key, long n)
     {
         if (n == 0 && Resources.GetString(key + "_Zero", ResourceCulture) is not null) return Format(key + "_Zero", n);
         var category = PluralRules.Category(ResourceCulture.Name, n);
+        if (category == "Zero") category = "ZeroForm";
         var specific = Resources.GetString(key + "_" + category, ResourceCulture);
         return Format(specific is not null ? key + "_" + category : key + "_Other", n);
+    }
+
+    /// <summary>True when a string table of its own (<c>Strings.&lt;code&gt;.resx</c>, as a satellite) is shipped for this language. Does not count the neutral English file.</summary>
+    public static bool HasTranslation(string code)
+    {
+        try
+        {
+            var culture = CultureInfo.GetCultureInfo(code, predefinedOnly: true);
+            // A manager of its own: the main one caches the English fallback under any culture asked for (ga-IE), which would look translated.
+            return ProbeResources.GetResourceSet(culture, createIfNotExists: true, tryParents: false) is not null;
+        }
+        catch (Exception ex) when (ex is CultureNotFoundException or MissingManifestResourceException or System.IO.FileNotFoundException)
+        {
+            return false;
+        }
     }
 
     /// <summary>True when the neutral file has this key (used by tests).</summary>

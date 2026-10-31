@@ -37,6 +37,15 @@ public partial class App : Application
             args.SetObserved();
         };
 
+#if DEBUG
+        // Debug-only: show every language's name in its fallback fonts, then stop (no database, no single-instance hand-over).
+        if (e.Args.Any(a => string.Equals(a, LaunchArgs.FontCheckArg, StringComparison.OrdinalIgnoreCase)))
+        {
+            new Views.Dialogs.FontCheckWindow().Show();
+            return;
+        }
+#endif
+
         // One Remindr per user: a second launch hands over to the first and leaves before it builds anything.
         var launch = LaunchArgs.Parse(e.Args);
         _singleInstance = new SingleInstance(SingleInstance.DefaultId());

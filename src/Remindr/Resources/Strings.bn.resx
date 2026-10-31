@@ -798,108 +798,147 @@
     <value>রিস্টার্ট করে আপডেট করুন</value>
   </data>
   <data name="Toast_Heading_Pre1Day" xml:space="preserve">
-    <value>In 1 day</value>
+    <value>১ দিনের মধ্যে</value>
   </data>
   <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
-    <value>In 1 hour</value>
+    <value>১ ঘণ্টার মধ্যে</value>
   </data>
   <data name="Toast_Heading_AtTime" xml:space="preserve">
-    <value>Now</value>
+    <value>এখন</value>
   </data>
   <data name="Toast_Heading_Nag" xml:space="preserve">
-    <value>Still to do</value>
+    <value>এখনও বাকি</value>
   </data>
   <data name="Toast_Heading_Snooze" xml:space="preserve">
-    <value>Snooze is up</value>
+    <value>স্নুজের সময় শেষ</value>
   </data>
   <data name="Toast_HeadingOverdue" xml:space="preserve">
-    <value>{0} - overdue</value>
+    <value>{0} - মেয়াদোত্তীর্ণ</value>
   </data>
   <data name="Toast_Complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>সম্পন্ন করুন</value>
   </data>
   <data name="Toast_Snooze" xml:space="preserve">
-    <value>Snooze</value>
+    <value>স্নুজ করুন</value>
   </data>
   <data name="Toast_Dismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>বাতিল করুন</value>
   </data>
   <data name="Toast_Snooze5" xml:space="preserve">
-    <value>5 minutes</value>
+    <value>৫ মিনিট</value>
   </data>
   <data name="Toast_Snooze60" xml:space="preserve">
-    <value>1 hour</value>
+    <value>১ ঘণ্টা</value>
   </data>
   <data name="Toast_SnoozeTomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
+    <value>আগামীকাল</value>
   </data>
   <data name="Toast_TestTitle" xml:space="preserve">
-    <value>Test notification</value>
+    <value>পরীক্ষামূলক বিজ্ঞপ্তি</value>
   </data>
   <data name="Toast_TestNotes" xml:space="preserve">
-    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <value>এটি একটি নমুনা, তাই এর বোতামগুলো কিছুই করে না। একটি রিমাইন্ডার যোগ করুন, তারপর বোতামগুলো চেষ্টা করতে আবার পরীক্ষা পাঠান।</value>
   </data>
   <data name="Settings_Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>বিজ্ঞপ্তি</value>
   </data>
   <data name="Settings_TestToast_Title" xml:space="preserve">
-    <value>Send a test notification</value>
+    <value>একটি পরীক্ষামূলক বিজ্ঞপ্তি পাঠান</value>
   </data>
   <data name="Settings_TestToast_Desc" xml:space="preserve">
-    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <value>আপনার পরবর্তী রিমাইন্ডারের জন্য একটি বিজ্ঞপ্তি দেখায়, যাতে আপনি বোতামগুলো চেষ্টা করতে পারেন।</value>
   </data>
   <data name="Settings_TestToast_Button" xml:space="preserve">
-    <value>Send test</value>
+    <value>পরীক্ষা পাঠান</value>
   </data>
   <data name="Tray_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>খুলুন</value>
   </data>
   <data name="Tray_QuickAdd" xml:space="preserve">
-    <value>Quick Add</value>
+    <value>দ্রুত যোগ করুন</value>
   </data>
   <data name="Tray_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>প্রস্থান</value>
   </data>
   <data name="Tray_StillRunningTitle" xml:space="preserve">
-    <value>Remindr is still running in the tray</value>
+    <value>Remindr এখনও সিস্টেম ট্রেতে চলছে</value>
   </data>
   <data name="Tray_StillRunningBody" xml:space="preserve">
-    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+    <value>আপনার রিমাইন্ডারগুলো আপনাকে জানাতে থাকবে। খুলতে বা প্রস্থান করতে ট্রে আইকন ব্যবহার করুন।</value>
   </data>
   <data name="Settings_CloseToTray_Title" xml:space="preserve">
-    <value>Keep running in the tray when I close the window</value>
+    <value>উইন্ডো বন্ধ করলে ট্রেতে চলতে থাকুক</value>
   </data>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
-    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+    <value>উইন্ডো বন্ধ থাকলেও রিমাইন্ডারগুলো আপনাকে জানাতে থাকে। বন্ধ করার সময় প্রস্থান করতে এটি বন্ধ করুন।</value>
   </data>
   <data name="Settings_StartWithWindows_Title" xml:space="preserve">
-    <value>Start Remindr when I sign in</value>
+    <value>সাইন ইন করলে Remindr চালু করুন</value>
   </data>
   <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
-    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+    <value>নীরবে ট্রেতে চালু হয়, যাতে আপনার রিমাইন্ডারগুলো জানাতে থাকে। নিজে চালু করতে এটি বন্ধ করুন।</value>
   </data>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
-    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+    <value>Remindr ইতিমধ্যে চলছে কিন্তু সাড়া দিচ্ছে না। বন্ধ হতে থাকলে একটু অপেক্ষা করে আবার চেষ্টা করুন; না হলে টাস্ক ম্যানেজারে এটি শেষ করুন।</value>
   </data>
   <data name="Toast_AttrImportant" xml:space="preserve">
-    <value>Important</value>
+    <value>গুরুত্বপূর্ণ</value>
   </data>
   <data name="Toast_AttrOverdue" xml:space="preserve">
-    <value>Overdue</value>
+    <value>মেয়াদোত্তীর্ণ</value>
   </data>
   <data name="Tray_TooltipDue_One" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · আজ প্রাপ্য: {0}</value>
   </data>
   <data name="Tray_TooltipDue_Other" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · আজ প্রাপ্য: {0}</value>
   </data>
   <data name="WhatsNew_Title" xml:space="preserve">
-    <value>What's new in Remindr {0}</value>
+    <value>Remindr {0}-এ নতুন কী</value>
   </data>
   <data name="WhatsNew_GotIt" xml:space="preserve">
-    <value>Got it</value>
+    <value>বুঝেছি</value>
   </data>
   <data name="WhatsNew_Open" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>এই সংস্করণে নতুন কী</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>রিমাইন্ডার যা আপনাকে খুঁজে নেয়</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>সম্পন্ন করুন, স্নুজ করুন ও বাতিল করুন বোতামসহ Windows বিজ্ঞপ্তি। ৫ মিনিট, এক ঘণ্টা বা আগামীকাল পর্যন্ত স্নুজ করুন।</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>গুরুত্বপূর্ণ মানে বারবার মনে করানো</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>গুরুত্বপূর্ণ রিমাইন্ডার এক দিন ও এক ঘণ্টা আগে জানায়, তারপর আপনি ব্যবস্থা নেওয়া পর্যন্ত প্রতি ১০ মিনিটে।</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>নীরবে চলতে থাকে</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>উইন্ডো বন্ধ করুন, Remindr ট্রেতে থেকে যায়, তাই সতর্কতা আসতে থাকে। আইকন থেকে এটি খুলুন বা বন্ধ করুন।</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows-এর সঙ্গে চালু হয়</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>সেটিংসে এটি চালু করুন, সাইন ইন করলে Remindr লুকানো অবস্থায় ট্রেতে চালু হবে।</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>কার্ড উপরে ওঠে, টিক লাফায়, ক্যালেন্ডার সরে যায় আর খালি পৃষ্ঠা ভাসে। Windows অ্যানিমেশন বন্ধ থাকলে সবকিছু স্থির থাকে।</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>যান্ত্রিক অনুবাদ</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>অনুবাদে সাহায্য করুন</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>ভাষা: {0}। পরিবর্তন করতে চাপুন।</value>
   </data>
 </root>

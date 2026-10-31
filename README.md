@@ -68,7 +68,7 @@ Remindr shows up in **Settings > Apps > Installed apps**, where you can uninstal
 
 English, Español, Français, Deutsch, Italiano, Português (Brasil), Português (Portugal), Nederlands, Polski, Svenska, Norsk bokmål, Dansk, Suomi, Čeština, Magyar, Română, Ελληνικά, Türkçe, Русский, Українська, Bahasa Indonesia, Tiếng Việt, Filipino, العربية, עברית, हिन्दी, বাংলা, ไทย, 日本語, 한국어, 简体中文, 繁體中文.
 
-Translations were machine-assisted. If something reads oddly, please [suggest a correction](https://github.com/Randomstufteam/Remindr/issues/new?template=translation.yml).
+Translations were machine-assisted. If something reads oddly, please [suggest a correction](https://github.com/Randomstufteam/Remindr/issues/new?template=translation.yml), or see [how to translate](docs/TRANSLATING.md).
 
 ## How it works
 

@@ -14,6 +14,8 @@ public sealed record LaunchArgs(bool Minimized, bool Welcome, bool ToastActivate
     public const string WhatsNewArg = "--whatsnew";
     /// <summary>Debug builds only: <c>--pretend-version=0.4.0</c> makes What's New count that as the running version.</summary>
     public const string PretendVersionPrefix = "--pretend-version=";
+    /// <summary>Debug builds only: open the font-check page (every language name in its fallback fonts) instead of the app.</summary>
+    public const string FontCheckArg = "--font-check";
     public const string MinimizedArg = "--minimized";
     public const string WelcomeArg = "--welcome";
     /// <summary>Added by the toast library when Windows starts the app for a toast click.</summary>

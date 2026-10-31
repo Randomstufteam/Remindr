@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Бафтауын</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Фӕстӕмӕ</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Ныууадзын</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Саразын</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Аппарын</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Ивын</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Ахгӕд</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Байгом</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Бахъахъхъӕнын</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Абон</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Ном</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Бон</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Афон</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Фиппаинӕгтӕ</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Къорд</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Ныв</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Ахсджиаг</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Абон</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Календарь</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Ӕппӕт ӕрымысӕнтӕ</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Ӕмбӕрзӕнтӕ</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Профили раивын</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Фарс панелы ӕмбырд кӕнын кӕнӕ айдзаг кӕнын</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Фарс панелы раивын</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Хорз райсом</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Хорз райсом, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Хорз бон</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Хорз бон, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Хорз изӕр</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Хорз изӕр, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Абон ницы ис</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Абоны ӕрымысӕнтӕ ам фӕзындзысты.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Ног ӕрымысӕн</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Ног ӕрымысӕн (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Афон ӕрвитт</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Абон</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Сом</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Сӕххӕст</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Ӕнӕхъӕн бон</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Сӕххӕст кӕнын: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Ахсджиагӕй байхъусын</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Ӕрымысӕны ивын</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Ӕрымысӕны аппарын</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} байгом, {1} сӕххӕст</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Ныртӕккӕ ӕрымысӕнтӕ нӕй</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Базоны фыццаг ӕрымысӕн, уый ам бонтӕм гӕсгӕ фӕзындзӕн.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Ног ӕрымысӕн (афтид фарс)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Сӕххӕст ӕрымысӕнтӕ</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Мӕй</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Къуырий</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Пълан</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Мӕйы ӕвдисӕн</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Къуырийы ӕвдисӕн</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Пъланы ӕвдисӕн</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Раздӕры</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Фӕдылдзы</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Абонмӕ ацӕуын</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Ног ӕрымысӕн ласт бонмӕ</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Ацы бонмӕ ницы у пълан кӕнгӕ.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Раздӕр ницы ис</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Фӕдылдзы {0} боны ӕрымысӕнтӕ нӕй.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Ног ӕрымысӕн (афтид пълан)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Мӕйы таблицӕ. Стрелкӕтӕ ласт бон ивынц, Enter ӕрымысӕн бафтауы.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Абон · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Сом · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1} фӕстӕ {0} бон</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Ӕрымысӕнтӕ нӕй</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} ӕрымысӕн</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} ӕрымысӕнтӕ</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, ахсджиаг</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>ӕрымысӕнтӕ нӕй</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} ӕрымысӕн</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} ӕрымысӕнтӕ</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Къордӕн нӕ хауӕг ӕрымысӕн</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Къордимӕ ӕрымысӕн</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Ног ӕрымысӕн</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Ӕрымысӕны ивын</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Цы хъуамӕ ма рох кӕнай?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Ӕнӕ хъӕуынаг</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Хицӕн кӕй зындзӕн, уый тыххӕй сырх ! нысан равдисы.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Ӕнӕ ныв</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Ныв бафтауын</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Ныв: {0}. Ныв раивын</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Ном ныффысс.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Ном {0} дамгъӕйӕ фылдӕр нӕ хъуамӕ уа.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Бон равзар.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Афон ныффысс, куыд {0}, кӕнӕ «Ӕнӕхъӕн бон» байгом кӕн.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Ӕрымысӕн аппарын?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>«{0}» сӕфт уыдзӕн. Уый фӕстӕмӕ нал цӕудзӕн.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Нӕй</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Ног профиль</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Профили ивын</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Ныв раивын</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Ном</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Профили ном</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Бӕлвырд</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Аватары дамгъӕ</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (ӕнӕ хъӕуынаг)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Ныры PIN ныууадзын</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Ном ныффысс.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Ном {0} дамгъӕйӕ фылдӕр нӕ хъуамӕ уа.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Аватарӕн иу дамгъӕ ныффысс.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN хъуамӕ уа ӕргомӕй 4 цифрӕйӕ.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ацы профили аппарӕн нӕй</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Ӕппынфӕстаг иу профиль хъуамӕ уа. Ай куы фӕнды аппарын, уӕд фыццаг иннӕ профиль саразын.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>«{0}» аппарын?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Ай профили «{0}» йӕ ӕппӕт ӕрымысӕнтӕ ӕмӕ къордтимӕ сӕфт кӕны. Уый фӕстӕмӕ нал цӕудзӕн.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN сӕвӕрын</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN раивын</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN аппарын</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Равзар 4 цифрӕйӕ PIN. Уый хъӕудзӕн ацы профили байгом кӕнынӕн.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Ныффысс ныры PIN, стӕй равзар ногӕй.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Ӕхгӕнӕн аппарынӕн ныффысс ныры PIN.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Ныры PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Ног 4 цифрӕйӕ PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN ногӕй ныффысс</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Ног PIN ногӕй ныффысс</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Ныры PIN раст нӕу. Ногӕй бавзар.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Дыууӕ PIN иу нӕ сты.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN у ӕрмӕст ӕндӕр адӕймагӕй айсӕфтӕн экран, не хъахъхъӕнӕн.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Ӕппӕт</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Нывты агурын</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Ӕмвӕзӕг нывтӕ нӕй.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Адӕм</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Бинонтӕ ӕмӕ уавӕртӕ</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Цӕрӕгойтӕ</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Фантази ӕмӕ худт</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Хӕрд</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Ӕгъдау</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Спорт ӕмӕ хобби</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Хӕйрӕгтӕ</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Скъола</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Куыст</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Ӕнӕниздзинад</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Хӕдзар</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Сомы</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Рабадт</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Бӕрӕгбӕттӕ</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Спорт</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Ныв равзар</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Нывтӕ</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Дӕхи ныв…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Дӕхи ныв</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Дӕ компьютермӕ PNG кӕнӕ JPG пайда кӕн</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Ӕрмӕст дамгъӕ</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Нывы бӕсты рӕнгъитӕ дамгъӕ равдисын</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Ацы файл PNG кӕнӕ JPG нывӕй бакӕсӕн нӕ уыд.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr-ы чи пайда кӕны?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Профиль равзар, цӕмӕй дарддӕр цӕуай</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Профиль бафтауын</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Кӕддӕр фӕстаг пайда</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN-имӕ хъахъхъӕд</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Ивын кӕнӕ аппарын</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Ныры профильмӕ фӕстӕмӕ (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Байгом кӕнын</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Ныффысс дӕ 4 цифрӕйы PIN</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Профили ивынӕн кӕнӕ аппарынӕн ныффысс йӕ PIN</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN раст нӕу. Ногӕй бавзар.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Ӕвдисӕн</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Программӕйы темӕ</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Равзар Рухс, Урс тӕмӕ кӕнӕ Windows ӕмбӕрзӕнтӕм гӕсгӕ кӕн.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Темӕ</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Рухс</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Сау</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Системӕ</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Ӕвзаг</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Равзар, цавӕр ӕвзагыл Remindr зындзӕн. Ивд ныр-ныр хъуамӕ цӕуа.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Ӕвзаг</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Тӕлмацтӕ машинӕйы фӕрстӕй фӕцыдысты; раст кӕнынад хорз у.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Раст кӕнынад радзурын</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Машинӕйы тӕлмац</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Тӕлмацы ӕххуыс кӕнын</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Ӕвзаг: {0}. Раивынӕн ныххӕц.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Баздӕхт: {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Иннӕ профильмӕ ацу кӕнӕ ацы профили ном, бӕлвырд ӕмӕ ныв раив.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Ныв раивын</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Профили раивын</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-имӕ ӕхгӕд</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-имӕ ӕхгӕд: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 цифрӕйӕ PIN ацы профили ӕндӕр адӕймагӕй айсӕфы. Уый ӕрмӕст ӕмбӕхсӕн экран у, не хъахъхъӕнӕн.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Ӕххуыс ӕмӕ хъусдард</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Рабӕрӕг ис зын кӕнӕ дӕ фӕнды фӕдзур?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Хабӕртӕ GitHub-ы байгом вӕййынц, уым Remindr ӕмӕ Windows верситӕ ӕрмӕст сты ныххауд. Ницы ӕндӕр ӕрвылд цӕуы.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Рӕдыды тыххӕй зӕгъын</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Ног фадат бацамонын</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Журналы папкӕ байгом кӕнын</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Программӕйы тыххӕй</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} лицензи</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub-ы кӕсын</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Ӕртыккаг фарсы хабӕртӕ</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Цыдӕр раст нӕ рауад: {0}
+
+Ӕвдисӕн %AppData%\Remindr\error.log файлы бахъахъхъӕд</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Ӕвдисӕн %AppData%\Remindr\error.log файлы бахъахъхъӕд</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr-мӕ арфӕ кӕнын</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Райдайынӕн ныххӕц цыфӕнды клавишыл кӕнӕ клик скӕн</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Райдайын</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Арфӕ ногӕй равдисын</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr-ы ӕмбӕрзын</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Ӕмбӕрзӕны цыд</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>{1} къахӕй {0}-ӕм</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Дарддӕр</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Ауадзын</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Равзар дӕ ӕвзаг</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Программӕ ныр-ныр ӕвзаг ивы. Кӕд дӕ фӕнды, уӕд хъуамӕ Ӕмбӕрзӕнты баивай.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Ӕвзӕгтӕ агурын</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Ӕмвӕзӕг ӕвзӕгтӕ нӕй.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Равзар дӕ ӕвдисӕн</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Рухс, Сау кӕнӕ Windows ӕмбӕрзӕнтӕм гӕсгӕ.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Дӕ профиль</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Бафтау дӕ ном, бӕлвырд ӕмӕ ныв.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN бафтауын?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Ӕнӕ хъӕуынаг. 4 цифрӕйӕ PIN ацы профили ӕмбӕхсы.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Ӕппӕт цӕттӕ у, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Уыдон ӕппӕт дӕр фӕстӕдӕр Ӕмбӕрзӕнты баивӕн ис.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr пайда кӕнын райдайын</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Мӕ фыццаг ӕрымысӕн бафтауын</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Скъола</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Куыст</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Мӕхи</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Цы ис ног</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Фӕстӕдӕр</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Ацы верси ауадзын</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Ногӕй бавзарын</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Рахӕст файл бавзарын цӕуы…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Рахӕст файл йӕ контролон суммӕимӕ нӕ баиу, уымӕ гӕсгӕ аппард ӕмӕ ницы сӕвӕрд.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Ногӕвӕрд рахӕссӕн нӕ уыд. Фӕстӕдӕр ногӕй бавзар.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Ногӕвӕрдтӕ</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr куы райдайа, уӕд ногӕвӕрдтӕ бавзарын</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Версийы нымӕцтӕ абарынӕн ӕрмӕст GitHub-имӕ баиу вӕййы; дӕ тыххӕй ницы ӕрвылд цӕуы.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Ногӕвӕрдтӕ бавзарын</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Бавзарын цӕуы…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Ӕппӕты ногдӕр верси · бавзард {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} ис</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Ногӕвӕрдтӕ бавзарӕн нӕ уыд</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Ногӕвӕрд ис</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · дӕуӕн ис {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Ногӕвӕрын</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Рахӕссын цӕуы… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Ныууадзын</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Сӕвӕрынмӕ цӕттӕ</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Ногӕй райдайын ӕмӕ ногӕвӕрын</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 бонмӕ</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 сахатмӕ</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Ныр</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Ма бакӕн ма</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Фӕстӕмӕ уадзыны афон ахицӕн</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - афон ӕрвитт</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Сӕххӕст кӕнын</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Фӕстӕдӕр</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Ӕхгӕнын</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 минуты</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 сахат</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Сом</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Хабар бавзарынӕн</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Ай ӕрмӕст ӕвдисӕн у, уымӕ гӕсгӕ йӕ клавишытӕ ницы кӕнынц. Ӕрымысӕн бафтау, стӕй сӕ бавзарынӕн бавзарӕн хабар ногӕй ӕрвит.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Хабӕртӕ</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Бавзарӕн хабар ӕрвитын</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Дӕ рӕстӕмбис ӕрымысӕны тыххӕй хабар равдисы, цӕмӕй клавишытӕ бавзарай.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Бавзарын ӕрвитын</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Байгом кӕнын</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Тагъд бафтауын</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Рацӕуын</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr трейы кусы дарддӕр</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Дӕ ӕрымысӕнтӕ хабар кӕндзысты дарддӕр. Байгом кӕнынӕн кӕнӕ рацӕуынӕн трейы нысан пайда кӕн.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Рудзынг куы ӕхгӕнон, уӕд трейы кусын дарддӕр</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Рудзынг ӕхгӕд куы уа, уӕддӕр ӕрымысӕнтӕ хабар кӕндзысты. Ӕхгӕнгӕйӕ рацӕуынӕн ахгӕн.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Куы бахизон, уӕд Remindr райдайын</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Ӕрымысӕнтӕ хабар кӕнынӕн трейы мур-мур райдайы. Дӕхӕдӕг райдайынӕн ахгӕн.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr нырма кусы, фӕлӕ дзуапп нӕ дӕтты. Куы ӕхгӕнуы, уӕд цалдӕр афон фӕлӕуу ӕмӕ ногӕй бавзар; ӕндӕра йӕ Куыстты диспетчеры ныууадз.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Ахсджиаг</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Афон ӕрвитт</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · абон {0} ӕрымысӕн</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · абон {0} ӕрымысӕнтӕ</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0}-ы цы ис ног</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Бамбӕрстон</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Ацы версийы цы ис ног</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Ӕрымысӕнтӕ, чи дӕ агурынц</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Сӕххӕст кӕнын, Фӕстӕдӕр ӕмӕ Ӕхгӕнын клавишимӕ Windows хабӕртӕ. Фӕстӕдӕр 5 минутмӕ, иу сахатмӕ кӕнӕ сомыл.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Ахсджиаг ногӕй-ногӕй хъусын кӕны</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Ахсджиаг ӕрымысӕнтӕ иу бон ӕмӕ иу сахат раздӕр хабар кӕнынц, стӕй дӕ куы бакӕнай, уӕдмӕ алы 10 минутӕй дӕр.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Мур-мур кусы дарддӕр</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Рудзынг ахгӕн - Remindr трейы баззайы, уымӕ гӕсгӕ хабӕртӕ ӕрбацӕуынц. Йӕ трейы нысанӕй байгом кӕн кӕнӕ ахгӕн.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windows-имӕ иумӕ райдайы</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Ӕмбӕрзӕнты байгом кӕн, ӕмӕ Remindr куы бахизай, уӕд трейы ӕмбӕхст райдайы.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Карточкӕтӕ сисынц, нысантӕ тӕхынц, календарь хъуыццы, афтид фӕрстӕ тӕхынц. Windows анимацитӕ куы ахгӕд уой, уӕд ӕппӕт дӕр сабыр у.</value>
+  </data>
+</root>

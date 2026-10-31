@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Gehitu</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Atzera</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Utzi</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Sortu</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Editatu</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>Ados</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Desaktibatuta</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Aktibatuta</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Gorde</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Gaur</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Izenburua</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Ordua</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Oharrak</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kategoria</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Irudia</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Garrantzitsua</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>yyyy MMMM</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>MMM d</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>yyyy MMM d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>yyyy MMM d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>yyyy MMM d</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>MMM d</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>MMM d, dddd</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>yyyy MMM d, dddd</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>MMM d, ddd</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>yyyy MMM d, ddd</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>MMMM d, dddd</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>yyyy MMMM d, dddd</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Gaur</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Egutegia</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Gogorarazpen guztiak</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profila</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Ezarpenak</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Aldatu profila</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Tolestu edo zabaldu alboko barra</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Txandakatu alboko barra</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Egun on</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Egun on, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Arratsalde on</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Arratsalde on, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Gabon</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Gabon, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Gaurko ezer ez</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Gaurko gogorarazpenak hemen agertuko dira.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Gogorarazpen berria</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Gogorarazpen berria (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Atzeratuak</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Gaur</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Bihar</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Osatuak</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Egun osoa</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Osatu: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Markatu garrantzitsu gisa</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Editatu gogorarazpena</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Ezabatu gogorarazpena</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} irekita, {1} osatuta</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Oraindik ez dago gogorarazpenik</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Gehitu zure lehen gogorarazpena eta hemen agertuko da, dataren arabera taldekatuta.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Gogorarazpen berria (egoera hutsa)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Osatutako gogorarazpenak</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Hilabetea</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Astea</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Hileko ikuspegia</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Asteko ikuspegia</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Agendaren ikuspegia</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Aurrekoa</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Hurrengoa</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Joan gaurkora</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Gogorarazpen berria hautatutako egunean</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Ez dago ezer planifikatuta egun honetarako.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Ez dago ezer hurrengo egunetarako</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Ez dago gogorarazpenik hurrengo {0} egunetan.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Gogorarazpen berria (agenda hutsa)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Hileko laukizuzena. Gezi-teklek hautatutako eguna aldatzen dute, Sartu teklak gogorarazpen bat gehitzen du.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Gaur · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Bihar · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>Hurrengo {0} egunak {1}(e)tik aurrera</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Gogorarazpenik ez</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>Gogorarazpen {0}</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} gogorarazpen</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, garrantzitsua</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>gogorarazpenik ez</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>gogorarazpen {0}</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} gogorarazpen</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Kategoriarik gabeko gogorarazpena</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Kategoria duen gogorarazpena</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Gogorarazpen berria</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Editatu gogorarazpena</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Zer gogoratu behar duzu?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Aukerakoa</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>! txapa gorri bat erakusten du, nabarmentzeko.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Irudirik ez</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Gehitu irudia</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Irudia: {0}. Aldatu irudia</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Idatzi izenburu bat.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Izenburuak {0} karaktere izan ditzake gehienez.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Aukeratu data bat.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Idatzi ordu bat, adibidez {0}, edo aktibatu Egun osoa.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Gogorarazpena ezabatu?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" betiko ezabatuko da. Ezin da desegin.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Bat ere ez</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Profil berria</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Editatu profila</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Aldatu irudia</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Izena</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Profilaren izena</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Kolorea</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Avatarraren letra</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PINa (aukerakoa)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Mantendu uneko PINa</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Idatzi izen bat.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Izenak {0} karaktere izan ditzake gehienez.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Idatzi karaktere bakarra avatarrerako.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PINak 4 digitu zehatz izan behar ditu.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ezin da profil hau ezabatu</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Gutxienez profil bat egon behar da. Sortu beste bat lehenengo, hau ezabatu nahi baduzu.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>"{0}" ezabatu?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>"{0}" profila betiko ezabatuko da, bere gogorarazpen eta kategoria guztiekin. Ezin da desegin.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Ezarri PINa</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Aldatu PINa</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Kendu PINa</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Aukeratu 4 digituko PIN bat. Profil hau irekitzeko beharko duzu.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Idatzi uneko PINa, eta aukeratu berri bat.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Idatzi uneko PINa blokeoa desaktibatzeko.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Uneko PINa</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>4 digituko PIN berria</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Errepikatu PINa</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Errepikatu PIN berria</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Uneko PINa ez da zuzena. Saiatu berriro.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Bi PINak ez datoz bat.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PINa pribatutasun-pantaila bat da, jakinminez dabiltzanak urruntzeko; ez da segurtasun sendoa.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Guztiak</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Bilatu irudiak</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Ez dago irudirik bat datorrenik.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Pertsonak</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Familia eta rolak</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Animaliak</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasia eta dibertsioa</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Janaria</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natura</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Kirolak eta zaletasunak</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Objektuak</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Eskola</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Lana</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Osasuna</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Etxea</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Dirua</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Bidaiak</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Ospakizunak</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Kirolak</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Aukeratu irudi bat</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Irudiak</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Zure irudia.</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Zure irudia</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Erabili zure ordenagailuko PNG edo JPG bat</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Inizialak soilik</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Erakutsi kolorezko letra irudiaren ordez</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Fitxategi hori ezin izan da PNG edo JPG irudi gisa irakurri.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Nork erabiltzen du Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Aukeratu zure profila jarraitzeko</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Gehitu profila</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Azkenekoz erabilia</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PINez babestuta</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Editatu edo ezabatu</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Itzuli uneko profilera (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PINa</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Desblokeatu</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Idatzi zure 4 digituko PINa</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Idatzi profil honen PINa editatzeko edo ezabatzeko</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN okerra. Saiatu berriro.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Itxura</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Aplikazioaren gaia</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Aukeratu Argia, Iluna, edo jarraitu Windowsen ezarpena.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Gaia</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Argia</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Iluna</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Hizkuntza</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Aukeratu Remindr zein hizkuntzatan erakutsiko den. Aldaketa berehala aplikatzen da.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Hizkuntza</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Itzulpenak makinaren laguntzaz egin dira; zuzenketak ongi etorriak dira.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Iradoki zuzenketa bat</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Makinaz itzulia</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Lagundu itzultzen</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Hizkuntza: {0}. Sakatu aldatzeko.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profila</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} gisa saioa hasita</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Aldatu beste profil batera, edo aldatu profil honen izena, kolorea eta irudia.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Aldatu irudia</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Aldatu profila</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN blokeoa</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN blokeoa: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 digituko PIN batek jakinminez dabiltzanak profil honetatik urruntzen ditu. Pribatutasun-pantaila bat da, ez segurtasun sendoa.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Laguntza eta iritziak</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Arazoren bat aurkitu duzu edo ideiaren bat duzu?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Txostenak GitHuben irekitzen dira, Remindr eta Windowsen bertsioarekin bakarrik. Ez da beste ezer bidaltzen.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Eman akats baten berri</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Iradoki eginbide bat</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Ireki erregistroen karpeta</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Honi buruz</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} lizentzia</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Ikusi GitHuben</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Hirugarrenen oharrak</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Zerbait gaizki atera da: {0}
+
+Xehetasunak hemen gorde dira: %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Xehetasunak hemen gorde dira: %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Ongi etorri Remindr aplikaziora</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Sakatu edozein tekla edo egin klik hasteko</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Hasi</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Erakutsi ongietorria berriro</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Konfiguratu Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Konfigurazioaren aurrerapena</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>{1}(e)tik {0}. urratsa</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Hurrengoa</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Saltatu</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Aukeratu zure hizkuntza</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Aplikazioa berehala aldatzen da. Edonoiz alda dezakezu Ezarpenetan.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Bilatu hizkuntzak</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Ez dago hizkuntzarik bat datorrenik.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Aukeratu zure itxura</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Argia, Iluna, edo jarraitu Windowsen ezarpena.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Zure profila</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Gehitu zure izena, kolore bat eta irudi bat.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN bat gehitu?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Aukerakoa. 4 digituko PIN batek profil hau pribatu mantentzen du.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Dena prest, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Hauetako edozein geroago alda dezakezu Ezarpenetan.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Hasi Remindr erabiltzen</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Gehitu nire lehen gogorarazpena</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Eskola</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Lana</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Pertsonala</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Berritasunak</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Geroago</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Saltatu bertsio hau</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Saiatu berriro</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Deskarga egiaztatzen.</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Deskargak ez zuen bat egin bere egiaztapen-batuketarekin; beraz, ezabatu da eta ez da ezer instalatu.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Ezin izan da eguneraketa deskargatu. Saiatu berriro geroago.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Eguneraketak</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Bilatu eguneraketak Remindr abiatzean</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>GitHubekin bakarrik harremanetan jartzen da bertsio-zenbakiak alderatzeko; zuri buruzko ezer ez da bidaltzen.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Bilatu eguneraketak</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Egiaztatzen.</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Eguneratuta · {0}(r)etan egiaztatua</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} eskuragarri</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Ezin izan dira eguneraketak bilatu</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Eguneraketa eskuragarri</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · zuk {1} duzu</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Eguneratu</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Deskargatzen. {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Utzi</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Instalatzeko prest</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Berrabiarazi eta eguneratu</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Egun 1 barru</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Ordu 1 barru</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Orain</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Oraindik egiteke</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Atzeratzea amaitu da</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - atzeratuta</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Osatu</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Atzeratu</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Baztertu</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minutu</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 ordu</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Bihar</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Probako jakinarazpena</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Hau adibide bat da, beraz botoiek ez dute ezer egiten. Gehitu gogorarazpen bat eta bidali proba bat berriro botoiak probatzeko.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Jakinarazpenak</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Bidali probako jakinarazpena</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Hurrengo gogorarazpenaren jakinarazpen bat erakusten du, botoiak probatzeko.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Bidali proba</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Ireki</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Gehitu azkar</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Irten</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr jakinarazpen-eremuan exekutatzen jarraitzen du</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Zure gogorarazpenek abisatzen jarraituko dute. Erabili jakinarazpen-eremuko ikonoa irekitzeko edo irteteko.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Jarraitu jakinarazpen-eremuan exekutatzen leihoa ixten dudanean</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Gogorarazpenek abisatzen jarraitzen dute leihoa itxita dagoenean. Desaktibatu ixtean irteteko.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Abiarazi Remindr saioa hastean</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Isilean abiatzen da jakinarazpen-eremuan, gogorarazpenek abisatzen jarrai dezaten. Desaktibatu zuk abiarazteko.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr dagoeneko exekutatzen ari da baina ez du erantzuten. Ixten ari bada, itxaron une bat eta saiatu berriro; bestela, amaitu ezazu Zereginen kudeatzailean.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Garrantzitsua</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Atzeratua</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} gaurko</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} gaurko</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0} bertsioko berritasunak</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Ulertuta</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Bertsio honetako berritasunak</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Zu bilatzen dituzten gogorarazpenak</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windowsen jakinarazpenak Osatu, Atzeratu eta Baztertu botoiekin. Atzeratu 5 minutu, ordu bat edo biharera arte.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Garrantzitsua da, beraz, tematzen da</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Gogorarazpen garrantzitsuek egun bat eta ordu bat lehenago abisatzen dute, eta gero 10 minuturo, zuk ekin arte.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Isilean jarraitzen du</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Itxi leihoa eta Remindr jakinarazpen-eremuan geratzen da, beraz abisuek iristen jarraitzen dute. Ireki edo irten ikonotik.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Windowsekin batera abiatzen da</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Aktibatu Ezarpenetan eta Remindr ezkutuan abiatuko da jakinarazpen-eremuan saioa hasten duzunean.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Txartelak altxatzen dira, markak dantzan jartzen dira, egutegia irristatzen da eta orri hutsak flotatzen dute. Windowsen animazioak desaktibatuta daudenean, dena geldirik geratzen da.</value>
+  </data>
+</root>

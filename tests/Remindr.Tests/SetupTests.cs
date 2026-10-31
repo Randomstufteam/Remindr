@@ -326,39 +326,54 @@ public class SetupViewModelTests
     }
 
     [Fact]
-    public void SetupLanguages_AreTheRealLanguages_NeverThePseudoLocale()
+    public void SetupLanguages_AreTheShippedLanguages_NeverThePseudoLocale()
     {
-        Assert.Equal(32, SetupViewModel.SetupLanguages.Count);
+        var shipped = LocalizationService.Available.Count(l => l.Code != LocalizationService.PseudoCode);
+        Assert.Equal(shipped, SetupViewModel.SetupLanguages.Count);
+        Assert.True(shipped >= 32);
         Assert.DoesNotContain(SetupViewModel.SetupLanguages, l => l.Code == LocalizationService.PseudoCode);
+        // Only languages with text: a catalog entry whose translation has not landed is not offered.
+        Assert.All(SetupViewModel.SetupLanguages, l => Assert.True(LocalizationService.IsTranslated(l.Code), l.Code));
     }
 
     [Theory]
-    [InlineData("", 32)]
-    [InlineData("  ", 32)]
-    [InlineData("deutsch", 1)]
-    [InlineData("german", 1)]
-    [InlineData("espanol", 1)]          // accents ignored
-    [InlineData("ESPAÑOL", 1)]          // case ignored
-    [InlineData("portugu", 2)]          // both Portuguese
-    [InlineData("chinese", 2)]
-    [InlineData("zh-hans", 1)]
-    [InlineData("日本", 1)]
-    [InlineData("zzzz", 0)]
-    public void FilterLanguages_MatchesNativeEnglishNamesAndCodes(string search, int expected)
+    [InlineData("deutsch", "de")]
+    [InlineData("german", "de")]
+    [InlineData("espanol", "es")]          // accents ignored
+    [InlineData("ESPAÑOL", "es")]          // case ignored
+    [InlineData("zh-hans", "zh-Hans")]
+    [InlineData("日本", "ja")]
+    [InlineData("suomi", "fi")]
+    public void FilterLanguages_MatchesNativeEnglishNamesAndCodes(string search, string expectedFirst)
     {
-        Assert.Equal(expected, SetupViewModel.FilterLanguages(search, SetupViewModel.SetupLanguages).Count);
+        var found = SetupViewModel.FilterLanguages(search, SetupViewModel.SetupLanguages);
+        Assert.Equal(expectedFirst, found[0].Code);
+    }
+
+    [Theory]
+    [InlineData("portugu")]
+    [InlineData("port")]
+    public void FilterLanguages_Portuguese_FindsBothAndNothingElse(string search) =>
+        Assert.Equal(new[] { "pt-BR", "pt-PT" }, SetupViewModel.FilterLanguages(search, SetupViewModel.SetupLanguages).Select(l => l.Code).OrderBy(c => c).ToArray());
+
+    [Theory]
+    [InlineData("", -1)]
+    [InlineData("  ", -1)]
+    [InlineData("zzzz", 0)]
+    public void FilterLanguages_EmptyListsAll_NoMatchListsNone(string search, int expected)
+    {
+        var all = SetupViewModel.SetupLanguages.Count;
+        Assert.Equal(expected < 0 ? all : expected, SetupViewModel.FilterLanguages(search, SetupViewModel.SetupLanguages).Count);
     }
 
     [Fact]
-    public void SearchText_FiltersTheListTheViewShows()
+    public void SuggestedLanguage_IsTheOneSetupStartedWith_AndStaysWhenTheChoiceChanges()
     {
         using var r = new Rig();
-        Assert.Equal(32, r.Vm.FilteredLanguages.Count);
-        r.Vm.LanguageSearch = "fr";
-        Assert.Contains(r.Vm.FilteredLanguages, l => l.Code == "fr");
-        Assert.True(r.Vm.FilteredLanguages.Count < 32);
-        r.Vm.LanguageSearch = "";
-        Assert.Equal(32, r.Vm.FilteredLanguages.Count);
+        var suggested = r.Vm.SuggestedLanguageCode;
+        r.Vm.LanguageCode = "fr";
+        Assert.Equal(suggested, r.Vm.SuggestedLanguageCode);
+        Assert.Equal("fr", r.Vm.LanguageCode);
     }
 
     [Fact]

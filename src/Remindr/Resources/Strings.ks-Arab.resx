@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>زیٛٹھ کٔرِو</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>پتھ</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>منسوخ کٔرِو</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>بناوِو</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>مٹٲوِو</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>ترمیم</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>بند</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>چالو</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>مَحفوظ کٔرِو</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>اَز</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>وَقت</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>نوٹ</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>زُمرٕ</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>تصویر</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>اَہَم</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd، d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd، d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd، d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd، d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd، d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd، d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>اَز</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>کیلنڈر</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>سٲری یاددہانی</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>پروفایل</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>سیٹنگ</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>پروفایل بَدلِو</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>سایڈبار بند یا کھولِو</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>سایڈبار بَدلِو</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>صبح بخیر</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>صبح بخیر، {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>دوپہر بخیر</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>دوپہر بخیر، {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>شام بخیر</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>شام بخیر، {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>اَز کانہہ چھُنہٕ</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>اَزکۍ یاددہانی ظٲہر گژھن یتھ۔</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>نوِ یاددہانی</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>نوِ یاددہانی (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>وَقت گیمُت</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>اَز</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>پگاہ</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>مُکمَل</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>سارنیئ دۄہ</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>مُکمَل کٔرِو: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>اَہَم نِشان لاگِو</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>یاددہانی ترمیم کٔرِو</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>یاددہانی مٹٲوِو</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} کھۄلمُت، {1} مُکمَل</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>ہَمِش کانہہ یاددہانی چھُنہٕ</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>پننہٕ پٔتھرِم یاددہانی زیٛٹھ کٔرِو، سۄ ظٲہر گژھِ تاریخ ہِش حِسابہٕ۔</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>نوِ یاددہانی (خٲلی صفحہ)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>مُکمَل یاددہانی</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>مہینہ</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>ہفتہ</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>ایجنڈا</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>مہینہ نظارہ</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>ہفتہ نظارہ</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>ایجنڈا نظارہ</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>پتھمُت</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>اگلُت</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>اَز پیٹھ گژھِو</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>چُنُن دۄہس نوِ یاددہانی</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>یِمہ دۄہس کانہہ چھُنہٕ مُقرر۔</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>امہِ پتھ کانہہ چھُنہٕ</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>اگلین {0} دۄہن منٛز کانہہ یاددہانی چھُنہٕ۔</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>نوِ یاددہانی (خٲلی ایجنڈا)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>مہینہ جال۔ تیر کیٛ کھۄرٕ سان چُنُن دۄہ بَدلِو، Enter سان یاددہانی زیٛٹھ کٔرِو۔</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>اَز · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>پگاہ · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{1} پیٹھ اگلۍ {0} دۄہ</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>کانہہ یاددہانی چھُنہٕ</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} یاددہانی</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} یاددہانی</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}، {1}، اَہَم</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>کانہہ یاددہانی چھُنہٕ</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} یاددہانی</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} یاددہانی</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>بغیر زُمرٕ یاددہانی</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>زُمرٕ والۍ یاددہانی</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>نوِ یاددہانی</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>یاددہانی ترمیم</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>کیا چُھو یاد کرُن؟</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>اختیاری</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>ژھٹ ! نِشان ہیکھاوان چھُ تہٕ یہ نمایاں گژھِ۔</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>کانہہ تصویر چھُنہٕ</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>تصویر زیٛٹھ کٔرِو</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>تصویر: {0}۔ تصویر بَدلِو</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>عنوان لیکھِو۔</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>عنوان گژھہِ {0} حرفن یا کم آسُن۔</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>تاریخ چُنِو۔</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>وَقت لیکھِو یُتھ {0}، یا سارنیئ دۄہ چالو کٔرِو۔</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>یاددہانی مٹاونۍ چھیہ؟</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" گژھِ ہمیشہ خاطرٕ مٹنہٕ۔ یہ ہیکہِ نہٕ واپس سپدنہٕ۔</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>کانہہ نہٕ</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>نوٚو پروفایل</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>پروفایل ترمیم</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>تصویر بَدلِو</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>ناو</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>پروفایلُک ناو</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>رَنگ</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>اوتار حرف</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (اختیاری)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>موجودٕ PIN رَکھِو</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>ناو لیکھِو۔</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>ناو گژھہِ {0} حرفن یا کم آسُن۔</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>اوتار خاطرٕ صرف اکھ حرف لیکھِو۔</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN گژھہِ پُورٕ 4 ہندسن مَنٛز آسُن۔</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>یہ پروفایل ہیکو نہٕ مٹاوِتھ</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>کم از کم اکھ پروفایل چھُ ضروری۔ یہ مٹاونہٕ برونہہ کنہِ بیاکھ پروفایل بناوِو۔</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>"{0}" مٹاونۍ چھیہ؟</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>یہ چھُ پروفایل "{0}" پننیو سٲریو یاددہانیو تہٕ زُمرن سمیت ہمیشہ خاطرٕ مٹاوان۔ یہ ہیکہِ نہٕ واپس سپدنہٕ۔</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN لاگِو</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN بَدلِو</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN ہٹاوِو</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>4 ہندسن والُک PIN چُنِو۔ یہ پروفایل کھولنہٕ خاطرٕ گژھِ توہہِ یہ۔</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>پننہٕ موجودٕ PIN لیکھِو، پتھ نوٚو چُنِو۔</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>تالہٕ بند کرنہٕ خاطرٕ پننہٕ موجودٕ PIN لیکھِو۔</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>موجودٕ PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>نوٚو 4 ہندسن والُک PIN</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN پھر لیکھِو</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>نوٚو PIN پھر لیکھِو</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>موجودٕ PIN چھُ غلط۔ پھر کوشش کٔرِو۔</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>دۄشوے PIN چھِنہٕ برابر۔</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN چھُ اکھ پرایویسی پردہ یُس عام تاک جھانک پیٹھ بچاوان چھُ، مضبوط سیکورٹی چھُنہٕ۔</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>سٲری</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>تصویر لۄژھِو</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>کانہہ تصویر ملنہٕ آیہٕ نہٕ۔</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>لۄکھ</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>کٲنُر تہٕ کردار</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>جانور</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>خیالی تہٕ تفریح</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>کھینچُن</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>قدرت</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>کھیل تہٕ شوق</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>چیز</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>سکول</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>کٲم</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>صحت</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>کور</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>پیسہ</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>سفر</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>جشن</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>کھیل</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>تصویر چُنِو</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>تصویر</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>پننہٕ تصویر…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>پننہٕ تصویر</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>پننہِ کمپیوٹر پیٹھ PNG یا JPG ورتاوِو</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>صرف پٔتھرِم حرف</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>تصویرِ بدلہ رنگین حرف ہیکھاوِو</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>سۄ فایل ہیکہِ نہٕ PNG یا JPG تصویر ہیتھ پرنہٕ آتھ۔</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Remindr کٔس چھُ ورتاوان؟</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>جاری رَکھنہٕ خاطرٕ پننہٕ پروفایل چُنِو</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>پروفایل زیٛٹھ کٔرِو</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>آخری ورتاو</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN سان مَحفوظ</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>ترمیم یا مٹٲوِو</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>موجودس پروفایلس پتھ (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>کھولِو</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>پننہٕ 4 ہندسن والُک PIN لیکھِو</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>ترمیم یا مٹاونہٕ خاطرٕ یمہِ پروفایلُک PIN لیکھِو</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN چھُ غلط۔ پھر کوشش کٔرِو۔</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>ظٲہری شکل</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>ایپُک تھیم</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>ہلکہٕ، گاڑھ چُنِو، یا پننہِ وِنڈوز سیٹنگہِ پیٹھ چلِو۔</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>تھیم</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>ہلکہٕ</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>گاڑھ</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>سِسٹم</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>سۄ زبان چُنِو یمہِ منٛز Remindr ظٲہر گژھِ۔ تبدیلی چھِ فوراً لاگو گژھان۔</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>ترجمہ چھِ مشین کِس مدد سان کرنہٕ آمُتۍ؛ درستی چھِ قبول۔</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>درستی تجویز کٔرِو</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>مشینی ترجمہ</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>ترجمہ منٛز مدد کٔرِو</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>زبان: {0}۔ بَدلنہٕ خاطرٕ دَبايو۔</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>پروفایل</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>{0} ہیٚتۍ لاگ اِن</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>بیاکھ پروفایل پیٹھ گژھِو، یا یمہِ پروفایلُک ناو، رَنگ تہٕ تصویر بَدلِو۔</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>تصویر بَدلِو</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>پروفایل بَدلِو</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN تالہٕ</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN تالہٕ: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>4 ہندسن والُک PIN چھُ یم پروفایل عام تاک جھانک پیٹھ بچاوان۔ یہ چھُ پرایویسی پردہ، مضبوط سیکورٹی چھُنہٕ۔</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>مدد تہٕ رائے</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>کانہہ مسئلہ ملیو یا کانہہ خیال چھُ؟</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>رپورٹ کھلان چھِ GitHub پیٹھ، صرف توہنزِ Remindr تہٕ وِنڈوز ورژن بھرنہٕ آمُت۔ بیاکھ کینہہ چھُ نہٕ بھیجنہٕ یوان۔</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>خرابی ہیکھاوِو</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>نوِ خوبی تجویز کٔرِو</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>لاگ فولڈر کھولِو</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>متعلق</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} لایسنس</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>GitHub پیٹھ ہیٚکھِو</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>تریمس فریقس ہُند نوٹس</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>کینہہ چھُ غلط سپُد: {0}
+
+تفصیل چھِ %AppData%\Remindr\error.log منٛز مَحفوظ کرنہٕ آمُت</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+تفصیل چھِ %AppData%\Remindr\error.log منٛز مَحفوظ کرنہٕ آمُت</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Remindr مَنٛز خوش آمدید</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>شروع کرنہٕ خاطرٕ کانہہ کی دَبايو یا کلک کٔرِو</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>شروع کٔرِو</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>خوش آمدید پھر ہیکھاوِو</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr سیٹ اَپ کٔرِو</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>سیٹ اَپ ہِش پیش رفت</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>مرحلہ {0} منٛز {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>اگلُت</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>ٹھہراوِو</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>پننہٕ زبان چُنِو</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>ایپ چھِ فوراً بَدلان۔ توہہِ ہیکھو یہ کُنہِ وَقتہٕ سیٹنگن منٛز بَدلاوِتھ۔</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>زبانہٕ لۄژھِو</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>کانہہ زبان ملنہٕ آیہٕ نہٕ۔</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>پننہٕ شکل چُنِو</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>ہلکہٕ، گاڑھ، یا پننہِ وِنڈوز سیٹنگہِ پیٹھ چلِو۔</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>توہنزِ پروفایل</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>پننہٕ ناو، اکھ رَنگ تہٕ اکھ تصویر زیٛٹھ کٔرِو۔</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>PIN لاگُن چھُ؟</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>اختیاری۔ 4 ہندسن والُک PIN چھُ یم پروفایل نجی تھاوان۔</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>توہہِ چھِو تیار، {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>یہ سٲری ہیکھو توہہِ پتھ سیٹنگن منٛز بَدلاوِتھ۔</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr ورتاونۍ شروع کٔرِو</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>میانۍ پٔتھرِم یاددہانی زیٛٹھ کٔرِو</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>سکول</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>کٲم</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>ذاتی</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>کیا چھُ نوٚو</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>پتھ</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>یہ ورژن ٹھہراوِو</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>پھر کوشش کٔرِو</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>ڈاؤن لوڈ چھِ جانچنہٕ یوان…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>ڈاؤن لوڈ ہیژ نہٕ پننہِ چیک سم سان، اتھ کرِو مٹاوُن تہٕ کینہہ چھُنہٕ انسٹال سپُد۔</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>اپ ڈیٹ ہیکہِ نہٕ ڈاؤن لوڈ سپدنہٕ۔ مہربانی کرِتھ پتھ کوشش کٔرِو۔</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>اپ ڈیٹ</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Remindr شروع سپدنہٕ پیٹھ اپ ڈیٹ جانچِو</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>چھُ صرف ورژن نمبر ملاونہٕ خاطرٕ GitHub سان رابطہ کران؛ توہہِ متعلق کینہہ چھُنہٕ بھیجنہٕ یوان۔</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>اپ ڈیٹ جانچِو</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>جانچ چھِ گژھان…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>تازہ ترین · جانچ {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} چھُ دستیاب</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>اپ ڈیٹ ہیکہِ نہٕ جانچنہٕ</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>اپ ڈیٹ چھُ دستیاب</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · توہہِ چھُ {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>اپ ڈیٹ</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>ڈاؤن لوڈ چھُ گژھان… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>منسوخ کٔرِو</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>انسٹال خاطرٕ تیار</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>ری سٹارٹ کٔرِو تہٕ اپ ڈیٹ کٔرِو</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>1 دۄہس منٛز</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>1 گنٹس منٛز</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>ہاوا</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>ہَمِش چھُ کرُن</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>سنوز وَقت چھُ پُورٕ</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - وَقت گیمُت</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>مُکمَل</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>پتھ</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>ختم کٔرِو</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 منٹ</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 گنٹہ</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>پگاہ</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>ٹیسٹ اطلاع</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>یہ چھُ اکھ نمونہ، لہذا یمن کی بٹن چھِنہٕ کینہہ کران۔ اکھ یاددہانی زیٛٹھ کٔرِو، پتھ بٹن آزماونہٕ خاطرٕ ٹیسٹ پھر بھیجِو۔</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>اطلاع</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>ٹیسٹ اطلاع بھیجِو</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>توہنزِ اگلِ یاددہانی خاطرٕ چھُ اطلاع ہیکھاوان تہٕ توہہِ ہیکھو بٹن آزماوِتھ۔</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>ٹیسٹ بھیجِو</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>کھولِو</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>ژھٹ زیٛٹھ</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>بند کٔرِو</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr چھُ ہَمِش ٹرے منٛز چلان</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>توہنز یاددہانی ریوی توہہِ خبردار کران۔ کھولنہٕ یا بند کرنہٕ خاطرٕ ٹرے آیکن ورتاوِو۔</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>ونڈو بند کرنہٕ پیٹھ ٹرے منٛز چلان رَکھِو</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>ونڈو بند آسنہٕ پیٹھ تہِ ریوی یاددہانی خبردار کران۔ بند کٔرِو تُہی بند کرنہٕ پیٹھ باہر نیرنہٕ خاطرٕ۔</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>یُس وَقتہٕ لاگ اِن کرۍ Remindr شروع کٔرِو</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>چھُ خاموشی سان ٹرے منٛز شروع گژھان تہٕ یاددہانی ریوی خبردار کران۔ پانہ شروع کرنہٕ خاطرٕ بند کٔرِو۔</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr چھُ پیٹھمٕتۍ چلان مگر جواب چھُنہٕ دوان۔ اگر یہ بند چھُ گژھان، تہٕ گڑیٚ رُکِو تہٕ پھر کوشش کٔرِو؛ نتہٕ ٹاسک منیجرس منٛز یہ ختم کٔرِو۔</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>اَہَم</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>وَقت گیمُت</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · اَز {0} باقی</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · اَز {0} باقی</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Remindr {0} منٛز کیا چھُ نوٚو</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>سمجھ گیم</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>یمہِ ورژن منٛز کیا چھُ نوٚو</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>یاددہانی یم توہہِ لۄژھن</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>وِنڈوز اطلاع مُکمَل، سنوز تہٕ ختم بٹنن سان۔ 5 منٹ، اکھ گنٹہ، یا پگاہ تام سنوز کٔرِو۔</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>اَہَم چھُ بار بار یاد کراوان</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>اَہَم یاددہانی کراوان چھِ اکھ دۄہ تہٕ اکھ گنٹہ برونہہ خبردار، پتھ ہر 10 منٹن تام توہہِ کینہہ کرو۔</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>خاموشی سان چلان رٕہان</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>ونڈو بند کٔرِو تہٕ Remindr رٕہان چھُ ٹرے منٛز، لہذا اطلاع ہاوان چھِ۔ ٹرے آیکن پیٹھ کھولِو یا بند کٔرِو۔</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>وِنڈوز سان شروع گژھان</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>سیٹنگن منٛز چالو کٔرِو تہٕ لاگ اِن آسنہٕ پیٹھ شروع گژھِ Remindr ٹرے منٛز لکھ۔</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>کارڈ چھِ اُبھران، ٹِک چھِ اُچھلان، کیلنڈر چھُ کھسان تہٕ خٲلی صفحہ چھِ تیران۔ وِنڈوز اینیمیشن بند آسنہٕ پیٹھ رٕہان چھُ سٲری ساکت۔</value>
+  </data>
+</root>

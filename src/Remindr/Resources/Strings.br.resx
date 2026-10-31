@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Ouzhpennañ</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Distro</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Nullañ</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Krouiñ</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Dilemel</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Kemmañ</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Lazhet</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Enaouet</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Enrollañ</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Hiziv</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titl</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Deiziad</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Eur</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notennoù</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Rummad</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Skeudenn</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Pouezus</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Hiziv</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Deizlevr</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>An holl zegas-soñjoù</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Arventennoù</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Cheñch profil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Bihanaat pe astenn ar varrenn gostez</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Barrenn gostez</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Demat</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Demat, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Goude-merenn mat</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Goude-merenn mat, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Pardaez mat</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Pardaez mat, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Netra da ober hiziv</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>An degas-soñjoù evit hiziv a vo diskouezet amañ.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Degas-soñj nevez</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Degas-soñj nevez (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Diwezhat</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Hiziv</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Warc'hoazh</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Echu</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Hed an deiz</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Echuiñ: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Merkañ evel pouezus</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Kemmañ an degas-soñj</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Dilemel an degas-soñj</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} digor, {1} echu</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Degas-soñj ebet c'hoazh</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Ouzhpennit ho kentañ degas-soñj ha diskouezet e vo amañ, rummet dre zeiziad.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Degas-soñj nevez (pajenn goullo)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Degas-soñjoù echu</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Miz</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Sizhun</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Rolladenn</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Gwel miziek</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Gwel sizhuniek</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Gwel rolladenn</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>A-raok</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>War-lerc'h</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Mont d'hiziv</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Degas-soñj nevez d'an deiz diuzet</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Netra raktreset evit an deiz-mañ.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Netra o tont</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Degas-soñj ebet er {0} devezh a zeu.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Degas-soñj nevez (rolladenn goullo)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Taolenn ar miz. Ar stokelloù-saezh a cheñch an deiz diuzet, Enter a ouzhpenn un degas-soñj.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Hiziv · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Warc'hoazh · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>An {0} devezh a zeu adalek {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Degas-soñj ebet</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} degas-soñj</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} degas-soñj</value>
+  </data>
+  <data name="Calendar_DayCaption_Two" xml:space="preserve">
+    <value>{0} zegas-soñj</value>
+  </data>
+  <data name="Calendar_DayCaption_Few" xml:space="preserve">
+    <value>{0} degas-soñj</value>
+  </data>
+  <data name="Calendar_DayCaption_Many" xml:space="preserve">
+    <value>{0} degas-soñj</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, pouezus</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>degas-soñj ebet</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} degas-soñj</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} degas-soñj</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Two" xml:space="preserve">
+    <value>{0} zegas-soñj</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Few" xml:space="preserve">
+    <value>{0} degas-soñj</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Many" xml:space="preserve">
+    <value>{0} degas-soñj</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Degas-soñj dirummad</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Degas-soñj gant ur rummad</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Degas-soñj nevez</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Kemmañ an degas-soñj</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Petra a rankit derc'hel soñj anezhañ?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Diret</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Diskouez a ra ur badj ! ruz evit ma vo gwelet gwelloc'h.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Skeudenn ebet</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Ouzhpennañ ur skeudenn</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Skeudenn: {0}. Cheñch skeudenn</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Skrivit un titl.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Ne c'hall ket an titl bezañ hiroc'h eget {0} arouezenn.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Dibabit un deiziad.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Skrivit un eur evel {0}, pe lakait Hed an deiz da vezañ enaouet.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Dilemel an degas-soñj?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" a vo dilamet da viken. Ne c'haller ket dizober an dra-se.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Hini ebet</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Profil nevez</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Kemmañ ar profil</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Cheñch skeudenn</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Anv</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Anv ar profil</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Liv</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Lizherenn an avatar</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (diret)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Derc'hel ar PIN red</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Skrivit un anv.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Ne c'hall ket an anv bezañ hiroc'h eget {0} arouezenn.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Skrivit un arouezenn hepken evit an avatar.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>Ar PIN a rank bezañ resis 4 sifr.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ne c'haller ket dilemel ar profil-mañ</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Ur profil da vihanañ a rank bezañ. Krouit ur profil all da gentañ ma fell deoc'h dilemel hemañ.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Dilemel "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Dilemel a ra da viken ar profil "{0}" asambles gant e holl zegas-soñjoù ha rummadoù. Ne c'haller ket dizober an dra-se.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Termenañ ur PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Cheñch ar PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Lemel ar PIN kuit</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Dibabit ur PIN a 4 sifr. Ret e vo deoc'h evit digeriñ ar profil-mañ.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Skrivit ho PIN red, goude dibabit unan nevez.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Skrivit ho PIN red evit lazhañ ar prenn.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN red</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN nevez a 4 sifr</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Adskrivañ ar PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Adskrivañ ar PIN nevez</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN red direizh. Esaeit en-dro.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>N'eo ket heñvel an daou PIN.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>Ar PIN a zo ur skramm prevezded evit mirout ouzh ar re wallzoujus, n'eo ket ur surentez start.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>An holl</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Klask skeudennoù</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Skeudenn ebet n'eo klotañ.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Tud</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Familh ha kefridioù</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Loened</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Faltazi ha fent</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Boued</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natur</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sportoù ha dudi</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Traoù</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Skol</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Labour</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Yec'hed</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Ti</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Arc'hant</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Beaj</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Pidiadennoù</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sportoù</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Dibabit ur skeudenn</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Skeudennoù</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Ho skeudenn deoc'h…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Ho skeudenn deoc'h</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Implijout ur PNG pe JPG eus hoc'h urzhiataer</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Lizherenn hepken</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Diskouez al lizherenn liv e plas ur skeudenn</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>N'eus ket bet gallet lenn ar restr-se evel ur skeudenn PNG pe JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Piv a implij Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Dibabit ho profil evit kenderc'hel</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Ouzhpennañ ur profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Implijet da ziwezhañ</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Gwarezet gant ur PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Kemmañ pe dilemel</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Distro d'ar profil red (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Dibrennañ</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Skrivit ho PIN a 4 sifr</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Skrivit PIN ar profil-mañ evit e gemmañ pe e zilemel</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN direizh. Esaeit en-dro.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Neuz</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Danvez an arload</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Dibabit Sklaer, Teñval, pe heuilhit arventennoù Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Danvez</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Sklaer</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Teñval</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Reizhiad</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Yezh</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Dibabit ar yezh a vo diskouezet Remindr ganti. Ar c'hemm a sav diouzhtu.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Yezh</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Troidigezhioù skoazellet gant ar machin eo; degemeret e vez mat ar reizhadennoù.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Kinnig ur reizhadenn</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Troet gant ar machin</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Skoazellañ d'an troidigezh</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Yezh: {0}. Pouezit evit cheñch.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Kevreet evel {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Mont d'ur profil all, pe cheñch anv, liv ha skeudenn ar profil-mañ.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Cheñch skeudenn</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Cheñch profil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Prenn PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Prenn PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Ur PIN a 4 sifr a vir ouzh ar re wallzoujus da vont er profil-mañ. Ur skramm prevezded eo, n'eo ket ur surentez start.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Skoazell ha prederiadennoù</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Kavet ho peus ur gudenn pe un ideen?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>An danevelloù a zigor war GitHub gant ho stumm Remindr ha Windows hepken. Netra all n'eo kaset.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Danevell ur gudenn</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Kinnig ur ganfas</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Digeriñ ar renkell istor</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Diwar-benn</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Aotre-implijout {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Gwelout war GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Rebuzadurioù tredeoc'h</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Un dra bennak a zo aet a-dreuz: {0}
+
+Detaloù a zo bet enrollet e %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Detaloù a zo bet enrollet e %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Donemat e Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Pouezit war un touchenn pe klikit evit kregiñ</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Kregiñ</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Adlenn an degemer</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Kefluniañ Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Araokadur ar c'hefluniañ</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Pazenn {0} diwar {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>War-lerc'h</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Lakaat a-gostez</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Dibabit ho yezh</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>An arload a gemm yezh diouzhtu. Gallout a rit cheñch en Arventennoù pa fell deoc'h.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Klask yezhoù</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Yezh ebet n'eo klotañ.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Dibabit ho neuz</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Sklaer, Teñval, pe heuilhit arventennoù Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Ho profil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Ouzhpennit ho anv, ul liv hag ur skeudenn.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Ouzhpennañ ur PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Diret. Ur PIN a 4 sifr a gadarn prevezded ar profil-mañ.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Pare eo pep tra, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Gallout a rit cheñch kement-se en Arventennoù diwezhatoc'h.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Kregiñ da implijout Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Ouzhpennañ ma c'hentañ degas-soñj</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Skol</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Labour</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Personel</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Petra zo nevez</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Diwezhatoc'h</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Lakaat ar stumm-mañ a-gostez</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Esaeañ en-dro</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>O wiriekaat ar pellgargadur…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Ne glote ket ar pellgargadur gant e somm kontrolliñ, setu eo bet dilamet ha n'eo bet staliet netra.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>N'eus ket bet gallet pellgargañ ar hizivadenn. Esaeit en-dro diwezhatoc'h, mar plij.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Hizivadennoù</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Gwiriañ an hizivadennoù pa grog Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Kevreañ a ra ouzh GitHub hepken evit keñveriañ niverennoù ar stummoù; netra diwar ho penn n'eo kaset.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Gwiriañ an hizivadennoù</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>O wiriañ…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Hizivaet · gwiriet da {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} hegerz</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>N'eus ket bet gallet gwiriañ an hizivadennoù</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Un hizivadenn a zo hegerz</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · {1} zo ganeoc'h</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Hizivaat</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Pellgargañ… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Nullañ</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Prest da staliañ</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Adloc'hañ ha hizivaat</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>A-benn 1 devezh</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>A-benn 1 eur</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Bremañ</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Da ober c'hoazh</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Echu eo an astal</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - diwezhat</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Echuiñ</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Astalañ</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Serriñ</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 munutenn</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 eur</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Warc'hoazh</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Kemennadenn arnod</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Un skouer eo, setu ne ra netra e vouton. Ouzhpennit un degas-soñj, goude kasit un arnod en-dro evit esaeañ anezho.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Kemennadennoù</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Kas ur gemennadenn arnod</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Diskouez a ra ur gemennadenn evit ho tegas-soñj nesañ evit ma c'hallit esaeañ ar boutonioù.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Kas un arnod</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Digeriñ</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Ouzhpennañ prim</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Kuitaat</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr a ya war-raok en takad kemennadennoù</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Ho tegas-soñjoù a gendalc'ho da vezañ kaset deoc'h. Implijit an arlun el lec'h-se evit digeriñ pe kuitaat.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Chom o tiwezhañ en takad kemennadennoù pa serran ar prenestr</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>An degas-soñjoù a gendalc'ho da vezañ kaset pa vez serret ar prenestr. Lazhit evit kuitaat pa vez serret.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Loc'hañ Remindr pa gevrean</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Loc'hañ a ra didrouz en takad kemennadennoù evit ma kendalc'ho ho tegas-soñjoù da vezañ kaset deoc'h. Lazhit evit e loc'hañ hoc'h-unan.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr a zo o ya dija met ne respont ket. M'emañ o serriñ, gortozit un taol ha klaskit en-dro; anez echuit anezhañ e Merour an traoù-labour.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Pouezus</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Diwezhat</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} da ober hiziv</value>
+  </data>
+  <data name="Tray_TooltipDue_Two" xml:space="preserve">
+    <value>Remindr · {0} da ober hiziv</value>
+  </data>
+  <data name="Tray_TooltipDue_Few" xml:space="preserve">
+    <value>Remindr · {0} da ober hiziv</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} da ober hiziv</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Petra zo nevez e Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Komprenet</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Petra zo nevez er stumm-mañ</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Degas-soñjoù a zeu d'ho kavout</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Kemennadennoù Windows gant boutonioù Echuiñ, Astalañ ha Serriñ. Astalañ evit 5 munutenn, un eur, pe betek warc'hoazh.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Pouezus a dalv e vez heñchet</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>An degas-soñjoù pouezus a gemenn deoc'h un devezh hag un eur a-raok, goude bep 10 munutenn betek ma vo graet un dra bennak.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Chom a ra o ya didrouz</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Serrit ar prenestr ha Remindr a chom en takad kemennadennoù, ha n'ehan ket ar c'hemennoù da zont. Digerit pe kuitait anezhañ dre an arlun.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Loc'hañ gant Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Enaouit en Arventennoù ha Remindr a loc'h kuzhet en takad kemennadennoù pa gevreit.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Ar c'hartennoù a sav, ar c'hlikoù a zidamall, an deizlevr a riklañ hag ar pajennoù goullo a neuñv. Gant fiñvadurioù Windows lazhet e chom pep tra difiñv.</value>
+  </data>
+</root>

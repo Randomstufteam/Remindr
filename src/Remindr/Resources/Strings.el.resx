@@ -798,108 +798,147 @@
     <value>Επανεκκίνηση και ενημέρωση</value>
   </data>
   <data name="Toast_Heading_Pre1Day" xml:space="preserve">
-    <value>In 1 day</value>
+    <value>Σε 1 ημέρα</value>
   </data>
   <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
-    <value>In 1 hour</value>
+    <value>Σε 1 ώρα</value>
   </data>
   <data name="Toast_Heading_AtTime" xml:space="preserve">
-    <value>Now</value>
+    <value>Τώρα</value>
   </data>
   <data name="Toast_Heading_Nag" xml:space="preserve">
-    <value>Still to do</value>
+    <value>Εκκρεμεί ακόμη</value>
   </data>
   <data name="Toast_Heading_Snooze" xml:space="preserve">
-    <value>Snooze is up</value>
+    <value>Η αναβολή έληξε</value>
   </data>
   <data name="Toast_HeadingOverdue" xml:space="preserve">
-    <value>{0} - overdue</value>
+    <value>{0} - εκπρόθεσμο</value>
   </data>
   <data name="Toast_Complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>Ολοκλήρωση</value>
   </data>
   <data name="Toast_Snooze" xml:space="preserve">
-    <value>Snooze</value>
+    <value>Αναβολή</value>
   </data>
   <data name="Toast_Dismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Παράβλεψη</value>
   </data>
   <data name="Toast_Snooze5" xml:space="preserve">
-    <value>5 minutes</value>
+    <value>5 λεπτά</value>
   </data>
   <data name="Toast_Snooze60" xml:space="preserve">
-    <value>1 hour</value>
+    <value>1 ώρα</value>
   </data>
   <data name="Toast_SnoozeTomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
+    <value>Αύριο</value>
   </data>
   <data name="Toast_TestTitle" xml:space="preserve">
-    <value>Test notification</value>
+    <value>Δοκιμαστική ειδοποίηση</value>
   </data>
   <data name="Toast_TestNotes" xml:space="preserve">
-    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <value>Αυτό είναι ένα δείγμα, οπότε τα κουμπιά του δεν κάνουν τίποτα. Προσθέστε μια υπενθύμιση και στείλτε ξανά δοκιμή για να τα δοκιμάσετε.</value>
   </data>
   <data name="Settings_Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>Ειδοποιήσεις</value>
   </data>
   <data name="Settings_TestToast_Title" xml:space="preserve">
-    <value>Send a test notification</value>
+    <value>Αποστολή δοκιμαστικής ειδοποίησης</value>
   </data>
   <data name="Settings_TestToast_Desc" xml:space="preserve">
-    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <value>Εμφανίζει μια ειδοποίηση για την επόμενη υπενθύμισή σας, ώστε να δοκιμάσετε τα κουμπιά.</value>
   </data>
   <data name="Settings_TestToast_Button" xml:space="preserve">
-    <value>Send test</value>
+    <value>Αποστολή δοκιμής</value>
   </data>
   <data name="Tray_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>Άνοιγμα</value>
   </data>
   <data name="Tray_QuickAdd" xml:space="preserve">
-    <value>Quick Add</value>
+    <value>Γρήγορη προσθήκη</value>
   </data>
   <data name="Tray_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>Έξοδος</value>
   </data>
   <data name="Tray_StillRunningTitle" xml:space="preserve">
-    <value>Remindr is still running in the tray</value>
+    <value>Το Remindr εξακολουθεί να εκτελείται στην περιοχή ειδοποιήσεων</value>
   </data>
   <data name="Tray_StillRunningBody" xml:space="preserve">
-    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+    <value>Οι υπενθυμίσεις σας θα συνεχίσουν να σας ειδοποιούν. Χρησιμοποιήστε το εικονίδιο της περιοχής ειδοποιήσεων για άνοιγμα ή έξοδο.</value>
   </data>
   <data name="Settings_CloseToTray_Title" xml:space="preserve">
-    <value>Keep running in the tray when I close the window</value>
+    <value>Συνέχιση εκτέλεσης στην περιοχή ειδοποιήσεων όταν κλείνω το παράθυρο</value>
   </data>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
-    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+    <value>Οι υπενθυμίσεις συνεχίζουν να σας ειδοποιούν με κλειστό το παράθυρο. Απενεργοποιήστε το για έξοδο κατά το κλείσιμο.</value>
   </data>
   <data name="Settings_StartWithWindows_Title" xml:space="preserve">
-    <value>Start Remindr when I sign in</value>
+    <value>Εκκίνηση του Remindr όταν συνδέομαι</value>
   </data>
   <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
-    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+    <value>Ξεκινά αθόρυβα στην περιοχή ειδοποιήσεων, ώστε οι υπενθυμίσεις σας να συνεχίσουν να σας ειδοποιούν. Απενεργοποιήστε το για να το ξεκινάτε εσείς.</value>
   </data>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
-    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+    <value>Το Remindr εκτελείται ήδη αλλά δεν αποκρίνεται. Αν κλείνει, περιμένετε λίγο και δοκιμάστε ξανά· διαφορετικά τερματίστε το από τη Διαχείριση εργασιών.</value>
   </data>
   <data name="Toast_AttrImportant" xml:space="preserve">
-    <value>Important</value>
+    <value>Σημαντικό</value>
   </data>
   <data name="Toast_AttrOverdue" xml:space="preserve">
-    <value>Overdue</value>
+    <value>Εκπρόθεσμο</value>
   </data>
   <data name="Tray_TooltipDue_One" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} λήγει σήμερα</value>
   </data>
   <data name="Tray_TooltipDue_Other" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} λήγουν σήμερα</value>
   </data>
   <data name="WhatsNew_Title" xml:space="preserve">
-    <value>What's new in Remindr {0}</value>
+    <value>Τι νέο υπάρχει στο Remindr {0}</value>
   </data>
   <data name="WhatsNew_GotIt" xml:space="preserve">
-    <value>Got it</value>
+    <value>Κατάλαβα</value>
   </data>
   <data name="WhatsNew_Open" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>Τι νέο υπάρχει σε αυτήν την έκδοση</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Υπενθυμίσεις που σας βρίσκουν</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Ειδοποιήσεις των Windows με κουμπιά Ολοκλήρωση, Αναβολή και Παράβλεψη. Αναβάλετε για 5 λεπτά, μία ώρα ή μέχρι αύριο.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Σημαντικό σημαίνει ότι επιμένει</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Οι σημαντικές υπενθυμίσεις σας ειδοποιούν μία ημέρα και μία ώρα νωρίτερα και μετά κάθε 10 λεπτά μέχρι να ενεργήσετε.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Συνεχίζει αθόρυβα</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Κλείστε το παράθυρο και το Remindr παραμένει στην περιοχή ειδοποιήσεων, ώστε οι ειδοποιήσεις να φτάνουν. Ανοίξτε το ή κλείστε το από το εικονίδιο.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Ξεκινά με τα Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Ενεργοποιήστε το στις Ρυθμίσεις και το Remindr ξεκινά κρυφά στην περιοχή ειδοποιήσεων όταν συνδέεστε.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Οι κάρτες ανασηκώνονται, τα τικ αναπηδούν, το ημερολόγιο γλιστρά και οι κενές σελίδες αιωρούνται. Με απενεργοποιημένα τα κινούμενα εφέ των Windows, όλα μένουν ακίνητα.</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Αυτόματη μετάφραση</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Βοηθήστε στη μετάφραση</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Γλώσσα: {0}. Πατήστε για αλλαγή.</value>
   </data>
 </root>

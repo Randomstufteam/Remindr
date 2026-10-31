@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Shto</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Mbrapa</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Anulo</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Krijo</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Fshi</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Ndrysho</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Joaktiv</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Ruaj</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Sot</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titulli</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Shënime</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Kategoria</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Figura</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>E rëndësishme</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Sot</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalendari</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Të gjitha kujtesat</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profili</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Cilësimet</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Ndrysho profilin</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Mbyll ose hap shiritin anësor</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Ndërro shiritin anësor</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Mirëmëngjes</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Mirëmëngjes, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Mirëdita</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Mirëdita, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Mirëmbrëma</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Mirëmbrëma, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Asgjë për sot</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Kujtesat për sot do të shfaqen këtu.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Kujtesë e re</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Kujtesë e re (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Të vonuara</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Sot</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Nesër</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Të përfunduara</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Gjithë ditën</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Përfundo: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Shëno si të rëndësishme</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Ndrysho kujtesën</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Fshi kujtesën</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} të hapura, {1} të përfunduara</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Ende pa kujtesa</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Shto kujtesën e parë dhe ajo do të shfaqet këtu, e grupuar sipas datës.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Kujtesë e re (gjendje e zbrazët)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Kujtesat e përfunduara</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Muaji</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Java</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Axhenda</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Pamja mujore</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Pamja javore</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Pamja e axhendës</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>E mëparshme</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Tjetra</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Shko te sot</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Kujtesë e re në ditën e zgjedhur</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Asgjë e planifikuar për këtë ditë.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Asgjë në pritje</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Nuk ka kujtesa në {0} ditët e ardhshme.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Kujtesë e re (axhendë e zbrazët)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Rrjeti i muajit. Tastet me shigjeta ndryshojnë ditën e zgjedhur, Enter shton një kujtesë.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Sot · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Nesër · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} ditët e ardhshme nga {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Pa kujtesa</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} kujtesë</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} kujtesa</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, e rëndësishme</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>pa kujtesa</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} kujtesë</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} kujtesa</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Kujtesë pa kategori</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Kujtesë me kategori</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Kujtesë e re</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Ndrysho kujtesën</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Çfarë duhet të mbash mend?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Opsionale</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Shfaq një shenjë të kuqe ! që të dallohet.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Pa figurë</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Shto figurë</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Figura: {0}. Ndrysho figurën</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Shkruaj një titull.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Titulli mund të ketë më së shumti {0} shkronja.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Zgjidh një datë.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Shkruaj një orë si {0}, ose aktivizo Gjithë ditën.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Të fshihet kujtesa?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" do të fshihet përgjithmonë. Kjo nuk mund të zhbëhet.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Asnjë</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Profil i ri</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Ndrysho profilin</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Ndrysho figurën</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Emri</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Emri i profilit</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Ngjyra</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Shkronja e avatarit</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (opsional)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Mbaj PIN-in aktual</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Shkruaj një emër.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Emri mund të ketë më së shumti {0} shkronja.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Shkruaj vetëm një shkronjë për avatarin.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN duhet të ketë saktësisht 4 shifra.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Ky profil nuk mund të fshihet</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Duhet të ekzistojë të paktën një profil. Krijo fillimisht një profil tjetër nëse dëshiron ta fshish këtë.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Të fshihet „{0}“?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Kjo fshin përgjithmonë profilin „{0}“ bashkë me të gjitha kujtesat dhe kategoritë e tij. Kjo nuk mund të zhbëhet.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Vendos PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Ndrysho PIN-in</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Hiq PIN-in</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Zgjidh një PIN me 4 shifra. Do të të duhet për të hapur këtë profil.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Shkruaj PIN-in aktual, pastaj zgjidh një të ri.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Shkruaj PIN-in aktual për të çaktivizuar kyçjen.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN aktual</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN i ri me 4 shifra</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Përsërit PIN-in</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Përsërit PIN-in e ri</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN aktual i pasaktë. Provo përsëri.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Dy PIN-et nuk përputhen.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN është një ekran privatësie për të mbajtur larg kureshtarët, jo siguri e fortë.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Të gjitha</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Kërko figura</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Asnjë figurë nuk përputhet.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Njerëz</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Familja dhe rolet</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Kafshë</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantazi dhe argëtim</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Ushqim</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natyra</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sport dhe hobi</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Objekte</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Shkolla</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Puna</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Shëndeti</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Shtëpia</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Paratë</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Udhëtime</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Festime</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Zgjidh një figurë</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Figura</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Figura jote…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Figura jote</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Përdor një PNG ose JPG nga kompjuteri yt</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Vetëm inicialja</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Shfaq shkronjën me ngjyrë në vend të figurës</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Ky skedar nuk mund të lexohej si figurë PNG ose JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Kush po përdor Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Zgjidh profilin tënd për të vazhduar</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Shto profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Përdorur së fundi</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>E mbrojtur me PIN</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Ndrysho ose fshi</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Kthehu te profili aktual (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Zhbllokoje</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Shkruaj PIN-in me 4 shifra</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Shkruaj PIN-in e këtij profili për ta ndryshuar ose fshirë</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN i pasaktë. Provo përsëri.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Pamja</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Tema e aplikacionit</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Zgjidh të Çelët, të Errët, ose ndiq cilësimin e Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>E çelët</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>E errët</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistemi</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Gjuha</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Zgjidh gjuhën në të cilën shfaqet Remindr. Ndryshimi zbatohet menjëherë.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Gjuha</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Përkthimet janë ndihmuar nga makina; korrigjimet janë të mirëpritura.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Sugjero një korrigjim</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Përkthim automatik</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Ndihmo në përkthim</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Gjuha: {0}. Shtyp për ta ndryshuar.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profili</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Hyrë si {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Kalo te një profil tjetër, ose ndrysho emrin, ngjyrën dhe figurën e këtij profili.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Ndrysho figurën</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Ndrysho profilin</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Kyçja me PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Kyçja me PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>Një PIN me 4 shifra i mban larg kureshtarët nga ky profil. Është ekran privatësie, jo siguri e fortë.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Ndihmë dhe komente</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Gjete një problem ose ke një ide?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Raportet hapen në GitHub me vetëm versionin tënd të Remindr dhe Windows të plotësuar. Asgjë tjetër nuk dërgohet.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Raporto një gabim</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Sugjero një veçori</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Hap dosjen e regjistrave</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Rreth</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Licenca {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Shiko në GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Njoftime të palëve të treta</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Diçka shkoi keq: {0}
+
+Detajet u ruajtën në %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Detajet u ruajtën në %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Mirë se vini në Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Shtyp çdo tast ose kliko për të filluar</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Fillo</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Luaj përsëri mirëseardhjen</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Konfiguro Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Përparimi i konfigurimit</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Hapi {0} nga {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Vazhdo</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Kapërce</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Zgjidh gjuhën tënde</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>Aplikacioni ndryshon menjëherë. Mund ta ndryshosh kurdo te Cilësimet.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Kërko gjuhë</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Asnjë gjuhë nuk përputhet.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Zgjidh pamjen tënde</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>E çelët, e errët, ose ndiq cilësimin e Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Profili yt</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Shto emrin, një ngjyrë dhe një figurë.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Të shtohet një PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Opsionale. Një PIN me 4 shifra e mban këtë profil privat.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Gjithçka gati, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Mund t'i ndryshosh të gjitha këto më vonë te Cilësimet.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Fillo të përdorësh Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Shto kujtesën time të parë</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Shkolla</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Puna</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Personale</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Çfarë ka të re</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Më vonë</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Kapërce këtë version</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Provo përsëri</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Po kontrollohet shkarkimi…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Shkarkimi nuk përputhej me shumën e tij kontrolluese, ndaj u fshi dhe asgjë nuk u instalua.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Përditësimi nuk mund të shkarkohej. Provo përsëri më vonë.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Përditësime</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Kontrollo për përditësime kur niset Remindr</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Kontakton vetëm GitHub për të krahasuar numrat e versioneve; asgjë për ty nuk dërgohet.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Kontrollo për përditësime</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Po kontrollohet…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>I përditësuar · kontrolluar {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} është i disponueshëm</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Nuk u kontrollua dot për përditësime</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Përditësim i disponueshëm</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · ti ke {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Përditëso</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Po shkarkohet… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Anulo</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Gati për instalim</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Rinis dhe përditëso</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Pas 1 dite</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Pas 1 ore</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Tani</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Ende për t'u bërë</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Shtyrja mbaroi</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - e vonuar</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Përfundo</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Shtyje</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Hiqe</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 minuta</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 orë</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Nesër</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Njoftim provë</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Ky është një shembull, ndaj butonat e tij nuk bëjnë asgjë. Shto një kujtesë, pastaj dërgo përsëri një provë për t'i provuar.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Njoftimet</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Dërgo një njoftim provë</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Shfaq një njoftim për kujtesën tënde të radhës që të mund t'i provosh butonat.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Dërgo provën</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Hap</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Shto shpejt</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr po vazhdon të punojë në zonën e njoftimeve</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Kujtesat e tua do të vazhdojnë të të njoftojnë. Përdor ikonën në zonën e njoftimeve për të hapur ose për të dalë.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Vazhdo të punosh në zonën e njoftimeve kur e mbyll dritaren</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Kujtesat vazhdojnë të të njoftojnë ndërsa dritarja është e mbyllur. Çaktivizo për të dalë kur e mbyll.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Nise Remindr kur hyj në sistem</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Niset në heshtje në zonën e njoftimeve që kujtesat e tua të vazhdojnë të të njoftojnë. Çaktivizo për ta nisur vetë.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr po punon tashmë, por nuk përgjigjet. Nëse po mbyllet, prit pak dhe provo përsëri; përndryshe mbylle te Task Manager.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>E rëndësishme</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>E vonuar</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} për sot</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} për sot</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Çfarë ka të re në Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>E kuptova</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Çfarë ka të re në këtë version</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Kujtesa që të gjejnë</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Njoftime të Windows me butonat Përfundo, Shtyje dhe Hiqe. Shtyje për 5 minuta, një orë ose deri nesër.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>E rëndësishme do të thotë se të kujton vazhdimisht</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Kujtesat e rëndësishme të njoftojnë një ditë dhe një orë më parë, pastaj çdo 10 minuta derisa t'i kryesh.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Vazhdon në heshtje</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Mbylle dritaren dhe Remindr mbetet në zonën e njoftimeve, kështu që njoftimet vazhdojnë të vijnë. Hape ose mbylle nga ikona.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Niset me Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Aktivizoje te Cilësimet dhe Remindr niset i fshehur në zonën e njoftimeve kur hyn në sistem.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kartat ngrihen, shenjat kërcejnë, kalendari rrëshqet dhe faqet e zbrazëta pluskojnë. Me animacionet e Windows të çaktivizuara, gjithçka qëndron e palëvizur.</value>
+  </data>
+</root>

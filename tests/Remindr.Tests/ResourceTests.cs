@@ -65,14 +65,14 @@ public class ResxParityTests
     public void NeutralFile_PluralFamiliesHaveAnOtherForm()
     {
         var neutral = SourceTree.ReadResx(Path.Combine(ResourcesDir, "Strings.resx"));
-        var bases = neutral.Keys.Where(k => Regex.IsMatch(k, "_(Zero|One|Two|Few|Many)$")).Select(k => k[..k.LastIndexOf('_')]).Distinct();
+        var bases = neutral.Keys.Where(k => Regex.IsMatch(k, "_(Zero|ZeroForm|One|Two|Few|Many)$")).Select(k => k[..k.LastIndexOf('_')]).Distinct();
         Assert.All(bases, b => Assert.Contains(b + "_Other", neutral.Keys));
     }
 
     /// <summary>English text an extra plural key (e.g. X_Few) is checked against: X_Other, or null if it isn't a plural variant.</summary>
     static string? EnglishFor(IReadOnlyDictionary<string, string> neutral, string key)
     {
-        foreach (var suffix in new[] { "_Two", "_Few", "_Many", "_Zero" })
+        foreach (var suffix in new[] { "_Two", "_Few", "_Many", "_Zero", "_ZeroForm" })
             if (key.EndsWith(suffix, StringComparison.Ordinal)
                 && neutral.TryGetValue(key[..^suffix.Length] + "_Other", out var english))
                 return english;

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Yokkati</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Delluseet</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Neenal</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Sos</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Far</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Soppi</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Fey</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Ubbeeku</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Denc</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Tey</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Tur</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Bés</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Waxtu</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Bind</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Xeet</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Nataal</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Am solo</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Tey</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalàndarye</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Fàttali yépp</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Sàmm</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Soppi profil</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>Tëj walla ubbi tànki wet gi</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Soppi tànki wet gi</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Jàmm nga fanaan</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Jàmm nga fanaan, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Jàmm nga yendoo</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Jàmm nga yendoo, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Jàmm nga fanaan ak guddi</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Jàmm nga fanaan ak guddi, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Amul dara tey</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>Fàttali yu tey dinañu fa feeñ.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Fàttali bu bees</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Fàttali bu bees (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Dafa wàcc</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Tey</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Suba</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Mu mat</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Bés bépp</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Mottali: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Def ko am solo</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Soppi fàttali bi</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Far fàttali bi</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} ubbi, {1} mat</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Amul fàttali léegi</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Yokkati sa fàttali bu njëkk te dina fa feeñ, ñu xàmmee ko ci bés.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Fàttali bu bees (amul dara)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Fàttali yu mat</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Weer</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Ayubés</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Pexe</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Wone weer wi</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Wone ayubés bi</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Wone pexe bi</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Bi jiitu</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Bi toftal</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Dem ci tey</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Fàttali bu bees ci bés bi nga tànn</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>Amul dara ci bés bii.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Amul dara di ñów</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Amul fàttali ci {0} fan yi ñów.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Fàttali bu bees (pexe amul dara)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Tabal bu weer wi. Sagaj yi dañuy soppi bés bi nga tànn, Enter day yokk fàttali.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Tey · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Suba · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>{0} fan yi ñów, tàmbali ci {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Amul fàttali</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>Fàttali: {0}</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>Fàttali: {0}</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, am solo</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>amul fàttali</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>fàttali: {0}</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>fàttali: {0}</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Fàttali bu amul xeet</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Fàttali bu am xeet</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Fàttali bu bees</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Soppi fàttali bi</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Lan nga bëgg di fàttaliku?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Du lëmm</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Day wone ab màndarga bu xonq ! ngir mu leer.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Amul nataal</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Yokk nataal</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Nataal: {0}. Soppi nataal bi</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Bindal tur.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Tur bi warul weesu {0} araf.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Tànnal bés.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Bindal waxtu ni {0}, walla ubbil Bés bépp.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Far fàttali bi?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" dina far ba noppi. Loolu mënu koo delloo.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Amul</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Profil bu bees</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Soppi profil bi</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Soppi nataal bi</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Tur</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Tur wi profil bi</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Melo</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Araf bu nataal bi</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (du lëmm)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>Bàyyil PIN bi am</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Bindal tur.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Tur wi warul weesu {0} araf.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Bindal benn araf rekk ngir nataal bi.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>PIN war na am 4 yoon rekk.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Mënuñu far profil bii</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>War na am benn profil bu mat. Sosal beneen profil ba pare bu bëggee far bii.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>Far "{0}"?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Loolu dina far ba noppi profil "{0}" ak fàttali yépp ak xeet yépp yu ci nekk. Loolu mënu koo delloo.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>Def PIN</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>Soppi PIN</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>Dindi PIN</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Tànn PIN bu am 4 yoon. Dinga ko soxla ngir ubbi profil bii.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Bindal PIN bi nga am léegi, ba noppi tànn bu bees.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Bindal PIN bi nga am léegi ngir tëj mbetel bi.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>PIN bi am léegi</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>PIN bu bees bu am 4 yoon</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>Defaraat PIN</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Defaraat PIN bu bees</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>PIN bi am léegi du moom. Jéemaatal.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>Ñaari PIN yi bokkuñu.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>PIN mooy ab kàdd ngir tege nëpp ñi bëggul gis, du kaaraange bu am doole.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Yépp</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Wut nataal</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Amul nataal bu méngook.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Nit ñi</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Njaboot ak yëf</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Jur gi</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Mébét ak ñaay</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Ñam</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Àdduna</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Fo ak yëf yi nga bëgg</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Yëf</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Daara</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Liggéey</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Wér-gu-yaram</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Kër</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Xaalis</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Tukki</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Màggal</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Fo</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Tànn nataal</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Nataal</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Sa nataal…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Sa nataal</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>Jëfandikoo PNG walla JPG bu nekk ci sa kompiyuteer</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Araf rekk</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Wone araf bu am melo ci bërëbu nataal bi</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Mënuñu jàng dosye booba ni nataal PNG walla JPG.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Kan mooy jëfandikoo Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Tànn sa profil ngir wéy</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Yokk profil</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Bi mujj</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>PIN a koy sàmm</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Soppi walla far</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Dellu ci profil bi nekk (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Ubbi</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Bindal sa PIN bu am 4 yoon</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Bindal PIN bu profil bii ngir soppi ko walla far ko</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>PIN bi du moom. Jéemaatal.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Melokaan</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>Melokaanu app bi</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Tànnal Leer, Lëndëm, walla toppal sàmm yu Windows.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Melokaan</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Leer</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Lëndëm</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Làkk</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Tànnal làkk wi Remindr di feeñ. Soppi bi dafay dox ci saa si.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Làkk</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>Tekki yi dañu leen defal ak masin; jëfandikoo ñu koy jubal.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Joxeel jubluwaay</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Masin a ko tekki</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Dimbali ci tekki</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Làkk: {0}. Bësal ngir soppi.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Dugg nga ni {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Dem ci beneen profil, walla soppi tur, melo ak nataalu profil bii.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Soppi nataal bi</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Soppi profil</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>Mbetelu PIN</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>Mbetelu PIN: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>PIN bu am 4 yoon day tege nëpp ñi bëggul gis profil bii. Kàdd la, du kaaraange bu am doole.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Wallu ak xalaat</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Gis nga jafe-jafe walla am nga xalaat?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>Yëgle yi dañuy ubbiku ci GitHub, ak rekk sa version Remindr ak Windows. Dara yeneen du dem.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Yëglel jafe-jafe</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Joxeel xalaat</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Ubbi dosiyeb sootaan yi</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Ci app bi</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Lisàns {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Gis ko ci GitHub</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Yëgle yu ñeneen</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Am na lu jàllul: {0}
+
+Temp yi dañu leen denc ci %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+Temp yi dañu leen denc ci %AppData%\Remindr\error.log</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Dalal ak jàmm ci Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Bësal benn tuuti walla bësal ngir tàmbali</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Tàmbali</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Defaraat dalal ak jàmm</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Defar Remindr</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Fu defar bi egg</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Jëmm {0} ci {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Toftal</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Jàll</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Tànn sa làkk</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>App bi dafay soppiku ci saa si. Mën nga ko soppi saa su ne ci Sàmm.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Wut làkk</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Amul làkk bu méngook.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Tànn sa melokaan</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Leer, Lëndëm, walla toppal sàmm yu Windows.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Sa profil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Yokk sa tur, melo ak nataal.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>Yokk PIN?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Du lëmm. PIN bu am 4 yoon day def profil bii nekk sutura.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Yépp pare na, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Mën nga soppi yooyu yépp ca ginnaaw ci Sàmm.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Tàmbali jëfandikoo Remindr</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Yokk sama fàttali bu njëkk</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Daara</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Liggéey</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Sama bopp</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Lu bees</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Ginnaaw</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Jàll version bii</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Jéemaatal</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Seetlu ci lu ñu yeb…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Lu ñu yeb bi bokkul ak màndargam kaaraange bi, kon farees na ko te dara teguwul.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Mënuñu yeb yeesal bi. Jéemaatal ginnaaw.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Yeesal</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Seetlu yeesal bu Remindr tàmbalee</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Dafay jokkoo ak GitHub rekk ngir jàppale limu version yi; dara ci yaw du dem.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Seetlu yeesal</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Di seetlu…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Yees na · seetlu nañu ko {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} am na</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Mënuñu seetlu yeesal</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Am na yeesal</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · yaw am nga {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Yeesal</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Di yeb… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Neenal</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Pare na ngir teg</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Tàmbalaat te yeesal</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>Ci benn fan</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>Ci benn waxtu</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Léegi</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Dafa des ngir def</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>Waxtu wi nga yeexal jeex na</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - dafa wàcc</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Mottali</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Yeexal</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Bàyyi</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 simili</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 waxtu</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Suba</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Yëgle bu test</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Tektal rekk la, kon butoŋ yi du dara. Yokk fàttali te yónnee test beneen yoon ngir jéem leen.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Yëgle</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>Yónnee yëgle bu test</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Day wone yëglu sa fàttali bu toftal ngir nga jéem butoŋ yi.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Yónnee test</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Ubbi</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Yokk ak gaaw</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Genn</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr day dox ci tray bi</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Sa fàttali yi dinañu la wéy di yëglu. Jëfandikool tray bi ngir ubbi walla genn.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Wéy di dox ci tray bi bu ma tëjee palaŋ bi</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>Fàttali yi dinañu wéy di la yëglu bu palaŋ bi tëjee. Fey ngir genn bu ko tëjee.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Tàmbali Remindr bu ma duggee</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Dafay tàmbalee ci tay ci tray bi ngir sa fàttali yi wéy di la yëglu. Fey ngir nga tàmbali ko bu bopp.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr dafa ngi dox waaye tontu na. Su ñu ngi koy tëj, xaar tuuti te jéemaat; lu ko moy, taxawalal ko ci Task Manager.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Am solo</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Dafa wàcc</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} tey</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} tey</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Lu bees ci Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Ma ko dégg</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Lu bees ci version bii</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Fàttali yu la di gis</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Yëglu Windows yu am butoŋ yu Mottali, Yeexal ak Bàyyi. Yeexal 5 simili, benn waxtu, walla ba suba.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Am solo noonu mu di la sax</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Fàttali yu am solo dinañu la yëglu benn fan ak benn waxtu ci kanam, noonu ci ndaw 10 simili ba nga defe ko.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Day dox ci tay</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Tëj palaŋ bi te Remindr des ci tray bi, kon yëgle yi di ñów. Ubbi ko walla genn ci tray bi.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Dafay tàmbalee ak Windows</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Ubbil ko ci Sàmm te Remindr dina tàmbalee ci tray bi ci nëbb bu nga duggee.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kaart yi dañuy kawe, màndarga yi dañuy tëb, kalàndarye bi dafay rëkk te xëtt yu amul dara di naaw. Bu ñu tàggee ay mbëggeel yu Windows, lépp dina taxaw.</value>
+  </data>
+</root>

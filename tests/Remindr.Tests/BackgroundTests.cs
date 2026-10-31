@@ -58,6 +58,9 @@ public class BackgroundTests
     // ---- real mutex and pipe, with a unique name per test ----
     private static string NewId() => "test." + Guid.NewGuid().ToString("N");
 
+    /// <summary>Timeouts for pipe tests that are about content, not timing.</summary>
+    private static readonly TimeSpan Patient = TimeSpan.FromSeconds(30);
+
     [Fact]
     public void OnlyTheFirstProcessBecomesPrimary()
     {
@@ -119,13 +122,14 @@ public class BackgroundTests
     [Fact]
     public async Task Pipe_DeliversArgs_AndWaitsForTheHandler()
     {
+        // Not a timing test: long timeouts on both sides, so a busy machine (the whole suite runs in parallel) cannot fail it.
         var id = NewId();
-        using var si = new SingleInstance(id);
+        using var si = new SingleInstance(id, Patient);
         string[]? got = null;
         si.StartServer(async args => { await Task.Delay(50); got = args; });
         using var client = new SingleInstance(id);
 
-        Assert.True(await client.SendToRunningAsync(new[] { "--minimized" }, TimeSpan.FromSeconds(5)));
+        Assert.True(await client.SendToRunningAsync(new[] { "--minimized" }, Patient));
         Assert.Equal(new[] { "--minimized" }, got);   // the "ok" only comes after the handler finished
     }
 
@@ -154,16 +158,16 @@ public class BackgroundTests
     public async Task Pipe_ServerSurvivesGarbage()
     {
         var id = NewId();
-        using var si = new SingleInstance(id);
+        using var si = new SingleInstance(id, Patient);
         var count = 0;
         si.StartServer(_ => { Interlocked.Increment(ref count); return Task.CompletedTask; });
         using (var raw = new System.IO.Pipes.NamedPipeClientStream(".", "Remindr.App." + id, System.IO.Pipes.PipeDirection.Out, System.IO.Pipes.PipeOptions.CurrentUserOnly))
         {
-            raw.Connect(2000);
+            raw.Connect((int)Patient.TotalMilliseconds);
             raw.Write(System.Text.Encoding.UTF8.GetBytes("garbage\n"));
         }
         using var client = new SingleInstance(id);
-        Assert.True(await client.SendToRunningAsync(new[] { "a" }, TimeSpan.FromSeconds(5)));
+        Assert.True(await client.SendToRunningAsync(new[] { "a" }, Patient));
         Assert.Equal(1, count);
     }
 

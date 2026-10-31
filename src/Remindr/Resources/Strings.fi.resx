@@ -798,108 +798,147 @@ Tiedot tallennettiin tiedostoon %AppData%\Remindr\error.log</value>
     <value>Käynnistä uudelleen ja päivitä</value>
   </data>
   <data name="Toast_Heading_Pre1Day" xml:space="preserve">
-    <value>In 1 day</value>
+    <value>1 päivän päästä</value>
   </data>
   <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
-    <value>In 1 hour</value>
+    <value>1 tunnin päästä</value>
   </data>
   <data name="Toast_Heading_AtTime" xml:space="preserve">
-    <value>Now</value>
+    <value>Nyt</value>
   </data>
   <data name="Toast_Heading_Nag" xml:space="preserve">
-    <value>Still to do</value>
+    <value>Vielä tekemättä</value>
   </data>
   <data name="Toast_Heading_Snooze" xml:space="preserve">
-    <value>Snooze is up</value>
+    <value>Torkku on ohi</value>
   </data>
   <data name="Toast_HeadingOverdue" xml:space="preserve">
-    <value>{0} - overdue</value>
+    <value>{0} - myöhässä</value>
   </data>
   <data name="Toast_Complete" xml:space="preserve">
-    <value>Complete</value>
+    <value>Merkitse valmiiksi</value>
   </data>
   <data name="Toast_Snooze" xml:space="preserve">
-    <value>Snooze</value>
+    <value>Torkku</value>
   </data>
   <data name="Toast_Dismiss" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Hylkää</value>
   </data>
   <data name="Toast_Snooze5" xml:space="preserve">
-    <value>5 minutes</value>
+    <value>5 minuuttia</value>
   </data>
   <data name="Toast_Snooze60" xml:space="preserve">
-    <value>1 hour</value>
+    <value>1 tunti</value>
   </data>
   <data name="Toast_SnoozeTomorrow" xml:space="preserve">
-    <value>Tomorrow</value>
+    <value>Huomenna</value>
   </data>
   <data name="Toast_TestTitle" xml:space="preserve">
-    <value>Test notification</value>
+    <value>Testi-ilmoitus</value>
   </data>
   <data name="Toast_TestNotes" xml:space="preserve">
-    <value>This is a sample, so its buttons do nothing. Add a reminder, then send a test again to try them.</value>
+    <value>Tämä on esimerkki, joten sen painikkeet eivät tee mitään. Lisää muistutus ja lähetä testi uudelleen kokeillaksesi niitä.</value>
   </data>
   <data name="Settings_Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>Ilmoitukset</value>
   </data>
   <data name="Settings_TestToast_Title" xml:space="preserve">
-    <value>Send a test notification</value>
+    <value>Lähetä testi-ilmoitus</value>
   </data>
   <data name="Settings_TestToast_Desc" xml:space="preserve">
-    <value>Shows a notification for your next reminder so you can try the buttons.</value>
+    <value>Näyttää ilmoituksen seuraavasta muistutuksestasi, jotta voit kokeilla painikkeita.</value>
   </data>
   <data name="Settings_TestToast_Button" xml:space="preserve">
-    <value>Send test</value>
+    <value>Lähetä testi</value>
   </data>
   <data name="Tray_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>Avaa</value>
   </data>
   <data name="Tray_QuickAdd" xml:space="preserve">
-    <value>Quick Add</value>
+    <value>Pikalisäys</value>
   </data>
   <data name="Tray_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>Lopeta</value>
   </data>
   <data name="Tray_StillRunningTitle" xml:space="preserve">
-    <value>Remindr is still running in the tray</value>
+    <value>Remindr on edelleen käynnissä ilmoitusalueella</value>
   </data>
   <data name="Tray_StillRunningBody" xml:space="preserve">
-    <value>Your reminders will keep alerting you. Use the tray icon to open or quit.</value>
+    <value>Muistutuksesi hälyttävät edelleen. Avaa tai lopeta sovellus ilmoitusalueen kuvakkeesta.</value>
   </data>
   <data name="Settings_CloseToTray_Title" xml:space="preserve">
-    <value>Keep running in the tray when I close the window</value>
+    <value>Jatka toimintaa ilmoitusalueella, kun suljen ikkunan</value>
   </data>
   <data name="Settings_CloseToTray_Desc" xml:space="preserve">
-    <value>Reminders keep alerting you while the window is closed. Turn off to exit when you close it.</value>
+    <value>Muistutukset hälyttävät, vaikka ikkuna on suljettu. Poista käytöstä, jos haluat sovelluksen sulkeutuvan ikkunan mukana.</value>
   </data>
   <data name="Settings_StartWithWindows_Title" xml:space="preserve">
-    <value>Start Remindr when I sign in</value>
+    <value>Käynnistä Remindr kirjautuessani</value>
   </data>
   <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
-    <value>Starts quietly in the tray so your reminders keep alerting you. Turn off to start it yourself.</value>
+    <value>Käynnistyy hiljaa ilmoitusalueelle, jotta muistutuksesi hälyttävät edelleen. Poista käytöstä, jos haluat käynnistää sen itse.</value>
   </data>
   <data name="App_AlreadyRunningStuck" xml:space="preserve">
-    <value>Remindr is already running but is not responding. If it is closing, wait a moment and try again; otherwise end it in Task Manager.</value>
+    <value>Remindr on jo käynnissä, mutta ei vastaa. Jos se on sulkeutumassa, odota hetki ja yritä uudelleen; muuten lopeta se Tehtävienhallinnassa.</value>
   </data>
   <data name="Toast_AttrImportant" xml:space="preserve">
-    <value>Important</value>
+    <value>Tärkeä</value>
   </data>
   <data name="Toast_AttrOverdue" xml:space="preserve">
-    <value>Overdue</value>
+    <value>Myöhässä</value>
   </data>
   <data name="Tray_TooltipDue_One" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} erääntyy tänään</value>
   </data>
   <data name="Tray_TooltipDue_Other" xml:space="preserve">
-    <value>Remindr · {0} due today</value>
+    <value>Remindr · {0} erääntyy tänään</value>
   </data>
   <data name="WhatsNew_Title" xml:space="preserve">
-    <value>What's new in Remindr {0}</value>
+    <value>Remindr {0}: uudet ominaisuudet</value>
   </data>
   <data name="WhatsNew_GotIt" xml:space="preserve">
-    <value>Got it</value>
+    <value>Selvä</value>
   </data>
   <data name="WhatsNew_Open" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>Tämän version uudet ominaisuudet</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Muistutukset, jotka tavoittavat sinut</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-ilmoitukset, joissa on painikkeet Merkitse valmiiksi, Torkku ja Hylkää. Torkuta 5 minuuttia, tunti tai huomiseen.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Tärkeä tarkoittaa, että se muistuttaa sinnikkäästi</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Tärkeät muistutukset hälyttävät päivää ja tuntia aiemmin ja sitten 10 minuutin välein, kunnes toimit.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Pysyy hiljaa käynnissä</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Sulje ikkuna, niin Remindr jää ilmoitusalueelle ja hälytykset tulevat edelleen. Avaa tai lopeta se ilmoitusalueen kuvakkeesta.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Käynnistyy Windowsin mukana</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Ota käyttöön Asetuksissa, niin Remindr käynnistyy piilossa ilmoitusalueelle, kun kirjaudut sisään.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kortit nousevat, rastit hypähtävät, kalenteri liukuu ja tyhjät sivut leijuvat. Kun Windowsin animaatiot on poistettu käytöstä, kaikki pysyy paikallaan.</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Konekäännetty</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Auta kääntämään</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Kieli: {0}. Vaihda painamalla.</value>
   </data>
 </root>

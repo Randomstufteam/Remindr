@@ -43,3 +43,7 @@ Remindr is built on these open-source packages. Each is used under its own licen
 | [Microsoft.Extensions.Hosting](https://github.com/dotnet/runtime) | MIT |
 | [.NET runtime](https://github.com/dotnet/runtime) (bundled in the installer) | MIT |
 
+
+## Unicode CLDR plural rules (language plural categories)
+
+`tools/cldr/plurals.xml` is an unmodified copy of `common/supplemental/plurals.xml` from Unicode CLDR 46.1. `tools/gen-plurals.ps1` turns it into `src/Remindr/Services/PluralRules.Generated.cs`. CLDR data is Copyright (c) 1991-2024 Unicode, Inc. and is distributed under the Unicode License v3 (SPDX: Unicode-3.0, https://www.unicode.org/license.html).

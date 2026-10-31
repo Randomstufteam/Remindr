@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Dobei donn</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Zeröck</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Afbreche</value>
+  </data>
+  <data name="Common_Create" xml:space="preserve">
+    <value>Aanlääje</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Fottschmieße</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Ändere</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Uß</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Aan</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Sichere</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Hück</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Common_Time" xml:space="preserve">
+    <value>Zigg</value>
+  </data>
+  <data name="Common_Notes" xml:space="preserve">
+    <value>Notize</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Rubrik</value>
+  </data>
+  <data name="Common_Picture" xml:space="preserve">
+    <value>Beld</value>
+  </data>
+  <data name="Common_Important" xml:space="preserve">
+    <value>Wichtich</value>
+  </data>
+  <data name="Fmt_MonthYear" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Fmt_MonthDay" xml:space="preserve">
+    <value>d. MMM</value>
+  </data>
+  <data name="Fmt_MonthDayYear" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthStart" xml:space="preserve">
+    <value>%d.</value>
+  </data>
+  <data name="Fmt_WeekRangeSameMonthEnd" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthStart" xml:space="preserve">
+    <value>d. MMM</value>
+  </data>
+  <data name="Fmt_WeekRangeCrossMonthEnd" xml:space="preserve">
+    <value>d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDay" xml:space="preserve">
+    <value>dddd, d. MMM</value>
+  </data>
+  <data name="Fmt_WeekdayMonthDayYear" xml:space="preserve">
+    <value>dddd, d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDay" xml:space="preserve">
+    <value>ddd, d. MMM</value>
+  </data>
+  <data name="Fmt_ShortWeekdayMonthDayYear" xml:space="preserve">
+    <value>ddd, d. MMM yyyy</value>
+  </data>
+  <data name="Fmt_FullDate" xml:space="preserve">
+    <value>dddd, d. MMMM</value>
+  </data>
+  <data name="Fmt_FullDateYear" xml:space="preserve">
+    <value>dddd, d. MMMM yyyy</value>
+  </data>
+  <data name="Nav_Today" xml:space="preserve">
+    <value>Hück</value>
+  </data>
+  <data name="Nav_Calendar" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Nav_AllReminders" xml:space="preserve">
+    <value>Alle Erinnerunge</value>
+  </data>
+  <data name="Nav_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Nav_Settings" xml:space="preserve">
+    <value>Enstellunge</value>
+  </data>
+  <data name="Nav_SwitchProfile" xml:space="preserve">
+    <value>Profil wähßele</value>
+  </data>
+  <data name="Nav_ToggleTooltip" xml:space="preserve">
+    <value>De Sigg-Leß zosammeklappe udder ußklappe</value>
+  </data>
+  <data name="Nav_ToggleName" xml:space="preserve">
+    <value>Sigg-Leß öm- un ömschalte</value>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Joode Morje</value>
+  </data>
+  <data name="Today_Greeting_MorningNamed" xml:space="preserve">
+    <value>Joode Morje, {0}</value>
+  </data>
+  <data name="Today_Greeting_Afternoon" xml:space="preserve">
+    <value>Joode Daach</value>
+  </data>
+  <data name="Today_Greeting_AfternoonNamed" xml:space="preserve">
+    <value>Joode Daach, {0}</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Joden Ovend</value>
+  </data>
+  <data name="Today_Greeting_EveningNamed" xml:space="preserve">
+    <value>Joden Ovend, {0}</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Hück es nix fällich</value>
+  </data>
+  <data name="Today_Empty_Text" xml:space="preserve">
+    <value>De Erinnerunge för hück zeije sich hee.</value>
+  </data>
+  <data name="Reminder_New" xml:space="preserve">
+    <value>Neu Erinnerung</value>
+  </data>
+  <data name="Reminder_NewTooltip" xml:space="preserve">
+    <value>Neu Erinnerung (Ctrl+N)</value>
+  </data>
+  <data name="Group_Overdue" xml:space="preserve">
+    <value>Övverfällich</value>
+  </data>
+  <data name="Group_Today" xml:space="preserve">
+    <value>Hück</value>
+  </data>
+  <data name="Group_Tomorrow" xml:space="preserve">
+    <value>Morje</value>
+  </data>
+  <data name="Group_Completed" xml:space="preserve">
+    <value>Fäädich</value>
+  </data>
+  <data name="Time_AllDay" xml:space="preserve">
+    <value>Ene janze Daach</value>
+  </data>
+  <data name="Card_DateAndTime" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Card_CompleteName" xml:space="preserve">
+    <value>Fäädich maache: {0}</value>
+  </data>
+  <data name="Card_ImportantTooltip" xml:space="preserve">
+    <value>Als wichtich markeere</value>
+  </data>
+  <data name="Card_EditName" xml:space="preserve">
+    <value>Erinnerung ändere</value>
+  </data>
+  <data name="Card_DeleteName" xml:space="preserve">
+    <value>Erinnerung fottschmieße</value>
+  </data>
+  <data name="AllReminders_Summary" xml:space="preserve">
+    <value>{0} offe, {1} fäädich</value>
+  </data>
+  <data name="AllReminders_Empty_Title" xml:space="preserve">
+    <value>Noch kein Erinnerunge</value>
+  </data>
+  <data name="AllReminders_Empty_Text" xml:space="preserve">
+    <value>Donn en ding eetste Erinnerung dobei, un se zeisch sich hee, noh Datum zosammejefass.</value>
+  </data>
+  <data name="AllReminders_NewEmptyName" xml:space="preserve">
+    <value>Neu Erinnerung (leere Zostand)</value>
+  </data>
+  <data name="AllReminders_CompletedName" xml:space="preserve">
+    <value>Fäädich Erinnerunge</value>
+  </data>
+  <data name="Calendar_Month" xml:space="preserve">
+    <value>Mond</value>
+  </data>
+  <data name="Calendar_Week" xml:space="preserve">
+    <value>Woch</value>
+  </data>
+  <data name="Calendar_Agenda" xml:space="preserve">
+    <value>Termin-Övversich</value>
+  </data>
+  <data name="Calendar_MonthViewName" xml:space="preserve">
+    <value>Mondsaansich</value>
+  </data>
+  <data name="Calendar_WeekViewName" xml:space="preserve">
+    <value>Wochesaansich</value>
+  </data>
+  <data name="Calendar_AgendaViewName" xml:space="preserve">
+    <value>Termin-Övversich</value>
+  </data>
+  <data name="Calendar_Previous" xml:space="preserve">
+    <value>Zeröck</value>
+  </data>
+  <data name="Calendar_Next" xml:space="preserve">
+    <value>Wigger</value>
+  </data>
+  <data name="Calendar_GoToToday" xml:space="preserve">
+    <value>Op hück springe</value>
+  </data>
+  <data name="Calendar_NewOnDayTooltip" xml:space="preserve">
+    <value>Neu Erinnerung am ußjesöhkte Daach</value>
+  </data>
+  <data name="Calendar_DayEmpty" xml:space="preserve">
+    <value>För dä Daach es nix vörjenomme.</value>
+  </data>
+  <data name="Calendar_AgendaEmptyTitle" xml:space="preserve">
+    <value>Nix en Sich</value>
+  </data>
+  <data name="Calendar_AgendaEmpty" xml:space="preserve">
+    <value>Kein Erinnerunge en de nöhkste {0} Dääch.</value>
+  </data>
+  <data name="Calendar_NewEmptyAgendaName" xml:space="preserve">
+    <value>Neu Erinnerung (leere Termin-Övversich)</value>
+  </data>
+  <data name="Calendar_MonthGridName" xml:space="preserve">
+    <value>Mondsjitter. Mit de Pielduste wähßelt der ußjesöhkte Daach, mem Enter määhß De en Erinnerung dobei.</value>
+  </data>
+  <data name="Calendar_TodayHeading" xml:space="preserve">
+    <value>Hück · {0}</value>
+  </data>
+  <data name="Calendar_TomorrowHeading" xml:space="preserve">
+    <value>Morje · {0}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossYear" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeCrossMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_WeekRangeSameMonth" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Calendar_AgendaTitle" xml:space="preserve">
+    <value>De nöhkste {0} Dääch av {1}</value>
+  </data>
+  <data name="Calendar_DayCaption_Zero" xml:space="preserve">
+    <value>Kein Erinnerunge</value>
+  </data>
+  <data name="Calendar_DayCaption_One" xml:space="preserve">
+    <value>{0} Erinnerung</value>
+  </data>
+  <data name="Calendar_DayCaption_Other" xml:space="preserve">
+    <value>{0} Erinnerunge</value>
+  </data>
+  <data name="Calendar_DayAutomation" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Calendar_DayAutomationImportant" xml:space="preserve">
+    <value>{0}, {1}, wichtich</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Zero" xml:space="preserve">
+    <value>kein Erinnerunge</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_One" xml:space="preserve">
+    <value>{0} Erinnerung</value>
+  </data>
+  <data name="Calendar_DayAutomationCount_Other" xml:space="preserve">
+    <value>{0} Erinnerunge</value>
+  </data>
+  <data name="Calendar_DotUncategorized" xml:space="preserve">
+    <value>Erinnerung ohne Rubrik</value>
+  </data>
+  <data name="Calendar_DotCategorized" xml:space="preserve">
+    <value>Erinnerung met Rubrik</value>
+  </data>
+  <data name="Reminder_Dialog_NewTitle" xml:space="preserve">
+    <value>Neu Erinnerung</value>
+  </data>
+  <data name="Reminder_Dialog_EditTitle" xml:space="preserve">
+    <value>Erinnerung ändere</value>
+  </data>
+  <data name="Reminder_TitlePlaceholder" xml:space="preserve">
+    <value>Wat moß De Der merke?</value>
+  </data>
+  <data name="Reminder_NotesPlaceholder" xml:space="preserve">
+    <value>Kann mer, moß ävver nit</value>
+  </data>
+  <data name="Reminder_ImportantDesc" xml:space="preserve">
+    <value>Zeisch e rude !-Zeiche, domet et opfällt.</value>
+  </data>
+  <data name="Reminder_NoPicture" xml:space="preserve">
+    <value>Kei Beld</value>
+  </data>
+  <data name="Reminder_PictureAdd" xml:space="preserve">
+    <value>Beld dobei donn</value>
+  </data>
+  <data name="Reminder_PictureChange" xml:space="preserve">
+    <value>Beld: {0}. Beld ändere</value>
+  </data>
+  <data name="Reminder_Error_Title" xml:space="preserve">
+    <value>Jif ene Titel en.</value>
+  </data>
+  <data name="Reminder_Error_TitleLength" xml:space="preserve">
+    <value>Der Titel darf högstens {0} Zeiche han.</value>
+  </data>
+  <data name="Reminder_Error_Date" xml:space="preserve">
+    <value>Söhk e Datum uß.</value>
+  </data>
+  <data name="Reminder_Error_Time" xml:space="preserve">
+    <value>Jif en Zigg wie {0} en, udder schalt Ene janze Daach aan.</value>
+  </data>
+  <data name="Reminder_Delete_Title" xml:space="preserve">
+    <value>Erinnerung fottschmieße?</value>
+  </data>
+  <data name="Reminder_Delete_Message" xml:space="preserve">
+    <value>"{0}" weed för emmer fottjeschmesse. Dat kann mer nit rückjängich maache.</value>
+  </data>
+  <data name="Category_None" xml:space="preserve">
+    <value>Kein</value>
+  </data>
+  <data name="Profile_Dialog_NewTitle" xml:space="preserve">
+    <value>Neu Profil</value>
+  </data>
+  <data name="Profile_Dialog_EditTitle" xml:space="preserve">
+    <value>Profil ändere</value>
+  </data>
+  <data name="Profile_Dialog_ChangePictureTitle" xml:space="preserve">
+    <value>Beld ändere</value>
+  </data>
+  <data name="Profile_Name" xml:space="preserve">
+    <value>Nahme</value>
+  </data>
+  <data name="Profile_NamePlaceholder" xml:space="preserve">
+    <value>Profilnahme</value>
+  </data>
+  <data name="Profile_Color" xml:space="preserve">
+    <value>Farv</value>
+  </data>
+  <data name="Profile_AvatarLetter" xml:space="preserve">
+    <value>Avatar-Boochstav</value>
+  </data>
+  <data name="Profile_PinOptional" xml:space="preserve">
+    <value>PIN (kann mer, moß ävver nit)</value>
+  </data>
+  <data name="Profile_KeepPin" xml:space="preserve">
+    <value>De PIN, di jetz es, behalde</value>
+  </data>
+  <data name="Profile_Error_Name" xml:space="preserve">
+    <value>Jif ene Nahme en.</value>
+  </data>
+  <data name="Profile_Error_NameLength" xml:space="preserve">
+    <value>Der Nahme darf högstens {0} Zeiche han.</value>
+  </data>
+  <data name="Profile_Error_Initial" xml:space="preserve">
+    <value>Jif nur eine Boochstav för der Avatar en.</value>
+  </data>
+  <data name="Profile_Error_PinDigits" xml:space="preserve">
+    <value>Di PIN moß jenau 4 Zeffere han.</value>
+  </data>
+  <data name="Profile_Delete_LastTitle" xml:space="preserve">
+    <value>Dat Profil kann nit fottjeschmesse wääde</value>
+  </data>
+  <data name="Profile_Delete_LastMessage" xml:space="preserve">
+    <value>Et moß winnigstens ei Profil jevve. Läg eetz e ander Profil aan, wann De dat hee fottschmieße wells.</value>
+  </data>
+  <data name="Profile_Delete_Title" xml:space="preserve">
+    <value>"{0}" fottschmieße?</value>
+  </data>
+  <data name="Profile_Delete_Message" xml:space="preserve">
+    <value>Dat schmiss dat Profil "{0}" för emmer fott, zesammen met all singe Erinnerunge un Rubrike. Dat kann mer nit rückjängich maache.</value>
+  </data>
+  <data name="Pin_Set" xml:space="preserve">
+    <value>PIN fasslääje</value>
+  </data>
+  <data name="Pin_Change" xml:space="preserve">
+    <value>PIN ändere</value>
+  </data>
+  <data name="Pin_Remove" xml:space="preserve">
+    <value>PIN fottnemme</value>
+  </data>
+  <data name="Pin_Intro_Set" xml:space="preserve">
+    <value>Söhk en PIN met 4 Zeffere uß. De bruchs se, öm dat Profil opzemaache.</value>
+  </data>
+  <data name="Pin_Intro_Change" xml:space="preserve">
+    <value>Jif di jetzije PIN en un söhk dann en neue uß.</value>
+  </data>
+  <data name="Pin_Intro_Remove" xml:space="preserve">
+    <value>Jif di jetzije PIN en, öm de Sperr ußzeschalte.</value>
+  </data>
+  <data name="Pin_Current" xml:space="preserve">
+    <value>Jetzije PIN</value>
+  </data>
+  <data name="Pin_New" xml:space="preserve">
+    <value>Neue PIN met 4 Zeffere</value>
+  </data>
+  <data name="Pin_Repeat" xml:space="preserve">
+    <value>PIN noch ens enjävve</value>
+  </data>
+  <data name="Pin_RepeatNew" xml:space="preserve">
+    <value>Neue PIN noch ens enjävve</value>
+  </data>
+  <data name="Pin_Error_Current" xml:space="preserve">
+    <value>Di jetzije PIN es verkeht. Probeer et noch ens.</value>
+  </data>
+  <data name="Pin_Error_Mismatch" xml:space="preserve">
+    <value>De zwei PINs passe nit zosamme.</value>
+  </data>
+  <data name="Pin_Note" xml:space="preserve">
+    <value>De PIN es ene Sichschotz jäjen neujierije Blecke, kein staak Sicherheit.</value>
+  </data>
+  <data name="Pictures_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Pictures_Search" xml:space="preserve">
+    <value>Belder söhke</value>
+  </data>
+  <data name="Pictures_NoMatch" xml:space="preserve">
+    <value>Kei Beld passt.</value>
+  </data>
+  <data name="PictureCat_People" xml:space="preserve">
+    <value>Lück</value>
+  </data>
+  <data name="PictureCat_FamilyAndRoles" xml:space="preserve">
+    <value>Famillich un Rolle</value>
+  </data>
+  <data name="PictureCat_Animals" xml:space="preserve">
+    <value>Deere</value>
+  </data>
+  <data name="PictureCat_FantasyAndFun" xml:space="preserve">
+    <value>Fantasie un Spass</value>
+  </data>
+  <data name="PictureCat_Food" xml:space="preserve">
+    <value>Ääße</value>
+  </data>
+  <data name="PictureCat_Nature" xml:space="preserve">
+    <value>Natur</value>
+  </data>
+  <data name="PictureCat_SportsAndHobbies" xml:space="preserve">
+    <value>Sport un Hobbys</value>
+  </data>
+  <data name="PictureCat_Objects" xml:space="preserve">
+    <value>Saache</value>
+  </data>
+  <data name="PictureCat_School" xml:space="preserve">
+    <value>Schull</value>
+  </data>
+  <data name="PictureCat_Work" xml:space="preserve">
+    <value>Arbeit</value>
+  </data>
+  <data name="PictureCat_Health" xml:space="preserve">
+    <value>Jesundheit</value>
+  </data>
+  <data name="PictureCat_Home" xml:space="preserve">
+    <value>Zohuus</value>
+  </data>
+  <data name="PictureCat_Money" xml:space="preserve">
+    <value>Jeld</value>
+  </data>
+  <data name="PictureCat_Travel" xml:space="preserve">
+    <value>Reis</value>
+  </data>
+  <data name="PictureCat_Celebrations" xml:space="preserve">
+    <value>Fiere</value>
+  </data>
+  <data name="PictureCat_Sports" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Avatar_ChooseTitle" xml:space="preserve">
+    <value>Beld uß söhke</value>
+  </data>
+  <data name="Avatar_FileFilterName" xml:space="preserve">
+    <value>Belder</value>
+  </data>
+  <data name="Avatar_Upload" xml:space="preserve">
+    <value>Eije Beld…</value>
+  </data>
+  <data name="Avatar_UploadName" xml:space="preserve">
+    <value>Eije Beld</value>
+  </data>
+  <data name="Avatar_UploadTooltip" xml:space="preserve">
+    <value>E PNG udder JPG vun dingem Computer nemme</value>
+  </data>
+  <data name="Avatar_InitialOnly" xml:space="preserve">
+    <value>Nur der Aanfangsboochstav</value>
+  </data>
+  <data name="Avatar_InitialTooltip" xml:space="preserve">
+    <value>Der färvije Boochstav statt enem Beld zeije</value>
+  </data>
+  <data name="Avatar_Error_Read" xml:space="preserve">
+    <value>Die Datei leeß sich nit als PNG- udder JPG-Beld läse.</value>
+  </data>
+  <data name="Picker_Heading" xml:space="preserve">
+    <value>Wä nemmp Remindr?</value>
+  </data>
+  <data name="Picker_Subheading" xml:space="preserve">
+    <value>Söhk ding Profil uß, öm wigger ze maache</value>
+  </data>
+  <data name="Picker_Add" xml:space="preserve">
+    <value>Profil dobei donn</value>
+  </data>
+  <data name="Picker_LastUsed" xml:space="preserve">
+    <value>Zeletz jebruch</value>
+  </data>
+  <data name="Picker_LockTooltip" xml:space="preserve">
+    <value>Met ener PIN jeschötz</value>
+  </data>
+  <data name="Picker_MoreName" xml:space="preserve">
+    <value>Ändere udder fottschmieße</value>
+  </data>
+  <data name="Picker_BackTooltip" xml:space="preserve">
+    <value>Zeröck zum jetzije Profil (Esc)</value>
+  </data>
+  <data name="Picker_PinName" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Picker_Unlock" xml:space="preserve">
+    <value>Fräijävve</value>
+  </data>
+  <data name="Picker_PinPromptEnter" xml:space="preserve">
+    <value>Jif ding PIN met 4 Zeffere en</value>
+  </data>
+  <data name="Picker_PinPromptManage" xml:space="preserve">
+    <value>Jif de PIN vun dämm Profil en, öm et ze ändere udder fottzeschmieße</value>
+  </data>
+  <data name="Picker_PinWrong" xml:space="preserve">
+    <value>Verkehte PIN. Probeer et noch ens.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Ussinn</value>
+  </data>
+  <data name="Settings_Theme_Title" xml:space="preserve">
+    <value>App-Desing</value>
+  </data>
+  <data name="Settings_Theme_Desc" xml:space="preserve">
+    <value>Söhk Hell, Donkel uß, udder follisch de Windows-Enstellung.</value>
+  </data>
+  <data name="Settings_Theme_Name" xml:space="preserve">
+    <value>Desing</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Hell</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Donkel</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="Settings_Language_Title" xml:space="preserve">
+    <value>Sproch</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Söhk de Sproch uß, en däm Remindr aanjezeisch weed. Di Änderung jilt sofort.</value>
+  </data>
+  <data name="Settings_Language_Name" xml:space="preserve">
+    <value>Sproch</value>
+  </data>
+  <data name="Settings_Language_Note" xml:space="preserve">
+    <value>De Övversetzunge sin met Hölp vun Maschinne jemaht woode; Korrekture sin willkumme.</value>
+  </data>
+  <data name="Settings_Language_ReportLink" xml:space="preserve">
+    <value>Korrektur vörschlage</value>
+  </data>
+  <data name="Language_MachineTranslated" xml:space="preserve">
+    <value>Maschinell övversaz</value>
+  </data>
+  <data name="Language_HelpTranslate" xml:space="preserve">
+    <value>Beim Övversetze helfe</value>
+  </data>
+  <data name="Settings_Language_ButtonName" xml:space="preserve">
+    <value>Sproch: {0}. Drök, öm se ze ändere.</value>
+  </data>
+  <data name="Settings_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings_SignedIn" xml:space="preserve">
+    <value>Aanjemeldt als {0}</value>
+  </data>
+  <data name="Settings_Profile_Desc" xml:space="preserve">
+    <value>Wähßel op e ander Profil, udder ändere Nahme, Farv un Beld vun dämm Profil.</value>
+  </data>
+  <data name="Settings_ChangePicture" xml:space="preserve">
+    <value>Beld ändere</value>
+  </data>
+  <data name="Settings_SwitchProfile" xml:space="preserve">
+    <value>Profil wähßele</value>
+  </data>
+  <data name="Settings_PinLock" xml:space="preserve">
+    <value>PIN-Sperr</value>
+  </data>
+  <data name="Settings_PinStatus" xml:space="preserve">
+    <value>PIN-Sperr: {0}</value>
+  </data>
+  <data name="Settings_Pin_Desc" xml:space="preserve">
+    <value>En PIN met 4 Zeffere hält Neujierije vun dämm Profil fott. Se es ene Sichschotz, kein staak Sicherheit.</value>
+  </data>
+  <data name="Settings_Help" xml:space="preserve">
+    <value>Hölp un Rückmeldung</value>
+  </data>
+  <data name="Settings_Help_Title" xml:space="preserve">
+    <value>Ene Fähler jefunge udder en Idee?</value>
+  </data>
+  <data name="Settings_Help_Desc" xml:space="preserve">
+    <value>De Meldunge jonn op GitHub op, nur met diner Remindr- un Windows-Version vörjefüllt. Süß weed nix jeschick.</value>
+  </data>
+  <data name="Settings_ReportBug" xml:space="preserve">
+    <value>Fähler melde</value>
+  </data>
+  <data name="Settings_SuggestFeature" xml:space="preserve">
+    <value>Funktion vörschlage</value>
+  </data>
+  <data name="Settings_OpenLogs" xml:space="preserve">
+    <value>Protokoll-Odner opmaache</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Üvver</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Remindr {0}</value>
+  </data>
+  <data name="Settings_RemindUiVersion" xml:space="preserve">
+    <value>Remind UI {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Lizenz {0}</value>
+  </data>
+  <data name="Settings_ViewGitHub" xml:space="preserve">
+    <value>Op GitHub aanloore</value>
+  </data>
+  <data name="Settings_Notices" xml:space="preserve">
+    <value>Henwiese op Drette</value>
+  </data>
+  <data name="Error_Unhandled" xml:space="preserve">
+    <value>Et es jet scheef jejange: {0}
+
+De Einzelheite sin unger %AppData%\Remindr\error.log jesichert woode</value>
+  </data>
+  <data name="Error_Startup" xml:space="preserve">
+    <value>{0}
+
+De Einzelheite sin unger %AppData%\Remindr\error.log jesichert woode</value>
+  </data>
+  <data name="Welcome_Name" xml:space="preserve">
+    <value>Willkumme bei Remindr</value>
+  </data>
+  <data name="Welcome_Hint" xml:space="preserve">
+    <value>Drök en beliebije Duß udder klick, öm aanzefange</value>
+  </data>
+  <data name="Welcome_GetStarted" xml:space="preserve">
+    <value>Loss jonn</value>
+  </data>
+  <data name="Settings_ReplayWelcome" xml:space="preserve">
+    <value>Willkumme noch ens zeije</value>
+  </data>
+  <data name="Setup_Name" xml:space="preserve">
+    <value>Remindr enreechte</value>
+  </data>
+  <data name="Setup_Progress" xml:space="preserve">
+    <value>Enreechtungsfortschrett</value>
+  </data>
+  <data name="Setup_StepOf" xml:space="preserve">
+    <value>Schrett {0} vun {1}</value>
+  </data>
+  <data name="Setup_Next" xml:space="preserve">
+    <value>Wigger</value>
+  </data>
+  <data name="Setup_Skip" xml:space="preserve">
+    <value>Övverspringe</value>
+  </data>
+  <data name="Setup_Language_Title" xml:space="preserve">
+    <value>Söhk ding Sproch uß</value>
+  </data>
+  <data name="Setup_Language_Desc" xml:space="preserve">
+    <value>De App wähßelt sofort. Do kanns dat jedersigg en de Enstellunge ändere.</value>
+  </data>
+  <data name="Setup_Language_Search" xml:space="preserve">
+    <value>Sproche söhke</value>
+  </data>
+  <data name="Setup_Language_NoMatch" xml:space="preserve">
+    <value>Kei Sproch passt.</value>
+  </data>
+  <data name="Setup_Appearance_Title" xml:space="preserve">
+    <value>Söhk ding Ussinn uß</value>
+  </data>
+  <data name="Setup_Appearance_Desc" xml:space="preserve">
+    <value>Hell, Donkel, udder follisch de Windows-Enstellung.</value>
+  </data>
+  <data name="Setup_Profile_Title" xml:space="preserve">
+    <value>Ding Profil</value>
+  </data>
+  <data name="Setup_Profile_Desc" xml:space="preserve">
+    <value>Donn dinge Nahme, en Farv un e Beld dobei.</value>
+  </data>
+  <data name="Setup_Pin_Title" xml:space="preserve">
+    <value>En PIN dobei donn?</value>
+  </data>
+  <data name="Setup_Pin_Desc" xml:space="preserve">
+    <value>Kann mer, moß ävver nit. En PIN met 4 Zeffere hält dat Profil privat.</value>
+  </data>
+  <data name="Setup_Done_Title" xml:space="preserve">
+    <value>Alles klor, {0}</value>
+  </data>
+  <data name="Setup_Done_Desc" xml:space="preserve">
+    <value>Dat kanns Do speder en de Enstellunge ändere.</value>
+  </data>
+  <data name="Setup_Done_Start" xml:space="preserve">
+    <value>Remindr bruche</value>
+  </data>
+  <data name="Setup_Done_AddFirst" xml:space="preserve">
+    <value>Ming eetste Erinnerung dobei donn</value>
+  </data>
+  <data name="Category_School" xml:space="preserve">
+    <value>Schull</value>
+  </data>
+  <data name="Category_Work" xml:space="preserve">
+    <value>Arbeit</value>
+  </data>
+  <data name="Category_Personal" xml:space="preserve">
+    <value>Privat</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>Wat es neu</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Speder</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Die Version övverspringe</value>
+  </data>
+  <data name="Update_TryAgain" xml:space="preserve">
+    <value>Noch ens probeere</value>
+  </data>
+  <data name="Update_Verifying" xml:space="preserve">
+    <value>Dä Download weed jeprööv…</value>
+  </data>
+  <data name="Update_HashFailed" xml:space="preserve">
+    <value>Dä Download passte nit zo singer Prööfsumm, dröm es hä fottjeschmesse woode un nix installeet woode.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Dat Update leeß sich nit erunger lade. Probeer et speder noch ens.</value>
+  </data>
+  <data name="Settings_Updates" xml:space="preserve">
+    <value>Aktualisierunge</value>
+  </data>
+  <data name="Settings_Update_Title" xml:space="preserve">
+    <value>Beim Start vun Remindr noh Updates söhke</value>
+  </data>
+  <data name="Settings_Update_Privacy" xml:space="preserve">
+    <value>Kontaktiert nur GitHub, öm Versionsnummere ze verjliche; üvver Desch weed nix jeschick.</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Noh Updates söhke</value>
+  </data>
+  <data name="Settings_Update_Checking" xml:space="preserve">
+    <value>Am Prööfe…</value>
+  </data>
+  <data name="Settings_Update_UpToDate" xml:space="preserve">
+    <value>Aktuell · jeprööv {0}</value>
+  </data>
+  <data name="Settings_Update_Available" xml:space="preserve">
+    <value>{0} verfüchbaar</value>
+  </data>
+  <data name="Settings_Update_Failed" xml:space="preserve">
+    <value>Noh Updates söhke es fählschlage</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Update verfüchbaar</value>
+  </data>
+  <data name="Update_Versions" xml:space="preserve">
+    <value>Remindr {0} · do häs {1}</value>
+  </data>
+  <data name="Update_Update" xml:space="preserve">
+    <value>Aktualiseere</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Am Erungerlade… {0}%</value>
+  </data>
+  <data name="Update_Cancel" xml:space="preserve">
+    <value>Afbreche</value>
+  </data>
+  <data name="Update_Ready" xml:space="preserve">
+    <value>Parat zom Installeere</value>
+  </data>
+  <data name="Update_RestartUpdate" xml:space="preserve">
+    <value>Neu starte un aktualiseere</value>
+  </data>
+  <data name="Toast_Heading_Pre1Day" xml:space="preserve">
+    <value>En 1 Daach</value>
+  </data>
+  <data name="Toast_Heading_Pre1Hour" xml:space="preserve">
+    <value>En 1 Stund</value>
+  </data>
+  <data name="Toast_Heading_AtTime" xml:space="preserve">
+    <value>Jetz</value>
+  </data>
+  <data name="Toast_Heading_Nag" xml:space="preserve">
+    <value>Noch ze don</value>
+  </data>
+  <data name="Toast_Heading_Snooze" xml:space="preserve">
+    <value>De Paus es eröm</value>
+  </data>
+  <data name="Toast_HeadingOverdue" xml:space="preserve">
+    <value>{0} - övverfällich</value>
+  </data>
+  <data name="Toast_Complete" xml:space="preserve">
+    <value>Fäädich maache</value>
+  </data>
+  <data name="Toast_Snooze" xml:space="preserve">
+    <value>Speder erinnere</value>
+  </data>
+  <data name="Toast_Dismiss" xml:space="preserve">
+    <value>Zomaache</value>
+  </data>
+  <data name="Toast_Snooze5" xml:space="preserve">
+    <value>5 Minute</value>
+  </data>
+  <data name="Toast_Snooze60" xml:space="preserve">
+    <value>1 Stund</value>
+  </data>
+  <data name="Toast_SnoozeTomorrow" xml:space="preserve">
+    <value>Morje</value>
+  </data>
+  <data name="Toast_TestTitle" xml:space="preserve">
+    <value>Test-Meldung</value>
+  </data>
+  <data name="Toast_TestNotes" xml:space="preserve">
+    <value>Dat es e Beispill, dröm donn de Knöpp nix. Donn en Erinnerung dobei un schick noch ens e Test, öm se uszeprobeere.</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Meldunge</value>
+  </data>
+  <data name="Settings_TestToast_Title" xml:space="preserve">
+    <value>En Test-Meldung schecke</value>
+  </data>
+  <data name="Settings_TestToast_Desc" xml:space="preserve">
+    <value>Zeisch en Meldung för ding nöhkste Erinnerung, dat De de Knöpp usprobeere kanns.</value>
+  </data>
+  <data name="Settings_TestToast_Button" xml:space="preserve">
+    <value>Test schecke</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Opmaache</value>
+  </data>
+  <data name="Tray_QuickAdd" xml:space="preserve">
+    <value>Flöck dobei donn</value>
+  </data>
+  <data name="Tray_Quit" xml:space="preserve">
+    <value>Beände</value>
+  </data>
+  <data name="Tray_StillRunningTitle" xml:space="preserve">
+    <value>Remindr läuf em Meldungsbereich wigger</value>
+  </data>
+  <data name="Tray_StillRunningBody" xml:space="preserve">
+    <value>Ding Erinnerunge melde sich wigger. Nemm et Symbol em Meldungsbereich zom Opmaache udder Beände.</value>
+  </data>
+  <data name="Settings_CloseToTray_Title" xml:space="preserve">
+    <value>Em Meldungsbereich wigger laufe, wann ich et Fenster zomaach</value>
+  </data>
+  <data name="Settings_CloseToTray_Desc" xml:space="preserve">
+    <value>De Erinnerunge melde sich wigger, och wann et Fenster zo es. Schalt uß, öm beim Zomaache ze beände.</value>
+  </data>
+  <data name="Settings_StartWithWindows_Title" xml:space="preserve">
+    <value>Remindr starte, wann ich mich aanmeld</value>
+  </data>
+  <data name="Settings_StartWithWindows_Desc" xml:space="preserve">
+    <value>Fängk still em Meldungsbereich aan, dat sich ding Erinnerunge wigger melde. Schalt uß, öm et selvs ze starte.</value>
+  </data>
+  <data name="App_AlreadyRunningStuck" xml:space="preserve">
+    <value>Remindr läuf ald, reagiert ävver nit. Wann et sich jraad zomaach, waad ene Momang un probeer et noch ens; süß beänd et em Task-Manager.</value>
+  </data>
+  <data name="Toast_AttrImportant" xml:space="preserve">
+    <value>Wichtich</value>
+  </data>
+  <data name="Toast_AttrOverdue" xml:space="preserve">
+    <value>Övverfällich</value>
+  </data>
+  <data name="Tray_TooltipDue_One" xml:space="preserve">
+    <value>Remindr · {0} hück fällich</value>
+  </data>
+  <data name="Tray_TooltipDue_Other" xml:space="preserve">
+    <value>Remindr · {0} hück fällich</value>
+  </data>
+  <data name="WhatsNew_Title" xml:space="preserve">
+    <value>Wat es neu en Remindr {0}</value>
+  </data>
+  <data name="WhatsNew_GotIt" xml:space="preserve">
+    <value>Verstande</value>
+  </data>
+  <data name="WhatsNew_Open" xml:space="preserve">
+    <value>Wat es neu en dä Version</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Title" xml:space="preserve">
+    <value>Erinnerunge, di Desch fenge</value>
+  </data>
+  <data name="WhatsNew_0_4_0_1_Text" xml:space="preserve">
+    <value>Windows-Meldunge met de Knöpp Fäädich maache, Speder erinnere un Zomaache. Speder erinnere en 5 Minute, enere Stund udder bes morje.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Title" xml:space="preserve">
+    <value>Wichtich heiß, et jeiht eim op de Nerve</value>
+  </data>
+  <data name="WhatsNew_0_4_0_2_Text" xml:space="preserve">
+    <value>Wichtije Erinnerunge melde sich ene Daach un en Stund vörher, dann all 10 Minute, bes De jet määhß.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Title" xml:space="preserve">
+    <value>Läuf still wigger</value>
+  </data>
+  <data name="WhatsNew_0_4_0_3_Text" xml:space="preserve">
+    <value>Maach et Fenster zo, un Remindr blivv em Meldungsbereich, su kumme de Meldunge wigger aan. Maach et met däm Symbol op udder beänd et.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Title" xml:space="preserve">
+    <value>Fängk met Windows aan</value>
+  </data>
+  <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve">
+    <value>Schalt et en de Enstellunge aan, un Remindr fängk versteck em Meldungsbereich aan, wann Do desch aanmeldß.</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve">
+    <value>Remind UI 0.4</value>
+  </data>
+  <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
+    <value>Kaate heve sich, Häkche poppe, der Kalender jlitt un leere Sigge schwevve. Wann de Windows-Animatione uß sin, blivv alles still.</value>
+  </data>
+</root>
