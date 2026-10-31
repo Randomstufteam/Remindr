@@ -10,7 +10,7 @@
   <a href="https://randomstufteam.github.io/"><img alt="Website" src="https://img.shields.io/badge/website-randomstufteam.github.io-8A6CFF"></a>
 </p>
 
-**Remindr** is a reminders and calendar app for Windows, built for the whole family. Each person gets their own profile (with an optional PIN), their reminders get a picture, and everything sits in a soft, translucent glass interface we call **Remind UI**. It speaks 176 languages, and your data never leaves your PC.
+<p align="center"><b>Everyone gets their own profile, reminders get a picture, and your data never leaves your PC.</b></p>
 
 <p align="center">
   <a href="https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe"><b>⬇ Download Remindr-Installer.exe</b></a>
@@ -19,12 +19,16 @@
 </p>
 
 > [!WARNING]
-> **Windows will probably warn you when you run the installer.** You may see a blue screen saying **"Windows protected your PC"**. This happens because Remindr is a new app that isn't code-signed yet (signing certificates cost money), not because something is wrong with it.
-> To continue, click **More info**, then **Run anyway**.
-> Want to check the file first? Compare its fingerprint with the `Remindr-Installer.exe.sha256` file on the [release page](https://github.com/Randomstufteam/Remindr/releases/latest):
-> ```powershell
-> Get-FileHash .\Remindr-Installer.exe -Algorithm SHA256
-> ```
+> Windows may show **"Windows protected your PC"** because Remindr isn't code-signed yet. Click **More info**, then **Run anyway**.
+
+## What it does
+
+| | |
+|---|---|
+| 🔔 **Reminders that find you**<br>Windows notifications with Complete, Snooze and Dismiss buttons. | ❗ **Important means it nags**<br>Alerts a day and an hour ahead, then every 10 minutes until you act. |
+| 📌 **Runs quietly in the tray**<br>Close the window and alerts still arrive. It can start with Windows too. | 👨‍👩‍👧 **A profile for everyone**<br>A name, a color, one of 176 pictures and an optional 4-digit PIN. |
+| 🗓️ **Month, Week and Agenda**<br>Colored dots show each day, and 120 pictures label your reminders. | 🌍 **176 languages**<br>Switched live. Many are machine-translated and may be rough. [Help translate](docs/TRANSLATING.md). |
+| 🌗 **Remind UI 0.4**<br>Frosted glass, smoother motion and a What's New tour, in Light, Dark or System theme. | 🔄 **Stays up to date**<br>Checks GitHub for new releases and verifies every download before installing it. |
 
 ## A look inside
 
@@ -37,42 +41,38 @@
   <img src="docs/screenshots/installer.png" alt="The animated Remindr installer" width="49%">
 </p>
 
-## What it does
-
-- 👨‍👩‍👧 **A profile for everyone.** Each person picks a name, a color and one of 176 pictures, and can lock their profile with a 4-digit PIN.
-- 🗓️ **Month, Week and Agenda views.** Colored dots show what's on each day. Click a day to see it, or double-click to add a reminder.
-- 🦷 **Reminders with pictures.** Tag "Dentist" with a tooth and "Math test" with books; there are 120 pictures across School, Work, Health, Home, Food, Money, Travel, Celebrations and Sports.
-- 🔔 **Windows notifications** with Complete, Snooze and Dismiss buttons. Snooze for 5 minutes, an hour, or until tomorrow.
-- ❗ **Important reminders** stand out with a red badge, alert you a day and an hour ahead, then nag every 10 minutes until you act on them.
-- 📌 **Runs quietly in the tray.** Close the window and alerts still arrive, or start Remindr hidden when you sign in to Windows.
-- 👋 **A warm welcome.** The first launch greets you in many languages, then sets you up in five short steps.
-- 🌍 **176 languages** (machine-translated; many unreviewed and may be rough; [help translate](docs/TRANSLATING.md)), switched live without a restart, including full right-to-left layout.
-- 🌗 **Light, Dark or System theme**, with Remind UI 0.4's frosted glass, smoother motion and a What's New tour of each release.
-- 🔄 **Stays up to date.** Remindr checks GitHub for new releases at startup and verifies every download before installing it.
-- 🐞 **Report a bug** straight from Settings.
-
 ## Install
 
 1. Download **[Remindr-Installer.exe](https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe)**.
-2. Run it. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway** (see the warning above for why).
-3. Follow the installer. It installs just for your Windows account, so no admin prompt is needed.
-4. Open **Remindr** from the Start menu.
+2. Run it. It installs just for your Windows account, so no admin prompt is needed.
+3. Open **Remindr** from the Start menu.
 
-Remindr shows up in **Settings > Apps > Installed apps**, where you can uninstall it. Uninstalling keeps your reminders unless you tick **Also remove my data**, and even then they go to the Recycle Bin.
+Want to check the file first? Compare this result with `Remindr-Installer.exe.sha256` on the [release page](https://github.com/Randomstufteam/Remindr/releases/latest):
+
+```powershell
+Get-FileHash .\Remindr-Installer.exe -Algorithm SHA256
+```
+
+To uninstall, use **Settings > Apps > Installed apps**. Your reminders are kept unless you tick **Also remove my data**, and even then they go to the Recycle Bin.
 
 ## Privacy
 
-- Everything is stored on your PC in `%AppData%\Remindr`. Remindr has no account, no cloud and no tracking.
-- The only network request is the optional update check, which asks GitHub's public API for the latest version number and sends nothing about you. You can turn it off in **Settings**.
+- Everything is stored on your PC in `%AppData%\Remindr`, with no account, no cloud and no tracking.
+- The only network request is the optional update check, which sends nothing about you. You can turn it off in **Settings**.
 - Profile PINs are hashed (PBKDF2). A 4-digit PIN is a privacy screen for family members, not strong security.
 
 ## Languages
 
-Remindr lists 176 languages in a searchable picker, from English, Español and 日本語 to Tshivenḓa, Sardu and Чӑвашла.
-
 All translations were machine-assisted. The 144 languages added in v0.4 are tagged **Machine-translated** in the app, and many are unreviewed and may be rough. If something reads oddly, please [suggest a correction](https://github.com/Randomstufteam/Remindr/issues/new?template=translation.yml), or see [how to translate](docs/TRANSLATING.md).
 
-## How it works
+## Roadmap
+
+Recurring reminders, quick add, search, a Today dashboard and an optional, fully offline AI assistant.
+
+## For developers
+
+<details>
+<summary>How it works</summary>
 
 ```mermaid
 flowchart LR
@@ -86,7 +86,10 @@ flowchart LR
 - **Installer:** a small .NET Framework 4.8 setup app (already part of Windows) with the self-contained Remindr app appended as its payload. It installs per user and registers itself in Settings > Apps.
 - **Logic stays UI-free.** Calendar math, localization and update checks are plain classes with unit tests, ready for a future native rewrite.
 
-## Build from source
+</details>
+
+<details>
+<summary>Build from source</summary>
 
 You need Windows and the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
 
@@ -100,19 +103,11 @@ dotnet run --project src/Remindr
 
 To build the installer, run `powershell -File tools\build-installer.ps1`. The output goes to `publish\installer\`.
 
+</details>
+
 ## Report a bug or suggest a feature
 
 Use **Settings > Help & feedback** in the app, or open an [issue](https://github.com/Randomstufteam/Remindr/issues/new/choose). The app fills in only your Remindr version and Windows version, never anything personal.
-
-## Roadmap
-
-These aren't in v0.4 yet:
-
-- Recurring reminders (daily, weekly, monthly, yearly)
-- Quick add ("Math test friday 9am !"), search and category management
-- A Today dashboard with a daily summary
-- An optional, fully offline AI assistant you can talk to
-- Later: a native C++ / WinUI 3 version
 
 ## Credits and license
 
