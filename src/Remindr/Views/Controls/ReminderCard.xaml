@@ -139,7 +139,7 @@
                                 </Border>
                             </WrapPanel>
                             <TextBlock x:Name="NotesText" Text="{Binding Notes}" Style="{StaticResource Caption}" Margin="0,6,0,0"
-                                       TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" MaxHeight="18"
+                                       TextWrapping="NoWrap" TextTrimming="CharacterEllipsis"
                                        Visibility="{Binding HasNotes, Converter={StaticResource BoolToVis}}" />
                         </StackPanel>
 

@@ -217,7 +217,7 @@ public sealed class LocalizationService
         // Resources are read for the language; pseudo is English text run through Pseudo.
         var resourceCulture = CultureFor(pseudo ? EnglishCode : info.Code);
         Code = info.Code;
-        Current = ForceGregorian(FormatCultureFor(resourceCulture));
+        Current = KeepTimesUnambiguous(ForceGregorian(FormatCultureFor(resourceCulture)));
         if (!_applyToProcess) return;
 
         CultureInfo.DefaultThreadCurrentCulture = Current;
@@ -239,6 +239,20 @@ public sealed class LocalizationService
     {
         var sameLanguage = ResolveSupported(_regional.Name) is { } r && string.Equals(r, ResolveSupported(language.Name), StringComparison.Ordinal);
         return sameLanguage && !_regional.IsNeutralCulture ? _regional : language;
+    }
+
+    /// <summary>
+    /// The same culture on the 24-hour clock when its 12-hour pattern has no AM/PM. .NET drops the ICU day period from some patterns
+    /// (zh-Hant "Bh:mm" becomes "h:mm"), so 3:30 PM would show as "3:30" and read back as morning.
+    /// </summary>
+    public static CultureInfo KeepTimesUnambiguous(CultureInfo culture)
+    {
+        var format = culture.DateTimeFormat;
+        if (!format.ShortTimePattern.Contains('h') || format.ShortTimePattern.Contains('t')) return culture;
+        var clone = (CultureInfo)culture.Clone();
+        clone.DateTimeFormat.ShortTimePattern = format.ShortTimePattern.Replace('h', 'H');
+        clone.DateTimeFormat.LongTimePattern = format.LongTimePattern.Replace('h', 'H');
+        return clone;
     }
 
     /// <summary>

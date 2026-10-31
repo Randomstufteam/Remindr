@@ -38,7 +38,7 @@
         <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Focusable="False">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="32,40">
                 <!-- Two word slots on top of each other: the new word settles in while the old one blurs out. -->
-                <Grid x:Name="WordHost" Height="190" MinWidth="420" HorizontalAlignment="Center"
+                <Grid x:Name="WordHost" MinHeight="190" MinWidth="420" HorizontalAlignment="Center"
                       AutomationProperties.LiveSetting="Off">
                     <TextBlock x:Name="WordA" Style="{StaticResource GreetingWord}" AutomationProperties.LiveSetting="Off" />
                     <TextBlock x:Name="WordB" Style="{StaticResource GreetingWord}" AutomationProperties.LiveSetting="Off" />

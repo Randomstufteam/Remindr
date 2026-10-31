@@ -14,10 +14,13 @@ public static class TimeParser
     {
         time = default;
         if (string.IsNullOrWhiteSpace(text)) return false;
-        var s = text.Trim().Replace(".", "");
+        var trimmed = text.Trim();
+        var s = trimmed.Replace(".", "");
         culture ??= CultureInfo.CurrentCulture;
 
         // The culture's own format first ("t" is what the suggestions use), then the lenient English-style ones.
+        // The dots stay for the first try: they can belong to the culture ("9.00" in Finnish, "π.μ." in Greek).
+        if (TimeOnly.TryParseExact(trimmed, "t", culture, DateTimeStyles.AllowWhiteSpaces, out time)) return true;
         if (TimeOnly.TryParseExact(s, "t", culture, DateTimeStyles.AllowWhiteSpaces, out time)) return true;
         if (TimeOnly.TryParseExact(s, Formats, CultureInfo.InvariantCulture, DateTimeStyles.AllowWhiteSpaces, out time)) return true;
         return false;

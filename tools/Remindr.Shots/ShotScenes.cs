@@ -18,12 +18,12 @@ internal sealed class Rig : IDisposable
         _bd.Start(theme == "Dark");
     }
 
-    public AppWindow OpenApp(bool empty, string lang = "en", bool reduced = true)
+    public AppWindow OpenApp(bool empty, string lang = "en", bool reduced = true, params string[] appArgs)
     {
         var dir = Demo.NewTempDir(empty ? "first-run" : "demo");
         _dirs.Add(dir);
         if (empty) Demo.SeedEmpty(dir, Theme, lang); else Demo.SeedProfiles(dir, Theme, lang);
-        var app = AppWindow.Launch(_o.AppExe, dir, reduced);
+        var app = AppWindow.Launch(_o.AppExe, dir, reduced, appArgs);
         Shooter.Place(app);
         app.Need(id: empty ? "WelcomeView" : "Picker", timeoutMs: 20000);
         return app;

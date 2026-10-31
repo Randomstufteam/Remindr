@@ -2,7 +2,8 @@
 
 internal sealed class Options
 {
-    public bool Shots, Hero, Gif, Probe;
+    public bool Shots, Hero, Gif, Probe, L10n, OutDirSet;
+    public string[] Langs = Array.Empty<string>();
     public string[] Only = Array.Empty<string>();
     public string? Exe;
     public string Root = FindRoot();
@@ -42,6 +43,8 @@ internal sealed class Options
                 case "--gif": o.Gif = true; break;
                 case "--all": o.Shots = o.Hero = o.Gif = true; break;
                 case "--probe": o.Probe = true; break;
+                case "--l10n": o.L10n = true; break;
+                case "--langs": o.Langs = a[++i].Split(',', StringSplitOptions.RemoveEmptyEntries); break;
                 case "--steps": o.Steps = a[++i].Split('|'); break;
                 case "--dumpskip": o.DumpSkip = a[++i].Split('|'); break;
                 case "--setup": o.ProbeSetup = true; break;
@@ -56,7 +59,7 @@ internal sealed class Options
                 case "--lang": o.ProbeLang = a[++i]; break;
                 case "--only": o.Only = a[++i].Split(',', StringSplitOptions.RemoveEmptyEntries); break;
                 case "--exe": o.Exe = a[++i]; break;
-                case "--out": o.OutDir = Path.GetFullPath(a[++i]); break;
+                case "--out": o.OutDir = Path.GetFullPath(a[++i]); o.OutDirSet = true; break;
                 case "--scratch": o.Scratch = a[++i]; break;
             }
         }
