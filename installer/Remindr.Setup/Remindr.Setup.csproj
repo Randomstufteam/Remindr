@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <!-- Setup stub: WPF on .NET Framework 4.8 (ships with Windows 10 1903+ / 11), so it is ~1 MB instead of carrying a second runtime.
        Deliberately does NOT use WPF-UI; its styles are copied into Styles\ . -->
@@ -12,9 +12,9 @@
     <AssemblyName>Remindr.Setup</AssemblyName>
     <ApplicationIcon>Assets\remindr.ico</ApplicationIcon>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Version>0.3.1</Version>
-    <FileVersion>0.3.1.0</FileVersion>
-    <InformationalVersion>0.3.1</InformationalVersion>
+    <Version>0.4.0</Version>
+    <FileVersion>0.4.0.0</FileVersion>
+    <InformationalVersion>0.4.0</InformationalVersion>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <Product>Remindr Setup</Product>
     <Description>Remindr Setup</Description>

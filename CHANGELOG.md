@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.4.0 (2026-10-31)
+
+> [!WARNING]
+> Windows may show **"Windows protected your PC"** when you run `Remindr-Installer.exe`. Remindr isn't code-signed yet. Click **More info**, then **Run anyway**.
+
+### Added
+- **Windows notifications** for due reminders, with Complete, Snooze and Dismiss buttons. Snooze for 5 minutes, an hour, or until tomorrow.
+- **Important reminders nag.** They alert you a day and an hour ahead, then every 10 minutes until you act on them.
+- **Tray icon and background running.** Close the window and Remindr stays in the tray, so alerts still arrive.
+- **Start with Windows**, an option in Settings that starts Remindr hidden in the tray when you sign in.
+- **What's New**, a short tour of each release that shows once after an update.
+- **176 languages**, up from 32, with a searchable language picker and full right-to-left layout. All of the new languages are machine-translated, many are unreviewed and some may read roughly. [Help translate](docs/TRANSLATING.md).
+
+### Remind UI 0.4
+- Cards lift, ticks pop, the calendar slides and empty pages float. With Windows animations off, everything stays still.
+- The installer gets the same look.
+
+### Fixed
+- Text in taller scripts, such as Tibetan and Burmese, is no longer cut off in the side menu, the welcome greeting and reminder notes.
+- Times now read back correctly in the edit dialog in every language, including Finnish and Greek.
+- Traditional Chinese now uses the 24-hour clock, so afternoon times can't be mistaken for morning ones.
+
 ## v0.3.1 (2026-10-25)
 
 ### Improved

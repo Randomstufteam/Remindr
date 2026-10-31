@@ -15,6 +15,7 @@ public partial class DonePage : UserControl
         "Reminder notifications with Snooze",
         "Tray icon and Start with Windows",
         "Remind UI 0.4: smoother motion and What's New",
+        "176 languages, many machine-translated",
     };
 
     public DonePage(string heading, string detail, string[]? newItems = null)
