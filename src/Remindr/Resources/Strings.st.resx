@@ -935,4 +935,55 @@ Dintlha di bolokiloe ho %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Dikarete di a phahama, ditshwayo di a hlaha, khalendara e a thelela, mme maqephe a se nang letho a a phaphama. Ha diphetoho tsa Windows di timilwe, tsohle di dula di eme.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} kajeno</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} kajeno</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} di fetile nako</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} di fetile nako</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} tsa bohlokwa beke ena</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} tsa bohlokwa beke ena</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Matsatsi a 7 a tlang</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Pata tse phethetsweng</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Kakaretso ya letsatsi le leng le le leng</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Tsebiso e nang le kakaretso ya letsatsi, hang ka letsatsi.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Letsatsi la hao ka pono e le nngwe</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Tse fetileng nako, kajeno le beke e tlang, ka dihlopha.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Kakaretso ya letsatsi le leng le le leng</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Tsebiso e le nngwe ka letsatsi ka dipalo tsa hao, ka nako eo o e kgethang.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Pono e ncha ya leqephe la Kajeno.</value>
+  </data>
 </root>

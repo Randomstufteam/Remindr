@@ -935,4 +935,55 @@ Detaljer ble lagret i %AppData%\Remindr\error.log</value>
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>Språk: {0}. Trykk for å endre.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} i dag</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} i dag</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} forfalt</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} forfalt</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} viktige denne uken</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} viktige denne uken</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Neste 7 dager</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Skjul fullførte</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Daglig oppsummering</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Et varsel med oppsummeringen av dagen, én gang om dagen.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Dagen din på et øyeblikk</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Forfalt, i dag og uken fremover, med filtre.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Daglig oppsummering</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Ett varsel om dagen med tallene dine, til et tidspunkt du velger.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Et nytt utseende for siden I dag.</value>
+  </data>
 </root>

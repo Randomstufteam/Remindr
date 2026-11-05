@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>කාඩ්පත් ඉහළට එසවේ, ටික් සලකුණු පොළා පනියි, දින දර්ශනය රූටයි, හිස් පිටු පා වෙයි. Windows සජීවීකරණ ක්‍රියාවිරහිත විට සියල්ල නිශ්චලව පවතී.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>අද නියමිත {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>අද නියමිත {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} ප්‍රමාද</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} ප්‍රමාද</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>මේ සතියේ වැදගත් {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>මේ සතියේ වැදගත් {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>ඊළඟ දින 7</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>සම්පූර්ණ කළ ඒවා සඟවන්න</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>දෛනික සාරාංශය</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>දවසේ සාරාංශය සහිත දැනුම්දීමක්, දිනකට එක් වරක්.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>එක බැල්මකින් ඔබේ දවස</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>ප්‍රමාද වූ, අද සහ ඉදිරි සතිය, පෙරහන් සමඟ.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>දෛනික සාරාංශය</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>ඔබ තෝරන වේලාවේ ඔබේ ගණන් සමඟ දිනකට එක් දැනුම්දීමක්.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>අද පිටුව සඳහා නව පෙනුමක්.</value>
+  </data>
 </root>

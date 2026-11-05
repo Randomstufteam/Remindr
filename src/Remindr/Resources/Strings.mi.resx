@@ -931,4 +931,55 @@ I tiakina ngā taipitopito ki %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Ka ara ngā kāri, ka pāoro ngā tohu, ka retireti te maramataka, ka rere ngā whārangi kau. Ki te weto ngā ānimeiti o Windows, ka noho tau ngā mea katoa.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} hei te rā nei</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} hei te rā nei</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} kua roa</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} kua roa</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} hira i tēnei wiki</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} hira i tēnei wiki</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ngā rā 7 e tū mai ana</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Huna i ngā mea kua oti</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Whakarāpopototanga ia rā</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>He pānui me te whakarāpopototanga o te rā, kotahi i ia rā.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Tō rā i te kitenga kotahi</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Kua roa, te rā nei me te wiki e heke mai ana, me ngā tātari.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Whakarāpopototanga ia rā</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Kotahi te pānui ia rā me ō tatau, i te wā e tīpakohia e koe.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>He āhua hou mō te whārangi Te Rā Nei.</value>
+  </data>
 </root>

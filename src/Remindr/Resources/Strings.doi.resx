@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>कार्ड उप्पर उठदे न, टिक पॉप होंदे न, कैलेंडर सरकदा ऐ ते खाली पन्ने तैरदे न। Windows एनिमेशन बंद होन तां सब किश स्थिर रौंह्दा ऐ।</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>अज्ज {0} देय</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>अज्ज {0} देय</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} देर होई गेदे</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} देर होई गेदे</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>इस हफ्ते {0} जरूरी</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>इस हफ्ते {0} जरूरी</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>अगले 7 दिन</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>पूरे होए दे छप्पो</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>रोजाना दा सार</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>दिन दे सार आली इक सूचना, दिन च इक बारी।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>तुंदा दिन इक नजर च</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>देर होए दे, अज्ज ते अगला हफ्ता, फिल्टरें कन्नै।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>रोजाना दा सार</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>दिन च इक सूचना तुंदी गिनतिएं कन्नै, तुंदे चुने दे वक्त पर।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>अज्ज दे पन्ने आस्ते नमां रूप।</value>
+  </data>
 </root>

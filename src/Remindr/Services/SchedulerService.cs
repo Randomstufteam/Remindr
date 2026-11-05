@@ -21,12 +21,15 @@ public sealed class SchedulerService : BackgroundService
     private readonly NotificationLogRepo _log;
     private readonly IToastSink _toasts;
     private readonly IClock _clock;
+    private readonly DailySummaryService? _daily;
     private readonly TaskCompletionSource _released = new(TaskCreationOptions.RunContinuationsAsynchronously);
     private readonly SemaphoreSlim _tickLock = new(1, 1);
     private DateOnly? _lastDay;
 
-    public SchedulerService(ReminderRepo reminders, NotificationLogRepo log, IToastSink toasts, IClock clock)
+    public SchedulerService(ReminderRepo reminders, NotificationLogRepo log, IToastSink toasts, IClock clock,
+        DailySummaryService? daily = null)
     {
+        _daily = daily;
         _reminders = reminders;
         _log = log;
         _toasts = toasts;
@@ -113,6 +116,13 @@ public sealed class SchedulerService : BackgroundService
                 }
                 catch (OperationCanceledException) when (ct.IsCancellationRequested) { throw; }
                 catch (Exception ex) { ErrorLog.Write(ex, "Scheduler, reminder " + p.Reminder.Id); }
+            }
+
+            if (_daily is not null)
+            {
+                try { await _daily.TryShowAsync(nowLocal, _toasts, ct); }
+                catch (OperationCanceledException) when (ct.IsCancellationRequested) { throw; }
+                catch (Exception ex) { ErrorLog.Write(ex, "Daily summary"); }
             }
         }
         finally { _tickLock.Release(); }

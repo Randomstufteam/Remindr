@@ -941,4 +941,55 @@
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>언어: {0}. 눌러서 변경합니다.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>오늘 마감 {0}개</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>오늘 마감 {0}개</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>기한 지남 {0}개</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>기한 지남 {0}개</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>이번 주 중요 {0}개</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>이번 주 중요 {0}개</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>앞으로 7일</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>완료 항목 숨기기</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>일일 요약</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>하루 요약이 담긴 알림을 하루에 한 번 표시합니다.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>하루를 한눈에</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>기한 지남, 오늘, 앞으로 한 주를 필터와 함께 보여 줍니다.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>일일 요약</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>선택한 시간에 개수가 담긴 알림을 하루에 한 번.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>오늘 페이지의 새로운 디자인.</value>
+  </data>
 </root>

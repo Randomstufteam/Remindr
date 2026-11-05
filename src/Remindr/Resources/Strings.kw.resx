@@ -965,4 +965,82 @@ Manylyon a veu gwithys dhe %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kartow a sevel, tikkys a boppya, an kalennyk a lymm ha folennow wag a neyja. Gans animasyons Windows dhe-ves, pub tra a bes kosel.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} rag hedhyw</value>
+  </data>
+  <data name="Summary_Due_Two" xml:space="preserve">
+    <value>{0} rag hedhyw</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} rag hedhyw</value>
+  </data>
+  <data name="Summary_Due_Many" xml:space="preserve">
+    <value>{0} rag hedhyw</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} rag hedhyw</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} diwedhes</value>
+  </data>
+  <data name="Summary_Overdue_Two" xml:space="preserve">
+    <value>{0} diwedhes</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} diwedhes</value>
+  </data>
+  <data name="Summary_Overdue_Many" xml:space="preserve">
+    <value>{0} diwedhes</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} diwedhes</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} pwysi an seythun ma</value>
+  </data>
+  <data name="Summary_Important_Two" xml:space="preserve">
+    <value>{0} pwysi an seythun ma</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} pwysi an seythun ma</value>
+  </data>
+  <data name="Summary_Important_Many" xml:space="preserve">
+    <value>{0} pwysi an seythun ma</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} pwysi an seythun ma</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>An 7 dydh nessa</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Hedhi an re gorfennys</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Hwithrans dydhyek</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Kappar gans hwithrans an jydh, unweyth an jydh.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Dha jydh yn unn golok</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Diwedhes, hedhyw ha'n seythun a dheu, gans sidhlow.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Hwithrans dydhyek</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Unn kappar an jydh gans dha niverow, orth an eur a dhewisydh.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Selwel nowydh rag folen Hedhyw.</value>
+  </data>
 </root>

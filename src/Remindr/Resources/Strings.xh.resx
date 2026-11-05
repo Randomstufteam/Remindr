@@ -935,4 +935,55 @@ Iinkcukacha zigcinwe kwi-%AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Amakhadi ayanyuka, iitikhi ziyavela, ikhalenda iyashelela, namaphepha angenanto ayabhabha. Xa intshukumo ye-Windows icinyiwe, yonke into ihlala ithe cwaka.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} namhlanje</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} namhlanje</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} zidlulile</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} zidlulile</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} ezibalulekileyo kule veki</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} ezibalulekileyo kule veki</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Iintsuku ezi-7 ezizayo</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Fihla ezigqityiweyo</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Isishwankathelo semihla ngemihla</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Isaziso esinesishwankathelo sosuku, kanye ngosuku.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Usuku lwakho ngokujonga kanye</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Ezidlulileyo, namhlanje neveki ezayo, ngezihluzi.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Isishwankathelo semihla ngemihla</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Isaziso esinye ngosuku esinamanani akho, ngexesha olikhethayo.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Ukubonakala okutsha kwephepha elithi Namhlanje.</value>
+  </data>
 </root>

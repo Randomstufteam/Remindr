@@ -935,4 +935,55 @@ De Einzelheite sin unger %AppData%\Remindr\error.log jesichert woode</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaate heve sich, Häkche poppe, der Kalender jlitt un leere Sigge schwevve. Wann de Windows-Animatione uß sin, blivv alles still.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} för hück</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} för hück</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} övverfällich</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} övverfällich</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} winndich heh di Woch</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} winndich heh di Woch</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>De nöchste 7 Dääch</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Fäädije vershteishe</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Dä Dach en kuez</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ene Henwies met dä Dach singer Zosammefassung, eijmohl em Dach.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Dinge Dach op eijmohl</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Övverfällich, hück un de kumme Woch, met Filtere.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Dä Dach en kuez</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Ene Henwies em Dach met dinge Zahle, zo dä Zigg, di do ussöks.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>E neu Utsinn för de Sigg Hück.</value>
+  </data>
 </root>

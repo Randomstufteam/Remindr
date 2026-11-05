@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>కార్డ్‌లు పైకి లేస్తాయి, టిక్‌లు పాప్ అవుతాయి, క్యాలెండర్ జారుతుంది, ఖాళీ పేజీలు తేలుతాయి. Windows యానిమేషన్‌లు ఆఫ్‌లో ఉంటే అంతా కదలకుండా ఉంటుంది.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>ఈరోజు గడువు {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>ఈరోజు గడువు {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} ఆలస్యం</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} ఆలస్యం</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>ఈ వారం ముఖ్యమైనవి {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>ఈ వారం ముఖ్యమైనవి {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>తదుపరి 7 రోజులు</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>పూర్తయినవి దాచు</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>రోజువారీ సారాంశం</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>రోజు సారాంశంతో ఒక నోటిఫికేషన్, రోజుకు ఒకసారి.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>ఒక్క చూపులో మీ రోజు</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>ఆలస్యమైనవి, ఈరోజు మరియు వచ్చే వారం, ఫిల్టర్లతో.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>రోజువారీ సారాంశం</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>మీరు ఎంచుకున్న సమయంలో మీ లెక్కలతో రోజుకు ఒక నోటిఫికేషన్.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>ఈరోజు పేజీకి కొత్త రూపం.</value>
+  </data>
 </root>

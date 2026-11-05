@@ -931,4 +931,55 @@ Ua mālama ʻia nā kikoʻī ma %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Piʻi nā kāleka, puka nā hōʻailona, hoʻoheihei ke kālena a lana nā ʻaoʻao hakahaka. Me nā ʻoniʻoni Windows i hoʻopio ʻia, mau ka pākaha o nā mea āpau.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} no kēia lā</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} no kēia lā</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} i hala ka manawa</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} i hala ka manawa</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} koʻikoʻi i kēia pule</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} koʻikoʻi i kēia pule</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Nā lā ʻehiku e hiki mai ana</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>E hhuna i nā mea i pau</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Hōʻuluʻulu i kēlā me kēia lā</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>He ʻōlelo hoʻomaopopo me ka hōʻuluʻulu o ka lā, hoʻokahi manawa i ka lā.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Kou lā i ka nānā ʻana</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Hala ka manawa, kēia lā a me ka pule e hiki mai ana, me nā kānana.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Hōʻuluʻulu i kēlā me kēia lā</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Hoʻokahi ʻōlelo hoʻomaopopo i ka lā me kāu helu, i ka manawa āu e koho ai.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>He nānā hou no ka ʻaoʻao Kēia Lā.</value>
+  </data>
 </root>

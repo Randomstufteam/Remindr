@@ -935,4 +935,55 @@ Zvakadzama zvakachengetwa muna %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Makadhi anosimuka, matiki anopfuura, karenda inotsvedza uye mapeji asina chinhu anoyangarara. Kana mifananidzo inofamba yeWindows yadzimwa, zvese zvinomira.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} nhasi</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} nhasi</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} dzakanonoka</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} dzakanonoka</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} dzakakosha svondo rino</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} dzakakosha svondo rino</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Mazuva manomwe anotevera</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Viga zvakapedzwa</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Pfupiso yezuva roga roga</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Chziviso chine pfupiso yezuva, kamwe pazuva.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Zuva rako pakutarisa kamwe</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Zvakanonoka, nhasi nevhiki inotevera, nezvisefa.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Pfupiso yezuva roga roga</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Chziviso chimwe pazuva nenhamba dzako, panguva yaunosarudza.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Chimiro chitsva chepeji ye Nhasi.</value>
+  </data>
 </root>

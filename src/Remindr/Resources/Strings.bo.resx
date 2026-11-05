@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>བྱང་བུ་འཕགས། རྟགས་འཇུག་འཕར། ལོ་ཐོ་འདྲུད། ངོས་སྟོང་འཕུར། Windows འགུལ་རིས་སྒོ་བརྒྱབ་ན་ཚང་མ་ཉམས་ཞིང་གནས།</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>དེ་རིང་དུས་ཚོད་{0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>དེ་རིང་དུས་ཚོད་{0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>དུས་ཡུན་ལོག་པ་{0}</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>དུས་ཡུན་ལོག་པ་{0}</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>གཟའ་འཁོར་འདིར་གལ་ཆེན་{0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>གཟའ་འཁོར་འདིར་གལ་ཆེན་{0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>ཉིན་ ༧ རྗེས་མ།</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>འགྲུབ་མཚམས་སྦས།</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>ཉིན་རེའི་སྙིང་བསྡུས།</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>ཉིན་གྱི་སྙིང་བསྡུས་ཀྱི་ཐ་ཁའི་ཉེན་བརྡ། ཉིན་རེར་ཐེངས་གཅིག་ཡིན།</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>ཁྱེད་ཀྱི་ཉིན་མོ་མདོར་བསྡུས།</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>དུས་ལོག་པ། དེ་རིང་དང་གཟའ་འཁོར་རྗེས་མ། འཚག་ཆས་དང་བཅས།</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>ཉིན་རེའི་སྙིང་བསྡུས།</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>ཁྱེད་ཀྱིས་འདེམས་པའི་དུས་ཚོད་དུ་ཉིན་རེར་ཉེན་བརྡ་ཐེངས་གཅིག།</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>«དེ་རིང་» ཤོག་ངོས་ཀྱི་སྣང་ཚུལ་གསར་པ།</value>
+  </data>
 </root>

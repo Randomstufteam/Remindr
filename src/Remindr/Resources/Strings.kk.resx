@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Карточкалар көтеріледі, белгілер секіреді, күнтізбе сырғиды, ал бос беттер қалқиды. Windows анимациялары өшірулі болса, бәрі қозғалыссыз қалады.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} бүгін</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} бүгін</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} мерзімі өткен</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} мерзімі өткен</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>Осы аптада {0} маңызды</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>Осы аптада {0} маңызды</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Келесі 7 күн</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Орындалғандарды жасыру</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Күнделікті қорытынды</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Күн қорытындысы бар хабарландыру, күніне бір рет.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Күніңіз бір көзқараста</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Мерзімі өткендер, бүгін және келесі апта, сүзгілермен.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Күнделікті қорытынды</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Күніне бір хабарландыру сандарыңызбен, таңдаған уақытыңызда.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>«Бүгін» бетінің жаңа көрінісі.</value>
+  </data>
 </root>

@@ -935,4 +935,55 @@ Detayenan a keda wardá den %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kartanan ta subi, markanan ta bula, e kalènder ta lisá i pàginanan bashí ta flota. Ku animashonnan di Windows pagá, tur kos ta keda ketu.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} pa awe</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} pa awe</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} atrasá</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} atrasá</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} importante e siman akí</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} importante e siman akí</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Prome 7 dia</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Skonde esnan kompletá</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Resumen diario</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Un notifikashon ku e resumen di dia, un biaha pa dia.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Bo dia den un wak</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Atrasá, awe i e siman ku ta bin, ku filtro.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Resumen diario</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Un notifikashon pa dia ku bo kontadó, na e ora ku bo skohe.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Un aspekto nobo pa e página Awe.</value>
+  </data>
 </root>

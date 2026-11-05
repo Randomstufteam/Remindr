@@ -935,4 +935,55 @@ Faahfaahinta waxaa lagu kaydiyay %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaararku way kacaan, calaamaduhu way soo boodaan, kalandarku wuu simbiirixdaa, bogagga madhanna way sabaynayaan. Marka animation-ka Windows damsan yahay, wax walba way taagan yihiin.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} maanta</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} maanta</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} daahay</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} daahay</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} muhiim ah toddobaadkan</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} muhiim ah toddobaadkan</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>7-da maalmood ee soo socda</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Qari kuwa la dhammeeyay</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Soo koobid maalinle ah</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ogeysiis ay ku jirto soo koobidda maalinta, hal mar maalintii.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Maalintaada hal il-ku-dhac</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Kuwa daahay, maanta iyo toddobaadka soo socda, oo leh shaandheeyayaal.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Soo koobid maalinle ah</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Hal ogeysiis maalintii oo leh tirooyinkaaga, wakhtiga aad dooratid.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Muuqaal cusub oo bogga Maanta ah.</value>
+  </data>
 </root>

@@ -935,4 +935,55 @@ Os detalles gardáronse en %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>As tarxetas álzanse, as marcas saltan, o calendario esvara e as páxinas baleiras flotan. Coas animacións de Windows desactivadas, todo queda quieto.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} para hoxe</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} para hoxe</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} atrasados</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} atrasados</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} importantes esta semana</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} importantes esta semana</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Próximos 7 días</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Agochar os completados</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Resumo diario</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Unha notificación co resumo do día, unha vez ao día.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>O teu día dunha ollada</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Atrasados, hoxe e a semana que vén, con filtros.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Resumo diario</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Unha notificación ao día coas túas contas, á hora que escollas.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Un aspecto novo para a páxina Hoxe.</value>
+  </data>
 </root>

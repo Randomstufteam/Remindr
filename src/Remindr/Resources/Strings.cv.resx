@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Карточкӑсем ҫӗкленеҫҫӗ, паллӑсем сикеҫҫӗ, календарь шуса ҫӳрет, пушӑ страницӑсем ишеҫҫӗ. Windows анимацийӗсене сӳнтерсен пурте хускалмасӑр тӑрать.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>Паян {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>Паян {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} вăхăтра тумарăр</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} вăхăтра тумарăр</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>Ку эрнере {0} кирлĕ</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>Ку эрнере {0} кирлĕ</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ытларах 7 кун</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Пурнăçланнисене пытар</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Кунсерен кĕске ыйту</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Кун пĕтĕмлетĕвĕпе пĕлтерÿ, кунне пĕр хут.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Санăн кун пĕр пăхăмра</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Вăхăтра туман, паян тата ытларах эрне, сĕрĕмпе.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Кунсерен кĕске ыйту</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Кунне пĕр пĕлтерÿ санăн шутсемпе, суйланă вăхăтра.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>«Паян» страницăшăн çĕнĕ курăну.</value>
+  </data>
 </root>

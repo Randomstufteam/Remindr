@@ -935,4 +935,55 @@ Els detalls s'han desat a %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Les targetes s'aixequen, les marques salten, el calendari llisca i les pàgines buides suren. Amb les animacions del Windows desactivades, tot es queda quiet.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} per avui</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} per avui</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} endarrerits</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} endarrerits</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} d'importants aquesta setmana</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} d'importants aquesta setmana</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Els propers 7 dies</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Amaga els completats</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Resum diari</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Una notificació amb el resum del dia, un cop al dia.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>El teu dia d'un cop d'ull</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Endarrerits, avui i la setmana vinent, amb filtres.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Resum diari</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Una notificació al dia amb els teus recomptes, a l'hora que triïs.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Un aspecte nou per a la pàgina Avui.</value>
+  </data>
 </root>

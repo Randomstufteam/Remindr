@@ -935,4 +935,55 @@ Amakuru arambuye yabitswe muri %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Amakarata arazamuka, ibimenyetso birasimbuka, kalendari irasiga n'impapuro zirimwo ubusa ziraseseka. Iyo imikino ya Windows izimije, vyose bigumya guhagarara.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} none</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} none</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} vyarengeje</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} vyarengeje</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} bihambaye muri iyi ndwi</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} bihambaye muri iyi ndwi</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Iminsi 7 ikurikira</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Hisha ivyarangiye</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Incamake y'umusi ku musi</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Itangazo rifise incamake y'umusi, rimwe ku musi.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Umusi wawe mu kurabira rimwe</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Vyarengeje, none n'indwi ikurikira, hamwe n'ibitando.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Incamake y'umusi ku musi</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Itangazo rimwe ku musi hamwe n'imibare yawe, mu gihe wahisemwo.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Isura nshasha y'urupapuro rwa None.</value>
+  </data>
 </root>

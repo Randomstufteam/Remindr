@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>કાર્ડ ઊપસે છે, ટિક ઊછળે છે, કેલેન્ડર સરકે છે અને ખાલી પાનાં તરે છે. Windows એનિમેશન બંધ હોય ત્યારે બધું સ્થિર રહે છે.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>આજે બાકી {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>આજે બાકી {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} મુદત વીતી ગઈ</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} મુદત વીતી ગઈ</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>આ અઠવાડિયે {0} મહત્વના</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>આ અઠવાડિયે {0} મહત્વના</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>આગામી 7 દિવસ</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>પૂર્ણ થયેલા છુપાવો</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>દૈનિક સારાંશ</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>દિવસના સારાંશ સાથેની એક સૂચના, દિવસમાં એક વાર.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>એક નજરમાં તમારો દિવસ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>મુદત વીતેલા, આજે અને આગામી અઠવાડિયું, ફિલ્ટર સાથે.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>દૈનિક સારાંશ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>તમે પસંદ કરેલા સમયે તમારી ગણતરી સાથે દિવસમાં એક સૂચના.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>આજે પૃષ્ઠ માટે નવો દેખાવ.</value>
+  </data>
 </root>

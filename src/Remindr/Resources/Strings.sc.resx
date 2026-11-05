@@ -935,4 +935,55 @@ Sos detàllios sunt istados sarvados in %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Sas cartas si pesant, sos sinnos de controllu brincant, su calendàriu iscurrit e sas pàginas bòidas flutuant. Cun sas animatziones de Windows disativadas, totu abarrat firmu.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} pro oe</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} pro oe</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} in ritardu</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} in ritardu</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} importantes custa chida</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} importantes custa chida</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Sos 7 dies imbenientes</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Cua sos cumpletados</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Resumu cotidianu</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Una notìfica cun su resumu de sa die, una borta a sa die.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Sa die tua a un'ogiada</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>In ritardu, oe e sa chida imbeniente, cun filtros.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Resumu cotidianu</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Una notìfica a sa die cun sos nùmeros tuos, a s'ora chi sèberas.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Un'aspetu nou pro sa pàgina Oe.</value>
+  </data>
 </root>

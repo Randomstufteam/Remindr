@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>កាតលើកឡើង ធីកលោតឡើង ប្រតិទិនរអិល ហើយទំព័រទទេអណ្ដែត។ ពេលបិទចលនា Windows អ្វីៗនៅស្ងៀម។</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>ត្រូវដល់ថ្ងៃនេះ {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>ត្រូវដល់ថ្ងៃនេះ {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>យឺត {0}</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>យឺត {0}</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>សំខាន់សប្តាហ៍នេះ {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>សំខាន់សប្តាហ៍នេះ {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>៧ ថ្ងៃបន្ទាប់</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>លាក់ការដែលបានបញ្ចប់</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>សង្ខេបប្រចាំថ្ងៃ</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>ការជូនដំណឹងដែលមានសង្ខេបនៃថ្ងៃ មួយដងក្នុងមួយថ្ងៃ។</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>ថ្ងៃរបស់អ្នកមើលមួយភ្លែត</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>ដែលយឺត ថ្ងៃនេះ និងសប្តាហ៍ខាងមុខ ជាមួយតម្រង។</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>សង្ខេបប្រចាំថ្ងៃ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>ការជូនដំណឹងមួយក្នុងមួយថ្ងៃជាមួយចំនួនរបស់អ្នក នៅពេលដែលអ្នកជ្រើស។</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>រូបរាងថ្មីសម្រាប់ទំព័រថ្ងៃនេះ។</value>
+  </data>
 </root>

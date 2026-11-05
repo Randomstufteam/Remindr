@@ -935,4 +935,55 @@ Detailer goufen an %AppData%\Remindr\error.log gespäichert</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaarten hiewen sech, Haken sprangen op, de Kalenner rutscht an eidel Säite schwiewen. Sinn d'Windows-Animatiounen aus, bleift alles roueg.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} fir haut</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} fir haut</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} iwwerfällig</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} iwwerfällig</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} wichteg dës Woch</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} wichteg dës Woch</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Déi nächst 7 Deeg</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Erleedegt verstoppen</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Deeglech Zesummefaassung</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Eng Notifikatioun mat der Zesummefaassung vum Dag, eemol um Dag.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Däin Dag op ee Bléck</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Iwwerfällig, haut an déi nächst Woch, mat Filteren.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Deeglech Zesummefaassung</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Eng Notifikatioun um Dag mat denen Zuelen, zu der Zäit déi s du wiels.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>En neit Ausgesinn fir d'Säit Haut.</value>
+  </data>
 </root>

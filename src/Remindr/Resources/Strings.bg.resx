@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Картите се издигат, отметките изскачат, календарът се плъзга, а празните страници се носят. При изключени анимации на Windows всичко остава неподвижно.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} за днес</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} за днес</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} просрочени</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} просрочени</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} важни тази седмица</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} важни тази седмица</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Следващите 7 дни</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Скрий завършените</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Дневно резюме</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Известие с резюме на деня, веднъж дневно.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Денят ви накратко</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Просрочени, днес и седмицата напред, с филтри.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Дневно резюме</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Едно известие на ден с броя, в избран от вас час.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Нов вид на страницата „Днес“.</value>
+  </data>
 </root>

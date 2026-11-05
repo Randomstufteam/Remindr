@@ -935,4 +935,55 @@ Besonderhede is gestoor in %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaarte lig op, regmerkies spring, die kalender gly en leë bladsye dryf. Met Windows-animasies af bly alles stil.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} vandag verskuldig</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} vandag verskuldig</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} agterstallig</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} agterstallig</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} belangrik hierdie week</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} belangrik hierdie week</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Volgende 7 dae</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Versteek voltooide</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Daaglikse opsomming</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>'n Kennisgewing met die dag se opsomming, een keer per dag.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Jou dag in oënskou</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Agterstallig, vandag en die week vorentoe, met filters.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Daaglikse opsomming</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Een kennisgewing per dag met jou tellings, op 'n tyd van jou keuse.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>'n Nuwe voorkoms vir die Vandag-bladsy.</value>
+  </data>
 </root>

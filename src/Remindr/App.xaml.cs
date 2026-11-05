@@ -277,6 +277,7 @@ public partial class App : Application
         s.AddSingleton<TraySettings>();
         s.AddSingleton<IStartupRegistry, WindowsStartupRegistry>();
         s.AddSingleton<StartWithWindowsService>(sp => new StartWithWindowsService(sp.GetRequiredService<IStartupRegistry>(), sp.GetRequiredService<SettingsRepo>()));
+        s.AddSingleton<DailySummaryService>();
         s.AddSingleton<SchedulerService>();
         s.AddHostedService(sp => sp.GetRequiredService<SchedulerService>());
         s.AddSingleton<LocalizationService>();

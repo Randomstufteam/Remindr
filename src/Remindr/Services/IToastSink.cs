@@ -7,4 +7,7 @@ public interface IToastSink
 {
     /// <summary>Shows the alert. Safe to call from any thread.</summary>
     Task ShowAsync(Reminder r, PlannedAlert alert, CancellationToken ct);
+
+    /// <summary>Shows the daily summary toast (title, one sentence). Sinks that do not care can ignore it.</summary>
+    Task ShowSummaryAsync(string title, string body, CancellationToken ct) => Task.CompletedTask;
 }

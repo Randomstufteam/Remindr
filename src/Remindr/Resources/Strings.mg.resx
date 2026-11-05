@@ -935,4 +935,55 @@ Voatahiry ao amin'ny %AppData%\Remindr\error.log ny antsipiriany</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Mitsangana ny karatra, mipoitra ny fanamarihana, mikisaka ny kalandrie ary mitsingevana ny pejy foana. Raha tsy mandeha ny Windows animations, mijanona ho tsy mihetsika ny zava-drehetra.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} amin'ny androany</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} amin'ny androany</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} tara</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} tara</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} lehibe amin'ity herinandro ity</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} lehibe amin'ity herinandro ity</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ny 7 andro manaraka</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Afeno ny vita</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Fintinana isan'andro</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Fanairana misy ny fintinan'ny andro, indray mandeha isan'andro.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ny androanao amin'ny indrana</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Tara, androany ary ny herinandro manaraka, miaraka amin'ny sivana.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Fintinana isan'andro</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Fanairana iray isan'andro miaraka amin'ny isanao, amin'ny ora voafidinao.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Endrika vaovao ho an'ny pejy Androany.</value>
+  </data>
 </root>

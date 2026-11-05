@@ -37,6 +37,7 @@ public partial class SettingsViewModel : ObservableObject
     private readonly IClock _clock;
     private readonly TraySettings _tray;
     private readonly StartWithWindowsService _startup;
+    private readonly DailySummaryService _daily;
     private bool _startWithWindows;
 
     /// <summary>Start Remindr (minimized, in the tray) when the user signs in. Mirrors the real Run value.</summary>
@@ -61,8 +62,9 @@ public partial class SettingsViewModel : ObservableObject
     public SettingsViewModel(ThemeService theme, ProfileSession session, ProfilePickerViewModel picker, ProfileDialogs dialogs,
         LocalizationService localization, WelcomeController welcome, UpdateViewModel updates,
         NotificationService notifications, Data.Repositories.ReminderRepo reminders, IClock clock, TraySettings tray,
-        StartWithWindowsService startup, WhatsNewService whatsNew)
+        StartWithWindowsService startup, WhatsNewService whatsNew, DailySummaryService daily)
     {
+        _daily = daily;
         _whatsNew = whatsNew;
         _tray = tray;
         _startup = startup;
@@ -116,6 +118,27 @@ public partial class SettingsViewModel : ObservableObject
             _tray.CloseToTray = value;
             OnPropertyChanged();
         }
+    }
+
+    /// <summary>A toast with the day's summary once a day (global setting, off by default).</summary>
+    public bool DailySummary
+    {
+        get => _daily.Enabled;
+        set
+        {
+            if (_daily.Enabled == value) return;
+            _daily.Enabled = value;
+            OnPropertyChanged();
+        }
+    }
+
+    /// <summary>Every 15 minutes of the day, for the summary time drop-down.</summary>
+    public IReadOnlyList<TimeOnly> SummaryTimes { get; } = Enumerable.Range(0, 96).Select(i => new TimeOnly(i / 4, i % 4 * 15)).ToList();
+
+    public TimeOnly SummaryTime
+    {
+        get => _daily.Time;
+        set { _daily.Time = value; OnPropertyChanged(); }
     }
 
     /// <summary>The update toggle and the About card's "Check for updates" row.</summary>

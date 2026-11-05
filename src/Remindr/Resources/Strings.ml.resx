@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>കാർഡുകൾ ഉയരുന്നു, ടിക്കുകൾ പൊങ്ങുന്നു, കലണ്ടർ തെന്നിമാറുന്നു, ശൂന്യമായ പേജുകൾ ഒഴുകി നടക്കുന്നു. Windows ആനിമേഷനുകൾ ഓഫ് ആണെങ്കിൽ എല്ലാം അനങ്ങാതെ നിൽക്കും.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>ഇന്ന് ബാക്കി {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>ഇന്ന് ബാക്കി {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} വൈകി</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} വൈകി</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>ഈ ആഴ്ച പ്രധാനം {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>ഈ ആഴ്ച പ്രധാനം {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>അടുത്ത 7 ദിവസം</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>പൂർത്തിയായവ മറയ്ക്കുക</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>ദൈനംദിന സംഗ്രഹം</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>ദിവസത്തിന്റെ സംഗ്രഹമുള്ള ഒരു അറിയിപ്പ്, ദിവസത്തിൽ ഒരിക്കൽ.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>ഒറ്റനോട്ടത്തിൽ നിങ്ങളുടെ ദിവസം</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>വൈകിയവ, ഇന്നും വരും ആഴ്ചയും, ഫിൽട്ടറുകളോടെ.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>ദൈനംദിന സംഗ്രഹം</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>നിങ്ങൾ തിരഞ്ഞ സമയത്ത് നിങ്ങളുടെ എണ്ണങ്ങളോടെ ദിവസം ഒരു അറിയിപ്പ്.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>ഇന്ന് പേജിന് പുതിയ രൂപം.</value>
+  </data>
 </root>

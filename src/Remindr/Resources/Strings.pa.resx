@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>ਕਾਰਡ ਉੱਭਰਦੇ ਹਨ, ਟਿੱਕ ਉਛਲਦੇ ਹਨ, ਕੈਲੰਡਰ ਸਰਕਦਾ ਹੈ ਅਤੇ ਖਾਲੀ ਪੰਨੇ ਤੈਰਦੇ ਹਨ। Windows ਐਨੀਮੇਸ਼ਨ ਬੰਦ ਹੋਣ ’ਤੇ ਸਭ ਕੁਝ ਸਥਿਰ ਰਹਿੰਦਾ ਹੈ।</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>ਅੱਜ ਦੇ ਲਈ {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>ਅੱਜ ਦੇ ਲਈ {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} ਦੇਰੀ ਨਾਲ</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} ਦੇਰੀ ਨਾਲ</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>ਇਸ ਹਫ਼ਤੇ {0} ਜ਼ਰੂਰੀ</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>ਇਸ ਹਫ਼ਤੇ {0} ਜ਼ਰੂਰੀ</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>ਅਗਲੇ 7 ਦਿਨ</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>ਪੂਰੇ ਹੋਏ ਲੁਕਾਓ</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>ਰੋਜ਼ਾਨਾ ਸਾਰ</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>ਦਿਨ ਦੇ ਸਾਰ ਵਾਲੀ ਇੱਕ ਸੂਚਨਾ, ਦਿਨ ਵਿੱਚ ਇੱਕ ਵਾਰ।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>ਇੱਕ ਨਜ਼ਰ ਵਿੱਚ ਤੁਹਾਡਾ ਦਿਨ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>ਦੇਰੀ ਵਾਲੇ, ਅੱਜ ਅਤੇ ਅਗਲਾ ਹਫ਼ਤਾ, ਫਿਲਟਰਾਂ ਨਾਲ।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>ਰੋਜ਼ਾਨਾ ਸਾਰ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>ਤੁਹਾਡੇ ਚੁਣੇ ਸਮੇਂ ਤੇ ਤੁਹਾਡੀਆਂ ਗਿਣਤੀਆਂ ਨਾਲ ਦਿਨ ਵਿੱਚ ਇੱਕ ਸੂਚਨਾ।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>ਅੱਜ ਪੰਨੇ ਲਈ ਨਵਾਂ ਰੂਪ।</value>
+  </data>
 </root>

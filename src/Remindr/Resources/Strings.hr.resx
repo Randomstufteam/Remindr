@@ -944,4 +944,64 @@ Pojedinosti su spremljene u %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kartice se podižu, kvačice poskakuju, kalendar klizi, a prazne stranice lebde. Kad su Windows animacije isključene, sve ostaje mirno.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} za danas</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} za danas</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} za danas</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} kasni</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} kasni</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} kasni</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} važno ovaj tjedan</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} važno ovaj tjedan</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} važno ovaj tjedan</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Sljedećih 7 dana</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Sakrij dovršeno</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Dnevni sažetak</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Obavijest sa sažetkom dana, jednom dnevno.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Vaš dan ukratko</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Kasne, danas i sljedeći tjedan, s filtrima.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Dnevni sažetak</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Jedna obavijest dnevno s brojevima, u vrijeme koje odaberete.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Novi izgled stranice Danas.</value>
+  </data>
 </root>

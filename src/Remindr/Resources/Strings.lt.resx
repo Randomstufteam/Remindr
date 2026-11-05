@@ -320,4 +320,64 @@ Išsami informacija įrašyta į %AppData%\Remindr\error.log</value></data>
   <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve"><value>Įjunk nustatymuose, ir Remindr prisijungus pasileis paslėpta sistemos dėkle.</value></data>
   <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve"><value>Remind UI 0.4</value></data>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve"><value>Kortelės pakyla, varnelės šoktelėja, kalendorius slysta, o tuščios sritys plūduriuoja. Išjungus Windows animacijas, viskas lieka nejudru.</value></data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} šiandien</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} šiandien</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} šiandien</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} pavėluota</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} pavėluota</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} pavėluota</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} svarbu šią savaitę</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} svarbu šią savaitę</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} svarbu šią savaitę</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Kitos 7 dienos</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Slėpti atliktus</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Dienos santrauka</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Pranešimas su dienos santrauka, kartą per dieną.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Jūsų diena trumpai</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Pavėluota, šiandien ir artėjanti savaitė, su filtrais.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Dienos santrauka</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Vienas pranešimas per dieną su jūsų skaičiais, jūsų pasirinktu laiku.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Naujas puslapio Šiandien vaizdas.</value>
+  </data>
 </root>

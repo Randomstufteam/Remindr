@@ -953,4 +953,73 @@ Detaile su se składowali do %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kórty se zwignuju, hokowe se pokazuju, kalendaŕ se šmyka a prozne boki pluwaju. Ze wušaltowanymi animacijami Windows wšykno wóstanjo mirne.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} źinsa</value>
+  </data>
+  <data name="Summary_Due_Two" xml:space="preserve">
+    <value>{0} źinsa</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} źinsa</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} źinsa</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} pśeśpórane</value>
+  </data>
+  <data name="Summary_Overdue_Two" xml:space="preserve">
+    <value>{0} pśeśpórane</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} pśeśpórane</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} pśeśpórane</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} wažne ten tyźeń</value>
+  </data>
+  <data name="Summary_Important_Two" xml:space="preserve">
+    <value>{0} wažne ten tyźeń</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} wažne ten tyźeń</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} wažne ten tyźeń</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Pśiducych 7 dnjow</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Dokóńcone schowaś</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Dennje zespominanje</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Powěsć ze zespominanim dnja, jaden raz na dnju.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Twój źeń nakrotko</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Pśeśpórane, źinsa a pśiducy tyźeń, z filtrami.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Dennje zespominanje</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Jadna powěsć na dnju z licbami, w casu, kótaryž wuzwólijoš.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Nowy wugótowanje boka Źinsa.</value>
+  </data>
 </root>

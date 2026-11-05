@@ -935,4 +935,55 @@ Ernumassutit %AppData%\Remindr\error.log-imi toqqarneqarput</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kortit qulassuput, ilisarnaatit qaffasarput, ullorsiut siaruarpoq qupperneqarpullu imaqanngitsut ikkarput. Windows-ip animationii tunuarsimaappata tamarmik nunaqqataapput.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} ullumi</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} ullumi</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} sivitsorpoq</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} sivitsorpoq</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} pingaaruteqartut sapaatip-akunnerani una</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} pingaaruteqartut sapaatip-akunnerani una</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ullut 7 tulliuttut</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Naammassisimasut ersiuteeruk</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Ullormusiaq eqikkaaneq</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ullup eqikkaaneranik nalunaarut, ullormut ataasiarluni.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ullunni isiginnaarlugu</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Sivitsuutit, ullumi sapaatip-akunnerlu tulleq, filtertillugit.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Ullormusiaq eqikkaaneq</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Nalunaarut ataaseq ullormut kisitsisinik, piffissami toqqartumi.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Ullumi qupperneq isikkua nutaaq.</value>
+  </data>
 </root>

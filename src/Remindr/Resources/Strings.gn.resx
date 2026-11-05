@@ -931,4 +931,55 @@ Hemimbiguei ñeñongatu %AppData%\Remindr\error.log-pe</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Umi kuatia oñemoĩ yvate, umi techaukaha ojepoko, pe arapapaha oguata ha umi kuatiarogue nandi oguahẽ. Windows animación ojepe&apos;a vove, opaite opyta jepoko&apos;ỹ.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} ko ára</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} ko ára</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} ohasa ko</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} ohasa ko</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} ojeroviaha ko arapokõi</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} ojeroviaha ko arapokõi</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ára 7 oúva</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Mbyatyry ko opáva</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Ára resúmen</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Marandu ko ára resúmenndi, peteĩ jey ára kuérape.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Nde ára ikatúpe</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Ohasáva, ko ára ha arapokõi oúva, filtro ndive.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Ára resúmen</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Peteĩ marandu ára kuérape nde papapykuéra ndive, ko aravo eipotávape.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Tesarã pyahu ko Ko ára kuatiarogue.</value>
+  </data>
 </root>

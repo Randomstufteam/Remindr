@@ -941,4 +941,55 @@ Tiedot tallennettiin tiedostoon %AppData%\Remindr\error.log</value>
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>Kieli: {0}. Vaihda painamalla.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} tälle päivälle</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} tälle päivälle</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} myöhässä</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} myöhässä</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} tärkeää tällä viikolla</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} tärkeää tällä viikolla</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Seuraavat 7 päivää</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Piilota valmiit</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Päivän yhteenveto</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ilmoitus päivän yhteenvedosta kerran päivässä.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Päiväsi yhdellä silmäyksellä</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Myöhässä, tänään ja tuleva viikko, suodattimilla.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Päivän yhteenveto</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Yksi ilmoitus päivässä määristä valitsemanasi aikana.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Uusi ilme Tänään-sivulle.</value>
+  </data>
 </root>

@@ -953,4 +953,73 @@ Chaidh na mion-fhiosrachaidhean a shàbhaladh ann an %AppData%\Remindr\error.log
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Bidh cairtean ag èirigh, comharran-ticeadh a' leum, a' mhìosachan a' sleamhnachadh is duilleagan falamh a' seòladh. Le beòthachaidhean Windows dheth, fuirichidh a h-uile càil sàmhach.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} airson an-diugh</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} airson an-diugh</value>
+  </data>
+  <data name="Summary_Due_Two" xml:space="preserve">
+    <value>{0} airson an-diugh</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} airson an-diugh</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} fadalach</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} fadalach</value>
+  </data>
+  <data name="Summary_Overdue_Two" xml:space="preserve">
+    <value>{0} fadalach</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} fadalach</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} cudromach an t-seachdain seo</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} cudromach an t-seachdain seo</value>
+  </data>
+  <data name="Summary_Important_Two" xml:space="preserve">
+    <value>{0} cudromach an t-seachdain seo</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} cudromach an t-seachdain seo</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>An ath 7 làithean</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Cuir am falach na chaidh a chrìochnachadh</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Geàrr-chunntas làitheil</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Brath le geàrr-chunntas an latha, aon turas san latha.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>An latha agad aig a' cheart àm</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Fadalach, an-diugh agus an ath sheachdain, le criathragan.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Geàrr-chunntas làitheil</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Aon bhrath san latha le do chunntasan, aig àm a thaghas tu.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Coltas ùr airson an duilleag An-diugh.</value>
+  </data>
 </root>

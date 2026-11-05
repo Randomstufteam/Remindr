@@ -935,4 +935,55 @@ Detaljar er lagra i %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kort lyfter seg, hakar spretter, kalenderen glir og tomme sider sveivar. Med Windows-animasjonar av står alt i ro.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} i dag</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} i dag</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} forfalle</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} forfalle</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} viktige denne veka</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} viktige denne veka</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Neste 7 dagar</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Skjul fullførte</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Dagleg oppsummering</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Eit varsel med oppsummeringa av dagen, éin gong om dagen.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Dagen din på eit augeblink</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Forfalle, i dag og veka framover, med filter.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Dagleg oppsummering</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Eitt varsel om dagen med tala dine, til eit tidspunkt du vel.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Eit nytt utsjånad for sida I dag.</value>
+  </data>
 </root>

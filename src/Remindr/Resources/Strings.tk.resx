@@ -941,4 +941,55 @@ Detallar %AppData%\Remindr\error.log faýlynda saklandy</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kartlar galýar, belgiler çykýar, senenama süýşýär, boş sahypalar ýüzýär. Windows animasiýalary öçük bolsa, hemme zat hereketsiz galýar.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} şu gün</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} şu gün</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} gijikdi</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} gijikdi</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} şu hepde möhüm</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} şu hepde möhüm</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Indiki 7 gün</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Tamamlananlary gizle</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Gündelik gysgaça mazmun</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Günüň gysgaça mazmuny bilen habarnama, günde bir gezek.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Günüňiz bir gaýa</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Gijikenler, şu gün we indiki hepde, süzgüçler bilen.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Gündelik gysgaça mazmun</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Günde bir habarnama sanlaryňyz bilen, saýlan wagtyňyzda.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Şu gün sahypasy üçin täze görnüş.</value>
+  </data>
 </root>

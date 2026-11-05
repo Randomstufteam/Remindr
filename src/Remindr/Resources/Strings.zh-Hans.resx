@@ -941,4 +941,55 @@
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>语言：{0}。按下可更改。</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>今天到期 {0} 项</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>今天到期 {0} 项</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>已逾期 {0} 项</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>已逾期 {0} 项</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>本周重要 {0} 项</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>本周重要 {0} 项</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}，{1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>未来 7 天</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>隐藏已完成</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>每日摘要</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>每天一次，通知当天的摘要。</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>一眼看清你的一天</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>已逾期、今天和未来一周，可用筛选器。</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>每日摘要</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>每天在你选定的时间发送一条含数量的通知。</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>「今天」页面的全新外观。</value>
+  </data>
 </root>

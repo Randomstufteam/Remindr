@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>کارت‌ها بالا می‌آیند، تیک‌ها جهش می‌کنند، تقویم می‌لغزد و صفحه‌های خالی شناور می‌شوند. اگر انیمیشن‌های ویندوز خاموش باشد، همه‌چیز ثابت می‌ماند.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} برای امروز</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} برای امروز</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} عقب‌افتاده</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} عقب‌افتاده</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} مهم در این هفته</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} مهم در این هفته</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>۷ روز آینده</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>پنهان کردن انجام‌شده‌ها</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>خلاصه روزانه</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>یک اعلان با خلاصه روز، روزی یک بار.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>روز شما در یک نگاه</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>عقب‌افتاده، امروز و هفته پیش رو، با فیلتر.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>خلاصه روزانه</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>روزی یک اعلان با شمارش‌های شما، در زمانی که انتخاب می‌کنید.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>ظاهر جدید برای صفحه امروز.</value>
+  </data>
 </root>

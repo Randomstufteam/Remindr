@@ -16,6 +16,8 @@ public class WhatsNewTests
     [InlineData("0.4.1", "0.4.0", true, false, false)] // newer version without entries
     [InlineData("0.3.1", "0.4.0", true, true, false)]  // downgrade
     [InlineData("0.4.0", "0.3.1", true, true, true)]
+    [InlineData("0.5.0", "0.4.0", true, true, true)]   // upgrade from 0.4: the 0.5 highlights show once
+    [InlineData("0.5.0", "0.5.0", true, true, false)]
     [InlineData("0.4.0", "garbage", true, true, true)]
     [InlineData("nonsense", "0.3.1", true, true, false)]
     [InlineData("0.4.0", null, true, false, false)]
@@ -34,7 +36,15 @@ public class WhatsNewTests
             Assert.True(neutral.ContainsKey(e.TextKey), e.TextKey);
             Assert.NotNull(WhatsNewCatalog.Resolve(e.Visual));
         }
-        Assert.Equal("0.4.0", WhatsNewCatalog.Latest);
+        Assert.Equal("0.5.0", WhatsNewCatalog.Latest);
+        var five = WhatsNewCatalog.For("0.5.0");
+        Assert.Equal(3, five.Count);
+        foreach (var e in five)
+        {
+            Assert.True(neutral.ContainsKey(e.TitleKey), e.TitleKey);
+            Assert.True(neutral.ContainsKey(e.TextKey), e.TextKey);
+            Assert.NotNull(WhatsNewCatalog.Resolve(e.Visual));
+        }
         Assert.False(WhatsNewCatalog.HasEntries("0.3.1"));
         Assert.True(WhatsNewCatalog.HasEntries("0.4.0-beta"));
         Assert.Null(WhatsNewCatalog.Resolve("not_a_thing"));
@@ -47,7 +57,7 @@ public class WhatsNewTests
     {
         var dir = Path.Combine(SourceTree.AppDir(), "Resources");
         var de = SourceTree.ReadResx(Path.Combine(dir, "Strings.de.resx"));
-        foreach (var k in new[] { "WhatsNew_Title", "WhatsNew_GotIt", "WhatsNew_Open", "WhatsNew_0_4_0_1_Title", "WhatsNew_0_4_0_5_Text" }) Assert.Contains(k, de.Keys);
+        foreach (var k in new[] { "WhatsNew_Title", "WhatsNew_GotIt", "WhatsNew_Open", "WhatsNew_0_4_0_1_Title", "WhatsNew_0_4_0_5_Text", "WhatsNew_0_5_0_1_Title", "WhatsNew_0_5_0_3_Text" }) Assert.Contains(k, de.Keys);
         Assert.Equal("What's new in Remindr 0.4", Loc.Format("WhatsNew_Title", "0.4"));
         // German has its own card text now (the string freeze); a language with no file yet falls back to English.
         Assert.NotEqual(Loc.Get("WhatsNew_0_4_0_1_Title", System.Globalization.CultureInfo.InvariantCulture),

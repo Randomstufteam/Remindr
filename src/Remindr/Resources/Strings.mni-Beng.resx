@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>কার্ডসিনা পাংথোক্লি, টিকসিনা পপ তৌরি, ক্যালেন্ডর চেংলি অমসুং শুন্না লৈবা পেজসি ফোঙ্লি। Windows অ্যানিমেশন বন্দ ওইবদি পুম্নমক থিরনা লৈ।</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>ঙসি পুৎনা লৌরি {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>ঙসি পুৎনা লৌরি {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} লম্বা তৌরে</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} লম্বা তৌরে</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>ঙসি লাই-অ নেক্তনা {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>ঙসি লাই-অ নেক্তনা {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>মখলগী ৭ ঙসি</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>ৎনবা ফোঙদোকখিবদু লুঙ্থরো</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>ঙসি-ঙসিগী ৎনবা</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>ঙসিগী ৎনবা অমসুং নোতিফিকেসন অমা, ঙসিদা মরম অমা।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>নহাক্কী ঙসি অমদা</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>লম্বা তৌরিবা, ঙসি অমসুং মখলগী লাই, ফিল্তরশিং।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>ঙসি-ঙসিগী ৎনবা</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>নহাক্কী ঙাক্লবা মতমদা ঙসিদা নোতিফিকেসন অমা।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>ঙসি পেজগী অহৈবা অকুপ্না।</value>
+  </data>
 </root>

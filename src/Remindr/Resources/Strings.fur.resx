@@ -935,4 +935,55 @@ I detais a son stâts salvâts in %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Lis cjartis a si alzin, i segns a saltin, il calendari al sglise e lis pagjinis vueidis a flutin. Cu lis animazions di Windows studadis, dut al reste fer.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} par vuê</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} par vuê</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} in ritart</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} in ritart</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} impuartants chê setemane</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} impuartants chê setemane</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Prossims 7 dîs</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Plate chei completâts</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Sumari di ogni dì</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Une notifiche cul sumari de zornade, une volte al dì.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>La tô zornade intun cuc</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>In ritart, vuê e la setemane che ven, cun filtris.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Sumari di ogni dì</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Une notifiche al dì cui tiei numars, a la ore che sielzis.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Un aspiet gnûf pe pagjine Vuê.</value>
+  </data>
 </root>

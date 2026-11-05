@@ -935,4 +935,55 @@ Detajet u ruajtën në %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kartat ngrihen, shenjat kërcejnë, kalendari rrëshqet dhe faqet e zbrazëta pluskojnë. Me animacionet e Windows të çaktivizuara, gjithçka qëndron e palëvizur.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} për sot</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} për sot</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} me vonesë</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} me vonesë</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} të rëndësishme këtë javë</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} të rëndësishme këtë javë</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>7 ditët e ardhshme</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Fshih të përfunduarat</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Përmbledhja ditore</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Një njoftim me përmbledhjen e ditës, një herë në ditë.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Dita juaj me një shikim</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Me vonesë, sot dhe java e ardhshme, me filtra.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Përmbledhja ditore</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Një njoftim në ditë me numrat tuaj, në orën që zgjidhni.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Pamje e re për faqen Sot.</value>
+  </data>
 </root>

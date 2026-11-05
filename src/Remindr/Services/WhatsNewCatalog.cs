@@ -35,6 +35,12 @@ public static class WhatsNewCatalog
             Entry("0_4_0", 4, "rocket"),          // start with Windows
             Entry("0_4_0", 5, "sparkler"),        // Remind UI 0.4
         },
+        [new Version(0, 5, 0)] = new[]
+        {
+            Entry("0_5_0", 1, "sun_with_face"),   // the Today page
+            Entry("0_5_0", 2, "megaphone"),       // the daily summary toast
+            Entry("0_5_0", 3, "party_popper"),    // Remind UI 0.5
+        },
     };
 
     private static WhatsNewEntry Entry(string ver, int n, string visual) =>

@@ -3,39 +3,95 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
       xmlns:ctl="clr-namespace:Remindr.Views.Controls"
+      xmlns:vm="clr-namespace:Remindr.ViewModels"
+      xmlns:conv="clr-namespace:Remindr.Converters"
       xmlns:l="clr-namespace:Remindr.Views"
       Title="{l:Loc Nav_Today}" Background="Transparent">
-    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Background="Transparent">
-    <Grid Margin="{DynamicResource PagePadding}">
-        <StackPanel>
-            <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{Binding Greeting}" Style="{StaticResource PageTitle}" />
-            <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{Binding DateCaption}" Style="{StaticResource Caption}" Margin="0,4,0,24" />
+    <Page.Resources>
+        <conv:HexToBrushConverter x:Key="HexToBrush" />
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
 
-            <!-- Placeholder until the Phase 5 dashboard: just a way to add a reminder. -->
-            <Grid MaxWidth="560" HorizontalAlignment="Left">
+        <!-- The card itself is the shared ReminderCard control. -->
+        <DataTemplate x:Key="ReminderCard" DataType="{x:Type vm:ReminderItemViewModel}">
+            <ctl:ReminderCard />
+        </DataTemplate>
+
+        <!-- Remind UI 0.5 section: a heading (red for Overdue) over its cards. -->
+        <DataTemplate DataType="{x:Type vm:ReminderGroupViewModel}">
+            <StackPanel Margin="0,0,0,8">
+                <TextBlock x:Name="Heading" Text="{Binding Title}" Style="{StaticResource SectionLabel}" ctl:Anim.FadeInOnLoad="True" />
+                <ItemsControl ItemsSource="{Binding Items}" ItemTemplate="{StaticResource ReminderCard}" />
+            </StackPanel>
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding IsOverdue}" Value="True">
+                    <Setter TargetName="Heading" Property="Foreground" Value="{DynamicResource SystemFillColorCriticalBrush}" />
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+
+        <!-- A category chip: its name with the category colour dot. -->
+        <DataTemplate DataType="{x:Type vm:CategoryChipViewModel}">
+            <ToggleButton Style="{StaticResource FilterChip}" Margin="0,0,8,8" IsChecked="{Binding IsSelected, Mode=TwoWay}"
+                          AutomationProperties.Name="{Binding Category.Name}">
+                <StackPanel Orientation="Horizontal">
+                    <Ellipse Width="8" Height="8" Margin="0,0,6,0" VerticalAlignment="Center"
+                             Fill="{Binding Category.Color, Converter={StaticResource HexToBrush}}" />
+                    <TextBlock Text="{Binding Category.Name}" VerticalAlignment="Center" />
+                </StackPanel>
+            </ToggleButton>
+        </DataTemplate>
+    </Page.Resources>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Background="Transparent">
+    <Grid Margin="{DynamicResource PagePadding}" MaxWidth="900" HorizontalAlignment="Stretch">
+        <StackPanel>
+            <DockPanel Margin="0,0,0,12" LastChildFill="True">
+                <ui:Button DockPanel.Dock="Right" Appearance="Primary" Content="{l:Loc Reminder_New}" VerticalAlignment="Top"
+                           Command="{Binding NewReminderCommand}" ToolTip="{l:Loc Reminder_NewTooltip}"
+                           AutomationProperties.Name="{l:Loc Reminder_New}">
+                    <ui:Button.Icon>
+                        <ui:SymbolIcon Symbol="Add24" />
+                    </ui:Button.Icon>
+                </ui:Button>
+                <StackPanel>
+                    <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{Binding Greeting}" Style="{StaticResource PageTitle}" />
+                    <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{Binding DateCaption}" Style="{StaticResource Caption}" Margin="0,4,0,0" />
+                </StackPanel>
+            </DockPanel>
+
+            <!-- Summary sentence, then the filter chips. -->
+            <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{Binding Summary}" Style="{StaticResource SummaryText}" Margin="0,8,0,12"
+                       Visibility="{Binding HasSections, Converter={StaticResource BoolToVis}}" />
+            <WrapPanel ctl:Anim.FadeInOnLoad="True" Margin="0,0,0,4">
+                <ToggleButton Style="{StaticResource FilterChip}" Margin="0,0,8,8" IsChecked="{Binding ImportantOnly, Mode=TwoWay}"
+                              Content="{l:Loc Common_Important}" AutomationProperties.Name="{l:Loc Common_Important}" />
+                <ToggleButton Style="{StaticResource FilterChip}" Margin="0,0,8,8" IsChecked="{Binding HideCompleted, Mode=TwoWay}"
+                              Content="{l:Loc Today_HideCompleted}" AutomationProperties.Name="{l:Loc Today_HideCompleted}" />
+                <ItemsControl ItemsSource="{Binding Categories}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </ItemsControl>
+            </WrapPanel>
+
+            <ItemsControl ItemsSource="{Binding Sections}" />
+
+            <!-- Nothing to show: the Remind UI 0.4 empty state. -->
+            <Grid MaxWidth="560" HorizontalAlignment="Left" Margin="0,12,0,0"
+                  Visibility="{Binding IsEmpty, Converter={StaticResource BoolToVis}}">
                 <Border Style="{StaticResource GlassShadow}" />
                 <Border Style="{StaticResource GlassCard}" Padding="32">
-                <StackPanel>
-                    <!-- Remind UI 0.4: a floating picture, then the title, caption and button stagger in. -->
-                    <ctl:FloatingPicture Picture="builtin:sun_with_face" Size="96" ctl:Anim.FadeInOnLoad="True" ctl:Anim.Slide="0" />
-                    <TextBlock Text="{l:Loc Today_Empty_Title}" Style="{StaticResource SectionHeader}" FontSize="16" Margin="0,12,0,4"
-                               ctl:Anim.FadeInOnLoad="True" />
-                    <TextBlock Text="{l:Loc Today_Empty_Text}"
-                               Style="{StaticResource Caption}" ctl:Anim.FadeInOnLoad="True" />
-                    <ui:Button Appearance="Primary" Content="{l:Loc Reminder_New}" Margin="0,16,0,0" HorizontalAlignment="Left"
-                               ctl:Anim.FadeInOnLoad="True"
-                               Command="{Binding NewReminderCommand}" ToolTip="{l:Loc Reminder_NewTooltip}"
-                               AutomationProperties.Name="{l:Loc Reminder_New}">
-                        <ui:Button.Icon>
-                            <ui:SymbolIcon Symbol="Add24" />
-                        </ui:Button.Icon>
-                    </ui:Button>
-                </StackPanel>
-            </Border></Grid>
+                    <StackPanel>
+                        <ctl:FloatingPicture Picture="builtin:sun_with_face" Size="96" ctl:Anim.FadeInOnLoad="True" ctl:Anim.Slide="0" />
+                        <TextBlock Text="{l:Loc Today_Empty_Title}" Style="{StaticResource SectionHeader}" FontSize="16" Margin="0,12,0,4"
+                                   ctl:Anim.FadeInOnLoad="True" />
+                        <TextBlock Text="{l:Loc Today_Empty_Text}" Style="{StaticResource Caption}" ctl:Anim.FadeInOnLoad="True" />
+                    </StackPanel>
+                </Border>
+            </Grid>
         </StackPanel>
     </Grid>
     </ScrollViewer>
 </Page>
-
-
-

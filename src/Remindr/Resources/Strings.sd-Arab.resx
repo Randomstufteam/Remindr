@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>ڪارڊ مٿي اڀرن ٿا، ٽڪ ٽپا ڏين ٿا، ڪئلينڊر کسڪي ٿو ۽ خالي صفحا ترندا آهن. Windows اينيميشن بند هجن ته سڀ ڪجهه ساڪن رهي ٿو.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>اڄ لاءِ {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>اڄ لاءِ {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} دير سان</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} دير سان</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>هن هفتي {0} اهم</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>هن هفتي {0} اهم</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>ايندڙ 7 ڏينهن</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>مڪمل ٿيل لڪايو</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>روزاني خلاصو</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>ڏينهن جي خلاصي سان هڪ اطلاع، ڏينهن ۾ هڪ ڀيرو.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>توهان جو ڏينهن هڪ نظر ۾</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>دير سان، اڄ ۽ ايندڙ هفتو، فلٽرن سان.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>روزاني خلاصو</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>توهان جي چونڊيل وقت تي توهان جي ڳڻپ سان ڏينهن ۾ هڪ اطلاع.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>اڄ صفحي لاءِ نئون روپ.</value>
+  </data>
 </root>

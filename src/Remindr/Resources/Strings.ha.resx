@@ -935,4 +935,55 @@ An ajiye cikakkun bayanai a %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Katuna suna tashi, alamun tick suna fitowa, kalanda tana zamiya, shafuka marasa komai kuma suna shawagi. Idan an kashe motsin Windows, komai yana tsayawa.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} a yau</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} a yau</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} sun wuce lokaci</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} sun wuce lokaci</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} masu muhimmanci a wannan makon</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} masu muhimmanci a wannan makon</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Kwanaki 7 masu zuwa</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Ɓoye waɗanda aka kammala</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Taƙaitaccen bayani na yau da kullum</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Sanarwa mai ɗauke da taƙaitaccen ranar, sau ɗaya a rana.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ranarka a taƙaice</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Waɗanda suka wuce lokaci, yau da makon da ke tafe, tare da matattara.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Taƙaitaccen bayani na yau da kullum</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Sanarwa ɗaya a rana da ƙididdigarka, a lokacin da ka zaɓa.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Sabon kamanni don shafin Yau.</value>
+  </data>
 </root>

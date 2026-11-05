@@ -935,4 +935,55 @@ Ils detagls èn vegnids memorisads en %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Cartas s'auzan, ils segns da controlla sautan, il chalender glischa e paginas vidas flottan. Cun animaziuns da Windows deactivadas resta tut en pasch.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} per hii</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} per hii</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} en retard</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} en retard</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} impurtant questa jamna</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} impurtant questa jamna</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ils proxims 7 dis</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Zuppar ils terminads</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Resumaziun quotidiana</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ina communicaziun cun la resumaziun dal di, ina giada il di.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Tes di en in egl</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>En retard, hii e la proxima jamna, cun filtras.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Resumaziun quotidiana</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Ina communicaziun il di cun tes numers, a l'ura che ti tscherns.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>In nov aspect per la pagina Hii.</value>
+  </data>
 </root>

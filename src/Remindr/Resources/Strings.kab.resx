@@ -935,4 +935,55 @@ Tilqayt ttwasekles deg %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Tacartin ttalin, tecciwin ttrebbin, awitay ittusrid u isebtar ilmen ttemmgiren. Mi ttwasensen yineflayen n Windows, kra ur ittmuqqel.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} i ass-a</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} i ass-a</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} yeffeɣ-d ugur</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} yeffeɣ-d ugur</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} yesɛan azal deg ddurt-a</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} yesɛan azal deg ddurt-a</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>7 n wussan imaynuten</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Ffer wid yemmden</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Agzul n yal ass</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ilɣa s ugzul n wass, yiwet n tikkelt deg wass.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ass-ik s tpayt kan</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Wid yeffɣen, ass-a d tdurt i d-iteddun, s yimsizdigen.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Agzul n yal ass</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Yiwen ilɣu deg wass s yiḍṛisen-ik, deg wakud i tferneḍ.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Udem amaynut i usebter Ass-a.</value>
+  </data>
 </root>

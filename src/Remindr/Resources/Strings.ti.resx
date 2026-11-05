@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>ካርዳት ይልዕሉ፣ ምልክታት ይፈንዱ፣ ካለንደር ይሓልፍ፣ ባዶ ገጻት ይንሳፈፉ። ናይ Windows ምንቅስቓሳት እንተጠፊኡ፣ ኩሉ ጸጥ ይብል።</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>ናይ ሎሚ {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>ናይ ሎሚ {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>ዝደንገጸ {0}</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>ዝደንገጸ {0}</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>ኣብዚ ሰሙን ኣገዳሲ {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>ኣብዚ ሰሙን ኣገዳሲ {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}፣ {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>ዝመጽኡ 7 መዓልታት</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>ዝተወድኡ ሓባእ</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>ናይ ዕለት ሓጺር ሓሳብ</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>ምስ ሓጺር ሓሳብ ናይ መዓልቲ ዘለዎ መተሓሳሰቢ፣ ሓንሳብ ኣብ መዓልቲ።</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>መዓልትኻ ብሓደ ኣጠማምታ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>ዝደንገጹ፣ ሎሚን ዝመጽእ ሰሙንን፣ ምስ ማጽርያታት።</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>ናይ ዕለት ሓጺር ሓሳብ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>ኣብ ዝመረጽካዮ ሰዓት ምስ ቁጽርታትካ ሓደ መተሓሳሰቢ ኣብ መዓልቲ።</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>ንገጽ ሎሚ ሓድሽ ኣቀራርባ።</value>
+  </data>
 </root>

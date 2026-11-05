@@ -935,4 +935,55 @@ Ebikwatireho byabitswe omu %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Amakaadi nigeemera, obumanyiso nibwenyonyoka, kalenda neerigita kandi empapuro ezitaine kintu neziyabira. Windows eri animeshoni zizimire, byona nibisigara bityo.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} kuhikire eizooba</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} kuhikire eizooba</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} zahaire</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} zahaire</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} z'obukuru omwezi gunu</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} z'obukuru omwezi gunu</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Eminsi 7 ehirakurikira</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Shereka ebyaherire</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Ebishushanisibwa buri izooba</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Okumanyisa kurimu ebishushanisibwa by'eizooba, rimwe buri izooba.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Eizooba ryawe omu kuraba</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Ebyahaire, eizooba n'orwiki orurikwija, n'ebisengura.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Ebishushanisibwa buri izooba</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Okumanyisa kimwe buri izooba n'ebibalo byawe, omu ntandikwa eyo orikwatoorana.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Entarora ehyaka y'orupapura rw'Eizooba.</value>
+  </data>
 </root>

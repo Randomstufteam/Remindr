@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>קאַרטלעך הייבן זיך, האַקלעך שפּרינגען, דער קאַלענדאַר גליטשט און ליידיקע זײַטן שוועבן. מיט אויסגעשאַלטענע אַנימאַציעס אין Windows בלײַבט אַלץ שטיל.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} פֿאַר הײַנט</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} פֿאַר הײַנט</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} פֿאַרשפּעטיקט</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} פֿאַרשפּעטיקט</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} וויכטיק די וואָך</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} וויכטיק די וואָך</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>די קומענדיקע 7 טעג</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>באַהאַלט פֿאַרענדיקטע</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>טעגלעכער סך-הכל</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>אַ מעלדונג מיט דעם טאָגס סך-הכל, איין מאָל אַ טאָג.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>דײַן טאָג אין אײן בליק</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>פֿאַרשפּעטיקט, הײַנט און די קומענדיקע וואָך, מיט פֿילטערס.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>טעגלעכער סך-הכל</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>איין מעלדונג אַ טאָג מיט דײַנע צאָלן, אין דער צײַט וואָס דו קלײַבסט.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>אַ נײַער אויסזען פֿאַר דער זײַט הײַנט.</value>
+  </data>
 </root>

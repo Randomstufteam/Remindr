@@ -950,4 +950,64 @@ Detaliile au fost salvate în %AppData%\Remindr\error.log</value>
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>Limba: {0}. Apasă pentru a schimba.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} pentru azi</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} pentru azi</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} pentru azi</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} întârziate</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} întârziate</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} întârziate</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} importante săptămâna aceasta</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} importante săptămâna aceasta</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} importante săptămâna aceasta</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Următoarele 7 zile</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Ascunde finalizatele</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Rezumat zilnic</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>O notificare cu rezumatul zilei, o dată pe zi.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ziua ta dintr-o privire</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Întârziate, azi și săptămâna viitoare, cu filtre.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Rezumat zilnic</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>O notificare pe zi cu numerele tale, la ora aleasă de tine.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Un aspect nou pentru pagina Azi.</value>
+  </data>
 </root>

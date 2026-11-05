@@ -79,7 +79,7 @@
 
                 <!-- Footer -->
                 <Grid Grid.Row="2" Margin="28,0,28,0">
-                    <TextBlock Text="Remind UI 0.4" Style="{StaticResource Caption}" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                    <TextBlock Text="Remind UI 0.5" Style="{StaticResource Caption}" HorizontalAlignment="Center" VerticalAlignment="Bottom"
                                Margin="0,0,0,6" Opacity="0.7" IsHitTestVisible="False" />
                     <Button x:Name="CancelButton" Style="{StaticResource GlassPill}" HorizontalAlignment="Left" VerticalAlignment="Center"
                             Content="Cancel" Click="Cancel_Click" automation:AutomationProperties.Name="Cancel" />

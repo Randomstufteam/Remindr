@@ -935,4 +935,55 @@ A fi àlàyé pamọ́ sí %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Àwọn káàdì ń gbéra, àwọn àmì ìtẹ́wọ́gbà ń jáde, kàlẹ́ńdà ń yọ̀, àwọn ojú-ìwé òfo sì ń léfòó. Tí a bá pa àwọn ìṣípayá Windows, gbogbo nǹkan á dúró jẹ́ẹ́.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} fún òní</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} fún òní</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} ti pẹ́</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} ti pẹ́</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} ṣe pàtàkì ní ọ̀sẹ̀ yìí</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} ṣe pàtàkì ní ọ̀sẹ̀ yìí</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ọjọ́ 7 tó ń bọ̀</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Fi àwọn tó parí pamọ́</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Àkópọ̀ ojoojúmọ́</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ìfitónilétí pẹ̀lú àkópọ̀ ọjọ́, lẹ́ẹ̀kan lójúmọ́.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ọjọ́ rẹ ní wíwò kan</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Àwọn tó ti pẹ́, òní àti ọ̀sẹ̀ tó ń bọ̀, pẹ̀lú àwọn àlẹ̀mọ́.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Àkópọ̀ ojoojúmọ́</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Ìfitónilétí kan lójúmọ́ pẹ̀lú iye rẹ, ní àkókò tí o yàn.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Ìrísí tuntun fún ojú-ìwé Òní.</value>
+  </data>
 </root>

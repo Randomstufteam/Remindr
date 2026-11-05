@@ -935,4 +935,55 @@ Ebikwata ku nsonga byatereddwa mu %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaadi ziyimuka, obubonero bukubwa, kalenda esereka n'empapula ezitaliimu kintu zibuuka. Singa okutambula kwa Windows kuzikiddwa, buli kimu kisigala kisirise.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} leero</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} leero</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} biyise</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} biyise</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} bikulu wiiki eno</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} bikulu wiiki eno</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ennaku 7 ezijja</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Kweka ebiwedde</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Ekitundu ky'olunaku</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Okumanyisibwa n'ekitundu ky'olunaku, omulundi gumu buli lunaku.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Olunaku lwo mu kutunula</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Ebyayise, leero n'wiiki ejja, n'ebisengejja.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Ekitundu ky'olunaku</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Okumanyisibwa kumu buli lunaku n'ebibalo byo, mu budde bw'olonze.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Endabika empya ey'olupapula Leero.</value>
+  </data>
 </root>

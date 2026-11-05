@@ -935,4 +935,55 @@ Habarey go a ra %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaardey ga tuuru, tikey ga fumbu, kalandiriye ga zuru, hala fooyo kaarey ga ziji. Da Windows animashon kuubu, hay kul ga kay.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} ga bara hõ</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} ga bara hõ</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} ga gay</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} ga gay</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} ga beerey jirbi woo ra</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} ga beerey jirbi woo ra</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Zaari 7 kaa ga kaa</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Ngey kulinantey tuusu</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Zaari kul cabe</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Habaru kayna kaŋ ga zaari cabe cabe, sorro folloŋ zaari kul.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ni zaari ga ciri</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Kaŋ gay, hõ nda jirbi kaa, nda filtar.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Zaari kul cabe</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Habaru folloŋ zaari kul nda ni hinza, saaya kaŋ ni suuba.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Fennu taji taaga ra Hõ foo.</value>
+  </data>
 </root>

@@ -23,6 +23,8 @@ public class TranslationFreezeTests
         "Settings_Version",                   // "Remindr {0}"
         "Settings_RemindUiVersion",           // "Remind UI {0}": a name
         "WhatsNew_0_4_0_5_Title",             // "Remind UI 0.4": a name
+        "WhatsNew_0_5_0_3_Title",             // "Remind UI 0.5": a name
+        "Summary_Join",                       // "{0}, {1}": only the separator differs by script
         "Picker_PinName",                     // "PIN"
         "Calendar_WeekRangeCrossMonth",       // "{0} – {1}"
         "Calendar_WeekRangeCrossYear",
@@ -165,8 +167,8 @@ public class TranslationFreezeTests
     public void EveryCultureFile_HasTheWhatsNewHighlightsOfTheBundledReleases()
     {
         var neutral = SourceTree.ReadResx(Path.Combine(ResourcesDir, "Strings.resx"));
-        var whatsNew = neutral.Keys.Where(k => Regex.IsMatch(k, @"^WhatsNew_0_4_0_")).ToList();
-        Assert.Equal(10, whatsNew.Count);
+        var whatsNew = neutral.Keys.Where(k => Regex.IsMatch(k, @"^WhatsNew_0_[45]_0_")).ToList();
+        Assert.Equal(16, whatsNew.Count);
         foreach (var (culture, path) in CultureFiles())
         {
             var file = SourceTree.ReadResx(path);

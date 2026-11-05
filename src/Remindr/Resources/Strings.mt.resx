@@ -326,4 +326,82 @@ Id-dettalji nżammu f'%AppData%\Remindr\error.log</value></data>
   <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve"><value>Ixgħelha fl-issettjar u Remindr jibda moħbi fit-tray meta tidħol.</value></data>
   <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve"><value>Remind UI 0.4</value></data>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve"><value>Il-kards jogħlew, it-tikek jaqbżu, il-kalendarju jiżżerżaq u l-paġni vojta jtajru. Bl-animazzjonijiet tal-Windows mitfija, kollox jibqa' kwiet.</value></data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} għal illum</value>
+  </data>
+  <data name="Summary_Due_Two" xml:space="preserve">
+    <value>{0} għal illum</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} għal illum</value>
+  </data>
+  <data name="Summary_Due_Many" xml:space="preserve">
+    <value>{0} għal illum</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} għal illum</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} tard</value>
+  </data>
+  <data name="Summary_Overdue_Two" xml:space="preserve">
+    <value>{0} tard</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} tard</value>
+  </data>
+  <data name="Summary_Overdue_Many" xml:space="preserve">
+    <value>{0} tard</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} tard</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} importanti din il-ġimgħa</value>
+  </data>
+  <data name="Summary_Important_Two" xml:space="preserve">
+    <value>{0} importanti din il-ġimgħa</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} importanti din il-ġimgħa</value>
+  </data>
+  <data name="Summary_Important_Many" xml:space="preserve">
+    <value>{0} importanti din il-ġimgħa</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} importanti din il-ġimgħa</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>L-għada 7 ijiem</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Aħbi dawk kompluti</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Sommarju ta' kuljum</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Notifika bis-sommarju tal-ġurnata, darba kuljum.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Il-ġurnata tiegħek f'daqqa t'għajn</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Tard, illum u l-ġimgħa li jmiss, bil-filtri.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Sommarju ta' kuljum</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Notifika waħda kuljum bl-għadd tiegħek, fil-ħin li tagħżel.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Dehra ġdida għall-paġna Illum.</value>
+  </data>
 </root>

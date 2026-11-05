@@ -107,6 +107,12 @@ public sealed class NotificationService : IToastSink
         await _dispatcher.InvokeAsync(() => Show(r, alert), DispatcherPriority.Normal, ct);
     }
 
+    public async Task ShowSummaryAsync(string title, string body, CancellationToken ct)
+    {
+        if (_dispatcher is null || _dispatcher.CheckAccess()) { ShowInfo(title, body); return; }
+        await _dispatcher.InvokeAsync(() => ShowInfo(title, body), DispatcherPriority.Normal, ct);
+    }
+
     /// <summary>Removes every toast of a deleted profile from Action Center (tags start with "p{id}r").</summary>
     private static void ClearProfile(int profileId)
     {

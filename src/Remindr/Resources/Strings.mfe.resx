@@ -935,4 +935,55 @@ Detay finn sove dan %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kart monte, tik sote, kalandriye glise ek paz vid flote. Kan animasion Windows etenn, tou reste trankil.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} pou zordi</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} pou zordi</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} an reta</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} an reta</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} important sa semenn-la</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} important sa semenn-la</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>7 zour prosenn</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Kasiet bann ki fini</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Rezime tou le zour</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Enn notifikasion avek rezime zour-la, enn fwa par zour.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ou zour dan enn kou d'lœil</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>An reta, zordi ek semenn prosenn, avek bann filtr.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Rezime tou le zour</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Enn notifikasion par zour avek ou bann nomb, ler ki ou swazir.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Enn nouvo aspe pou paz Zordi.</value>
+  </data>
 </root>

@@ -41,7 +41,7 @@ public class RemindUiTests
     // ---- version and strings -----------------------------------------------------------------------------
 
     [Fact]
-    public void Version_IsZeroPointFour() => Assert.Equal("0.4", RemindUI.Version);
+    public void Version_IsZeroPointFive() => Assert.Equal("0.5", RemindUI.Version);
 
     [Fact]
     public void RemindUiVersionString_ExistsEverywhere_AndNeverTranslatesTheName()
@@ -54,7 +54,7 @@ public class RemindUiTests
             Assert.Contains("Remind UI", v);
             Assert.Contains("{0}", v);
         }
-        Assert.Equal("Remind UI 0.4", Loc.Format("Settings_RemindUiVersion", RemindUI.Version));
+        Assert.Equal("Remind UI 0.5", Loc.Format("Settings_RemindUiVersion", RemindUI.Version));
     }
 
     // ---- tokens --------------------------------------------------------------------------------------

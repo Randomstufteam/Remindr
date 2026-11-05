@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>ކާޑުތައް އުފުލޭ، ޓިކްތައް ފުޅާވޭ، ކަލެންޑަރު ކިސްލެވޭ އަދި ހުސް ސަފްހާތައް ތިރޭ. ވިންޑޯސް އެނިމޭޝަން ނިވާނަމަ ހުރިހާ ކަމެއް ހުއްޓިފައި ހުންނާނެ.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>މިއަދު {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>މިއަދު {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>ލަސްވެފައި {0}</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>ލަސްވެފައި {0}</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>މި ހަފްތާގައި މުހިންމު {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>މި ހަފްތާގައި މުހިންމު {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>އަންނަ 7 ދުވަސް</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>ނިމިފައިވާ ފޮރުވާ</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>ދުވާލީ ޚުލާޞާ</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>ދުވަހުގެ ޚުލާޞާއާއެކު ނޯޓިފިކޭޝަނެއް، ދުވާލަކު އެއްފަހަރު.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>ތިޔަބައިމީހުންގެ ދުވަސް ކުރުކޮށް</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>ލަސްވެފައިވާ، މިއަދާއި އަންނަ ހަފްތާ، ފިލްޓަރާއެކު.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>ދުވާލީ ޚުލާޞާ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>ދުވާލަކު އެއް ނޯޓިފިކޭޝަން، ތިޔަ އިޚްތިޔާރުކުރާ ވަގުތެއްގައި.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>މިއަދު ޕޭޖަށް އާ ހަށިގަނޑެއް.</value>
+  </data>
 </root>

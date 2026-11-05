@@ -959,4 +959,73 @@
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>Мова: {0}. Натисніть, щоб змінити.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} на сьогодні</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} на сьогодні</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} на сьогодні</value>
+  </data>
+  <data name="Summary_Due_Many" xml:space="preserve">
+    <value>{0} на сьогодні</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} прострочено</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} прострочено</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} прострочено</value>
+  </data>
+  <data name="Summary_Overdue_Many" xml:space="preserve">
+    <value>{0} прострочено</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} важливих цього тижня</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} важливих цього тижня</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} важливих цього тижня</value>
+  </data>
+  <data name="Summary_Important_Many" xml:space="preserve">
+    <value>{0} важливих цього тижня</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Наступні 7 днів</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Сховати виконані</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Щоденний підсумок</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Сповіщення з підсумком дня раз на день.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ваш день коротко</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Прострочені, сьогодні й тиждень уперед, з фільтрами.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Щоденний підсумок</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Одне сповіщення на день із цифрами, у вибраний вами час.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Новий вигляд сторінки «Сьогодні».</value>
+  </data>
 </root>

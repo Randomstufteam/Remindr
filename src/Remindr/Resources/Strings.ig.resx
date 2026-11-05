@@ -935,4 +935,55 @@ Echekwara nkọwa na %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaadị na-ebili, akara ọ dị mma na-apụta, kalenda na-amị amị, peeji efu na-ese n'elu. Mgbe e gbanyụrụ mmegharị Windows, ihe niile na-anọ jụụ.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} kwesiri taa</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} kwesiri taa</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} gafere oge</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} gafere oge</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} dị mkpa n'izu a</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} dị mkpa n'izu a</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ụbọchị 7 na-abịa</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Zoo ndị emechara</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Nchịkọta kwa ụbọchị</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ọkwa nwere nchịkọta ụbọchị, otu ugboro n'ụbọchị.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ụbọchị gị n'otu leba anya</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Ndị gafere oge, taa na izu na-abịa, na ihe nzacha.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Nchịkọta kwa ụbọchị</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Otu ọkwa n'ụbọchị na ọnụọgụ gị, n'oge ị họọrọ.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Ọdịdị ọhụrụ maka ibe Taa.</value>
+  </data>
 </root>

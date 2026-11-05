@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>کارڈ چھِ اُبھران، ٹِک چھِ اُچھلان، کیلنڈر چھُ کھسان تہٕ خٲلی صفحہ چھِ تیران۔ وِنڈوز اینیمیشن بند آسنہٕ پیٹھ رٕہان چھُ سٲری ساکت۔</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} اَز واجب</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} اَز واجب</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} دیر گومت</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} دیر گومت</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} یہ ہفتہ اہم</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} یہ ہفتہ اہم</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>اگلے ۷ دۄن</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>مکمل شُدہ چھُپاو</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>روزانہ خلاصہ</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>دۄہُک خلاصہ سیتۍ اکھ اطلاع، دۄہ اکھ کتھ.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>توہند دۄہ اکھ نظرس منز</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>دیر گومتھ، اَز تہ اگلہ ہفتہ، فلٹرن سیتۍ.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>روزانہ خلاصہ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>دۄہ اکھ اطلاع توہنزن گنتیہ سیتۍ، توہہ ہندس چُنُن وقتس پیٹھ.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>اَز صفحہ ہُند نوو انداز.</value>
+  </data>
 </root>

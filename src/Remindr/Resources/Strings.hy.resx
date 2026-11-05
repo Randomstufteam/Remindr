@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Քարտերը բարձրանում են, նշումները թռչկոտում են, օրացույցը սահում է, իսկ դատարկ էջերը լողում են։ Երբ Windows-ի անիմացիաները անջատված են, ամեն ինչ մնում է անշարժ։</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} այսօրվա համար</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} այսօրվա համար</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} ժամկետանց</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} ժամկետանց</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} կարևոր այս շաբաթ</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} կարևոր այս շաբաթ</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Հաջորդ 7 օրը</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Թաքցնել ավարտվածները</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Օրվա ամփոփում</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ծանուցում օրվա ամփոփմամբ՝ օրը մեկ անգամ։</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ձեր օրը մի հայացքով</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Ժամկետանցները, այսօրն ու առաջիկա շաբաթը՝ զտիչներով։</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Օրվա ամփոփում</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Օրը մեկ ծանուցում ձեր թվերով՝ ձեր ընտրած ժամին։</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Նոր տեսք «Այսօր» էջի համար։</value>
+  </data>
 </root>

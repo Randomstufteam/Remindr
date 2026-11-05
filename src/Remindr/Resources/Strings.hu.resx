@@ -941,4 +941,55 @@ A részletek mentve: %AppData%\Remindr\error.log</value>
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>Nyelv: {0}. Nyomd meg a módosításhoz.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} esedékes ma</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} esedékes ma</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} lejárt</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} lejárt</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} fontos a héten</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} fontos a héten</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Következő 7 nap</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Befejezettek elrejtése</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Napi összegzés</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Értesítés a nap összegzésével, naponta egyszer.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>A napod egy pillantásra</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Lejártak, ma és a következő hét, szűrőkkel.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Napi összegzés</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Naponta egy értesítés a számaiddal, a választott időpontban.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Új megjelenés a Ma oldalnak.</value>
+  </data>
 </root>

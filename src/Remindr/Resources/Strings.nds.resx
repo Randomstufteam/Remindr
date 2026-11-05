@@ -935,4 +935,55 @@ Einzelheiten sünd sekert in %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaarten heven sik, Hakens poppen op, de Kalenner glitt un leddige Sieten swevt. Mit utschalt Windows-Animatschonen blifft allens still.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} vundaag fällig</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} vundaag fällig</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} överfällig</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} överfällig</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} wichtig disse Week</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} wichtig disse Week</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>De nöchsten 7 Daag</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Erledigte wegsteken</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Daglich Tohoopfaten</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Een Bescheed mit de Dagsöversicht, eenmaal an'n Dag.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Dien Dag op eenen Blick</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Överfällig, vundaag un de kamen Week, mit Filters.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Daglich Tohoopfaten</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Een Bescheed an'n Dag mit dien Tallen, to de Tied, de du utsöchst.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Een nee Utsehn för de Sied Vundaag.</value>
+  </data>
 </root>

@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Корт боло мешавад, аломатҳо ҷаҳида мебароянд, тақвим лағжида мегузарад ва саҳифаҳои холӣ шино мекунанд. Бо анимацияи ғайрифаъоли Windows ҳама чиз бетаҳаррук мемонад.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} барои имрӯз</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} барои имрӯз</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} дер шуда</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} дер шуда</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} муҳим дар ин ҳафта</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} муҳим дар ин ҳафта</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>7 рӯзи оянда</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Пинҳон кардани анҷомёфта</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Хулосаи рӯзона</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Огоҳӣ бо хулосаи рӯз, як бор дар як рӯз.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Рӯзи шумо дар як нигоҳ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Дер шудагон, имрӯз ва ҳафтаи оянда, бо филтрҳо.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Хулосаи рӯзона</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Як огоҳӣ дар як рӯз бо рақамҳои шумо, дар вақти интихобкардаи шумо.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Намуди нав барои саҳифаи Имрӯз.</value>
+  </data>
 </root>

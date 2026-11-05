@@ -935,4 +935,55 @@ Woɖo nyatakakawo ɖe %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kadiwo dze dzi, dzesiwo do go, ŋkekenyala ƒoa asi eye axa siwo me naneke mele o la fiaa. Ne Windows ƒe nuƒoƒowo mele anyi o la, nuwo katã nɔa te.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} le eme egbe</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} le eme egbe</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} va yi</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} va yi</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} le vevie kwasiɖa sia me</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} le vevie kwasiɖa sia me</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Ŋkeke 7 siwo gbɔna</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Ɣla wo si wowu</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Ŋkeke sia ŋkeke ƒe kpuiɖoɖo</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Nyatakakadzraɖoɖo si me ŋkeke la ƒe kpuiɖoɖo le, zi ɖeka ŋkeke ɖe sia ɖe.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Wò ŋkekea le nɔnɔ me</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Siwo va yi, egbe kple kwasiɖa si gbɔna, kple filtawo.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Ŋkeke sia ŋkeke ƒe kpuiɖoɖo</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Nyatakakadzraɖoɖo ɖeka ŋkeke ɖe sia ɖe kple wò xexlẽdzesiwo, le ɣeyiɣi si nàtia.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Nɔnɔme yeye na Egbe ƒe axa.</value>
+  </data>
 </root>

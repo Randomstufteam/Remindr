@@ -959,4 +959,73 @@ Detaloù a zo bet enrollet e %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Ar c'hartennoù a sav, ar c'hlikoù a zidamall, an deizlevr a riklañ hag ar pajennoù goullo a neuñv. Gant fiñvadurioù Windows lazhet e chom pep tra difiñv.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} da ober hiziv</value>
+  </data>
+  <data name="Summary_Due_Two" xml:space="preserve">
+    <value>{0} da ober hiziv</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} da ober hiziv</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} da ober hiziv</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} dija</value>
+  </data>
+  <data name="Summary_Overdue_Two" xml:space="preserve">
+    <value>{0} dija</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} dija</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} dija</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} pouezus er sizhun-mañ</value>
+  </data>
+  <data name="Summary_Important_Two" xml:space="preserve">
+    <value>{0} pouezus er sizhun-mañ</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} pouezus er sizhun-mañ</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} pouezus er sizhun-mañ</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>7 devezh a zeu</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Kuzhat ar re echu</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Berradenn pemdeziek</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Ur c'hemennadenn gant berradenn an deiz, ur wech bemdez.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ho tevezh en ur sellad</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Dija, hiziv hag ar sizhun a zeu, gant silioù.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Berradenn pemdeziek</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Ur c'hemennadenn bemdez gant ho niverennoù, d'an eur dibabet.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Ur neuz nevez evit ar bajenn Hiziv.</value>
+  </data>
 </root>

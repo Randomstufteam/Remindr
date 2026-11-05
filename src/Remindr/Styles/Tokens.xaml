@@ -70,6 +70,18 @@
         <Setter Property="Foreground" Value="{DynamicResource TextFillColorSecondaryBrush}" />
     </Style>
 
+    <!-- Remind UI 0.5 text styles: the Today summary sentence and a page section heading (wraps; no fixed height). -->
+    <Style x:Key="SummaryText" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+    </Style>
+    <Style x:Key="SectionLabel" TargetType="TextBlock" BasedOn="{StaticResource SectionHeader}">
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Margin" Value="2,12,0,10" />
+    </Style>
+
     <!-- Keyboard focus ring: 2px outer stroke around the element. Use as FocusVisualStyle="{DynamicResource FocusRing}". -->
     <Style x:Key="FocusRing">
         <Setter Property="Control.Template">

@@ -935,4 +935,55 @@ Dintlha di bolokilwe go %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Dikarata di a emelela, ditšhekhe di a thunya, khalendara e a thelela, gomme matlakala ao a se nago selo a a phaphama. Ge diphetogo tša Windows di tima, tšohle di dula di eme.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} lehono</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} lehono</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} di fetile nako</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} di fetile nako</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} tša bohlokwa beke ye</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} tša bohlokwa beke ye</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Matšatši a 7 a latelago</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Uta tše di fedilego</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Kakaretšo ya letšatši le lengwe le lengwe</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Tsebišo yeo e nago le kakaretšo ya letšatši, gatee ka letšatši.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Letšatši la gago ka pono e tee</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Tše di fetilego nako, lehono le beke ye e tlago, ka diseha.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Kakaretšo ya letšatši le lengwe le lengwe</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Tsebišo e tee ka letšatši ka dipalo tša gago, ka nako yeo o e kgethago.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Pono ye mpsha ya letlakala la Lehono.</value>
+  </data>
 </root>

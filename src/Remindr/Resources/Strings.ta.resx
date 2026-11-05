@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>அட்டைகள் மேலெழும், டிக் குறிகள் துள்ளும், நாள்காட்டி நகரும், காலிப் பக்கங்கள் மிதக்கும். Windows அனிமேஷன்கள் அணைந்திருந்தால் எல்லாம் அசையாமல் இருக்கும்.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>இன்று நிலுவை {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>இன்று நிலுவை {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} தாமதம்</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} தாமதம்</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>இந்த வாரம் முக்கியமானவை {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>இந்த வாரம் முக்கியமானவை {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>அடுத்த 7 நாட்கள்</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>முடிந்தவற்றை மறை</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>தினசரி சுருக்கம்</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>அன்றைய சுருக்கத்துடன் ஒரு அறிவிப்பு, நாளுக்கு ஒரு முறை.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>ஒரே பார்வையில் உங்கள் நாள்</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>தாமதமானவை, இன்று மற்றும் வரும் வாரம், வடிகட்டிகளுடன்.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>தினசரி சுருக்கம்</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>நீங்கள் தேர்ந்த நேரத்தில் உங்கள் எண்ணிக்கைகளுடன் நாளுக்கு ஒரு அறிவிப்பு.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>இன்று பக்கத்திற்கான புதிய தோற்றம்.</value>
+  </data>
 </root>

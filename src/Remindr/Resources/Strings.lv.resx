@@ -320,4 +320,55 @@ Informācija saglabāta failā %AppData%\Remindr\error.log</value></data>
   <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve"><value>Ieslēdz iestatījumos, un Remindr startēs paslēpts paziņojumu apgabalā, kad pierakstīsies.</value></data>
   <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve"><value>Remind UI 0.4</value></data>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve"><value>Kartītes paceļas, atzīmes uzlec, kalendārs slīd un tukšās lapas peld. Ja Windows animācijas ir izslēgtas, viss paliek mierā.</value></data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} šodienai</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} šodienai</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} nokavēti</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} nokavēti</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} svarīgi šonedēļ</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} svarīgi šonedēļ</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Nākamās 7 dienas</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Slēpt pabeigtos</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Dienas kopsavilkums</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Paziņojums ar dienas kopsavilkumu, reizi dienā.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Jūsu diena īsumā</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Nokavētie, šodien un nākamā nedēļa, ar filtriem.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Dienas kopsavilkums</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Viens paziņojums dienā ar jūsu skaitļiem, jūsu izvēlētā laikā.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Jauns izskats lapai Šodien.</value>
+  </data>
 </root>

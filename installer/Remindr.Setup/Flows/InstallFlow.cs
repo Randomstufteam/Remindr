@@ -124,7 +124,7 @@ public sealed class InstallFlow
         // Starting a freshly written exe can stall for seconds while Windows scans it: do it off the UI thread with the window hidden.
         Action launch = async () => { _w.Hide(); await Task.Run(_b.LaunchApp); _w.Exit(); };
         _w.Navigate(new DonePage(_existing.Mode == InstallMode.Update ? "Remindr is up to date" : "Remindr is ready", detail,
-            _existing.Mode == InstallMode.Update ? DonePage.NewIn04 : null), new FooterConfig
+            _existing.Mode == InstallMode.Update ? DonePage.NewIn05 : null), new FooterConfig
         {
             Primary = launchFirst ? "Launch Remindr" : "Finish", OnPrimary = launchFirst ? launch : finish,
             Back = launchFirst ? "Finish" : "Launch Remindr", OnBack = launchFirst ? finish : launch,

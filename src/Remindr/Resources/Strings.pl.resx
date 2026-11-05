@@ -953,4 +953,73 @@ Szczegóły zapisano w %AppData%\Remindr\error.log</value>
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>Język: {0}. Naciśnij, aby zmienić.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} na dziś</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} na dziś</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} na dziś</value>
+  </data>
+  <data name="Summary_Due_Many" xml:space="preserve">
+    <value>{0} na dziś</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} po terminie</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} po terminie</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} po terminie</value>
+  </data>
+  <data name="Summary_Overdue_Many" xml:space="preserve">
+    <value>{0} po terminie</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} ważne w tym tygodniu</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} ważne w tym tygodniu</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} ważne w tym tygodniu</value>
+  </data>
+  <data name="Summary_Important_Many" xml:space="preserve">
+    <value>{0} ważne w tym tygodniu</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Następne 7 dni</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Ukryj ukończone</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Podsumowanie dnia</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Powiadomienie z podsumowaniem dnia, raz dziennie.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Twój dzień w skrócie</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Po terminie, dziś i nadchodzący tydzień, z filtrami.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Podsumowanie dnia</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Jedno powiadomienie dziennie z liczbami, o wybranej przez Ciebie porze.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Nowy wygląd strony Dziś.</value>
+  </data>
 </root>

@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>कार्डफोर गाहाय खुब्ला, टिकफोर थुरुंब, कैलेन्डार सरकैब आरो गोरा पृष्ठाफोर तरंगैब। Windows एनिमेसन बन्द जानायाव बुब्ला थिर दं।</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>आैसिन {0} गोनां</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>आैसिन {0} गोनां</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} सिगाङै</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} सिगाङै</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>दिनै हबथाय {0} गोनां</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>दिनै हबथाय {0} गोनां</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>गाहायनि 7 सान</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>खुमजाङाफोरखौ फिसायना</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>सानसानसिनि जाफुंनाय</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>सानसिनि जाफुंनायाव गावनाय, सानसिन गोसोखे।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>नोंथांनि सान गोबां</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>सिगाङै, आैसिन आरो गाहायनि हबथाय, फिल्टारजों।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>सानसानसिनि जाफुंनाय</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>नोंथांनि गोनांथाय, सानसिन गावनाय गोसोखे।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>आैसिनि फेजनि थाखाय गोदान मोनथाय।</value>
+  </data>
 </root>

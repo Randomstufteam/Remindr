@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>कार्डहरू माथि उठ्छन्, चिनोहरू उफ्रिन्छन्, पात्रो चिप्लिन्छ र खाली पृष्ठहरू तैरिन्छन्। Windows एनिमेसन बन्द हुँदा सबै कुरा स्थिर रहन्छ।</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>आज बाँकी {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>आज बाँकी {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} ढिलो</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} ढिलो</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>यस हप्ता {0} महत्त्वपूर्ण</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>यस हप्ता {0} महत्त्वपूर्ण</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>अर्को ७ दिन</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>सम्पन्न लुकाउनुहोस्</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>दैनिक सारांश</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>दिनको सारांश सहितको एउटा सूचना, दिनमा एक पटक।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>एक नजरमा तपाईंको दिन</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>ढिलो भएका, आज र आउँदो हप्ता, फिल्टरसहित।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>दैनिक सारांश</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>तपाईंले रोजेको समयमा तपाईंको गणना सहित दिनमा एउटा सूचना।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>आज पृष्ठको लागि नयाँ रूप।</value>
+  </data>
 </root>

@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>ကတ်များ မြင့်တက်လာသည်၊ အမှန်ခြစ်များ ပေါ်လာသည်၊ ပြက္ခဒိန် ပွတ်ဆွဲသွားသည်၊ ဗလာစာမျက်နှာများ ပေါ့ပါးစွာ လွင့်နေသည်။ Windows animation ပိတ်ထားလျှင် အားလုံး ငြိမ်နေမည်။</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>ယနေ့ ကျသင့် {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>ယနေ့ ကျသင့် {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>နောက်ကျ {0}</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>နောက်ကျ {0}</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>ဤအပတ် အရေးကြီး {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>ဤအပတ် အရေးကြီး {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>နောက် ၇ ရက်</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>ပြီးစီးသည်များ ဖျောက်ရန်</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>နေ့စဉ် အကျဉ်းချုပ်</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>နေ့စဉ် အကျဉ်းချုပ်ပါ အကြောင်းကြားချက်တစ်ခု၊ တစ်ရက်လျှင် တစ်ကြိမ်။</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>သင့်နေ့ကို တစ်ချက်ကြည့်</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>နောက်ကျသည်များ၊ ယနေ့နှင့် လာမည့်အပတ်၊ စစ်ထုတ်မှုများဖြင့်။</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>နေ့စဉ် အကျဉ်းချုပ်</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>သင်ရွေးချယ်သော အချိန်တွင် သင့်ရေတွက်မှုများဖြင့် တစ်ရက်လျှင် အကြောင်းကြားချက်တစ်ခု။</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>ယနေ့စာမျက်နှာအတွက် အသွင်အသစ်။</value>
+  </data>
 </root>

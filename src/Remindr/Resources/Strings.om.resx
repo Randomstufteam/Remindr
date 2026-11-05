@@ -935,4 +935,55 @@ Ifaajjeen %AppData%\Remindr\error.log keessatti olkaa'ameera</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaardiin ol ba'a, mallattoon ni burqa, kaalaandariin ni sakaala, fuulonni duwwaan ni sooratu. Animeeshiniin Windows yoo cufame, wanti hundi callisa.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} har'a</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} har'a</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} yeroo darbe</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} yeroo darbe</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} torban kana keessatti barbaachisaa</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} torban kana keessatti barbaachisaa</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Guyyoota 7 itti aanan</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Kan xumuraman dhoksi</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Cuunfaa guyyaa guyyaa</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Beeksisa cuunfaa guyyaa qabu, guyyaatti altokko.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Guyyaan kee ilaalcha tokko keessatti</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Kan yeroo darbe, har'a fi torban itti aanu, calaltuuwwan wajjin.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Cuunfaa guyyaa guyyaa</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Beeksisa guyyaatti tokko lakkoofsa kee wajjin, yeroo ati filattu irratti.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Bifa haaraa fuula Har'aatiif.</value>
+  </data>
 </root>

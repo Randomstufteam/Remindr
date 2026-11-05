@@ -935,4 +935,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>কাৰ্ডবোৰ ওপৰলৈ উঠে, টিকবোৰ পপ কৰে, কেলেণ্ডাৰ গচকে আৰু খালী পৃষ্ঠাবোৰ ওপঙি থাকে। Windows এনিমেচন বন্ধ থাকিলে সকলো স্থিৰ থাকে।</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>আজি দেয় {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>আজি দেয় {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} পলম হৈছে</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} পলম হৈছে</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>এই সপ্তাহত গুৰুত্বপূৰ্ণ {0}</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>এই সপ্তাহত গুৰুত্বপূৰ্ণ {0}</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>পৰৱৰ্তী ৭ দিন</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>সম্পূৰ্ণ হোৱাবোৰ লুকুৱাওক</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>দৈনিক সাৰাংশ</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>দিনটোৰ সাৰাংশসহ এটা জাননী, দিনত এবাৰ।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>আপোনাৰ দিন এক ঠাণ্ডিত</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>পলম হোৱা, আজি আৰু আগন্তুক সপ্তাহ, ফিল্টাৰসহ।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>দৈনিক সাৰাংশ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>আপুনি বচা সময়ত দিনত এটা জাননী।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>আজিৰ পৃষ্ঠাৰ বাবে নতুন ৰূপ।</value>
+  </data>
 </root>

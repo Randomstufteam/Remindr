@@ -9,13 +9,12 @@ namespace Remindr.Setup;
 /// <summary>Success page for install and uninstall: an animated checkmark, a heading and one detail line.</summary>
 public partial class DonePage : UserControl
 {
-    /// <summary>Update mode: the three headline changes since the last release (kept short on purpose).</summary>
-    public static readonly string[] NewIn04 =
+    /// <summary>Update mode: the headline changes since the last release (kept short on purpose).</summary>
+    public static readonly string[] NewIn05 =
     {
-        "Reminder notifications with Snooze",
-        "Tray icon and Start with Windows",
-        "Remind UI 0.4: smoother motion and What's New",
-        "176 languages, many machine-translated",
+        "Today page with an overview and filters",
+        "Daily summary notification",
+        "Remind UI 0.5: a new Today look",
     };
 
     public DonePage(string heading, string detail, string[]? newItems = null)

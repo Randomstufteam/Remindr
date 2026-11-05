@@ -950,4 +950,64 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Картице се подижу, ознаке искачу, календар клизи, а празне странице лебде. Са искљученим анимацијама система Windows све мирује.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} за данас</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} за данас</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} за данас</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} касни</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} касни</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} касни</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} важно ове недеље</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} важно ове недеље</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} важно ове недеље</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Наредних 7 дана</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Сакриј завршено</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Дневни сажетак</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Обавештење са сажетком дана, једном дневно.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ваш дан укратко</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Касне, данас и наредна недеља, са филтерима.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Дневни сажетак</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Једно обавештење дневно са бројевима, у време које изаберете.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Нови изглед странице Данас.</value>
+  </data>
 </root>

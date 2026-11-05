@@ -959,4 +959,73 @@
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>Язык: {0}. Нажмите, чтобы изменить.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} на сегодня</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} на сегодня</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} на сегодня</value>
+  </data>
+  <data name="Summary_Due_Many" xml:space="preserve">
+    <value>{0} на сегодня</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} просрочено</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} просрочено</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} просрочено</value>
+  </data>
+  <data name="Summary_Overdue_Many" xml:space="preserve">
+    <value>{0} просрочено</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} важных на этой неделе</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} важных на этой неделе</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} важных на этой неделе</value>
+  </data>
+  <data name="Summary_Important_Many" xml:space="preserve">
+    <value>{0} важных на этой неделе</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Следующие 7 дней</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Скрыть выполненные</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Ежедневная сводка</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Уведомление со сводкой дня раз в день.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Ваш день вкратце</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Просроченные, сегодня и неделя вперёд, с фильтрами.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Ежедневная сводка</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Одно уведомление в день с цифрами, в выбранное вами время.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Новый вид страницы «Сегодня».</value>
+  </data>
 </root>

@@ -935,4 +935,55 @@ Butiran disimpan di %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kad terangkat, tanda semak melantun, kalendar meluncur dan halaman kosong terapung. Dengan animasi Windows dimatikan, semuanya kekal diam.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} perlu disiapkan hari ini</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} perlu disiapkan hari ini</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} lewat</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} lewat</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} penting minggu ini</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} penting minggu ini</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>7 hari akan datang</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Sembunyikan yang selesai</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Ringkasan harian</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Satu pemberitahuan dengan ringkasan hari ini, sekali sehari.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Hari anda sepintas lalu</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Lewat, hari ini dan minggu depan, dengan penapis.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Ringkasan harian</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Satu pemberitahuan sehari dengan kiraan anda, pada masa pilihan anda.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Rupa baharu untuk halaman Hari Ini.</value>
+  </data>
 </root>

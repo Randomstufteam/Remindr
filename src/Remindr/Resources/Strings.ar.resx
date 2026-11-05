@@ -968,4 +968,82 @@
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>اللغة: {0}. اضغط للتغيير.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} مستحق اليوم</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} مستحق اليوم</value>
+  </data>
+  <data name="Summary_Due_Two" xml:space="preserve">
+    <value>{0} مستحق اليوم</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} مستحق اليوم</value>
+  </data>
+  <data name="Summary_Due_Many" xml:space="preserve">
+    <value>{0} مستحق اليوم</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} متأخر</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} متأخر</value>
+  </data>
+  <data name="Summary_Overdue_Two" xml:space="preserve">
+    <value>{0} متأخر</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} متأخر</value>
+  </data>
+  <data name="Summary_Overdue_Many" xml:space="preserve">
+    <value>{0} متأخر</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} مهم هذا الأسبوع</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} مهم هذا الأسبوع</value>
+  </data>
+  <data name="Summary_Important_Two" xml:space="preserve">
+    <value>{0} مهم هذا الأسبوع</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} مهم هذا الأسبوع</value>
+  </data>
+  <data name="Summary_Important_Many" xml:space="preserve">
+    <value>{0} مهم هذا الأسبوع</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>الأيام السبعة القادمة</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>إخفاء المكتمل</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>الملخص اليومي</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>إشعار بملخص اليوم مرة واحدة يوميًا.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>يومك في لمحة</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>المتأخر واليوم والأسبوع القادم، مع عوامل تصفية.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>الملخص اليومي</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>إشعار واحد يوميًا بالأعداد، في الوقت الذي تختاره.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>مظهر جديد لصفحة اليوم.</value>
+  </data>
 </root>

@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>कार्ड ऊपर उठैत अछि, टिक उछलैत अछि, कैलेंडर सरकैत अछि आ खाली पृष्ठ तैरैत अछि। Windows एनीमेशन बंद रहला पर सभ किछु स्थिर रहैत अछि।</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>आइ देय {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>आइ देय {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} देरी भेल</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} देरी भेल</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>एहि सप्ताह {0} महत्वपूर्ण</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>एहि सप्ताह {0} महत्वपूर्ण</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>अगिला 7 दिन</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>पूर्ण भेल नुकाउ</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>दैनिक सारांश</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>दिनक सारांशक संग एकटा सूचना, दिनमे एक बेर।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>अहाँक दिन एक नजरिमे</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>देरी भेल, आइ आ अगिला सप्ताह, फिल्टरक संग।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>दैनिक सारांश</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>अहाँक चुनल समयपर गिनतीक संग दिनमे एक सूचना।</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>आइ पृष्ठक लेल नव रूप।</value>
+  </data>
 </root>

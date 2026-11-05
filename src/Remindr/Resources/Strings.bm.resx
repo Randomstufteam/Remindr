@@ -935,4 +935,55 @@ Kunnafoniw mara %AppData%\Remindr\error.log la</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaarɛw bɛ wuli, taamashyɛnw bɛ bɔ, kalandiriye bɛ bɔ kɔrɔ, ani bugɔw bɛ yɛlɛn. Ni Windows animasiyɔnw banna, fɛn bɛɛ bɛ to jɔlen.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>Bi {0} ka kan</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>Bi {0} ka kan</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} tɛmɛna waati kan</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} tɛmɛna waati kan</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} nafa ka bon dɔgɔkun in na</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} nafa ka bon dɔgɔkun in na</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Don 7 nata</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Ɲɛnabɔlenw dogo</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Don o don sɛbɛn surun</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Fɔlɔfɔlɔ min b'a jira don in kan, siɲɛ kelen don o don.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>I ka don ɲɛfɔli</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Tɛmɛnenw, bi ani dɔgɔkun nata, ni sefɛriw ye.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Don o don sɛbɛn surun</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Fɔlɔfɔlɔ kelen don o don, i ka waati sugandilen na.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Bi ka paaji cogoya kura.</value>
+  </data>
 </root>

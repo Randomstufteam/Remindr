@@ -941,4 +941,55 @@
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>言語: {0}。押して変更します。</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>今日が期限 {0} 件</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>今日が期限 {0} 件</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>期限切れ {0} 件</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>期限切れ {0} 件</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>今週の重要 {0} 件</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>今週の重要 {0} 件</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}、{1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>今後7日間</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>完了を非表示</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>毎日のまとめ</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>その日のまとめを知らせる通知を、1日1回表示します。</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>今日をひと目で</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>期限切れ、今日、今後1週間をフィルター付きで表示。</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>毎日のまとめ</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>選んだ時刻に、件数をまとめた通知を1日1回。</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>「今日」ページの新しいデザイン。</value>
+  </data>
 </root>

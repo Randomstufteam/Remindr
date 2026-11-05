@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kartlar yüksəlir, işarələr açılır, təqvim sürüşür, boş səhifələr süzür. Windows animasiyaları söndürülübsə, hər şey hərəkətsiz qalır.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>Bu gün {0} gözlənilir</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>Bu gün {0} gözlənilir</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} gecikib</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} gecikib</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>Bu həftə {0} vacib</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>Bu həftə {0} vacib</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Növbəti 7 gün</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Tamamlananları gizlət</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Gündəlik xülasə</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Günün xülasəsi ilə bildiriş, gündə bir dəfə.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Gününüz bir baxışda</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Gecikmişlər, bu gün və növbəti həftə, filtrlərlə.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Gündəlik xülasə</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Gündə bir bildiriş, seçdiyiniz vaxtda saylarla.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Bu gün səhifəsi üçün yeni görünüş.</value>
+  </data>
 </root>

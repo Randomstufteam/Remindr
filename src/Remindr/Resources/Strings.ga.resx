@@ -326,4 +326,82 @@ Sábháladh na sonraí in %AppData%\Remindr\error.log</value></data>
   <data name="WhatsNew_0_4_0_4_Text" xml:space="preserve"><value>Cuir ar siúl é sna Socruithe agus tosóidh Remindr i bhfolach sa tráidire nuair a shíneann tú isteach.</value></data>
   <data name="WhatsNew_0_4_0_5_Title" xml:space="preserve"><value>Remind UI 0.4</value></data>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve"><value>Ardaíonn cártaí, preabann ticeanna, sleamhnaíonn an féilire agus snámhann leathanaigh fholmha. Le beochan Windows múchta, fanann gach rud socair.</value></data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} dlite inniu</value>
+  </data>
+  <data name="Summary_Due_Two" xml:space="preserve">
+    <value>{0} dlite inniu</value>
+  </data>
+  <data name="Summary_Due_Few" xml:space="preserve">
+    <value>{0} dlite inniu</value>
+  </data>
+  <data name="Summary_Due_Many" xml:space="preserve">
+    <value>{0} dlite inniu</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} dlite inniu</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} thar téarma</value>
+  </data>
+  <data name="Summary_Overdue_Two" xml:space="preserve">
+    <value>{0} thar téarma</value>
+  </data>
+  <data name="Summary_Overdue_Few" xml:space="preserve">
+    <value>{0} thar téarma</value>
+  </data>
+  <data name="Summary_Overdue_Many" xml:space="preserve">
+    <value>{0} thar téarma</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} thar téarma</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} tábhachtach an tseachtain seo</value>
+  </data>
+  <data name="Summary_Important_Two" xml:space="preserve">
+    <value>{0} tábhachtach an tseachtain seo</value>
+  </data>
+  <data name="Summary_Important_Few" xml:space="preserve">
+    <value>{0} tábhachtach an tseachtain seo</value>
+  </data>
+  <data name="Summary_Important_Many" xml:space="preserve">
+    <value>{0} tábhachtach an tseachtain seo</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} tábhachtach an tseachtain seo</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>An 7 lá seo chugainn</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Folaigh na cinn críochnaithe</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Achoimre laethúil</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Fógra le achoimre an lae, uair amháin sa lá.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Do lá i gcoitinne</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Thar téarma, inniu agus an tseachtain romhainn, le scagairí.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Achoimre laethúil</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Fógra amháin sa lá le do chomhaireamh, ag am a roghnaíonn tú.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Cuma nua don leathanach Inniu.</value>
+  </data>
 </root>

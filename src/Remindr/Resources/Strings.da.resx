@@ -941,4 +941,55 @@ Detaljer blev gemt i %AppData%\Remindr\error.log</value>
   <data name="Settings_Language_ButtonName" xml:space="preserve">
     <value>Sprog: {0}. Tryk for at ændre.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} i dag</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} i dag</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} forsinket</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} forsinket</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} vigtige denne uge</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} vigtige denne uge</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Næste 7 dage</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Skjul fuldførte</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Daglig oversigt</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>En notifikation med dagens oversigt, én gang om dagen.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Din dag i overblik</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Forsinkede, i dag og ugen frem, med filtre.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Daglig oversigt</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Én notifikation om dagen med dine tal, på et tidspunkt du vælger.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Et nyt look til siden I dag.</value>
+  </data>
 </root>

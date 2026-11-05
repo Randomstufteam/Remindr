@@ -935,4 +935,55 @@ Le detalios esseva salvate in %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Le cartas se leva, le marcas pulsa, le calendario glissa e le paginas vacue flotta. Con le animationes de Windows disactivate, toto remane immobile.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} pro hodie</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} pro hodie</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} in retardo</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} in retardo</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} importante iste septimana</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} importante iste septimana</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Proxime 7 dies</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Celar le completate</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Summario quotidian</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Un notification con le summario del die, un vice per die.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Tu die in un colpo de oculo</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>In retardo, hodie e le septimana proxime, con filtros.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Summario quotidian</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Un notification per die con tu contos, al hora que tu elige.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Un nove aspecto pro le pagina Hodie.</value>
+  </data>
 </root>

@@ -935,4 +935,55 @@ Details binne bewarre yn %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaarten ferheffe har, finkjes poppe, de kalinder glidet en lege siden driuwe. Mei Windows-animaasjes út bliuwt alles stil.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} foar hjoed</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} foar hjoed</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} te let</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} te let</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} wichtich dizze wike</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} wichtich dizze wike</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Kommende 7 dagen</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Foltôge ferstopje</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Deistich gearfetting</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>In melding mei de gearfetting fan de dei, ien kear deis.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Jo dei yn ien eachopslach</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Te let, hjoed en de kommende wike, mei filters.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Deistich gearfetting</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Ien melding deis mei jo oantallen, op in tiid fan jo kar.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>In nij uterlik foar de side Hjoed.</value>
+  </data>
 </root>

@@ -941,4 +941,55 @@
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>कार्डां वयर उबतात, खुणो उडटात, दिनदर्शिका सरकता आनी रिकामीं पानां तरंगतात. Windows अॅनिमेशन बंद आसल्यार सगळें थीर रावता.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>आयज देय {0}</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>आयज देय {0}</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} उशीर जाला</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} उशीर जाला</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>ह्या हप्त्यांत {0} म्हत्वाचे</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>ह्या हप्त्यांत {0} म्हत्वाचे</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>फुडले 7 दीस</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>पूर्ण जाले ल्हपयात</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>दिसाळें सारांश</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>दिसाच्या सारांशाचो एक सुचोवणी, दिसांत एक फावट.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>तुमचो दीस एका नदरेंत</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>उशीर जाले, आयज आनी फुडलो हप्तो, फिल्टरां वांगडा.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>दिसाळें सारांश</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>तुमी निवडिल्या वेळार तुमच्या मेजणी वांगडा दिसांत एक सुचोवणी.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>आयज पानाक नवें रूप.</value>
+  </data>
 </root>

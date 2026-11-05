@@ -935,4 +935,55 @@ Makambo malakisami na %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Bakarte ekómi likolo, bilembo ekobima, kalandriye ekoningana mpe mapaja ezangi eloko ekopepa. Soki bomonisi ya Windows ekufi, nyonso ekotikala kaka.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} lelo</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} lelo</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} elekí tango</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} elekí tango</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} ya ntina na poso oyo</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} ya ntina na poso oyo</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Mikolo 7 ya sima</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Ɓomba oyo esili</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Bokuse ya mokolo na mokolo</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Likebisi oyo ezali na bokuse ya mokolo, mbala moko na mokolo.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Mokolo na yo na tali moko</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Oyo elekí tango, lelo mpe poso ekoya, na bafiltre.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Bokuse ya mokolo na mokolo</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Likebisi moko na mokolo na motángo na yo, na ngonga oyo pikoli.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Lolenge ya sika mpo na lokasa ya Lelo.</value>
+  </data>
 </root>

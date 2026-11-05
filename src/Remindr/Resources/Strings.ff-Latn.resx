@@ -935,4 +935,55 @@ Liɗɗi ndaŋaama haa %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Kaaje ina ƴeewa, tiimugal ina hootoo, kalandiriye ina yaha, hoore bannde ina yawoo. So maaɗa kuuɗe Windows, fuu ina tabitina.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} ngam hannde</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} ngam hannde</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} tawtii</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} tawtii</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} ko ɓuri ɓesngu e yontere kemmi</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} ko ɓuri ɓesngu e yontere kemmi</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Nyalaaji 7 aroore</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Suuɗu ko timmi</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Tuma nyalaade ndee tawtoreego</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Tinndinoore e tuma nyalaade, marde fotde nyalaade fuu.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Nyalaade ma e yiyirgo</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Ko tawtii, hannde e yontere aroore, e fiilte.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Tuma nyalaade ndee tawtoreego</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Tinndinoore gooto nyalaade fuu e limtol ma, nder wakkati ko suɓi.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Natal kesum ngam hello Hannde.</value>
+  </data>
 </root>

@@ -935,4 +935,55 @@ Gitipigan ang mga detalye sa %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_4_0_5_Text" xml:space="preserve">
     <value>Mosaka ang mga kard, motuktok ang mga tsek, molisod ang kalendaryo ug molutaw ang mga walay sulod nga panid. Kung patay ang mga animation sa Windows, magpabilin nga hilom ang tanan.</value>
   </data>
+  <data name="Summary_Due_One" xml:space="preserve">
+    <value>{0} angay karong adlawa</value>
+  </data>
+  <data name="Summary_Due_Other" xml:space="preserve">
+    <value>{0} angay karong adlawa</value>
+  </data>
+  <data name="Summary_Overdue_One" xml:space="preserve">
+    <value>{0} nalangan</value>
+  </data>
+  <data name="Summary_Overdue_Other" xml:space="preserve">
+    <value>{0} nalangan</value>
+  </data>
+  <data name="Summary_Important_One" xml:space="preserve">
+    <value>{0} importante karong semanaha</value>
+  </data>
+  <data name="Summary_Important_Other" xml:space="preserve">
+    <value>{0} importante karong semanaha</value>
+  </data>
+  <data name="Summary_Join" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Today_Next7" xml:space="preserve">
+    <value>Sunod nga 7 ka adlaw</value>
+  </data>
+  <data name="Today_HideCompleted" xml:space="preserve">
+    <value>Itago ang nahuman</value>
+  </data>
+  <data name="Settings_DailySummary_Title" xml:space="preserve">
+    <value>Adlaw-adlaw nga summary</value>
+  </data>
+  <data name="Settings_DailySummary_Desc" xml:space="preserve">
+    <value>Usa ka pahibalo nga adunay summary sa adlaw, kausa matag adlaw.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Title" xml:space="preserve">
+    <value>Imong adlaw sa usa ka tan-aw</value>
+  </data>
+  <data name="WhatsNew_0_5_0_1_Text" xml:space="preserve">
+    <value>Nalangan, karon, ug ang umaabot nga semana, nga adunay mga filter.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Title" xml:space="preserve">
+    <value>Adlaw-adlaw nga summary</value>
+  </data>
+  <data name="WhatsNew_0_5_0_2_Text" xml:space="preserve">
+    <value>Usa ka pahibalo matag adlaw nga adunay imong mga ihap, sa oras nga imong pilion.</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Title" xml:space="preserve">
+    <value>Remind UI 0.5</value>
+  </data>
+  <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
+    <value>Bag-ong dagway alang sa panid sa Karon.</value>
+  </data>
 </root>
