@@ -140,7 +140,7 @@ All translations were machine-assisted. The 144 languages added in v0.4 are tagg
 - [ ] Search
 - [ ] The AI assistant in every language
 
-## 🛠️ For developers
+## 🧰 For developers
 
 <details>
 <summary><b>How it works</b></summary>
