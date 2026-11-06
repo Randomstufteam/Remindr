@@ -63,7 +63,17 @@ public static class AssistantSelfCheck
             sw.Restart();
             wav = speaker.RenderAsync(text, "male", default).GetAwaiter().GetResult();
             report.AppendLine($"again with the male voice: {sw.Elapsed.TotalSeconds:F1}s");
-            report.AppendLine(wav.Length > 48000 ? "RESULT: OK" : "RESULT: NO AUDIO");
+            // Round trip: hear the reply back the way push-to-talk does (16 kHz mono samples).
+            sw.Restart();
+            using var reader = new NAudio.Wave.WaveFileReader(new MemoryStream(wav));
+            var mono16k = new NAudio.Wave.SampleProviders.WdlResamplingSampleProvider(NAudio.Wave.WaveExtensionMethods.ToSampleProvider(reader), 16000);
+            var samples = new List<float>();
+            var buf = new float[4096];
+            int n;
+            while ((n = mono16k.Read(buf, 0, buf.Length)) > 0) samples.AddRange(buf.Take(n));
+            var heard = new LfmTranscriber(server).TranscribeAsync(samples.ToArray(), default).GetAwaiter().GetResult();
+            report.AppendLine($"heard back in {sw.Elapsed.TotalSeconds:F1}s: {heard}");
+            report.AppendLine(wav.Length > 48000 && heard.Contains("grandma", StringComparison.OrdinalIgnoreCase) ? "RESULT: OK" : "RESULT: UNEXPECTED");
         }
         catch (Exception ex) { report.AppendLine("FAILED: " + ex); code = 1; }
         File.WriteAllText(resultFile, report.ToString());

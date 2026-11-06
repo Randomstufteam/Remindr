@@ -74,7 +74,9 @@ public sealed class LfmAudioServer : IDisposable
         var key = Convert.ToHexString(RandomNumberGenerator.GetBytes(24));
         var psi = new ProcessStartInfo(exe) { UseShellExecute = false, CreateNoWindow = true, WorkingDirectory = Path.GetDirectoryName(exe)! };
         foreach (var a in new[] { "-m", ModelCatalog.PathOf(AudioModelCatalog.Model, _modelsDir), "-mm", ModelCatalog.PathOf(AudioModelCatalog.Projector, _modelsDir),
-                     "--host", "127.0.0.1", "--port", port.ToString(), "--no-webui" }) psi.ArgumentList.Add(a);
+                     "--host", "127.0.0.1", "--port", port.ToString(), "--no-webui",
+                     // One short turn at a time: the default (4 slots, 128k context) holds ~1.5 GB more VRAM for nothing (measured on an RTX 4060).
+                     "-c", "8192", "-np", "1" }) psi.ArgumentList.Add(a);
         if (!gpu) { psi.ArgumentList.Add("--device"); psi.ArgumentList.Add("none"); }
         psi.Environment["LLAMA_API_KEY"] = key;   // not on the command line, where other processes could read it
 

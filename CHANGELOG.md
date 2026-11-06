@@ -12,6 +12,7 @@
 - A microphone that failed to start was left open.
 - Pressing Esc just as a voice transcript came back could raise an error.
 - A reply cancelled right before it started playing was still read aloud.
+- The voice uses about 1.5 GB less graphics memory than llama.cpp's defaults would.
 
 ## v0.5.0 (2026-11-06)
 
