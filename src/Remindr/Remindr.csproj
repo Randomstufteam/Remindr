@@ -7,9 +7,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <RootNamespace>Remindr</RootNamespace>
-    <Version>0.5.0</Version>
-    <FileVersion>0.5.0.0</FileVersion>
-    <InformationalVersion>0.5.0</InformationalVersion>
+    <Version>0.5.5</Version>
+    <FileVersion>0.5.5.0</FileVersion>
+    <InformationalVersion>0.5.5</InformationalVersion>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <ApplicationIcon>Assets\remindr.ico</ApplicationIcon>
     <!-- Other cultures are satellite resource assemblies; English (neutral) lives in the main assembly. -->
@@ -28,14 +28,10 @@
     <PackageReference Include="LLamaSharp" Version="0.27.0" />
     <PackageReference Include="LLamaSharp.Backend.Cpu" Version="0.27.0" />
     <PackageReference Include="LLamaSharp.Backend.Vulkan" Version="0.27.0" />
-    <!-- Natural reply voice: Kokoro-82M through KokoroSharp (MIT; ONNX Runtime on the CPU, MisakiSharp for English phonemes). The model itself is downloaded. -->
-    <PackageReference Include="KokoroSharp.CPU" Version="0.8.4" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.11" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
     <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
     <PackageReference Include="NAudio" Version="2.2.1" />
-    <PackageReference Include="Whisper.net" Version="1.9.1" />
-    <PackageReference Include="Whisper.net.Runtime" Version="1.9.1" />
     <PackageReference Include="WPF-UI" Version="3.0.5" />
   </ItemGroup>
 
@@ -51,22 +47,6 @@
       <ResolvedFileToPublish Condition="$([System.String]::Copy('%(FullPath)').Contains('LLamaSharpRuntimes'))" ExcludeFromSingleFile="true" />
     </ItemGroup>
   </Target>
-
-  <!-- Whisper.net.Runtime (CPU) copies every platform's whisper.cpp files to runtimes\<rid>\. Publish only win-x64 and keep them loose next to the exe
-       (Whisper.net looks in runtimes\win-x64\ beside the app). Voice input uses the CPU build only. -->
-  <Target Name="KeepWhisperNativesLoose" AfterTargets="ComputeResolvedFilesToPublishList">
-    <ItemGroup>
-      <_WhisperOtherRid Include="@(ResolvedFileToPublish)" Condition="$([System.String]::Copy('%(FullPath)').Contains('whisper.net.runtime')) And !$([System.String]::Copy('%(RelativePath)').Replace('/', '\').StartsWith('runtimes\win-x64\'))" />
-      <ResolvedFileToPublish Remove="@(_WhisperOtherRid)" />
-      <ResolvedFileToPublish Condition="$([System.String]::Copy('%(FullPath)').Contains('whisper.net.runtime'))" ExcludeFromSingleFile="true" />
-    </ItemGroup>
-  </Target>
-
-  <!-- KokoroSharp copies all 54 voices (142 MB, nine languages) to the build output; ship only the English ones in KokoroCatalog.Voices, loose in voices\. -->
-  <ItemGroup>
-    <None Include="$(NuGetPackageRoot)kokorosharp\0.8.4\content\voices\af_heart.npy;$(NuGetPackageRoot)kokorosharp\0.8.4\content\voices\af_bella.npy;$(NuGetPackageRoot)kokorosharp\0.8.4\content\voices\am_michael.npy;$(NuGetPackageRoot)kokorosharp\0.8.4\content\voices\am_fenrir.npy;$(NuGetPackageRoot)kokorosharp\0.8.4\content\voices\bf_emma.npy;$(NuGetPackageRoot)kokorosharp\0.8.4\content\voices\bm_george.npy"
-          Link="voices\%(Filename)%(Extension)" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" Visible="false" />
-  </ItemGroup>
 
   <ItemGroup>
     <!-- LICENSE-fluentui-emoji.txt in the same folder is deliberately not embedded. -->

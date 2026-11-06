@@ -19,6 +19,7 @@ public sealed partial class ModelRowViewModel : ObservableObject
         _model = model;
         TitleKey = titleKey;
         CreditKey = creditKey;
+        // Both rows live as long as the app (singletons), so these handlers are never removed.
         model.Changed += (_, _) => VoiceViewModel.OnUi(() => OnPropertyChanged(string.Empty));
         Loc.CultureChanged += (_, _) => VoiceViewModel.OnUi(() => OnPropertyChanged(string.Empty));
     }
@@ -35,7 +36,7 @@ public sealed partial class ModelRowViewModel : ObservableObject
     public bool IsPaused => _model.State == ModelDownloadState.Paused;
     public double Progress => _model.Progress;
     public string ProgressText => _model.State == ModelDownloadState.Verifying ? Loc.Get("Assistant_Dl_Verifying")
-        : Loc.Format(IsPaused ? "Assistant_Dl_Paused" : "Assistant_Dl_Progress", ModelPickerViewModel.Size(_model.BytesDone), ModelPickerViewModel.Size(_model.Tier.Bytes));
+        : Loc.Format(IsPaused ? "Assistant_Dl_Paused" : "Assistant_Dl_Progress", ModelPickerViewModel.Size(_model.BytesDone), ModelPickerViewModel.Size(_model.TotalBytes));
     public string? ErrorText => _model.ErrorKey is { } k ? Loc.Get(k) : null;
     public bool HasError => _model.ErrorKey is not null;
 
@@ -46,27 +47,23 @@ public sealed partial class ModelRowViewModel : ObservableObject
     [RelayCommand] private void Remove() => _model.Remove();
 }
 
-/// <summary>Settings > Voice: the Voice input toggle, the speech-model download, Speak replies, the natural-voice downloads and the choice of voice.</summary>
+/// <summary>Settings > Voice: the Voice input toggle, the voice-model download, Speak replies and the choice of voice.</summary>
 public sealed partial class VoiceViewModel : ObservableObject
 {
     private readonly VoiceSettings _settings;
     private readonly ISpeaker _speaker;
-    private readonly WhisperTranscriber _transcriber;
-    private readonly NaturalVoiceModels _natural;
+    private readonly VoiceModelManager _model;
+    private readonly LfmAudioServer _server;
     private IReadOnlyList<VoiceOption>? _voices;
 
-    public VoiceViewModel(VoiceSettings settings, VoiceModelManager model, ISpeaker speaker, WhisperTranscriber transcriber, NaturalVoiceModels natural)
+    public VoiceViewModel(VoiceSettings settings, VoiceModelManager model, ISpeaker speaker, LfmAudioServer server)
     {
         _settings = settings;
         _speaker = speaker;
-        _transcriber = transcriber;
-        _natural = natural;
+        _model = model;
+        _server = server;
         Hearing = new ModelRowViewModel(model, "Voice_Model_Name", "Voice_Model_Credit");
-        NaturalOriginal = new ModelRowViewModel(natural.Original, "Voice_Natural_Original", null);
-        NaturalSmall = new ModelRowViewModel(natural.Small, "Voice_Natural_Small", null);
-        // A removed model must not stay in memory.
-        model.InstalledChanged += (_, _) => { if (!model.Installed) transcriber.Unload(); };
-        natural.InstalledChanged += (_, _) => OnUi(() => { _voices = null; OnPropertyChanged(nameof(Voices)); OnPropertyChanged(nameof(SelectedVoice)); });
+        model.InstalledChanged += (_, _) => OnUi(() => { if (!model.Installed) server.Stop(); _voices = null; OnPropertyChanged(nameof(Voices)); OnPropertyChanged(nameof(SelectedVoice)); });
         Loc.CultureChanged += (_, _) => OnUi(() => { _voices = null; OnPropertyChanged(string.Empty); });
     }
 
@@ -77,8 +74,6 @@ public sealed partial class VoiceViewModel : ObservableObject
     }
 
     public ModelRowViewModel Hearing { get; }
-    public ModelRowViewModel NaturalOriginal { get; }
-    public ModelRowViewModel NaturalSmall { get; }
 
     public bool Enabled
     {
@@ -87,7 +82,7 @@ public sealed partial class VoiceViewModel : ObservableObject
         {
             if (_settings.Enabled == value) return;
             _settings.Enabled = value;
-            if (!value) { _transcriber.Unload(); _natural.Speaker?.Unload(); }
+            if (!value) _server.Stop();
             OnPropertyChanged();
         }
     }
@@ -95,16 +90,16 @@ public sealed partial class VoiceViewModel : ObservableObject
     public bool SpeakReplies
     {
         get => _settings.SpeakReplies;
-        set { _settings.SpeakReplies = value; if (!value) _natural.Speaker?.Unload(); OnPropertyChanged(); }
+        set { _settings.SpeakReplies = value; OnPropertyChanged(); }
     }
 
-    /// <summary>The natural voices (once a Kokoro size is downloaded), then the Windows voices.</summary>
-    public IReadOnlyList<VoiceOption> Voices => _voices ??= new[] { new VoiceOption(null, Loc.Get(_natural.InstalledPath is null ? "Voice_DefaultVoice" : "Voice_DefaultNatural")) }
-        .Concat(_natural.InstalledPath is null ? Array.Empty<VoiceOption>()
-            : KokoroCatalog.Voices.Select(v => new VoiceOption(KokoroCatalog.Prefix + v.Id, Loc.Format("Voice_NaturalVoice", v.Name))))
+    /// <summary>The natural voices (once the voice model is downloaded), then the Windows voices.</summary>
+    public IReadOnlyList<VoiceOption> Voices => _voices ??= new[] { new VoiceOption(null, Loc.Get(_model.Installed ? "Voice_DefaultNatural" : "Voice_DefaultVoice")) }
+        .Concat(_model.Installed ? AudioModelCatalog.Voices.Select(v => new VoiceOption(AudioModelCatalog.Prefix + v.Id, Loc.Format("Voice_NaturalVoice", Loc.Get(v.NameKey))))
+            : Array.Empty<VoiceOption>())
         .Concat(_speaker.Voices().Select(n => new VoiceOption(n, n))).ToList();
 
-    /// <summary>The chosen voice's name (null = the default: Heart when a natural voice is downloaded, else the Windows default).</summary>
+    /// <summary>The chosen voice's name (null = the default: the female natural voice once downloaded, else the Windows default).</summary>
     public string? SelectedVoice
     {
         get => _settings.VoiceName;

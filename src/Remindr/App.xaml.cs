@@ -314,24 +314,23 @@ public partial class App : Application
         s.AddSingleton<AllRemindersViewModel>();
         s.AddSingleton<Services.Assistant.ModelManager>(p => new Services.Assistant.ModelManager(AppPaths.Current, p.GetRequiredService<SettingsRepo>()));
         s.AddSingleton<Services.Assistant.AssistantService>();
-        // Voice (slices 7-9): Whisper speech model, push-to-talk, Windows text to speech.
+        // Voice: LFM3-Audio hears and speaks through one local llama-server; replies use a Windows voice until it is downloaded.
         s.AddSingleton<Services.Assistant.VoiceSettings>();
         s.AddSingleton<Services.Assistant.VoiceModelManager>(p => new Services.Assistant.VoiceModelManager(AppPaths.Current));
-        s.AddSingleton<Services.Assistant.WhisperTranscriber>(p =>
+        s.AddSingleton<Services.Assistant.LfmAudioServer>(p =>
         {
             var model = p.GetRequiredService<Services.Assistant.VoiceModelManager>();
-            return new Services.Assistant.WhisperTranscriber(() => model.InstalledPath);
+            var assistant = p.GetRequiredService<Services.Assistant.AssistantService>();
+            var server = new Services.Assistant.LfmAudioServer(model.ModelsDir, () => assistant.Gpu);
+            model.Removing += (_, _) => server.Stop();   // free the files before they are deleted
+            return server;
         });
         s.AddSingleton<Services.Assistant.PushToTalkController>(p =>
-            new Services.Assistant.PushToTalkController(new Services.Assistant.NAudioRecorder(), p.GetRequiredService<Services.Assistant.WhisperTranscriber>()));
-        // Replies: the natural Kokoro voice once a size is downloaded, a Windows voice otherwise.
-        s.AddSingleton<Services.Assistant.NaturalVoiceModels>(p => new Services.Assistant.NaturalVoiceModels(AppPaths.Current));
+            new Services.Assistant.PushToTalkController(new Services.Assistant.NAudioRecorder(), new Services.Assistant.LfmTranscriber(p.GetRequiredService<Services.Assistant.LfmAudioServer>())));
         s.AddSingleton<Services.Assistant.ISpeaker>(p =>
         {
-            var natural = p.GetRequiredService<Services.Assistant.NaturalVoiceModels>();
-            var speaker = new Services.Assistant.NaturalSpeaker(() => natural.InstalledPath, new Services.Assistant.WindowsSpeaker());
-            natural.Speaker = speaker;
-            return speaker;
+            var model = p.GetRequiredService<Services.Assistant.VoiceModelManager>();
+            return new Services.Assistant.LfmSpeaker(p.GetRequiredService<Services.Assistant.LfmAudioServer>(), () => model.Installed, new Services.Assistant.WindowsSpeaker());
         });
         s.AddSingleton<VoiceViewModel>();
         s.AddSingleton<ModelPickerViewModel>();

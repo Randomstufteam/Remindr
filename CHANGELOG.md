@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.5.5 (unreleased)
+
+### Changed
+- **One voice model instead of two.** LFM3-Audio-2B by Liquid AI now both hears you and reads replies aloud. It replaces the Whisper speech recognition model and the Kokoro natural voice. It's one optional download of about 1.3 GB in **Settings > Voice**, runs on your graphics card when it can, with a CPU fallback, and stays fully offline. Pick the female or male voice, or keep a Windows voice.
+- If you downloaded the old Whisper or Kokoro models, they're no longer used. You can delete them from `%LocalAppData%\Remindr\models`.
+- The installer is smaller, because it no longer includes the Whisper and Kokoro engines.
+
+### Fixed
+- If the assistant model ran out of graphics memory while loading, it stayed in memory and was then loaded a second time on the CPU.
+- A microphone that failed to start was left open.
+- Pressing Esc just as a voice transcript came back could raise an error.
+- A reply cancelled right before it started playing was still read aloud.
+
 ## v0.5.0 (2026-11-06)
 
 > [!WARNING]

@@ -114,7 +114,11 @@ public sealed class PushToTalkController
             Level?.Invoke(0);
             Set(PttState.Idle);
         }
-        else if (State == PttState.Transcribing) _cts?.Cancel();
+        else if (State == PttState.Transcribing)
+        {
+            try { _cts?.Cancel(); }
+            catch (ObjectDisposedException) { /* the transcript arrived meanwhile */ }
+        }
     }
 
     private async Task RunAsync(float[] samples, CancellationTokenSource cts)
@@ -128,8 +132,9 @@ public sealed class PushToTalkController
         {
             Array.Clear(samples);   // audio never outlives the transcription
             var cancelled = cts.IsCancellationRequested;
-            cts.Dispose();
+            if (_cts == cts) _cts = null;
             Set(PttState.Idle);
+            cts.Dispose();
             if (!cancelled)
             {
                 if (error is { } e) Failed?.Invoke(e);

@@ -339,83 +339,105 @@ public class VoiceTests
     }
 
     [Fact]
-    public void WhisperModel_IsPinned_AndComesFromTheAllowedHost()
+    public void AudioModel_IsPinned_AndOnlyHuggingFaceAndThatLlamaCppReleaseAreAllowed()
     {
-        var m = VoiceModelCatalog.Whisper;
-        Assert.Matches("^[0-9a-f]{64}$", m.Sha256);
-        Assert.Equal(147_964_211, m.Bytes);
-        Assert.Equal("ggml-base.en.bin", m.File);
-        Assert.Equal("https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin", VoiceModelCatalog.Url.ToString());
-        Assert.True(ModelCatalog.IsAllowedHost(VoiceModelCatalog.Url));
-        Assert.StartsWith("Hearing you: speech recognition model", Loc.Get("Voice_Model_Name"));
+        Assert.Equal(3, AudioModelCatalog.Parts.Count);
+        foreach (var (tier, url) in AudioModelCatalog.Parts)
+        {
+            Assert.Matches("^[0-9a-f]{64}$", tier.Sha256);
+            Assert.True(tier.Bytes > 0);
+            Assert.EndsWith("/" + tier.File, url.ToString());
+            Assert.True(AudioModelCatalog.IsAllowedHost(url));
+        }
+        // The model files come from a pinned commit, so the pinned hashes can't drift.
+        Assert.Contains("/resolve/39670cb5c42e9c4bfe046519ba7ffbe47f9552ad/", AudioModelCatalog.Parts[0].Url.ToString());
+        Assert.Equal("LFM3-Audio-2B-Q4_K_M.gguf", AudioModelCatalog.Model.File);
+        Assert.True(AudioModelCatalog.IsAllowedHost(new Uri("https://release-assets.githubusercontent.com/github-production-release-asset/1/x")));
+        Assert.False(AudioModelCatalog.IsAllowedHost(new Uri("https://github.com/someone/else/releases/download/b1/llama.zip")));
+        Assert.False(AudioModelCatalog.IsAllowedHost(new Uri("http://github.com/ggml-org/llama.cpp/releases/download/b11960/x.zip")));
+        Assert.False(AudioModelCatalog.IsAllowedHost(new Uri("https://evil.example/x.gguf")));
+        Assert.StartsWith("Voice model: hears you and talks back", Loc.Get("Voice_Model_Name"));
     }
 
     [Fact]
-    public void VoiceModelManager_ShowsALeftoverPartFileAsPaused_AndCancelDeletesIt()
+    public void VoiceModelManager_IsInstalledOnlyWithEveryFile_ShowsALeftoverAsPaused_AndCancelDeletesItAll()
     {
         using var t = new TempDb();
         Directory.CreateDirectory(t.Dir);
-        var part = ModelDownloader.PartPath(t.Dir, VoiceModelCatalog.Whisper);
+        var model = ModelCatalog.PathOf(AudioModelCatalog.Model, t.Dir);
+        var part = ModelDownloader.PartPath(t.Dir, AudioModelCatalog.Projector);
+        File.WriteAllBytes(model, new byte[1]);
         File.WriteAllBytes(part, new byte[1234]);
         var m = new VoiceModelManager(t.Dir, new ModelDownloader(new HttpClientHandler()));
         Assert.False(m.Installed);
         Assert.Equal(ModelDownloadState.Paused, m.State);
-        Assert.Equal(1234, m.BytesDone);
+        Assert.Equal(AudioModelCatalog.Model.Bytes + 1234, m.BytesDone);
+        Assert.Equal(AudioModelCatalog.Parts.Sum(p => p.Tier.Bytes), m.TotalBytes);
         m.Cancel();
         Assert.False(File.Exists(part));
+        Assert.False(File.Exists(model));   // half a voice is useless: cancel frees it all
         Assert.Equal(ModelDownloadState.Idle, m.State);
     }
 
     [Fact]
-    public void KokoroModels_ArePinned_AndOnlyThatReleaseAndGitHubsCdnAreAllowed()
-    {
-        foreach (var m in new[] { KokoroCatalog.Original, KokoroCatalog.Small })
-        {
-            Assert.Matches("^[0-9a-f]{64}$", m.Sha256);
-            Assert.True(KokoroCatalog.IsAllowedHost(KokoroCatalog.UrlFor(m)));
-        }
-        Assert.True(KokoroCatalog.Small.Bytes < KokoroCatalog.Original.Bytes);
-        Assert.True(KokoroCatalog.IsAllowedHost(new Uri("https://release-assets.githubusercontent.com/github-production-release-asset/1/x")));
-        Assert.False(KokoroCatalog.IsAllowedHost(new Uri("https://github.com/someone/else/releases/download/v1/kokoro.onnx")));
-        Assert.False(KokoroCatalog.IsAllowedHost(new Uri("http://github.com/Lyrcaxis/KokoroSharpBinaries/releases/download/v2.0.0/kokoro.onnx")));
-        Assert.False(KokoroCatalog.IsAllowedHost(new Uri("https://evil.example/kokoro.onnx")));
-    }
-
-    [Fact]
-    public void NaturalSpeaker_PicksKokoroForTheDefaultAndItsOwnVoices_AndWindowsForTheRest()
-    {
-        Assert.Equal("af_heart", NaturalSpeaker.KokoroId(null));
-        Assert.Equal("bf_emma", NaturalSpeaker.KokoroId(KokoroCatalog.Prefix + "bf_emma"));
-        Assert.Null(NaturalSpeaker.KokoroId("Microsoft Zira"));
-        Assert.Equal(new[] { "Done.", "You have three things tomorrow!", "Want more?" }, NaturalSpeaker.Sentences(" Done. You have three things tomorrow!  Want more? "));
-    }
-
-    [Fact]
-    public async Task NaturalSpeaker_WithNoModel_UsesWindows_AndDropsAStaleNaturalChoice()
-    {
-        var windows = new RecordingSpeaker();
-        var speaker = new NaturalSpeaker(() => null, windows);
-        await speaker.SpeakAsync("hi", "Microsoft Zira", null, default);
-        await speaker.SpeakAsync("hi", KokoroCatalog.Prefix + "af_bella", null, default);
-        Assert.Equal(new string?[] { "Microsoft Zira", null }, windows.Voices_);
-    }
-
-    [Fact]
-    public void NaturalVoiceModels_PreferTheOriginal_AndRemovingOneRaisesTheChange()
+    public void VoiceModelManager_Remove_LetsTheServerGoBeforeDeleting()
     {
         using var t = new TempDb();
         Directory.CreateDirectory(t.Dir);
-        var models = new NaturalVoiceModels(t.Dir, new ModelDownloader(new HttpClientHandler()));
-        Assert.Null(models.InstalledPath);
-        File.WriteAllBytes(ModelCatalog.PathOf(KokoroCatalog.Small, t.Dir), new byte[1]);
-        Assert.EndsWith(KokoroCatalog.Small.File, models.InstalledPath);
-        File.WriteAllBytes(ModelCatalog.PathOf(KokoroCatalog.Original, t.Dir), new byte[1]);
-        Assert.EndsWith(KokoroCatalog.Original.File, models.InstalledPath);
-        var changed = 0;
-        models.InstalledChanged += (_, _) => changed++;
-        models.Original.Remove();
-        Assert.Equal(1, changed);
-        Assert.EndsWith(KokoroCatalog.Small.File, models.InstalledPath);
+        foreach (var (tier, _) in AudioModelCatalog.Parts) File.WriteAllBytes(ModelCatalog.PathOf(tier, t.Dir), new byte[1]);
+        Directory.CreateDirectory(AudioModelCatalog.RuntimeDir(t.Dir));
+        var m = new VoiceModelManager(t.Dir, new ModelDownloader(new HttpClientHandler()));
+        Assert.True(m.Installed);
+        bool? presentWhileRemoving = null;
+        m.Removing += (_, _) => presentWhileRemoving = File.Exists(ModelCatalog.PathOf(AudioModelCatalog.Model, t.Dir));
+        m.Remove();
+        Assert.True(presentWhileRemoving);
+        Assert.False(m.Installed);
+        Assert.False(Directory.Exists(AudioModelCatalog.RuntimeDir(t.Dir)));
+    }
+
+    [Fact]
+    public void LfmSpeaker_PicksTheNaturalVoiceForTheDefaultAndItsOwnVoices_AndWindowsForTheRest()
+    {
+        Assert.Equal("female", LfmSpeaker.NaturalId(null));
+        Assert.Equal("male", LfmSpeaker.NaturalId(AudioModelCatalog.Prefix + "male"));
+        Assert.Equal("female", LfmSpeaker.NaturalId("kokoro:bf_emma"));   // a 0.5.0 Kokoro choice becomes the default natural voice
+        Assert.Null(LfmSpeaker.NaturalId("Microsoft Zira"));
+        Assert.Equal(new[] { "Done.", "You have three things tomorrow!", "Want more?" }, LfmSpeaker.Sentences(" Done. You have three things tomorrow!  Want more? "));
+    }
+
+    [Fact]
+    public async Task LfmSpeaker_WithNoModel_UsesWindows_AndDropsAStaleNaturalChoice()
+    {
+        using var t = new TempDb();
+        var windows = new RecordingSpeaker();
+        using var server = new LfmAudioServer(t.Dir, () => GpuMode.Off);
+        var speaker = new LfmSpeaker(server, () => false, windows);
+        await speaker.SpeakAsync("hi", "Microsoft Zira", null, default);
+        await speaker.SpeakAsync("hi", AudioModelCatalog.Prefix + "male", null, default);
+        Assert.Equal(new string?[] { "Microsoft Zira", null }, windows.Voices_);
+        Assert.Null(server.Device);   // nothing was started
+    }
+
+    [Fact]
+    public async Task LfmAudioServer_WithoutTheRuntime_SaysNotInstalled()
+    {
+        using var t = new TempDb();
+        Directory.CreateDirectory(t.Dir);
+        using var server = new LfmAudioServer(t.Dir, () => GpuMode.Auto);
+        await Assert.ThrowsAsync<FileNotFoundException>(() => server.ClientAsync(default));
+    }
+
+    [Fact]
+    public void Wav_IsA16BitMonoPcmHeader_WithClampedSamples()
+    {
+        var wav = Wav.FromSamples(new[] { 0f, 1f, -2f }, 16000);
+        Assert.Equal(44 + 6, wav.Length);
+        Assert.Equal("RIFF", System.Text.Encoding.ASCII.GetString(wav, 0, 4));
+        Assert.Equal(16000, BitConverter.ToInt32(wav, 24));
+        Assert.Equal(6, BitConverter.ToInt32(wav, 40));
+        Assert.Equal(short.MaxValue, BitConverter.ToInt16(wav, 46));
+        Assert.Equal(-short.MaxValue, BitConverter.ToInt16(wav, 48));
     }
 
     private sealed class RecordingSpeaker : ISpeaker
@@ -467,7 +489,7 @@ public class VoiceTests
             var models = new ModelManager(Path.Combine(E.T.Dir, "models"), settings, new ModelDownloader(new HttpClientHandler()), () => 64L << 30);
             var voiceDir = Path.Combine(E.T.Dir, "voice");
             Directory.CreateDirectory(voiceDir);
-            File.WriteAllBytes(ModelCatalog.PathOf(VoiceModelCatalog.Whisper, voiceDir), new byte[1]);
+            foreach (var (tier, _) in AudioModelCatalog.Parts) File.WriteAllBytes(ModelCatalog.PathOf(tier, voiceDir), new byte[1]);
             Vm = new AssistantViewModel(service, E.Repo, new CategoryRepo(E.T.Db), E.Session,
                 new ReminderDialogs(null!, E.Repo, new CategoryRepo(E.T.Db), E.Session, E.Clock), E.Clock, settings, new ModelPickerViewModel(models),
                 Voice.Ptt, Speaker, Settings, new VoiceModelManager(voiceDir, new ModelDownloader(new HttpClientHandler())));

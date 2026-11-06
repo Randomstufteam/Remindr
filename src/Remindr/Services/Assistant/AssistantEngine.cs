@@ -94,7 +94,9 @@ public sealed class AssistantEngine : IAssistantModel
         Log.ResetLoad();
         var parameters = Params(modelPath, gpuLayers, 2048);
         var weights = LLamaWeights.LoadFromFile(parameters);
-        return new AssistantEngine(weights, parameters, Params(modelPath, gpuLayers, 4096), device, noteKey);
+        // StatelessExecutor creates a context to read its settings; when that fails (out of VRAM) the weights must not stay loaded.
+        try { return new AssistantEngine(weights, parameters, Params(modelPath, gpuLayers, 4096), device, noteKey); }
+        catch { weights.Dispose(); throw; }
     }
 
     static ModelParams Params(string modelPath, int gpuLayers, uint context) => new(modelPath)

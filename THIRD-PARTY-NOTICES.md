@@ -43,15 +43,8 @@ Remindr is built on these open-source packages. Each is used under its own licen
 | [Microsoft.Extensions.Hosting](https://github.com/dotnet/runtime) | MIT |
 | [.NET runtime](https://github.com/dotnet/runtime) (bundled in the installer) | MIT |
 | [LLamaSharp](https://github.com/SciSharp/LLamaSharp) (with its CPU and Vulkan backend packages) | MIT |
-| [llama.cpp / ggml](https://github.com/ggml-org/llama.cpp) (the native files inside the LLamaSharp backends) | MIT |
-| [Whisper.net](https://github.com/sandrohanea/whisper.net) (with its CPU runtime package) | MIT |
-| [whisper.cpp](https://github.com/ggml-org/whisper.cpp) (the native files inside Whisper.net.Runtime) | MIT |
+| [llama.cpp / ggml](https://github.com/ggml-org/llama.cpp) (the native files inside the LLamaSharp backends, and the `llama-server` build b11960 the voice downloads) | MIT |
 | [NAudio](https://github.com/naudio/NAudio) (microphone capture and audio playback) | MIT |
-| [KokoroSharp](https://github.com/Lyrcaxis/KokoroSharp) (natural reply voice) | MIT |
-| [MisakiSharp](https://www.nuget.org/packages/MisakiSharp) (English phonemes for KokoroSharp) | Apache 2.0 |
-| [ONNX Runtime](https://github.com/microsoft/onnxruntime) (runs the natural voice model) | MIT |
-| [NumSharp](https://github.com/SciSharp/NumSharp) | Apache 2.0 |
-| [OpenTK](https://github.com/opentk/opentk) (OpenAL bindings, a KokoroSharp dependency) | MIT |
 
 
 ## Unicode CLDR plural rules (language plural categories)
@@ -69,16 +62,10 @@ The AI assistant is off by default. When it is turned on it uses a language mode
 - "Liquid AI" and "LFM" name where the model comes from. They are not Remindr's branding.
 
 
-## Whisper ggml-base.en (optional voice input model, downloaded on request)
+## LFM3-Audio-2B (optional voice model, downloaded on request)
 
-Voice input is off by default. When it is turned on it uses a speech model that is **not** part of the installer: it is downloaded to your PC and runs fully offline. Audio is processed in memory and never saved.
+Voice is off by default. When it is turned on it uses a speech model that hears you and reads replies aloud. It is **not** part of the installer: it is downloaded to your PC and runs fully offline. Audio is processed in memory and never saved. Until it is downloaded, spoken replies use a Windows voice.
 
-- Model: ggml-base.en (OpenAI Whisper base.en converted to the ggml format), from the Hugging Face repository `ggerganov/whisper.cpp` (https://huggingface.co/ggerganov/whisper.cpp).
-- License: MIT. Whisper is Copyright (c) 2022 OpenAI; whisper.cpp and ggml are Copyright (c) 2023-2024 The ggml authors. Both licenses permit use, copying and distribution provided the copyright and permission notice are kept; they come with no warranty.
-
-## Kokoro-82M (optional natural reply voice, downloaded on request)
-
-Spoken replies use a Windows voice until you download a natural voice in Settings > Voice. The model is **not** part of the installer: it is downloaded to your PC and runs fully offline. The six English voice files (Heart, Bella, Michael, Fenrir, Emma, George) ship with the app.
-
-- Model: Kokoro-82M v1.0 by hexgrad (https://huggingface.co/hexgrad/Kokoro-82M), in the ONNX export published by KokoroSharp (https://github.com/Lyrcaxis/KokoroSharpBinaries, release v2.0.0): `kokoro.onnx` (original) or `kokoro-fp16.onnx` (smaller).
-- License: Apache License 2.0, for the model and its voices. It permits use, copying, changes and distribution, including commercial use, provided the license and notices are kept; it comes with no warranty.
+- Model: LFM3-Audio-2B (`LFM3-Audio-2B-Q4_K_M.gguf` and its audio projector `mmproj-LFM3-Audio-2B-Q8_0.gguf`), Hugging Face repository `LiquidAI/LFM3-Audio-2B-GGUF`.
+- License: LFM Open License v1.0, Copyright Liquid AI, Inc., the same license and US$10 million revenue limit as the assistant model above. The full text is in `LICENSE-LFM-Open-License-v1.0.txt`.
+- It runs in llama.cpp's `llama-server` (Windows x64 Vulkan build b11960, MIT, from https://github.com/ggml-org/llama.cpp/releases/tag/b11960), downloaded with the model and started only on this PC, at 127.0.0.1.

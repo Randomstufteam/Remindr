@@ -10,7 +10,7 @@ public static class AppInfo
     private static string ReadVersion()
     {
         var v = typeof(AppInfo).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion;
-        if (string.IsNullOrWhiteSpace(v)) return "0.5.0";
+        if (string.IsNullOrWhiteSpace(v)) return "0.5.5";
         var plus = v.IndexOf('+');
         return plus >= 0 ? v[..plus] : v;
     }

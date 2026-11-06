@@ -321,7 +321,7 @@
 
                             <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,16,0,0"
                                         Visibility="{Binding Enabled, Converter={StaticResource BoolToVis}}">
-                                <!-- Speech model download -->
+                                <!-- Voice model download (LFM3-Audio: hears you and talks back) -->
                                 <ContentControl Content="{Binding Hearing}" ContentTemplate="{StaticResource VoiceModelRow}" Focusable="False" />
 
                                 <!-- Spoken replies -->
@@ -347,14 +347,6 @@
                                               SelectedValue="{Binding SelectedVoice, Mode=TwoWay}"
                                               AutomationProperties.AutomationId="VoiceChoice" AutomationProperties.Name="{l:Loc Voice_Choice}" />
                                 </Grid>
-                                <!-- Natural voice (Kokoro): two sizes of the same voice; without one, replies use a Windows voice -->
-                                <StackPanel Margin="0,16,0,0" Visibility="{Binding SpeakReplies, Converter={StaticResource BoolToVis}}">
-                                    <TextBlock Text="{l:Loc Voice_Natural_Title}" Style="{StaticResource Body}" />
-                                    <TextBlock Text="{l:Loc Voice_Natural_Desc}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,0,0" />
-                                    <ContentControl Margin="0,12,0,0" Content="{Binding NaturalOriginal}" ContentTemplate="{StaticResource VoiceModelRow}" Focusable="False" />
-                                    <ContentControl Margin="0,12,0,0" Content="{Binding NaturalSmall}" ContentTemplate="{StaticResource VoiceModelRow}" Focusable="False" />
-                                    <TextBlock Text="{l:Loc Voice_Natural_Credit}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,8,0,0" />
-                                </StackPanel>
                             </StackPanel>
                         </Grid>
                     </Border></Grid>

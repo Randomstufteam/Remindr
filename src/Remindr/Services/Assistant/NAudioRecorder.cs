@@ -31,9 +31,10 @@ public sealed class NAudioRecorder : IRecorder
         if (MicPermission.IsBlocked()) throw new MicException(VoiceError.AccessDenied);
         if (WaveInEvent.DeviceCount == 0) throw new MicException(VoiceError.NoMicrophone);
         lock (_lock) _samples = new List<float>(16000 * 10);
+        WaveInEvent? wave = null;
         try
         {
-            var wave = new WaveInEvent { WaveFormat = new WaveFormat(16000, 16, 1), BufferMilliseconds = 33 };
+            wave = new WaveInEvent { WaveFormat = new WaveFormat(16000, 16, 1), BufferMilliseconds = 33 };
             wave.DataAvailable += (_, e) =>
             {
                 var n = e.BytesRecorded / 2;
@@ -53,7 +54,11 @@ public sealed class NAudioRecorder : IRecorder
             wave.StartRecording();
             _wave = wave;
         }
-        catch (NAudio.MmException ex) { throw new MicException(VoiceError.NoMicrophone, ex); }
+        catch (NAudio.MmException ex)
+        {
+            wave?.Dispose();   // the device handle would otherwise stay open until the GC finalises it
+            throw new MicException(VoiceError.NoMicrophone, ex);
+        }
     }
 
     public float[] Stop()

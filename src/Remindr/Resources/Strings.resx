@@ -1505,14 +1505,14 @@ Details were saved to %AppData%\Remindr\error.log</value>
     <value>Talk to the assistant: hold Ctrl+Space (while Remindr is focused) or click the orb. The microphone is on only while you talk, and the audio stays in memory on this PC and is never saved.</value>
   </data>
   <data name="Voice_Model_Name" xml:space="preserve">
-    <value>Hearing you: speech recognition model (~142 MB)</value>
-    <comment>Whisper base.en download row.</comment>
+    <value>Voice model: hears you and talks back (~1.3 GB)</value>
+    <comment>LFM3-Audio download row (model, audio projector and llama.cpp runtime).</comment>
   </data>
   <data name="Voice_Model_Installed" xml:space="preserve">
     <value>Installed</value>
   </data>
   <data name="Voice_Model_Credit" xml:space="preserve">
-    <value>Speech model: Whisper base.en by OpenAI · MIT license</value>
+    <value>Voice model: LFM3-Audio-2B by Liquid AI · LFM Open License v1.0. Runs with llama.cpp (MIT).</value>
   </data>
   <data name="Voice_Speak" xml:space="preserve">
     <value>Speak replies</value>
@@ -1528,29 +1528,18 @@ Details were saved to %AppData%\Remindr\error.log</value>
     <value>Windows default</value>
   </data>
   <data name="Voice_DefaultNatural" xml:space="preserve">
-    <value>Default (Heart, natural)</value>
+    <value>Default (female, natural)</value>
     <comment>First entry of the voice combo once a natural voice is downloaded.</comment>
+  </data>
+  <data name="Voice_Lfm_Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Voice_Lfm_Male" xml:space="preserve">
+    <value>Male</value>
   </data>
   <data name="Voice_NaturalVoice" xml:space="preserve">
     <value>{0} (natural)</value>
     <comment>A Kokoro voice in the voice combo; {0} is its name, such as Heart.</comment>
-  </data>
-  <data name="Voice_Natural_Title" xml:space="preserve">
-    <value>Talking back: natural voice</value>
-  </data>
-  <data name="Voice_Natural_Desc" xml:space="preserve">
-    <value>How replies sound: a lifelike voice that runs on this PC (Kokoro). Download one size; until then, replies use a Windows voice. To talk to the assistant you also need the speech recognition model above.</value>
-  </data>
-  <data name="Voice_Natural_Original" xml:space="preserve">
-    <value>Original (~310 MB)</value>
-    <comment>Full-precision Kokoro download row.</comment>
-  </data>
-  <data name="Voice_Natural_Small" xml:space="preserve">
-    <value>Smaller (~156 MB, sounds almost the same)</value>
-    <comment>Half-precision Kokoro download row.</comment>
-  </data>
-  <data name="Voice_Natural_Credit" xml:space="preserve">
-    <value>Natural voice: Kokoro-82M by hexgrad · Apache 2.0 license</value>
   </data>
   <data name="Voice_Orb_Idle" xml:space="preserve">
     <value>Microphone. Click to talk</value>
@@ -1572,7 +1561,7 @@ Details were saved to %AppData%\Remindr\error.log</value>
     <value>Turn on Voice input in Settings first.</value>
   </data>
   <data name="Voice_Status_NoModel" xml:space="preserve">
-    <value>To talk to the assistant, download the speech recognition model (~142 MB) in Settings &gt; Voice. The natural voice only reads replies aloud.</value>
+    <value>To talk to the assistant, download the voice model (~1.3 GB) in Settings &gt; Voice.</value>
   </data>
   <data name="Voice_Status_Listening" xml:space="preserve">
     <value>Listening... release to send</value>

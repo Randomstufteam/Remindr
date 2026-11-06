@@ -1,7 +1,6 @@
 using System.IO;
 using System.Text.RegularExpressions;
-using KokoroSharp;
-using KokoroSharp.Core;
+using System.Net.Http.Json;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 using Windows.Media.SpeechSynthesis;
@@ -28,6 +27,7 @@ internal static class SpeechAudio
         output.PlaybackStopped += (_, _) => done.TrySetResult();
         output.Init(meter);
         using var reg = ct.Register(() => output.Stop());
+        ct.ThrowIfCancellationRequested();   // a token cancelled before Play would have stopped nothing and the audio would play anyway
         output.Play();
         try { await done.Task; }
         finally { level?.Invoke(0); }
@@ -63,31 +63,27 @@ public sealed class WindowsSpeaker : ISpeaker
 }
 
 /// <summary>
-/// The natural voice (Kokoro-82M through KokoroSharp, on the CPU) once one of its sizes is downloaded; a Windows voice otherwise, or when the user
-/// picked one. A reply is spoken sentence by sentence and the next sentence is made while one plays, so speech starts after the first sentence.
-/// The model loads on first use (about 1.5 s) and stays loaded until <see cref="Unload"/>.
+/// The natural voice (LFM3-Audio through <see cref="LfmAudioServer"/>) once it is downloaded; a Windows voice otherwise, or when the user picked one.
+/// A reply is spoken sentence by sentence and the next sentence is made while one plays, so speech starts after the first sentence.
 /// </summary>
-public sealed class NaturalSpeaker : ISpeaker
+public sealed class LfmSpeaker : ISpeaker
 {
-    private static readonly WaveFormat Pcm = new(24000, 16, 1);
-    private readonly Func<string?> _modelPath;
+    private readonly LfmAudioServer _server;
+    private readonly Func<bool> _installed;
     private readonly ISpeaker _windows;
-    private readonly object _lock = new();
-    private KokoroWavSynthesizer? _synth;
-    private string? _loadedPath;
-    private Task _busy = Task.CompletedTask;
 
-    public NaturalSpeaker(Func<string?> modelPath, ISpeaker windows)
+    public LfmSpeaker(LfmAudioServer server, Func<bool> installed, ISpeaker windows)
     {
-        _modelPath = modelPath;
+        _server = server;
+        _installed = installed;
         _windows = windows;
     }
 
     public IReadOnlyList<string> Voices() => _windows.Voices();
 
-    /// <summary>The Kokoro voice id for a stored name: the default for null, the id for a <see cref="KokoroCatalog.Prefix"/> name, null for a Windows voice.</summary>
-    public static string? KokoroId(string? voiceName) => voiceName is null ? KokoroCatalog.Voices[0].Id
-        : voiceName.StartsWith(KokoroCatalog.Prefix, StringComparison.Ordinal) ? voiceName[KokoroCatalog.Prefix.Length..] : null;
+    /// <summary>The LFM voice for a stored name: the default for null (or a Kokoro voice from 0.5.0), the id for a <see cref="AudioModelCatalog.Prefix"/> name, null for a Windows voice.</summary>
+    public static string? NaturalId(string? voiceName) => voiceName is null || voiceName.StartsWith("kokoro:", StringComparison.Ordinal) ? AudioModelCatalog.Voices[0].Id
+        : voiceName.StartsWith(AudioModelCatalog.Prefix, StringComparison.Ordinal) ? voiceName[AudioModelCatalog.Prefix.Length..] : null;
 
     /// <summary>Sentences, so the first can play while the rest are made.</summary>
     public static IReadOnlyList<string> Sentences(string text) =>
@@ -95,56 +91,42 @@ public sealed class NaturalSpeaker : ISpeaker
 
     public Task SpeakAsync(string text, string? voiceName, Action<double>? level, CancellationToken ct)
     {
-        var path = _modelPath();
-        var id = KokoroId(voiceName);
+        var id = NaturalId(voiceName);
         // A natural voice picked earlier whose model was removed falls back to the Windows default.
-        if (path is null || id is null) return _windows.SpeakAsync(text, id is null ? voiceName : null, level, ct);
-        Task run;
-        lock (_lock) _busy = run = SpeakNaturalAsync(path, id, text, level, ct);
-        return run;
+        if (!_installed() || id is null) return _windows.SpeakAsync(text, id is null ? voiceName : null, level, ct);
+        return SpeakNaturalAsync(id, text, level, ct);
     }
 
-    private async Task SpeakNaturalAsync(string path, string id, string text, Action<double>? level, CancellationToken ct)
+    private async Task SpeakNaturalAsync(string id, string text, Action<double>? level, CancellationToken ct)
     {
-        var synth = await Task.Run(() => Load(path), ct).ConfigureAwait(false);
-        var voice = KokoroVoiceManager.GetVoice(id);
         var parts = Sentences(text);
         if (parts.Count == 0) return;
-        var next = synth.SynthesizeAsync(parts[0], voice);
-        for (var i = 0; i < parts.Count; i++)
+        using var stop = CancellationTokenSource.CreateLinkedTokenSource(ct);
+        var next = RenderAsync(parts[0], id, stop.Token);
+        try
         {
-            var pcm = await next.WaitAsync(ct).ConfigureAwait(false);
-            if (i + 1 < parts.Count) next = synth.SynthesizeAsync(parts[i + 1], voice);
-            await SpeechAudio.PlayAsync(new RawSourceWaveStream(new MemoryStream(pcm), Pcm), level, ct).ConfigureAwait(false);
+            for (var i = 0; i < parts.Count; i++)
+            {
+                var wav = await next.ConfigureAwait(false);
+                if (i + 1 < parts.Count) next = RenderAsync(parts[i + 1], id, stop.Token);
+                using var reader = new WaveFileReader(new MemoryStream(wav));
+                await SpeechAudio.PlayAsync(reader, level, ct).ConfigureAwait(false);
+            }
+        }
+        finally
+        {
+            // Cancelled or failed mid-reply: don't leave the next sentence rendering in the background.
+            stop.Cancel();
+            try { await next.ConfigureAwait(false); } catch { /* cancelled */ }
         }
     }
 
-    /// <summary>The 16-bit 24 kHz mono audio for <paramref name="text"/>, not played (the self-check).</summary>
-    public async Task<byte[]> RenderAsync(string path, string text, string? voiceName)
+    /// <summary>The WAV for <paramref name="text"/>, not played (also the self-check).</summary>
+    public async Task<byte[]> RenderAsync(string text, string? voiceId, CancellationToken ct)
     {
-        var synth = await Task.Run(() => Load(path)).ConfigureAwait(false);
-        return await synth.SynthesizeAsync(text, KokoroVoiceManager.GetVoice(KokoroId(voiceName) ?? KokoroCatalog.Voices[0].Id)).ConfigureAwait(false);
-    }
-
-    private KokoroWavSynthesizer Load(string path)
-    {
-        lock (_lock)
-        {
-            if (_synth is not null && _loadedPath == path) return _synth;
-            _synth?.Dispose();
-            if (KokoroVoiceManager.Voices.Count == 0) KokoroVoiceManager.LoadVoicesFromPath(Path.Combine(AppContext.BaseDirectory, "voices"));
-            _synth = KokoroWavSynthesizer.LoadModel(path);
-            _loadedPath = path;
-            return _synth;
-        }
-    }
-
-    /// <summary>Frees the model (about 1 GB of RAM) once the reply being spoken is done. Voice off or the model removed.</summary>
-    public void Unload()
-    {
-        KokoroWavSynthesizer? old;
-        Task busy;
-        lock (_lock) { old = _synth; _synth = null; _loadedPath = null; busy = _busy; }
-        if (old is not null) _ = busy.ContinueWith(_ => old.Dispose(), TaskScheduler.Default);
+        var http = await _server.ClientAsync(ct).ConfigureAwait(false);
+        using var r = await http.PostAsJsonAsync("tts", new { input = text, voice = voiceId ?? AudioModelCatalog.Voices[0].Id, lang = "en" }, ct).ConfigureAwait(false);
+        r.EnsureSuccessStatusCode();
+        return await r.Content.ReadAsByteArrayAsync(ct).ConfigureAwait(false);
     }
 }

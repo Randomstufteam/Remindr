@@ -16,7 +16,7 @@ public static class AssistantSelfCheck
     /// <param name="gpu">auto, on or off (the "Use graphics card" setting); the report names the device the model really ended up on.</param>
     public static int Run(string resultFile, string modelPath, GpuMode gpu = GpuMode.Auto)
     {
-        if (modelPath.EndsWith(".onnx", StringComparison.OrdinalIgnoreCase)) return VoiceCheck(resultFile, modelPath);
+        if (Path.GetFileName(modelPath).Equals(AudioModelCatalog.Model.File, StringComparison.OrdinalIgnoreCase)) return VoiceCheck(resultFile, modelPath, gpu);
         var report = new StringBuilder();
         var code = 0;
         try
@@ -47,24 +47,23 @@ public static class AssistantSelfCheck
         return code;
     }
 
-    /// <summary>A Kokoro .onnx file: loads it and the shipped voices the way the app does and renders one reply, without playing it.</summary>
-    private static int VoiceCheck(string resultFile, string modelPath)
+    /// <summary>The LFM3-Audio model (its projector and runtime next to it): starts the server the way the app does and renders one reply, without playing it.</summary>
+    private static int VoiceCheck(string resultFile, string modelPath, GpuMode gpu)
     {
         var report = new StringBuilder("base directory: " + AppContext.BaseDirectory + Environment.NewLine);
         var code = 0;
+        using var server = new LfmAudioServer(Path.GetDirectoryName(Path.GetFullPath(modelPath))!, () => gpu);
         try
         {
-            var speaker = new NaturalSpeaker(() => modelPath, new WindowsSpeaker());
+            var speaker = new LfmSpeaker(server, () => true, new WindowsSpeaker());
             var sw = Stopwatch.StartNew();
             const string text = "Done. I set a reminder to call grandma on Sunday at 5 PM.";
-            var pcm = speaker.RenderAsync(modelPath, text, null).GetAwaiter().GetResult();
-            report.AppendLine($"rendered {pcm.Length / 48000.0:F1}s of audio in {sw.Elapsed.TotalSeconds:F1}s (first use, includes loading)");
+            var wav = speaker.RenderAsync(text, null, default).GetAwaiter().GetResult();
+            report.AppendLine($"rendered {wav.Length} bytes of audio in {sw.Elapsed.TotalSeconds:F1}s on {server.Device} (first use, includes loading)");
             sw.Restart();
-            pcm = speaker.RenderAsync(modelPath, text, KokoroCatalog.Prefix + "am_michael").GetAwaiter().GetResult();
-            report.AppendLine($"again with Michael: {sw.Elapsed.TotalSeconds:F1}s");
-            report.AppendLine("peak RAM MB: " + Process.GetCurrentProcess().PeakWorkingSet64 / 1048576);
-            report.AppendLine(pcm.Length > 48000 ? "RESULT: OK" : "RESULT: NO AUDIO");
-            speaker.Unload();
+            wav = speaker.RenderAsync(text, "male", default).GetAwaiter().GetResult();
+            report.AppendLine($"again with the male voice: {sw.Elapsed.TotalSeconds:F1}s");
+            report.AppendLine(wav.Length > 48000 ? "RESULT: OK" : "RESULT: NO AUDIO");
         }
         catch (Exception ex) { report.AppendLine("FAILED: " + ex); code = 1; }
         File.WriteAllText(resultFile, report.ToString());

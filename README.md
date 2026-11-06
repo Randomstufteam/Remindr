@@ -66,7 +66,7 @@ Type or talk to add, find, snooze and change reminders. Fully offline, and it as
 - **Turn it on** in **Settings > AI assistant** and download a model (about 0.7 GB for the recommended one).
 - **Work and Chat modes.** Work handles your reminders; Chat is for general questions.
 - **Runs on your graphics card** when you have a dedicated one, with a CPU fallback. Settings shows where it's running.
-- **Voice.** Hold **Ctrl+Space** or click the orb to talk, and hear replies in a natural voice. Speech recognition and the natural voice are separate, optional downloads.
+- **Voice.** Hold **Ctrl+Space** or click the orb to talk, and hear replies in a natural voice. One optional download (LFM3-Audio, about 1.3 GB) does both.
 - **English only** for now.
 
 </details>
@@ -126,7 +126,7 @@ Use **Settings > Apps > Installed apps**. Your reminders are kept unless you tic
 
 - Everything is stored in `%AppData%\Remindr`, with no account, no cloud and no tracking.
 - The only network request is the optional update check, which sends nothing about you. You can turn it off in **Settings**.
-- The AI assistant is off by default and runs entirely on your PC. Its models download only when you ask (from Hugging Face, and the natural voice from GitHub), are checked against a pinned SHA-256, and are stored in `%LocalAppData%\Remindr\models`. What you type or say is never sent anywhere, and voice audio stays in memory and is never saved.
+- The AI assistant is off by default and runs entirely on your PC. Its models download only when you ask (from Hugging Face, and the voice's llama.cpp runtime from GitHub), are checked against a pinned SHA-256, and are stored in `%LocalAppData%\Remindr\models`. What you type or say is never sent anywhere, and voice audio stays in memory and is never saved.
 - Profile PINs are hashed (PBKDF2). A 4-digit PIN is a privacy screen for family members, not strong security.
 
 ## 🌍 Languages

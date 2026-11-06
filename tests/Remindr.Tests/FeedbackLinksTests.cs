@@ -55,7 +55,7 @@ public class FeedbackLinksTests
     }
 
     [Fact]
-    public void AppVersion_Is050() => Assert.Equal("0.5.0", AppInfo.Version);
+    public void AppVersion_Is055() => Assert.Equal("0.5.5", AppInfo.Version);
 
     [Fact]
     public void RepoInfo_HasRealValues()
