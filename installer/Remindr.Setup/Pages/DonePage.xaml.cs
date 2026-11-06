@@ -15,6 +15,7 @@ public partial class DonePage : UserControl
         "Today page with an overview and filters",
         "Daily summary notification",
         "Remind UI 0.5: a new Today look",
+        "Offline AI assistant with voice (preview)",
     };
 
     public DonePage(string heading, string detail, string[]? newItems = null)

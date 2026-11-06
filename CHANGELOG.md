@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.5.0 (2026-11-06)
+
+> [!WARNING]
+> Windows may show **"Windows protected your PC"** when you run `Remindr-Installer.exe`. Remindr isn't code-signed yet. Click **More info**, then **Run anyway**.
+
+### Added
+- **Today page.** A one-line summary of your day, then Overdue, Today, Next 7 days and Important sections, with filter chips.
+- **Daily summary.** One notification a day with what's coming up. Turn it on and pick the time in Settings.
+- **AI assistant (preview), fully offline.** Turn it on in **Settings > AI assistant** and download a model (about 0.7 GB for the recommended one). Then type things like "remind me to call mom friday at 6, it's important" or "what's on tomorrow?". Every change shows a confirm card before anything is saved.
+  - **Work and Chat modes.** Work handles your reminders; Chat is for general questions.
+  - **Runs on your graphics card** when you have a dedicated one, with a CPU fallback. Settings shows where it's running.
+  - **Voice.** Hold **Ctrl+Space** or click the orb to talk, and hear replies in a natural voice that runs on your PC. The speech recognition and natural-voice models are separate, optional downloads.
+  - Nothing you type or say leaves your PC. The models download only when you ask, from Hugging Face and GitHub, and each file is checked before it's used.
+  - The assistant's text is in English only for now.
+
+### Remind UI 0.5
+- A new Today look with summary cards and filter chips.
+
+### Changed
+- The installer is bigger (about 210 MB, up from 97 MB) because it now includes the engines for the AI assistant and the natural voice. The models themselves are not included.
+
 ## v0.4.0 (2026-10-31)
 
 > [!WARNING]

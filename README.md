@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe"><b>⬇ Download Remindr-Installer.exe</b></a>
-  &nbsp;·&nbsp; v0.4.0 &nbsp;·&nbsp; Windows 10 (2004+) and 11 &nbsp;·&nbsp; 97 MB
+  &nbsp;·&nbsp; v0.5.0 &nbsp;·&nbsp; Windows 10 (2004+) and 11 &nbsp;·&nbsp; 210 MB
   <br><a href="https://randomstufteam.github.io/">🌐 Visit the Remindr website</a>
 </p>
 
@@ -28,7 +28,8 @@
 | 🔔 **Reminders that find you**<br>Windows notifications with Complete, Snooze and Dismiss buttons. | ❗ **Important means it nags**<br>Alerts a day and an hour ahead, then every 10 minutes until you act. |
 | 📌 **Runs quietly in the tray**<br>Close the window and alerts still arrive. It can start with Windows too. | 👨‍👩‍👧 **A profile for everyone**<br>A name, a color, one of 176 pictures and an optional 4-digit PIN. |
 | 🗓️ **Month, Week and Agenda**<br>Colored dots show each day, and 120 pictures label your reminders. | 🌍 **176 languages**<br>Switched live. Many are machine-translated and may be rough. [Help translate](docs/TRANSLATING.md). |
-| 🌗 **Remind UI 0.4**<br>Frosted glass, smoother motion and a What's New tour, in Light, Dark or System theme. | 🔄 **Stays up to date**<br>Checks GitHub for new releases and verifies every download before installing it. |
+| ☀️ **A Today page**<br>Overdue, Today, Next 7 days and Important at a glance, plus an optional daily summary. | 🤖 **An offline AI assistant (preview)**<br>Type or say "remind me to call mom friday at 6". It runs on your PC and asks before it changes anything. |
+| 🌗 **Remind UI 0.5**<br>Frosted glass, smooth motion and a What's New tour, in Light, Dark or System theme. | 🔄 **Stays up to date**<br>Checks GitHub for new releases and verifies every download before installing it. |
 
 ## A look inside
 
@@ -59,6 +60,7 @@ To uninstall, use **Settings > Apps > Installed apps**. Your reminders are kept 
 
 - Everything is stored on your PC in `%AppData%\Remindr`, with no account, no cloud and no tracking.
 - The only network request is the optional update check, which sends nothing about you. You can turn it off in **Settings**.
+- The AI assistant is off by default and runs entirely on your PC. Its models download only when you ask (from Hugging Face, and the natural voice from GitHub), are checked against a pinned SHA-256, and are stored in `%LocalAppData%\Remindr\models`. What you type or say is never sent anywhere, and voice audio stays in memory and is never saved.
 - Profile PINs are hashed (PBKDF2). A 4-digit PIN is a privacy screen for family members, not strong security.
 
 ## Languages
@@ -67,7 +69,7 @@ All translations were machine-assisted. The 144 languages added in v0.4 are tagg
 
 ## Roadmap
 
-Recurring reminders, quick add, search, a Today dashboard and an optional, fully offline AI assistant.
+Recurring reminders, quick add, search, and the AI assistant in every language.
 
 ## For developers
 
