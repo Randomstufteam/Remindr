@@ -146,7 +146,9 @@ public class TranslationFreezeTests
     {
         var neutral = SourceTree.ReadResx(Path.Combine(ResourcesDir, "Strings.resx"));
         var families = neutral.Keys.Where(k => k.EndsWith("_Other", StringComparison.Ordinal)).Select(k => k[..^"_Other".Length])
-            .Where(b => neutral.ContainsKey(b + "_One")).ToList();
+            .Where(b => neutral.ContainsKey(b + "_One"))
+            // The AI assistant's strings are English-only until the translation slice (Phase 5 part 2, slice 10); remove this with the ResourceTests exemption.
+            .Where(b => !Regex.IsMatch(b, @"^(Assistant_|Settings_Assistant|Voice_)")).ToList();
         Assert.Contains("Tray_TooltipDue", families);
         Assert.Contains("Calendar_DayCaption", families);
 

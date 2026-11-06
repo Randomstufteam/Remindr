@@ -42,8 +42,43 @@ Remindr is built on these open-source packages. Each is used under its own licen
 | [Microsoft.Data.Sqlite](https://github.com/dotnet/efcore) and [SQLite](https://sqlite.org/copyright.html) | MIT / public domain |
 | [Microsoft.Extensions.Hosting](https://github.com/dotnet/runtime) | MIT |
 | [.NET runtime](https://github.com/dotnet/runtime) (bundled in the installer) | MIT |
+| [LLamaSharp](https://github.com/SciSharp/LLamaSharp) (with its CPU and Vulkan backend packages) | MIT |
+| [llama.cpp / ggml](https://github.com/ggml-org/llama.cpp) (the native files inside the LLamaSharp backends) | MIT |
+| [Whisper.net](https://github.com/sandrohanea/whisper.net) (with its CPU runtime package) | MIT |
+| [whisper.cpp](https://github.com/ggml-org/whisper.cpp) (the native files inside Whisper.net.Runtime) | MIT |
+| [NAudio](https://github.com/naudio/NAudio) (microphone capture and audio playback) | MIT |
+| [KokoroSharp](https://github.com/Lyrcaxis/KokoroSharp) (natural reply voice) | MIT |
+| [MisakiSharp](https://www.nuget.org/packages/MisakiSharp) (English phonemes for KokoroSharp) | Apache 2.0 |
+| [ONNX Runtime](https://github.com/microsoft/onnxruntime) (runs the natural voice model) | MIT |
+| [NumSharp](https://github.com/SciSharp/NumSharp) | Apache 2.0 |
+| [OpenTK](https://github.com/opentk/opentk) (OpenAL bindings, a KokoroSharp dependency) | MIT |
 
 
 ## Unicode CLDR plural rules (language plural categories)
 
 `tools/cldr/plurals.xml` is an unmodified copy of `common/supplemental/plurals.xml` from Unicode CLDR 46.1. `tools/gen-plurals.ps1` turns it into `src/Remindr/Services/PluralRules.Generated.cs`. CLDR data is Copyright (c) 1991-2024 Unicode, Inc. and is distributed under the Unicode License v3 (SPDX: Unicode-3.0, https://www.unicode.org/license.html).
+
+
+## LFM2.5-1.2B-Instruct (optional AI assistant model, downloaded on request)
+
+The AI assistant is off by default. When it is turned on it uses a language model that is **not** part of the installer: it is downloaded to your PC (or already there) and runs fully offline.
+
+- Model: LFM2.5-1.2B-Instruct (GGUF files), Hugging Face repository `LiquidAI/LFM2.5-1.2B-Instruct-GGUF`.
+- License: LFM Open License v1.0, Copyright Liquid AI, Inc. The full text is in `LICENSE-LFM-Open-License-v1.0.txt`, installed next to this file.
+- In plain words: it is free to use, including in a product, as long as the yearly revenue of whoever uses or distributes it stays under US$10 million (Section 5 of the license); qualifying non-profits are exempt for non-commercial and research use. Above that limit a separate license from Liquid AI is needed. Read the license for the exact terms.
+- "Liquid AI" and "LFM" name where the model comes from. They are not Remindr's branding.
+
+
+## Whisper ggml-base.en (optional voice input model, downloaded on request)
+
+Voice input is off by default. When it is turned on it uses a speech model that is **not** part of the installer: it is downloaded to your PC and runs fully offline. Audio is processed in memory and never saved.
+
+- Model: ggml-base.en (OpenAI Whisper base.en converted to the ggml format), from the Hugging Face repository `ggerganov/whisper.cpp` (https://huggingface.co/ggerganov/whisper.cpp).
+- License: MIT. Whisper is Copyright (c) 2022 OpenAI; whisper.cpp and ggml are Copyright (c) 2023-2024 The ggml authors. Both licenses permit use, copying and distribution provided the copyright and permission notice are kept; they come with no warranty.
+
+## Kokoro-82M (optional natural reply voice, downloaded on request)
+
+Spoken replies use a Windows voice until you download a natural voice in Settings > Voice. The model is **not** part of the installer: it is downloaded to your PC and runs fully offline. The six English voice files (Heart, Bella, Michael, Fenrir, Emma, George) ship with the app.
+
+- Model: Kokoro-82M v1.0 by hexgrad (https://huggingface.co/hexgrad/Kokoro-82M), in the ONNX export published by KokoroSharp (https://github.com/Lyrcaxis/KokoroSharpBinaries, release v2.0.0): `kokoro.onnx` (original) or `kokoro-fp16.onnx` (smaller).
+- License: Apache License 2.0, for the model and its voices. It permits use, copying, changes and distribution, including commercial use, provided the license and notices are kept; it comes with no warranty.

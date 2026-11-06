@@ -183,6 +183,12 @@
                         <ui:SymbolIcon Symbol="TaskListSquareLtr24" FontSize="16" />
                     </ctl:RemindrNavItem.Icon>
                 </ctl:RemindrNavItem>
+                <!-- Visible only while Settings > AI assistant is on (MainWindow.UpdateAssistantNav). -->
+                <ctl:RemindrNavItem x:Name="AssistantNavItem" Visibility="Collapsed" Style="{StaticResource RemindrNavItemStyle}" Content="{l:Loc Assistant_Title}" TargetPageType="{x:Type pages:AssistantPage}">
+                    <ctl:RemindrNavItem.Icon>
+                        <ui:SymbolIcon Symbol="Sparkle24" FontSize="16" />
+                    </ctl:RemindrNavItem.Icon>
+                </ctl:RemindrNavItem>
             </ui:NavigationView.MenuItems>
             <ui:NavigationView.FooterMenuItems>
                 <ctl:RemindrNavItem x:Name="ProfileNavItem" Style="{StaticResource RemindrNavItemStyle}" Content="{l:Loc Nav_Profile}" ToolTip="{l:Loc Nav_SwitchProfile}"

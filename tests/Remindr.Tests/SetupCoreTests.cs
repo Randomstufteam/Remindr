@@ -366,6 +366,21 @@ public class SetupCoreTests : IDisposable
         Assert.False(Directory.Exists(p.DataDir));
     }
 
+    [Fact]
+    public void Uninstall_removes_the_AI_models_folder_only_with_the_data()
+    {
+        var (u, _, p) = InstalledSystem();
+        Directory.CreateDirectory(p.ModelsDir);
+        File.WriteAllText(Path.Combine(p.ModelsDir, "model.gguf"), "big");
+
+        u.Uninstall(false, new AutoYesPrompts(), _ => { });
+        Assert.True(File.Exists(Path.Combine(p.ModelsDir, "model.gguf")));
+
+        u.Uninstall(true, new AutoYesPrompts(), _ => { });
+        Assert.False(Directory.Exists(p.ModelsDir));
+        Assert.EndsWith(Path.Combine("Remindr", "models"), p.ModelsDir);
+    }
+
     private sealed class FakeRemover : IDataRemover
     {
         public List<string> Removed = new();

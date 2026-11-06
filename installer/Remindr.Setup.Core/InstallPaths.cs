@@ -23,6 +23,7 @@ public sealed class InstallPaths
         StartMenuShortcut = Path.Combine(startMenuPrograms, "Remindr.lnk");
         DesktopShortcut = Path.Combine(desktop, "Remindr.lnk");
         DataDir = Path.Combine(appData, "Remindr");
+        ModelsDir = Path.Combine(localAppData, "Remindr", "models");
         ToastCompatDir = Path.Combine(localAppData, "ToastNotificationManagerCompat", "Apps", "Remindr.App");
     }
 
@@ -35,6 +36,8 @@ public sealed class InstallPaths
     public string DesktopShortcut { get; }
     /// <summary>%AppData%\Remindr: profiles, reminders, avatars. Only removed when the user asks.</summary>
     public string DataDir { get; }
+    /// <summary>%LocalAppData%\Remindr\models: the AI assistant's downloaded model files (GBs, so local, not roaming). Removed with the data.</summary>
+    public string ModelsDir { get; }
     /// <summary>%LocalAppData%\ToastNotificationManagerCompat\Apps\Remindr.App: the toast library's per-app leftovers.</summary>
     public string ToastCompatDir { get; }
 

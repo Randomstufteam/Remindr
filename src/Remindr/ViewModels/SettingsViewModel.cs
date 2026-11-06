@@ -38,6 +38,7 @@ public partial class SettingsViewModel : ObservableObject
     private readonly TraySettings _tray;
     private readonly StartWithWindowsService _startup;
     private readonly DailySummaryService _daily;
+    private readonly Services.Assistant.AssistantService _assistant;
     private bool _startWithWindows;
 
     /// <summary>Start Remindr (minimized, in the tray) when the user signs in. Mirrors the real Run value.</summary>
@@ -62,9 +63,21 @@ public partial class SettingsViewModel : ObservableObject
     public SettingsViewModel(ThemeService theme, ProfileSession session, ProfilePickerViewModel picker, ProfileDialogs dialogs,
         LocalizationService localization, WelcomeController welcome, UpdateViewModel updates,
         NotificationService notifications, Data.Repositories.ReminderRepo reminders, IClock clock, TraySettings tray,
-        StartWithWindowsService startup, WhatsNewService whatsNew, DailySummaryService daily)
+        StartWithWindowsService startup, WhatsNewService whatsNew, DailySummaryService daily, Services.Assistant.AssistantService assistant,
+        ModelPickerViewModel modelPicker, VoiceViewModel voice)
     {
+        Models = modelPicker;
+        Voice = voice;
+        assistant.StateChanged += (_, _) => System.Windows.Application.Current?.Dispatcher.BeginInvoke(new Action(() =>
+        {
+            OnPropertyChanged(nameof(RunningOn));
+            OnPropertyChanged(nameof(HasRunningOn));
+            OnPropertyChanged(nameof(GpuNote));
+            OnPropertyChanged(nameof(HasGpuNote));
+            OnPropertyChanged(nameof(GpuNeedsRestart));
+        }));
         _daily = daily;
+        _assistant = assistant;
         _whatsNew = whatsNew;
         _tray = tray;
         _startup = startup;
@@ -131,6 +144,51 @@ public partial class SettingsViewModel : ObservableObject
             OnPropertyChanged();
         }
     }
+
+    /// <summary>The local AI assistant (global setting, off by default). Turning it off frees the model; the Assistant item leaves the sidebar.</summary>
+    public bool AssistantEnabled
+    {
+        get => _assistant.Enabled;
+        set
+        {
+            if (_assistant.Enabled == value) return;
+            _assistant.Enabled = value;
+            OnPropertyChanged();
+        }
+    }
+
+    /// <summary>The model picker (also shown on the Assistant page while no model is installed).</summary>
+    public ModelPickerViewModel Models { get; }
+
+    /// <summary>Voice input, speech model and spoken replies.</summary>
+    public VoiceViewModel Voice { get; }
+
+    public sealed record GpuOption(Services.Assistant.GpuMode Mode, string Name);
+
+    /// <summary>Auto / On / Off for "Use graphics card".</summary>
+    public IReadOnlyList<GpuOption> GpuOptions => new GpuOption[]
+    {
+        new(Services.Assistant.GpuMode.Auto, Loc.Get("Settings_Assistant_Gpu_Auto")),
+        new(Services.Assistant.GpuMode.On, Loc.Get("Settings_Assistant_Gpu_On")),
+        new(Services.Assistant.GpuMode.Off, Loc.Get("Settings_Assistant_Gpu_Off")),
+    };
+
+    public Services.Assistant.GpuMode Gpu
+    {
+        get => _assistant.Gpu;
+        set { _assistant.Gpu = value; OnPropertyChanged(); OnPropertyChanged(nameof(GpuNeedsRestart)); }
+    }
+
+    /// <summary>The native backend is chosen once per process, so a change to or from Off waits for a restart.</summary>
+    public bool GpuNeedsRestart => _assistant.GpuNeedsRestart;
+
+    /// <summary>"Running on: NVIDIA ..." or "Running on: CPU" once the model is loaded.</summary>
+    public bool HasRunningOn => _assistant.IsLoaded;
+    public string RunningOn => _assistant.IsLoaded ? Loc.Format("Assistant_RunningOn", _assistant.Device ?? "CPU") : "";
+
+    /// <summary>Mode On found no dedicated card.</summary>
+    public string GpuNote => _assistant.GpuNoteKey is { } k ? Loc.Get(k) : "";
+    public bool HasGpuNote => _assistant.GpuNoteKey is not null;
 
     /// <summary>Every 15 minutes of the day, for the summary time drop-down.</summary>
     public IReadOnlyList<TimeOnly> SummaryTimes { get; } = Enumerable.Range(0, 96).Select(i => new TimeOnly(i / 4, i % 4 * 15)).ToList();

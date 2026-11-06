@@ -11,13 +11,14 @@ public sealed class AppPaths
 {
     public const string EnvironmentVariable = "REMINDR_DATA_DIR";
 
-    private AppPaths(string dataDir)
+    private AppPaths(string dataDir, string modelsDir)
     {
         DataDir = dataDir;
         DbFile = Path.Combine(dataDir, "remindr.db");
         AvatarsDir = Path.Combine(dataDir, "avatars");
         ErrorLogFile = Path.Combine(dataDir, "error.log");
         ToastCacheDir = Path.Combine(dataDir, "toast-cache");
+        ModelsDir = modelsDir;
     }
 
     /// <summary>The folder everything lives in.</summary>
@@ -27,6 +28,8 @@ public sealed class AppPaths
     public string ErrorLogFile { get; }
     /// <summary>Small circle-cropped pictures for toasts; unused ones are removed after a week (see <see cref="ToastImageCache"/>).</summary>
     public string ToastCacheDir { get; }
+    /// <summary>The AI assistant's model files (GBs): %LocalAppData%\Remindr\models, or <c>models</c> inside the data folder under the override. Never bundled.</summary>
+    public string ModelsDir { get; }
 
     /// <summary>True when the folder came from <see cref="EnvironmentVariable"/> instead of %AppData%.</summary>
     public bool IsOverridden { get; private init; }
@@ -44,13 +47,14 @@ public sealed class AppPaths
         {
             try
             {
-                return new AppPaths(Path.GetFullPath(value.Trim())) { IsOverridden = true };
+                return new AppPaths(Path.GetFullPath(value.Trim()), Path.Combine(Path.GetFullPath(value.Trim()), "models")) { IsOverridden = true };
             }
             catch (Exception ex) when (ex is ArgumentException or NotSupportedException or PathTooLongException)
             {
                 // fall through to the default
             }
         }
-        return new AppPaths(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Remindr"));
+        return new AppPaths(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Remindr"),
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Remindr", "models"));
     }
 }

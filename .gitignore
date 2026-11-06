@@ -30,3 +30,6 @@ screenshots-local/
 
 # Development plan stays local (user decision)
 PLAN.md
+
+# graphify knowledge graph (local only)
+graphify-out/

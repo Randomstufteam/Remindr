@@ -1245,4 +1245,358 @@ Details were saved to %AppData%\Remindr\error.log</value>
   <data name="WhatsNew_0_5_0_3_Text" xml:space="preserve">
     <value>A new look for the Today page.</value>
   </data>
+  <data name="Assistant_Title" xml:space="preserve">
+    <value>Assistant</value>
+    <comment>Sidebar item and page title of the local AI assistant (shown only when it is turned on in Settings).</comment>
+  </data>
+  <data name="Settings_Assistant" xml:space="preserve">
+    <value>AI assistant (preview)</value>
+    <comment>Settings section heading.</comment>
+  </data>
+  <data name="Settings_Assistant_Title" xml:space="preserve">
+    <value>Local AI assistant</value>
+  </data>
+  <data name="Settings_Assistant_Desc" xml:space="preserve">
+    <value>Type what you want, like "remind me to call grandma sunday 5pm", and a small model on this PC turns it into reminders. Nothing leaves your PC. Off by default.</value>
+  </data>
+  <data name="Assistant_Caption_English" xml:space="preserve">
+    <value>Understands English for now.</value>
+    <comment>Shown in every UI language: the assistant's prompt, examples and day words are English only.</comment>
+  </data>
+  <data name="Assistant_Caption_Mistakes" xml:space="preserve">
+    <value>Small offline model; it can make mistakes, and you confirm anything it changes.</value>
+  </data>
+  <data name="Assistant_Placeholder" xml:space="preserve">
+    <value>Ask Remindr, e.g. "remind me to call mom at 6"</value>
+  </data>
+  <data name="Assistant_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Assistant_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+    <comment>Button on the card that lists what the assistant is about to change.</comment>
+  </data>
+  <data name="Assistant_Cancelled" xml:space="preserve">
+    <value>Okay, nothing was changed.</value>
+  </data>
+  <data name="Assistant_Error" xml:space="preserve">
+    <value>Something went wrong. Nothing was changed.</value>
+  </data>
+  <data name="Assistant_State_NotInstalled" xml:space="preserve">
+    <value>Model not found</value>
+  </data>
+  <data name="Assistant_State_NotInstalledDetail" xml:space="preserve">
+    <value>The assistant's model file isn't installed on this PC yet. The rest of Remindr works as usual.</value>
+  </data>
+  <data name="Assistant_State_Warming" xml:space="preserve">
+    <value>Warming up...</value>
+  </data>
+  <data name="Assistant_State_WarmingDetail" xml:space="preserve">
+    <value>The first start can take about half a minute. You can type already; your message waits for the model.</value>
+  </data>
+  <data name="Assistant_State_Failed" xml:space="preserve">
+    <value>The model couldn't be loaded</value>
+  </data>
+  <data name="Assistant_NoneReply" xml:space="preserve">
+    <value>I can add, find, complete, snooze, change and delete reminders. Try "remind me to call mom at 6".</value>
+  </data>
+  <data name="Assistant_NoTitle" xml:space="preserve">
+    <value>I didn't catch what to remind you about.</value>
+  </data>
+  <data name="Assistant_NotFound" xml:space="preserve">
+    <value>I couldn't find "{0}" in your open reminders.</value>
+    <comment>{0} = the words the user used for the reminder.</comment>
+  </data>
+  <data name="Assistant_WhichOne" xml:space="preserve">
+    <value>Which one do you mean?</value>
+  </data>
+  <data name="Assistant_SnoozeHowLong" xml:space="preserve">
+    <value>How long? For example: snooze {0} for 1 hour.</value>
+    <comment>{0} = the words the user used for the reminder.</comment>
+  </data>
+  <data name="Assistant_NoChange" xml:space="preserve">
+    <value>What should I change? For example: move {0} to friday, or rename {0} to something else.</value>
+    <comment>{0} = the words the user used for the reminder.</comment>
+  </data>
+  <data name="Assistant_DayUnknown" xml:space="preserve">
+    <value>I didn't understand the day "{0}".</value>
+  </data>
+  <data name="Assistant_FindAsk" xml:space="preserve">
+    <value>What would you like to know? For example: what's on friday, or what's overdue.</value>
+  </data>
+  <data name="Assistant_FindNone" xml:space="preserve">
+    <value>Nothing found.</value>
+  </data>
+  <data name="Assistant_Found_One" xml:space="preserve">
+    <value>{0} reminder found</value>
+  </data>
+  <data name="Assistant_Found_Other" xml:space="preserve">
+    <value>{0} reminders found</value>
+  </data>
+  <data name="Assistant_Kind_Create" xml:space="preserve">
+    <value>Add</value>
+    <comment>Label on a confirm-card row.</comment>
+  </data>
+  <data name="Assistant_Kind_Complete" xml:space="preserve">
+    <value>Mark done</value>
+  </data>
+  <data name="Assistant_Kind_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Assistant_Kind_Snooze" xml:space="preserve">
+    <value>Snooze</value>
+  </data>
+  <data name="Assistant_Kind_Update" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Assistant_SnoozeUntil" xml:space="preserve">
+    <value>until {0}</value>
+    <comment>{0} = a time of day.</comment>
+  </data>
+  <data name="Assistant_SnoozeTomorrow" xml:space="preserve">
+    <value>until tomorrow</value>
+  </data>
+  <data name="Assistant_Done_Create" xml:space="preserve">
+    <value>Added "{0}".</value>
+  </data>
+  <data name="Assistant_Done_Complete" xml:space="preserve">
+    <value>Marked "{0}" done.</value>
+  </data>
+  <data name="Assistant_Done_Delete" xml:space="preserve">
+    <value>Deleted "{0}".</value>
+  </data>
+  <data name="Assistant_Done_Snooze" xml:space="preserve">
+    <value>Snoozed "{0}".</value>
+  </data>
+  <data name="Assistant_Done_Update" xml:space="preserve">
+    <value>Changed "{0}".</value>
+  </data>
+  <data name="Assistant_Gone" xml:space="preserve">
+    <value>"{0}" isn't there anymore.</value>
+  </data>
+  <data name="Assistant_Mode_Work" xml:space="preserve">
+    <value>Work</value>
+    <comment>Segment of the Work / Chat switch on the Assistant page.</comment>
+  </data>
+  <data name="Assistant_Mode_Chat" xml:space="preserve">
+    <value>Chat</value>
+    <comment>Segment of the Work / Chat switch on the Assistant page.</comment>
+  </data>
+  <data name="Assistant_Mode_WorkName" xml:space="preserve">
+    <value>Assistant mode: Work</value>
+    <comment>Screen-reader name of the Work segment.</comment>
+  </data>
+  <data name="Assistant_Mode_ChatName" xml:space="preserve">
+    <value>Assistant mode: Chat</value>
+    <comment>Screen-reader name of the Chat segment.</comment>
+  </data>
+  <data name="Assistant_SwitchToChat" xml:space="preserve">
+    <value>Switch to Chat to talk.</value>
+    <comment>Shown in Work mode when the message is chit-chat, not a reminder request.</comment>
+  </data>
+  <data name="Assistant_DoInWork" xml:space="preserve">
+    <value>Do this in Work</value>
+    <comment>Chip shown in Chat mode when the message asks for a change; switches to Work and shows the confirm card.</comment>
+  </data>
+  <data name="Assistant_RunningOn" xml:space="preserve">
+    <value>Running on: {0}</value>
+    <comment>{0} is a graphics card name or CPU.</comment>
+  </data>
+  <data name="Assistant_Gpu_NoCard" xml:space="preserve">
+    <value>No dedicated graphics card found; running on the CPU.</value>
+  </data>
+  <data name="Settings_Assistant_Gpu" xml:space="preserve">
+    <value>Use graphics card</value>
+  </data>
+  <data name="Settings_Assistant_Gpu_Desc" xml:space="preserve">
+    <value>Auto uses a dedicated graphics card when there is one, and the CPU otherwise. On tells you if there is none. Off uses the CPU only.</value>
+  </data>
+  <data name="Settings_Assistant_Gpu_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Settings_Assistant_Gpu_On" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="Settings_Assistant_Gpu_Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="Settings_Assistant_Gpu_Restart" xml:space="preserve">
+    <value>Takes effect after restarting Remindr.</value>
+  </data>
+  <data name="Settings_Assistant_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="Assistant_Tier_q4_Name" xml:space="preserve">
+    <value>Recommended</value>
+    <comment>Model size choice: smallest and fastest.</comment>
+  </data>
+  <data name="Assistant_Tier_q4_Note" xml:space="preserve">
+    <value>Fastest</value>
+  </data>
+  <data name="Assistant_Tier_q8_Name" xml:space="preserve">
+    <value>Better quality</value>
+  </data>
+  <data name="Assistant_Tier_q8_Note" xml:space="preserve">
+    <value>Slower, a little more accurate</value>
+  </data>
+  <data name="Assistant_Tier_bf16_Name" xml:space="preserve">
+    <value>Highest quality</value>
+  </data>
+  <data name="Assistant_Tier_bf16_Note" xml:space="preserve">
+    <value>Slowest, full precision</value>
+  </data>
+  <data name="Assistant_Tier_Detail" xml:space="preserve">
+    <value>{0} download, needs {1} GB of memory</value>
+    <comment>{0} is a size like 0.7 GB; {1} a number.</comment>
+  </data>
+  <data name="Assistant_Tier_TooLittleRam" xml:space="preserve">
+    <value>This PC doesn't have enough memory for this one.</value>
+  </data>
+  <data name="Assistant_Tier_Installed" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="Assistant_Dl_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Assistant_Dl_Switch" xml:space="preserve">
+    <value>Switch to this model</value>
+  </data>
+  <data name="Assistant_Dl_Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Assistant_Dl_Resume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="Assistant_Dl_Remove" xml:space="preserve">
+    <value>Remove downloaded model</value>
+  </data>
+  <data name="Assistant_Dl_Verifying" xml:space="preserve">
+    <value>Verifying...</value>
+  </data>
+  <data name="Assistant_Dl_Progress" xml:space="preserve">
+    <value>Downloading: {0} of {1}</value>
+    <comment>{0} and {1} are sizes like 120 MB.</comment>
+  </data>
+  <data name="Assistant_Dl_Paused" xml:space="preserve">
+    <value>Paused: {0} of {1}</value>
+  </data>
+  <data name="Assistant_Dl_ConnectionLost" xml:space="preserve">
+    <value>The download is paused because the connection was lost. Resume to continue.</value>
+  </data>
+  <data name="Assistant_Dl_HashMismatch" xml:space="preserve">
+    <value>The downloaded file didn't match its checksum, so it was deleted. Please try again.</value>
+  </data>
+  <data name="Assistant_Dl_NoSpace" xml:space="preserve">
+    <value>There isn't enough free disk space for this model.</value>
+  </data>
+  <data name="Assistant_Model_Credit" xml:space="preserve">
+    <value>Model by Liquid AI · LFM Open License v1.0</value>
+    <comment>Opens the licence text.</comment>
+  </data>
+  <data name="Voice_Section" xml:space="preserve">
+    <value>Voice</value>
+    <comment>Settings section header.</comment>
+  </data>
+  <data name="Voice_Title" xml:space="preserve">
+    <value>Voice input</value>
+    <comment>Toggle in Settings (off by default).</comment>
+  </data>
+  <data name="Voice_Desc" xml:space="preserve">
+    <value>Talk to the assistant: hold Ctrl+Space (while Remindr is focused) or click the orb. The microphone is on only while you talk, and the audio stays in memory on this PC and is never saved.</value>
+  </data>
+  <data name="Voice_Model_Name" xml:space="preserve">
+    <value>Hearing you: speech recognition model (~142 MB)</value>
+    <comment>Whisper base.en download row.</comment>
+  </data>
+  <data name="Voice_Model_Installed" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="Voice_Model_Credit" xml:space="preserve">
+    <value>Speech model: Whisper base.en by OpenAI · MIT license</value>
+  </data>
+  <data name="Voice_Speak" xml:space="preserve">
+    <value>Speak replies</value>
+  </data>
+  <data name="Voice_Speak_Desc" xml:space="preserve">
+    <value>Reads short replies and confirm questions aloud. Esc stops it. Say yes, confirm or do it to confirm a card, no or cancel to cancel it.</value>
+  </data>
+  <data name="Voice_Choice" xml:space="preserve">
+    <value>Voice</value>
+    <comment>Combo of the natural (Kokoro) voices and the installed Windows voices.</comment>
+  </data>
+  <data name="Voice_DefaultVoice" xml:space="preserve">
+    <value>Windows default</value>
+  </data>
+  <data name="Voice_DefaultNatural" xml:space="preserve">
+    <value>Default (Heart, natural)</value>
+    <comment>First entry of the voice combo once a natural voice is downloaded.</comment>
+  </data>
+  <data name="Voice_NaturalVoice" xml:space="preserve">
+    <value>{0} (natural)</value>
+    <comment>A Kokoro voice in the voice combo; {0} is its name, such as Heart.</comment>
+  </data>
+  <data name="Voice_Natural_Title" xml:space="preserve">
+    <value>Talking back: natural voice</value>
+  </data>
+  <data name="Voice_Natural_Desc" xml:space="preserve">
+    <value>How replies sound: a lifelike voice that runs on this PC (Kokoro). Download one size; until then, replies use a Windows voice. To talk to the assistant you also need the speech recognition model above.</value>
+  </data>
+  <data name="Voice_Natural_Original" xml:space="preserve">
+    <value>Original (~310 MB)</value>
+    <comment>Full-precision Kokoro download row.</comment>
+  </data>
+  <data name="Voice_Natural_Small" xml:space="preserve">
+    <value>Smaller (~156 MB, sounds almost the same)</value>
+    <comment>Half-precision Kokoro download row.</comment>
+  </data>
+  <data name="Voice_Natural_Credit" xml:space="preserve">
+    <value>Natural voice: Kokoro-82M by hexgrad · Apache 2.0 license</value>
+  </data>
+  <data name="Voice_Orb_Idle" xml:space="preserve">
+    <value>Microphone. Click to talk</value>
+    <comment>Orb screen-reader name.</comment>
+  </data>
+  <data name="Voice_Orb_Listening" xml:space="preserve">
+    <value>Listening</value>
+  </data>
+  <data name="Voice_Orb_Thinking" xml:space="preserve">
+    <value>Thinking</value>
+  </data>
+  <data name="Voice_Orb_Speaking" xml:space="preserve">
+    <value>Speaking</value>
+  </data>
+  <data name="Voice_Orb_Muted" xml:space="preserve">
+    <value>Voice input is off</value>
+  </data>
+  <data name="Voice_Status_Off" xml:space="preserve">
+    <value>Turn on Voice input in Settings first.</value>
+  </data>
+  <data name="Voice_Status_NoModel" xml:space="preserve">
+    <value>To talk to the assistant, download the speech recognition model (~142 MB) in Settings &gt; Voice. The natural voice only reads replies aloud.</value>
+  </data>
+  <data name="Voice_Status_Listening" xml:space="preserve">
+    <value>Listening... release to send</value>
+  </data>
+  <data name="Voice_Status_Transcribing" xml:space="preserve">
+    <value>Transcribing...</value>
+  </data>
+  <data name="Voice_Status_Heard" xml:space="preserve">
+    <value>You said: {0}</value>
+    <comment>{0} = the transcript.</comment>
+  </data>
+  <data name="Voice_Err_NoMic" xml:space="preserve">
+    <value>No microphone found. Plug one in and try again.</value>
+  </data>
+  <data name="Voice_Err_Denied" xml:space="preserve">
+    <value>Windows is blocking microphone access for desktop apps. Turn it on in Settings &gt; Privacy &amp; security &gt; Microphone.</value>
+  </data>
+  <data name="Voice_Err_Failed" xml:space="preserve">
+    <value>The microphone or speech recognition failed. Try again.</value>
+  </data>
+  <data name="Voice_Err_Nothing" xml:space="preserve">
+    <value>I didn't hear anything.</value>
+  </data>
+  <data name="Voice_OpenMicSettings" xml:space="preserve">
+    <value>Open microphone settings</value>
+  </data>
 </root>

@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 
 namespace Remindr.Setup.Core;
 
@@ -56,6 +57,13 @@ public sealed class UninstallEngine
             progress(new SetupProgress("Removing your data", 0.8));
             if (Directory.Exists(_paths.DataDir)) _data.Remove(_paths.DataDir);
             _log.Info("Data folder removed.");
+            // Downloaded AI model files are large and can be fetched again: deleted for good, not sent to the Recycle Bin.
+            BestEffort(() =>
+            {
+                InstallEngine.DeleteDirectory(_paths.ModelsDir);
+                var parent = Path.GetDirectoryName(_paths.ModelsDir)!;
+                if (Directory.Exists(parent) && !Directory.EnumerateFileSystemEntries(parent).Any()) Directory.Delete(parent);
+            }, "AI model folder");
         }
 
         progress(new SetupProgress("Cleaning up settings", 0.95));

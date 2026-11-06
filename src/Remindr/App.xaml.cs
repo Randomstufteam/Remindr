@@ -46,6 +46,16 @@ public partial class App : Application
         }
 #endif
 
+        // Diagnostic switch (no window, no database, no single-instance hand-over): see AssistantSelfCheck.
+        if (e.Args.Length is 3 or 4 && string.Equals(e.Args[0], Services.Assistant.AssistantSelfCheck.Arg, StringComparison.OrdinalIgnoreCase))
+        {
+            var file = e.Args[1];
+            var gpu = Services.Assistant.GpuPolicy.Parse(e.Args.Length == 4 ? e.Args[3] : null);
+            // Off the UI thread: the model code awaits and would otherwise wait for the thread that is blocked here.
+            Shutdown(Task.Run(() => Services.Assistant.AssistantSelfCheck.Run(file, e.Args[2], gpu)).GetAwaiter().GetResult());
+            return;
+        }
+
         // One Remindr per user: a second launch hands over to the first and leaves before it builds anything.
         var launch = LaunchArgs.Parse(e.Args);
         _singleInstance = new SingleInstance(SingleInstance.DefaultId());
@@ -302,6 +312,31 @@ public partial class App : Application
         s.AddSingleton<CalendarViewModel>();
         s.AddSingleton<AllRemindersPage>();
         s.AddSingleton<AllRemindersViewModel>();
+        s.AddSingleton<Services.Assistant.ModelManager>(p => new Services.Assistant.ModelManager(AppPaths.Current, p.GetRequiredService<SettingsRepo>()));
+        s.AddSingleton<Services.Assistant.AssistantService>();
+        // Voice (slices 7-9): Whisper speech model, push-to-talk, Windows text to speech.
+        s.AddSingleton<Services.Assistant.VoiceSettings>();
+        s.AddSingleton<Services.Assistant.VoiceModelManager>(p => new Services.Assistant.VoiceModelManager(AppPaths.Current));
+        s.AddSingleton<Services.Assistant.WhisperTranscriber>(p =>
+        {
+            var model = p.GetRequiredService<Services.Assistant.VoiceModelManager>();
+            return new Services.Assistant.WhisperTranscriber(() => model.InstalledPath);
+        });
+        s.AddSingleton<Services.Assistant.PushToTalkController>(p =>
+            new Services.Assistant.PushToTalkController(new Services.Assistant.NAudioRecorder(), p.GetRequiredService<Services.Assistant.WhisperTranscriber>()));
+        // Replies: the natural Kokoro voice once a size is downloaded, a Windows voice otherwise.
+        s.AddSingleton<Services.Assistant.NaturalVoiceModels>(p => new Services.Assistant.NaturalVoiceModels(AppPaths.Current));
+        s.AddSingleton<Services.Assistant.ISpeaker>(p =>
+        {
+            var natural = p.GetRequiredService<Services.Assistant.NaturalVoiceModels>();
+            var speaker = new Services.Assistant.NaturalSpeaker(() => natural.InstalledPath, new Services.Assistant.WindowsSpeaker());
+            natural.Speaker = speaker;
+            return speaker;
+        });
+        s.AddSingleton<VoiceViewModel>();
+        s.AddSingleton<ModelPickerViewModel>();
+        s.AddSingleton<AssistantPage>();
+        s.AddSingleton<AssistantViewModel>();
         s.AddSingleton<SettingsPage>();
         s.AddSingleton<SettingsViewModel>();
     }

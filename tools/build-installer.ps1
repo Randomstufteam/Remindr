@@ -27,12 +27,21 @@ if ($LASTEXITCODE -ne 0) { throw 'App publish failed.' }
 $exe = Join-Path $appOut 'Remindr.exe'
 if (-not (Test-Path $exe)) { throw 'Remindr.exe missing from the publish output.' }
 
-# 2. Payload files: exe + licence + notices (LICENSE only once it exists).
+# 2. Payload files: exe + the llama.cpp native folder + licences + notices (LICENSE only once it exists).
 $stage = Join-Path $out 'payload'
 if (Test-Path $stage) { Remove-Item $stage -Recurse -Force }
 New-Item -ItemType Directory $stage | Out-Null
 Copy-Item $exe $stage
-foreach ($f in 'LICENSE', 'THIRD-PARTY-NOTICES.md') {
+# The llama.cpp DLLs of the AI assistant stay loose next to the exe: bundled into the single file, LLamaSharp cannot load them.
+$natives = Join-Path $appOut 'runtimes'
+if (-not (Test-Path (Join-Path $natives 'win-x64\native\vulkan\llama.dll'))) { throw 'The llama.cpp native files are missing from the publish output.' }
+if (-not (Test-Path (Join-Path $natives 'win-x64\whisper.dll'))) { throw 'The whisper.cpp native files (voice input) are missing from the publish output.' }
+Copy-Item $natives $stage -Recurse
+# The natural reply voice's English voice files (KokoroSharp reads them from voices\ next to the exe).
+$voices = Join-Path $appOut 'voices'
+if (-not (Test-Path (Join-Path $voices 'af_heart.npy'))) { throw 'The Kokoro voice files are missing from the publish output.' }
+Copy-Item $voices $stage -Recurse
+foreach ($f in 'LICENSE', 'THIRD-PARTY-NOTICES.md', 'LICENSE-LFM-Open-License-v1.0.txt') {
     $p = Join-Path $root $f
     if (Test-Path $p) { Copy-Item $p $stage } else { Write-Warning "$f not found, not included." }
 }

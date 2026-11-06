@@ -22,6 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!-- The model's recorded raw answers for the 200 eval phrases (Q4_K_M), replayed through the guard with no model. -->
+    <None Update="Fixtures\assistant-raw-q4.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\src\Remindr\Remindr.csproj" />
     <ProjectReference Include="..\..\installer\Remindr.Setup.Core\Remindr.Setup.Core.csproj" />
   </ItemGroup>

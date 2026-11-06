@@ -214,6 +214,152 @@
                     </Grid>
                 </Border></Grid>
 
+                <!-- AI assistant (preview) -->
+                <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Assistant}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
+                <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Sparkle24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="{l:Loc Settings_Assistant_Title}" Style="{StaticResource Body}" TextWrapping="Wrap" />
+                            <TextBlock Text="{l:Loc Settings_Assistant_Desc}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,0,0" />
+                            <TextBlock Text="{l:Loc Assistant_Caption_English}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,0,0" />
+                        </StackPanel>
+                        <ui:ToggleSwitch Grid.Column="2" Margin="16,0,0,0" VerticalAlignment="Center"
+                                         IsChecked="{Binding AssistantEnabled, Mode=TwoWay}"
+                                         AutomationProperties.AutomationId="AssistantToggle"
+                                         AutomationProperties.Name="{l:Loc Settings_Assistant_Title}" />
+
+                        <!-- Graphics card and model: only while the assistant is on. -->
+                        <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,16,0,0"
+                                    Visibility="{Binding AssistantEnabled, Converter={StaticResource BoolToVis}}">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <StackPanel VerticalAlignment="Center">
+                                    <TextBlock Text="{l:Loc Settings_Assistant_Gpu}" Style="{StaticResource Body}" />
+                                    <TextBlock Text="{l:Loc Settings_Assistant_Gpu_Desc}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,16,0" />
+                                </StackPanel>
+                                <ComboBox Grid.Column="1" MinWidth="110" VerticalAlignment="Center" ItemsSource="{Binding GpuOptions}" DisplayMemberPath="Name"
+                                          SelectedValuePath="Mode" SelectedValue="{Binding Gpu, Mode=TwoWay}"
+                                          AutomationProperties.AutomationId="AssistantGpu" AutomationProperties.Name="{l:Loc Settings_Assistant_Gpu}" />
+                            </Grid>
+                            <TextBlock Text="{l:Loc Settings_Assistant_Gpu_Restart}" Style="{StaticResource Caption}" Margin="0,4,0,0"
+                                       Visibility="{Binding GpuNeedsRestart, Converter={StaticResource BoolToVis}}" AutomationProperties.LiveSetting="Polite" />
+                            <TextBlock Text="{Binding RunningOn}" Style="{StaticResource Caption}" Margin="0,4,0,0"
+                                       Visibility="{Binding HasRunningOn, Converter={StaticResource BoolToVis}}" AutomationProperties.AutomationId="AssistantRunningOn" />
+                            <TextBlock Text="{Binding GpuNote}" Style="{StaticResource Caption}" Margin="0,2,0,0" TextWrapping="Wrap"
+                                       Visibility="{Binding HasGpuNote, Converter={StaticResource BoolToVis}}" />
+                            <TextBlock Text="{l:Loc Settings_Assistant_Model}" Style="{StaticResource Body}" Margin="0,16,0,8" />
+                            <ctl:ModelPicker DataContext="{Binding Models}" />
+                        </StackPanel>
+                    </Grid>
+                </Border></Grid>
+
+                <!-- Voice (under the assistant card; only while the assistant is on) -->
+                <StackPanel DataContext="{Binding Voice}" Visibility="{Binding DataContext.AssistantEnabled, RelativeSource={RelativeSource AncestorType=Page}, Converter={StaticResource BoolToVis}}">
+                    <StackPanel.Resources>
+                        <!-- One voice-model download row (ModelRowViewModel): name, download, progress with pause/resume/cancel, error, remove, credit. -->
+                        <DataTemplate x:Key="VoiceModelRow">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Title}" Style="{StaticResource Body}" TextWrapping="Wrap" />
+                                <TextBlock Text="{l:Loc Voice_Model_Installed}" Style="{StaticResource Caption}" Margin="0,2,0,0"
+                                           Visibility="{Binding Installed, Converter={StaticResource BoolToVis}}" />
+                                <ui:Button Appearance="Primary" HorizontalAlignment="Left" Margin="0,8,0,0" Content="{l:Loc Assistant_Dl_Download}" Command="{Binding DownloadCommand}"
+                                           Visibility="{Binding CanDownload, Converter={StaticResource BoolToVis}}" AutomationProperties.Name="{Binding Title}" />
+                                <StackPanel Margin="0,8,0,0" Visibility="{Binding ShowProgress, Converter={StaticResource BoolToVis}}">
+                                    <TextBlock Text="{Binding ProgressText}" Style="{StaticResource Caption}" AutomationProperties.LiveSetting="Polite" />
+                                    <ProgressBar Minimum="0" Maximum="1" Value="{Binding Progress, Mode=OneWay}" Height="6" Margin="0,6,0,8"
+                                                 AutomationProperties.Name="{Binding ProgressText}" />
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Content="{l:Loc Assistant_Dl_Pause}" Style="{StaticResource GlassPill}" Command="{Binding PauseCommand}"
+                                                Visibility="{Binding IsDownloading, Converter={StaticResource BoolToVis}}" />
+                                        <Button Content="{l:Loc Assistant_Dl_Resume}" Style="{StaticResource GlassPill}" Command="{Binding ResumeCommand}"
+                                                Visibility="{Binding IsPaused, Converter={StaticResource BoolToVis}}" />
+                                        <Button Content="{l:Loc Common_Cancel}" Style="{StaticResource GlassPill}" Margin="8,0,0,0" Command="{Binding CancelDownloadCommand}" />
+                                    </StackPanel>
+                                </StackPanel>
+                                <TextBlock Text="{Binding ErrorText}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,6,0,0"
+                                           Foreground="{DynamicResource SystemFillColorCriticalBrush}" Visibility="{Binding HasError, Converter={StaticResource BoolToVis}}"
+                                           AutomationProperties.LiveSetting="Assertive" />
+                                <Button Content="{l:Loc Assistant_Dl_Remove}" Style="{StaticResource GlassPill}" HorizontalAlignment="Left" Margin="0,8,0,0"
+                                        Command="{Binding RemoveCommand}" Visibility="{Binding Installed, Converter={StaticResource BoolToVis}}" />
+                                <TextBlock Text="{Binding Credit}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,8,0,0"
+                                           Visibility="{Binding HasCredit, Converter={StaticResource BoolToVis}}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </StackPanel.Resources>
+                    <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Voice_Section}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
+                    <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <ui:SymbolIcon Grid.Column="0" Symbol="Mic24" FontSize="24" Margin="0,0,16,0" VerticalAlignment="Center" />
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                <TextBlock Text="{l:Loc Voice_Title}" Style="{StaticResource Body}" TextWrapping="Wrap" />
+                                <TextBlock Text="{l:Loc Voice_Desc}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,0,0" />
+                            </StackPanel>
+                            <ui:ToggleSwitch Grid.Column="2" Margin="16,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Enabled, Mode=TwoWay}"
+                                             AutomationProperties.AutomationId="VoiceToggle" AutomationProperties.Name="{l:Loc Voice_Title}" />
+
+                            <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,16,0,0"
+                                        Visibility="{Binding Enabled, Converter={StaticResource BoolToVis}}">
+                                <!-- Speech model download -->
+                                <ContentControl Content="{Binding Hearing}" ContentTemplate="{StaticResource VoiceModelRow}" Focusable="False" />
+
+                                <!-- Spoken replies -->
+                                <Grid Margin="0,16,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <TextBlock Text="{l:Loc Voice_Speak}" Style="{StaticResource Body}" />
+                                        <TextBlock Text="{l:Loc Voice_Speak_Desc}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,16,0" />
+                                    </StackPanel>
+                                    <ui:ToggleSwitch Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding SpeakReplies, Mode=TwoWay}"
+                                                     AutomationProperties.AutomationId="VoiceSpeakToggle" AutomationProperties.Name="{l:Loc Voice_Speak}" />
+                                </Grid>
+                                <Grid Margin="0,12,0,0" Visibility="{Binding SpeakReplies, Converter={StaticResource BoolToVis}}">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="{l:Loc Voice_Choice}" Style="{StaticResource Body}" VerticalAlignment="Center" />
+                                    <ComboBox Grid.Column="1" MinWidth="200" ItemsSource="{Binding Voices}" DisplayMemberPath="Display" SelectedValuePath="Name"
+                                              SelectedValue="{Binding SelectedVoice, Mode=TwoWay}"
+                                              AutomationProperties.AutomationId="VoiceChoice" AutomationProperties.Name="{l:Loc Voice_Choice}" />
+                                </Grid>
+                                <!-- Natural voice (Kokoro): two sizes of the same voice; without one, replies use a Windows voice -->
+                                <StackPanel Margin="0,16,0,0" Visibility="{Binding SpeakReplies, Converter={StaticResource BoolToVis}}">
+                                    <TextBlock Text="{l:Loc Voice_Natural_Title}" Style="{StaticResource Body}" />
+                                    <TextBlock Text="{l:Loc Voice_Natural_Desc}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,2,0,0" />
+                                    <ContentControl Margin="0,12,0,0" Content="{Binding NaturalOriginal}" ContentTemplate="{StaticResource VoiceModelRow}" Focusable="False" />
+                                    <ContentControl Margin="0,12,0,0" Content="{Binding NaturalSmall}" ContentTemplate="{StaticResource VoiceModelRow}" Focusable="False" />
+                                    <TextBlock Text="{l:Loc Voice_Natural_Credit}" Style="{StaticResource Caption}" TextWrapping="Wrap" Margin="0,8,0,0" />
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Border></Grid>
+                </StackPanel>
+
                 <!-- Help & feedback -->
                 <TextBlock ctl:Anim.FadeInOnLoad="True" Text="{l:Loc Settings_Help}" Style="{StaticResource SectionHeader}" Margin="0,24,0,8" />
                 <Grid ctl:Anim.FadeInOnLoad="True">                <Border Style="{StaticResource GlassShadow}" />                <Border Style="{StaticResource GlassCard}">

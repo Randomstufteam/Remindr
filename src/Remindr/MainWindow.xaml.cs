@@ -29,6 +29,7 @@ public partial class MainWindow : FluentWindow
     private readonly LocalizationService _localization;
     private readonly UpdateService _update;
     private readonly WhatsNewService _whatsNew;
+    private readonly Services.Assistant.AssistantService _assistant;
     private bool? _whatsNewDue;
     private bool _firstRun;
     private bool _updateCheckStarted;
@@ -36,9 +37,11 @@ public partial class MainWindow : FluentWindow
     public MainWindow(IServiceProvider services, ThemeService theme, ProfileSession session,
         ProfilePickerViewModel picker, ProfileRepo profiles, Wpf.Ui.IContentDialogService dialogService,
         ReminderDialogs reminderDialogs, WelcomeController welcome, LocalizationService localization,
-        UpdateService update, UpdateViewModel updateViewModel, WhatsNewService whatsNew)
+        UpdateService update, UpdateViewModel updateViewModel, WhatsNewService whatsNew, Services.Assistant.AssistantService assistant)
     {
         _whatsNew = whatsNew;
+        _assistant = assistant;
+        _services = services;
         _update = update;
         _localization = localization;
         _welcome = welcome;
@@ -50,11 +53,25 @@ public partial class MainWindow : FluentWindow
 
         InitializeComponent();
         ApplyNavItemTemplate();
+        // The Assistant item shows only while the assistant is on in Settings.
+        UpdateAssistantNav();
+        assistant.EnabledChanged += (_, _) => Dispatcher.BeginInvoke(new Action(UpdateAssistantNav));
         // Ctrl+N: new reminder from any page (not over the picker or another dialog).
         InputBindings.Add(new System.Windows.Input.KeyBinding(
             // AsyncRelayCommand (not fire-and-forget) so a failed save reaches DispatcherUnhandledException instead of vanishing.
             new CommunityToolkit.Mvvm.Input.AsyncRelayCommand(() => _reminderDialogs.ShowEditAsync(null), CanAddReminder),
             System.Windows.Input.Key.N, System.Windows.Input.ModifierKeys.Control));
+        // Push-to-talk: Ctrl+Space while this window is focused (a window binding, not a global hook). Hold to talk, release to send; Esc stops speech
+        // and drops a recording, and losing focus drops it too. Works only while the Assistant page is open with Voice input on.
+        InputBindings.Add(new System.Windows.Input.KeyBinding(
+            new CommunityToolkit.Mvvm.Input.RelayCommand(() => AssistantVm()?.BeginHold(), () => AssistantVm()?.CanHold == true),
+            System.Windows.Input.Key.Space, System.Windows.Input.ModifierKeys.Control));
+        PreviewKeyUp += (_, e) =>
+        {
+            if (e.Key is System.Windows.Input.Key.Space or System.Windows.Input.Key.LeftCtrl or System.Windows.Input.Key.RightCtrl) AssistantVm()?.EndHold();
+        };
+        PreviewKeyDown += (_, e) => { if (e.Key == System.Windows.Input.Key.Escape) AssistantVm()?.StopVoice(); };
+        Deactivated += (_, _) => AssistantVm()?.StopVoice();
         FitToWorkArea();
         SizeChanged += (_, e) => { if (e.WidthChanged) ApplyResponsive(e.NewSize.Width); };
         theme.AttachWindow(this);
@@ -215,6 +232,17 @@ public partial class MainWindow : FluentWindow
         foreach (var item in RootNavigation.MenuItems.OfType<RemindrNavItem>().Concat(RootNavigation.FooterMenuItems.OfType<RemindrNavItem>()))
             item.Template = template;
     }
+
+    private readonly IServiceProvider _services;
+
+    /// <summary>The assistant's view model, only once voice is switched on (so a user without it never builds it just for a key press).</summary>
+    private ViewModels.AssistantViewModel? AssistantVm() =>
+        _assistant.Enabled && _services.GetService(typeof(Services.Assistant.VoiceSettings)) is Services.Assistant.VoiceSettings { Enabled: true }
+            ? _services.GetService(typeof(ViewModels.AssistantViewModel)) as ViewModels.AssistantViewModel
+            : null;
+
+    private void UpdateAssistantNav() =>
+        AssistantNavItem.Visibility = _assistant.Enabled ? Visibility.Visible : Visibility.Collapsed;
 
     /// <summary>Tray Quick Add: shows the window, then opens the new-reminder dialog only when that is allowed (a profile is open, no PIN prompt or other overlay).</summary>
     public void QuickAdd()

@@ -1,5 +1,6 @@
 using System.Globalization;
 using Remindr.Data.Repositories;
+using Remindr.Models;
 
 namespace Remindr.Services;
 
@@ -83,12 +84,22 @@ public sealed class ToastActionHandler
     };
 
     /// <summary>Local time a timed snooze ends: now plus the span, rounded up to the next whole minute (stored at minute precision).</summary>
-    public static DateTime SnoozeUntil(SnoozeChoice choice, DateTime now)
+    public static DateTime SnoozeUntil(SnoozeChoice choice, DateTime now) =>
+        SnoozeUntil(choice == SnoozeChoice.Hour1 ? TimeSpan.FromHours(1) : TimeSpan.FromMinutes(5), now);
+
+    /// <summary>Same rounding for any span (the AI assistant's "20 minutes").</summary>
+    public static DateTime SnoozeUntil(TimeSpan span, DateTime now)
     {
-        var span = choice == SnoozeChoice.Hour1 ? TimeSpan.FromHours(1) : TimeSpan.FromMinutes(5);
         var t = now + span;
         var floor = new DateTime(t.Year, t.Month, t.Day, t.Hour, t.Minute, 0, t.Kind);
         return t > floor ? floor.AddMinutes(1) : floor;
+    }
+
+    /// <summary>The toast's Tomorrow button: keeps the time and clears the snooze. Never pulls a later reminder earlier (e.g. a test toast).</summary>
+    public static void SnoozeToTomorrow(ReminderRepo reminders, Reminder r, DateOnly today, int? profileId = null)
+    {
+        var tomorrow = today.AddDays(1);
+        if (r.DueDate < tomorrow) reminders.MoveToDate(r.Id, tomorrow, profileId);
     }
 
     /// <param name="snoozeChoiceId">The selection box value that came with a Snooze click.</param>
@@ -107,11 +118,7 @@ public sealed class ToastActionHandler
             case ToastAction.Snooze:
                 var choice = ParseChoice(snoozeChoiceId);
                 if (choice == SnoozeChoice.Tomorrow)
-                {
-                    // Keeps the time and clears the snooze. Never pulls a later reminder earlier (e.g. a test toast).
-                    var tomorrow = _clock.Today.AddDays(1);
-                    if (r.DueDate < tomorrow) _reminders.MoveToDate(args.ReminderId, tomorrow, args.ProfileId);
-                }
+                    SnoozeToTomorrow(_reminders, r, _clock.Today, args.ProfileId);
                 else
                     _reminders.SetSnoozedUntil(args.ReminderId, SnoozeUntil(choice, _clock.Now), args.ProfileId);
                 break;

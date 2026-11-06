@@ -1,0 +1,23 @@
+<UserControl x:Class="Remindr.Views.Controls.VoiceOrb"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Width="64" Height="64" Focusable="False">
+    <!-- The whole orb is one button (the mic button): keyboard, mouse and screen readers all reach it. -->
+    <Button x:Name="Hit" Padding="0" Cursor="Hand" Background="Transparent" BorderThickness="0"
+            FocusVisualStyle="{DynamicResource FocusRing}" AutomationProperties.LiveSetting="Polite"
+            AutomationProperties.AutomationId="VoiceOrb">
+        <Button.Template>
+            <ControlTemplate TargetType="Button">
+                <ContentPresenter />
+            </ControlTemplate>
+        </Button.Template>
+        <Grid Width="64" Height="64">
+            <!-- Glass disc with the blobs inside a circular clip. -->
+            <Grid x:Name="Disc" Width="60" Height="60">
+                <Ellipse x:Name="Glass" Fill="{DynamicResource GlassChipBrush}" />
+                <Grid x:Name="BlobHost" RenderTransformOrigin="0.5,0.5" />
+            </Grid>
+            <Ellipse x:Name="Ring" Width="62" Height="62" Fill="Transparent" StrokeThickness="1.5" />
+        </Grid>
+    </Button>
+</UserControl>

@@ -90,7 +90,8 @@ public class ResxParityTests
             var other = SourceTree.ReadResx(path);
 
             // WhatsNew_<ver>_<n>_* (the bundled release highlights) may be missing: they fall back to English until translated.
-            var missing = neutral.Keys.Except(other.Keys).Where(k => !Regex.IsMatch(k, @"^WhatsNew_\d+_")).ToList();
+            // So may the AI assistant's keys (Assistant_*, Settings_Assistant*, Voice_*) until the translation slice (Phase 5 part 2, slice 10) removes this exemption.
+            var missing = neutral.Keys.Except(other.Keys).Where(k => !Regex.IsMatch(k, @"^(WhatsNew_\d+_|Assistant_|Settings_Assistant|Voice_)")).ToList();
             Assert.True(missing.Count == 0, $"{file} lacks: " + string.Join(", ", missing));
             // Languages may add plural categories English lacks (key_Two/_Few/_Many/_Zero) next to an existing key_Other.
             var unknown = other.Keys.Where(k => !neutral.ContainsKey(k) && EnglishFor(neutral, k) is null).ToList();
