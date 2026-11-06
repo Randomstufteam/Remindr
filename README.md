@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe"><img alt="Download for Windows" src="https://img.shields.io/badge/Download_for_Windows-v0.5.0_·_210_MB-2563EB?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe"><img alt="Download for Windows" src="https://img.shields.io/badge/Download_for_Windows-v0.5.5_·_131_MB-2563EB?style=for-the-badge&logo=windows&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="#-new-in-v050">What's new</a> ·
+  <a href="#-new-in-v05">What's new</a> ·
   <a href="#-features">Features</a> ·
   <a href="#-screenshots">Screenshots</a> ·
   <a href="#-install">Install</a> ·
@@ -30,7 +30,7 @@
 
 <br>
 
-## ✨ New in v0.5.0
+## ✨ New in v0.5
 
 <table>
 <tr>

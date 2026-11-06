@@ -27,7 +27,7 @@
   <text x="96" y="318" font-size="64" font-weight="700" fill="#FFFFFF" letter-spacing="-1.5">Remindr</text>
   <text x="98" y="358" font-size="22" fill="#C5CAD6">Reminders that find you. Data that never leaves your PC.</text>
   <g font-size="15" font-weight="600">
-    <rect x="96" y="380" width="78" height="30" rx="15" fill="#1E3A8A"/><text x="135" y="400" text-anchor="middle" fill="#DBEAFE">v0.5.0</text>
+    <rect x="96" y="380" width="78" height="30" rx="15" fill="#1E3A8A"/><text x="135" y="400" text-anchor="middle" fill="#DBEAFE">v0.5.5</text>
     <rect x="184" y="380" width="146" height="30" rx="15" fill="#1A1D27"/><text x="257" y="400" text-anchor="middle" fill="#C5CAD6">Windows 10 and 11</text>
     <rect x="340" y="380" width="140" height="30" rx="15" fill="#1A1D27"/><text x="410" y="400" text-anchor="middle" fill="#C5CAD6">Free, MIT license</text>
     <rect x="490" y="380" width="152" height="30" rx="15" fill="#1A1D27"/><text x="566" y="400" text-anchor="middle" fill="#C5CAD6">No account, no cloud</text>

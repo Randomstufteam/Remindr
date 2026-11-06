@@ -1,11 +1,14 @@
 # Changelog
 
-## v0.5.5 (unreleased)
+## v0.5.5 (2026-11-06)
+
+> [!WARNING]
+> Windows may show **"Windows protected your PC"** when you run `Remindr-Installer.exe`. Remindr isn't code-signed yet. Click **More info**, then **Run anyway**.
 
 ### Changed
 - **One voice model instead of two.** LFM3-Audio-2B by Liquid AI now both hears you and reads replies aloud. It replaces the Whisper speech recognition model and the Kokoro natural voice. It's one optional download of about 1.3 GB in **Settings > Voice**, runs on your graphics card when it can, with a CPU fallback, and stays fully offline. Pick the female or male voice, or keep a Windows voice.
 - If you downloaded the old Whisper or Kokoro models, they're no longer used. You can delete them from `%LocalAppData%\Remindr\models`.
-- The installer is smaller, because it no longer includes the Whisper and Kokoro engines.
+- The installer is smaller (about 131 MB, down from 210 MB), because it no longer includes the Whisper and Kokoro engines.
 
 ### Fixed
 - If the assistant model ran out of graphics memory while loading, it stayed in memory and was then loaded a second time on the CPU.
