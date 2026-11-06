@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-label="AI assistant demo: you type 'remind me to call mom friday at 6, it's important', the assistant shows a card to confirm, and replies Added Call mom.">
+  <style>
+    text{font-family:"Segoe UI Variable Display","Segoe UI",Helvetica,Arial,sans-serif}
+    .s{animation:show 11s cubic-bezier(.2,.7,.2,1) infinite both}
+    .s1{animation-name:s1}.s2{animation-name:s2}.s3{animation-name:s3}
+    @keyframes s1{0%,4%{opacity:0;transform:translateY(16px)}10%,88%{opacity:1;transform:none}95%,100%{opacity:0}}
+    @keyframes s2{0%,20%{opacity:0;transform:translateY(16px)}27%,88%{opacity:1;transform:none}95%,100%{opacity:0}}
+    @keyframes s3{0%,46%{opacity:0;transform:translateY(16px)}53%,88%{opacity:1;transform:none}95%,100%{opacity:0}}
+    .press{animation:press 11s ease infinite}
+    @keyframes press{0%,40%{fill:#2563EB}42%,44%{fill:#1D4ED8}46%,100%{fill:#2563EB}}
+    .orb{animation:breathe 2.8s ease-in-out infinite;transform-origin:120px 112px}
+    @keyframes breathe{50%{transform:scale(1.12)}}
+    @media (prefers-reduced-motion:reduce){.s,.press,.orb{animation:none}}
+  </style>
+  <defs>
+    <radialGradient id="orb" cx=".35" cy=".35"><stop offset="0" stop-color="#BFDBFE"/><stop offset=".6" stop-color="#3B82F6"/><stop offset="1" stop-color="#1D4ED8"/></radialGradient>
+  </defs>
+  <rect width="1280" height="440" rx="28" fill="#0B0D14"/>
+  <rect x=".5" y=".5" width="1279" height="439" rx="27.5" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+
+  <circle class="orb" cx="120" cy="112" r="24" fill="url(#orb)"/>
+  <text x="160" y="106" font-size="15" font-weight="700" fill="#93C5FD" letter-spacing="1.5">AI ASSISTANT · PREVIEW</text>
+  <text x="160" y="128" font-size="15" fill="#9AA1B2">Hold Ctrl+Space to talk</text>
+  <text x="96" y="210" font-size="44" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Talk to your reminders.</text>
+  <text x="96" y="262" font-size="44" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Nothing leaves your PC.</text>
+  <text x="98" y="312" font-size="19" fill="#C5CAD6">Runs offline on your graphics card or CPU.</text>
+  <text x="98" y="340" font-size="19" fill="#C5CAD6">You confirm every change before it's saved.</text>
+
+  <!-- you -->
+  <g transform="translate(756 56)"><g class="s s1">
+    <rect width="440" height="48" rx="20" fill="#2563EB"/>
+    <text x="22" y="30" font-size="17" fill="#FFFFFF">remind me to call mom friday at 6, it's important</text>
+  </g></g>
+  <!-- confirm card -->
+  <g transform="translate(756 128)"><g class="s s2">
+    <rect width="420" height="170" rx="18" fill="#1F2230" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <text x="22" y="38" font-size="14" font-weight="700" fill="#9AA1B2" letter-spacing="1">ADD</text>
+    <text x="22" y="72" font-size="22" font-weight="600" fill="#FFFFFF">Call mom</text>
+    <text x="22" y="100" font-size="16" fill="#C5CAD6">Friday · 18:00</text>
+    <rect x="146" y="84" width="88" height="22" rx="11" fill="#3B1D1D"/><text x="190" y="100" font-size="12" font-weight="700" text-anchor="middle" fill="#FCA5A5">IMPORTANT</text>
+    <rect class="press" x="22" y="120" width="120" height="34" rx="9" fill="#2563EB"/><text x="82" y="142" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Confirm</text>
+    <rect x="152" y="120" width="104" height="34" rx="9" fill="#2D3142"/><text x="204" y="142" font-size="15" font-weight="600" text-anchor="middle" fill="#E5E7EB">Cancel</text>
+  </g></g>
+  <!-- reply -->
+  <g transform="translate(756 322)"><g class="s s3">
+    <rect width="196" height="48" rx="20" fill="#1F2230" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <circle cx="26" cy="24" r="10" fill="#15803D"/>
+    <path d="M21 24l3.5 3.5 6.5-7" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="46" y="30" font-size="17" fill="#FFFFFF">Added "Call mom".</text>
+  </g></g>
+</svg>
