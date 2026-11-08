@@ -4,41 +4,29 @@
     .t{animation:toast 10s cubic-bezier(.2,.7,.2,1) infinite both}
     .t2{animation-delay:.6s}.t3{animation-delay:1.2s}
     @keyframes toast{0%{opacity:0;transform:translateX(60px)}8%,88%{opacity:1;transform:none}96%,100%{opacity:0;transform:translateX(0)}}
-    .glow{animation:pulse 3s ease-in-out infinite;transform-origin:150px 196px}
-    @keyframes pulse{50%{opacity:.25;transform:scale(1.15)}}
-    @media (prefers-reduced-motion:reduce){.t,.glow{animation:none}}
+    @media (prefers-reduced-motion:reduce){.t{animation:none}}
   </style>
-  <defs>
-    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
-    <radialGradient id="halo"><stop offset="0" stop-color="#3B82F6" stop-opacity=".55"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
-  </defs>
   <rect width="1280" height="440" rx="28" fill="#0B0D14"/>
   <rect x=".5" y=".5" width="1279" height="439" rx="27.5" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
 
   <!-- logo -->
-  <circle class="glow" cx="150" cy="196" r="110" fill="url(#halo)"/>
-  <rect x="96" y="142" width="108" height="108" rx="28" fill="url(#tile)"/>
+  <rect x="96" y="142" width="108" height="108" rx="28" fill="#2563EB"/>
   <g transform="translate(150 196)" fill="#FFFFFF">
     <path d="M0 -30C-19 -30 -25 -14 -25 3V12L-33 22H33L25 12V3C25 -14 19 -30 0 -30Z"/>
     <circle cx="0" cy="31" r="7"/><circle cx="0" cy="-35" r="5"/>
   </g>
 
   <!-- copy -->
-  <text x="96" y="318" font-size="64" font-weight="700" fill="#FFFFFF" letter-spacing="-1.5">Remindr</text>
-  <text x="98" y="358" font-size="22" fill="#C5CAD6">Reminders that find you. Data that never leaves your PC.</text>
-  <g font-size="15" font-weight="600">
-    <rect x="96" y="380" width="78" height="30" rx="15" fill="#1E3A8A"/><text x="135" y="400" text-anchor="middle" fill="#DBEAFE">v0.5.5</text>
-    <rect x="184" y="380" width="146" height="30" rx="15" fill="#1A1D27"/><text x="257" y="400" text-anchor="middle" fill="#C5CAD6">Windows 10 and 11</text>
-    <rect x="340" y="380" width="140" height="30" rx="15" fill="#1A1D27"/><text x="410" y="400" text-anchor="middle" fill="#C5CAD6">Free, MIT license</text>
-    <rect x="490" y="380" width="152" height="30" rx="15" fill="#1A1D27"/><text x="566" y="400" text-anchor="middle" fill="#C5CAD6">No account, no cloud</text>
-  </g>
+  <text x="96" y="318" font-size="64" font-weight="600" fill="#FFFFFF" letter-spacing="-1.5">Remindr</text>
+  <text x="98" y="358" font-size="22" fill="#C5CAD6">Reminders that find you, data that never leaves your PC</text>
+  <text x="98" y="398" font-size="16" fill="#9AA1B2">v0.5.5 · Windows 10 and 11 · Free, MIT license · No account, no cloud</text>
 
   <!-- toasts -->
   <g transform="translate(770 46)"><g class="t">
     <rect width="440" height="112" rx="14" fill="#1F2230" stroke="#FFFFFF" stroke-opacity=".1"/>
-    <rect x="18" y="18" width="20" height="20" rx="6" fill="url(#tile)"/>
+    <rect x="18" y="18" width="20" height="20" rx="6" fill="#2563EB"/>
     <text x="48" y="33" font-size="14" fill="#9AA1B2">Remindr · now</text>
-    <rect x="352" y="18" width="70" height="22" rx="11" fill="#3B1D1D"/><text x="387" y="34" font-size="12" font-weight="700" text-anchor="middle" fill="#FCA5A5">IMPORTANT</text>
+    <text x="422" y="33" font-size="14" font-weight="600" text-anchor="end" fill="#FCA5A5">Important</text>
     <text x="18" y="66" font-size="19" font-weight="600" fill="#FFFFFF">Call mom</text>
     <g font-size="13" font-weight="600" fill="#E5E7EB">
       <rect x="18" y="78" width="126" height="24" rx="6" fill="#2563EB"/><text x="81" y="95" text-anchor="middle" fill="#FFFFFF">Complete</text>
@@ -48,14 +36,14 @@
   </g></g>
   <g transform="translate(770 172)"><g class="t t2">
     <rect width="440" height="96" rx="14" fill="#1F2230" stroke="#FFFFFF" stroke-opacity=".1"/>
-    <rect x="18" y="18" width="20" height="20" rx="6" fill="url(#tile)"/>
+    <rect x="18" y="18" width="20" height="20" rx="6" fill="#2563EB"/>
     <text x="48" y="33" font-size="14" fill="#9AA1B2">Remindr · in 1 hour</text>
     <circle cx="25" cy="64" r="6" fill="#10B981"/>
     <text x="40" y="70" font-size="19" font-weight="600" fill="#FFFFFF">Dentist at 10:30</text>
   </g></g>
   <g transform="translate(770 282)"><g class="t t3">
     <rect width="440" height="112" rx="14" fill="#1F2230" stroke="#FFFFFF" stroke-opacity=".1"/>
-    <rect x="18" y="18" width="20" height="20" rx="6" fill="url(#tile)"/>
+    <rect x="18" y="18" width="20" height="20" rx="6" fill="#2563EB"/>
     <text x="48" y="33" font-size="14" fill="#9AA1B2">Remindr · 8:00</text>
     <text x="18" y="66" font-size="19" font-weight="600" fill="#FFFFFF">Daily summary</text>
     <text x="18" y="92" font-size="15" fill="#C5CAD6">3 due today, 1 overdue, 1 important this week</text>
