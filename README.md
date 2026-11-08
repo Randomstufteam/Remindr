@@ -3,50 +3,52 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe"><img alt="Download for Windows" src="https://img.shields.io/badge/Download_for_Windows-v0.5.5_%C2%B7_131_MB-2563EB?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe"><img alt="Download for Windows" src="https://img.shields.io/badge/Download_for_Windows-v0.5.5_·_131_MB-2563EB?style=for-the-badge&logo=windows&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Randomstufteam/Remindr/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Randomstufteam/Remindr?label=release&color=52525B"></a>
-  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-52525B"></a>
+  <a href="https://github.com/Randomstufteam/Remindr/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Randomstufteam/Remindr?label=release&color=2563EB"></a>
+  <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4">
+  <img alt=".NET 8" src="https://img.shields.io/badge/.NET-8-512BD4">
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-15803D"></a>
+  <a href="https://randomstufteam.github.io/"><img alt="Website" src="https://img.shields.io/badge/website-randomstufteam.github.io-1A1D27"></a>
 </p>
 
 <p align="center">
   A free, calm reminder app for Windows, for you and everyone who shares your PC.<br>
-  <b>No account. No cloud. No tracking.</b><br>
-  <a href="https://randomstufteam.github.io/">randomstufteam.github.io</a>
+  <b>No account. No cloud. No tracking.</b>
 </p>
 
 <p align="center">
-  <a href="#new-in-v05">What's new</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#screenshots">Screenshots</a> ·
-  <a href="#install">Install</a> ·
-  <a href="#privacy">Privacy</a> ·
-  <a href="#for-developers">Developers</a>
+  <a href="#-new-in-v05">What's new</a> ·
+  <a href="#-features">Features</a> ·
+  <a href="#-screenshots">Screenshots</a> ·
+  <a href="#-install">Install</a> ·
+  <a href="#-privacy">Privacy</a> ·
+  <a href="#-for-developers">Developers</a>
 </p>
 
 <br>
 
-## New in v0.5
+## ✨ New in v0.5
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### Today page
+### ☀️ Today page
 A one-line summary of your day, then **Overdue**, **Today**, **Next 7 days** and **Important**, with filter chips.
 
 </td>
 <td width="33%" valign="top">
 
-### Daily summary
+### 🔔 Daily summary
 One notification a day with what's coming up. Turn it on and pick the time in **Settings**.
 
 </td>
 <td width="33%" valign="top">
 
-### AI assistant <sup>preview</sup>
+### 🤖 AI assistant <sup>preview</sup>
 Type or talk to add, find, snooze and change reminders. Fully offline, and it asks before it changes anything.
 
 </td>
@@ -69,16 +71,16 @@ Type or talk to add, find, snooze and change reminders. Fully offline, and it as
 
 </details>
 
-## Features
+## 🧭 Features
 
 | | |
 |---|---|
-| **Reminders that find you**<br>Windows notifications with Complete, Snooze and Dismiss buttons. | **Important means it nags**<br>Alerts a day and an hour ahead, then every 10 minutes until you act. |
-| **Runs quietly in the tray**<br>Close the window and alerts still arrive. It can start with Windows too. | **A profile for everyone**<br>A name, a color, one of 176 pictures and an optional 4-digit PIN. |
-| **Month, Week, Agenda and Today**<br>Colored dots show each day, and 120 pictures label your reminders. | **176 languages**<br>Switched live, no restart. [Help translate](docs/TRANSLATING.md). |
-| **Remind UI 0.5**<br>Frosted glass, smooth motion and a What's New tour, in Light, Dark or System theme. | **Stays up to date**<br>Checks GitHub for new releases and verifies every download before installing it. |
+| 🔔 **Reminders that find you**<br>Windows notifications with Complete, Snooze and Dismiss buttons. | ❗ **Important means it nags**<br>Alerts a day and an hour ahead, then every 10 minutes until you act. |
+| 📌 **Runs quietly in the tray**<br>Close the window and alerts still arrive. It can start with Windows too. | 👨‍👩‍👧 **A profile for everyone**<br>A name, a color, one of 176 pictures and an optional 4-digit PIN. |
+| 🗓️ **Month, Week, Agenda and Today**<br>Colored dots show each day, and 120 pictures label your reminders. | 🌍 **176 languages**<br>Switched live, no restart. [Help translate](docs/TRANSLATING.md). |
+| 🌗 **Remind UI 0.5**<br>Frosted glass, smooth motion and a What's New tour, in Light, Dark or System theme. | 🔄 **Stays up to date**<br>Checks GitHub for new releases and verifies every download before installing it. |
 
-## Screenshots
+## 📸 Screenshots
 
 <p align="center">
   <img src="docs/screenshots/month-light.png" alt="Month view with category dots and the day panel" width="49%">
@@ -89,7 +91,7 @@ Type or talk to add, find, snooze and change reminders. Fully offline, and it as
   <img src="docs/screenshots/installer.png" alt="The animated Remindr installer" width="49%">
 </p>
 
-## Install
+## 📦 Install
 
 1. Download **[Remindr-Installer.exe](https://github.com/Randomstufteam/Remindr/releases/latest/download/Remindr-Installer.exe)**.
 2. Run it. It installs just for your Windows account, so there's no admin prompt and no separate .NET install.
@@ -118,7 +120,7 @@ Use **Settings > Apps > Installed apps**. Your reminders are kept unless you tic
 
 </details>
 
-## Privacy
+## 🔒 Privacy
 
 > **There is no server to trust.** Your reminders live in a folder on your PC.
 
@@ -127,18 +129,18 @@ Use **Settings > Apps > Installed apps**. Your reminders are kept unless you tic
 - The AI assistant is off by default and runs entirely on your PC. Its models download only when you ask (from Hugging Face, and the voice's llama.cpp runtime from GitHub), are checked against a pinned SHA-256, and are stored in `%LocalAppData%\Remindr\models`. What you type or say is never sent anywhere, and voice audio stays in memory and is never saved.
 - Profile PINs are hashed (PBKDF2). A 4-digit PIN is a privacy screen for family members, not strong security.
 
-## Languages
+## 🌍 Languages
 
 All translations were machine-assisted. The 144 languages added in v0.4 are tagged **Machine-translated** in the app, and many are unreviewed and may be rough. If something reads oddly, please [suggest a correction](https://github.com/Randomstufteam/Remindr/issues/new?template=translation.yml), or see [how to translate](docs/TRANSLATING.md).
 
-## Roadmap
+## 🛣️ Roadmap
 
 - [ ] Recurring reminders
 - [ ] Quick add
 - [ ] Search
 - [ ] The AI assistant in every language
 
-## For developers
+## 🧰 For developers
 
 <details>
 <summary><b>How it works</b></summary>
@@ -176,10 +178,10 @@ To build the installer, run `powershell -File tools\build-installer.ps1`. The ou
 
 </details>
 
-## Feedback
+## 💬 Feedback
 
 Use **Settings > Help & feedback** in the app, or open an [issue](https://github.com/Randomstufteam/Remindr/issues/new/choose). The app fills in only your Remindr version and Windows version, never anything personal.
 
-## License
+## 📄 License
 
 Remindr is released under the [MIT license](LICENSE). Profile and reminder pictures are [Microsoft Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) (MIT). See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) for all third-party licenses.
